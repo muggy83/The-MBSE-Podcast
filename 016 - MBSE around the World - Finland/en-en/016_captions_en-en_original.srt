@@ -1,0 +1,3532 @@
+1
+00:00:02,960 --> 00:00:08,800
+welcome to a new episode of our mbse
+
+2
+00:00:06,000 --> 00:00:11,840
+podcast so where christian and i
+
+3
+00:00:08,800 --> 00:00:13,519
+talk about topics around mbse
+
+4
+00:00:11,840 --> 00:00:16,400
+if you want to learn more about us visit
+
+5
+00:00:13,519 --> 00:00:18,800
+our website mbse
+
+6
+00:00:16,400 --> 00:00:21,039
+podcast.rocks and
+
+7
+00:00:18,800 --> 00:00:23,920
+or follow us on facebook linkedin
+
+8
+00:00:21,039 --> 00:00:26,080
+instagram and twitter
+
+9
+00:00:23,920 --> 00:00:30,320
+today we have another episode from our
+
+10
+00:00:26,080 --> 00:00:34,640
+series mbse around the world
+
+11
+00:00:30,320 --> 00:00:37,680
+in which we visit a country to visit um
+
+12
+00:00:34,640 --> 00:00:39,600
+and to find out how mbse is used there
+
+13
+00:00:37,680 --> 00:00:40,719
+and in the past we have been
+
+14
+00:00:39,600 --> 00:00:42,320
+visiting
+
+15
+00:00:40,719 --> 00:00:44,239
+the uk
+
+16
+00:00:42,320 --> 00:00:45,280
+china
+
+17
+00:00:44,239 --> 00:00:47,600
+or sweden
+
+18
+00:00:45,280 --> 00:00:50,559
+and this time we visit another nordic
+
+19
+00:00:47,600 --> 00:00:52,800
+country we talked to rico samino about
+
+20
+00:00:50,559 --> 00:00:55,600
+mbse in finland
+
+21
+00:00:52,800 --> 00:01:00,160
+so rico welcome and it's great that you
+
+22
+00:00:55,600 --> 00:01:02,079
+are here and please introduce yourself
+
+23
+00:01:00,160 --> 00:01:04,400
+good evening and
+
+24
+00:01:02,079 --> 00:01:08,479
+thank you for inviting me to to this
+
+25
+00:01:04,400 --> 00:01:11,600
+podcast and of course welcome to finland
+
+26
+00:01:08,479 --> 00:01:14,560
+so um my name is riku sarminen
+
+27
+00:01:11,600 --> 00:01:16,000
+and i'm an engineering management
+
+28
+00:01:14,560 --> 00:01:17,200
+consultant
+
+29
+00:01:16,000 --> 00:01:18,400
+and
+
+30
+00:01:17,200 --> 00:01:19,759
+my company
+
+31
+00:01:18,400 --> 00:01:20,720
+suse
+
+32
+00:01:19,759 --> 00:01:23,040
+is
+
+33
+00:01:20,720 --> 00:01:24,720
+providing training and consultancy
+
+34
+00:01:23,040 --> 00:01:26,799
+services
+
+35
+00:01:24,720 --> 00:01:29,040
+mainly here in finland for for my
+
+36
+00:01:26,799 --> 00:01:31,040
+customers for my finnish customers
+
+37
+00:01:29,040 --> 00:01:33,520
+companies and and also
+
+38
+00:01:31,040 --> 00:01:35,520
+other organizations
+
+39
+00:01:33,520 --> 00:01:37,600
+and and the services
+
+40
+00:01:35,520 --> 00:01:41,200
+are very much based on systems
+
+41
+00:01:37,600 --> 00:01:41,920
+engineering principles methods and tools
+
+42
+00:01:41,200 --> 00:01:43,280
+and
+
+43
+00:01:41,920 --> 00:01:46,240
+my background
+
+44
+00:01:43,280 --> 00:01:48,640
+is from defense domain
+
+45
+00:01:46,240 --> 00:01:52,079
+i worked many years
+
+46
+00:01:48,640 --> 00:01:55,040
+for the for the defense material command
+
+47
+00:01:52,079 --> 00:01:57,680
+for of the finnish defense forces
+
+48
+00:01:55,040 --> 00:01:59,759
+uh and nowadays
+
+49
+00:01:57,680 --> 00:02:01,200
+people know that that organization has a
+
+50
+00:01:59,759 --> 00:02:04,240
+logistics
+
+51
+00:02:01,200 --> 00:02:06,479
+logistics command so new name but uh
+
+52
+00:02:04,240 --> 00:02:08,000
+but i think that most most the same
+
+53
+00:02:06,479 --> 00:02:12,000
+organization
+
+54
+00:02:08,000 --> 00:02:13,520
+and i i had a very unique opportunity at
+
+55
+00:02:12,000 --> 00:02:15,520
+that time
+
+56
+00:02:13,520 --> 00:02:17,599
+to to spend
+
+57
+00:02:15,520 --> 00:02:20,400
+one year at uh
+
+58
+00:02:17,599 --> 00:02:23,280
+studying systems engineering and master
+
+59
+00:02:20,400 --> 00:02:25,680
+of science degree in systems engineering
+
+60
+00:02:23,280 --> 00:02:27,760
+in in cranfield university
+
+61
+00:02:25,680 --> 00:02:29,520
+uk and and
+
+62
+00:02:27,760 --> 00:02:32,239
+that was uh
+
+63
+00:02:29,520 --> 00:02:33,599
+that was a lot of work but uh but i have
+
+64
+00:02:32,239 --> 00:02:36,959
+to say that i
+
+65
+00:02:33,599 --> 00:02:38,640
+i learned a lot and and i think that
+
+66
+00:02:36,959 --> 00:02:40,640
+that's probably
+
+67
+00:02:38,640 --> 00:02:43,200
+the reason why
+
+68
+00:02:40,640 --> 00:02:45,599
+why i'm i'm doing what i'm doing after
+
+69
+00:02:43,200 --> 00:02:48,640
+at the moment so so that's that's was
+
+70
+00:02:45,599 --> 00:02:48,640
+probably some kind of
+
+71
+00:02:48,959 --> 00:02:53,200
+driver or or major
+
+72
+00:02:51,280 --> 00:02:57,519
+milestone in my
+
+73
+00:02:53,200 --> 00:02:58,959
+in my life and of course in my career
+
+74
+00:02:57,519 --> 00:03:01,519
+and uh
+
+75
+00:02:58,959 --> 00:03:03,120
+after that i i continued working for the
+
+76
+00:03:01,519 --> 00:03:04,959
+finnish defense forces for the
+
+77
+00:03:03,120 --> 00:03:08,480
+procurement projects
+
+78
+00:03:04,959 --> 00:03:11,599
+and and also with the little life cycle
+
+79
+00:03:08,480 --> 00:03:13,200
+support of defense equipment
+
+80
+00:03:11,599 --> 00:03:14,959
+and
+
+81
+00:03:13,200 --> 00:03:17,360
+after some years
+
+82
+00:03:14,959 --> 00:03:19,920
+there i
+
+83
+00:03:17,360 --> 00:03:23,360
+took a position at the the other side of
+
+84
+00:03:19,920 --> 00:03:25,200
+the table as as you could say so i i
+
+85
+00:03:23,360 --> 00:03:27,200
+i started to work for the for the
+
+86
+00:03:25,200 --> 00:03:28,400
+defense industry
+
+87
+00:03:27,200 --> 00:03:31,040
+so i
+
+88
+00:03:28,400 --> 00:03:34,959
+it was also a good opportunity to see
+
+89
+00:03:31,040 --> 00:03:37,120
+see the other other way of defense
+
+90
+00:03:34,959 --> 00:03:39,519
+projects and
+
+91
+00:03:37,120 --> 00:03:42,159
+and learn learn the the industry side
+
+92
+00:03:39,519 --> 00:03:44,720
+and maybe that has been the
+
+93
+00:03:42,159 --> 00:03:48,080
+that's the the side that i have been
+
+94
+00:03:44,720 --> 00:03:50,480
+mainly working scenes and and the last
+
+95
+00:03:48,080 --> 00:03:53,120
+eight years i have been working as a
+
+96
+00:03:50,480 --> 00:03:56,640
+as a as a consultant and
+
+97
+00:03:53,120 --> 00:03:59,519
+and and trainer within my own
+
+98
+00:03:56,640 --> 00:03:59,519
+own company
+
+99
+00:03:59,840 --> 00:04:01,680
+okay
+
+100
+00:04:00,720 --> 00:04:04,319
+thank you
+
+101
+00:04:01,680 --> 00:04:05,439
+and welcome also from my side rico
+
+102
+00:04:04,319 --> 00:04:06,239
+um
+
+103
+00:04:05,439 --> 00:04:09,680
+yeah
+
+104
+00:04:06,239 --> 00:04:11,920
+when i think of sweden uh of sweden yeah
+
+105
+00:04:09,680 --> 00:04:14,959
+when i think of finland
+
+106
+00:04:11,920 --> 00:04:16,720
+i'm thinking of wood
+
+107
+00:04:14,959 --> 00:04:18,720
+and i'm thinking
+
+108
+00:04:16,720 --> 00:04:19,680
+of nokia
+
+109
+00:04:18,720 --> 00:04:22,000
+so
+
+110
+00:04:19,680 --> 00:04:24,080
+can you tell us what are the typical
+
+111
+00:04:22,000 --> 00:04:27,600
+industries in finland and
+
+112
+00:04:24,080 --> 00:04:29,919
+which of those are already used to use
+
+113
+00:04:27,600 --> 00:04:33,280
+uh systems engineering or even
+
+114
+00:04:29,919 --> 00:04:34,720
+model-based systems engineering
+
+115
+00:04:33,280 --> 00:04:36,160
+um
+
+116
+00:04:34,720 --> 00:04:38,880
+yes we
+
+117
+00:04:36,160 --> 00:04:39,919
+a long time ago we we used to say that
+
+118
+00:04:38,880 --> 00:04:43,280
+finland
+
+119
+00:04:39,919 --> 00:04:46,560
+lives from forests so so
+
+120
+00:04:43,280 --> 00:04:48,720
+we we had a big part of our
+
+121
+00:04:46,560 --> 00:04:50,000
+export coming from
+
+122
+00:04:48,720 --> 00:04:52,800
+wood and
+
+123
+00:04:50,000 --> 00:04:56,280
+and paper industry so that's that's
+
+124
+00:04:52,800 --> 00:04:56,280
+probably a
+
+125
+00:04:56,320 --> 00:05:00,400
+and and
+
+126
+00:04:57,520 --> 00:05:02,720
+it is still somewhat but uh
+
+127
+00:05:00,400 --> 00:05:05,600
+in general i think that the
+
+128
+00:05:02,720 --> 00:05:08,880
+the role of paper industry has has been
+
+129
+00:05:05,600 --> 00:05:12,560
+reducing quite a lot a lot in finland
+
+130
+00:05:08,880 --> 00:05:14,639
+and uh another traditional uh industry
+
+131
+00:05:12,560 --> 00:05:17,759
+area has been uh
+
+132
+00:05:14,639 --> 00:05:18,639
+and it still is ship building
+
+133
+00:05:17,759 --> 00:05:20,639
+so
+
+134
+00:05:18,639 --> 00:05:23,520
+so there was
+
+135
+00:05:20,639 --> 00:05:25,120
+some years ago a little bit
+
+136
+00:05:23,520 --> 00:05:27,039
+down
+
+137
+00:05:25,120 --> 00:05:28,960
+time for for the ship building but i
+
+138
+00:05:27,039 --> 00:05:30,479
+think again there are
+
+139
+00:05:28,960 --> 00:05:32,960
+there are uh
+
+140
+00:05:30,479 --> 00:05:34,720
+big ship building companies and and and
+
+141
+00:05:32,960 --> 00:05:37,120
+that's that has been
+
+142
+00:05:34,720 --> 00:05:39,199
+has been a a big
+
+143
+00:05:37,120 --> 00:05:42,080
+industry area
+
+144
+00:05:39,199 --> 00:05:44,800
+and as you mentioned
+
+145
+00:05:42,080 --> 00:05:48,240
+uh nokia was probably a
+
+146
+00:05:44,800 --> 00:05:50,240
+a big change in the in in the finnish
+
+147
+00:05:48,240 --> 00:05:53,680
+industry so
+
+148
+00:05:50,240 --> 00:05:57,199
+especially in in 1990s when
+
+149
+00:05:53,680 --> 00:06:00,319
+when when i when i graduated or
+
+150
+00:05:57,199 --> 00:06:02,240
+at first started at the end of eighties
+
+151
+00:06:00,319 --> 00:06:06,880
+and then and graduated
+
+152
+00:06:02,240 --> 00:06:08,880
+at 1990 so nokia was was very big player
+
+153
+00:06:06,880 --> 00:06:11,039
+and big employer
+
+154
+00:06:08,880 --> 00:06:13,919
+for for for the
+
+155
+00:06:11,039 --> 00:06:16,560
+for the people here in finland and uh
+
+156
+00:06:13,919 --> 00:06:18,400
+and those mobile phones and and and
+
+157
+00:06:16,560 --> 00:06:20,319
+networks they were
+
+158
+00:06:18,400 --> 00:06:21,520
+they they kind of uh
+
+159
+00:06:20,319 --> 00:06:24,000
+build up
+
+160
+00:06:21,520 --> 00:06:26,319
+uh kind of this kind of modern
+
+161
+00:06:24,000 --> 00:06:27,759
+technology industry and
+
+162
+00:06:26,319 --> 00:06:30,240
+and especially
+
+163
+00:06:27,759 --> 00:06:33,199
+electrical industry that that we
+
+164
+00:06:30,240 --> 00:06:36,160
+still have of course it's not a group of
+
+165
+00:06:33,199 --> 00:06:38,720
+much smaller companies but i think the
+
+166
+00:06:36,160 --> 00:06:41,440
+the people that that where
+
+167
+00:06:38,720 --> 00:06:44,400
+were trained and and and uh
+
+168
+00:06:41,440 --> 00:06:46,479
+work worked in at nokia are now working
+
+169
+00:06:44,400 --> 00:06:48,960
+for many other companies
+
+170
+00:06:46,479 --> 00:06:50,080
+so that has been of course had a major
+
+171
+00:06:48,960 --> 00:06:52,560
+impact on
+
+172
+00:06:50,080 --> 00:06:56,400
+on on finnish industry
+
+173
+00:06:52,560 --> 00:06:58,720
+about systems engineering and and uh
+
+174
+00:06:56,400 --> 00:07:00,880
+and uh
+
+175
+00:06:58,720 --> 00:07:02,880
+model based systems engineering i i
+
+176
+00:07:00,880 --> 00:07:04,639
+think that
+
+177
+00:07:02,880 --> 00:07:06,080
+it has been mainly
+
+178
+00:07:04,639 --> 00:07:08,800
+uh
+
+179
+00:07:06,080 --> 00:07:10,720
+that the traditional area of systems
+
+180
+00:07:08,800 --> 00:07:12,800
+engineering which is in in many
+
+181
+00:07:10,720 --> 00:07:14,960
+countries defense industry that is also
+
+182
+00:07:12,800 --> 00:07:17,919
+the same in finland so that
+
+183
+00:07:14,960 --> 00:07:19,919
+but also the the customer the finnish
+
+184
+00:07:17,919 --> 00:07:20,800
+defense forces and and of course the
+
+185
+00:07:19,919 --> 00:07:22,720
+other
+
+186
+00:07:20,800 --> 00:07:24,800
+other customers for the for the finnish
+
+187
+00:07:22,720 --> 00:07:26,880
+defense industry they are they are kind
+
+188
+00:07:24,800 --> 00:07:29,440
+of requiring
+
+189
+00:07:26,880 --> 00:07:32,080
+to you to use the systems engineering so
+
+190
+00:07:29,440 --> 00:07:34,479
+that is that is of course one driver for
+
+191
+00:07:32,080 --> 00:07:37,360
+for the defense industry and and
+
+192
+00:07:34,479 --> 00:07:38,960
+and lately there has been also interest
+
+193
+00:07:37,360 --> 00:07:40,000
+and a lot of
+
+194
+00:07:38,960 --> 00:07:42,080
+already
+
+195
+00:07:40,000 --> 00:07:44,479
+implemented systems engineering methods
+
+196
+00:07:42,080 --> 00:07:46,960
+and tools in in the nuclear
+
+197
+00:07:44,479 --> 00:07:48,960
+nuclear power domain so so personally
+
+198
+00:07:46,960 --> 00:07:51,840
+also i have been working there
+
+199
+00:07:48,960 --> 00:07:54,080
+there as a as a consultant so i can see
+
+200
+00:07:51,840 --> 00:07:56,879
+that they are they are really
+
+201
+00:07:54,080 --> 00:07:58,800
+really putting some effort effort on on
+
+202
+00:07:56,879 --> 00:07:59,919
+that part and
+
+203
+00:07:58,800 --> 00:08:01,840
+some other
+
+204
+00:07:59,919 --> 00:08:04,560
+domains
+
+205
+00:08:01,840 --> 00:08:06,879
+i know healthcare
+
+206
+00:08:04,560 --> 00:08:10,479
+technology companies they they are doing
+
+207
+00:08:06,879 --> 00:08:13,759
+some some some systems engineering but
+
+208
+00:08:10,479 --> 00:08:15,120
+but in in in general i think that um
+
+209
+00:08:13,759 --> 00:08:17,840
+that
+
+210
+00:08:15,120 --> 00:08:21,120
+we we have still still quite a lot to do
+
+211
+00:08:17,840 --> 00:08:23,840
+in finland for for for improving the
+
+212
+00:08:21,120 --> 00:08:25,440
+the awareness and knowledge of systems
+
+213
+00:08:23,840 --> 00:08:26,879
+engineer
+
+214
+00:08:25,440 --> 00:08:28,879
+and
+
+215
+00:08:26,879 --> 00:08:31,440
+what would you estimate how well then is
+
+216
+00:08:28,879 --> 00:08:32,959
+model-based systems engineering used in
+
+217
+00:08:31,440 --> 00:08:35,279
+in fitland
+
+218
+00:08:32,959 --> 00:08:35,279
+um
+
+219
+00:08:36,159 --> 00:08:40,640
+i i think our this is my
+
+220
+00:08:38,159 --> 00:08:43,919
+my personal view i i
+
+221
+00:08:40,640 --> 00:08:44,800
+i i'm not claiming that i i'm aware of
+
+222
+00:08:43,919 --> 00:08:47,040
+all
+
+223
+00:08:44,800 --> 00:08:48,959
+all activities of all
+
+224
+00:08:47,040 --> 00:08:50,399
+for finnish companies that's not
+
+225
+00:08:48,959 --> 00:08:52,160
+possible but
+
+226
+00:08:50,399 --> 00:08:55,279
+but
+
+227
+00:08:52,160 --> 00:08:56,720
+it seems that uh the finnish industry
+
+228
+00:08:55,279 --> 00:08:58,640
+has not
+
+229
+00:08:56,720 --> 00:09:01,360
+yet been adapting
+
+230
+00:08:58,640 --> 00:09:03,839
+systems engineering to their way of of
+
+231
+00:09:01,360 --> 00:09:06,560
+of work or model based systems
+
+232
+00:09:03,839 --> 00:09:09,519
+engineering to their way of work
+
+233
+00:09:06,560 --> 00:09:11,760
+uh i i know that uh in in the finnish
+
+234
+00:09:09,519 --> 00:09:13,040
+academia or universities
+
+235
+00:09:11,760 --> 00:09:14,399
+there are
+
+236
+00:09:13,040 --> 00:09:17,360
+uh
+
+237
+00:09:14,399 --> 00:09:19,920
+research research done in the area of
+
+238
+00:09:17,360 --> 00:09:22,160
+model-based systems engineering and and
+
+239
+00:09:19,920 --> 00:09:24,399
+i know that some companies have been
+
+240
+00:09:22,160 --> 00:09:26,560
+been evaluating
+
+241
+00:09:24,399 --> 00:09:28,560
+the possibilities of of model-based
+
+242
+00:09:26,560 --> 00:09:30,560
+systems engineering but
+
+243
+00:09:28,560 --> 00:09:32,720
+as i said my current understanding is
+
+244
+00:09:30,560 --> 00:09:35,200
+that model-based systems engineering is
+
+245
+00:09:32,720 --> 00:09:37,839
+not currently used
+
+246
+00:09:35,200 --> 00:09:40,160
+in in the atmosphere in in finnish
+
+247
+00:09:37,839 --> 00:09:42,160
+companies so i don't know i don't know
+
+248
+00:09:40,160 --> 00:09:43,279
+maybe i'm wrong but but
+
+249
+00:09:42,160 --> 00:09:45,839
+maybe if
+
+250
+00:09:43,279 --> 00:09:47,760
+if i'm wrong please please let me know
+
+251
+00:09:45,839 --> 00:09:49,279
+that that i'm wrong and
+
+252
+00:09:47,760 --> 00:09:51,279
+if somebody
+
+253
+00:09:49,279 --> 00:09:54,959
+in the fitness industry is already using
+
+254
+00:09:51,279 --> 00:09:57,600
+mbs just contact me and
+
+255
+00:09:54,959 --> 00:10:00,480
+absolutely or leave a comment below this
+
+256
+00:09:57,600 --> 00:10:01,760
+video and give us a thumbs up and don't
+
+257
+00:10:00,480 --> 00:10:04,399
+forget
+
+258
+00:10:01,760 --> 00:10:06,480
+yeah to subscribe to this channel to not
+
+259
+00:10:04,399 --> 00:10:07,680
+miss out any
+
+260
+00:10:06,480 --> 00:10:11,680
+other
+
+261
+00:10:07,680 --> 00:10:14,000
+podcast episode yeah rico um do you have
+
+262
+00:10:11,680 --> 00:10:15,279
+any idea why that is
+
+263
+00:10:14,000 --> 00:10:17,600
+or why you
+
+264
+00:10:15,279 --> 00:10:22,320
+why do you have this feeling that it was
+
+265
+00:10:17,600 --> 00:10:22,320
+evaluated by many but not really applied
+
+266
+00:10:22,640 --> 00:10:27,839
+again
+
+267
+00:10:24,480 --> 00:10:30,399
+this is this is just just a personal
+
+268
+00:10:27,839 --> 00:10:35,519
+personal view but but i think that there
+
+269
+00:10:30,399 --> 00:10:39,200
+might be might be two reasons uh so
+
+270
+00:10:35,519 --> 00:10:41,920
+at least my experiences the the in many
+
+271
+00:10:39,200 --> 00:10:43,360
+companies and in many many industry
+
+272
+00:10:41,920 --> 00:10:46,959
+domains
+
+273
+00:10:43,360 --> 00:10:48,720
+the system architecture work is not
+
+274
+00:10:46,959 --> 00:10:50,720
+really
+
+275
+00:10:48,720 --> 00:10:52,079
+up there yet so so
+
+276
+00:10:50,720 --> 00:10:53,360
+it is
+
+277
+00:10:52,079 --> 00:10:54,720
+it is uh
+
+278
+00:10:53,360 --> 00:10:56,399
+not
+
+279
+00:10:54,720 --> 00:10:58,240
+done at all of course
+
+280
+00:10:56,399 --> 00:10:59,519
+you always have some kind of
+
+281
+00:10:58,240 --> 00:11:02,160
+architecture
+
+282
+00:10:59,519 --> 00:11:04,160
+but but you might not really be be aware
+
+283
+00:11:02,160 --> 00:11:06,959
+of it or you might not be documenting it
+
+284
+00:11:04,160 --> 00:11:07,839
+or analyzing it and and
+
+285
+00:11:06,959 --> 00:11:10,880
+and
+
+286
+00:11:07,839 --> 00:11:13,440
+or or you could just doing partial
+
+287
+00:11:10,880 --> 00:11:16,079
+partial architecture work so some some
+
+288
+00:11:13,440 --> 00:11:19,519
+architectures especially the kind of
+
+289
+00:11:16,079 --> 00:11:21,360
+speciality engineering areas like like
+
+290
+00:11:19,519 --> 00:11:22,560
+integrated logistics support there you
+
+291
+00:11:21,360 --> 00:11:24,560
+need to do
+
+292
+00:11:22,560 --> 00:11:27,279
+some some of the the functional
+
+293
+00:11:24,560 --> 00:11:29,519
+architecture views for for for that part
+
+294
+00:11:27,279 --> 00:11:32,160
+but but it could be that
+
+295
+00:11:29,519 --> 00:11:34,640
+those views are not then used for
+
+296
+00:11:32,160 --> 00:11:36,560
+for for other purposes
+
+297
+00:11:34,640 --> 00:11:38,720
+so it in
+
+298
+00:11:36,560 --> 00:11:41,360
+i i think this is kind of worst case
+
+299
+00:11:38,720 --> 00:11:43,600
+scenario but in in worst case you could
+
+300
+00:11:41,360 --> 00:11:45,600
+have different teams
+
+301
+00:11:43,600 --> 00:11:48,560
+in the same project uh
+
+302
+00:11:45,600 --> 00:11:50,959
+developing kind of architecture
+
+303
+00:11:48,560 --> 00:11:53,120
+views uh even same
+
+304
+00:11:50,959 --> 00:11:54,480
+view that and ending up with a bit
+
+305
+00:11:53,120 --> 00:11:56,720
+different
+
+306
+00:11:54,480 --> 00:11:58,720
+different results and not kind of
+
+307
+00:11:56,720 --> 00:12:00,880
+sharing it as a common
+
+308
+00:11:58,720 --> 00:12:02,480
+common view and and
+
+309
+00:12:00,880 --> 00:12:04,880
+and so
+
+310
+00:12:02,480 --> 00:12:05,839
+that might be the reason so without kind
+
+311
+00:12:04,880 --> 00:12:07,440
+of uh
+
+312
+00:12:05,839 --> 00:12:09,600
+an architect description a good
+
+313
+00:12:07,440 --> 00:12:11,839
+architecture description or at least
+
+314
+00:12:09,600 --> 00:12:13,120
+awareness of how to work with an
+
+315
+00:12:11,839 --> 00:12:15,440
+architecture
+
+316
+00:12:13,120 --> 00:12:16,800
+it might be difficult to start working
+
+317
+00:12:15,440 --> 00:12:19,600
+with them
+
+318
+00:12:16,800 --> 00:12:23,120
+with model based systems engineering i i
+
+319
+00:12:19,600 --> 00:12:24,800
+know that that you could also say that
+
+320
+00:12:23,120 --> 00:12:26,560
+that using
+
+321
+00:12:24,800 --> 00:12:29,360
+model-based systems engineering tools
+
+322
+00:12:26,560 --> 00:12:30,320
+and methods they that could help you to
+
+323
+00:12:29,360 --> 00:12:32,160
+start
+
+324
+00:12:30,320 --> 00:12:34,240
+start doing the architecture work
+
+325
+00:12:32,160 --> 00:12:35,040
+properly so of course there is that that
+
+326
+00:12:34,240 --> 00:12:37,680
+that
+
+327
+00:12:35,040 --> 00:12:39,680
+will be also so it could be could be
+
+328
+00:12:37,680 --> 00:12:40,880
+other way around also but
+
+329
+00:12:39,680 --> 00:12:43,680
+that might be
+
+330
+00:12:40,880 --> 00:12:45,920
+that might be one reason and
+
+331
+00:12:43,680 --> 00:12:46,639
+and the second reason is because you you
+
+332
+00:12:45,920 --> 00:12:47,600
+are
+
+333
+00:12:46,639 --> 00:12:49,600
+of course
+
+334
+00:12:47,600 --> 00:12:51,120
+advocates of of model-based systems
+
+335
+00:12:49,600 --> 00:12:54,240
+engineering so uh
+
+336
+00:12:51,120 --> 00:12:56,480
+i'm not sure if you like this but but uh
+
+337
+00:12:54,240 --> 00:12:57,360
+it might be that the second reason is
+
+338
+00:12:56,480 --> 00:13:00,480
+the
+
+339
+00:12:57,360 --> 00:13:02,480
+the high level of skills needed for
+
+340
+00:13:00,480 --> 00:13:05,440
+using the the current
+
+341
+00:13:02,480 --> 00:13:08,240
+mbsc methods and tools so so
+
+342
+00:13:05,440 --> 00:13:09,760
+it could be that the investment for for
+
+343
+00:13:08,240 --> 00:13:13,519
+skills
+
+344
+00:13:09,760 --> 00:13:14,639
+is considered too high at the moment so
+
+345
+00:13:13,519 --> 00:13:16,160
+of course
+
+346
+00:13:14,639 --> 00:13:17,600
+you you need
+
+347
+00:13:16,160 --> 00:13:19,760
+need to
+
+348
+00:13:17,600 --> 00:13:20,480
+need to kind of feel some
+
+349
+00:13:19,760 --> 00:13:22,480
+pain
+
+350
+00:13:20,480 --> 00:13:24,160
+usually before you before you kind of
+
+351
+00:13:22,480 --> 00:13:27,120
+make a decision for
+
+352
+00:13:24,160 --> 00:13:29,519
+for doing investment so so uh
+
+353
+00:13:27,120 --> 00:13:32,720
+whichever if you are doing process
+
+354
+00:13:29,519 --> 00:13:34,800
+development or competence development or
+
+355
+00:13:32,720 --> 00:13:37,360
+or developing methods and tools so
+
+356
+00:13:34,800 --> 00:13:39,519
+usually you usually you have to have big
+
+357
+00:13:37,360 --> 00:13:41,360
+enough a problem before you make the
+
+358
+00:13:39,519 --> 00:13:44,800
+decision that you you make the
+
+359
+00:13:41,360 --> 00:13:47,120
+investment and start doing something so
+
+360
+00:13:44,800 --> 00:13:48,880
+it could be that that people are just
+
+361
+00:13:47,120 --> 00:13:51,680
+managing with the
+
+362
+00:13:48,880 --> 00:13:53,760
+or coping with the with the current
+
+363
+00:13:51,680 --> 00:13:55,760
+methods and tools
+
+364
+00:13:53,760 --> 00:13:58,959
+yeah that would be interesting if the
+
+365
+00:13:55,760 --> 00:14:01,279
+the finnish companies don't feel the
+
+366
+00:13:58,959 --> 00:14:02,560
+pain or don't have the pain
+
+367
+00:14:01,279 --> 00:14:04,880
+to apply
+
+368
+00:14:02,560 --> 00:14:08,240
+mbs e so
+
+369
+00:14:04,880 --> 00:14:11,040
+you need a purpose to do mpse um and
+
+370
+00:14:08,240 --> 00:14:12,959
+maybe it's not not there or not the
+
+371
+00:14:11,040 --> 00:14:14,320
+pressure is not high enough for for some
+
+372
+00:14:12,959 --> 00:14:15,440
+reasons that's i think that's quite
+
+373
+00:14:14,320 --> 00:14:16,959
+interesting
+
+374
+00:14:15,440 --> 00:14:18,160
+and of course the investment is very
+
+375
+00:14:16,959 --> 00:14:19,680
+high
+
+376
+00:14:18,160 --> 00:14:20,800
+and it costs time
+
+377
+00:14:19,680 --> 00:14:22,639
+it's not
+
+378
+00:14:20,800 --> 00:14:23,600
+which time is also money
+
+379
+00:14:22,639 --> 00:14:26,000
+but
+
+380
+00:14:23,600 --> 00:14:28,480
+yeah you cannot introduce mbse methods
+
+381
+00:14:26,000 --> 00:14:32,079
+and tools in a in a single short-term
+
+382
+00:14:28,480 --> 00:14:34,399
+project or so that cost months or years
+
+383
+00:14:32,079 --> 00:14:35,519
+to really effectively apply it that's
+
+384
+00:14:34,399 --> 00:14:38,079
+interesting
+
+385
+00:14:35,519 --> 00:14:40,160
+yeah speaking of pain
+
+386
+00:14:38,079 --> 00:14:42,560
+if people work with mbse
+
+387
+00:14:40,160 --> 00:14:44,800
+they also feel some pain have questions
+
+388
+00:14:42,560 --> 00:14:47,360
+how to do this and then they
+
+389
+00:14:44,800 --> 00:14:50,000
+typically organize themselves in
+
+390
+00:14:47,360 --> 00:14:52,720
+working groups uh uh things like this so
+
+391
+00:14:50,000 --> 00:14:54,800
+is there a working group in the local
+
+392
+00:14:52,720 --> 00:14:57,680
+chapter of in cozy or
+
+393
+00:14:54,800 --> 00:15:01,600
+is there a local chapter in cozy
+
+394
+00:14:57,680 --> 00:15:03,040
+yes yes we we have a local chapter of
+
+395
+00:15:01,600 --> 00:15:06,800
+incosi
+
+396
+00:15:03,040 --> 00:15:08,399
+the finnish chapter is is called finse
+
+397
+00:15:06,800 --> 00:15:10,959
+so finnish systems engineering
+
+398
+00:15:08,399 --> 00:15:13,760
+association in english
+
+399
+00:15:10,959 --> 00:15:16,320
+and it's it has been
+
+400
+00:15:13,760 --> 00:15:18,720
+going on quite a long time already but
+
+401
+00:15:16,320 --> 00:15:22,240
+uh but uh we have
+
+402
+00:15:18,720 --> 00:15:25,600
+uh quite quite uh low number of
+
+403
+00:15:22,240 --> 00:15:28,240
+of of members in finca but uh but we
+
+404
+00:15:25,600 --> 00:15:30,399
+anyways we have tried to try to organize
+
+405
+00:15:28,240 --> 00:15:32,160
+uh
+
+406
+00:15:30,399 --> 00:15:34,720
+events uh
+
+407
+00:15:32,160 --> 00:15:36,560
+some events few events every every
+
+408
+00:15:34,720 --> 00:15:39,199
+year and and
+
+409
+00:15:36,560 --> 00:15:42,079
+and also this topic of model based
+
+410
+00:15:39,199 --> 00:15:43,680
+systems engineering has has been
+
+411
+00:15:42,079 --> 00:15:46,320
+uh
+
+412
+00:15:43,680 --> 00:15:48,720
+kind of raised by the by the by the
+
+413
+00:15:46,320 --> 00:15:51,360
+members and and that's that's something
+
+414
+00:15:48,720 --> 00:15:52,720
+that we have been discussing that that
+
+415
+00:15:51,360 --> 00:15:55,759
+we should
+
+416
+00:15:52,720 --> 00:15:58,639
+organize at at least some kind of
+
+417
+00:15:55,759 --> 00:16:00,399
+of of event discussing this this topic
+
+418
+00:15:58,639 --> 00:16:03,120
+but at the moment
+
+419
+00:16:00,399 --> 00:16:04,240
+there are no no working groups within
+
+420
+00:16:03,120 --> 00:16:05,199
+within
+
+421
+00:16:04,240 --> 00:16:06,399
+our
+
+422
+00:16:05,199 --> 00:16:09,360
+local
+
+423
+00:16:06,399 --> 00:16:12,959
+local uh chapter and i'm i'm not not
+
+424
+00:16:09,360 --> 00:16:16,240
+really aware of of any other
+
+425
+00:16:12,959 --> 00:16:17,600
+uh finnish organizations or that that
+
+426
+00:16:16,240 --> 00:16:19,040
+might have
+
+427
+00:16:17,600 --> 00:16:21,440
+have uh
+
+428
+00:16:19,040 --> 00:16:23,839
+any any kind of interest groups in in
+
+429
+00:16:21,440 --> 00:16:26,560
+model based systems engineering so
+
+430
+00:16:23,839 --> 00:16:29,519
+that is the that is the current current
+
+431
+00:16:26,560 --> 00:16:32,079
+status as as i know so again if i'm
+
+432
+00:16:29,519 --> 00:16:34,079
+wrong just contact me and
+
+433
+00:16:32,079 --> 00:16:37,680
+and tell me i'm happy happy to say that
+
+434
+00:16:34,079 --> 00:16:39,920
+i i was wrong okay
+
+435
+00:16:37,680 --> 00:16:39,920
+yeah
+
+436
+00:16:42,399 --> 00:16:46,880
+so question
+
+437
+00:16:43,920 --> 00:16:50,880
+uh yeah the one one area was was that i
+
+438
+00:16:46,880 --> 00:16:52,560
+i i forgot to mention was this uh
+
+439
+00:16:50,880 --> 00:16:55,360
+these um
+
+440
+00:16:52,560 --> 00:16:56,320
+these uh i i know that there are these
+
+441
+00:16:55,360 --> 00:16:58,560
+um
+
+442
+00:16:56,320 --> 00:17:01,120
+um
+
+443
+00:16:58,560 --> 00:17:04,880
+interest groups or working groups uh
+
+444
+00:17:01,120 --> 00:17:06,720
+related to to kind of modeling and
+
+445
+00:17:04,880 --> 00:17:09,760
+simulation
+
+446
+00:17:06,720 --> 00:17:11,760
+in general so so so
+
+447
+00:17:09,760 --> 00:17:13,439
+about to my understanding they are they
+
+448
+00:17:11,760 --> 00:17:14,720
+are focusing on
+
+449
+00:17:13,439 --> 00:17:17,600
+on uh
+
+450
+00:17:14,720 --> 00:17:20,079
+domain specific modeling not
+
+451
+00:17:17,600 --> 00:17:22,400
+system level modeling so
+
+452
+00:17:20,079 --> 00:17:25,439
+okay okay got it got it
+
+453
+00:17:22,400 --> 00:17:28,000
+um but of those few you know that who
+
+454
+00:17:25,439 --> 00:17:28,880
+are practicing mbse or se
+
+455
+00:17:28,000 --> 00:17:31,200
+um
+
+456
+00:17:28,880 --> 00:17:33,840
+what are the typical challenges for them
+
+457
+00:17:31,200 --> 00:17:33,840
+in finland
+
+458
+00:17:34,000 --> 00:17:36,240
+uh
+
+459
+00:17:36,720 --> 00:17:41,280
+i i think that um
+
+460
+00:17:38,960 --> 00:17:44,000
+you know overall
+
+461
+00:17:41,280 --> 00:17:46,799
+if you think about uh the the for
+
+462
+00:17:44,000 --> 00:17:49,039
+example that in cosi the finnish chapter
+
+463
+00:17:46,799 --> 00:17:50,000
+in cozy here in finland what what up
+
+464
+00:17:49,039 --> 00:17:53,360
+what is
+
+465
+00:17:50,000 --> 00:17:55,360
+what is our problem or or or
+
+466
+00:17:53,360 --> 00:17:58,000
+my my company uh
+
+467
+00:17:55,360 --> 00:17:58,720
+the kind of the the business challenges
+
+468
+00:17:58,000 --> 00:18:00,559
+for
+
+469
+00:17:58,720 --> 00:18:02,720
+for trying to
+
+470
+00:18:00,559 --> 00:18:05,760
+trying to to promote
+
+471
+00:18:02,720 --> 00:18:07,440
+systems engineering is is the
+
+472
+00:18:05,760 --> 00:18:10,280
+the
+
+473
+00:18:07,440 --> 00:18:12,240
+general uh
+
+474
+00:18:10,280 --> 00:18:13,679
+unawareness
+
+475
+00:18:12,240 --> 00:18:16,160
+of systems
+
+476
+00:18:13,679 --> 00:18:17,679
+engineering here in finland so so that
+
+477
+00:18:16,160 --> 00:18:21,039
+is probably
+
+478
+00:18:17,679 --> 00:18:24,720
+the the biggest challenge that that
+
+479
+00:18:21,039 --> 00:18:26,799
+it is it is very difficult to start
+
+480
+00:18:24,720 --> 00:18:29,760
+talking about systems engineering and
+
+481
+00:18:26,799 --> 00:18:31,440
+people don't have might not have
+
+482
+00:18:29,760 --> 00:18:33,760
+uh
+
+483
+00:18:31,440 --> 00:18:35,280
+idea of what what it is usually it's
+
+484
+00:18:33,760 --> 00:18:37,919
+it's they are thinking that it's
+
+485
+00:18:35,280 --> 00:18:38,559
+something related to software
+
+486
+00:18:37,919 --> 00:18:39,440
+and
+
+487
+00:18:38,559 --> 00:18:41,679
+and
+
+488
+00:18:39,440 --> 00:18:43,679
+so
+
+489
+00:18:41,679 --> 00:18:44,480
+i i know that there are companies that
+
+490
+00:18:43,679 --> 00:18:45,440
+have
+
+491
+00:18:44,480 --> 00:18:47,360
+good
+
+492
+00:18:45,440 --> 00:18:49,440
+knowledge and skills of systems
+
+493
+00:18:47,360 --> 00:18:50,640
+engineering but
+
+494
+00:18:49,440 --> 00:18:52,559
+overall it's
+
+495
+00:18:50,640 --> 00:18:54,000
+it has been a challenge
+
+496
+00:18:52,559 --> 00:18:57,679
+to to to
+
+497
+00:18:54,000 --> 00:18:58,640
+to start promoting systems engineering
+
+498
+00:18:57,679 --> 00:18:59,840
+um
+
+499
+00:18:58,640 --> 00:19:03,120
+of course
+
+500
+00:18:59,840 --> 00:19:05,280
+some companies are doing part of part of
+
+501
+00:19:03,120 --> 00:19:05,280
+the
+
+502
+00:19:06,080 --> 00:19:10,880
+part parts of systems engineering
+
+503
+00:19:08,559 --> 00:19:13,120
+but they might call it something else so
+
+504
+00:19:10,880 --> 00:19:15,360
+that's that's also one way to
+
+505
+00:19:13,120 --> 00:19:17,760
+start discussing about systems
+
+506
+00:19:15,360 --> 00:19:19,600
+engineering but um
+
+507
+00:19:17,760 --> 00:19:21,360
+that is that is probably the challenge
+
+508
+00:19:19,600 --> 00:19:22,960
+and that is
+
+509
+00:19:21,360 --> 00:19:25,600
+the reason why
+
+510
+00:19:22,960 --> 00:19:27,840
+myself i i am not
+
+511
+00:19:25,600 --> 00:19:30,640
+i am not a systems engineering
+
+512
+00:19:27,840 --> 00:19:33,520
+consultant or systems engineering
+
+513
+00:19:30,640 --> 00:19:35,360
+trainer by by name because i i have
+
+514
+00:19:33,520 --> 00:19:37,360
+chosen to use more general term
+
+515
+00:19:35,360 --> 00:19:39,440
+engineering management
+
+516
+00:19:37,360 --> 00:19:42,480
+so it's probably
+
+517
+00:19:39,440 --> 00:19:44,240
+much easier to to to kind of understand
+
+518
+00:19:42,480 --> 00:19:46,080
+that if we talk about engineering
+
+519
+00:19:44,240 --> 00:19:48,880
+management
+
+520
+00:19:46,080 --> 00:19:51,039
+of course it's it's not one-to-one with
+
+521
+00:19:48,880 --> 00:19:52,960
+with with systems engineering but i i
+
+522
+00:19:51,039 --> 00:19:55,600
+think it's it has been a little bit
+
+523
+00:19:52,960 --> 00:19:58,160
+easier for using using that kind of
+
+524
+00:19:55,600 --> 00:20:00,000
+umbrella
+
+525
+00:19:58,160 --> 00:20:02,799
+but
+
+526
+00:20:00,000 --> 00:20:04,880
+the the challenge for the mbsc i think
+
+527
+00:20:02,799 --> 00:20:07,760
+it's it's the general lack of
+
+528
+00:20:04,880 --> 00:20:09,919
+understanding of systems engineering so
+
+529
+00:20:07,760 --> 00:20:12,720
+i think that for me
+
+530
+00:20:09,919 --> 00:20:14,799
+model-based systems engineering is
+
+531
+00:20:12,720 --> 00:20:17,679
+systems engineering it is
+
+532
+00:20:14,799 --> 00:20:20,400
+kind of methods and tools for doing
+
+533
+00:20:17,679 --> 00:20:22,720
+systems engineering and and if if you
+
+534
+00:20:20,400 --> 00:20:24,799
+don't have kind of the
+
+535
+00:20:22,720 --> 00:20:26,799
+the starting point there if you don't
+
+536
+00:20:24,799 --> 00:20:28,960
+have understanding of systems
+
+537
+00:20:26,799 --> 00:20:31,760
+engineering then it might be
+
+538
+00:20:28,960 --> 00:20:33,200
+might be a little bit uh difficult to
+
+539
+00:20:31,760 --> 00:20:34,880
+to to start
+
+540
+00:20:33,200 --> 00:20:37,039
+start
+
+541
+00:20:34,880 --> 00:20:39,200
+implementing or even start discussing
+
+542
+00:20:37,039 --> 00:20:40,960
+about model based systems engineering so
+
+543
+00:20:39,200 --> 00:20:42,240
+that that might be the
+
+544
+00:20:40,960 --> 00:20:43,840
+might be the
+
+545
+00:20:42,240 --> 00:20:47,360
+the biggest challenge
+
+546
+00:20:43,840 --> 00:20:47,360
+for mbsc in finland
+
+547
+00:20:47,679 --> 00:20:51,760
+so well one action to increase the
+
+548
+00:20:49,840 --> 00:20:52,960
+awareness is to talk about systems
+
+549
+00:20:51,760 --> 00:20:55,600
+engineering
+
+550
+00:20:52,960 --> 00:20:57,520
+again and again so um
+
+551
+00:20:55,600 --> 00:20:59,679
+and well there's the nordic systems
+
+552
+00:20:57,520 --> 00:21:03,440
+engineering uh
+
+553
+00:20:59,679 --> 00:21:05,679
+uh last week the tour
+
+554
+00:21:03,440 --> 00:21:08,640
+was uh yeah we had the tour only
+
+555
+00:21:05,679 --> 00:21:10,480
+virtually uh so it was not the real tour
+
+556
+00:21:08,640 --> 00:21:12,799
+but um well you are one of the
+
+557
+00:21:10,480 --> 00:21:14,640
+organizers of the tour um as part of the
+
+558
+00:21:12,799 --> 00:21:16,559
+finnish chapters so
+
+559
+00:21:14,640 --> 00:21:18,400
+can you briefly explain the concept of
+
+560
+00:21:16,559 --> 00:21:21,520
+the tour and
+
+561
+00:21:18,400 --> 00:21:24,480
+report a bit of the tour last week
+
+562
+00:21:21,520 --> 00:21:24,480
+yes thank you
+
+563
+00:21:26,880 --> 00:21:31,039
+yes the
+
+564
+00:21:28,960 --> 00:21:34,559
+nordic systems engineering tour i think
+
+565
+00:21:31,039 --> 00:21:37,039
+it's a quite unique concept
+
+566
+00:21:34,559 --> 00:21:39,600
+uh usually when when you organize
+
+567
+00:21:37,039 --> 00:21:42,799
+conferences you you uh
+
+568
+00:21:39,600 --> 00:21:44,880
+uh select uh some kind of a bigger city
+
+569
+00:21:42,799 --> 00:21:48,080
+somewhere and and and bring all the
+
+570
+00:21:44,880 --> 00:21:50,799
+speakers and and and the audience there
+
+571
+00:21:48,080 --> 00:21:52,880
+and and uh then it tooks a lot of
+
+572
+00:21:50,799 --> 00:21:55,840
+traveling for for the for the
+
+573
+00:21:52,880 --> 00:21:58,480
+participants and and uh it might be
+
+574
+00:21:55,840 --> 00:22:00,799
+quite expensive to to to visit this kind
+
+575
+00:21:58,480 --> 00:22:02,880
+of conferences but for the nordic
+
+576
+00:22:00,799 --> 00:22:03,760
+systems engineering tour the concept has
+
+577
+00:22:02,880 --> 00:22:07,280
+been
+
+578
+00:22:03,760 --> 00:22:09,679
+kind of turned uh around so we we try to
+
+579
+00:22:07,280 --> 00:22:12,720
+bring the the speakers to to the
+
+580
+00:22:09,679 --> 00:22:14,159
+audience so so the the idea of the tour
+
+581
+00:22:12,720 --> 00:22:15,520
+is that that
+
+582
+00:22:14,159 --> 00:22:17,280
+we select
+
+583
+00:22:15,520 --> 00:22:18,559
+uh
+
+584
+00:22:17,280 --> 00:22:21,679
+several uh
+
+585
+00:22:18,559 --> 00:22:25,360
+good speakers several interesting themes
+
+586
+00:22:21,679 --> 00:22:27,360
+and and uh then we organize uh a
+
+587
+00:22:25,360 --> 00:22:28,159
+kind of conference tour
+
+588
+00:22:27,360 --> 00:22:29,360
+uh
+
+589
+00:22:28,159 --> 00:22:32,159
+for example
+
+590
+00:22:29,360 --> 00:22:35,679
+lately it has been like starting from
+
+591
+00:22:32,159 --> 00:22:41,440
+from helsinki then to stockholm
+
+592
+00:22:35,679 --> 00:22:44,480
+then to um copenhagen or or oslo and and
+
+593
+00:22:41,440 --> 00:22:48,000
+and even some uh
+
+594
+00:22:44,480 --> 00:22:51,039
+year we we also had poland and warsaw as
+
+595
+00:22:48,000 --> 00:22:52,799
+one of the one of the destinations so so
+
+596
+00:22:51,039 --> 00:22:55,679
+and and then
+
+597
+00:22:52,799 --> 00:22:58,240
+then the speakers have have the the the
+
+598
+00:22:55,679 --> 00:23:00,240
+challenge of of touring around and and
+
+599
+00:22:58,240 --> 00:23:02,640
+then presenting in every
+
+600
+00:23:00,240 --> 00:23:04,960
+every location and and uh the
+
+601
+00:23:02,640 --> 00:23:07,520
+participants have them a little bit
+
+602
+00:23:04,960 --> 00:23:09,679
+less traveling and it's it's easier than
+
+603
+00:23:07,520 --> 00:23:12,799
+for them to participate and also the the
+
+604
+00:23:09,679 --> 00:23:13,600
+cost for participation is is lower and
+
+605
+00:23:12,799 --> 00:23:15,919
+and
+
+606
+00:23:13,600 --> 00:23:18,559
+of course for us for for the finnish
+
+607
+00:23:15,919 --> 00:23:19,840
+chapter of incosive has been a
+
+608
+00:23:18,559 --> 00:23:23,120
+very um
+
+609
+00:23:19,840 --> 00:23:26,000
+good opportunity for for having this uh
+
+610
+00:23:23,120 --> 00:23:28,640
+this cooperation with the the the other
+
+611
+00:23:26,000 --> 00:23:30,960
+other incosi chapters because we are we
+
+612
+00:23:28,640 --> 00:23:33,919
+are a small chapter as i said and it's
+
+613
+00:23:30,960 --> 00:23:36,720
+very difficult for us to organize
+
+614
+00:23:33,919 --> 00:23:39,520
+big events so this this one is is is
+
+615
+00:23:36,720 --> 00:23:42,720
+quite easy event for us so that we can
+
+616
+00:23:39,520 --> 00:23:45,760
+we can kind of be part of the the bigger
+
+617
+00:23:42,720 --> 00:23:48,720
+organization and and and it provides for
+
+618
+00:23:45,760 --> 00:23:51,919
+our members a good opportunity to get
+
+619
+00:23:48,720 --> 00:23:54,640
+get the speakers all around the world to
+
+620
+00:23:51,919 --> 00:23:55,440
+to to to come to finland and and present
+
+621
+00:23:54,640 --> 00:23:59,440
+their
+
+622
+00:23:55,440 --> 00:24:00,960
+topics but uh as you mentioned uh
+
+623
+00:23:59,440 --> 00:24:04,000
+this uh
+
+624
+00:24:00,960 --> 00:24:05,200
+this uh pandemic situation has been
+
+625
+00:24:04,000 --> 00:24:08,400
+causing
+
+626
+00:24:05,200 --> 00:24:10,240
+some problems so last year we we had to
+
+627
+00:24:08,400 --> 00:24:12,480
+cancel the
+
+628
+00:24:10,240 --> 00:24:15,120
+the the whole tour
+
+629
+00:24:12,480 --> 00:24:19,200
+and uh this year we were planning to
+
+630
+00:24:15,120 --> 00:24:21,440
+organize it uh as a as it has been
+
+631
+00:24:19,200 --> 00:24:22,799
+earlier but then we
+
+632
+00:24:21,440 --> 00:24:25,919
+had to
+
+633
+00:24:22,799 --> 00:24:28,159
+have to uh make a decision that that
+
+634
+00:24:25,919 --> 00:24:31,039
+okay we cannot make a make a real
+
+635
+00:24:28,159 --> 00:24:32,720
+physical tour if there were two too high
+
+636
+00:24:31,039 --> 00:24:35,440
+risks of canceling
+
+637
+00:24:32,720 --> 00:24:38,320
+cancellations and and so on so we we
+
+638
+00:24:35,440 --> 00:24:40,640
+decided then to have a online
+
+639
+00:24:38,320 --> 00:24:42,480
+event and it was only for usually it's a
+
+640
+00:24:40,640 --> 00:24:45,039
+one day event in every country but did
+
+641
+00:24:42,480 --> 00:24:46,720
+now it was just one online event where
+
+642
+00:24:45,039 --> 00:24:49,120
+we had people from
+
+643
+00:24:46,720 --> 00:24:51,360
+from from different countries and and we
+
+644
+00:24:49,120 --> 00:24:54,320
+had four speakers
+
+645
+00:24:51,360 --> 00:24:55,279
+and and various topics and and
+
+646
+00:24:54,320 --> 00:24:58,159
+there were
+
+647
+00:24:55,279 --> 00:24:59,440
+around 100 people uh
+
+648
+00:24:58,159 --> 00:25:01,520
+joining the
+
+649
+00:24:59,440 --> 00:25:03,200
+the conference this year which i thought
+
+650
+00:25:01,520 --> 00:25:05,039
+was was really
+
+651
+00:25:03,200 --> 00:25:07,120
+really good amount of people and i i
+
+652
+00:25:05,039 --> 00:25:09,360
+think that there were
+
+653
+00:25:07,120 --> 00:25:12,720
+even people from from countries that are
+
+654
+00:25:09,360 --> 00:25:14,960
+not part of the the tour stops regular
+
+655
+00:25:12,720 --> 00:25:16,400
+tour stops so i think that provided also
+
+656
+00:25:14,960 --> 00:25:18,400
+opportunity for
+
+657
+00:25:16,400 --> 00:25:21,360
+for those people to participate so i
+
+658
+00:25:18,400 --> 00:25:24,240
+think that was that was really good
+
+659
+00:25:21,360 --> 00:25:26,799
+so we had we had really nice nice events
+
+660
+00:25:24,240 --> 00:25:30,000
+so i think that even even though we
+
+661
+00:25:26,799 --> 00:25:32,640
+didn't manage to do it as as as we we
+
+662
+00:25:30,000 --> 00:25:33,600
+planned so uh i think the online event
+
+663
+00:25:32,640 --> 00:25:37,120
+was
+
+664
+00:25:33,600 --> 00:25:39,600
+was uh was still a good good event for
+
+665
+00:25:37,120 --> 00:25:41,600
+for for us and hopefully also for the
+
+666
+00:25:39,600 --> 00:25:43,440
+participants
+
+667
+00:25:41,600 --> 00:25:45,520
+and hopefully next year the tour will
+
+668
+00:25:43,440 --> 00:25:48,320
+hit the road again
+
+669
+00:25:45,520 --> 00:25:50,159
+and it will be a real physical tour
+
+670
+00:25:48,320 --> 00:25:52,880
+yeah
+
+671
+00:25:50,159 --> 00:25:54,400
+yeah i'm hoping that too
+
+672
+00:25:52,880 --> 00:25:56,559
+and christian it was also part of the
+
+673
+00:25:54,400 --> 00:25:58,960
+tour right
+
+674
+00:25:56,559 --> 00:26:01,200
+two years ago three years ago yeah but
+
+675
+00:25:58,960 --> 00:26:03,440
+unfortunately in this year we did not
+
+676
+00:26:01,200 --> 00:26:06,559
+have a stop in finland
+
+677
+00:26:03,440 --> 00:26:09,039
+we were in hamburg copenhagen
+
+678
+00:26:06,559 --> 00:26:10,400
+lynch shopping
+
+679
+00:26:09,039 --> 00:26:12,320
+and that
+
+680
+00:26:10,400 --> 00:26:14,799
+that was it
+
+681
+00:26:12,320 --> 00:26:17,480
+yeah i i think that finland became part
+
+682
+00:26:14,799 --> 00:26:20,720
+of the tour only
+
+683
+00:26:17,480 --> 00:26:23,880
+2015 so so we haven't been there from
+
+684
+00:26:20,720 --> 00:26:23,880
+the beginning
+
+685
+00:26:24,000 --> 00:26:28,000
+yeah
+
+686
+00:26:26,159 --> 00:26:28,880
+okay so
+
+687
+00:26:28,000 --> 00:26:29,760
+yeah
+
+688
+00:26:28,880 --> 00:26:32,960
+go on
+
+689
+00:26:29,760 --> 00:26:36,000
+yeah but uh as i said great event for
+
+690
+00:26:32,960 --> 00:26:36,640
+for for absolutely finnish uh in cozy
+
+691
+00:26:36,000 --> 00:26:38,880
+and
+
+692
+00:26:36,640 --> 00:26:41,360
+and its members so i think that that's
+
+693
+00:26:38,880 --> 00:26:43,679
+uh that's uh and we are we are
+
+694
+00:26:41,360 --> 00:26:45,600
+hopefully
+
+695
+00:26:43,679 --> 00:26:48,240
+kind of uh
+
+696
+00:26:45,600 --> 00:26:50,320
+willing to to to put some effort also
+
+697
+00:26:48,240 --> 00:26:53,679
+for the future years to be part of this
+
+698
+00:26:50,320 --> 00:26:55,520
+this this event yeah the two also
+
+699
+00:26:53,679 --> 00:26:58,640
+supported the the foundation of the
+
+700
+00:26:55,520 --> 00:27:00,720
+danish chapter in 2013 or 14 or so i
+
+701
+00:26:58,640 --> 00:27:02,880
+remember when the tour stopped there
+
+702
+00:27:00,720 --> 00:27:04,880
+uh there was during the foundation phase
+
+703
+00:27:02,880 --> 00:27:07,360
+of the chapter and it was very good for
+
+704
+00:27:04,880 --> 00:27:09,679
+them uh that they had already had a
+
+705
+00:27:07,360 --> 00:27:11,520
+systems engineering event then and uh it
+
+706
+00:27:09,679 --> 00:27:13,360
+was the same for the polish chapter so
+
+707
+00:27:11,520 --> 00:27:15,520
+it was very helpful for them so systems
+
+708
+00:27:13,360 --> 00:27:17,760
+engineering the chapter was very small
+
+709
+00:27:15,520 --> 00:27:20,320
+and poland was still this i don't know
+
+710
+00:27:17,760 --> 00:27:24,240
+um and was also very good for them i
+
+711
+00:27:20,320 --> 00:27:26,799
+think it was there twice in poland
+
+712
+00:27:24,240 --> 00:27:28,399
+that's great and there's another
+
+713
+00:27:26,799 --> 00:27:30,320
+tour in
+
+714
+00:27:28,399 --> 00:27:32,880
+southern europe the southern europe
+
+715
+00:27:30,320 --> 00:27:36,880
+systems engineering tour so that's the
+
+716
+00:27:32,880 --> 00:27:36,880
+name of italy spain
+
+717
+00:27:36,960 --> 00:27:41,360
+italy spain france and switzerland
+
+718
+00:27:41,520 --> 00:27:46,080
+yeah great and david long i think if i
+
+719
+00:27:43,919 --> 00:27:48,640
+remember correctly also tried to copy it
+
+720
+00:27:46,080 --> 00:27:50,240
+in in the us there was a eastern coast
+
+721
+00:27:48,640 --> 00:27:52,480
+tour so oh
+
+722
+00:27:50,240 --> 00:27:53,440
+east coast tour yes i think something
+
+723
+00:27:52,480 --> 00:27:55,520
+like that
+
+724
+00:27:53,440 --> 00:27:57,919
+yeah i think that the concept is very
+
+725
+00:27:55,520 --> 00:27:59,279
+interesting and as as we see there are
+
+726
+00:27:57,919 --> 00:28:02,240
+there are already
+
+727
+00:27:59,279 --> 00:28:04,799
+copies of it and i think that it's it's
+
+728
+00:28:02,240 --> 00:28:08,399
+we are very happy that that people are
+
+729
+00:28:04,799 --> 00:28:08,399
+using the concept yeah
+
+730
+00:28:09,600 --> 00:28:15,279
+yeah so great uh oh we yeah we have a
+
+731
+00:28:12,320 --> 00:28:17,200
+few minutes left so finally let's talk a
+
+732
+00:28:15,279 --> 00:28:20,159
+little bit more about you not about
+
+733
+00:28:17,200 --> 00:28:21,120
+finland and the two of us uh about you
+
+734
+00:28:20,159 --> 00:28:23,120
+so
+
+735
+00:28:21,120 --> 00:28:25,840
+you already told us a bit that you
+
+736
+00:28:23,120 --> 00:28:29,360
+are our consultant um
+
+737
+00:28:25,840 --> 00:28:31,200
+and so what's your daily job then in
+
+738
+00:28:29,360 --> 00:28:33,520
+system setting when you consult a
+
+739
+00:28:31,200 --> 00:28:37,840
+customer
+
+740
+00:28:33,520 --> 00:28:39,919
+yes as i said said that my my studies
+
+741
+00:28:37,840 --> 00:28:41,039
+there at frankfurt university was kind
+
+742
+00:28:39,919 --> 00:28:43,520
+of a
+
+743
+00:28:41,039 --> 00:28:46,559
+life changer and career changes so so
+
+744
+00:28:43,520 --> 00:28:49,440
+since then i have been more or less
+
+745
+00:28:46,559 --> 00:28:53,279
+used to systems engineering
+
+746
+00:28:49,440 --> 00:28:53,279
+daily in my work and and
+
+747
+00:28:53,440 --> 00:28:59,919
+last eight years i have been
+
+748
+00:28:56,320 --> 00:29:02,000
+i have been running this this small
+
+749
+00:28:59,919 --> 00:29:04,000
+small company and and
+
+750
+00:29:02,000 --> 00:29:05,919
+i'm trying to help my
+
+751
+00:29:04,000 --> 00:29:07,840
+my customers
+
+752
+00:29:05,919 --> 00:29:09,679
+using systems engineering and what i
+
+753
+00:29:07,840 --> 00:29:11,440
+have been doing mainly is i have been
+
+754
+00:29:09,679 --> 00:29:13,520
+working mainly with
+
+755
+00:29:11,440 --> 00:29:15,279
+with with requirements so with
+
+756
+00:29:13,520 --> 00:29:16,720
+stakeholder and system requirements
+
+757
+00:29:15,279 --> 00:29:19,440
+definition
+
+758
+00:29:16,720 --> 00:29:20,240
+and and i have done quite a lot of work
+
+759
+00:29:19,440 --> 00:29:22,960
+for
+
+760
+00:29:20,240 --> 00:29:26,720
+helping to define and building up
+
+761
+00:29:22,960 --> 00:29:28,799
+processes and and uh and tools for for
+
+762
+00:29:26,720 --> 00:29:30,720
+requirements and also configuration
+
+763
+00:29:28,799 --> 00:29:32,880
+management which are of course
+
+764
+00:29:30,720 --> 00:29:33,919
+important part when when if when you are
+
+765
+00:29:32,880 --> 00:29:36,559
+doing
+
+766
+00:29:33,919 --> 00:29:40,000
+doing uh
+
+767
+00:29:36,559 --> 00:29:42,480
+systems engineering in in general and
+
+768
+00:29:40,000 --> 00:29:45,440
+and of course
+
+769
+00:29:42,480 --> 00:29:46,399
+related processes so so when you work
+
+770
+00:29:45,440 --> 00:29:48,640
+with
+
+771
+00:29:46,399 --> 00:29:50,799
+with requirements as trying to capture
+
+772
+00:29:48,640 --> 00:29:51,520
+the the needs and
+
+773
+00:29:50,799 --> 00:29:55,279
+and
+
+774
+00:29:51,520 --> 00:29:57,360
+requirements so it includes also the
+
+775
+00:29:55,279 --> 00:29:58,320
+the architecture work that i i already
+
+776
+00:29:57,360 --> 00:30:00,320
+mentioned
+
+777
+00:29:58,320 --> 00:30:02,240
+you work also with the integration
+
+778
+00:30:00,320 --> 00:30:04,799
+planning of integration
+
+779
+00:30:02,240 --> 00:30:07,600
+activities and and of course at the same
+
+780
+00:30:04,799 --> 00:30:09,279
+time planning of verification and and
+
+781
+00:30:07,600 --> 00:30:11,279
+validation
+
+782
+00:30:09,279 --> 00:30:13,760
+depending on on the needs of the of the
+
+783
+00:30:11,279 --> 00:30:15,919
+customers and and uh and of course the
+
+784
+00:30:13,760 --> 00:30:17,760
+current phase of the of the life cycle
+
+785
+00:30:15,919 --> 00:30:19,919
+of the system of inter interest
+
+786
+00:30:17,760 --> 00:30:23,200
+whichever whichever system of interest
+
+787
+00:30:19,919 --> 00:30:24,240
+you are working with so quite uh varying
+
+788
+00:30:23,200 --> 00:30:26,399
+scope
+
+789
+00:30:24,240 --> 00:30:28,240
+scope of consulting
+
+790
+00:30:26,399 --> 00:30:30,080
+contacts consulting
+
+791
+00:30:28,240 --> 00:30:33,840
+activities there and
+
+792
+00:30:30,080 --> 00:30:36,480
+and then the other part is is
+
+793
+00:30:33,840 --> 00:30:39,039
+maybe not daily but but weekly
+
+794
+00:30:36,480 --> 00:30:40,480
+activities are related then to
+
+795
+00:30:39,039 --> 00:30:42,880
+to these
+
+796
+00:30:40,480 --> 00:30:44,720
+training courses
+
+797
+00:30:42,880 --> 00:30:46,640
+engineering management training courses
+
+798
+00:30:44,720 --> 00:30:48,799
+as we call them but
+
+799
+00:30:46,640 --> 00:30:51,600
+they they are based on
+
+800
+00:30:48,799 --> 00:30:53,440
+very much on on systems engineering
+
+801
+00:30:51,600 --> 00:30:56,320
+systems engineering principles and and
+
+802
+00:30:53,440 --> 00:30:59,360
+for that it's it's kind of a
+
+803
+00:30:56,320 --> 00:31:01,600
+regular uh entrepreneur work that i'm
+
+804
+00:30:59,360 --> 00:31:05,039
+trying to do sales and
+
+805
+00:31:01,600 --> 00:31:07,600
+and marketing of for the courses and and
+
+806
+00:31:05,039 --> 00:31:10,000
+practical hands-on stuff for preparing
+
+807
+00:31:07,600 --> 00:31:12,960
+the courses materials and
+
+808
+00:31:10,000 --> 00:31:16,559
+and venues and and so on so uh you can
+
+809
+00:31:12,960 --> 00:31:18,640
+you can do quite varying tasks as a
+
+810
+00:31:16,559 --> 00:31:20,080
+working in a small company
+
+811
+00:31:18,640 --> 00:31:21,679
+and of course then delivering the
+
+812
+00:31:20,080 --> 00:31:22,640
+courses in
+
+813
+00:31:21,679 --> 00:31:24,640
+either
+
+814
+00:31:22,640 --> 00:31:27,840
+online or or hopefully in the future
+
+815
+00:31:24,640 --> 00:31:31,440
+also also again at the classroom
+
+816
+00:31:27,840 --> 00:31:33,840
+it even sounds like it's pretty
+
+817
+00:31:31,440 --> 00:31:37,440
+plm related depending on where the
+
+818
+00:31:33,840 --> 00:31:40,080
+customer is at the moment
+
+819
+00:31:37,440 --> 00:31:41,679
+yeah that's that's true yeah yeah i
+
+820
+00:31:40,080 --> 00:31:43,120
+think that
+
+821
+00:31:41,679 --> 00:31:45,200
+that
+
+822
+00:31:43,120 --> 00:31:46,720
+i i always
+
+823
+00:31:45,200 --> 00:31:49,519
+uh
+
+824
+00:31:46,720 --> 00:31:51,200
+when you talk about the the the
+
+825
+00:31:49,519 --> 00:31:52,320
+kind of the
+
+826
+00:31:51,200 --> 00:31:55,279
+product
+
+827
+00:31:52,320 --> 00:31:57,360
+life cycle product information i i for
+
+828
+00:31:55,279 --> 00:31:59,600
+for me it's it's every everything is
+
+829
+00:31:57,360 --> 00:32:00,880
+related to configuration management so i
+
+830
+00:31:59,600 --> 00:32:03,440
+think
+
+831
+00:32:00,880 --> 00:32:05,919
+my right my umbrella term for for that
+
+832
+00:32:03,440 --> 00:32:08,720
+is but of course you need different
+
+833
+00:32:05,919 --> 00:32:11,200
+different uh methods and tools for for
+
+834
+00:32:08,720 --> 00:32:12,880
+implementing that that those those
+
+835
+00:32:11,200 --> 00:32:15,600
+configuration management
+
+836
+00:32:12,880 --> 00:32:18,480
+processes and methods that that you are
+
+837
+00:32:15,600 --> 00:32:19,919
+defining so of course you end up usually
+
+838
+00:32:18,480 --> 00:32:22,640
+working with
+
+839
+00:32:19,919 --> 00:32:24,559
+with with product data management
+
+840
+00:32:22,640 --> 00:32:27,200
+systems and and
+
+841
+00:32:24,559 --> 00:32:28,880
+and so on so that's that's
+
+842
+00:32:27,200 --> 00:32:32,000
+that's where you you do the
+
+843
+00:32:28,880 --> 00:32:32,000
+implementation part
+
+844
+00:32:34,720 --> 00:32:37,120
+okay
+
+845
+00:32:35,519 --> 00:32:39,279
+so
+
+846
+00:32:37,120 --> 00:32:40,640
+well i think time is up
+
+847
+00:32:39,279 --> 00:32:41,519
+uh
+
+848
+00:32:40,640 --> 00:32:43,519
+so
+
+849
+00:32:41,519 --> 00:32:44,720
+it was very interesting rico thank you
+
+850
+00:32:43,519 --> 00:32:47,440
+very much
+
+851
+00:32:44,720 --> 00:32:50,880
+thank you for joining our podcast
+
+852
+00:32:47,440 --> 00:32:53,519
+and uh we've got some insights and mbse
+
+853
+00:32:50,880 --> 00:32:55,039
+systems in general in in finland
+
+854
+00:32:53,519 --> 00:32:57,200
+um
+
+855
+00:32:55,039 --> 00:33:00,480
+now we're at sweden finland now we need
+
+856
+00:32:57,200 --> 00:33:00,480
+denmark and norway
+
+857
+00:33:01,039 --> 00:33:05,200
+northern and european countries yeah yes
+
+858
+00:33:03,840 --> 00:33:08,240
+right
+
+859
+00:33:05,200 --> 00:33:11,039
+yeah but uh well the next topic uh the
+
+860
+00:33:08,240 --> 00:33:12,799
+next episode is not mbse around the
+
+861
+00:33:11,039 --> 00:33:15,039
+world um
+
+862
+00:33:12,799 --> 00:33:16,880
+next time we
+
+863
+00:33:15,039 --> 00:33:19,519
+look on the
+
+864
+00:33:16,880 --> 00:33:22,880
+framework the unified architecture
+
+865
+00:33:19,519 --> 00:33:25,679
+framework uaf and our guest will be
+
+866
+00:33:22,880 --> 00:33:29,039
+already used from the soul
+
+867
+00:33:25,679 --> 00:33:32,159
+who is one of the masterminds behind
+
+868
+00:33:29,039 --> 00:33:33,679
+uaf um which is developed and maintained
+
+869
+00:33:32,159 --> 00:33:35,600
+by the automogee
+
+870
+00:33:33,679 --> 00:33:37,519
+and we already have this time we have a
+
+871
+00:33:35,600 --> 00:33:40,640
+date
+
+872
+00:33:37,519 --> 00:33:43,440
+october the 15th so in around three
+
+873
+00:33:40,640 --> 00:33:44,480
+weeks uh around about three weeks
+
+874
+00:33:43,440 --> 00:33:46,559
+um
+
+875
+00:33:44,480 --> 00:33:50,159
+yeah so
+
+876
+00:33:46,559 --> 00:33:54,399
+i hope you join us uh same time um
+
+877
+00:33:50,159 --> 00:33:56,880
+seven o'clock first entry ukraine time
+
+878
+00:33:54,399 --> 00:33:59,279
+yeah and then well
+
+879
+00:33:56,880 --> 00:34:00,559
+christian no do not forget
+
+880
+00:33:59,279 --> 00:34:03,039
+trust us
+
+881
+00:34:00,559 --> 00:34:04,720
+we are systems engineers
+
+882
+00:34:03,039 --> 00:34:07,720
+right
+
+883
+00:34:04,720 --> 00:34:07,720
+goodbye
+

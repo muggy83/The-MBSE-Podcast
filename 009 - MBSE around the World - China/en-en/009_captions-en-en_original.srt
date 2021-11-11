@@ -1,0 +1,2792 @@
+1
+00:00:01,839 --> 00:00:06,560
+okay so welcome
+
+2
+00:00:03,600 --> 00:00:07,040
+to another episode of our mbse podcast
+
+3
+00:00:06,560 --> 00:00:10,240
+and
+
+4
+00:00:07,040 --> 00:00:10,639
+another episode of our mbse around the
+
+5
+00:00:10,240 --> 00:00:13,920
+world
+
+6
+00:00:10,639 --> 00:00:17,119
+series and this time we are in china
+
+7
+00:00:13,920 --> 00:00:19,600
+our guest is chung li and since we are
+
+8
+00:00:17,119 --> 00:00:23,039
+not good at pronouncing chinese names
+
+9
+00:00:19,600 --> 00:00:26,320
+we call him liu so i first
+
+10
+00:00:23,039 --> 00:00:26,960
+met leo free for free three years ago i
+
+11
+00:00:26,320 --> 00:00:30,000
+guess
+
+12
+00:00:26,960 --> 00:00:31,679
+at the mess conf in shanghai and then
+
+13
+00:00:30,000 --> 00:00:34,000
+again during a business trip
+
+14
+00:00:31,679 --> 00:00:36,320
+so usually the mess conf the modeling of
+
+15
+00:00:34,000 --> 00:00:39,600
+embedded systems conference
+
+16
+00:00:36,320 --> 00:00:41,360
+which i co-organize is held in munich uh
+
+17
+00:00:39,600 --> 00:00:43,680
+in germany but we are open to other
+
+18
+00:00:41,360 --> 00:00:44,559
+locations so we were in china a few
+
+19
+00:00:43,680 --> 00:00:46,640
+years ago
+
+20
+00:00:44,559 --> 00:00:49,600
+and this year by the way the mess conf
+
+21
+00:00:46,640 --> 00:00:53,920
+will take place virtually due to corona
+
+22
+00:00:49,600 --> 00:00:57,039
+and you find more details at massconf.de
+
+23
+00:00:53,920 --> 00:00:59,600
+so but back to our guest so leo
+
+24
+00:00:57,039 --> 00:01:01,039
+is uh of course active in the field of
+
+25
+00:00:59,600 --> 00:01:04,080
+mbse
+
+26
+00:01:01,039 --> 00:01:06,799
+uh but he can best tell you about that
+
+27
+00:01:04,080 --> 00:01:08,320
+himself so leo please introduce yourself
+
+28
+00:01:06,799 --> 00:01:11,040
+okay
+
+29
+00:01:08,320 --> 00:01:12,000
+thank you uh thank you team and
+
+30
+00:01:11,040 --> 00:01:15,680
+christian
+
+31
+00:01:12,000 --> 00:01:19,280
+hello everyone my name is leo
+
+32
+00:01:15,680 --> 00:01:22,560
+thanks for the uh team and christmas
+
+33
+00:01:19,280 --> 00:01:25,680
+invitation it's great honor to be here
+
+34
+00:01:22,560 --> 00:01:29,280
+today my uh i'm leo ceo
+
+35
+00:01:25,680 --> 00:01:32,320
+of syscraftlab in 2017
+
+36
+00:01:29,280 --> 00:01:34,960
+i created a sysgraph lab
+
+37
+00:01:32,320 --> 00:01:35,680
+so we are providing nbc consulting
+
+38
+00:01:34,960 --> 00:01:39,200
+service
+
+39
+00:01:35,680 --> 00:01:44,399
+and mbs product and also
+
+40
+00:01:39,200 --> 00:01:47,680
+project uh landing yeah so okay
+
+41
+00:01:44,399 --> 00:01:50,000
+yeah cool so leo
+
+42
+00:01:47,680 --> 00:01:50,880
+what are the typical car industries in
+
+43
+00:01:50,000 --> 00:01:55,040
+china that
+
+44
+00:01:50,880 --> 00:01:58,640
+use mbse and they who
+
+45
+00:01:55,040 --> 00:02:01,200
+who are your customers typically okay
+
+46
+00:01:58,640 --> 00:02:01,920
+in china the typical industries using
+
+47
+00:02:01,200 --> 00:02:05,759
+mbsc
+
+48
+00:02:01,920 --> 00:02:09,440
+are aerospace enterprises and also
+
+49
+00:02:05,759 --> 00:02:12,560
+auto industry and high-tech
+
+50
+00:02:09,440 --> 00:02:17,520
+companies yes we can take
+
+51
+00:02:12,560 --> 00:02:17,520
+many different kinds of customers
+
+52
+00:02:20,879 --> 00:02:24,720
+i guess we have a very so typically we
+
+53
+00:02:23,040 --> 00:02:27,200
+in germany think we have a
+
+54
+00:02:24,720 --> 00:02:29,040
+large automotive industry but i think in
+
+55
+00:02:27,200 --> 00:02:31,440
+china it's much much larger than
+
+56
+00:02:29,040 --> 00:02:32,319
+in germany so we have lots and lots of
+
+57
+00:02:31,440 --> 00:02:35,440
+um
+
+58
+00:02:32,319 --> 00:02:38,720
+automotive vendors yeah okay
+
+59
+00:02:35,440 --> 00:02:41,440
+um and what is the
+
+60
+00:02:38,720 --> 00:02:42,560
+what is typically the the purpose of
+
+61
+00:02:41,440 --> 00:02:45,440
+mbse
+
+62
+00:02:42,560 --> 00:02:46,800
+in in that projects is it used to for
+
+63
+00:02:45,440 --> 00:02:48,400
+the communication between the
+
+64
+00:02:46,800 --> 00:02:51,120
+stakeholders or
+
+65
+00:02:48,400 --> 00:02:52,959
+to specify the product or it's uh
+
+66
+00:02:51,120 --> 00:02:56,160
+typically purpose to simulate
+
+67
+00:02:52,959 --> 00:02:58,239
+the system so what's the field of
+
+68
+00:02:56,160 --> 00:03:01,280
+application of mbse
+
+69
+00:02:58,239 --> 00:03:03,040
+okay in my opinion i think there are
+
+70
+00:03:01,280 --> 00:03:06,640
+four main
+
+71
+00:03:03,040 --> 00:03:08,319
+purpose the first is complex system
+
+72
+00:03:06,640 --> 00:03:11,840
+architecture management
+
+73
+00:03:08,319 --> 00:03:12,720
+the designer can use use mbse to
+
+74
+00:03:11,840 --> 00:03:15,760
+represent
+
+75
+00:03:12,720 --> 00:03:19,120
+system architecture so they
+
+76
+00:03:15,760 --> 00:03:21,840
+they can build a complex system
+
+77
+00:03:19,120 --> 00:03:25,360
+this is the first one second is i think
+
+78
+00:03:21,840 --> 00:03:28,000
+communication between the stakeholders
+
+79
+00:03:25,360 --> 00:03:29,360
+but i think many designers didn't see
+
+80
+00:03:28,000 --> 00:03:32,640
+the value
+
+81
+00:03:29,360 --> 00:03:35,760
+of the mbse so they need
+
+82
+00:03:32,640 --> 00:03:39,120
+a use diagram a picture
+
+83
+00:03:35,760 --> 00:03:42,319
+or models to communicate
+
+84
+00:03:39,120 --> 00:03:46,159
+but i think different
+
+85
+00:03:42,319 --> 00:03:49,840
+designers in different
+
+86
+00:03:46,159 --> 00:03:52,879
+domains they they may
+
+87
+00:03:49,840 --> 00:03:56,879
+not usually use mbse to
+
+88
+00:03:52,879 --> 00:04:00,319
+to communicate so i think uh they
+
+89
+00:03:56,879 --> 00:04:03,760
+there need more improvement
+
+90
+00:04:00,319 --> 00:04:04,319
+and the third i think um is for rapid
+
+91
+00:04:03,760 --> 00:04:06,879
+design
+
+92
+00:04:04,319 --> 00:04:07,840
+and validation of conceptual design
+
+93
+00:04:06,879 --> 00:04:11,280
+process
+
+94
+00:04:07,840 --> 00:04:14,319
+a treat of multi-conceptual solutions
+
+95
+00:04:11,280 --> 00:04:18,479
+mbse is very useful and
+
+96
+00:04:14,319 --> 00:04:21,519
+the fourth i think design knowledge
+
+97
+00:04:18,479 --> 00:04:24,880
+management for example knowledge
+
+98
+00:04:21,519 --> 00:04:28,400
+representation knowledge accumulation
+
+99
+00:04:24,880 --> 00:04:32,000
+knowledge reuse models in mbse
+
+100
+00:04:28,400 --> 00:04:35,840
+as a carrier of design knowledge
+
+101
+00:04:32,000 --> 00:04:38,800
+design experience design date especially
+
+102
+00:04:35,840 --> 00:04:39,919
+relationships of knowledge is very
+
+103
+00:04:38,800 --> 00:04:43,280
+important
+
+104
+00:04:39,919 --> 00:04:46,720
+so and experienced
+
+105
+00:04:43,280 --> 00:04:49,360
+designers can abstract refine
+
+106
+00:04:46,720 --> 00:04:50,720
+and represent knowledge into different
+
+107
+00:04:49,360 --> 00:04:54,160
+kinds of models and
+
+108
+00:04:50,720 --> 00:04:57,120
+and diagrams it's very easy for
+
+109
+00:04:54,160 --> 00:04:58,080
+knowledge reuse so and knowledge
+
+110
+00:04:57,120 --> 00:05:01,759
+engineering
+
+111
+00:04:58,080 --> 00:05:05,120
+and knowledge management is a old topic
+
+112
+00:05:01,759 --> 00:05:11,680
+but i think mbse is very useful
+
+113
+00:05:05,120 --> 00:05:14,720
+in this old topic but we we need more
+
+114
+00:05:11,680 --> 00:05:20,240
+practice and application
+
+115
+00:05:14,720 --> 00:05:23,600
+of mbse and the last one i think
+
+116
+00:05:20,240 --> 00:05:27,280
+mbse is very useful for evolution
+
+117
+00:05:23,600 --> 00:05:30,400
+of cognitive process for complex
+
+118
+00:05:27,280 --> 00:05:33,919
+design from the perspective of
+
+119
+00:05:30,400 --> 00:05:37,039
+cognitive science design is a
+
+120
+00:05:33,919 --> 00:05:38,000
+evolutionary process you can also see
+
+121
+00:05:37,039 --> 00:05:42,080
+design
+
+122
+00:05:38,000 --> 00:05:45,280
+as a sparring up upward process
+
+123
+00:05:42,080 --> 00:05:46,080
+models and diagrams is very useful and
+
+124
+00:05:45,280 --> 00:05:49,120
+helpful
+
+125
+00:05:46,080 --> 00:05:50,240
+for the process of deep thinking so you
+
+126
+00:05:49,120 --> 00:05:53,360
+can
+
+127
+00:05:50,240 --> 00:05:56,479
+like um animation or
+
+128
+00:05:53,360 --> 00:05:59,759
+simulation and the animation
+
+129
+00:05:56,479 --> 00:06:03,280
+is a process of different pictures
+
+130
+00:05:59,759 --> 00:06:04,240
+all we call frames design is a similar
+
+131
+00:06:03,280 --> 00:06:07,520
+precise
+
+132
+00:06:04,240 --> 00:06:08,240
+so i think mbse is very useful you can
+
+133
+00:06:07,520 --> 00:06:11,280
+print
+
+134
+00:06:08,240 --> 00:06:14,880
+your thinking into different models
+
+135
+00:06:11,280 --> 00:06:15,680
+or diagrams so you can think deeper and
+
+136
+00:06:14,880 --> 00:06:19,039
+deeper
+
+137
+00:06:15,680 --> 00:06:22,479
+so this is a recognitive precise
+
+138
+00:06:19,039 --> 00:06:26,880
+mbs is very useful yeah
+
+139
+00:06:22,479 --> 00:06:31,759
+and and these five uh
+
+140
+00:06:26,880 --> 00:06:35,440
+perspective is my personal cognition
+
+141
+00:06:31,759 --> 00:06:38,319
+okay yeah okay and um
+
+142
+00:06:35,440 --> 00:06:41,520
+what would you estimate how well is mbse
+
+143
+00:06:38,319 --> 00:06:41,520
+used in china already
+
+144
+00:06:42,080 --> 00:06:47,280
+although we did a lot of practice but
+
+145
+00:06:45,280 --> 00:06:50,639
+the channel still has a long way
+
+146
+00:06:47,280 --> 00:06:54,400
+to go so we need to study
+
+147
+00:06:50,639 --> 00:06:54,400
+or learn from foreign
+
+148
+00:06:55,280 --> 00:07:02,639
+wonders or customers how they
+
+149
+00:06:58,800 --> 00:07:03,120
+practice mbse so i think we need a lot a
+
+150
+00:07:02,639 --> 00:07:07,599
+lot of
+
+151
+00:07:03,120 --> 00:07:11,440
+um and to study from the deferring
+
+152
+00:07:07,599 --> 00:07:15,280
+and counterparts i think
+
+153
+00:07:11,440 --> 00:07:18,240
+yeah well i think you're
+
+154
+00:07:15,280 --> 00:07:19,919
+not alone with that so mbse is in most
+
+155
+00:07:18,240 --> 00:07:23,120
+countries i would say at the
+
+156
+00:07:19,919 --> 00:07:26,560
+at the beginning of the adoption um
+
+157
+00:07:23,120 --> 00:07:27,199
+although it is there for well around 20
+
+158
+00:07:26,560 --> 00:07:29,280
+years or so
+
+159
+00:07:27,199 --> 00:07:30,880
+it's hard to say where was the starting
+
+160
+00:07:29,280 --> 00:07:32,560
+point of mbse
+
+161
+00:07:30,880 --> 00:07:35,759
+uh well it would also be interesting to
+
+162
+00:07:32,560 --> 00:07:35,759
+do a podcast about that but
+
+163
+00:07:37,599 --> 00:07:44,160
+yeah but in mo in most industries
+
+164
+00:07:40,720 --> 00:07:46,560
+it's the projects are at the beginning
+
+165
+00:07:44,160 --> 00:07:48,639
+of course there are some exceptions and
+
+166
+00:07:46,560 --> 00:07:52,080
+and then it looks very interesting
+
+167
+00:07:48,639 --> 00:07:55,120
+what you can do with mbsd so that's wow
+
+168
+00:07:52,080 --> 00:07:56,000
+okay um yeah another important part of
+
+169
+00:07:55,120 --> 00:07:59,680
+course is
+
+170
+00:07:56,000 --> 00:08:01,520
+is the education of mbse so
+
+171
+00:07:59,680 --> 00:08:02,720
+what do you think what what is the level
+
+172
+00:08:01,520 --> 00:08:05,840
+of education
+
+173
+00:08:02,720 --> 00:08:06,639
+in of mbse in china is it for example
+
+174
+00:08:05,840 --> 00:08:10,240
+taught
+
+175
+00:08:06,639 --> 00:08:13,280
+at universities already okay
+
+176
+00:08:10,240 --> 00:08:16,319
+i think mbs education is still uh
+
+177
+00:08:13,280 --> 00:08:20,080
+at a relatively elementary
+
+178
+00:08:16,319 --> 00:08:23,360
+level and many universities don't have
+
+179
+00:08:20,080 --> 00:08:26,400
+mbse courses yeah
+
+180
+00:08:23,360 --> 00:08:26,800
+and there are not many courses that
+
+181
+00:08:26,400 --> 00:08:29,840
+teach
+
+182
+00:08:26,800 --> 00:08:33,440
+mbse in universities at
+
+183
+00:08:29,840 --> 00:08:36,479
+present and we need to strengthen it
+
+184
+00:08:33,440 --> 00:08:40,399
+further i think but we we have
+
+185
+00:08:36,479 --> 00:08:41,120
+many trained trainings for for customers
+
+186
+00:08:40,399 --> 00:08:44,800
+for
+
+187
+00:08:41,120 --> 00:08:48,399
+for the the um
+
+188
+00:08:44,800 --> 00:08:52,000
+the different domains
+
+189
+00:08:48,399 --> 00:08:55,519
+we will provide some some training
+
+190
+00:08:52,000 --> 00:08:59,760
+that's also yeah that's it
+
+191
+00:08:55,519 --> 00:09:03,680
+okay and maybe
+
+192
+00:08:59,760 --> 00:09:06,800
+a side question so are other tools
+
+193
+00:09:03,680 --> 00:09:08,640
+taught in in university like for example
+
+194
+00:09:06,800 --> 00:09:11,920
+matlab or simulink
+
+195
+00:09:08,640 --> 00:09:15,120
+or something which is more
+
+196
+00:09:11,920 --> 00:09:18,720
+yeah yes for example
+
+197
+00:09:15,120 --> 00:09:22,000
+simulation some simulation tools
+
+198
+00:09:18,720 --> 00:09:22,800
+entered has entered the universities but
+
+199
+00:09:22,000 --> 00:09:26,080
+the nbc
+
+200
+00:09:22,800 --> 00:09:30,720
+truth is just the beginning
+
+201
+00:09:26,080 --> 00:09:33,839
+and at the present got it yes
+
+202
+00:09:30,720 --> 00:09:37,440
+yeah we we try we try
+
+203
+00:09:33,839 --> 00:09:38,480
+try to enter for example shanghai john
+
+204
+00:09:37,440 --> 00:09:42,720
+university
+
+205
+00:09:38,480 --> 00:09:46,720
+and we cooperate with the
+
+206
+00:09:42,720 --> 00:09:47,200
+gyoton university teachers so we want to
+
+207
+00:09:46,720 --> 00:09:50,080
+provide
+
+208
+00:09:47,200 --> 00:09:51,279
+our tool to the students students can
+
+209
+00:09:50,080 --> 00:09:54,320
+practice
+
+210
+00:09:51,279 --> 00:09:57,279
+at the mechanical engineering courses
+
+211
+00:09:54,320 --> 00:09:58,640
+they can use mbs tools to present a
+
+212
+00:09:57,279 --> 00:10:02,240
+small system
+
+213
+00:09:58,640 --> 00:10:05,519
+and b build a system architecture
+
+214
+00:10:02,240 --> 00:10:08,079
+and so and i think it's just the
+
+215
+00:10:05,519 --> 00:10:08,079
+beginning
+
+216
+00:10:08,160 --> 00:10:14,399
+right now yeah okay
+
+217
+00:10:11,279 --> 00:10:16,800
+and i was wondering uh are there
+
+218
+00:10:14,399 --> 00:10:18,000
+is there a local chapter of incosia in
+
+219
+00:10:16,800 --> 00:10:20,560
+china and do you
+
+220
+00:10:18,000 --> 00:10:21,760
+have some mbse working groups where
+
+221
+00:10:20,560 --> 00:10:25,760
+people come together
+
+222
+00:10:21,760 --> 00:10:29,279
+to exchange information on mbse
+
+223
+00:10:25,760 --> 00:10:32,320
+yeah yes i i hope that there
+
+224
+00:10:29,279 --> 00:10:35,360
+and there are so many working groups we
+
+225
+00:10:32,320 --> 00:10:39,200
+can collect and
+
+226
+00:10:35,360 --> 00:10:39,839
+communicate or study learn from each
+
+227
+00:10:39,200 --> 00:10:42,800
+other
+
+228
+00:10:39,839 --> 00:10:43,920
+but there are not many high quality
+
+229
+00:10:42,800 --> 00:10:47,360
+working
+
+230
+00:10:43,920 --> 00:10:51,279
+groups in china i entered in
+
+231
+00:10:47,360 --> 00:10:55,200
+um i went to united states
+
+232
+00:10:51,279 --> 00:10:58,399
+i they take and take part in the
+
+233
+00:10:55,200 --> 00:11:02,399
+some meetings in in there
+
+234
+00:10:58,399 --> 00:11:05,920
+but in china i think they are not very
+
+235
+00:11:02,399 --> 00:11:10,560
+high quality so we we
+
+236
+00:11:05,920 --> 00:11:10,560
+we need to improve it
+
+237
+00:11:14,160 --> 00:11:17,519
+yeah i remember the last time i was
+
+238
+00:11:16,880 --> 00:11:20,079
+there or
+
+239
+00:11:17,519 --> 00:11:21,120
+at the best conference that yeah we had
+
+240
+00:11:20,079 --> 00:11:22,480
+my friends at
+
+241
+00:11:21,120 --> 00:11:24,079
+the university in shanghai i don't
+
+242
+00:11:22,480 --> 00:11:24,880
+remember the name of the university but
+
+243
+00:11:24,079 --> 00:11:28,320
+yeah there
+
+244
+00:11:24,880 --> 00:11:29,680
+yeah uh i also taught talked to some of
+
+245
+00:11:28,320 --> 00:11:32,320
+the professors there and
+
+246
+00:11:29,680 --> 00:11:34,399
+uh yeah they also mentioned that mbse is
+
+247
+00:11:32,320 --> 00:11:37,519
+not taught at the universities but
+
+248
+00:11:34,399 --> 00:11:37,920
+uh if i remembered correctly they said
+
+249
+00:11:37,519 --> 00:11:40,160
+that
+
+250
+00:11:37,920 --> 00:11:42,160
+uh the unified modeling language so the
+
+251
+00:11:40,160 --> 00:11:45,519
+uml and the software engineering domain
+
+252
+00:11:42,160 --> 00:11:48,240
+is is very common in china can you
+
+253
+00:11:45,519 --> 00:11:48,240
+do you know that
+
+254
+00:11:49,680 --> 00:11:57,040
+yeah yes i i i joined the
+
+255
+00:11:53,200 --> 00:12:00,560
+different meetings or some groups
+
+256
+00:11:57,040 --> 00:12:04,079
+to to discuss how to use mbse
+
+257
+00:12:00,560 --> 00:12:07,360
+but the the chinese um counterparts
+
+258
+00:12:04,079 --> 00:12:10,399
+i think need improve their their
+
+259
+00:12:07,360 --> 00:12:13,519
+professional skills or learn
+
+260
+00:12:10,399 --> 00:12:16,560
+to different modeling language
+
+261
+00:12:13,519 --> 00:12:16,560
+so um
+
+262
+00:12:17,360 --> 00:12:23,600
+i think not not very so many and
+
+263
+00:12:20,399 --> 00:12:27,040
+like mexico meetings
+
+264
+00:12:23,600 --> 00:12:28,320
+in china yeah okay yeah so
+
+265
+00:12:27,040 --> 00:12:30,560
+do you think it makes sense to do
+
+266
+00:12:28,320 --> 00:12:34,320
+another mbse conference in china
+
+267
+00:12:30,560 --> 00:12:34,320
+is it yes
+
+268
+00:12:34,800 --> 00:12:42,800
+welcome to china we can call organize
+
+269
+00:12:39,360 --> 00:12:45,200
+the meetings like mexico yeah i'm very
+
+270
+00:12:42,800 --> 00:12:47,680
+happy to do that
+
+271
+00:12:45,200 --> 00:12:48,720
+yeah that was great it was good fun and
+
+272
+00:12:47,680 --> 00:12:51,680
+very interesting
+
+273
+00:12:48,720 --> 00:12:51,680
+had a good time there
+
+274
+00:12:51,760 --> 00:12:55,120
+yeah so um
+
+275
+00:12:55,760 --> 00:12:59,600
+it seems you have the typical challenges
+
+276
+00:12:58,480 --> 00:13:02,320
+of mbse
+
+277
+00:12:59,600 --> 00:13:04,160
+but uh maybe there are some specifics so
+
+278
+00:13:02,320 --> 00:13:08,320
+can you tell us a little bit about the
+
+279
+00:13:04,160 --> 00:13:10,240
+the challenges you observe uh of mbse
+
+280
+00:13:08,320 --> 00:13:13,279
+uh to adapt that in in the companies in
+
+281
+00:13:10,240 --> 00:13:16,079
+china so what are their problems
+
+282
+00:13:13,279 --> 00:13:17,360
+yeah uh i think there are many child
+
+283
+00:13:16,079 --> 00:13:20,399
+challenge
+
+284
+00:13:17,360 --> 00:13:23,600
+challenges in china for
+
+285
+00:13:20,399 --> 00:13:26,639
+uh for customers i think the
+
+286
+00:13:23,600 --> 00:13:30,000
+further uh maturity
+
+287
+00:13:26,639 --> 00:13:30,560
+uh of chinese market chinese customers
+
+288
+00:13:30,000 --> 00:13:33,600
+need to
+
+289
+00:13:30,560 --> 00:13:36,639
+improve their professional skills
+
+290
+00:13:33,600 --> 00:13:39,920
+in terms of mbse especially in
+
+291
+00:13:36,639 --> 00:13:43,120
+current digital air error
+
+292
+00:13:39,920 --> 00:13:46,240
+how to re restructure
+
+293
+00:13:43,120 --> 00:13:49,279
+the research and
+
+294
+00:13:46,240 --> 00:13:50,800
+development development process of
+
+295
+00:13:49,279 --> 00:13:54,160
+complex
+
+296
+00:13:50,800 --> 00:13:57,519
+system is a big challenge and for
+
+297
+00:13:54,160 --> 00:14:00,720
+vendors technology accumulation
+
+298
+00:13:57,519 --> 00:14:03,279
+and export exploration
+
+299
+00:14:00,720 --> 00:14:04,079
+we know that other countries have been
+
+300
+00:14:03,279 --> 00:14:07,120
+doing
+
+301
+00:14:04,079 --> 00:14:10,000
+mbse practice for many years
+
+302
+00:14:07,120 --> 00:14:10,880
+but for chinese vendors is still
+
+303
+00:14:10,000 --> 00:14:14,079
+students
+
+304
+00:14:10,880 --> 00:14:18,000
+i think we need we still need to learn
+
+305
+00:14:14,079 --> 00:14:21,600
+good good experience from foreign
+
+306
+00:14:18,000 --> 00:14:24,240
+counterparts how to integrate different
+
+307
+00:14:21,600 --> 00:14:26,720
+technologies and technical solutions in
+
+308
+00:14:24,240 --> 00:14:26,720
+global
+
+309
+00:14:27,279 --> 00:14:35,279
+in global it's also a big challenge
+
+310
+00:14:31,600 --> 00:14:38,560
+so we when we developing this graph
+
+311
+00:14:35,279 --> 00:14:41,680
+modeler so we found different
+
+312
+00:14:38,560 --> 00:14:45,120
+um vendors all tech
+
+313
+00:14:41,680 --> 00:14:48,480
+technology and companies from
+
+314
+00:14:45,120 --> 00:14:48,880
+other countries so how to integrate
+
+315
+00:14:48,480 --> 00:14:51,920
+these
+
+316
+00:14:48,880 --> 00:14:55,440
+different technical solutions is very
+
+317
+00:14:51,920 --> 00:14:59,279
+is a very big challenge
+
+318
+00:14:55,440 --> 00:15:02,320
+and for mbse ecosystem and
+
+319
+00:14:59,279 --> 00:15:05,680
+in china i think china need need
+
+320
+00:15:02,320 --> 00:15:09,040
+need construct of open ecosystems
+
+321
+00:15:05,680 --> 00:15:12,560
+for mbs researchers
+
+322
+00:15:09,040 --> 00:15:12,959
+vendors and customers it need a lot of
+
+323
+00:15:12,560 --> 00:15:16,320
+work
+
+324
+00:15:12,959 --> 00:15:19,760
+to do yeah
+
+325
+00:15:16,320 --> 00:15:23,199
+i think this is all challenges for
+
+326
+00:15:19,760 --> 00:15:27,839
+chinese and vendors and customers
+
+327
+00:15:23,199 --> 00:15:30,639
+yeah okay
+
+328
+00:15:27,839 --> 00:15:32,800
+yeah so you mentioned uh the modeling
+
+329
+00:15:30,639 --> 00:15:36,240
+tool the sysgraph modeler
+
+330
+00:15:32,800 --> 00:15:39,839
+so could you give us a short
+
+331
+00:15:36,240 --> 00:15:41,920
+overview of the tool and maybe for our
+
+332
+00:15:39,839 --> 00:15:44,000
+listeners of the podcast
+
+333
+00:15:41,920 --> 00:15:46,480
+this is the point where you should
+
+334
+00:15:44,000 --> 00:15:49,519
+switch to the youtube video
+
+335
+00:15:46,480 --> 00:15:52,720
+uh that you can see what leo will show
+
+336
+00:15:49,519 --> 00:15:56,880
+us but he will also tell us
+
+337
+00:15:52,720 --> 00:15:59,120
+what we can see there okay no problem
+
+338
+00:15:56,880 --> 00:16:01,519
+i can share my screen yeah you're
+
+339
+00:15:59,120 --> 00:16:01,519
+welcome
+
+340
+00:16:06,839 --> 00:16:13,279
+okay
+
+341
+00:16:09,600 --> 00:16:17,040
+okay okay focus
+
+342
+00:16:13,279 --> 00:16:21,199
+and this is a video uh we
+
+343
+00:16:17,040 --> 00:16:24,320
+for two years ago we did this project
+
+344
+00:16:21,199 --> 00:16:27,440
+so you you can look the whole
+
+345
+00:16:24,320 --> 00:16:31,120
+uh interface and there is
+
+346
+00:16:27,440 --> 00:16:34,639
+a model 3 here is a
+
+347
+00:16:31,120 --> 00:16:37,680
+diagram of our table
+
+348
+00:16:34,639 --> 00:16:42,639
+so you can see
+
+349
+00:16:37,680 --> 00:16:45,680
+first we can import requirements
+
+350
+00:16:42,639 --> 00:16:45,680
+from excel
+
+351
+00:16:46,959 --> 00:16:54,480
+so and the requirement is represented
+
+352
+00:16:50,880 --> 00:16:58,720
+as a table so you can
+
+353
+00:16:54,480 --> 00:16:58,720
+see different requirements
+
+354
+00:16:59,040 --> 00:17:03,600
+and here is the requirements tree the
+
+355
+00:17:01,759 --> 00:17:07,439
+how to
+
+356
+00:17:03,600 --> 00:17:11,679
+decompose requirements into different
+
+357
+00:17:07,439 --> 00:17:11,679
+abstraction of level
+
+358
+00:17:11,839 --> 00:17:18,959
+and you can also see the requirements
+
+359
+00:17:15,120 --> 00:17:22,000
+diagram designer can
+
+360
+00:17:18,959 --> 00:17:25,679
+drag requirements elements
+
+361
+00:17:22,000 --> 00:17:25,679
+into the diagram
+
+362
+00:17:26,240 --> 00:17:33,840
+you can also drag the requirements from
+
+363
+00:17:29,600 --> 00:17:33,840
+model 3.
+
+364
+00:17:34,160 --> 00:17:40,799
+so you can drag it into the
+
+365
+00:17:37,440 --> 00:17:44,000
+diagram you can also create
+
+366
+00:17:40,799 --> 00:17:48,080
+different relations relationships
+
+367
+00:17:44,000 --> 00:17:48,080
+between requirements
+
+368
+00:17:51,760 --> 00:17:56,720
+so now we create another requirement
+
+369
+00:17:54,160 --> 00:17:56,720
+diagram
+
+370
+00:17:59,200 --> 00:18:02,559
+you drag a requirement
+
+371
+00:18:02,880 --> 00:18:11,679
+and you can also show the relationships
+
+372
+00:18:07,600 --> 00:18:16,080
+of this requirement so you can see
+
+373
+00:18:11,679 --> 00:18:19,679
+the other new requirements is showing
+
+374
+00:18:16,080 --> 00:18:19,679
+in this network diagram
+
+375
+00:18:24,559 --> 00:18:29,840
+okay in the model 3 we can build a
+
+376
+00:18:27,280 --> 00:18:29,840
+different
+
+377
+00:18:29,919 --> 00:18:32,400
+package
+
+378
+00:18:33,200 --> 00:18:42,559
+now we can conduct a
+
+379
+00:18:36,559 --> 00:18:45,679
+requirements relationship
+
+380
+00:18:42,559 --> 00:18:49,840
+so you can choose the first requirement
+
+381
+00:18:45,679 --> 00:18:57,840
+you can also check
+
+382
+00:18:49,840 --> 00:18:57,840
+which tab you want to send
+
+383
+00:18:59,120 --> 00:19:04,960
+so the uh um our product can show the
+
+384
+00:19:03,280 --> 00:19:08,720
+relationships between
+
+385
+00:19:04,960 --> 00:19:12,160
+different level requirements
+
+386
+00:19:08,720 --> 00:19:15,600
+so you can see how to
+
+387
+00:19:12,160 --> 00:19:19,919
+decompose plaques
+
+388
+00:19:15,600 --> 00:19:19,919
+over overall requirements
+
+389
+00:19:20,880 --> 00:19:26,000
+and you can also show the relationships
+
+390
+00:19:24,880 --> 00:19:39,840
+between
+
+391
+00:19:26,000 --> 00:19:39,840
+requirements and structure
+
+392
+00:19:43,679 --> 00:19:52,000
+and here we just show the system
+
+393
+00:19:47,919 --> 00:19:55,200
+system architecture you can see how to
+
+394
+00:19:52,000 --> 00:19:58,480
+decompose a a system block
+
+395
+00:19:55,200 --> 00:20:03,039
+there there are so many subsystems or
+
+396
+00:19:58,480 --> 00:20:06,880
+subsystem systems of systems
+
+397
+00:20:03,039 --> 00:20:09,360
+how to decompose a um
+
+398
+00:20:06,880 --> 00:20:09,360
+systems
+
+399
+00:20:14,080 --> 00:20:17,679
+and we can also show the requirements
+
+400
+00:20:16,720 --> 00:20:21,840
+the relationship
+
+401
+00:20:17,679 --> 00:20:21,840
+between requirements and structure
+
+402
+00:20:24,080 --> 00:20:30,960
+what is the pxs system is it a
+
+403
+00:20:27,200 --> 00:20:35,840
+ah it's a name of a
+
+404
+00:20:30,960 --> 00:20:49,840
+structure in in
+
+405
+00:20:35,840 --> 00:20:49,840
+nuclear domain okay
+
+406
+00:20:52,480 --> 00:21:00,080
+and here we can see the requirements and
+
+407
+00:20:56,640 --> 00:21:03,840
+you can link the requirements and
+
+408
+00:21:00,080 --> 00:21:03,840
+into the structure
+
+409
+00:21:12,640 --> 00:21:16,960
+so you can see what's the relationships
+
+410
+00:21:15,280 --> 00:21:19,440
+between requirements and
+
+411
+00:21:16,960 --> 00:21:19,440
+structure
+
+412
+00:21:27,440 --> 00:21:34,650
+and now we can create a
+
+413
+00:21:31,580 --> 00:21:34,650
+[Music]
+
+414
+00:21:39,120 --> 00:21:46,870
+table here requirement yeah
+
+415
+00:21:43,440 --> 00:21:48,080
+so you can see uh a block
+
+416
+00:21:46,870 --> 00:21:51,440
+[Music]
+
+417
+00:21:48,080 --> 00:21:54,400
+how many ports it has ah okay
+
+418
+00:21:51,440 --> 00:21:55,520
+so it's an interface control document
+
+419
+00:21:54,400 --> 00:21:58,960
+yes
+
+420
+00:21:55,520 --> 00:21:58,960
+yes we
+
+421
+00:21:59,840 --> 00:22:07,039
+yes we can see uh uh ibd
+
+422
+00:22:03,120 --> 00:22:10,720
+diagram so you can see uh in a
+
+423
+00:22:07,039 --> 00:22:13,840
+blog um how how this block
+
+424
+00:22:10,720 --> 00:22:17,120
+is composed and be composed of
+
+425
+00:22:13,840 --> 00:22:17,120
+different blocks
+
+426
+00:22:18,540 --> 00:22:21,650
+[Music]
+
+427
+00:22:23,280 --> 00:22:31,600
+so here this table can show the
+
+428
+00:22:27,039 --> 00:22:34,720
+interface between different blocks
+
+429
+00:22:31,600 --> 00:22:34,720
+housing can connect
+
+430
+00:22:36,000 --> 00:22:43,520
+and here is a par diagram
+
+431
+00:22:39,440 --> 00:22:47,280
+so we integrate matlab
+
+432
+00:22:43,520 --> 00:22:50,480
+there is a matlab file so you can drag
+
+433
+00:22:47,280 --> 00:22:53,760
+drag this file into our product
+
+434
+00:22:50,480 --> 00:22:57,280
+so it analyzes
+
+435
+00:22:53,760 --> 00:23:01,039
+and and as a
+
+436
+00:22:57,280 --> 00:23:01,039
+computational model
+
+437
+00:23:01,200 --> 00:23:09,840
+can you execute input and output
+
+438
+00:23:05,039 --> 00:23:09,840
+and can you execute it yes
+
+439
+00:23:13,840 --> 00:23:23,840
+so when you input different values
+
+440
+00:23:17,520 --> 00:23:23,840
+and it can compute
+
+441
+00:23:26,159 --> 00:23:29,679
+but the computation is done by matlab
+
+442
+00:23:28,240 --> 00:23:32,720
+right that's
+
+443
+00:23:29,679 --> 00:23:37,840
+the background as a
+
+444
+00:23:32,720 --> 00:23:37,840
+computational engine
+
+445
+00:23:38,480 --> 00:23:46,880
+and here we can see the
+
+446
+00:23:41,520 --> 00:23:46,880
+block how to satisfy a requirement
+
+447
+00:23:49,520 --> 00:23:54,000
+it's amazing even if everything is in
+
+448
+00:23:52,640 --> 00:23:56,960
+chinese
+
+449
+00:23:54,000 --> 00:23:58,159
+i can understand what what what is shown
+
+450
+00:23:56,960 --> 00:24:00,799
+because of
+
+451
+00:23:58,159 --> 00:24:05,679
+yeah because it's the smell compliant in
+
+452
+00:24:00,799 --> 00:24:09,039
+its shapes
+
+453
+00:24:05,679 --> 00:24:12,559
+and i know assist male and now is
+
+454
+00:24:09,039 --> 00:24:15,600
+uh sits about 2.0
+
+455
+00:24:12,559 --> 00:24:19,279
+so maybe this male has a very big
+
+456
+00:24:15,600 --> 00:24:23,120
+difference yes 2.0
+
+457
+00:24:19,279 --> 00:24:26,480
+yeah yes yes that will be a big change
+
+458
+00:24:23,120 --> 00:24:30,000
+yeah do you plan to implement
+
+459
+00:24:26,480 --> 00:24:34,320
+system l version 2 um yes we
+
+460
+00:24:30,000 --> 00:24:37,840
+we are we are studying uh cis male 2.0
+
+461
+00:24:34,320 --> 00:24:42,080
+so we are evaluating eight
+
+462
+00:24:37,840 --> 00:24:45,200
+uh okay whether we can support to 2.0
+
+463
+00:24:42,080 --> 00:24:48,960
+very good yeah and we can also
+
+464
+00:24:45,200 --> 00:24:51,440
+export the model on date into
+
+465
+00:24:48,960 --> 00:24:51,440
+excel
+
+466
+00:24:54,320 --> 00:25:02,320
+so that's the icd table in excel
+
+467
+00:24:58,880 --> 00:25:07,200
+yeah yes we can export the all
+
+468
+00:25:02,320 --> 00:25:07,200
+uh all of the model in our product
+
+469
+00:25:07,520 --> 00:25:15,200
+yeah if customer customer customer
+
+470
+00:25:10,559 --> 00:25:17,840
+need some date we can we can
+
+471
+00:25:15,200 --> 00:25:17,840
+export it
+
+472
+00:25:21,760 --> 00:25:28,960
+and do you have a rest interface
+
+473
+00:25:25,200 --> 00:25:32,159
+also for the tool so that you can access
+
+474
+00:25:28,960 --> 00:25:32,159
+via web services
+
+475
+00:25:32,400 --> 00:25:40,240
+now currently we didn't provide
+
+476
+00:25:36,400 --> 00:25:44,799
+web service api or services to
+
+477
+00:25:40,240 --> 00:25:48,480
+to to other and customers
+
+478
+00:25:44,799 --> 00:25:49,120
+okay that's all this is a very simple
+
+479
+00:25:48,480 --> 00:25:52,640
+brief
+
+480
+00:25:49,120 --> 00:25:55,120
+uh introduction of our our product
+
+481
+00:25:52,640 --> 00:25:57,120
+yeah very good so last thing we saw is a
+
+482
+00:25:55,120 --> 00:26:01,360
+document generation then right
+
+483
+00:25:57,120 --> 00:26:05,200
+yes yeah very good
+
+484
+00:26:01,360 --> 00:26:09,600
+fantastic yes okay we
+
+485
+00:26:05,200 --> 00:26:13,600
+we spent we spent about two or three uh
+
+486
+00:26:09,600 --> 00:26:16,799
+three years to to develop this product
+
+487
+00:26:13,600 --> 00:26:20,000
+so it's very um not
+
+488
+00:26:16,799 --> 00:26:23,440
+very um maturity
+
+489
+00:26:20,000 --> 00:26:26,960
+material yes we need a lot of
+
+490
+00:26:23,440 --> 00:26:29,200
+work to do and based on customers
+
+491
+00:26:26,960 --> 00:26:32,799
+requirement
+
+492
+00:26:29,200 --> 00:26:36,159
+and now we are trying to to
+
+493
+00:26:32,799 --> 00:26:39,679
+to discuss with our customers
+
+494
+00:26:36,159 --> 00:26:45,360
+we provide some customer customer
+
+495
+00:26:39,679 --> 00:26:47,039
+customized development for our customers
+
+496
+00:26:45,360 --> 00:26:50,640
+and how many people are developing on
+
+497
+00:26:47,039 --> 00:26:50,640
+this um
+
+498
+00:26:50,840 --> 00:26:59,600
+about 15 people
+
+499
+00:26:53,760 --> 00:26:59,600
+whoa yeah we are as a small team
+
+500
+00:27:00,240 --> 00:27:08,960
+yeah spent nearly
+
+501
+00:27:03,360 --> 00:27:12,000
+two two years two and a half years
+
+502
+00:27:08,960 --> 00:27:14,080
+all right yeah very good and is
+
+503
+00:27:12,000 --> 00:27:16,400
+the tool also available in in english
+
+504
+00:27:14,080 --> 00:27:18,640
+and so in other languages or is it only
+
+505
+00:27:16,400 --> 00:27:21,760
+available in chinese
+
+506
+00:27:18,640 --> 00:27:25,039
+um currently we're just providing a
+
+507
+00:27:21,760 --> 00:27:28,480
+chinese version uh if
+
+508
+00:27:25,039 --> 00:27:31,840
+uh if some foreign customers
+
+509
+00:27:28,480 --> 00:27:34,640
+uh want to um have a try we
+
+510
+00:27:31,840 --> 00:27:35,600
+we can provide an english version for
+
+511
+00:27:34,640 --> 00:27:37,840
+them
+
+512
+00:27:35,600 --> 00:27:37,840
+okay
+
+513
+00:27:38,960 --> 00:27:42,559
+and you said that you create customized
+
+514
+00:27:41,919 --> 00:27:45,600
+versions
+
+515
+00:27:42,559 --> 00:27:45,600
+of your tools so
+
+516
+00:27:46,320 --> 00:27:50,640
+is it only a configuration or is it a
+
+517
+00:27:48,399 --> 00:27:53,679
+real customized so
+
+518
+00:27:50,640 --> 00:27:56,240
+with special programmed stuff for for
+
+519
+00:27:53,679 --> 00:27:59,679
+the customer
+
+520
+00:27:56,240 --> 00:28:00,480
+sorry so is it if you have a customized
+
+521
+00:27:59,679 --> 00:28:03,520
+version
+
+522
+00:28:00,480 --> 00:28:05,679
+for one of your customers is it only a
+
+523
+00:28:03,520 --> 00:28:08,320
+special configuration or is it
+
+524
+00:28:05,679 --> 00:28:08,960
+uh do you have to write source code for
+
+525
+00:28:08,320 --> 00:28:11,679
+them
+
+526
+00:28:08,960 --> 00:28:13,200
+and to create a specific version for the
+
+527
+00:28:11,679 --> 00:28:17,120
+customer
+
+528
+00:28:13,200 --> 00:28:21,120
+okay and now we we don't provide a
+
+529
+00:28:17,120 --> 00:28:24,240
+source code to to our customers
+
+530
+00:28:21,120 --> 00:28:25,039
+based on our product but if our
+
+531
+00:28:24,240 --> 00:28:29,039
+requirement
+
+532
+00:28:25,039 --> 00:28:31,840
+is new we can provide not based on
+
+533
+00:28:29,039 --> 00:28:34,640
+our product we can provide source code
+
+534
+00:28:31,840 --> 00:28:34,640
+to customers
+
+535
+00:28:35,039 --> 00:28:42,080
+okay yeah and
+
+536
+00:28:38,320 --> 00:28:44,240
+uh is this graph the the only system l
+
+537
+00:28:42,080 --> 00:28:48,640
+modeling tool in china so
+
+538
+00:28:44,240 --> 00:28:52,559
+a chinese modeling tool yes
+
+539
+00:28:48,640 --> 00:28:56,320
+currently we are chinese too okay
+
+540
+00:28:52,559 --> 00:28:59,919
+yeah very good so
+
+541
+00:28:56,320 --> 00:29:03,360
+if we can have more discussions
+
+542
+00:28:59,919 --> 00:29:06,720
+like today we are very happy to
+
+543
+00:29:03,360 --> 00:29:10,880
+provide our service to foreign customers
+
+544
+00:29:06,720 --> 00:29:14,640
+so we can discuss together
+
+545
+00:29:10,880 --> 00:29:17,200
+how we can have more meetings like today
+
+546
+00:29:14,640 --> 00:29:18,320
+so we are very happy to provide our
+
+547
+00:29:17,200 --> 00:29:21,520
+services
+
+548
+00:29:18,320 --> 00:29:23,200
+to to foreign customers
+
+549
+00:29:21,520 --> 00:29:27,039
+yeah okay yeah maybe someone is
+
+550
+00:29:23,200 --> 00:29:30,080
+interested who's watching us
+
+551
+00:29:27,039 --> 00:29:32,159
+okay um
+
+552
+00:29:30,080 --> 00:29:33,120
+i have one more question about the tool
+
+553
+00:29:32,159 --> 00:29:36,399
+uh how's
+
+554
+00:29:33,120 --> 00:29:38,960
+the the model stored is it the file
+
+555
+00:29:36,399 --> 00:29:40,080
+on on the on your hard disk or is it in
+
+556
+00:29:38,960 --> 00:29:44,080
+a database
+
+557
+00:29:40,080 --> 00:29:47,600
+or is it on a server okay and now
+
+558
+00:29:44,080 --> 00:29:50,640
+our modeling tool is a
+
+559
+00:29:47,600 --> 00:29:53,760
+single singly
+
+560
+00:29:50,640 --> 00:29:55,120
+and it's just a software we start our
+
+561
+00:29:53,760 --> 00:29:58,399
+model and date
+
+562
+00:29:55,120 --> 00:30:02,000
+in the disk
+
+563
+00:29:58,399 --> 00:30:05,440
+yes and we
+
+564
+00:30:02,000 --> 00:30:09,120
+we we did a lot of um research
+
+565
+00:30:05,440 --> 00:30:12,480
+we tried to store our data into
+
+566
+00:30:09,120 --> 00:30:16,480
+no secure database for example
+
+567
+00:30:12,480 --> 00:30:19,440
+neo4j we can store our model into
+
+568
+00:30:16,480 --> 00:30:19,440
+a knowledge graph
+
+569
+00:30:19,840 --> 00:30:27,440
+we did a lot of research and demo
+
+570
+00:30:22,960 --> 00:30:27,440
+for that but now we didn't um
+
+571
+00:30:27,919 --> 00:30:35,039
+integrate it into our product
+
+572
+00:30:31,360 --> 00:30:37,840
+okay but but basically it's
+
+573
+00:30:35,039 --> 00:30:38,799
+possible then for example to store it in
+
+574
+00:30:37,840 --> 00:30:41,919
+neo4j
+
+575
+00:30:38,799 --> 00:30:45,200
+but for example yeah yeah
+
+576
+00:30:41,919 --> 00:30:49,200
+yes we did a lot of demos for that
+
+577
+00:30:45,200 --> 00:30:53,120
+we also integrate speech recognition
+
+578
+00:30:49,200 --> 00:30:56,399
+we the customer can ask a question
+
+579
+00:30:53,120 --> 00:30:59,919
+and then we translate it into different
+
+580
+00:30:56,399 --> 00:31:04,080
+text and we
+
+581
+00:30:59,919 --> 00:31:07,039
+analysis it we can search in
+
+582
+00:31:04,080 --> 00:31:08,000
+neo4j and give the answer answer to
+
+583
+00:31:07,039 --> 00:31:11,200
+customers
+
+584
+00:31:08,000 --> 00:31:12,399
+we did a lot of demos for that very
+
+585
+00:31:11,200 --> 00:31:15,440
+interesting yeah
+
+586
+00:31:12,399 --> 00:31:16,559
+yeah i read you uh also did some work in
+
+587
+00:31:15,440 --> 00:31:18,159
+the
+
+588
+00:31:16,559 --> 00:31:19,919
+not specific for this group but you you
+
+589
+00:31:18,159 --> 00:31:21,760
+also worked in the field of artificial
+
+590
+00:31:19,919 --> 00:31:24,880
+intelligence right
+
+591
+00:31:21,760 --> 00:31:28,960
+yeah yes that's what i feel well yeah
+
+592
+00:31:24,880 --> 00:31:32,320
+before this graph i um play a role of
+
+593
+00:31:28,960 --> 00:31:35,600
+ai researchers fellow
+
+594
+00:31:32,320 --> 00:31:38,320
+in a company for many years so we tried
+
+595
+00:31:35,600 --> 00:31:41,919
+two different
+
+596
+00:31:38,320 --> 00:31:45,760
+ai technologies for example and
+
+597
+00:31:41,919 --> 00:31:48,640
+machine learning and and and
+
+598
+00:31:45,760 --> 00:31:50,159
+knowledge graph so we did a lot of
+
+599
+00:31:48,640 --> 00:31:54,880
+research
+
+600
+00:31:50,159 --> 00:31:58,080
+but um if you want to landing the
+
+601
+00:31:54,880 --> 00:32:01,120
+ai in real project it's very
+
+602
+00:31:58,080 --> 00:32:05,200
+um a little difficult for
+
+603
+00:32:01,120 --> 00:32:07,519
+fun now right now yeah yeah
+
+604
+00:32:05,200 --> 00:32:08,240
+yeah i think it's in the beginning but
+
+605
+00:32:07,519 --> 00:32:11,440
+uh yes
+
+606
+00:32:08,240 --> 00:32:13,760
+it's it's a starting topic so i i uh
+
+607
+00:32:11,440 --> 00:32:15,360
+read more and more about it about ai in
+
+608
+00:32:13,760 --> 00:32:17,679
+combination with mbse
+
+609
+00:32:15,360 --> 00:32:18,399
+and so there's even a conference or a
+
+610
+00:32:17,679 --> 00:32:21,279
+workshop
+
+611
+00:32:18,399 --> 00:32:21,840
+here in europe uh it was held in in
+
+612
+00:32:21,279 --> 00:32:23,760
+spain
+
+613
+00:32:21,840 --> 00:32:25,919
+two years ago and last year it was due
+
+614
+00:32:23,760 --> 00:32:29,200
+to covert only virtually
+
+615
+00:32:25,919 --> 00:32:30,640
+uh so it's also supported by cosy
+
+616
+00:32:29,200 --> 00:32:32,240
+that's a that's a really interesting
+
+617
+00:32:30,640 --> 00:32:35,919
+combination
+
+618
+00:32:32,240 --> 00:32:39,919
+yeah yeah absolutely
+
+619
+00:32:35,919 --> 00:32:43,840
+yes so yeah if you want to and do ai
+
+620
+00:32:39,919 --> 00:32:43,840
+research you need um
+
+621
+00:32:44,720 --> 00:32:49,120
+more more date or models but for fse the
+
+622
+00:32:48,480 --> 00:32:52,159
+customers
+
+623
+00:32:49,120 --> 00:32:55,519
+it's just beginning to accumulate
+
+624
+00:32:52,159 --> 00:32:58,559
+models so you can represent your
+
+625
+00:32:55,519 --> 00:33:02,240
+knowledge experience into
+
+626
+00:32:58,559 --> 00:33:05,679
+model so you you need to accumulate
+
+627
+00:33:02,240 --> 00:33:08,320
+more models and dates but for
+
+628
+00:33:05,679 --> 00:33:09,600
+more chinese customers i think it's just
+
+629
+00:33:08,320 --> 00:33:12,799
+a beginning
+
+630
+00:33:09,600 --> 00:33:16,320
+for mbse there are not many
+
+631
+00:33:12,799 --> 00:33:20,559
+models not many data
+
+632
+00:33:16,320 --> 00:33:24,960
+in models so we have a long road to
+
+633
+00:33:20,559 --> 00:33:28,000
+to to to go i think
+
+634
+00:33:24,960 --> 00:33:31,120
+and after that you can do
+
+635
+00:33:28,000 --> 00:33:38,240
+many uh artificial intelligence
+
+636
+00:33:31,120 --> 00:33:39,679
+proprieties no we don't have very models
+
+637
+00:33:38,240 --> 00:33:42,960
+yeah i think that's an issue to have the
+
+638
+00:33:39,679 --> 00:33:46,000
+data for for ai technologies
+
+639
+00:33:42,960 --> 00:33:48,480
+yeah well but it will come
+
+640
+00:33:46,000 --> 00:33:48,480
+definitely
+
+641
+00:33:51,200 --> 00:33:58,080
+uh okay uh do you have any questions
+
+642
+00:33:55,039 --> 00:34:00,559
+online question are there any
+
+643
+00:33:58,080 --> 00:34:02,880
+live channels no live questions i think
+
+644
+00:34:00,559 --> 00:34:05,279
+we are a little bit early today
+
+645
+00:34:02,880 --> 00:34:06,080
+for the european listeners it's very
+
+646
+00:34:05,279 --> 00:34:06,490
+late for you
+
+647
+00:34:06,080 --> 00:34:09,760
+leo
+
+648
+00:34:06,490 --> 00:34:12,960
+[Laughter]
+
+649
+00:34:09,760 --> 00:34:16,399
+so we have no live questions today yeah
+
+650
+00:34:12,960 --> 00:34:19,440
+but thank you for being with us
+
+651
+00:34:16,399 --> 00:34:21,599
+was very interesting for me yeah thank
+
+652
+00:34:19,440 --> 00:34:25,440
+you so much
+
+653
+00:34:21,599 --> 00:34:25,440
+thank you for calling my attention yeah
+
+654
+00:34:25,599 --> 00:34:29,040
+yeah next time i'm in shanghai i will
+
+655
+00:34:27,919 --> 00:34:35,839
+call you
+
+656
+00:34:29,040 --> 00:34:35,839
+i'm very calm
+
+657
+00:34:36,800 --> 00:34:41,040
+yeah yeah yeah we met at the best conf
+
+658
+00:34:38,879 --> 00:34:43,919
+and then during a business trip i did
+
+659
+00:34:41,040 --> 00:34:44,399
+and i was on a vacation in shanghai but
+
+660
+00:34:43,919 --> 00:34:48,320
+then we
+
+661
+00:34:44,399 --> 00:34:48,320
+had no time to to match unfortunately
+
+662
+00:34:51,040 --> 00:34:54,800
+i was never in shanghai i also only was
+
+663
+00:34:53,919 --> 00:34:57,359
+once in
+
+664
+00:34:54,800 --> 00:34:58,720
+uh i don't know if i pronounced it right
+
+665
+00:34:57,359 --> 00:35:02,000
+in shenzhen
+
+666
+00:34:58,720 --> 00:35:05,839
+yeah um uh that was very
+
+667
+00:35:02,000 --> 00:35:09,599
+interesting uh to see and
+
+668
+00:35:05,839 --> 00:35:11,520
+yeah maybe i i make it to shanghai at
+
+669
+00:35:09,599 --> 00:35:17,040
+some time
+
+670
+00:35:11,520 --> 00:35:17,040
+is doing a lot of mbse projects
+
+671
+00:35:17,520 --> 00:35:22,920
+okay cool yeah so it's time for an mbse
+
+672
+00:35:21,359 --> 00:35:25,760
+conference in shanghai
+
+673
+00:35:22,920 --> 00:35:30,240
+[Music]
+
+674
+00:35:25,760 --> 00:35:32,880
+absolutely okay so tim
+
+675
+00:35:30,240 --> 00:35:33,440
+do you want to wrap up what do we have
+
+676
+00:35:32,880 --> 00:35:36,960
+yes
+
+677
+00:35:33,440 --> 00:35:39,200
+again and well normally
+
+678
+00:35:36,960 --> 00:35:39,200
+we
+
+679
+00:35:40,560 --> 00:35:45,680
+at the end we already published the the
+
+680
+00:35:43,839 --> 00:35:48,560
+next topic and the next date
+
+681
+00:35:45,680 --> 00:35:50,160
+but this time we don't have one so but
+
+682
+00:35:48,560 --> 00:35:51,680
+we are in the planning phase so we have
+
+683
+00:35:50,160 --> 00:35:55,280
+many many options
+
+684
+00:35:51,680 --> 00:35:58,960
+uh but nothing is final yet so
+
+685
+00:35:55,280 --> 00:35:59,680
+uh listen to our channels on linkedin
+
+686
+00:35:58,960 --> 00:36:02,640
+facebook
+
+687
+00:35:59,680 --> 00:36:03,200
+twitter and so on uh so we will publish
+
+688
+00:36:02,640 --> 00:36:06,240
+the next
+
+689
+00:36:03,200 --> 00:36:10,320
+episode as soon as we have the date
+
+690
+00:36:06,240 --> 00:36:13,440
+fixed and the guest of course um
+
+691
+00:36:10,320 --> 00:36:15,760
+yeah so yeah thanks to leo again
+
+692
+00:36:13,440 --> 00:36:16,960
+uh great to meet you again at least
+
+693
+00:36:15,760 --> 00:36:20,320
+virtually
+
+694
+00:36:16,960 --> 00:36:23,839
+and then the final thing christian
+
+695
+00:36:20,320 --> 00:36:28,160
+is of course like always
+
+696
+00:36:23,839 --> 00:36:31,359
+trust us we are systems engineers
+
+697
+00:36:28,160 --> 00:36:36,240
+good bye bye bye thank you
+
+698
+00:36:31,359 --> 00:36:36,240
+bye bye shall you bye bye thank you
+

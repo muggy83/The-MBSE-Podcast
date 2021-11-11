@@ -1,0 +1,4100 @@
+1
+00:00:09,270 --> 00:00:16,249
+[Music]
+
+2
+00:00:18,850 --> 00:00:27,789
+[Music]
+
+3
+00:00:28,840 --> 00:00:31,840
+so
+
+4
+00:01:02,879 --> 00:01:06,080
+hello everybody
+
+5
+00:01:06,159 --> 00:01:13,360
+hello welcome to our third mbse podcast
+
+6
+00:01:09,600 --> 00:01:17,600
+i'm tim and i'm one of your hosts today
+
+7
+00:01:13,360 --> 00:01:20,720
+we do an unboxing episode
+
+8
+00:01:17,600 --> 00:01:21,600
+um it will not be the new iphone but
+
+9
+00:01:20,720 --> 00:01:25,360
+much better
+
+10
+00:01:21,600 --> 00:01:27,600
+the brand new system l version two and
+
+11
+00:01:25,360 --> 00:01:28,720
+well this time we do an english episode
+
+12
+00:01:27,600 --> 00:01:32,240
+so
+
+13
+00:01:28,720 --> 00:01:33,200
+let's ask my co-hosts christian why two
+
+14
+00:01:32,240 --> 00:01:37,759
+german guys
+
+15
+00:01:33,200 --> 00:01:40,240
+do an english or germish podcast
+
+16
+00:01:37,759 --> 00:01:41,439
+yeah you know up to now here there are
+
+17
+00:01:40,240 --> 00:01:44,159
+only a few
+
+18
+00:01:41,439 --> 00:01:45,360
+uh it's only a few information on sml on
+
+19
+00:01:44,159 --> 00:01:47,840
+the internet
+
+20
+00:01:45,360 --> 00:01:48,880
+and besides on some presentations of at
+
+21
+00:01:47,840 --> 00:01:52,000
+cydowitz and
+
+22
+00:01:48,880 --> 00:01:54,240
+sandy friedenthal we thought that there
+
+23
+00:01:52,000 --> 00:01:55,040
+might be a worldwide interest in system
+
+24
+00:01:54,240 --> 00:01:56,960
+lv2
+
+25
+00:01:55,040 --> 00:01:58,799
+and we decided to hold the session in
+
+26
+00:01:56,960 --> 00:02:02,719
+english
+
+27
+00:01:58,799 --> 00:02:05,520
+okay so we also have some pure nbse
+
+28
+00:02:02,719 --> 00:02:06,479
+podcast listeners who do not see what we
+
+29
+00:02:05,520 --> 00:02:08,640
+do
+
+30
+00:02:06,479 --> 00:02:09,679
+so it should also be understandable
+
+31
+00:02:08,640 --> 00:02:11,760
+without the video
+
+32
+00:02:09,679 --> 00:02:13,120
+so do not switch off if you are only
+
+33
+00:02:11,760 --> 00:02:15,599
+listening to us
+
+34
+00:02:13,120 --> 00:02:17,520
+however it will be easier to follow us
+
+35
+00:02:15,599 --> 00:02:19,760
+with the video
+
+36
+00:02:17,520 --> 00:02:21,040
+um yeah christian can you briefly
+
+37
+00:02:19,760 --> 00:02:24,560
+explain what we want to talk
+
+38
+00:02:21,040 --> 00:02:26,640
+about today sure so
+
+39
+00:02:24,560 --> 00:02:27,599
+first of all we i think we need to
+
+40
+00:02:26,640 --> 00:02:30,800
+clarify
+
+41
+00:02:27,599 --> 00:02:32,720
+that all what we are doing today is uh
+
+42
+00:02:30,800 --> 00:02:36,560
+having a look under the hood
+
+43
+00:02:32,720 --> 00:02:39,599
+and within these 30 40 minutes which we
+
+44
+00:02:36,560 --> 00:02:41,920
+have we can't go too much into detail
+
+45
+00:02:39,599 --> 00:02:43,200
+but we will show you what what's there
+
+46
+00:02:41,920 --> 00:02:46,480
+what's existing
+
+47
+00:02:43,200 --> 00:02:48,560
+and you will see much textual language
+
+48
+00:02:46,480 --> 00:02:52,160
+and it might seem to
+
+49
+00:02:48,560 --> 00:02:54,239
+some people that susan l2
+
+50
+00:02:52,160 --> 00:02:56,000
+is getting a programming language with a
+
+51
+00:02:54,239 --> 00:02:59,280
+textual notation
+
+52
+00:02:56,000 --> 00:03:00,800
+but the contrary is the truth so um
+
+53
+00:02:59,280 --> 00:03:03,599
+of course there will be a graphical
+
+54
+00:03:00,800 --> 00:03:06,879
+notation in near future
+
+55
+00:03:03,599 --> 00:03:09,840
+but textual notation will be added as a
+
+56
+00:03:06,879 --> 00:03:10,319
+second view or another view on the model
+
+57
+00:03:09,840 --> 00:03:13,360
+which
+
+58
+00:03:10,319 --> 00:03:16,480
+is very precise and
+
+59
+00:03:13,360 --> 00:03:17,440
+if you know modelica there you can
+
+60
+00:03:16,480 --> 00:03:20,159
+switch between
+
+61
+00:03:17,440 --> 00:03:21,599
+graphical and textual notation and it's
+
+62
+00:03:20,159 --> 00:03:23,440
+very clear to the user
+
+63
+00:03:21,599 --> 00:03:27,200
+what the system is doing with your
+
+64
+00:03:23,440 --> 00:03:30,480
+graphical notation that you have modeled
+
+65
+00:03:27,200 --> 00:03:34,720
+yeah so um
+
+66
+00:03:30,480 --> 00:03:36,319
+moreover um with a textual notation
+
+67
+00:03:34,720 --> 00:03:38,640
+we might have the chance to have
+
+68
+00:03:36,319 --> 00:03:42,560
+something like a let's call it
+
+69
+00:03:38,640 --> 00:03:45,440
+stateless exchange format um of course
+
+70
+00:03:42,560 --> 00:03:47,280
+in such a notation there are no user
+
+71
+00:03:45,440 --> 00:03:51,760
+uuids
+
+72
+00:03:47,280 --> 00:03:54,000
+and that means a small modeler can't
+
+73
+00:03:51,760 --> 00:03:55,840
+really decide is this a new modeling
+
+74
+00:03:54,000 --> 00:03:58,239
+element or was it there before
+
+75
+00:03:55,840 --> 00:03:59,040
+you pasted something in in an existing
+
+76
+00:03:58,239 --> 00:04:01,360
+model
+
+77
+00:03:59,040 --> 00:04:05,200
+but it's better and it should work much
+
+78
+00:04:01,360 --> 00:04:10,400
+better than the existing xmi schema
+
+79
+00:04:05,200 --> 00:04:10,400
+so tim what is in this box
+
+80
+00:04:10,560 --> 00:04:14,000
+yeah so since the latest release that's
+
+81
+00:04:13,680 --> 00:04:17,199
+uh
+
+82
+00:04:14,000 --> 00:04:20,000
+20 2010 um the
+
+83
+00:04:17,199 --> 00:04:21,840
+release is available on on github well
+
+84
+00:04:20,000 --> 00:04:23,759
+the previous releases were available on
+
+85
+00:04:21,840 --> 00:04:26,240
+google drive so we
+
+86
+00:04:23,759 --> 00:04:27,520
+we published a link to a google drive
+
+87
+00:04:26,240 --> 00:04:30,479
+where you
+
+88
+00:04:27,520 --> 00:04:30,800
+found a zip file and now everything is
+
+89
+00:04:30,479 --> 00:04:34,400
+on
+
+90
+00:04:30,800 --> 00:04:37,280
+on github so let's open the github page
+
+91
+00:04:34,400 --> 00:04:39,680
+there's a team for the sst who develops
+
+92
+00:04:37,280 --> 00:04:40,080
+the system lb2 so i share my screen and
+
+93
+00:04:39,680 --> 00:04:43,680
+you
+
+94
+00:04:40,080 --> 00:04:56,639
+will shortly seed the github
+
+95
+00:04:43,680 --> 00:04:59,759
+let's see
+
+96
+00:04:56,639 --> 00:04:59,759
+well covered here
+
+97
+00:05:05,840 --> 00:05:12,720
+ah here it is here we have the github
+
+98
+00:05:09,600 --> 00:05:15,199
+so so 6ml is so big tim has to look
+
+99
+00:05:12,720 --> 00:05:15,199
+around
+
+100
+00:05:17,520 --> 00:05:20,560
+yeah so now you should see the the
+
+101
+00:05:19,840 --> 00:05:25,280
+github
+
+102
+00:05:20,560 --> 00:05:28,800
+team page of the system submission team
+
+103
+00:05:25,280 --> 00:05:32,160
+the url is github.com systems
+
+104
+00:05:28,800 --> 00:05:34,400
+modeling we will also put
+
+105
+00:05:32,160 --> 00:05:35,919
+this url in our show notes after this
+
+106
+00:05:34,400 --> 00:05:39,199
+episode
+
+107
+00:05:35,919 --> 00:05:41,360
+and there are um five
+
+108
+00:05:39,199 --> 00:05:43,440
+public and one private repositories here
+
+109
+00:05:41,360 --> 00:05:46,240
+to see so i can see the private
+
+110
+00:05:43,440 --> 00:05:48,080
+repository because uh i have access
+
+111
+00:05:46,240 --> 00:05:48,479
+rights to it because i work on that
+
+112
+00:05:48,080 --> 00:05:52,320
+that's
+
+113
+00:05:48,479 --> 00:05:55,199
+this isn't a v12v2 transformation
+
+114
+00:05:52,320 --> 00:05:55,759
+and we make it public as soon as this is
+
+115
+00:05:55,199 --> 00:05:59,280
+more
+
+116
+00:05:55,759 --> 00:06:01,440
+major currently it's very draft
+
+117
+00:05:59,280 --> 00:06:04,319
+so we see different repositories here
+
+118
+00:06:01,440 --> 00:06:07,840
+and today we would like to un
+
+119
+00:06:04,319 --> 00:06:09,680
+box the release and we find the release
+
+120
+00:06:07,840 --> 00:06:10,720
+of course here in the release repository
+
+121
+00:06:09,680 --> 00:06:13,440
+so let's go
+
+122
+00:06:10,720 --> 00:06:13,440
+into this one
+
+123
+00:06:17,520 --> 00:06:21,520
+so you can clone this repository or you
+
+124
+00:06:20,720 --> 00:06:24,400
+can
+
+125
+00:06:21,520 --> 00:06:26,400
+download still the zip file that
+
+126
+00:06:24,400 --> 00:06:28,800
+contains everything you need
+
+127
+00:06:26,400 --> 00:06:32,319
+and the zip file is here if you scroll
+
+128
+00:06:28,800 --> 00:06:34,720
+down you find the readme
+
+129
+00:06:32,319 --> 00:06:35,919
+of this one and there somewhere is the
+
+130
+00:06:34,720 --> 00:06:38,960
+link
+
+131
+00:06:35,919 --> 00:06:42,000
+um to the
+
+132
+00:06:38,960 --> 00:06:43,600
+releases and if you click on the link uh
+
+133
+00:06:42,000 --> 00:06:46,560
+you come to another page
+
+134
+00:06:43,600 --> 00:06:47,360
+where you find the zip file of the
+
+135
+00:06:46,560 --> 00:06:49,919
+latest
+
+136
+00:06:47,360 --> 00:06:51,840
+release actually there are two zip files
+
+137
+00:06:49,919 --> 00:06:54,240
+one is the pilot implementation
+
+138
+00:06:51,840 --> 00:06:55,759
+and the other one is api and services
+
+139
+00:06:54,240 --> 00:06:58,000
+and today we look on the pilot
+
+140
+00:06:55,759 --> 00:07:02,160
+implementation
+
+141
+00:06:58,000 --> 00:07:05,199
+so christian unzip the zip what's in it
+
+142
+00:07:02,160 --> 00:07:09,039
+yeah let's have a look so let me
+
+143
+00:07:05,199 --> 00:07:13,039
+share my screen yes i want to
+
+144
+00:07:09,039 --> 00:07:13,039
+overwrite tim oh
+
+145
+00:07:13,759 --> 00:07:23,440
+so well prepared
+
+146
+00:07:18,000 --> 00:07:27,360
+when we unzip this the zip file
+
+147
+00:07:23,440 --> 00:07:31,440
+we find several
+
+148
+00:07:27,360 --> 00:07:34,720
+folders and files and all in all it has
+
+149
+00:07:31,440 --> 00:07:36,160
+around 175 megabytes so a lot of stuff
+
+150
+00:07:34,720 --> 00:07:39,199
+in it
+
+151
+00:07:36,160 --> 00:07:40,400
+but let's have a look so first of all we
+
+152
+00:07:39,199 --> 00:07:44,160
+have a readme file
+
+153
+00:07:40,400 --> 00:07:46,400
+a readme markdown file so there are
+
+154
+00:07:44,160 --> 00:07:47,759
+all the instructions how to install and
+
+155
+00:07:46,400 --> 00:07:50,800
+and what it is
+
+156
+00:07:47,759 --> 00:07:54,240
+of course there's some licensing
+
+157
+00:07:50,800 --> 00:07:57,120
+licensing stuff so uh currently
+
+158
+00:07:54,240 --> 00:07:59,599
+nearly everything is licensed under the
+
+159
+00:07:57,120 --> 00:08:02,720
+sst member organizations
+
+160
+00:07:59,599 --> 00:08:06,240
+listed in the documents and the pilot
+
+161
+00:08:02,720 --> 00:08:07,919
+implementation is especially uh licensed
+
+162
+00:08:06,240 --> 00:08:10,240
+by model driven solutions so
+
+163
+00:08:07,919 --> 00:08:11,759
+ed took a lot of work in it he's working
+
+164
+00:08:10,240 --> 00:08:14,879
+for
+
+165
+00:08:11,759 --> 00:08:17,360
+and yeah but it is licensed under
+
+166
+00:08:14,879 --> 00:08:20,560
+creative commons i think
+
+167
+00:08:17,360 --> 00:08:24,000
+and yeah so you can use it
+
+168
+00:08:20,560 --> 00:08:26,080
+you can modify it i think
+
+169
+00:08:24,000 --> 00:08:27,759
+but you can sell it or something like
+
+170
+00:08:26,080 --> 00:08:31,280
+that
+
+171
+00:08:27,759 --> 00:08:33,760
+yeah so actually the the pdf is uh
+
+172
+00:08:31,280 --> 00:08:34,640
+creative common license the other one is
+
+173
+00:08:33,760 --> 00:08:38,159
+the gru
+
+174
+00:08:34,640 --> 00:08:42,640
+license oh thank you tim
+
+175
+00:08:38,159 --> 00:08:42,640
+the legal stuff is sophisticated yes
+
+176
+00:08:43,440 --> 00:08:47,440
+yeah so what do we have we have a
+
+177
+00:08:45,760 --> 00:08:50,720
+documentations folder where
+
+178
+00:08:47,440 --> 00:08:53,279
+you find some documents we will show you
+
+179
+00:08:50,720 --> 00:08:55,200
+in the next minutes we take a closer
+
+180
+00:08:53,279 --> 00:08:59,200
+look to them
+
+181
+00:08:55,200 --> 00:09:00,240
+um but as you can see over a megabyte of
+
+182
+00:08:59,200 --> 00:09:03,680
+text
+
+183
+00:09:00,240 --> 00:09:06,480
+uh it's a lot of stuff and we have
+
+184
+00:09:03,680 --> 00:09:08,000
+all the install files for eclipse and
+
+185
+00:09:06,480 --> 00:09:11,040
+jupyter jupiter
+
+186
+00:09:08,000 --> 00:09:13,600
+both parts are pilot implementations uh
+
+187
+00:09:11,040 --> 00:09:14,959
+in which we will have a look in the next
+
+188
+00:09:13,600 --> 00:09:18,240
+minutes
+
+189
+00:09:14,959 --> 00:09:20,800
+um then we have uh yeah some metamodel
+
+190
+00:09:18,240 --> 00:09:23,920
+stuff here in carmel
+
+191
+00:09:20,800 --> 00:09:24,720
+as well as in sysml so uh all the
+
+192
+00:09:23,920 --> 00:09:27,920
+sources
+
+193
+00:09:24,720 --> 00:09:30,480
+um to the
+
+194
+00:09:27,920 --> 00:09:31,200
+um to the language and inside the
+
+195
+00:09:30,480 --> 00:09:34,320
+language
+
+196
+00:09:31,200 --> 00:09:35,040
+and the source folder you also find many
+
+197
+00:09:34,320 --> 00:09:37,279
+examples
+
+198
+00:09:35,040 --> 00:09:40,320
+so there are several examples for
+
+199
+00:09:37,279 --> 00:09:43,600
+example for example another example
+
+200
+00:09:40,320 --> 00:09:46,640
+of the vehicle example
+
+201
+00:09:43,600 --> 00:09:50,320
+which might be
+
+202
+00:09:46,640 --> 00:09:53,200
+might have get some fame because it's
+
+203
+00:09:50,320 --> 00:09:54,080
+the example from ads and sandy's
+
+204
+00:09:53,200 --> 00:09:57,760
+presentations
+
+205
+00:09:54,080 --> 00:10:00,000
+so far but as you can see there are
+
+206
+00:09:57,760 --> 00:10:02,160
+several more examples the camera example
+
+207
+00:10:00,000 --> 00:10:05,760
+which contains some stuff
+
+208
+00:10:02,160 --> 00:10:07,920
+especially for behavioral modeling
+
+209
+00:10:05,760 --> 00:10:09,519
+which is coming from cornet block i
+
+210
+00:10:07,920 --> 00:10:12,880
+think
+
+211
+00:10:09,519 --> 00:10:12,880
+and many more
+
+212
+00:10:13,120 --> 00:10:20,720
+so the last folder we did not login
+
+213
+00:10:16,240 --> 00:10:23,760
+is the ssml library and
+
+214
+00:10:20,720 --> 00:10:27,200
+this is not filled up very much
+
+215
+00:10:23,760 --> 00:10:28,880
+up to now but as you can see there is a
+
+216
+00:10:27,200 --> 00:10:32,800
+folder in it
+
+217
+00:10:28,880 --> 00:10:36,800
+called geometry and it contains
+
+218
+00:10:32,800 --> 00:10:39,920
+some basic geometry geometrical geometry
+
+219
+00:10:36,800 --> 00:10:45,519
+some basic stuff of geometry means
+
+220
+00:10:39,920 --> 00:10:50,640
+how to um to cover some domain knowledge
+
+221
+00:10:45,519 --> 00:10:53,839
+regarding cat and how to connect that
+
+222
+00:10:50,640 --> 00:10:57,440
+so um did i miss something
+
+223
+00:10:53,839 --> 00:11:00,640
+tim no i think that's it that we
+
+224
+00:10:57,440 --> 00:11:04,000
+will revisit some of these elements
+
+225
+00:11:00,640 --> 00:11:07,440
+when we look at the implementation sure
+
+226
+00:11:04,000 --> 00:11:09,360
+so then tim tell us what's in part one
+
+227
+00:11:07,440 --> 00:11:12,079
+of these documents
+
+228
+00:11:09,360 --> 00:11:14,079
+yeah so there are three documents for
+
+229
+00:11:12,079 --> 00:11:17,839
+the system lv2 specification
+
+230
+00:11:14,079 --> 00:11:21,600
+and let's have a look at part one
+
+231
+00:11:17,839 --> 00:11:24,399
+i try to share my screen
+
+232
+00:11:21,600 --> 00:11:25,600
+so you can see it at least the people
+
+233
+00:11:24,399 --> 00:11:29,279
+who have video
+
+234
+00:11:25,600 --> 00:11:32,560
+i must look around my box
+
+235
+00:11:29,279 --> 00:11:33,600
+yeah part one is the specification of
+
+236
+00:11:32,560 --> 00:11:37,120
+carmel
+
+237
+00:11:33,600 --> 00:11:38,720
+and carmel is um so to say the beta
+
+238
+00:11:37,120 --> 00:11:42,079
+model elect
+
+239
+00:11:38,720 --> 00:11:45,760
+for system lv2 system everyone is based
+
+240
+00:11:42,079 --> 00:11:49,120
+on uml and susan lv2 gets a new
+
+241
+00:11:45,760 --> 00:11:52,959
+complete new brand new beta model
+
+242
+00:11:49,120 --> 00:11:56,079
+uh so here's you see the the cover page
+
+243
+00:11:52,959 --> 00:11:59,120
+of this document it's already
+
+244
+00:11:56,079 --> 00:11:59,680
+more than 200 pages long so and i assume
+
+245
+00:11:59,120 --> 00:12:03,360
+it will be
+
+246
+00:11:59,680 --> 00:12:07,040
+much longer uh when it's finalized
+
+247
+00:12:03,360 --> 00:12:10,399
+and yeah we can jump
+
+248
+00:12:07,040 --> 00:12:12,480
+to the scope chapter if you open an omg
+
+249
+00:12:10,399 --> 00:12:15,360
+specification document
+
+250
+00:12:12,480 --> 00:12:17,920
+the scope chapter at the beginning it's
+
+251
+00:12:15,360 --> 00:12:20,399
+mostly it's
+
+252
+00:12:17,920 --> 00:12:21,040
+chapter one it's interesting because
+
+253
+00:12:20,399 --> 00:12:24,399
+there you
+
+254
+00:12:21,040 --> 00:12:27,920
+can read what is the scope of this one
+
+255
+00:12:24,399 --> 00:12:28,720
+and it says uh the karma provides an
+
+256
+00:12:27,920 --> 00:12:31,040
+application
+
+257
+00:12:28,720 --> 00:12:32,320
+independent syntax and semantics for
+
+258
+00:12:31,040 --> 00:12:34,480
+creating more specific
+
+259
+00:12:32,320 --> 00:12:36,160
+modeling language well so that's the
+
+260
+00:12:34,480 --> 00:12:40,160
+meter model
+
+261
+00:12:36,160 --> 00:12:43,600
+the the basis for the system uh v2
+
+262
+00:12:40,160 --> 00:12:46,560
+and yeah we kind of look uh
+
+263
+00:12:43,600 --> 00:12:47,839
+into the beta model that's meter models
+
+264
+00:12:46,560 --> 00:12:52,720
+are sophisticated
+
+265
+00:12:47,839 --> 00:12:56,160
+stuff so let's look for example
+
+266
+00:12:52,720 --> 00:12:59,680
+here into the into
+
+267
+00:12:56,160 --> 00:13:02,399
+section seven three um that's about
+
+268
+00:12:59,680 --> 00:13:04,720
+types types is a common concept in the
+
+269
+00:13:02,399 --> 00:13:07,680
+modeling languages
+
+270
+00:13:04,720 --> 00:13:09,040
+and currently we look on the on the beta
+
+271
+00:13:07,680 --> 00:13:12,959
+model diagram
+
+272
+00:13:09,040 --> 00:13:16,079
+for those who cannot see it and we see
+
+273
+00:13:12,959 --> 00:13:18,880
+the the type for example and
+
+274
+00:13:16,079 --> 00:13:19,200
+on the right side the feature so simply
+
+275
+00:13:18,880 --> 00:13:20,880
+set
+
+276
+00:13:19,200 --> 00:13:23,440
+the the block and the property for
+
+277
+00:13:20,880 --> 00:13:25,839
+example these are special types or
+
+278
+00:13:23,440 --> 00:13:27,760
+or features and we can also see a
+
+279
+00:13:25,839 --> 00:13:28,720
+special thing here that the feature is a
+
+280
+00:13:27,760 --> 00:13:31,760
+special type
+
+281
+00:13:28,720 --> 00:13:34,160
+that's that's new in system lv2 uh
+
+282
+00:13:31,760 --> 00:13:35,360
+we have in system v1 we have types and
+
+283
+00:13:34,160 --> 00:13:38,480
+we have the features
+
+284
+00:13:35,360 --> 00:13:40,000
+and in system lb2 a feature can also be
+
+285
+00:13:38,480 --> 00:13:43,279
+a type itself
+
+286
+00:13:40,000 --> 00:13:46,160
+that's a little bit weird and
+
+287
+00:13:43,279 --> 00:13:47,680
+i think it's worth another episode of
+
+288
+00:13:46,160 --> 00:13:51,600
+this podcast to discuss
+
+289
+00:13:47,680 --> 00:13:53,040
+that one and maybe one more you also see
+
+290
+00:13:51,600 --> 00:13:55,680
+here
+
+291
+00:13:53,040 --> 00:13:56,160
+an element called feature membership
+
+292
+00:13:55,680 --> 00:13:59,760
+that's
+
+293
+00:13:56,160 --> 00:14:03,120
+the relationship that a feature is owned
+
+294
+00:13:59,760 --> 00:14:03,839
+by by a type and we will see these
+
+295
+00:14:03,120 --> 00:14:05,839
+elements
+
+296
+00:14:03,839 --> 00:14:08,240
+later again when we look into the the
+
+297
+00:14:05,839 --> 00:14:10,959
+pilot implementation
+
+298
+00:14:08,240 --> 00:14:11,680
+um yeah i think that's it so far for
+
+299
+00:14:10,959 --> 00:14:13,199
+part one
+
+300
+00:14:11,680 --> 00:14:15,279
+of course there's lots and lots of more
+
+301
+00:14:13,199 --> 00:14:16,880
+stuff but uh that's out of scope for
+
+302
+00:14:15,279 --> 00:14:19,040
+this unboxing
+
+303
+00:14:16,880 --> 00:14:20,639
+so christian what's what is this in part
+
+304
+00:14:19,040 --> 00:14:23,120
+two and three
+
+305
+00:14:20,639 --> 00:14:25,440
+yeah let's have a look on my screen
+
+306
+00:14:23,120 --> 00:14:25,440
+again
+
+307
+00:14:25,600 --> 00:14:33,279
+and i also prepared um
+
+308
+00:14:29,360 --> 00:14:36,399
+some why done yeah some
+
+309
+00:14:33,279 --> 00:14:40,079
+pdfs here and um yeah
+
+310
+00:14:36,399 --> 00:14:43,680
+part two is about um
+
+311
+00:14:40,079 --> 00:14:47,600
+the language so it's the omg
+
+312
+00:14:43,680 --> 00:14:50,720
+systems modeling language version 2.0
+
+313
+00:14:47,600 --> 00:14:53,839
+specification which is
+
+314
+00:14:50,720 --> 00:14:57,279
+submitted in response to the rfp
+
+315
+00:14:53,839 --> 00:15:00,800
+from 2017 and
+
+316
+00:14:57,279 --> 00:15:03,839
+yeah so let's have a look uh into a
+
+317
+00:15:00,800 --> 00:15:06,560
+similar section like
+
+318
+00:15:03,839 --> 00:15:07,440
+tim has shown that so you see this is
+
+319
+00:15:06,560 --> 00:15:10,560
+also
+
+320
+00:15:07,440 --> 00:15:14,399
+nearly 400 pages long and
+
+321
+00:15:10,560 --> 00:15:16,800
+there you can imagine how much work
+
+322
+00:15:14,399 --> 00:15:18,639
+is in this in this language and in this
+
+323
+00:15:16,800 --> 00:15:21,760
+specification
+
+324
+00:15:18,639 --> 00:15:23,120
+and uh yeah so what i wanted to do is
+
+325
+00:15:21,760 --> 00:15:27,440
+switching with you
+
+326
+00:15:23,120 --> 00:15:30,959
+to section 7.7
+
+327
+00:15:27,440 --> 00:15:34,160
+um and maybe i will
+
+328
+00:15:30,959 --> 00:15:37,519
+find it in a minute so
+
+329
+00:15:34,160 --> 00:15:40,800
+because um 7.7 is
+
+330
+00:15:37,519 --> 00:15:44,480
+regarding and
+
+331
+00:15:40,800 --> 00:15:45,680
+parts is um yeah the concept of parts
+
+332
+00:15:44,480 --> 00:15:48,800
+was there also
+
+333
+00:15:45,680 --> 00:15:51,440
+in sesame one but
+
+334
+00:15:48,800 --> 00:15:52,560
+we have some change we don't have a
+
+335
+00:15:51,440 --> 00:15:55,040
+block anymore
+
+336
+00:15:52,560 --> 00:15:57,199
+so the block is called part definition
+
+337
+00:15:55,040 --> 00:16:00,240
+now in system lv2
+
+338
+00:15:57,199 --> 00:16:02,720
+which brings us the concept of
+
+339
+00:16:00,240 --> 00:16:04,720
+definition and usage all across the
+
+340
+00:16:02,720 --> 00:16:09,199
+language
+
+341
+00:16:04,720 --> 00:16:11,440
+and you find it also in terms of
+
+342
+00:16:09,199 --> 00:16:12,800
+attributes in terms of of some behavior
+
+343
+00:16:11,440 --> 00:16:16,079
+stuff and it's
+
+344
+00:16:12,800 --> 00:16:18,959
+very similar for all the concepts
+
+345
+00:16:16,079 --> 00:16:19,440
+and yeah you can see the abstract syntax
+
+346
+00:16:18,959 --> 00:16:22,480
+now
+
+347
+00:16:19,440 --> 00:16:25,519
+here in this diagram
+
+348
+00:16:22,480 --> 00:16:28,560
+which gives you the context between
+
+349
+00:16:25,519 --> 00:16:30,320
+definition and usage as well how item
+
+350
+00:16:28,560 --> 00:16:31,120
+definition and part definition is
+
+351
+00:16:30,320 --> 00:16:34,000
+connected
+
+352
+00:16:31,120 --> 00:16:35,199
+to definition and how item usage and
+
+353
+00:16:34,000 --> 00:16:38,720
+part usage is
+
+354
+00:16:35,199 --> 00:16:42,240
+connected to usage and how those
+
+355
+00:16:38,720 --> 00:16:45,519
+two sides are acting together it
+
+356
+00:16:42,240 --> 00:16:49,279
+doesn't look very familiar and
+
+357
+00:16:45,519 --> 00:16:53,199
+it's fancy stuff behind it but trust me
+
+358
+00:16:49,279 --> 00:16:55,279
+there were people thinking a lot and uh
+
+359
+00:16:53,199 --> 00:16:58,560
+there were brilliant minds on
+
+360
+00:16:55,279 --> 00:17:02,160
+at work um
+
+361
+00:16:58,560 --> 00:17:06,319
+who decided to get rid of uh
+
+362
+00:17:02,160 --> 00:17:09,600
+of the uml meta model just because of
+
+363
+00:17:06,319 --> 00:17:12,240
+those things would not be possible but
+
+364
+00:17:09,600 --> 00:17:13,760
+they are the foundation for a much
+
+365
+00:17:12,240 --> 00:17:17,039
+clearer and
+
+366
+00:17:13,760 --> 00:17:18,000
+more specific and precise language like
+
+367
+00:17:17,039 --> 00:17:21,360
+system lv2
+
+368
+00:17:18,000 --> 00:17:25,280
+will be so we could
+
+369
+00:17:21,360 --> 00:17:30,000
+scroll through the other 384 pages
+
+370
+00:17:25,280 --> 00:17:33,039
+but then we will have a 24 hour
+
+371
+00:17:30,000 --> 00:17:36,240
+podcast session so we won't don't want
+
+372
+00:17:33,039 --> 00:17:36,640
+to bother you with this so that's why we
+
+373
+00:17:36,240 --> 00:17:39,600
+are
+
+374
+00:17:36,640 --> 00:17:42,320
+switching to the third document in this
+
+375
+00:17:39,600 --> 00:17:45,360
+release and the third document
+
+376
+00:17:42,320 --> 00:17:49,280
+is about the api
+
+377
+00:17:45,360 --> 00:17:52,480
+and as you can see again the front page
+
+378
+00:17:49,280 --> 00:17:55,520
+of the api which is in response to
+
+379
+00:17:52,480 --> 00:17:58,799
+another rfp like we mentioned it in the
+
+380
+00:17:55,520 --> 00:18:01,760
+last episode of our podcast which came
+
+381
+00:17:58,799 --> 00:18:02,799
+some months later than the language but
+
+382
+00:18:01,760 --> 00:18:06,480
+the api
+
+383
+00:18:02,799 --> 00:18:10,400
+is is
+
+384
+00:18:06,480 --> 00:18:13,679
+developed together with the language and
+
+385
+00:18:10,400 --> 00:18:16,640
+the benefits of it we will see in
+
+386
+00:18:13,679 --> 00:18:17,280
+some minutes so let's switch back to the
+
+387
+00:18:16,640 --> 00:18:20,720
+chapter
+
+388
+00:18:17,280 --> 00:18:24,240
+752 of this specification
+
+389
+00:18:20,720 --> 00:18:27,440
+it is a little bit shorter much shorter
+
+390
+00:18:24,240 --> 00:18:30,880
+than the language specification
+
+391
+00:18:27,440 --> 00:18:34,799
+and chapter 7.5 is about
+
+392
+00:18:30,880 --> 00:18:37,760
+element versioning the api is
+
+393
+00:18:34,799 --> 00:18:38,880
+offers some services and one of the
+
+394
+00:18:37,760 --> 00:18:41,360
+services
+
+395
+00:18:38,880 --> 00:18:42,400
+is element versioning and what i wanted
+
+396
+00:18:41,360 --> 00:18:45,679
+to show you
+
+397
+00:18:42,400 --> 00:18:50,640
+now is the abstract syntax
+
+398
+00:18:45,679 --> 00:18:53,840
+here in chapter 7.5.2
+
+399
+00:18:50,640 --> 00:18:56,960
+which shows um
+
+400
+00:18:53,840 --> 00:19:00,000
+a diagram connecting
+
+401
+00:18:56,960 --> 00:19:04,799
+the project itself so that means
+
+402
+00:19:00,000 --> 00:19:07,840
+the model um the head or the root
+
+403
+00:19:04,799 --> 00:19:09,200
+of a model is called project now and the
+
+404
+00:19:07,840 --> 00:19:12,559
+project contains
+
+405
+00:19:09,200 --> 00:19:15,760
+several element identities
+
+406
+00:19:12,559 --> 00:19:17,840
+and an identity can have multiple
+
+407
+00:19:15,760 --> 00:19:21,280
+versions
+
+408
+00:19:17,840 --> 00:19:24,880
+as well element version as
+
+409
+00:19:21,280 --> 00:19:28,400
+also element identity is
+
+410
+00:19:24,880 --> 00:19:30,720
+called a record and
+
+411
+00:19:28,400 --> 00:19:31,919
+the last element on this diagram is
+
+412
+00:19:30,720 --> 00:19:35,600
+commit
+
+413
+00:19:31,919 --> 00:19:38,160
+which is very yeah let's say git like
+
+414
+00:19:35,600 --> 00:19:40,000
+that a commit has a change set and a
+
+415
+00:19:38,160 --> 00:19:43,360
+change set contains
+
+416
+00:19:40,000 --> 00:19:44,240
+several element versions we will show
+
+417
+00:19:43,360 --> 00:19:46,559
+you a
+
+418
+00:19:44,240 --> 00:19:47,679
+pilot pilot implementation where we have
+
+419
+00:19:46,559 --> 00:19:51,200
+shown
+
+420
+00:19:47,679 --> 00:19:53,039
+in on the tdse on the german
+
+421
+00:19:51,200 --> 00:19:54,720
+national symposium in cozy national
+
+422
+00:19:53,039 --> 00:19:57,120
+symposium
+
+423
+00:19:54,720 --> 00:19:57,840
+last week where we yeah did a proof of
+
+424
+00:19:57,120 --> 00:20:02,000
+concept
+
+425
+00:19:57,840 --> 00:20:02,000
+how well and how easy that is working
+
+426
+00:20:02,159 --> 00:20:09,840
+so um
+
+427
+00:20:06,159 --> 00:20:12,640
+so we are through with all the documents
+
+428
+00:20:09,840 --> 00:20:14,000
+so i would say let's open the install
+
+429
+00:20:12,640 --> 00:20:17,120
+folder
+
+430
+00:20:14,000 --> 00:20:21,280
+yeah now the real stuff
+
+431
+00:20:17,120 --> 00:20:25,360
+so um yeah i take the screen
+
+432
+00:20:21,280 --> 00:20:27,760
+um and it's
+
+433
+00:20:25,360 --> 00:20:27,760
+here
+
+434
+00:20:28,480 --> 00:20:35,280
+so um if you have unzipped
+
+435
+00:20:32,159 --> 00:20:36,320
+the the release um you find the install
+
+436
+00:20:35,280 --> 00:20:40,080
+folder and
+
+437
+00:20:36,320 --> 00:20:42,559
+inside the install folder um are
+
+438
+00:20:40,080 --> 00:20:44,240
+two subfolders one is for the eclipse
+
+439
+00:20:42,559 --> 00:20:45,679
+pilot implementation and the other one
+
+440
+00:20:44,240 --> 00:20:50,080
+is for
+
+441
+00:20:45,679 --> 00:20:53,039
+jupyter and i open the eclipse one
+
+442
+00:20:50,080 --> 00:20:54,640
+and inside the eclipse folder you find a
+
+443
+00:20:53,039 --> 00:20:56,640
+readme file
+
+444
+00:20:54,640 --> 00:20:57,919
+and the rigby file explains very well
+
+445
+00:20:56,640 --> 00:21:01,039
+how to install
+
+446
+00:20:57,919 --> 00:21:03,760
+the system iv2 pilot
+
+447
+00:21:01,039 --> 00:21:05,520
+and i tried it a few days ago and it
+
+448
+00:21:03,760 --> 00:21:09,440
+works very well exactly
+
+449
+00:21:05,520 --> 00:21:11,520
+like it is described in the pdf
+
+450
+00:21:09,440 --> 00:21:13,360
+before you can start this installation
+
+451
+00:21:11,520 --> 00:21:15,120
+you need eclipse
+
+452
+00:21:13,360 --> 00:21:16,559
+it's not described how to install
+
+453
+00:21:15,120 --> 00:21:18,640
+eclipse but
+
+454
+00:21:16,559 --> 00:21:21,360
+that is quite easy you can download
+
+455
+00:21:18,640 --> 00:21:24,559
+eclipse from the eclipse.org website
+
+456
+00:21:21,360 --> 00:21:26,480
+uh actually you download an installer
+
+457
+00:21:24,559 --> 00:21:27,760
+then you start the installer and maybe
+
+458
+00:21:26,480 --> 00:21:30,240
+then it's a tricky part
+
+459
+00:21:27,760 --> 00:21:31,520
+the installer asks you which edition you
+
+460
+00:21:30,240 --> 00:21:33,840
+would like to install
+
+461
+00:21:31,520 --> 00:21:34,799
+i always install the so called eclipse
+
+462
+00:21:33,840 --> 00:21:37,600
+modeling tools
+
+463
+00:21:34,799 --> 00:21:39,679
+because we would like to do modeling but
+
+464
+00:21:37,600 --> 00:21:40,559
+it should also work with one of the
+
+465
+00:21:39,679 --> 00:21:42,880
+other ones
+
+466
+00:21:40,559 --> 00:21:45,039
+at least it must include the java
+
+467
+00:21:42,880 --> 00:21:47,039
+development kit
+
+468
+00:21:45,039 --> 00:21:48,640
+so once you have installed eclipse you
+
+469
+00:21:47,039 --> 00:21:52,000
+start with the guideline in
+
+470
+00:21:48,640 --> 00:21:54,400
+in the readme so i already
+
+471
+00:21:52,000 --> 00:21:56,640
+did that because that cost a lot of time
+
+472
+00:21:54,400 --> 00:22:00,320
+downloading installing etc etc
+
+473
+00:21:56,640 --> 00:22:04,159
+so it's already prepared and i
+
+474
+00:22:00,320 --> 00:22:05,840
+changed to my eclipse so let's do a new
+
+475
+00:22:04,159 --> 00:22:09,280
+share
+
+476
+00:22:05,840 --> 00:22:09,280
+and to the eclipse folder
+
+477
+00:22:09,919 --> 00:22:17,039
+should be somewhere on my pc
+
+478
+00:22:14,559 --> 00:22:17,039
+yes
+
+479
+00:22:19,360 --> 00:22:24,799
+and now you see the eclipse ide
+
+480
+00:22:24,960 --> 00:22:29,200
+by the way if you are not familiar with
+
+481
+00:22:26,480 --> 00:22:31,840
+eclipse um
+
+482
+00:22:29,200 --> 00:22:32,960
+you may be desperate to find the
+
+483
+00:22:31,840 --> 00:22:34,640
+preference
+
+484
+00:22:32,960 --> 00:22:36,000
+menu item that is mentioned in the
+
+485
+00:22:34,640 --> 00:22:39,120
+readme
+
+486
+00:22:36,000 --> 00:22:42,240
+it's located in the window menu
+
+487
+00:22:39,120 --> 00:22:43,200
+so maybe you would not expect a
+
+488
+00:22:42,240 --> 00:22:46,320
+preference
+
+489
+00:22:43,200 --> 00:22:49,200
+when you item below the windows so there
+
+490
+00:22:46,320 --> 00:22:49,200
+you find that one
+
+491
+00:22:50,720 --> 00:22:54,080
+so here you find when you install it you
+
+492
+00:22:53,120 --> 00:22:57,120
+find three
+
+493
+00:22:54,080 --> 00:22:58,159
+folders um karma system and the system
+
+494
+00:22:57,120 --> 00:23:01,600
+library
+
+495
+00:22:58,159 --> 00:23:04,799
+and as christian already showed you
+
+496
+00:23:01,600 --> 00:23:08,799
+below the system ad package you find the
+
+497
+00:23:04,799 --> 00:23:12,720
+examples and training stuff
+
+498
+00:23:08,799 --> 00:23:15,919
+which is also a huge list of examples
+
+499
+00:23:12,720 --> 00:23:18,320
+um and you can create your own modeling
+
+500
+00:23:15,919 --> 00:23:19,919
+projects that is also described in the
+
+501
+00:23:18,320 --> 00:23:22,000
+pdf how to do that
+
+502
+00:23:19,919 --> 00:23:22,960
+uh how to create a new project and then
+
+503
+00:23:22,000 --> 00:23:25,039
+you must
+
+504
+00:23:22,960 --> 00:23:27,200
+convert it to x text and things like
+
+505
+00:23:25,039 --> 00:23:30,799
+that that everything is described
+
+506
+00:23:27,200 --> 00:23:31,520
+very well in the pdf and in the end you
+
+507
+00:23:30,799 --> 00:23:34,320
+have
+
+508
+00:23:31,520 --> 00:23:34,640
+an empty projects and i already created
+
+509
+00:23:34,320 --> 00:23:36,640
+one
+
+510
+00:23:34,640 --> 00:23:39,600
+called simple system and inside the
+
+511
+00:23:36,640 --> 00:23:42,960
+project you can create a new file
+
+512
+00:23:39,600 --> 00:23:45,840
+with the with the
+
+513
+00:23:42,960 --> 00:23:47,760
+and dot system l and inside the file you
+
+514
+00:23:45,840 --> 00:23:50,450
+can start
+
+515
+00:23:47,760 --> 00:23:55,380
+yeah should i say programming system
+
+516
+00:23:50,450 --> 00:23:55,380
+[Laughter]
+
+517
+00:23:55,520 --> 00:24:02,080
+so there you find this isn't a code
+
+518
+00:23:58,799 --> 00:24:04,960
+maybe it's code and how to
+
+519
+00:24:02,080 --> 00:24:06,720
+do the textual system lv2 syntax is
+
+520
+00:24:04,960 --> 00:24:09,279
+displayed in one of the pdf
+
+521
+00:24:06,720 --> 00:24:11,919
+we mentioned before this is my v2
+
+522
+00:24:09,279 --> 00:24:14,400
+introduction pdf and the doc folder
+
+523
+00:24:11,919 --> 00:24:16,720
+contains actually a description of the
+
+524
+00:24:14,400 --> 00:24:20,000
+texture this might be two syntax
+
+525
+00:24:16,720 --> 00:24:23,440
+so i created here a very simple
+
+526
+00:24:20,000 --> 00:24:26,080
+model um it's
+
+527
+00:24:23,440 --> 00:24:27,120
+a part definition so a block and this
+
+528
+00:24:26,080 --> 00:24:28,960
+might be one
+
+529
+00:24:27,120 --> 00:24:30,320
+uh called simple system which contains
+
+530
+00:24:28,960 --> 00:24:33,600
+an attribute
+
+531
+00:24:30,320 --> 00:24:37,279
+mass of type real and then i create
+
+532
+00:24:33,600 --> 00:24:39,360
+a part of that type containing
+
+533
+00:24:37,279 --> 00:24:40,640
+three parts of that type so a very
+
+534
+00:24:39,360 --> 00:24:42,799
+simple structure so
+
+535
+00:24:40,640 --> 00:24:47,120
+pata is named my system and it has three
+
+536
+00:24:42,799 --> 00:24:50,159
+parts p1 2p3 very simple
+
+537
+00:24:47,120 --> 00:24:50,159
+when i click inside
+
+538
+00:24:50,559 --> 00:24:56,799
+the yes this is my v2 code
+
+539
+00:24:54,320 --> 00:24:57,679
+you see in the in the outline view of
+
+540
+00:24:56,799 --> 00:25:01,200
+eclipse
+
+541
+00:24:57,679 --> 00:25:04,960
+the the models structure
+
+542
+00:25:01,200 --> 00:25:08,400
+and there again you find then um
+
+543
+00:25:04,960 --> 00:25:09,360
+the types of the beta model you saw
+
+544
+00:25:08,400 --> 00:25:12,080
+before in the
+
+545
+00:25:09,360 --> 00:25:13,520
+in the pdf for example you find a lot of
+
+546
+00:25:12,080 --> 00:25:16,559
+feature memberships
+
+547
+00:25:13,520 --> 00:25:17,520
+so the relationship that relates a
+
+548
+00:25:16,559 --> 00:25:20,720
+feature
+
+549
+00:25:17,520 --> 00:25:23,840
+to to the owner in this case here it's
+
+550
+00:25:20,720 --> 00:25:25,760
+a part definition or a part usage
+
+551
+00:25:23,840 --> 00:25:28,559
+depending on which level we look into
+
+552
+00:25:25,760 --> 00:25:30,799
+our file
+
+553
+00:25:28,559 --> 00:25:32,940
+yeah and for those who would like to see
+
+554
+00:25:30,799 --> 00:25:34,400
+it graphically
+
+555
+00:25:32,940 --> 00:25:36,880
+[Music]
+
+556
+00:25:34,400 --> 00:25:38,000
+it's also possible to do that and the
+
+557
+00:25:36,880 --> 00:25:41,919
+readme pdf
+
+558
+00:25:38,000 --> 00:25:44,159
+is described how to install planned uml
+
+559
+00:25:41,919 --> 00:25:47,039
+so it's a
+
+560
+00:25:44,159 --> 00:25:48,880
+not a modeling tool i would say it's a
+
+561
+00:25:47,039 --> 00:25:52,240
+graphical visualizer
+
+562
+00:25:48,880 --> 00:25:55,840
+for for uml and it's adapted for
+
+563
+00:25:52,240 --> 00:25:56,880
+system lv2 and if it's installed you can
+
+564
+00:25:55,840 --> 00:26:00,559
+open
+
+565
+00:25:56,880 --> 00:26:03,440
+the plant uml view and for that you must
+
+566
+00:26:00,559 --> 00:26:06,240
+select the the window menu there you
+
+567
+00:26:03,440 --> 00:26:11,200
+find show views and then you can select
+
+568
+00:26:06,240 --> 00:26:16,480
+the the planned uml window and
+
+569
+00:26:11,200 --> 00:26:16,480
+then it shows that it should show
+
+570
+00:26:17,760 --> 00:26:25,600
+the system lb2 code in a graphical
+
+571
+00:26:22,840 --> 00:26:28,720
+notation by the way this is not the the
+
+572
+00:26:25,600 --> 00:26:31,200
+final system lb2 notation
+
+573
+00:26:28,720 --> 00:26:32,960
+uh it's just a graphical visualization
+
+574
+00:26:31,200 --> 00:26:35,760
+of this is my v2 code
+
+575
+00:26:32,960 --> 00:26:36,799
+but it's not not the final one it's the
+
+576
+00:26:35,760 --> 00:26:40,799
+notation that is
+
+577
+00:26:36,799 --> 00:26:43,860
+possible to do with planned uml
+
+578
+00:26:40,799 --> 00:26:45,120
+yeah that's uh quite nice
+
+579
+00:26:43,860 --> 00:26:48,320
+[Music]
+
+580
+00:26:45,120 --> 00:26:51,760
+and well i think that's it
+
+581
+00:26:48,320 --> 00:26:53,200
+so far but there's another this is my v2
+
+582
+00:26:51,760 --> 00:26:56,720
+pilot implementation
+
+583
+00:26:53,200 --> 00:26:59,120
+in the install folder and it's uh
+
+584
+00:26:56,720 --> 00:27:00,240
+based on jupiter and jupiter lab and
+
+585
+00:26:59,120 --> 00:27:02,400
+christian you know
+
+586
+00:27:00,240 --> 00:27:03,520
+jupiter much better than me so that's
+
+587
+00:27:02,400 --> 00:27:05,120
+your part
+
+588
+00:27:03,520 --> 00:27:07,360
+is it the case that i know it better
+
+589
+00:27:05,120 --> 00:27:10,799
+than you okay
+
+590
+00:27:07,360 --> 00:27:11,440
+might be so okay let's switch to the
+
+591
+00:27:10,799 --> 00:27:15,039
+other
+
+592
+00:27:11,440 --> 00:27:17,039
+pilot implementation as uh
+
+593
+00:27:15,039 --> 00:27:18,880
+to mention there is a second one it's
+
+594
+00:27:17,039 --> 00:27:21,360
+called jupiter lab before it was
+
+595
+00:27:18,880 --> 00:27:23,679
+a jupiter notebook which is basically
+
+596
+00:27:21,360 --> 00:27:26,880
+the same thing for
+
+597
+00:27:23,679 --> 00:27:29,760
+uh for the user and it has
+
+598
+00:27:26,880 --> 00:27:30,559
+two prerequisites you need java and you
+
+599
+00:27:29,760 --> 00:27:34,480
+need
+
+600
+00:27:30,559 --> 00:27:38,159
+some python stuff for example anaconda
+
+601
+00:27:34,480 --> 00:27:41,279
+and then you will find a batch file or
+
+602
+00:27:38,159 --> 00:27:43,760
+a shell script for for other platforms
+
+603
+00:27:41,279 --> 00:27:44,399
+with which is it it is extremely easy to
+
+604
+00:27:43,760 --> 00:27:47,360
+install
+
+605
+00:27:44,399 --> 00:27:48,000
+jupyter notebook one trick under windows
+
+606
+00:27:47,360 --> 00:27:51,279
+is that
+
+607
+00:27:48,000 --> 00:27:53,600
+you should start it
+
+608
+00:27:51,279 --> 00:27:55,600
+the command line and the batch file
+
+609
+00:27:53,600 --> 00:27:59,360
+under administrative privileges
+
+610
+00:27:55,600 --> 00:28:03,840
+and then it is no problem
+
+611
+00:27:59,360 --> 00:28:03,840
+so let me share my screen again
+
+612
+00:28:04,960 --> 00:28:12,000
+okay so what i prepared now is um
+
+613
+00:28:08,240 --> 00:28:17,039
+i have a cons a command line
+
+614
+00:28:12,000 --> 00:28:18,080
+window where you just type in jupiter
+
+615
+00:28:17,039 --> 00:28:22,399
+lab
+
+616
+00:28:18,080 --> 00:28:26,080
+and it starts it starts a web service
+
+617
+00:28:22,399 --> 00:28:27,120
+and in a few seconds in my browser there
+
+618
+00:28:26,080 --> 00:28:30,240
+will be a window
+
+619
+00:28:27,120 --> 00:28:33,840
+and i will bring that window up
+
+620
+00:28:30,240 --> 00:28:38,240
+on the screen our
+
+621
+00:28:33,840 --> 00:28:40,559
+live and video watchers will see
+
+622
+00:28:38,240 --> 00:28:40,559
+so
+
+623
+00:28:41,360 --> 00:28:48,159
+whoop it is loading
+
+624
+00:28:44,960 --> 00:28:50,399
+so that's jupiter lab and we just say we
+
+625
+00:28:48,159 --> 00:28:54,080
+want to do a new notebook
+
+626
+00:28:50,399 --> 00:28:59,200
+in the sml language
+
+627
+00:28:54,080 --> 00:29:03,200
+and now it is preparing a new notebook
+
+628
+00:28:59,200 --> 00:29:08,720
+in this time i can
+
+629
+00:29:03,200 --> 00:29:08,720
+copy some of the oh come on
+
+630
+00:29:09,360 --> 00:29:13,039
+it worked before ah okay it needs some
+
+631
+00:29:12,000 --> 00:29:16,159
+some time
+
+632
+00:29:13,039 --> 00:29:16,799
+so there's a there's a lot a lot of
+
+633
+00:29:16,159 --> 00:29:20,159
+things
+
+634
+00:29:16,799 --> 00:29:20,159
+loading in the background i guess
+
+635
+00:29:20,240 --> 00:29:27,679
+and the video encoding for this podcast
+
+636
+00:29:23,600 --> 00:29:29,520
+needs also some of my cpu
+
+637
+00:29:27,679 --> 00:29:31,679
+i think it's important to say that it is
+
+638
+00:29:29,520 --> 00:29:32,240
+only a pilot implementation so it's not
+
+639
+00:29:31,679 --> 00:29:35,279
+correct
+
+640
+00:29:32,240 --> 00:29:38,000
+optimized regarding performance and you
+
+641
+00:29:35,279 --> 00:29:39,120
+user interfaces etc etc only a pilot
+
+642
+00:29:38,000 --> 00:29:42,000
+implementation
+
+643
+00:29:39,120 --> 00:29:42,720
+yeah and you can see that on on several
+
+644
+00:29:42,000 --> 00:29:45,919
+edges
+
+645
+00:29:42,720 --> 00:29:48,159
+and scratches and so on so
+
+646
+00:29:45,919 --> 00:29:49,200
+um yeah let's let's continue so i have
+
+647
+00:29:48,159 --> 00:29:52,240
+my new notebook
+
+648
+00:29:49,200 --> 00:29:53,440
+and if you know jupyter lab or jupyter
+
+649
+00:29:52,240 --> 00:29:56,799
+notebook
+
+650
+00:29:53,440 --> 00:30:00,080
+you can enter some code in
+
+651
+00:29:56,799 --> 00:30:03,600
+this example we will do
+
+652
+00:30:00,080 --> 00:30:07,279
+sysml textual notation
+
+653
+00:30:03,600 --> 00:30:09,120
+and i think it will be ah okay
+
+654
+00:30:07,279 --> 00:30:10,799
+you might have seen or might have
+
+655
+00:30:09,120 --> 00:30:12,799
+noticed that everything was black and
+
+656
+00:30:10,799 --> 00:30:14,480
+white before and now where
+
+657
+00:30:12,799 --> 00:30:16,000
+the meter model in the background the
+
+658
+00:30:14,480 --> 00:30:18,320
+syntax was loaded
+
+659
+00:30:16,000 --> 00:30:21,440
+and we get get some highlighting uh
+
+660
+00:30:18,320 --> 00:30:24,720
+syntax highlighting here in the code
+
+661
+00:30:21,440 --> 00:30:27,840
+and what we can do now
+
+662
+00:30:24,720 --> 00:30:32,240
+is we can use
+
+663
+00:30:27,840 --> 00:30:36,159
+the show method
+
+664
+00:30:32,240 --> 00:30:41,039
+maybe okay there it's coming
+
+665
+00:30:36,159 --> 00:30:44,240
+and if i execute the show command
+
+666
+00:30:41,039 --> 00:30:47,279
+something in the background is
+
+667
+00:30:44,240 --> 00:30:47,840
+not working of obviously you need an
+
+668
+00:30:47,279 --> 00:30:52,240
+argument
+
+669
+00:30:47,840 --> 00:30:54,720
+so of course you are so right
+
+670
+00:30:52,240 --> 00:30:57,200
+tim the name of the package for example
+
+671
+00:30:54,720 --> 00:31:01,360
+exactly
+
+672
+00:30:57,200 --> 00:31:01,360
+mbse podcast
+
+673
+00:31:02,080 --> 00:31:07,200
+so it was an oc layer 8 problem
+
+674
+00:31:08,320 --> 00:31:13,600
+so now there should be
+
+675
+00:31:11,919 --> 00:31:19,840
+something in the background and i think
+
+676
+00:31:13,600 --> 00:31:19,840
+it needs some time again
+
+677
+00:31:20,720 --> 00:31:25,440
+did i misspell something packaged
+
+678
+00:31:26,660 --> 00:31:33,840
+[Music]
+
+679
+00:31:28,240 --> 00:31:33,840
+could not resolve reference why not
+
+680
+00:31:34,159 --> 00:31:37,679
+okay that worked before
+
+681
+00:31:38,080 --> 00:31:41,490
+what you should have seen now and that's
+
+682
+00:31:40,399 --> 00:31:44,000
+okay that's live
+
+683
+00:31:41,490 --> 00:31:46,799
+[Laughter]
+
+684
+00:31:44,000 --> 00:31:47,360
+what you should have seen now is that
+
+685
+00:31:46,799 --> 00:31:51,279
+there
+
+686
+00:31:47,360 --> 00:31:53,360
+will be or should be the same
+
+687
+00:31:51,279 --> 00:31:54,320
+model structure as you have seen in the
+
+688
+00:31:53,360 --> 00:31:57,440
+eclipse
+
+689
+00:31:54,320 --> 00:31:59,120
+environment so what jupiter lab is doing
+
+690
+00:31:57,440 --> 00:32:02,399
+in the background
+
+691
+00:31:59,120 --> 00:32:05,760
+is resolving the code resolving the
+
+692
+00:32:02,399 --> 00:32:08,960
+textual notation and
+
+693
+00:32:05,760 --> 00:32:10,240
+yeah building up the model and all the
+
+694
+00:32:08,960 --> 00:32:14,159
+objects
+
+695
+00:32:10,240 --> 00:32:16,000
+containing also these membership
+
+696
+00:32:14,159 --> 00:32:19,440
+feature memberships and so on and so
+
+697
+00:32:16,000 --> 00:32:21,679
+further for you in the background
+
+698
+00:32:19,440 --> 00:32:22,880
+so um the next command which is
+
+699
+00:32:21,679 --> 00:32:26,840
+available in
+
+700
+00:32:22,880 --> 00:32:30,960
+this pilot implementation is the
+
+701
+00:32:26,840 --> 00:32:30,960
+publish um
+
+702
+00:32:31,039 --> 00:32:37,039
+command port last
+
+703
+00:32:34,799 --> 00:32:38,399
+and it works let's have a look if it
+
+704
+00:32:37,039 --> 00:32:42,880
+works or not
+
+705
+00:32:38,399 --> 00:32:46,080
+um okay cannot resolve
+
+706
+00:32:42,880 --> 00:32:49,679
+so do we have
+
+707
+00:32:46,080 --> 00:32:53,039
+a parenthesis to know
+
+708
+00:32:49,679 --> 00:32:57,840
+oh you must run the code first
+
+709
+00:32:53,039 --> 00:32:57,840
+that that is possible yeah
+
+710
+00:33:01,120 --> 00:33:05,039
+well you are the jupiter expert you
+
+711
+00:33:03,919 --> 00:33:08,559
+called me the truth
+
+712
+00:33:05,039 --> 00:33:13,039
+but not me so and then it
+
+713
+00:33:08,559 --> 00:33:16,240
+is working let's see yeah i wonder
+
+714
+00:33:13,039 --> 00:33:16,880
+what a wonder yeah so now we have the
+
+715
+00:33:16,240 --> 00:33:19,679
+model
+
+716
+00:33:16,880 --> 00:33:21,200
+structure here and you see besides the
+
+717
+00:33:19,679 --> 00:33:24,799
+code we have typed or
+
+718
+00:33:21,200 --> 00:33:27,760
+pasted in the import statement is clear
+
+719
+00:33:24,799 --> 00:33:28,960
+that is the one we we pasted there we
+
+720
+00:33:27,760 --> 00:33:30,880
+have memberships
+
+721
+00:33:28,960 --> 00:33:32,240
+and superclassing and what do we have
+
+722
+00:33:30,880 --> 00:33:34,880
+here feature membership
+
+723
+00:33:32,240 --> 00:33:36,159
+feature typing subsetting so everything
+
+724
+00:33:34,880 --> 00:33:38,720
+what was happening
+
+725
+00:33:36,159 --> 00:33:39,360
+before in in these statements in the
+
+726
+00:33:38,720 --> 00:33:42,640
+code
+
+727
+00:33:39,360 --> 00:33:45,519
+is now here in the model structure and
+
+728
+00:33:42,640 --> 00:33:46,720
+you might notice that there are already
+
+729
+00:33:45,519 --> 00:33:51,360
+uuids
+
+730
+00:33:46,720 --> 00:33:54,799
+behind each of these modeling elements
+
+731
+00:33:51,360 --> 00:33:58,480
+um so that means we
+
+732
+00:33:54,799 --> 00:34:01,519
+have an instantiation of the objects
+
+733
+00:33:58,480 --> 00:34:04,640
+in the object model of jupiter lab
+
+734
+00:34:01,519 --> 00:34:08,320
+and what we can do now is publish
+
+735
+00:34:04,640 --> 00:34:13,040
+this model to a repository
+
+736
+00:34:08,320 --> 00:34:15,520
+using the system lv2 api
+
+737
+00:34:13,040 --> 00:34:16,399
+and this takes some time so this is not
+
+738
+00:34:15,520 --> 00:34:20,320
+optimized
+
+739
+00:34:16,399 --> 00:34:24,079
+up to now and even this example or
+
+740
+00:34:20,320 --> 00:34:27,760
+a very similar example from us um
+
+741
+00:34:24,079 --> 00:34:30,159
+was around a million lines of json
+
+742
+00:34:27,760 --> 00:34:32,000
+so it's a lot of stuff what is happening
+
+743
+00:34:30,159 --> 00:34:34,159
+in the background and this will
+
+744
+00:34:32,000 --> 00:34:36,960
+truly be optimized and you'll see it's
+
+745
+00:34:34,159 --> 00:34:40,320
+still processing
+
+746
+00:34:36,960 --> 00:34:43,440
+to transfer this model
+
+747
+00:34:40,320 --> 00:34:46,879
+from my computer to
+
+748
+00:34:43,440 --> 00:34:48,720
+the system lv2 repository which is
+
+749
+00:34:46,879 --> 00:34:51,200
+hosted by intercax
+
+750
+00:34:48,720 --> 00:34:52,720
+who do a lot of stuff in this pilot
+
+751
+00:34:51,200 --> 00:34:57,919
+implementation
+
+752
+00:34:52,720 --> 00:34:57,919
+of the sysmlv2 api
+
+753
+00:34:58,240 --> 00:35:04,240
+so but tim what what else can we do with
+
+754
+00:35:01,520 --> 00:35:08,800
+this repository
+
+755
+00:35:04,240 --> 00:35:11,839
+yeah so we we can access the repository
+
+756
+00:35:08,800 --> 00:35:15,280
+um using a browser
+
+757
+00:35:11,839 --> 00:35:17,280
+that's pretty cool um so i will share my
+
+758
+00:35:15,280 --> 00:35:22,880
+screen
+
+759
+00:35:17,280 --> 00:35:22,880
+again and
+
+760
+00:35:23,440 --> 00:35:25,760
+so
+
+761
+00:35:28,560 --> 00:35:36,640
+and the url is systemlb2.intercax.com
+
+762
+00:35:33,359 --> 00:35:40,720
+and then port 9000 slash docs
+
+763
+00:35:36,640 --> 00:35:44,960
+and then you find the the rest http
+
+764
+00:35:40,720 --> 00:35:47,920
+binding of the system lv2 api
+
+765
+00:35:44,960 --> 00:35:48,880
+there will also be an osrc binding be
+
+766
+00:35:47,920 --> 00:35:50,560
+available
+
+767
+00:35:48,880 --> 00:35:52,560
+they're currently working on the the
+
+768
+00:35:50,560 --> 00:35:54,720
+pilot implementation of that one i think
+
+769
+00:35:52,560 --> 00:35:57,119
+in the next or in the
+
+770
+00:35:54,720 --> 00:35:58,640
+release after that it will also be
+
+771
+00:35:57,119 --> 00:36:02,000
+available to the public
+
+772
+00:35:58,640 --> 00:36:05,680
+but here we have a rest http binding and
+
+773
+00:36:02,000 --> 00:36:08,720
+we use swagger to to access
+
+774
+00:36:05,680 --> 00:36:10,079
+uh the methods there so this is already
+
+775
+00:36:08,720 --> 00:36:13,520
+published
+
+776
+00:36:10,079 --> 00:36:17,520
+uh yes it was yeah okay okay okay great
+
+777
+00:36:13,520 --> 00:36:21,200
+so we can uh for example then here uh
+
+778
+00:36:17,520 --> 00:36:25,520
+uh get the list of all projects um
+
+779
+00:36:21,200 --> 00:36:27,520
+let's try it out and see if it works
+
+780
+00:36:25,520 --> 00:36:29,359
+so it's a public server so everyone who
+
+781
+00:36:27,520 --> 00:36:30,960
+plays around with it published to it you
+
+782
+00:36:29,359 --> 00:36:34,160
+see a lot of stuff
+
+783
+00:36:30,960 --> 00:36:36,960
+um so here you see the response
+
+784
+00:36:34,160 --> 00:36:39,760
+uh picture taken uh here's a one c parts
+
+785
+00:36:36,960 --> 00:36:40,400
+tree red definition from october 30
+
+786
+00:36:39,760 --> 00:36:42,880
+again
+
+787
+00:36:40,400 --> 00:36:44,160
+and so on and at the bottom we should
+
+788
+00:36:42,880 --> 00:36:46,800
+see
+
+789
+00:36:44,160 --> 00:36:48,000
+the mbse podcast project published a few
+
+790
+00:36:46,800 --> 00:36:50,560
+minutes ago
+
+791
+00:36:48,000 --> 00:36:51,760
+before nbs podcast we see the tdse
+
+792
+00:36:50,560 --> 00:36:54,079
+that's the project
+
+793
+00:36:51,760 --> 00:36:56,560
+chris and i published last week for the
+
+794
+00:36:54,079 --> 00:36:58,880
+conference
+
+795
+00:36:56,560 --> 00:37:00,800
+and we see an identifier so here's the
+
+796
+00:36:58,880 --> 00:37:03,760
+unique identifier of the project
+
+797
+00:37:00,800 --> 00:37:05,599
+and i can copy it because i need that
+
+798
+00:37:03,760 --> 00:37:09,119
+one
+
+799
+00:37:05,599 --> 00:37:10,560
+for for another call let's go further
+
+800
+00:37:09,119 --> 00:37:16,240
+down now can
+
+801
+00:37:10,560 --> 00:37:16,240
+get the commits of this project
+
+802
+00:37:17,040 --> 00:37:25,839
+and i need the id
+
+803
+00:37:20,960 --> 00:37:30,000
+of the project paste and execute
+
+804
+00:37:25,839 --> 00:37:30,000
+and then i get here the response
+
+805
+00:37:30,320 --> 00:37:37,760
+the commits there's only one commit
+
+806
+00:37:33,520 --> 00:37:41,599
+and what i need for to dive
+
+807
+00:37:37,760 --> 00:37:42,400
+into the model through this api i need
+
+808
+00:37:41,599 --> 00:37:45,920
+the commit
+
+809
+00:37:42,400 --> 00:37:50,240
+id so here we see the project id
+
+810
+00:37:45,920 --> 00:37:53,599
+and the commit id of this commit
+
+811
+00:37:50,240 --> 00:37:54,960
+and then we can call let's go further
+
+812
+00:37:53,599 --> 00:37:58,240
+down here
+
+813
+00:37:54,960 --> 00:38:00,000
+um for example here get the elements by
+
+814
+00:37:58,240 --> 00:38:02,079
+the project and the commit
+
+815
+00:38:00,000 --> 00:38:03,520
+or get the root element by project and
+
+816
+00:38:02,079 --> 00:38:06,079
+commit and so on
+
+817
+00:38:03,520 --> 00:38:07,200
+so i will call get root elements by
+
+818
+00:38:06,079 --> 00:38:09,359
+project and commit
+
+819
+00:38:07,200 --> 00:38:10,320
+because get all elements takes very long
+
+820
+00:38:09,359 --> 00:38:12,160
+and i tried
+
+821
+00:38:10,320 --> 00:38:13,760
+it this morning i just crashed the
+
+822
+00:38:12,160 --> 00:38:19,119
+server
+
+823
+00:38:13,760 --> 00:38:22,240
+so um i try this one
+
+824
+00:38:19,119 --> 00:38:24,880
+and again we need the project id
+
+825
+00:38:22,240 --> 00:38:27,359
+it's still my clipboard and i need the
+
+826
+00:38:24,880 --> 00:38:31,040
+id of the commit
+
+827
+00:38:27,359 --> 00:38:33,839
+and it's here
+
+828
+00:38:31,040 --> 00:38:33,839
+i'll copy paste
+
+829
+00:38:37,839 --> 00:38:41,359
+and let's see if it works
+
+830
+00:38:44,240 --> 00:38:48,800
+because it costs some time it's still
+
+831
+00:38:46,400 --> 00:38:52,240
+loading
+
+832
+00:38:48,800 --> 00:38:57,040
+well and the response is uh the json
+
+833
+00:38:52,240 --> 00:38:59,359
+stuff oh he just uh it's very long
+
+834
+00:38:57,040 --> 00:39:00,240
+and you see a lot of empty fields so
+
+835
+00:38:59,359 --> 00:39:03,359
+that's what
+
+836
+00:39:00,240 --> 00:39:06,480
+could be optimized
+
+837
+00:39:03,359 --> 00:39:09,040
+and somewhere here in all this stuff you
+
+838
+00:39:06,480 --> 00:39:12,839
+will find the mbse podcast package which
+
+839
+00:39:09,040 --> 00:39:14,960
+is the root element of our model
+
+840
+00:39:12,839 --> 00:39:17,040
+um and if i
+
+841
+00:39:14,960 --> 00:39:18,160
+would have called get all elements then
+
+842
+00:39:17,040 --> 00:39:21,520
+you will also find
+
+843
+00:39:18,160 --> 00:39:24,480
+uh the paths and the part definition
+
+844
+00:39:21,520 --> 00:39:24,480
+element and so on
+
+845
+00:39:25,520 --> 00:39:29,200
+yeah so but it's nice to play around
+
+846
+00:39:28,240 --> 00:39:32,079
+with that one
+
+847
+00:39:29,200 --> 00:39:33,520
+and to see that it works and yeah
+
+848
+00:39:32,079 --> 00:39:34,480
+christians you already mentioned last
+
+849
+00:39:33,520 --> 00:39:36,960
+week
+
+850
+00:39:34,480 --> 00:39:38,320
+we did a very cool demonstration of that
+
+851
+00:39:36,960 --> 00:39:40,560
+of the api
+
+852
+00:39:38,320 --> 00:39:42,160
+can you briefly explain it so we have a
+
+853
+00:39:40,560 --> 00:39:45,520
+few minutes left
+
+854
+00:39:42,160 --> 00:39:48,640
+sure so um yeah as
+
+855
+00:39:45,520 --> 00:39:52,880
+we've told you two times already in this
+
+856
+00:39:48,640 --> 00:39:55,040
+uh session we did a demonstration at the
+
+857
+00:39:52,880 --> 00:39:56,960
+national symposium in cosi national
+
+858
+00:39:55,040 --> 00:39:59,680
+symposium in germany
+
+859
+00:39:56,960 --> 00:40:00,560
+and um yeah we've shown a similar thing
+
+860
+00:39:59,680 --> 00:40:05,520
+like
+
+861
+00:40:00,560 --> 00:40:08,160
+we've shown you here we started with um
+
+862
+00:40:05,520 --> 00:40:10,400
+the eclipse implementation just for our
+
+863
+00:40:08,160 --> 00:40:14,240
+for viewing
+
+864
+00:40:10,400 --> 00:40:17,680
+then i've gotten to jupiter notebook
+
+865
+00:40:14,240 --> 00:40:21,119
+and published a model and
+
+866
+00:40:17,680 --> 00:40:23,920
+the the thing is that we
+
+867
+00:40:21,119 --> 00:40:25,760
+thought about yeah just publishing
+
+868
+00:40:23,920 --> 00:40:28,319
+something to a repository and
+
+869
+00:40:25,760 --> 00:40:28,960
+viewing it in the repository is not a
+
+870
+00:40:28,319 --> 00:40:31,920
+big deal
+
+871
+00:40:28,960 --> 00:40:32,480
+so we decided to write some lines of
+
+872
+00:40:31,920 --> 00:40:36,079
+code
+
+873
+00:40:32,480 --> 00:40:39,440
+and we thought how can we interact
+
+874
+00:40:36,079 --> 00:40:41,200
+with another tool from maybe another
+
+875
+00:40:39,440 --> 00:40:44,640
+engineering domain
+
+876
+00:40:41,200 --> 00:40:49,280
+and one of the most common tools
+
+877
+00:40:44,640 --> 00:40:49,280
+on the world is microsoft excel so
+
+878
+00:40:49,359 --> 00:40:55,680
+yeah we took a look in
+
+879
+00:40:52,400 --> 00:40:56,960
+microsoft excel and we found out oh
+
+880
+00:40:55,680 --> 00:41:01,280
+where microsoft excel
+
+881
+00:40:56,960 --> 00:41:04,560
+can make rest calls for get calls
+
+882
+00:41:01,280 --> 00:41:05,680
+and you can also make http post calls in
+
+883
+00:41:04,560 --> 00:41:09,760
+excel
+
+884
+00:41:05,680 --> 00:41:14,000
+and so we we made up the um
+
+885
+00:41:09,760 --> 00:41:17,119
+the story or the um
+
+886
+00:41:14,000 --> 00:41:18,160
+the use case that someone let's say a
+
+887
+00:41:17,119 --> 00:41:21,839
+systems engineer
+
+888
+00:41:18,160 --> 00:41:21,839
+is pushing
+
+889
+00:41:22,800 --> 00:41:30,400
+is pushing a model into the repository
+
+890
+00:41:27,359 --> 00:41:32,960
+and another domain engineer
+
+891
+00:41:30,400 --> 00:41:33,760
+will call this information in his
+
+892
+00:41:32,960 --> 00:41:37,440
+tooling and
+
+893
+00:41:33,760 --> 00:41:37,920
+in this in this case the tooling is
+
+894
+00:41:37,440 --> 00:41:41,040
+excel
+
+895
+00:41:37,920 --> 00:41:42,800
+so he makes an http get on the
+
+896
+00:41:41,040 --> 00:41:46,079
+repository
+
+897
+00:41:42,800 --> 00:41:49,680
+and he changes the information and
+
+898
+00:41:46,079 --> 00:41:53,359
+writes it back into the repository so we
+
+899
+00:41:49,680 --> 00:41:53,920
+could do that also live but as tim has
+
+900
+00:41:53,359 --> 00:41:56,960
+said
+
+901
+00:41:53,920 --> 00:42:00,319
+this takes a lot of
+
+902
+00:41:56,960 --> 00:42:04,240
+a lot of time so we took it into a video
+
+903
+00:42:00,319 --> 00:42:05,920
+and this we will show you now
+
+904
+00:42:04,240 --> 00:42:07,760
+so i'm jumping a little bit ahead
+
+905
+00:42:05,920 --> 00:42:10,800
+because this is as i said
+
+906
+00:42:07,760 --> 00:42:15,119
+um jupiter notebook and uh
+
+907
+00:42:10,800 --> 00:42:18,000
+eclipse uh yeah and the real interesting
+
+908
+00:42:15,119 --> 00:42:21,359
+part is
+
+909
+00:42:18,000 --> 00:42:23,680
+here in the back of the video where we
+
+910
+00:42:21,359 --> 00:42:26,800
+call the information from the model so
+
+911
+00:42:23,680 --> 00:42:29,280
+it was a an integer with value 42.
+
+912
+00:42:26,800 --> 00:42:30,000
+the domain engineer decides oh 42 is not
+
+913
+00:42:29,280 --> 00:42:33,119
+my number my
+
+914
+00:42:30,000 --> 00:42:35,760
+number is my favorite number is one two
+
+915
+00:42:33,119 --> 00:42:39,359
+three four five like all my passwords
+
+916
+00:42:35,760 --> 00:42:42,839
+and i will have i have here a button
+
+917
+00:42:39,359 --> 00:42:46,160
+to send this back to the api
+
+918
+00:42:42,839 --> 00:42:48,240
+and like it was here in
+
+919
+00:42:46,160 --> 00:42:49,599
+uh in the example we've shown you some
+
+920
+00:42:48,240 --> 00:42:53,280
+seconds ago
+
+921
+00:42:49,599 --> 00:42:56,640
+uh before there was just one commit
+
+922
+00:42:53,280 --> 00:43:00,240
+and now there are
+
+923
+00:42:56,640 --> 00:43:00,240
+uh after the
+
+924
+00:43:00,880 --> 00:43:05,359
+publishing of out of excel we call all
+
+925
+00:43:04,079 --> 00:43:08,240
+the commits again
+
+926
+00:43:05,359 --> 00:43:09,760
+and we see there are two commits now in
+
+927
+00:43:08,240 --> 00:43:13,359
+the project
+
+928
+00:43:09,760 --> 00:43:17,200
+and um yeah we now do look up
+
+929
+00:43:13,359 --> 00:43:20,800
+one special element which was this
+
+930
+00:43:17,200 --> 00:43:23,359
+integer value property and
+
+931
+00:43:20,800 --> 00:43:24,400
+now we find the number one two three
+
+932
+00:43:23,359 --> 00:43:28,079
+four five
+
+933
+00:43:24,400 --> 00:43:30,880
+also in the repository yeah and
+
+934
+00:43:28,079 --> 00:43:31,599
+maybe you might say now oh that's not a
+
+935
+00:43:30,880 --> 00:43:36,079
+big deal
+
+936
+00:43:31,599 --> 00:43:39,359
+bringing up some stuff from excel to
+
+937
+00:43:36,079 --> 00:43:43,359
+to to a repository
+
+938
+00:43:39,359 --> 00:43:46,160
+but the thing is um i'm not a programmer
+
+939
+00:43:43,359 --> 00:43:48,160
+so i i know how to use uh some some
+
+940
+00:43:46,160 --> 00:43:52,079
+programming languages i did it in my
+
+941
+00:43:48,160 --> 00:43:54,240
+my thesis and and so on so i know how to
+
+942
+00:43:52,079 --> 00:43:54,880
+program but i'm not a programmer i know
+
+943
+00:43:54,240 --> 00:43:58,720
+a little bit
+
+944
+00:43:54,880 --> 00:44:01,440
+how the internet works and
+
+945
+00:43:58,720 --> 00:44:03,440
+it was possible for me within a few
+
+946
+00:44:01,440 --> 00:44:07,119
+hours without
+
+947
+00:44:03,440 --> 00:44:10,560
+programming visual basic before
+
+948
+00:44:07,119 --> 00:44:13,760
+bringing up this um proof of concept
+
+949
+00:44:10,560 --> 00:44:16,400
+and that means that it the
+
+950
+00:44:13,760 --> 00:44:17,440
+maybe the bigger deal than the language
+
+951
+00:44:16,400 --> 00:44:20,560
+might be
+
+952
+00:44:17,440 --> 00:44:22,160
+the api because with the api we have
+
+953
+00:44:20,560 --> 00:44:24,000
+with this proof of concept we have shown
+
+954
+00:44:22,160 --> 00:44:25,920
+you that
+
+955
+00:44:24,000 --> 00:44:30,720
+[Music]
+
+956
+00:44:25,920 --> 00:44:34,880
+how easy it is to integrate different
+
+957
+00:44:30,720 --> 00:44:38,079
+toolings in a model based
+
+958
+00:44:34,880 --> 00:44:41,599
+tooling environment and this was not
+
+959
+00:44:38,079 --> 00:44:44,560
+possible before so you always had these
+
+960
+00:44:41,599 --> 00:44:47,599
+yeah proprietary integrations and the
+
+961
+00:44:44,560 --> 00:44:50,800
+truth was that you had
+
+962
+00:44:47,599 --> 00:44:53,920
+the mbse silo or even a sysml
+
+963
+00:44:50,800 --> 00:44:57,359
+silo and besides that a
+
+964
+00:44:53,920 --> 00:45:02,319
+matlab simulink silo and
+
+965
+00:44:57,359 --> 00:45:02,319
+yeah model exchange and also model
+
+966
+00:45:02,839 --> 00:45:07,920
+um
+
+967
+00:45:04,640 --> 00:45:10,880
+what's the word model transformation
+
+968
+00:45:07,920 --> 00:45:11,280
+was not available or not easy to achieve
+
+969
+00:45:10,880 --> 00:45:13,680
+and
+
+970
+00:45:11,280 --> 00:45:14,880
+what we've shown you now is that with
+
+971
+00:45:13,680 --> 00:45:17,760
+this implementation
+
+972
+00:45:14,880 --> 00:45:18,000
+even with this early implementation of
+
+973
+00:45:17,760 --> 00:45:21,359
+the
+
+974
+00:45:18,000 --> 00:45:24,400
+api it is possible to exchange
+
+975
+00:45:21,359 --> 00:45:25,520
+models and elements of models so another
+
+976
+00:45:24,400 --> 00:45:28,000
+use case could be
+
+977
+00:45:25,520 --> 00:45:29,520
+and i think tim and i will do something
+
+978
+00:45:28,000 --> 00:45:33,119
+like that in future
+
+979
+00:45:29,520 --> 00:45:36,480
+um that we run a simulation in let's say
+
+980
+00:45:33,119 --> 00:45:39,119
+modelica and we get the actual
+
+981
+00:45:36,480 --> 00:45:41,599
+weight of a composite structure out of
+
+982
+00:45:39,119 --> 00:45:44,839
+the system model so these use cases are
+
+983
+00:45:41,599 --> 00:45:46,800
+extremely easy to achieve as you have
+
+984
+00:45:44,839 --> 00:45:50,079
+seen yeah
+
+985
+00:45:46,800 --> 00:45:53,040
+so i think we
+
+986
+00:45:50,079 --> 00:45:54,319
+that was it that was it yeah we unboxed
+
+987
+00:45:53,040 --> 00:45:57,760
+system lv2
+
+988
+00:45:54,319 --> 00:46:01,119
+we took three quarters of an hour
+
+989
+00:45:57,760 --> 00:46:02,000
+um but i hope it was worth it i hope you
+
+990
+00:46:01,119 --> 00:46:04,800
+are not too
+
+991
+00:46:02,000 --> 00:46:06,160
+too disappointed uh if you wanted to go
+
+992
+00:46:04,800 --> 00:46:09,119
+more in detail
+
+993
+00:46:06,160 --> 00:46:09,760
+but i think as tim already mentioned we
+
+994
+00:46:09,119 --> 00:46:12,880
+will have
+
+995
+00:46:09,760 --> 00:46:16,720
+several other podcasts on the language
+
+996
+00:46:12,880 --> 00:46:20,800
+especially when it gets more mature
+
+997
+00:46:16,720 --> 00:46:20,800
+and yeah
+
+998
+00:46:22,640 --> 00:46:26,800
+what did i miss ah yeah if you have
+
+999
+00:46:26,000 --> 00:46:29,760
+questions
+
+1000
+00:46:26,800 --> 00:46:30,480
+on the pilot implementation there is a
+
+1001
+00:46:29,760 --> 00:46:32,640
+google group
+
+1002
+00:46:30,480 --> 00:46:33,920
+we will put the link also in the
+
+1003
+00:46:32,640 --> 00:46:38,400
+description of
+
+1004
+00:46:33,920 --> 00:46:42,079
+this video and on our website
+
+1005
+00:46:38,400 --> 00:46:45,680
+there you can post questions and uh
+
+1006
+00:46:42,079 --> 00:46:47,920
+ed is very keen on answering them and
+
+1007
+00:46:45,680 --> 00:46:50,079
+all the all the team on the pilot
+
+1008
+00:46:47,920 --> 00:46:55,040
+implementation
+
+1009
+00:46:50,079 --> 00:46:58,319
+yes and yeah
+
+1010
+00:46:55,040 --> 00:47:03,200
+two months what's our next episode
+
+1011
+00:46:58,319 --> 00:47:06,240
+oh yes our next episode it's in uh
+
+1012
+00:47:03,200 --> 00:47:10,480
+less than three weeks it's on december
+
+1013
+00:47:06,240 --> 00:47:13,839
+15th um this time again in german
+
+1014
+00:47:10,480 --> 00:47:17,119
+and we have a guest for the first time
+
+1015
+00:47:13,839 --> 00:47:18,880
+we have christian neurita uh he who is
+
+1016
+00:47:17,119 --> 00:47:20,960
+director of the new research center
+
+1017
+00:47:18,880 --> 00:47:24,640
+josef wrestle center for dependable
+
+1018
+00:47:20,960 --> 00:47:27,839
+system of systems engineering in austria
+
+1019
+00:47:24,640 --> 00:47:31,119
+and yeah i'm very looking forward to
+
+1020
+00:47:27,839 --> 00:47:34,400
+have him here and i'm
+
+1021
+00:47:31,119 --> 00:47:34,720
+also very curious what you say when we
+
+1022
+00:47:34,400 --> 00:47:39,680
+have
+
+1023
+00:47:34,720 --> 00:47:42,960
+a guest here yeah that was it for today
+
+1024
+00:47:39,680 --> 00:47:46,880
+but do not forget trust us
+
+1025
+00:47:42,960 --> 00:47:46,880
+we are systems engineers
+

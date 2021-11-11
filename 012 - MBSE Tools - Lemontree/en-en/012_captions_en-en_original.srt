@@ -1,0 +1,3944 @@
+1
+00:00:01,439 --> 00:00:06,319
+hello fellow systems engineers and
+
+2
+00:00:03,679 --> 00:00:09,920
+welcome back to a new episode of the
+
+3
+00:00:06,319 --> 00:00:13,120
+mbse podcast today we are launching
+
+4
+00:00:09,920 --> 00:00:17,359
+a new series and it's the
+
+5
+00:00:13,120 --> 00:00:21,199
+long awaited tool series
+
+6
+00:00:17,359 --> 00:00:23,760
+yeah we have a guest here
+
+7
+00:00:21,199 --> 00:00:26,400
+we have daniel siegel with us and we are
+
+8
+00:00:23,760 --> 00:00:28,640
+very happy to have him
+
+9
+00:00:26,400 --> 00:00:30,080
+in this episode we will talk a little
+
+10
+00:00:28,640 --> 00:00:33,280
+bit about the tool
+
+11
+00:00:30,080 --> 00:00:34,160
+and in the second half of this episode
+
+12
+00:00:33,280 --> 00:00:37,040
+we will
+
+13
+00:00:34,160 --> 00:00:37,760
+show a little bit from the tool we try
+
+14
+00:00:37,040 --> 00:00:40,559
+to
+
+15
+00:00:37,760 --> 00:00:41,760
+to make it also interesting just for our
+
+16
+00:00:40,559 --> 00:00:44,079
+listeners
+
+17
+00:00:41,760 --> 00:00:46,559
+but if you are interested how it looks
+
+18
+00:00:44,079 --> 00:00:50,480
+like just switch over to youtube
+
+19
+00:00:46,559 --> 00:00:53,920
+there you can look up the episode within
+
+20
+00:00:50,480 --> 00:00:57,600
+with the video and if you are
+
+21
+00:00:53,920 --> 00:01:00,320
+interested in even more uh daniel
+
+22
+00:00:57,600 --> 00:01:01,039
+surely will be happy to help you out
+
+23
+00:01:00,320 --> 00:01:05,360
+yeah but
+
+24
+00:01:01,039 --> 00:01:08,320
+daniel please introduce yourself
+
+25
+00:01:05,360 --> 00:01:10,720
+hi i'm daniel siegel i'm in charge of
+
+26
+00:01:08,320 --> 00:01:14,640
+business development at liber lieber
+
+27
+00:01:10,720 --> 00:01:17,759
+and i work with liberlieber since 2006
+
+28
+00:01:14,640 --> 00:01:20,720
+so it will be 15 years this year
+
+29
+00:01:17,759 --> 00:01:22,799
+and i sold my first together license
+
+30
+00:01:20,720 --> 00:01:23,920
+together who can remember the old uml
+
+31
+00:01:22,799 --> 00:01:27,280
+tool
+
+32
+00:01:23,920 --> 00:01:29,759
+around one around 2000
+
+33
+00:01:27,280 --> 00:01:30,479
+so it i have been around modeling for a
+
+34
+00:01:29,759 --> 00:01:33,360
+while
+
+35
+00:01:30,479 --> 00:01:33,680
+and something that always was a problem
+
+36
+00:01:33,360 --> 00:01:37,520
+with
+
+37
+00:01:33,680 --> 00:01:39,119
+modeling is how you work in teams
+
+38
+00:01:37,520 --> 00:01:42,240
+and this is what we're going to tackle
+
+39
+00:01:39,119 --> 00:01:45,119
+later i'm also involved in various
+
+40
+00:01:42,240 --> 00:01:46,799
+standardization groups like prostep i'm
+
+41
+00:01:45,119 --> 00:01:47,920
+in the standards department at the
+
+42
+00:01:46,799 --> 00:01:51,520
+incosi
+
+43
+00:01:47,920 --> 00:01:53,280
+i i follow the omg i do not actively
+
+44
+00:01:51,520 --> 00:01:56,000
+participate at the moment
+
+45
+00:01:53,280 --> 00:01:59,360
+and i try to be ahead of the curve when
+
+46
+00:01:56,000 --> 00:01:59,360
+it comes to systems engineering
+
+47
+00:01:59,439 --> 00:02:06,320
+great yeah welcome daniel good
+
+48
+00:02:02,880 --> 00:02:09,200
+but you're here in our podcast um
+
+49
+00:02:06,320 --> 00:02:10,399
+yeah well uh many of course think of
+
+50
+00:02:09,200 --> 00:02:12,720
+enterprise architect
+
+51
+00:02:10,399 --> 00:02:14,720
+and i often hear from people that they
+
+52
+00:02:12,720 --> 00:02:16,560
+think that libra libra is also the
+
+53
+00:02:14,720 --> 00:02:18,560
+developer and vendor of enterprise
+
+54
+00:02:16,560 --> 00:02:19,200
+architects so what's the relationship
+
+55
+00:02:18,560 --> 00:02:21,760
+between
+
+56
+00:02:19,200 --> 00:02:23,200
+libra libre and the system it will
+
+57
+00:02:21,760 --> 00:02:26,160
+enterprise architect
+
+58
+00:02:23,200 --> 00:02:27,840
+uh if you are nice to us you can buy
+
+59
+00:02:26,160 --> 00:02:31,680
+enterprise architect
+
+60
+00:02:27,840 --> 00:02:31,920
+from us but we we are not the producers
+
+61
+00:02:31,680 --> 00:02:33,920
+of
+
+62
+00:02:31,920 --> 00:02:35,680
+enterprise architect enterprise
+
+63
+00:02:33,920 --> 00:02:38,239
+architect is done by
+
+64
+00:02:35,680 --> 00:02:40,239
+spark systems in australia it's
+
+65
+00:02:38,239 --> 00:02:42,160
+developed in australia
+
+66
+00:02:40,239 --> 00:02:44,400
+they have a team in australia that does
+
+67
+00:02:42,160 --> 00:02:46,640
+all all the development of the core
+
+68
+00:02:44,400 --> 00:02:50,000
+product of enterprise architect
+
+69
+00:02:46,640 --> 00:02:53,840
+our owner peter lieber became
+
+70
+00:02:50,000 --> 00:02:58,000
+distributed for the for europe
+
+71
+00:02:53,840 --> 00:02:59,519
+of enterprise architect around 2004 or
+
+72
+00:02:58,000 --> 00:03:02,720
+2003
+
+73
+00:02:59,519 --> 00:03:05,360
+and he has a company called spark system
+
+74
+00:03:02,720 --> 00:03:05,920
+central europe that is the distribution
+
+75
+00:03:05,360 --> 00:03:09,440
+arm of
+
+76
+00:03:05,920 --> 00:03:10,800
+of of sparks in europe so we have a very
+
+77
+00:03:09,440 --> 00:03:13,680
+good connection
+
+78
+00:03:10,800 --> 00:03:14,879
+uh peter lieber owns both companies but
+
+79
+00:03:13,680 --> 00:03:16,319
+it's independent
+
+80
+00:03:14,879 --> 00:03:20,480
+in a commercial sense from the
+
+81
+00:03:16,319 --> 00:03:20,480
+australian producer of the tool
+
+82
+00:03:20,879 --> 00:03:24,560
+okay but the tool we want to talk about
+
+83
+00:03:24,000 --> 00:03:27,519
+today
+
+84
+00:03:24,560 --> 00:03:28,319
+is a lemon tree and lemon tree is
+
+85
+00:03:27,519 --> 00:03:32,080
+originally
+
+86
+00:03:28,319 --> 00:03:34,560
+your tool right lemon tree is a tool
+
+87
+00:03:32,080 --> 00:03:36,640
+that is a commercialization from
+
+88
+00:03:34,560 --> 00:03:38,799
+university projects
+
+89
+00:03:36,640 --> 00:03:40,319
+so when you look back at the very first
+
+90
+00:03:38,799 --> 00:03:42,959
+university projects
+
+91
+00:03:40,319 --> 00:03:44,879
+that looked into model versioning it's
+
+92
+00:03:42,959 --> 00:03:47,760
+almost 15 years now
+
+93
+00:03:44,879 --> 00:03:49,519
+so just to give you an overview how much
+
+94
+00:03:47,760 --> 00:03:51,920
+stamina you need
+
+95
+00:03:49,519 --> 00:03:53,360
+to make it from the first university
+
+96
+00:03:51,920 --> 00:03:55,120
+research project
+
+97
+00:03:53,360 --> 00:03:56,400
+uh to an established product in the
+
+98
+00:03:55,120 --> 00:04:00,480
+market it can be
+
+99
+00:03:56,400 --> 00:04:03,360
+really a long process and
+
+100
+00:04:00,480 --> 00:04:05,280
+lemon tree is fully our product it's
+
+101
+00:04:03,360 --> 00:04:09,439
+developed in-house
+
+102
+00:04:05,280 --> 00:04:13,760
+and um in the the very early days it
+
+103
+00:04:09,439 --> 00:04:14,000
+was called model version but in 2016 or
+
+104
+00:04:13,760 --> 00:04:17,440
+so
+
+105
+00:04:14,000 --> 00:04:19,759
+when we really went to the market we
+
+106
+00:04:17,440 --> 00:04:20,959
+we came to this name lemon tree because
+
+107
+00:04:19,759 --> 00:04:24,479
+it's fresh
+
+108
+00:04:20,959 --> 00:04:27,280
+and versioning is a lot to do with trees
+
+109
+00:04:24,479 --> 00:04:29,199
+so this is the idea behind the name at
+
+110
+00:04:27,280 --> 00:04:30,400
+the moment we have the funny situation
+
+111
+00:04:29,199 --> 00:04:33,120
+that we are at
+
+112
+00:04:30,400 --> 00:04:34,160
+we have our current version is three and
+
+113
+00:04:33,120 --> 00:04:36,960
+lemon tree
+
+114
+00:04:34,160 --> 00:04:39,840
+three sounds a bit much but that's where
+
+115
+00:04:36,960 --> 00:04:39,840
+we are at the moment
+
+116
+00:04:40,560 --> 00:04:49,040
+okay i never got the idea of of
+
+117
+00:04:43,840 --> 00:04:49,040
+versioning trees okay that's interesting
+
+118
+00:04:49,199 --> 00:04:55,520
+but yeah it's logical to some extent and
+
+119
+00:04:52,880 --> 00:04:56,000
+maybe from a dna perspective it's
+
+120
+00:04:55,520 --> 00:04:59,360
+important
+
+121
+00:04:56,000 --> 00:05:01,840
+to understand how how our guys
+
+122
+00:04:59,360 --> 00:05:03,360
+how how we think what is the dna of our
+
+123
+00:05:01,840 --> 00:05:06,960
+company
+
+124
+00:05:03,360 --> 00:05:08,080
+we try always to reuse existing proven
+
+125
+00:05:06,960 --> 00:05:10,560
+stuff
+
+126
+00:05:08,080 --> 00:05:12,560
+and lemon tree fills the gap between the
+
+127
+00:05:10,560 --> 00:05:15,039
+established processes
+
+128
+00:05:12,560 --> 00:05:17,840
+uh from software engineering and the
+
+129
+00:05:15,039 --> 00:05:17,840
+modeling world
+
+130
+00:05:18,639 --> 00:05:24,400
+so uh yeah why do i not need
+
+131
+00:05:21,840 --> 00:05:26,160
+lavender if i have a system l tool like
+
+132
+00:05:24,400 --> 00:05:27,120
+enterprise architecture or actually
+
+133
+00:05:26,160 --> 00:05:30,639
+whatever
+
+134
+00:05:27,120 --> 00:05:32,720
+um i expect that i can do some
+
+135
+00:05:30,639 --> 00:05:34,080
+versioning and most tools provide some
+
+136
+00:05:32,720 --> 00:05:36,800
+kind of versioning
+
+137
+00:05:34,080 --> 00:05:39,440
+so why do i need lemon trees generally
+
+138
+00:05:36,800 --> 00:05:41,759
+most tools uh provide versioning
+
+139
+00:05:39,440 --> 00:05:44,160
+uh but there is a pattern that is called
+
+140
+00:05:41,759 --> 00:05:47,360
+a pessimistic version control
+
+141
+00:05:44,160 --> 00:05:49,199
+uh which if you tell to software
+
+142
+00:05:47,360 --> 00:05:50,400
+developers they have to do pessimistic
+
+143
+00:05:49,199 --> 00:05:52,160
+version control
+
+144
+00:05:50,400 --> 00:05:53,520
+uh they will send you to a technical
+
+145
+00:05:52,160 --> 00:05:55,360
+museum
+
+146
+00:05:53,520 --> 00:05:57,280
+but in modeling it's kind of
+
+147
+00:05:55,360 --> 00:05:59,759
+state-of-the-art steel
+
+148
+00:05:57,280 --> 00:06:00,639
+pessimistic version control means i need
+
+149
+00:05:59,759 --> 00:06:02,479
+to lock
+
+150
+00:06:00,639 --> 00:06:03,840
+the parts of the model that i want to
+
+151
+00:06:02,479 --> 00:06:07,840
+modify
+
+152
+00:06:03,840 --> 00:06:10,720
+and then i can return it back and
+
+153
+00:06:07,840 --> 00:06:12,560
+after that i have to uh call my
+
+154
+00:06:10,720 --> 00:06:15,199
+colleague by the phone the model is free
+
+155
+00:06:12,560 --> 00:06:17,919
+now you can use it and all of this stuff
+
+156
+00:06:15,199 --> 00:06:19,919
+and i have to ask a guy can you unlock
+
+157
+00:06:17,919 --> 00:06:21,120
+the part of the model the package i need
+
+158
+00:06:19,919 --> 00:06:23,600
+to modify it
+
+159
+00:06:21,120 --> 00:06:25,120
+you have it locked it's cumbersome
+
+160
+00:06:23,600 --> 00:06:28,160
+process
+
+161
+00:06:25,120 --> 00:06:31,120
+and with lemon tree you get
+
+162
+00:06:28,160 --> 00:06:32,000
+the capability due to optimistic version
+
+163
+00:06:31,120 --> 00:06:34,400
+control
+
+164
+00:06:32,000 --> 00:06:36,560
+optimistic version control means uh two
+
+165
+00:06:34,400 --> 00:06:39,039
+people can modify the model
+
+166
+00:06:36,560 --> 00:06:40,080
+independently if they check in after
+
+167
+00:06:39,039 --> 00:06:42,560
+each other
+
+168
+00:06:40,080 --> 00:06:44,639
+uh there is a conflict which is not
+
+169
+00:06:42,560 --> 00:06:47,840
+something bad it's a normal
+
+170
+00:06:44,639 --> 00:06:51,120
+normal step in the process and
+
+171
+00:06:47,840 --> 00:06:53,039
+a conflict requires a merge and
+
+172
+00:06:51,120 --> 00:06:54,880
+in the case of lemon tree if you use it
+
+173
+00:06:53,039 --> 00:06:56,880
+with the version control system
+
+174
+00:06:54,880 --> 00:06:58,160
+lemon tree tries to do the merge
+
+175
+00:06:56,880 --> 00:07:00,960
+automatically
+
+176
+00:06:58,160 --> 00:07:02,960
+if there is a conflict where the two
+
+177
+00:07:00,960 --> 00:07:04,560
+guys worked on the same elements it will
+
+178
+00:07:02,960 --> 00:07:07,680
+show the user interface
+
+179
+00:07:04,560 --> 00:07:11,440
+and um give you the option to make
+
+180
+00:07:07,680 --> 00:07:14,080
+educated uh changes and decide what you
+
+181
+00:07:11,440 --> 00:07:16,960
+want to bring into the final model
+
+182
+00:07:14,080 --> 00:07:17,919
+and this is a key benefit because for
+
+183
+00:07:16,960 --> 00:07:21,199
+all the
+
+184
+00:07:17,919 --> 00:07:23,440
+modern version control systems like git
+
+185
+00:07:21,199 --> 00:07:24,720
+you need optimistic version control
+
+186
+00:07:23,440 --> 00:07:26,720
+capabilities
+
+187
+00:07:24,720 --> 00:07:29,599
+because they're decentralized there is
+
+188
+00:07:26,720 --> 00:07:32,080
+no place where you can lock it
+
+189
+00:07:29,599 --> 00:07:33,840
+and so you need merging capabilities if
+
+190
+00:07:32,080 --> 00:07:35,919
+you want to do mbse
+
+191
+00:07:33,840 --> 00:07:38,000
+with kit and this is basically our
+
+192
+00:07:35,919 --> 00:07:40,000
+global usb at the moment
+
+193
+00:07:38,000 --> 00:07:41,919
+that enterprise architecture is lemon
+
+194
+00:07:40,000 --> 00:07:42,800
+tree is the only commercial modeling
+
+195
+00:07:41,919 --> 00:07:46,160
+solution
+
+196
+00:07:42,800 --> 00:07:46,160
+where you can use git
+
+197
+00:07:46,800 --> 00:07:52,879
+does that also mean that
+
+198
+00:07:49,840 --> 00:07:57,039
+i can somehow arrange
+
+199
+00:07:52,879 --> 00:07:58,080
+access control in some ways so that i
+
+200
+00:07:57,039 --> 00:08:00,879
+say i have a
+
+201
+00:07:58,080 --> 00:08:02,319
+military project for example and certain
+
+202
+00:08:00,879 --> 00:08:04,240
+people are
+
+203
+00:08:02,319 --> 00:08:06,400
+should be able to see one part of the
+
+204
+00:08:04,240 --> 00:08:09,599
+model but not the other one
+
+205
+00:08:06,400 --> 00:08:11,120
+how would i do that so there is two
+
+206
+00:08:09,599 --> 00:08:14,560
+things to this story
+
+207
+00:08:11,120 --> 00:08:17,599
+again our dna
+
+208
+00:08:14,560 --> 00:08:20,720
+we don't care about access control it's
+
+209
+00:08:17,599 --> 00:08:22,560
+the job of the version control system
+
+210
+00:08:20,720 --> 00:08:24,080
+if you use a version control system
+
+211
+00:08:22,560 --> 00:08:26,560
+where you can
+
+212
+00:08:24,080 --> 00:08:27,440
+access control the model good if you
+
+213
+00:08:26,560 --> 00:08:30,639
+have a
+
+214
+00:08:27,440 --> 00:08:33,279
+free version of git where you can't okay
+
+215
+00:08:30,639 --> 00:08:34,560
+that's none of our business but with
+
+216
+00:08:33,279 --> 00:08:37,760
+lemon 3
+
+217
+00:08:34,560 --> 00:08:38,800
+we have additional set of features where
+
+218
+00:08:37,760 --> 00:08:41,599
+we can slice
+
+219
+00:08:38,800 --> 00:08:42,880
+models so you can take out the part a
+
+220
+00:08:41,599 --> 00:08:45,279
+part of the model
+
+221
+00:08:42,880 --> 00:08:46,560
+put it in a new model and with this
+
+222
+00:08:45,279 --> 00:08:50,800
+slicing you can
+
+223
+00:08:46,560 --> 00:08:53,360
+have a very good way to deliver
+
+224
+00:08:50,800 --> 00:08:54,480
+stuff to a supplier that shouldn't see
+
+225
+00:08:53,360 --> 00:08:57,440
+the full car
+
+226
+00:08:54,480 --> 00:08:59,200
+but only his domain the door for example
+
+227
+00:08:57,440 --> 00:09:00,160
+if you want the power window you only
+
+228
+00:08:59,200 --> 00:09:02,480
+send him the
+
+229
+00:09:00,160 --> 00:09:04,080
+the part of the model that is the
+
+230
+00:09:02,480 --> 00:09:06,720
+relevant for him
+
+231
+00:09:04,080 --> 00:09:07,120
+and this is something where we again
+
+232
+00:09:06,720 --> 00:09:09,200
+with
+
+233
+00:09:07,120 --> 00:09:11,360
+the new capabilities in lemon tree 3
+
+234
+00:09:09,200 --> 00:09:14,480
+where we're ahead of the curve
+
+235
+00:09:11,360 --> 00:09:17,440
+a bit because we have a very good
+
+236
+00:09:14,480 --> 00:09:19,920
+placeholder handling to reintegrate
+
+237
+00:09:17,440 --> 00:09:19,920
+after that
+
+238
+00:09:20,839 --> 00:09:23,839
+okay
+
+239
+00:09:29,040 --> 00:09:32,320
+i will cover a topic which uh daniel
+
+240
+00:09:31,200 --> 00:09:35,760
+already
+
+241
+00:09:32,320 --> 00:09:38,959
+um mentioned right now
+
+242
+00:09:35,760 --> 00:09:42,240
+so speaking of cars and and automotive
+
+243
+00:09:38,959 --> 00:09:44,720
+uh industry um i
+
+244
+00:09:42,240 --> 00:09:47,360
+i know that automotive industry is
+
+245
+00:09:44,720 --> 00:09:50,800
+heavily interested in mbse because all
+
+246
+00:09:47,360 --> 00:09:53,519
+of uh yeah of the complexity within
+
+247
+00:09:50,800 --> 00:09:53,839
+uh electric electronics and software
+
+248
+00:09:53,519 --> 00:09:56,399
+which
+
+249
+00:09:53,839 --> 00:09:57,040
+is coming more and more into cars and
+
+250
+00:09:56,399 --> 00:10:00,399
+all the
+
+251
+00:09:57,040 --> 00:10:04,000
+safety critical things so
+
+252
+00:10:00,399 --> 00:10:06,880
+um as i know they
+
+253
+00:10:04,000 --> 00:10:07,519
+have to to give proof that everything is
+
+254
+00:10:06,880 --> 00:10:10,560
+all right
+
+255
+00:10:07,519 --> 00:10:13,839
+and does lementry somehow
+
+256
+00:10:10,560 --> 00:10:17,200
+help them out in in these cases
+
+257
+00:10:13,839 --> 00:10:18,480
+the norms are our best salesmen in
+
+258
+00:10:17,200 --> 00:10:20,760
+reality
+
+259
+00:10:18,480 --> 00:10:22,160
+if you look at the norms like the iso
+
+260
+00:10:20,760 --> 00:10:24,399
+2622
+
+261
+00:10:22,160 --> 00:10:26,720
+it's clearly stated that you should have
+
+262
+00:10:24,399 --> 00:10:30,000
+all your development artifacts
+
+263
+00:10:26,720 --> 00:10:32,480
+in a proper version control system so
+
+264
+00:10:30,000 --> 00:10:33,600
+the big benefit is if you use a
+
+265
+00:10:32,480 --> 00:10:35,839
+server-based
+
+266
+00:10:33,600 --> 00:10:36,720
+uh solution from your modeling tool
+
+267
+00:10:35,839 --> 00:10:38,720
+vendor
+
+268
+00:10:36,720 --> 00:10:41,040
+you have to go all the steps in the
+
+269
+00:10:38,720 --> 00:10:43,839
+audits to prove it works right
+
+270
+00:10:41,040 --> 00:10:44,560
+if you show up with ptc lifecycle
+
+271
+00:10:43,839 --> 00:10:47,600
+manager
+
+272
+00:10:44,560 --> 00:10:50,320
+or even svn everybody knows the process
+
+273
+00:10:47,600 --> 00:10:51,360
+processes around it uh to make it
+
+274
+00:10:50,320 --> 00:10:54,240
+workable
+
+275
+00:10:51,360 --> 00:10:56,480
+uh for safety critical norms and this is
+
+276
+00:10:54,240 --> 00:11:00,079
+one of our key benefits
+
+277
+00:10:56,480 --> 00:11:02,640
+uh we and uh very interestingly
+
+278
+00:11:00,079 --> 00:11:04,959
+that the users want you they have lemon
+
+279
+00:11:02,640 --> 00:11:07,440
+tree and they have these capabilities
+
+280
+00:11:04,959 --> 00:11:09,120
+they very quickly find out that the best
+
+281
+00:11:07,440 --> 00:11:12,640
+way to do mbse
+
+282
+00:11:09,120 --> 00:11:15,120
+is using git flow git flow is a process
+
+283
+00:11:12,640 --> 00:11:16,800
+from software engineering that's based
+
+284
+00:11:15,120 --> 00:11:20,240
+on feature branches
+
+285
+00:11:16,800 --> 00:11:22,480
+so if i tell you to develop a model for
+
+286
+00:11:20,240 --> 00:11:26,079
+a new feature in my car
+
+287
+00:11:22,480 --> 00:11:28,880
+for example a new park distance control
+
+288
+00:11:26,079 --> 00:11:30,079
+you create a feature branch uh you
+
+289
+00:11:28,880 --> 00:11:32,160
+develop the
+
+290
+00:11:30,079 --> 00:11:34,880
+the new feature in the model and
+
+291
+00:11:32,160 --> 00:11:35,760
+whenever you are ready and the project
+
+292
+00:11:34,880 --> 00:11:38,640
+says yes
+
+293
+00:11:35,760 --> 00:11:40,560
+we can use this feature now uh you use
+
+294
+00:11:38,640 --> 00:11:41,600
+lemon tree to merge the branches back
+
+295
+00:11:40,560 --> 00:11:43,440
+together
+
+296
+00:11:41,600 --> 00:11:46,000
+so with this pattern you have less
+
+297
+00:11:43,440 --> 00:11:46,800
+conflicts you have a very good point in
+
+298
+00:11:46,000 --> 00:11:49,360
+the process
+
+299
+00:11:46,800 --> 00:11:50,560
+where you can do a review help each
+
+300
+00:11:49,360 --> 00:11:54,399
+other and so on
+
+301
+00:11:50,560 --> 00:11:57,200
+so this is really handy and easy to use
+
+302
+00:11:54,399 --> 00:12:00,560
+because it's well established in the
+
+303
+00:11:57,200 --> 00:12:00,560
+software engineering department
+
+304
+00:12:02,079 --> 00:12:05,920
+so if i understand it correctly lamentry
+
+305
+00:12:05,279 --> 00:12:09,279
+is
+
+306
+00:12:05,920 --> 00:12:13,200
+based on git right and
+
+307
+00:12:09,279 --> 00:12:16,040
+no no okay so
+
+308
+00:12:13,200 --> 00:12:17,920
+we have to uh this uh make a
+
+309
+00:12:16,040 --> 00:12:20,240
+differentiation a little bit
+
+310
+00:12:17,920 --> 00:12:23,040
+the classic lemon tree is like beyond
+
+311
+00:12:20,240 --> 00:12:26,079
+compare for enterprise architect models
+
+312
+00:12:23,040 --> 00:12:27,839
+so uh it doesn't matter which version
+
+313
+00:12:26,079 --> 00:12:32,639
+control system you use
+
+314
+00:12:27,839 --> 00:12:35,920
+uh lemon 3 is just a diff and merge tool
+
+315
+00:12:32,639 --> 00:12:38,000
+for the model data i can show it later
+
+316
+00:12:35,920 --> 00:12:39,120
+with csvn i can show it with kit we have
+
+317
+00:12:38,000 --> 00:12:42,560
+very successful
+
+318
+00:12:39,120 --> 00:12:45,680
+deployments on on on
+
+319
+00:12:42,560 --> 00:12:47,920
+ptc live cycle manager but obviously git
+
+320
+00:12:45,680 --> 00:12:48,720
+is the most established at the moment
+
+321
+00:12:47,920 --> 00:12:50,880
+and
+
+322
+00:12:48,720 --> 00:12:51,760
+the best support for processes like
+
+323
+00:12:50,880 --> 00:12:55,279
+feature
+
+324
+00:12:51,760 --> 00:12:58,320
+branch development okay so
+
+325
+00:12:55,279 --> 00:13:00,639
+uh you do the merge not git but
+
+326
+00:12:58,320 --> 00:13:02,000
+because git can also do a merge but uh
+
+327
+00:13:00,639 --> 00:13:04,639
+for for the model merge
+
+328
+00:13:02,000 --> 00:13:06,320
+that's the task of lemon shape yes and
+
+329
+00:13:04,639 --> 00:13:08,880
+and model merge is well
+
+330
+00:13:06,320 --> 00:13:09,920
+uh git can merge text files or source
+
+331
+00:13:08,880 --> 00:13:11,839
+code files
+
+332
+00:13:09,920 --> 00:13:12,800
+uh and that works very well but watching
+
+333
+00:13:11,839 --> 00:13:13,760
+a model is a little bit more
+
+334
+00:13:12,800 --> 00:13:16,320
+sophisticated
+
+335
+00:13:13,760 --> 00:13:17,839
+um i have the model and you also have
+
+336
+00:13:16,320 --> 00:13:19,920
+this diagram level
+
+337
+00:13:17,839 --> 00:13:21,360
+uh and i remember some i don't remember
+
+338
+00:13:19,920 --> 00:13:23,519
+exactly which tool it was but
+
+339
+00:13:21,360 --> 00:13:25,279
+you get lots of windows on the screen
+
+340
+00:13:23,519 --> 00:13:26,880
+and it shows the differences in the data
+
+341
+00:13:25,279 --> 00:13:29,120
+structure and shows the differences in
+
+342
+00:13:26,880 --> 00:13:30,959
+the layout you moved a box from
+
+343
+00:13:29,120 --> 00:13:32,800
+a few pixels to the left and things like
+
+344
+00:13:30,959 --> 00:13:35,360
+that so how
+
+345
+00:13:32,800 --> 00:13:37,920
+do you resolve that so so the challenge
+
+346
+00:13:35,360 --> 00:13:41,279
+of the model is that is the graph
+
+347
+00:13:37,920 --> 00:13:44,560
+if you version the model uh with xmi
+
+348
+00:13:41,279 --> 00:13:45,760
+files for example uh your text based
+
+349
+00:13:44,560 --> 00:13:48,880
+diff tools
+
+350
+00:13:45,760 --> 00:13:51,600
+uh show nonsense it's not usable you
+
+351
+00:13:48,880 --> 00:13:54,320
+will not find a guy that tried
+
+352
+00:13:51,600 --> 00:13:57,199
+and succeeded on a larger model how to
+
+353
+00:13:54,320 --> 00:14:01,519
+merge it in the text based serialization
+
+354
+00:13:57,199 --> 00:14:04,880
+so what lemon tree does it builds uh
+
+355
+00:14:01,519 --> 00:14:08,000
+the the uml or system l model in memory
+
+356
+00:14:04,880 --> 00:14:10,959
+uh in in a proper graph style way
+
+357
+00:14:08,000 --> 00:14:13,440
+compares those and and also has
+
+358
+00:14:10,959 --> 00:14:15,920
+capabilities to show the diagrams
+
+359
+00:14:13,440 --> 00:14:16,800
+we can even merge diagrams to some
+
+360
+00:14:15,920 --> 00:14:19,120
+extent
+
+361
+00:14:16,800 --> 00:14:20,720
+and yes we have several thousand people
+
+362
+00:14:19,120 --> 00:14:24,079
+on the planet using it
+
+363
+00:14:20,720 --> 00:14:27,199
+so we have nice stuff like filters
+
+364
+00:14:24,079 --> 00:14:29,279
+that are called height graphical changes
+
+365
+00:14:27,199 --> 00:14:30,959
+so i can use a filter and i will not see
+
+366
+00:14:29,279 --> 00:14:35,120
+the diagrams where just boxes
+
+367
+00:14:30,959 --> 00:14:39,040
+were moved around for example so
+
+368
+00:14:35,120 --> 00:14:40,720
+it's really uh with all these years that
+
+369
+00:14:39,040 --> 00:14:44,000
+we focused on this topic
+
+370
+00:14:40,720 --> 00:14:47,040
+i think from the usability perspective
+
+371
+00:14:44,000 --> 00:14:47,600
+we are pretty good but it's a complex
+
+372
+00:14:47,040 --> 00:14:49,839
+task
+
+373
+00:14:47,600 --> 00:14:52,959
+and we always try to become better but
+
+374
+00:14:49,839 --> 00:14:55,760
+yeah that's where we at
+
+375
+00:14:52,959 --> 00:14:56,240
+yeah so maybe not all of our listeners
+
+376
+00:14:55,760 --> 00:14:58,800
+are
+
+377
+00:14:56,240 --> 00:15:00,720
+so familiar with git and what it means
+
+378
+00:14:58,800 --> 00:15:03,600
+with branching and merging
+
+379
+00:15:00,720 --> 00:15:05,680
+and maybe we should point out why it
+
+380
+00:15:03,600 --> 00:15:06,000
+does make sense to do it this way and
+
+381
+00:15:05,680 --> 00:15:09,199
+not
+
+382
+00:15:06,000 --> 00:15:10,839
+saving several models or in different
+
+383
+00:15:09,199 --> 00:15:13,440
+versions on the network share for
+
+384
+00:15:10,839 --> 00:15:16,560
+example
+
+385
+00:15:13,440 --> 00:15:18,399
+basically if you if you if you are back
+
+386
+00:15:16,560 --> 00:15:20,480
+to the safety critical example if you
+
+387
+00:15:18,399 --> 00:15:22,560
+have a routine how to save it in
+
+388
+00:15:20,480 --> 00:15:24,399
+sharepoint or on the file system
+
+389
+00:15:22,560 --> 00:15:26,240
+you have to make sure that you have all
+
+390
+00:15:24,399 --> 00:15:28,000
+the documentation in place how the
+
+391
+00:15:26,240 --> 00:15:32,160
+process works
+
+392
+00:15:28,000 --> 00:15:34,480
+if you let this if you are lazy as i say
+
+393
+00:15:32,160 --> 00:15:35,199
+and you use a version control system to
+
+394
+00:15:34,480 --> 00:15:38,480
+do it
+
+395
+00:15:35,199 --> 00:15:39,519
+it's an established codes tool and it's
+
+396
+00:15:38,480 --> 00:15:41,839
+rather easy
+
+397
+00:15:39,519 --> 00:15:42,959
+to prove that what you're doing is the
+
+398
+00:15:41,839 --> 00:15:45,040
+right thing to do
+
+399
+00:15:42,959 --> 00:15:47,440
+and you will not lose information and so
+
+400
+00:15:45,040 --> 00:15:51,519
+on and if you put on top
+
+401
+00:15:47,440 --> 00:15:53,600
+uh a process or a or a pattern to use it
+
+402
+00:15:51,519 --> 00:15:56,959
+like i mentioned before git flow
+
+403
+00:15:53,600 --> 00:16:00,079
+that is very successful in mbsc
+
+404
+00:15:56,959 --> 00:16:00,079
+it even gets easier
+
+405
+00:16:03,230 --> 00:16:07,040
+[Music]
+
+406
+00:16:04,639 --> 00:16:08,000
+i remember that your conference talk and
+
+407
+00:16:07,040 --> 00:16:10,320
+some publications
+
+408
+00:16:08,000 --> 00:16:12,000
+you mentioned lemon tree together with
+
+409
+00:16:10,320 --> 00:16:16,399
+variant management so
+
+410
+00:16:12,000 --> 00:16:19,519
+what okay this is a good one yeah
+
+411
+00:16:16,399 --> 00:16:23,759
+what's the relationship between both
+
+412
+00:16:19,519 --> 00:16:27,120
+so so the the the
+
+413
+00:16:23,759 --> 00:16:30,959
+the one of the basic stories is uh that
+
+414
+00:16:27,120 --> 00:16:31,279
+we do not believe uh to some extent that
+
+415
+00:16:30,959 --> 00:16:33,839
+no
+
+416
+00:16:31,279 --> 00:16:35,199
+christian is a from a plm vendor they
+
+417
+00:16:33,839 --> 00:16:37,759
+might have a different view
+
+418
+00:16:35,199 --> 00:16:38,639
+we don't believe that for uml and html
+
+419
+00:16:37,759 --> 00:16:42,720
+models
+
+420
+00:16:38,639 --> 00:16:43,440
+uh this um having this 150 percent
+
+421
+00:16:42,720 --> 00:16:46,480
+models
+
+422
+00:16:43,440 --> 00:16:47,360
+are survivable in an others context for
+
+423
+00:16:46,480 --> 00:16:49,839
+example
+
+424
+00:16:47,360 --> 00:16:51,759
+or in an aerospace context because the
+
+425
+00:16:49,839 --> 00:16:54,240
+models get too complex
+
+426
+00:16:51,759 --> 00:16:55,040
+and it's basically the same old if they
+
+427
+00:16:54,240 --> 00:16:58,560
+fell
+
+428
+00:16:55,040 --> 00:17:00,560
+they had in c source code and it's our
+
+429
+00:16:58,560 --> 00:17:03,920
+merging capabilities
+
+430
+00:17:00,560 --> 00:17:06,720
+uh we feel there is better approaches uh
+
+431
+00:17:03,920 --> 00:17:09,039
+to have 100 percent models
+
+432
+00:17:06,720 --> 00:17:10,959
+that live in branches and do the variant
+
+433
+00:17:09,039 --> 00:17:13,039
+management this way
+
+434
+00:17:10,959 --> 00:17:14,959
+with our new capabilities that we
+
+435
+00:17:13,039 --> 00:17:17,520
+introduced with lemon 3
+
+436
+00:17:14,959 --> 00:17:18,319
+we now have the capability to update
+
+437
+00:17:17,520 --> 00:17:21,919
+only
+
+438
+00:17:18,319 --> 00:17:23,039
+parts of the model so what we can have
+
+439
+00:17:21,919 --> 00:17:26,079
+now is you can have
+
+440
+00:17:23,039 --> 00:17:28,240
+a volkswagen model in one branch a
+
+441
+00:17:26,079 --> 00:17:31,039
+daimler model in the other branch
+
+442
+00:17:28,240 --> 00:17:34,880
+and you have a platform branch now if
+
+443
+00:17:31,039 --> 00:17:38,880
+the platform is upgraded to version 2.0
+
+444
+00:17:34,880 --> 00:17:41,360
+you can still work with version 1.1
+
+445
+00:17:38,880 --> 00:17:42,080
+in the volkswagen with the and the
+
+446
+00:17:41,360 --> 00:17:45,600
+daimler
+
+447
+00:17:42,080 --> 00:17:49,440
+in 1.2 and if you feel like it you can
+
+448
+00:17:45,600 --> 00:17:51,440
+update any of those two projects
+
+449
+00:17:49,440 --> 00:17:53,200
+to the new version when you're ready to
+
+450
+00:17:51,440 --> 00:17:56,559
+do so
+
+451
+00:17:53,200 --> 00:18:00,000
+and this is our approach it's again
+
+452
+00:17:56,559 --> 00:18:02,720
+established from stuff like nuget or
+
+453
+00:18:00,000 --> 00:18:04,320
+maven package manager for software
+
+454
+00:18:02,720 --> 00:18:07,679
+components it's the same
+
+455
+00:18:04,320 --> 00:18:11,039
+rationale behind it and uh this is our
+
+456
+00:18:07,679 --> 00:18:13,679
+our approach for this topic so
+
+457
+00:18:11,039 --> 00:18:15,600
+simple workflows then i i start with the
+
+458
+00:18:13,679 --> 00:18:18,559
+common thing so i model
+
+459
+00:18:15,600 --> 00:18:20,000
+an engine for example and then i create
+
+460
+00:18:18,559 --> 00:18:22,000
+a branch for
+
+461
+00:18:20,000 --> 00:18:23,360
+for a diesel engine and another branch
+
+462
+00:18:22,000 --> 00:18:26,160
+for a gasoline engine
+
+463
+00:18:23,360 --> 00:18:27,120
+yes and then i if i decide now i would
+
+464
+00:18:26,160 --> 00:18:29,760
+like to
+
+465
+00:18:27,120 --> 00:18:32,000
+if they share the same motor block you
+
+466
+00:18:29,760 --> 00:18:34,640
+can have the motor block component and
+
+467
+00:18:32,000 --> 00:18:37,919
+update only the motor block component
+
+468
+00:18:34,640 --> 00:18:41,280
+okay and that's an interesting approach
+
+469
+00:18:37,919 --> 00:18:44,400
+and and so again it's vr
+
+470
+00:18:41,280 --> 00:18:45,039
+software engineers it's our dna and and
+
+471
+00:18:44,400 --> 00:18:48,080
+we
+
+472
+00:18:45,039 --> 00:18:51,520
+think we have a solution now that
+
+473
+00:18:48,080 --> 00:18:52,240
+um is similar to what is established in
+
+474
+00:18:51,520 --> 00:18:55,200
+software
+
+475
+00:18:52,240 --> 00:18:56,240
+and this is this maven or nougat where
+
+476
+00:18:55,200 --> 00:18:59,520
+you have a
+
+477
+00:18:56,240 --> 00:19:01,760
+library of your components and they can
+
+478
+00:18:59,520 --> 00:19:03,039
+and you can instantiate them in your
+
+479
+00:19:01,760 --> 00:19:06,400
+projects
+
+480
+00:19:03,039 --> 00:19:07,919
+with set version numbers you don't have
+
+481
+00:19:06,400 --> 00:19:10,400
+to update everything
+
+482
+00:19:07,919 --> 00:19:12,400
+in a 150 percent model if you have the
+
+483
+00:19:10,400 --> 00:19:15,760
+diameter and the volkswagen project
+
+484
+00:19:12,400 --> 00:19:17,679
+in the same model it gets super messy
+
+485
+00:19:15,760 --> 00:19:19,520
+if i need the old controller in the
+
+486
+00:19:17,679 --> 00:19:21,039
+diameter project and the new one the
+
+487
+00:19:19,520 --> 00:19:23,600
+volkswagen project
+
+488
+00:19:21,039 --> 00:19:24,960
+with all the links uh the graph in the
+
+489
+00:19:23,600 --> 00:19:27,760
+model has
+
+490
+00:19:24,960 --> 00:19:28,440
+you get the super complex model and the
+
+491
+00:19:27,760 --> 00:19:31,200
+minute
+
+492
+00:19:28,440 --> 00:19:32,240
+maintainability down the road is a
+
+493
+00:19:31,200 --> 00:19:34,720
+catastrophic
+
+494
+00:19:32,240 --> 00:19:37,600
+scenario from my point of view this
+
+495
+00:19:34,720 --> 00:19:41,520
+might be a bit better for plm data
+
+496
+00:19:37,600 --> 00:19:43,919
+but for but but this but but this is
+
+497
+00:19:41,520 --> 00:19:45,440
+again you know we we use what we learned
+
+498
+00:19:43,919 --> 00:19:48,559
+from software engineering and
+
+499
+00:19:45,440 --> 00:19:51,919
+and uh made it available for mbse
+
+500
+00:19:48,559 --> 00:19:56,880
+yeah yeah yeah i think in plm it's a
+
+501
+00:19:51,919 --> 00:19:58,960
+little bit of a different view on
+
+502
+00:19:56,880 --> 00:20:00,000
+on what our model is and how a model can
+
+503
+00:19:58,960 --> 00:20:03,520
+be built up
+
+504
+00:20:00,000 --> 00:20:06,720
+out of different models so you
+
+505
+00:20:03,520 --> 00:20:09,440
+have similar similarities in in
+
+506
+00:20:06,720 --> 00:20:11,280
+opportunities and problems with hundred
+
+507
+00:20:09,440 --> 00:20:15,200
+and fifty percent models so
+
+508
+00:20:11,280 --> 00:20:18,320
+even if you think of a 150 cat model
+
+509
+00:20:15,200 --> 00:20:19,440
+um you need to do a lot of work and you
+
+510
+00:20:18,320 --> 00:20:22,640
+need to
+
+511
+00:20:19,440 --> 00:20:25,760
+have a very good mechanical cad
+
+512
+00:20:22,640 --> 00:20:30,159
+engineering process that you
+
+513
+00:20:25,760 --> 00:20:33,120
+can configure a 100 percent 3d model
+
+514
+00:20:30,159 --> 00:20:33,679
+which is a totally different view when
+
+515
+00:20:33,120 --> 00:20:37,280
+you are
+
+516
+00:20:33,679 --> 00:20:41,120
+looking on the on the parts level
+
+517
+00:20:37,280 --> 00:20:44,159
+and i have seen the 150 percent approach
+
+518
+00:20:41,120 --> 00:20:45,679
+uh used successfully for the platform
+
+519
+00:20:44,159 --> 00:20:48,720
+model
+
+520
+00:20:45,679 --> 00:20:49,440
+but what they do they instantiate the
+
+521
+00:20:48,720 --> 00:20:52,080
+project
+
+522
+00:20:49,440 --> 00:20:53,840
+model with these other commercial tools
+
+523
+00:20:52,080 --> 00:20:55,360
+that can handle this in this case pure
+
+524
+00:20:53,840 --> 00:20:59,520
+variants
+
+525
+00:20:55,360 --> 00:21:02,320
+and then they run the the instances
+
+526
+00:20:59,520 --> 00:21:02,960
+again in git with lemon tree so they
+
+527
+00:21:02,320 --> 00:21:06,240
+basically
+
+528
+00:21:02,960 --> 00:21:09,440
+just use it to
+
+529
+00:21:06,240 --> 00:21:11,039
+to give birth to the model yeah like a
+
+530
+00:21:09,440 --> 00:21:13,520
+model configurator
+
+531
+00:21:11,039 --> 00:21:14,640
+and after that the model again runs its
+
+532
+00:21:13,520 --> 00:21:17,760
+life cycle
+
+533
+00:21:14,640 --> 00:21:19,200
+inversion control is a 100 more
+
+534
+00:21:17,760 --> 00:21:21,360
+yeah and this is something we have to
+
+535
+00:21:19,200 --> 00:21:24,240
+talk about in
+
+536
+00:21:21,360 --> 00:21:27,280
+in another episode about variant
+
+537
+00:21:24,240 --> 00:21:29,120
+management definitely because it's
+
+538
+00:21:27,280 --> 00:21:30,880
+different different thing and we really
+
+539
+00:21:29,120 --> 00:21:34,080
+have to separate
+
+540
+00:21:30,880 --> 00:21:35,039
+the knowledge about your your variation
+
+541
+00:21:34,080 --> 00:21:38,080
+space
+
+542
+00:21:35,039 --> 00:21:41,280
+and the configuration of one specific
+
+543
+00:21:38,080 --> 00:21:43,840
+thing out of this possibility space
+
+544
+00:21:41,280 --> 00:21:46,080
+and this is very often the case that
+
+545
+00:21:43,840 --> 00:21:48,559
+people mix that up
+
+546
+00:21:46,080 --> 00:21:51,039
+and and i think we should uh focus again
+
+547
+00:21:48,559 --> 00:21:54,400
+today it's more version control
+
+548
+00:21:51,039 --> 00:21:56,840
+uh revision management and so on but
+
+549
+00:21:54,400 --> 00:21:58,559
+but obviously yes you end up in this
+
+550
+00:21:56,840 --> 00:22:01,200
+space
+
+551
+00:21:58,559 --> 00:22:03,039
+you end up in this space and also
+
+552
+00:22:01,200 --> 00:22:04,960
+interesting thing is always when you
+
+553
+00:22:03,039 --> 00:22:07,440
+work with systems engineers
+
+554
+00:22:04,960 --> 00:22:09,520
+and you bring tools that have names that
+
+555
+00:22:07,440 --> 00:22:13,760
+they heard from software engineering
+
+556
+00:22:09,520 --> 00:22:17,600
+and they sometimes panic
+
+557
+00:22:13,760 --> 00:22:20,000
+yeah one example from code engineering
+
+558
+00:22:17,600 --> 00:22:24,559
+is if you tell them to type in
+
+559
+00:22:20,000 --> 00:22:26,799
+c as a action language they they cry
+
+560
+00:22:24,559 --> 00:22:28,720
+if they you tell them to type in arf
+
+561
+00:22:26,799 --> 00:22:29,520
+they say oh that's a system engineering
+
+562
+00:22:28,720 --> 00:22:32,640
+language
+
+563
+00:22:29,520 --> 00:22:34,960
+in reality they write an equation a is b
+
+564
+00:22:32,640 --> 00:22:36,000
+plus c and it doesn't matter if it's
+
+565
+00:22:34,960 --> 00:22:39,600
+javascript
+
+566
+00:22:36,000 --> 00:22:41,679
+c or or arf
+
+567
+00:22:39,600 --> 00:22:43,200
+and a similar thing can happen with this
+
+568
+00:22:41,679 --> 00:22:45,840
+version control systems
+
+569
+00:22:43,200 --> 00:22:47,919
+so i think uh when you introduce a
+
+570
+00:22:45,840 --> 00:22:48,720
+process like feature-based branching and
+
+571
+00:22:47,919 --> 00:22:51,919
+so on
+
+572
+00:22:48,720 --> 00:22:54,720
+uh we do some stuff to make it easier
+
+573
+00:22:51,919 --> 00:22:55,520
+and you also have to have a biannus in
+
+574
+00:22:54,720 --> 00:22:58,799
+the nbc
+
+575
+00:22:55,520 --> 00:23:00,320
+team or or the guys drive such an
+
+576
+00:22:58,799 --> 00:23:02,640
+initiative
+
+577
+00:23:00,320 --> 00:23:04,799
+that you have to take care of the people
+
+578
+00:23:02,640 --> 00:23:08,960
+and take them with you and not leave
+
+579
+00:23:04,799 --> 00:23:11,280
+them behind you
+
+580
+00:23:08,960 --> 00:23:12,880
+uh you said i can use lavendry together
+
+581
+00:23:11,280 --> 00:23:16,000
+with enterprise architect
+
+582
+00:23:12,880 --> 00:23:19,440
+so enterprise architect can do system l
+
+583
+00:23:16,000 --> 00:23:22,320
+models but can also use uml bpmn
+
+584
+00:23:19,440 --> 00:23:22,880
+and many other things it work with all
+
+585
+00:23:22,320 --> 00:23:25,360
+of these
+
+586
+00:23:22,880 --> 00:23:26,159
+models yes it works with all of these
+
+587
+00:23:25,360 --> 00:23:29,280
+models
+
+588
+00:23:26,159 --> 00:23:31,520
+there's rare cases with weird
+
+589
+00:23:29,280 --> 00:23:33,039
+shape scripts but sometimes the diagrams
+
+590
+00:23:31,520 --> 00:23:35,440
+look not 100
+
+591
+00:23:33,039 --> 00:23:37,360
+right but all elements and all
+
+592
+00:23:35,440 --> 00:23:40,080
+connectors are on the diagram
+
+593
+00:23:37,360 --> 00:23:42,559
+and it supports even the profiling
+
+594
+00:23:40,080 --> 00:23:46,320
+mechanism of enterprise architect
+
+595
+00:23:42,559 --> 00:23:49,840
+and uh you just gave me a nice
+
+596
+00:23:46,320 --> 00:23:52,799
+word to continue and uh lemon tree is
+
+597
+00:23:49,840 --> 00:23:54,880
+now also available for openmbe
+
+598
+00:23:52,799 --> 00:23:57,360
+so it's not just the enterprise
+
+599
+00:23:54,880 --> 00:23:57,360
+architect
+
+600
+00:23:57,679 --> 00:24:00,960
+that's that's great that's awesome
+
+601
+00:23:59,919 --> 00:24:04,320
+another episode
+
+602
+00:24:00,960 --> 00:24:05,200
+yes uh great um but if you're
+
+603
+00:24:04,320 --> 00:24:08,720
+independent of
+
+604
+00:24:05,200 --> 00:24:11,520
+uh so oh no what i would like to ask
+
+605
+00:24:08,720 --> 00:24:11,919
+your your merch algorithm is independent
+
+606
+00:24:11,520 --> 00:24:14,559
+of
+
+607
+00:24:11,919 --> 00:24:15,039
+system for example it does not know that
+
+608
+00:24:14,559 --> 00:24:16,559
+i now
+
+609
+00:24:15,039 --> 00:24:18,320
+merge a block and another block or
+
+610
+00:24:16,559 --> 00:24:21,279
+something
+
+611
+00:24:18,320 --> 00:24:22,320
+it's a graph merge tool yeah i see but
+
+612
+00:24:21,279 --> 00:24:25,120
+but
+
+613
+00:24:22,320 --> 00:24:26,159
+look think about it as a graph merge
+
+614
+00:24:25,120 --> 00:24:29,200
+tool
+
+615
+00:24:26,159 --> 00:24:31,760
+but for uh some special
+
+616
+00:24:29,200 --> 00:24:33,919
+things like sequence diagrams there is
+
+617
+00:24:31,760 --> 00:24:37,039
+something like a profile in place
+
+618
+00:24:33,919 --> 00:24:38,799
+some special handling and try to keep it
+
+619
+00:24:37,039 --> 00:24:41,440
+as general as possible
+
+620
+00:24:38,799 --> 00:24:42,960
+uh but then you at that in the real
+
+621
+00:24:41,440 --> 00:24:44,640
+world sometimes you have stuff like
+
+622
+00:24:42,960 --> 00:24:46,400
+sequence diagrams or
+
+623
+00:24:44,640 --> 00:24:48,240
+maybe some special things in state
+
+624
+00:24:46,400 --> 00:24:50,240
+machines where there's some special
+
+625
+00:24:48,240 --> 00:24:52,480
+logic for a specific type
+
+626
+00:24:50,240 --> 00:24:55,679
+but generally we try to make it as
+
+627
+00:24:52,480 --> 00:24:55,679
+universal as possible
+
+628
+00:24:57,520 --> 00:25:02,080
+yeah looking to the fact how you
+
+629
+00:25:02,400 --> 00:25:06,799
+version the models and and what you have
+
+630
+00:25:05,039 --> 00:25:07,600
+in the background or you can support in
+
+631
+00:25:06,799 --> 00:25:11,039
+the background
+
+632
+00:25:07,600 --> 00:25:13,520
+it reminds me of the system lv2 api
+
+633
+00:25:11,039 --> 00:25:14,080
+which also handles commits and change
+
+634
+00:25:13,520 --> 00:25:17,520
+sets
+
+635
+00:25:14,080 --> 00:25:21,360
+and branches so
+
+636
+00:25:17,520 --> 00:25:24,799
+could i use uh lemon tree
+
+637
+00:25:21,360 --> 00:25:28,400
+later on also with system lv2 within the
+
+638
+00:25:24,799 --> 00:25:32,159
+system lv2 api uh if you
+
+639
+00:25:28,400 --> 00:25:36,240
+look at the people driving openmb
+
+640
+00:25:32,159 --> 00:25:39,120
+and driving the system v2 you will see
+
+641
+00:25:36,240 --> 00:25:40,880
+that there is no conflict it's the same
+
+642
+00:25:39,120 --> 00:25:43,120
+people basically
+
+643
+00:25:40,880 --> 00:25:44,400
+and this is one of the reasons why we
+
+644
+00:25:43,120 --> 00:25:48,000
+decided uh
+
+645
+00:25:44,400 --> 00:25:52,000
+to go that route and and bring open mbe
+
+646
+00:25:48,000 --> 00:25:52,960
+as our second uh modeling platform we
+
+647
+00:25:52,000 --> 00:25:56,080
+support
+
+648
+00:25:52,960 --> 00:25:59,679
+in the boat because we believe
+
+649
+00:25:56,080 --> 00:26:02,480
+uh if the ssml v2 takes off
+
+650
+00:25:59,679 --> 00:26:03,840
+including the api uh we are in a very
+
+651
+00:26:02,480 --> 00:26:07,200
+strong position
+
+652
+00:26:03,840 --> 00:26:10,159
+uh to adapt quickly
+
+653
+00:26:07,200 --> 00:26:11,120
+again what i don't like about the openmb
+
+654
+00:26:10,159 --> 00:26:14,159
+about this
+
+655
+00:26:11,120 --> 00:26:17,679
+system lv2 api approach is
+
+656
+00:26:14,159 --> 00:26:22,320
+that again we start building
+
+657
+00:26:17,679 --> 00:26:22,320
+back ends for stuff that is already done
+
+658
+00:26:22,960 --> 00:26:25,840
+there's a lot
+
+659
+00:26:26,400 --> 00:26:30,000
+what do you mean it's already done i
+
+660
+00:26:29,360 --> 00:26:32,320
+mean
+
+661
+00:26:30,000 --> 00:26:34,080
+uh this is what i explained early on
+
+662
+00:26:32,320 --> 00:26:37,679
+already our dna is to
+
+663
+00:26:34,080 --> 00:26:40,720
+reuse what's existing and and uh
+
+664
+00:26:37,679 --> 00:26:42,720
+for example if i'm if i'm a customer and
+
+665
+00:26:40,720 --> 00:26:46,640
+i'm not happy with subversion
+
+666
+00:26:42,720 --> 00:26:48,559
+i can switch to git in in three days
+
+667
+00:26:46,640 --> 00:26:51,200
+and lemon tree and enterprise architect
+
+668
+00:26:48,559 --> 00:26:54,400
+and everything will still work
+
+669
+00:26:51,200 --> 00:26:56,919
+with the system lb2 we will have uh
+
+670
+00:26:54,400 --> 00:26:58,480
+backends that will do something in
+
+671
+00:26:56,919 --> 00:27:00,960
+databases
+
+672
+00:26:58,480 --> 00:27:02,000
+maybe in databases nobody ever heard of
+
+673
+00:27:00,960 --> 00:27:05,200
+in europe
+
+674
+00:27:02,000 --> 00:27:08,720
+and it will be hard to maintain and run
+
+675
+00:27:05,200 --> 00:27:11,679
+i prefer to have the data in a
+
+676
+00:27:08,720 --> 00:27:12,080
+in a format that is easy to run where i
+
+677
+00:27:11,679 --> 00:27:15,360
+have
+
+678
+00:27:12,080 --> 00:27:18,320
+choice of vendors and and this is
+
+679
+00:27:15,360 --> 00:27:20,399
+why i like the version control a lot we
+
+680
+00:27:18,320 --> 00:27:23,360
+will see when the commercial solutions
+
+681
+00:27:20,399 --> 00:27:26,240
+for the system lv2 back ends come out
+
+682
+00:27:23,360 --> 00:27:27,520
+how well uh our part dispersion
+
+683
+00:27:26,240 --> 00:27:29,520
+management works
+
+684
+00:27:27,520 --> 00:27:32,399
+but we will build a solution that can
+
+685
+00:27:29,520 --> 00:27:35,760
+work with or without
+
+686
+00:27:32,399 --> 00:27:39,120
+yeah okay yeah
+
+687
+00:27:35,760 --> 00:27:41,840
+uh talking of the tool uh why don't you
+
+688
+00:27:39,120 --> 00:27:41,840
+show us the tool
+
+689
+00:27:42,000 --> 00:27:49,039
+one second so
+
+690
+00:27:45,520 --> 00:27:53,600
+screen share so
+
+691
+00:27:49,039 --> 00:27:57,120
+as i said before we try to make it easy
+
+692
+00:27:53,600 --> 00:28:00,799
+for systems engineers to
+
+693
+00:27:57,120 --> 00:28:02,640
+understand tour so what we have in lemon
+
+694
+00:28:00,799 --> 00:28:05,760
+in enterprise architect
+
+695
+00:28:02,640 --> 00:28:06,159
+we have an add-in and you can forget do
+
+696
+00:28:05,760 --> 00:28:09,360
+some
+
+697
+00:28:06,159 --> 00:28:10,960
+basic git operations directly from
+
+698
+00:28:09,360 --> 00:28:14,960
+enterprise architect
+
+699
+00:28:10,960 --> 00:28:17,200
+so in the in for users that just use it
+
+700
+00:28:14,960 --> 00:28:18,240
+you don't have to do a big git training
+
+701
+00:28:17,200 --> 00:28:20,320
+they can
+
+702
+00:28:18,240 --> 00:28:22,000
+they have five commands and that's
+
+703
+00:28:20,320 --> 00:28:23,679
+typically enough we developed this
+
+704
+00:28:22,000 --> 00:28:24,640
+together with an american defense
+
+705
+00:28:23,679 --> 00:28:28,080
+contractor
+
+706
+00:28:24,640 --> 00:28:30,000
+that said our systems engineer uh cry
+
+707
+00:28:28,080 --> 00:28:32,320
+if they have to use software tools this
+
+708
+00:28:30,000 --> 00:28:34,880
+works really really well
+
+709
+00:28:32,320 --> 00:28:36,240
+and uh the best feature is here that you
+
+710
+00:28:34,880 --> 00:28:38,399
+can set your
+
+711
+00:28:36,240 --> 00:28:41,360
+see your your branches and you can
+
+712
+00:28:38,399 --> 00:28:43,919
+directly switch between the branches
+
+713
+00:28:41,360 --> 00:28:46,640
+and this is maybe if if you go to the
+
+714
+00:28:43,919 --> 00:28:48,559
+git world
+
+715
+00:28:46,640 --> 00:28:49,760
+you shall not be afraid of branches
+
+716
+00:28:48,559 --> 00:28:52,559
+branches are not bad
+
+717
+00:28:49,760 --> 00:28:52,559
+they are your friend
+
+718
+00:28:52,880 --> 00:28:56,080
+when the second example i want to show
+
+719
+00:28:55,200 --> 00:29:00,000
+is something
+
+720
+00:28:56,080 --> 00:29:03,039
+that is really my nightmare uh
+
+721
+00:29:00,000 --> 00:29:06,240
+when i have a project a model and
+
+722
+00:29:03,039 --> 00:29:06,559
+my boss comes and tells me can you tell
+
+723
+00:29:06,240 --> 00:29:11,039
+me
+
+724
+00:29:06,559 --> 00:29:14,240
+what we changed in june 2018
+
+725
+00:29:11,039 --> 00:29:17,039
+and uh when you have a bunch of xmi
+
+726
+00:29:14,240 --> 00:29:19,360
+files you need a lot of time and have
+
+727
+00:29:17,039 --> 00:29:21,919
+only a certain probability
+
+728
+00:29:19,360 --> 00:29:23,440
+of the changes you report to your boss
+
+729
+00:29:21,919 --> 00:29:26,399
+so what i do here
+
+730
+00:29:23,440 --> 00:29:28,399
+i choose two versions of the model that
+
+731
+00:29:26,399 --> 00:29:31,440
+are three years old from june
+
+732
+00:29:28,399 --> 00:29:33,919
+2018 i right click
+
+733
+00:29:31,440 --> 00:29:35,440
+in the version control tool i choose
+
+734
+00:29:33,919 --> 00:29:38,000
+compare revisions
+
+735
+00:29:35,440 --> 00:29:39,360
+because lemon tree was entered as a div
+
+736
+00:29:38,000 --> 00:29:41,919
+merge tool for
+
+737
+00:29:39,360 --> 00:29:43,840
+enterprise architect models uh lemon
+
+738
+00:29:41,919 --> 00:29:47,279
+tree shows up
+
+739
+00:29:43,840 --> 00:29:50,159
+and uh diffs the models
+
+740
+00:29:47,279 --> 00:29:52,240
+and it's a matter of a few minutes on a
+
+741
+00:29:50,159 --> 00:29:53,279
+bigger model in this small model it went
+
+742
+00:29:52,240 --> 00:29:56,320
+really fast
+
+743
+00:29:53,279 --> 00:29:58,799
+and we can immediately see green
+
+744
+00:29:56,320 --> 00:30:00,559
+means changed we can immediately see my
+
+745
+00:29:58,799 --> 00:30:03,679
+colleague introduced the state
+
+746
+00:30:00,559 --> 00:30:05,919
+2 in 2018.
+
+747
+00:30:03,679 --> 00:30:07,520
+if you have a bunch of xmi files we have
+
+748
+00:30:05,919 --> 00:30:11,279
+all done it
+
+749
+00:30:07,520 --> 00:30:14,240
+you work three three four hours
+
+750
+00:30:11,279 --> 00:30:15,840
+and have only a certain probability that
+
+751
+00:30:14,240 --> 00:30:18,240
+what you report this what
+
+752
+00:30:15,840 --> 00:30:20,000
+what what was the reality in the past
+
+753
+00:30:18,240 --> 00:30:21,520
+and with this integration with the
+
+754
+00:30:20,000 --> 00:30:24,640
+version control system you have
+
+755
+00:30:21,520 --> 00:30:26,240
+really a good foothold and you have a
+
+756
+00:30:24,640 --> 00:30:29,440
+lot of confidence that
+
+757
+00:30:26,240 --> 00:30:33,600
+this is the change he did
+
+758
+00:30:29,440 --> 00:30:36,080
+yeah that's great and
+
+759
+00:30:33,600 --> 00:30:37,760
+if this is a small model you mentioned
+
+760
+00:30:36,080 --> 00:30:38,240
+larger models takes a little bit longer
+
+761
+00:30:37,760 --> 00:30:40,480
+so
+
+762
+00:30:38,240 --> 00:30:41,679
+yeah how large can a model be for
+
+763
+00:30:40,480 --> 00:30:45,279
+elementary
+
+764
+00:30:41,679 --> 00:30:48,480
+we have we have one customer that has
+
+765
+00:30:45,279 --> 00:30:52,960
+up to 300 000 model changes
+
+766
+00:30:48,480 --> 00:30:57,760
+when he runs lemon tree well
+
+767
+00:30:52,960 --> 00:31:00,880
+uh we survived the tmt model in oakman b
+
+768
+00:30:57,760 --> 00:31:04,000
+okay that's the third telescope
+
+769
+00:31:00,880 --> 00:31:05,600
+okay yeah so
+
+770
+00:31:04,000 --> 00:31:08,159
+and we can split it you know because of
+
+771
+00:31:05,600 --> 00:31:10,320
+our merge technology and the new
+
+772
+00:31:08,159 --> 00:31:12,399
+new model slicing we introduced we can
+
+773
+00:31:10,320 --> 00:31:16,000
+split them all if required
+
+774
+00:31:12,399 --> 00:31:18,240
+in a good way and yeah
+
+775
+00:31:16,000 --> 00:31:20,559
+the next thing i want to show is lemon
+
+776
+00:31:18,240 --> 00:31:23,600
+tree can also be used as a desktop tool
+
+777
+00:31:20,559 --> 00:31:26,159
+you simply start it and uh
+
+778
+00:31:23,600 --> 00:31:27,440
+it's a three-way diff tool and this is
+
+779
+00:31:26,159 --> 00:31:30,080
+maybe
+
+780
+00:31:27,440 --> 00:31:31,360
+very important if you don't have the
+
+781
+00:31:30,080 --> 00:31:34,080
+common base
+
+782
+00:31:31,360 --> 00:31:35,679
+you cannot really defect conflicts if
+
+783
+00:31:34,080 --> 00:31:38,320
+the order decides
+
+784
+00:31:35,679 --> 00:31:39,919
+if something was added or removed if you
+
+785
+00:31:38,320 --> 00:31:42,480
+have the common base you can do
+
+786
+00:31:39,919 --> 00:31:44,480
+proper comparison in software
+
+787
+00:31:42,480 --> 00:31:45,679
+engineering this is state of the art for
+
+788
+00:31:44,480 --> 00:31:48,320
+decades
+
+789
+00:31:45,679 --> 00:31:50,320
+in the modeling world it is not and this
+
+790
+00:31:48,320 --> 00:31:54,000
+is one of the key things why
+
+791
+00:31:50,320 --> 00:31:54,880
+lemon tree is so powerful now i click on
+
+792
+00:31:54,000 --> 00:31:58,559
+merge
+
+793
+00:31:54,880 --> 00:32:01,120
+this is a little bit bigger model and
+
+794
+00:31:58,559 --> 00:32:03,279
+so generally speaking lemon tree reacts
+
+795
+00:32:01,120 --> 00:32:06,799
+very well if you have nice hardware
+
+796
+00:32:03,279 --> 00:32:10,000
+we recommend 16 gigabytes of ram and a
+
+797
+00:32:06,799 --> 00:32:12,320
+modern modern cpu you can see here now
+
+798
+00:32:10,000 --> 00:32:15,360
+we have two conflicts it's highlighted
+
+799
+00:32:12,320 --> 00:32:16,880
+in red i click on it a filter is applied
+
+800
+00:32:15,360 --> 00:32:20,080
+and the conflicts
+
+801
+00:32:16,880 --> 00:32:20,399
+are seen and i can click on this and i
+
+802
+00:32:20,080 --> 00:32:23,200
+can
+
+803
+00:32:20,399 --> 00:32:24,320
+now see for those that don't see my
+
+804
+00:32:23,200 --> 00:32:28,880
+screen
+
+805
+00:32:24,320 --> 00:32:28,880
+that i have an operation in
+
+806
+00:32:34,080 --> 00:32:38,240
+where one guy changed display set line
+
+807
+00:32:37,440 --> 00:32:40,480
+to one
+
+808
+00:32:38,240 --> 00:32:41,679
+and the other guy changed display set
+
+809
+00:32:40,480 --> 00:32:44,640
+line to two
+
+810
+00:32:41,679 --> 00:32:46,159
+and the original was set line zero and
+
+811
+00:32:44,640 --> 00:32:48,799
+now i can decide
+
+812
+00:32:46,159 --> 00:32:49,200
+in a graphical way which one i want to
+
+813
+00:32:48,799 --> 00:32:52,320
+use
+
+814
+00:32:49,200 --> 00:32:55,519
+in the merge result and this is
+
+815
+00:32:52,320 --> 00:32:57,440
+the simple the simple solution because
+
+816
+00:32:55,519 --> 00:32:57,919
+you mentioned it before i have to show
+
+817
+00:32:57,440 --> 00:33:00,159
+it
+
+818
+00:32:57,919 --> 00:33:03,200
+we have a specific filter height
+
+819
+00:33:00,159 --> 00:33:07,360
+graphical changes on diagrams
+
+820
+00:33:03,200 --> 00:33:07,360
+especially developed for christian
+
+821
+00:33:08,480 --> 00:33:13,200
+and then you only see diagrams where
+
+822
+00:33:10,720 --> 00:33:16,640
+stuff really stuff happened and not
+
+823
+00:33:13,200 --> 00:33:18,880
+just boxes moved around and the last
+
+824
+00:33:16,640 --> 00:33:21,279
+thing i want to show in my demo is
+
+825
+00:33:18,880 --> 00:33:22,640
+that we also can do a graphical merge on
+
+826
+00:33:21,279 --> 00:33:24,960
+a diagram
+
+827
+00:33:22,640 --> 00:33:26,480
+uh what the viewers see now is an
+
+828
+00:33:24,960 --> 00:33:30,320
+activity diagram
+
+829
+00:33:26,480 --> 00:33:32,320
+and uh in one version uh the shutdown
+
+830
+00:33:30,320 --> 00:33:35,039
+activity was introduced
+
+831
+00:33:32,320 --> 00:33:36,320
+uh my version doesn't have it obviously
+
+832
+00:33:35,039 --> 00:33:39,519
+i win
+
+833
+00:33:36,320 --> 00:33:42,000
+so i choose the shutdown in the in the
+
+834
+00:33:39,519 --> 00:33:43,279
+in the diagram i can select the element
+
+835
+00:33:42,000 --> 00:33:46,720
+in the diagram
+
+836
+00:33:43,279 --> 00:33:48,559
+and i decide to use the version from b
+
+837
+00:33:46,720 --> 00:33:50,080
+without the shutdown where the shutdown
+
+838
+00:33:48,559 --> 00:33:53,760
+is deleted
+
+839
+00:33:50,080 --> 00:33:56,399
+uh lemon3 live has a has a live
+
+840
+00:33:53,760 --> 00:33:58,080
+merge preview for the diagram and we can
+
+841
+00:33:56,399 --> 00:34:00,159
+see the shutdown is gone
+
+842
+00:33:58,080 --> 00:34:02,159
+and there is currently no connector to
+
+843
+00:34:00,159 --> 00:34:04,159
+the activity final
+
+844
+00:34:02,159 --> 00:34:05,440
+i can click on the connect to the
+
+845
+00:34:04,159 --> 00:34:08,800
+activity final
+
+846
+00:34:05,440 --> 00:34:11,280
+and say ah we need you and it's here
+
+847
+00:34:08,800 --> 00:34:12,480
+and i'm done merging a diagram in a
+
+848
+00:34:11,280 --> 00:34:14,639
+graphical way
+
+849
+00:34:12,480 --> 00:34:15,599
+and i think this is a very good example
+
+850
+00:34:14,639 --> 00:34:18,079
+that shows that
+
+851
+00:34:15,599 --> 00:34:19,280
+if you know your model in your model
+
+852
+00:34:18,079 --> 00:34:22,480
+authoring tool
+
+853
+00:34:19,280 --> 00:34:25,119
+you will also know your model in ea
+
+854
+00:34:22,480 --> 00:34:26,399
+in lemon tree and this is the key
+
+855
+00:34:25,119 --> 00:34:29,040
+success
+
+856
+00:34:26,399 --> 00:34:29,599
+factor i see with the lemon rework style
+
+857
+00:34:29,040 --> 00:34:31,760
+that
+
+858
+00:34:29,599 --> 00:34:34,079
+it's still the model you have a you have
+
+859
+00:34:31,760 --> 00:34:36,480
+a containment tree or a project browser
+
+860
+00:34:34,079 --> 00:34:38,159
+view you have diagrams and you can see
+
+861
+00:34:36,480 --> 00:34:40,399
+all your properties including packed
+
+862
+00:34:38,159 --> 00:34:43,040
+values and whatnot
+
+863
+00:34:40,399 --> 00:34:44,800
+and does lamentry do the diagram
+
+864
+00:34:43,040 --> 00:34:47,599
+rendering or do you use
+
+865
+00:34:44,800 --> 00:34:49,520
+then center first architect or another
+
+866
+00:34:47,599 --> 00:34:52,960
+modeling tool that renders it
+
+867
+00:34:49,520 --> 00:34:54,800
+uh it depends uh for enterprise
+
+868
+00:34:52,960 --> 00:34:55,760
+architect we render the diagrams
+
+869
+00:34:54,800 --> 00:34:59,200
+ourselves
+
+870
+00:34:55,760 --> 00:34:59,920
+for other tools uh this might not be
+
+871
+00:34:59,200 --> 00:35:02,400
+true
+
+872
+00:34:59,920 --> 00:35:03,839
+okay and is it an auto layout or is it
+
+873
+00:35:02,400 --> 00:35:07,040
+exactly the layout
+
+874
+00:35:03,839 --> 00:35:10,480
+it's a very close representation
+
+875
+00:35:07,040 --> 00:35:11,680
+you would be happy if you had the same
+
+876
+00:35:10,480 --> 00:35:14,560
+quality
+
+877
+00:35:11,680 --> 00:35:17,119
+of rendering uh in if you do model
+
+878
+00:35:14,560 --> 00:35:19,920
+exchange between two models
+
+879
+00:35:17,119 --> 00:35:19,920
+it's very close
+
+880
+00:35:20,400 --> 00:35:24,560
+yeah this was the demo i don't want to
+
+881
+00:35:22,240 --> 00:35:28,560
+make it too long for the pure listeners
+
+882
+00:35:24,560 --> 00:35:30,960
+is there any questions that arose
+
+883
+00:35:28,560 --> 00:35:31,680
+uh i will have a look in the live chat
+
+884
+00:35:30,960 --> 00:35:34,960
+no
+
+885
+00:35:31,680 --> 00:35:38,160
+at the moment no question but i'm
+
+886
+00:35:34,960 --> 00:35:41,760
+pretty sure they will come afterwards so
+
+887
+00:35:38,160 --> 00:35:44,720
+most of our viewers and listeners are
+
+888
+00:35:41,760 --> 00:35:46,160
+viewing and listening to the podcast and
+
+889
+00:35:44,720 --> 00:35:48,880
+not live but
+
+890
+00:35:46,160 --> 00:35:49,599
+later on and i'm sure there will come
+
+891
+00:35:48,880 --> 00:35:52,560
+something
+
+892
+00:35:49,599 --> 00:35:52,560
+we will we will set up
+
+893
+00:35:52,640 --> 00:35:58,160
+video marks so that you can
+
+894
+00:35:55,839 --> 00:35:59,839
+navigate very quickly here in this
+
+895
+00:35:58,160 --> 00:36:03,520
+youtube video
+
+896
+00:35:59,839 --> 00:36:06,560
+to the demo piece and
+
+897
+00:36:03,520 --> 00:36:10,000
+i would say it's valuable to all
+
+898
+00:36:06,560 --> 00:36:14,560
+also see the demo and not just
+
+899
+00:36:10,000 --> 00:36:14,560
+hearing what daniel explained
+
+900
+00:36:15,119 --> 00:36:22,079
+yeah so that's the best daniel if the
+
+901
+00:36:18,400 --> 00:36:22,079
+people would like to contact you
+
+902
+00:36:23,119 --> 00:36:29,440
+should we post your linkedin you can
+
+903
+00:36:26,640 --> 00:36:30,440
+post your linkedin or simply write to
+
+904
+00:36:29,440 --> 00:36:33,599
+welcome
+
+905
+00:36:30,440 --> 00:36:35,599
+liberlieber.com but feel free to also
+
+906
+00:36:33,599 --> 00:36:38,400
+post my linkedin
+
+907
+00:36:35,599 --> 00:36:39,440
+welcome is your email address now
+
+908
+00:36:38,400 --> 00:36:41,680
+somebody takes
+
+909
+00:36:39,440 --> 00:36:43,280
+if you're sent to welcome somebody takes
+
+910
+00:36:41,680 --> 00:36:46,880
+care that they really answer
+
+911
+00:36:43,280 --> 00:36:49,359
+okay very
+
+912
+00:36:46,880 --> 00:36:52,480
+good yeah and in addition we can post
+
+913
+00:36:49,359 --> 00:36:54,240
+your linkedin profile on our website
+
+914
+00:36:52,480 --> 00:36:55,680
+absolutely we'll do that it's not there
+
+915
+00:36:54,240 --> 00:36:59,200
+yet but we will do that
+
+916
+00:36:55,680 --> 00:37:00,640
+yeah perfect okay yeah but there's one
+
+917
+00:36:59,200 --> 00:37:03,440
+last question that
+
+918
+00:37:00,640 --> 00:37:04,320
+arose in in my mind uh when we are
+
+919
+00:37:03,440 --> 00:37:07,520
+speaking of
+
+920
+00:37:04,320 --> 00:37:08,960
+versioning at some point in time we are
+
+921
+00:37:07,520 --> 00:37:11,920
+done with versioning we
+
+922
+00:37:08,960 --> 00:37:12,960
+want to release the model is there
+
+923
+00:37:11,920 --> 00:37:16,240
+something
+
+924
+00:37:12,960 --> 00:37:19,599
+similar like attack and git which
+
+925
+00:37:16,240 --> 00:37:22,240
+yes exactly you simply there is
+
+926
+00:37:19,599 --> 00:37:24,000
+not something similar again lazy us have
+
+927
+00:37:22,240 --> 00:37:27,040
+not developed something special
+
+928
+00:37:24,000 --> 00:37:29,839
+we use the features that are available
+
+929
+00:37:27,040 --> 00:37:30,640
+all right create the get intake create
+
+930
+00:37:29,839 --> 00:37:33,680
+the tag in
+
+931
+00:37:30,640 --> 00:37:37,839
+git easy
+
+932
+00:37:33,680 --> 00:37:37,839
+solution absolutely
+
+933
+00:37:38,160 --> 00:37:44,720
+tim any more questions
+
+934
+00:37:41,359 --> 00:37:48,079
+for daniel no not
+
+935
+00:37:44,720 --> 00:37:49,920
+on our current flight level if you go
+
+936
+00:37:48,079 --> 00:37:50,720
+further below i think i have many
+
+937
+00:37:49,920 --> 00:37:54,000
+questions
+
+938
+00:37:50,720 --> 00:37:55,359
+it's very interesting so in particular
+
+939
+00:37:54,000 --> 00:37:56,400
+when i start playing around with lemon
+
+940
+00:37:55,359 --> 00:38:00,880
+tree and so
+
+941
+00:37:56,400 --> 00:38:04,880
+it's a very cool tool but not for now no
+
+942
+00:38:00,880 --> 00:38:08,400
+okay so i think
+
+943
+00:38:04,880 --> 00:38:11,200
+we are already in the end of our
+
+944
+00:38:08,400 --> 00:38:12,079
+episode and uh thank you very much
+
+945
+00:38:11,200 --> 00:38:14,480
+daniel
+
+946
+00:38:12,079 --> 00:38:16,000
+for your time for the demo for the
+
+947
+00:38:14,480 --> 00:38:19,200
+information
+
+948
+00:38:16,000 --> 00:38:22,079
+um i think it's a topic which
+
+949
+00:38:19,200 --> 00:38:23,200
+yeah which is for everybody who is
+
+950
+00:38:22,079 --> 00:38:27,040
+modeling and
+
+951
+00:38:23,200 --> 00:38:30,800
+uh so from my experience many people
+
+952
+00:38:27,040 --> 00:38:33,680
+yeah do do not really think about how
+
+953
+00:38:30,800 --> 00:38:34,640
+how collaboration and versioning within
+
+954
+00:38:33,680 --> 00:38:37,119
+the team
+
+955
+00:38:34,640 --> 00:38:39,200
+could look like and could be better than
+
+956
+00:38:37,119 --> 00:38:41,599
+they use it today
+
+957
+00:38:39,200 --> 00:38:41,599
+i guess
+
+958
+00:38:42,400 --> 00:38:46,160
+yeah now our next topic well it's not
+
+959
+00:38:45,280 --> 00:38:49,280
+decided yet
+
+960
+00:38:46,160 --> 00:38:50,000
+um christian and i we have lots and lots
+
+961
+00:38:49,280 --> 00:38:53,200
+of ideas
+
+962
+00:38:50,000 --> 00:38:53,680
+um but have not started contacting the
+
+963
+00:38:53,200 --> 00:38:56,400
+people
+
+964
+00:38:53,680 --> 00:38:59,520
+but we will do that very soon and then
+
+965
+00:38:56,400 --> 00:39:02,720
+inform you about the topic and the date
+
+966
+00:38:59,520 --> 00:39:05,599
+on all our social media channels
+
+967
+00:39:02,720 --> 00:39:07,280
+um and if you have a topic well you said
+
+968
+00:39:05,599 --> 00:39:08,000
+well it would be really cool if they do
+
+969
+00:39:07,280 --> 00:39:10,880
+this and that
+
+970
+00:39:08,000 --> 00:39:12,880
+then well send us a message on linkedin
+
+971
+00:39:10,880 --> 00:39:16,000
+facebook twitter whatever
+
+972
+00:39:12,880 --> 00:39:18,480
+directly at our email addresses and
+
+973
+00:39:16,000 --> 00:39:20,720
+well we will consider it i have a
+
+974
+00:39:18,480 --> 00:39:24,560
+closing remark which might need
+
+975
+00:39:20,720 --> 00:39:28,079
+a lead to a topic in the future
+
+976
+00:39:24,560 --> 00:39:31,760
+i think that if you pretend or say
+
+977
+00:39:28,079 --> 00:39:34,560
+you do hlm bsc you better make sure you
+
+978
+00:39:31,760 --> 00:39:37,440
+can merge your models
+
+979
+00:39:34,560 --> 00:39:40,400
+yeah the point agile mbse is also a
+
+980
+00:39:37,440 --> 00:39:40,400
+topic on our list
+
+981
+00:39:41,280 --> 00:39:45,760
+that's worth many episodes this is the
+
+982
+00:39:43,599 --> 00:39:49,119
+only one
+
+983
+00:39:45,760 --> 00:39:52,240
+yeah interesting yeah
+
+984
+00:39:49,119 --> 00:39:56,320
+okay so question
+
+985
+00:39:52,240 --> 00:40:05,520
+what's refined i would say do not forget
+
+986
+00:39:56,320 --> 00:40:05,520
+trust us we are systems engineers
+

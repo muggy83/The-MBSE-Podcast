@@ -1,0 +1,496 @@
+1
+00:00:00,949 --> 00:00:05,872
+Hallo und herzlich willkommen
+hier zum MBSE Podcast
+
+2
+00:00:05,872 --> 00:00:12,378
+Wir wollen euch heute
+einmal kurz erzählen
+
+3
+00:00:12,378 --> 00:00:14,960
+was wir hier machen
+und warum wir das machen
+
+4
+00:00:14,960 --> 00:00:19,456
+Wir sind unter anderem Meine Wenigkeit
+
+5
+00:00:19,456 --> 00:00:21,180
+Ich bin Christian
+
+6
+00:00:21,180 --> 00:00:23,990
+Ich bin Product Manager
+und Berater und Teamleiter
+
+7
+00:00:23,990 --> 00:00:28,117
+für das Team „Engineering Transformation"
+bei der CONTACT Software
+
+8
+00:00:28,117 --> 00:00:33,446
+und bin aktives Mitglied bei der INCOSE
+
+9
+00:00:33,446 --> 00:00:40,230
+Seit 2015 nehme ich regelmäßig an den
+OMG Technical Meetings teil
+
+10
+00:00:40,230 --> 00:00:42,780
+weil denn ich seit eigentlich anfang an
+
+11
+00:00:42,780 --> 00:00:45,595
+weil ich der SysML 2 Standard
+Engineering mit dabei bin
+
+12
+00:00:45,595 --> 00:00:51,751
+Seit September 2008 bin ich unter
+anderem Co-Chair der ManTIS DTF
+
+13
+00:00:51,751 --> 00:00:52,590
+der sogenannten
+
+14
+00:00:52,590 --> 00:00:58,276
+„Manufacturing Technology und
+Information Systems Domain Task Force"
+
+15
+00:00:58,276 --> 00:01:00,703
+Und wer bist du?
+
+16
+00:01:01,558 --> 00:01:02,830
+Hallo, ich bin Tim
+
+17
+00:01:02,830 --> 00:01:06,420
+Ich bin Berater Trainer
+und Vorstand bei oose
+
+18
+00:01:06,420 --> 00:01:09,696
+Ich bin auch noch Buchautor
+Herausgeber, Dozent
+
+19
+00:01:09,696 --> 00:01:12,960
+Und vor allem eben auch aktives
+Mitglied bei der OMG und INCOSE
+
+20
+00:01:12,960 --> 00:01:16,354
+Bei der OMG damit schon sehr
+lange unterwegs und zurzeit
+
+21
+00:01:16,354 --> 00:01:18,608
+leite ich gemeinsam mit ihm nach
+
+22
+00:01:18,608 --> 00:01:22,660
+Und Airbus, die Arbeitsgruppe
+an der SysML 1 arbeite ich
+
+23
+00:01:22,660 --> 00:01:25,895
+Und auch ein Team an der 
+SysML 2 arbeite ich
+
+24
+00:01:25,895 --> 00:01:27,840
+Was machen wir hier?
+
+25
+00:01:27,840 --> 00:01:29,746
+Wir machen MBSE Podcast
+
+26
+00:01:29,746 --> 00:01:31,089
+Und die Idee ist
+
+27
+00:01:31,089 --> 00:01:33,906
+dass wir nicht ein weiteres
+Erklärvideo machen
+
+28
+00:01:33,906 --> 00:01:35,645
+und auch Bücher und Artikel
+
+29
+00:01:35,645 --> 00:01:38,306
+Also was das gibt es
+zu Genüge zu MBSE?
+
+30
+00:01:38,306 --> 00:01:40,367
+Kann man immer noch
+gut was dazu beitragen?
+
+31
+00:01:40,367 --> 00:01:44,730
+Die Idee ist eigentlich die Geschichten
+zwischen den Zeilen mal hervorzuholen
+
+32
+00:01:44,730 --> 00:01:47,489
+die man eben auch auf
+Konferenzen in den Pausen erfährt
+
+33
+00:01:47,489 --> 00:01:49,840
+oder auf dem
+Systems-Engineering-Stammtischen
+
+34
+00:01:49,840 --> 00:01:52,406
+Das wollen wir in
+diesem Podcast alle tun
+
+35
+00:01:52,406 --> 00:01:56,431
+Und auch dafür immer
+wieder Gastredner einladen
+
+36
+00:01:56,431 --> 00:01:58,324
+die uns dabei helfen
+
+37
+00:01:58,324 --> 00:02:00,603
+Was sind also die
+Themen das Podcast?
+
+38
+00:02:00,603 --> 00:02:01,962
+Wir haben uns also überlegt
+
+39
+00:02:02,833 --> 00:02:04,597
+Ein Thema hast du schon genannt
+
+40
+00:02:04,597 --> 00:02:07,939
+Wir werden natürlich unsere
+Kontakte spielen lassen
+
+41
+00:02:07,939 --> 00:02:12,042
+Wir werden auch mal ein oder andern
+spannenden Akteur interviewen
+
+42
+00:02:12,042 --> 00:02:14,030
+Also ich denke da mal ganz Spontan
+
+43
+00:02:14,030 --> 00:02:18,210
+an Sandy Friedenthal oder mal
+an Richard Soley oder so
+
+44
+00:02:18,210 --> 00:02:20,883
+Aber natürlich nicht nur
+Beschränkt auf die irgendwie
+
+45
+00:02:20,883 --> 00:02:24,678
+sondern natürlich auch ganz
+vielen anderen Organisationen
+
+46
+00:02:24,678 --> 00:02:27,288
+Aktuelles Geschehen aus dem MBSE
+
+47
+00:02:27,288 --> 00:02:29,240
+wenn von INCOSE wieder was neues kommt
+
+48
+00:02:29,240 --> 00:02:31,420
+Oder was spannendes
+bei der GfSE passiert
+
+49
+00:02:31,420 --> 00:02:33,190
+darüber wollen wir reden
+
+50
+00:02:33,190 --> 00:02:34,970
+Und natürlich ganz klar
+
+51
+00:02:34,970 --> 00:02:43,479
+weil wir da ganz nah dran
+sind über die SysML
+
+52
+00:02:43,479 --> 00:02:46,754
+Aber läufst du so ein Podcast
+jetzt eigentlich ab?
+
+53
+00:02:48,144 --> 00:02:49,220
+Das gibt modellierung
+
+54
+00:02:49,220 --> 00:02:51,019
+Also wir müssen auch mal was zeigen
+
+55
+00:02:51,019 --> 00:02:54,510
+Und wir gerade sie zeigen wir auch was
+es ist also auch ein Video Podcast
+
+56
+00:02:54,510 --> 00:02:56,580
+wir werden aber auch
+einfach für Quatschen
+
+57
+00:02:56,580 --> 00:03:00,860
+und auch die Audiospur einfach
+als Audio Podcast veröffentlichen
+
+58
+00:03:00,860 --> 00:03:03,739
+Die meisten Sessions
+werden wir Live Stream
+
+59
+00:03:03,739 --> 00:03:06,289
+das heißt die Beiträge sind
+dann ungeschnitten
+
+60
+00:03:06,289 --> 00:03:09,960
+Und sie sind wie sie sind
+Authentisch
+
+61
+00:03:09,960 --> 00:03:12,157
+Wir werden mit
+deutschen Beiträgen starten
+
+62
+00:03:12,157 --> 00:03:14,840
+Wir sind beide Deutsche Native Speaker
+
+63
+00:03:14,840 --> 00:03:17,330
+Das ist für uns erst mal
+einfacher so zu starten
+
+64
+00:03:17,330 --> 00:03:20,697
+Aber es gibt viele Englischsprachige
+spannende Gastredner
+
+65
+00:03:20,697 --> 00:03:23,195
+Und dann machen wir
+dies natürlich auch auf Englisch
+
+66
+00:03:23,195 --> 00:03:26,142
+Ob wir in der Zukunft
+mit Deutsch oder Englisch machen
+
+67
+00:03:26,142 --> 00:03:28,793
+das lassen wir auf uns zukommen
+
+68
+00:03:28,793 --> 00:03:30,033
+Zukunft
+Ein gutes Stichwort
+
+69
+00:03:30,033 --> 00:03:31,990
+Wie oft machen wir dann selbst?
+
+70
+00:03:32,931 --> 00:03:34,640
+Das ist noch eine
+spannende Frage
+
+71
+00:03:34,640 --> 00:03:37,143
+weil wir machen das
+beide in unserer Freizeit
+
+72
+00:03:37,143 --> 00:03:41,622
+und wir haben uns als Ziel
+gesetzt ganz grob
+
+73
+00:03:41,622 --> 00:03:43,980
+Einmal im Monat eine Folge
+raus zu bringen
+
+74
+00:03:43,980 --> 00:03:46,136
+vielleicht mal zwei
+vielleicht mal keine
+
+75
+00:03:46,136 --> 00:03:48,795
+je nachdem wie wir Zeit finden
+
+76
+00:03:48,795 --> 00:03:52,896
+und natürlich wie das ganze bei
+euch als Zuhörer auch ankommt
+
+77
+00:03:52,896 --> 00:03:55,497
+wenn ihr da natürlich
+sehr viel interesse zeigt
+
+78
+00:03:55,497 --> 00:03:59,770
+dann kann das natürlich nicht vielleicht
+auch mal ein bisschen öfter sein
+
+79
+00:03:59,770 --> 00:04:03,230
+Aber wie kann man denn uns Folgen?
+
+80
+00:04:03,230 --> 00:04:05,800
+Wie kann man dann keine
+Podcast Folgen verpassen?
+
+81
+00:04:06,670 --> 00:04:08,923
+Den YouTube Kanal
+wie ist das heute gehört
+
+82
+00:04:08,923 --> 00:04:11,802
+den kann man abonnieren
+Dank merkt man dann immer informiert
+
+83
+00:04:11,802 --> 00:04:15,361
+Man kann die verschiedenen
+Podcast Quellen abonnieren
+
+84
+00:04:15,361 --> 00:04:18,733
+Und die Informationen dazu findet man
+alles dann auf unserer Webseite
+
+85
+00:04:18,733 --> 00:04:22,389
+http://mbse-podcast.rocks
+
+86
+00:04:23,400 --> 00:04:24,177
+Genau
+
+87
+00:04:24,177 --> 00:04:24,954
+Richtig
+
+88
+00:04:24,954 --> 00:04:28,175
+Und damit wie ist das eigentlich
+schon für heute?
+
+89
+00:04:28,175 --> 00:04:31,308
+Wir wollten euch nur
+einmal kurz das ganze ankündigen
+
+90
+00:04:31,308 --> 00:04:33,972
+Wir wollten euch uns einmal vorstellen
+
+91
+00:04:33,972 --> 00:04:37,810
+Und wir haben nächstes mal schon ein ganz
+spannendes thema für mich ausgesucht
+
+92
+00:04:37,810 --> 00:04:42,580
+Nämlich wir wollen einmal
+die Geschichte der SysML aufarbeiten
+
+93
+00:04:42,580 --> 00:04:51,674
+Und da kann Tim auch ganz
+viel zu erzählen weil natürlich
+
+94
+00:04:51,674 --> 00:04:54,767
+Tim, seit wann bist du dabei?
+Seit der SysML 1.?
+
+95
+00:04:55,262 --> 00:04:57,640
+SysML 1.0
+
+96
+00:04:57,640 --> 00:05:00,679
+Weil der Anfang dabei seit 2003
+
+97
+00:05:01,809 --> 00:05:02,899
+Super!
+
+98
+00:05:02,899 --> 00:05:07,096
+Das ist dann natürlich umso besser
+Das war mir gar nicht so klar
+
+99
+00:05:08,070 --> 00:05:09,070
+Was gelernt
+
+100
+00:05:09,446 --> 00:05:11,340
+Wieder was gelernt
+
+101
+00:05:11,340 --> 00:05:12,230
+Genau
+
+102
+00:05:12,230 --> 00:05:14,690
+Und das ganze möchten
+wir nach Möglichkeit
+
+103
+00:05:14,690 --> 00:05:21,131
+am 5.11 um 19 Uhr Live mit euch
+zusammen auf YouTube machen
+
+104
+00:05:21,131 --> 00:05:27,240
+Und wir würden uns natürlich sehr
+über eure Teilnahme freuen
+
+105
+00:05:27,240 --> 00:05:30,746
+Ansonsten gibt es noch
+irgendwas zu sagen
+
+106
+00:05:30,746 --> 00:05:34,139
+Ich glaube eigentlich
+nur noch nicht vergessen
+
+107
+00:05:34,449 --> 00:05:37,919
+„Trust us. We are System Engineers"

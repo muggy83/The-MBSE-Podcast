@@ -1,0 +1,2336 @@
+1
+00:01:38,160 --> 00:01:46,560
+okay so good evening and welcome to our 
+mbse podcast and this time christian and i
+
+2
+00:01:46,560 --> 00:01:55,120
+are doing a new episode of our series mbse 
+around the world after sweden and then china
+
+3
+00:01:55,840 --> 00:02:02,080
+this time we visited the united kingdom and 
+we want to see how mbse is doing there we
+
+4
+00:02:02,080 --> 00:02:07,840
+are happy to have Jon Holt as our guest and 
+i think no one can tell us better about it
+
+5
+00:02:08,560 --> 00:02:15,360
+so and w ho Jon is uh he will tell you best uh 
+himself so please join introduce yourself okay
+
+6
+00:02:15,360 --> 00:02:20,240
+thanks very much tim and uh first of all thanks 
+to tim and christian for inviting me along it's a
+
+7
+00:02:20,800 --> 00:02:26,400
+it's a pleasure and an honor to be with you so for 
+people who don't know who i am my name is Jon Holt
+
+8
+00:02:26,400 --> 00:02:32,160
+and um i've been doing mbsc for my 
+whole career now so for almost 30 years
+
+9
+00:02:32,160 --> 00:02:38,160
+i work for a company called scarecrow consultants 
+limited uh we're based in the uk i'm personally
+
+10
+00:02:38,160 --> 00:02:43,520
+based in wales in the uk so for those of you in 
+europe wales is the slightly wet country to the
+
+11
+00:02:43,520 --> 00:02:50,560
+left of england for those of you in america it's 
+near london somewhere i'm also um a professor of
+
+12
+00:02:50,560 --> 00:02:56,560
+systems engineering at cranfield university here 
+in the uk and if people are aware of in cosi the
+
+13
+00:02:56,560 --> 00:03:03,120
+international council on systems engineering i'm 
+the current technical director of new incosy uk
+
+14
+00:03:03,120 --> 00:03:08,640
+and i've offered 17 books on model-based 
+systems engineering and its application
+
+15
+00:03:08,640 --> 00:03:13,280
+in over over the years so that's a 
+that's a very brief introduction to me
+
+16
+00:03:15,440 --> 00:03:22,800
+wonderful yeah thank you Jon so also from 
+my side a very warm welcome and yeah as
+
+17
+00:03:23,520 --> 00:03:30,880
+the technical director uh you for sure can 
+tell us in which industries in the uk is
+
+18
+00:03:30,880 --> 00:03:35,600
+systems engineering or maybe already 
+model-based systems engineering used
+
+19
+00:03:36,640 --> 00:03:42,560
+well it's interesting because i think the same as 
+many countries historically systems engineering
+
+20
+00:03:42,560 --> 00:03:48,240
+and therefore model-based systems engineering 
+has been very strong for decades in aerospace
+
+21
+00:03:48,240 --> 00:03:54,960
+and defense but what we're seeing now is lots of 
+other uh different industries coming on board and
+
+22
+00:03:54,960 --> 00:04:02,000
+i think one of the biggest ones at the moment is 
+automotive so you know from about five or seven
+
+23
+00:04:02,000 --> 00:04:08,480
+years ago all of a sudden uh automotive has become 
+massive and and i think this is important because
+
+24
+00:04:08,480 --> 00:04:16,240
+i think um what's important about some uh well all 
+industries in particular automotive i use those
+
+25
+00:04:16,240 --> 00:04:22,400
+as the example is because of the the complexity of 
+the vehicles of the systems that they're producing
+
+26
+00:04:22,400 --> 00:04:28,640
+has increased so dramatically over the last few 
+years in particular in areas like uh everything
+
+27
+00:04:28,640 --> 00:04:34,160
+is now connected so every device we buy now is 
+now connected everything is potentially part of a
+
+28
+00:04:34,160 --> 00:04:39,760
+wider system of systems and all of a sudden we've 
+seen this sort of this step change in complexity
+
+29
+00:04:39,760 --> 00:04:43,760
+because of that and because of the different 
+technologies involved and because of things
+
+30
+00:04:43,760 --> 00:04:49,680
+like constraints so safety security standards and 
+so on and also shifts in technology so getting
+
+31
+00:04:49,680 --> 00:04:56,720
+automotive away from internal combustion engines 
+over to electric it's been a massive change and a
+
+32
+00:04:56,720 --> 00:05:03,200
+shift in complexity and i think in order to cope 
+with this complexity the i think the techniques
+
+33
+00:05:03,200 --> 00:05:09,200
+we were using 10 20 30 years ago a document based 
+approach and don't get me wrong there's nothing
+
+34
+00:05:09,200 --> 00:05:13,520
+wrong with a document-based approach it's not 
+incorrect but i think a document-based approach
+
+35
+00:05:13,520 --> 00:05:18,800
+that worked 10 or 20 years ago is no longer 
+adequate for the job because the complexity has
+
+36
+00:05:18,800 --> 00:05:24,480
+increased so much and i think as the complexity 
+of our systems that we're developing increases
+
+37
+00:05:24,480 --> 00:05:29,360
+therefore the complexity of the approach that 
+we're taking to develop those systems must also
+
+38
+00:05:29,360 --> 00:05:34,240
+increase and we've seen lots of other areas as 
+well so automotive is a very good example but
+
+39
+00:05:34,240 --> 00:05:40,640
+also medical devices we see now the last couple 
+of years we've been involved in that um energy as
+
+40
+00:05:40,640 --> 00:05:45,920
+well so uh right from the whole spectrum from sort 
+of nuclear fusion and we're even doing some work
+
+41
+00:05:45,920 --> 00:05:52,320
+in steam power at the moment so we're covering 
+uh both ends of the spectrum of of energy though
+
+42
+00:05:52,320 --> 00:05:57,440
+but yes certainly we've seen more and more 
+diverse industries uh adopting model-based
+
+43
+00:05:57,440 --> 00:06:02,960
+systems engineering and very importantly because 
+it's the need that's there it's not because it's
+
+44
+00:06:02,960 --> 00:06:06,560
+the flavor of the month or it sounds good 
+it sounds exciting it's because there's a
+
+45
+00:06:06,560 --> 00:06:11,280
+genuine need there to cope with this increased 
+complexity that we're seeing in all of our systems
+
+46
+00:06:14,000 --> 00:06:20,160
+well yeah and for what what purposes mbse use now 
+you can use it for for different purposes you can
+
+47
+00:06:20,160 --> 00:06:25,840
+increase the communication between the team 
+and you can use it to specify things or you can
+
+48
+00:06:26,800 --> 00:06:32,000
+satisfy assessors with tons of generated documents 
+now you can do already simulation stuff and
+
+49
+00:06:32,880 --> 00:06:40,400
+other cool things so is there um a special focus 
+in the uk well i mean we work with uh we work with
+
+50
+00:06:40,400 --> 00:06:46,320
+all different industries and lots of different 
+companies academia and government and it's been
+
+51
+00:06:46,320 --> 00:06:51,760
+used in all sorts of different areas and one 
+of the things that i mean one of the things
+
+52
+00:06:51,760 --> 00:06:56,400
+about model-based systems engineering is if you 
+do a google search on the benefits of model-based
+
+53
+00:06:56,400 --> 00:07:00,880
+systems engineering what comes up is lots of tool 
+vendors say look what my tool does look what my
+
+54
+00:07:00,880 --> 00:07:05,840
+tool does and they're not really the benefits of 
+mbsc they're things that the tool will do and i
+
+55
+00:07:05,840 --> 00:07:11,680
+think that the benefits of our sort of context 
+dependence it really depends on the stakeholders
+
+56
+00:07:11,680 --> 00:07:16,880
+you're talking to so we can deal with the same 
+organization and if we deal with the engineers we
+
+57
+00:07:16,880 --> 00:07:21,840
+can say it's great it's going to improve your your 
+specification your design your requirements and so
+
+58
+00:07:21,840 --> 00:07:26,240
+on but if we say that to a manager they're 
+not interested so if we talk to a manager
+
+59
+00:07:26,240 --> 00:07:31,920
+we'll focus on well it will improve your cost 
+timing resource estimates and if we're dealing
+
+60
+00:07:31,920 --> 00:07:36,800
+with somebody at board level we've got to focus on 
+things like return on investment and improvement
+
+61
+00:07:36,800 --> 00:07:42,000
+of the quality attributes of the systems so 
+it does vary enormously but i think all of the
+
+62
+00:07:42,000 --> 00:07:47,840
+all of the topics that you mentioned uh there 
+tim are definitely uh you know we've seen it
+
+63
+00:07:47,840 --> 00:07:52,560
+used in all of those areas um but it really 
+does vary and as i say we work with some
+
+64
+00:07:52,560 --> 00:07:58,720
+organizations where different teams are getting 
+different benefits from using nbc ranging from
+
+65
+00:07:58,720 --> 00:08:03,040
+you know one company we want to half up 
+our development time you know we want to
+
+66
+00:08:03,040 --> 00:08:09,440
+go from a six year cycle to a three year cycle and 
+whereas others are we want to improve our quality
+
+67
+00:08:09,440 --> 00:08:15,840
+but what is interesting is we find in that 
+particular industries are interested in uh or
+
+68
+00:08:16,480 --> 00:08:21,120
+and this is a very broad generalization but 
+tend to be interested in different aspects of it
+
+69
+00:08:21,120 --> 00:08:25,840
+so it's interesting you mentioned quality 
+when we deal with medical devices company
+
+70
+00:08:25,840 --> 00:08:30,080
+their main emphasis seems to be on can we 
+comply with the standards and the legislation
+
+71
+00:08:30,080 --> 00:08:34,400
+because if we can't we can't sell our products 
+so for them that's the most important thing
+
+72
+00:08:34,960 --> 00:08:41,200
+we deal with sort of aerospace type companies 
+with typically long life cycles and they're
+
+73
+00:08:41,200 --> 00:08:47,600
+more more interesting can we shorten our life 
+cycles so it really depends on the you know
+
+74
+00:08:47,600 --> 00:08:53,600
+the stakeholders we're talking to but we do see 
+these trends in industries and we see a lot more
+
+75
+00:08:53,600 --> 00:08:59,440
+collaboration now between organizations you know 
+whereas historically uh people were more insular
+
+76
+00:08:59,440 --> 00:09:04,640
+we see a lot more collaborations and that's 
+where areas like tim you mentioned the improved
+
+77
+00:09:04,640 --> 00:09:10,240
+communication between the different stakeholders 
+and we're seeing that an awful lot as well now so
+
+78
+00:09:10,800 --> 00:09:15,120
+yeah it's and i think it's because we work in 
+lots of different industries that we can see these
+
+79
+00:09:15,120 --> 00:09:19,360
+different applications being used and i think if 
+you were taught if you were to talk to somebody
+
+80
+00:09:19,360 --> 00:09:24,320
+who worked in a single organization which is most 
+people let's face it they would give you a more
+
+81
+00:09:24,320 --> 00:09:29,520
+definitive answer this is how we use it this 
+is how we use it and one of the big areas that
+
+82
+00:09:29,520 --> 00:09:36,080
+we do use it for across industry is in defining 
+an approach to model-based systems engineering
+
+83
+00:09:36,080 --> 00:09:41,920
+so actually using the modeling using an mbse 
+approach to understand what their business
+
+84
+00:09:41,920 --> 00:09:47,440
+business needs are to help them change the 
+business and you know my personal philosophy is
+
+85
+00:09:48,160 --> 00:09:52,880
+when it comes to deploying mbse i treat that 
+like a system so of course i'm going to apply
+
+86
+00:09:52,880 --> 00:09:58,640
+mbse to do that and and that's that's a really 
+interesting area that's a lot more prevalent now
+
+87
+00:09:58,640 --> 00:10:09,520
+than we saw um you know just just a few years ago 
+and uh can you estimate how well mbse is used in
+
+88
+00:10:09,520 --> 00:10:16,640
+the different industries so is uh defense and 
+space still decades ahead or is it changing no
+
+89
+00:10:16,640 --> 00:10:22,160
+i i really don't think they are anymore and and 
+i think that one of the reasons for this is if we
+
+90
+00:10:22,160 --> 00:10:28,960
+take industries like automotive uh medical devices 
+the life cycles are far shorter and so they need
+
+91
+00:10:28,960 --> 00:10:34,240
+to get in quicker and get the returns far quicker 
+so you know some of the automotive companies we
+
+92
+00:10:34,240 --> 00:10:40,160
+deal with they're going from a blank piece of 
+paper to a car rolling off the production line in
+
+93
+00:10:40,160 --> 00:10:46,000
+under two years you know you you look at a typical 
+aerospace project they haven't even looked at
+
+94
+00:10:46,000 --> 00:10:50,960
+the requirements in the first two years let alone 
+produced anything so we've seen these far shorter
+
+95
+00:10:52,240 --> 00:10:59,040
+time scales but i also think the the maturity 
+as a with the adoption of mbse has increased
+
+96
+00:10:59,040 --> 00:11:04,400
+dramatically as well so as i said i've been doing 
+this for my whole career even though it wasn't
+
+97
+00:11:04,400 --> 00:11:11,120
+called nbse many many years ago but i remember 
+the first thing cozy event i went to i attended
+
+98
+00:11:11,120 --> 00:11:16,480
+was the international symposium in 1999 so it 
+wasn't even this millennium that's how long ago
+
+99
+00:11:16,480 --> 00:11:22,080
+it was and it was in brighton and in the uk and 
+um and that's when i first got involved in INCOSE
+
+100
+00:11:22,080 --> 00:11:28,080
+but i used to speak at a lot of conferences so 
+we go we're going back 20 22 years now and the
+
+101
+00:11:28,080 --> 00:11:31,920
+the big argument i would have with people and 
+the big point i was trying to convince people
+
+102
+00:11:31,920 --> 00:11:37,120
+is modeling is a good idea and that and people 
+would throw things at me and then argue with
+
+103
+00:11:37,120 --> 00:11:42,960
+me and it was it got very heated but it was and 
+the first book i wrote which was very very slim
+
+104
+00:11:42,960 --> 00:11:50,240
+it was actually it's pretty sml it was called uml 
+for systems engineering it was applying uml to um
+
+105
+00:11:50,240 --> 00:11:55,520
+and people were getting very cross about that but 
+the whole point of the book the emphasis was on
+
+106
+00:11:55,520 --> 00:12:01,280
+this is why you should model this is my model is 
+a good idea and then we found about probably 15
+
+107
+00:12:01,280 --> 00:12:08,400
+years ago the question changed and it went from 
+why should we model to how should we model and
+
+108
+00:12:08,400 --> 00:12:13,920
+so there was a lot more acceptance about modeling 
+so uh so if you look at the books that we write
+
+109
+00:12:13,920 --> 00:12:18,480
+in 10 years ago we've got one called the monster 
+which is like a thousand pages long that weighs
+
+110
+00:12:18,480 --> 00:12:23,600
+more than the fat baby essentially it's an 
+enormous great uh book and because the question
+
+111
+00:12:23,600 --> 00:12:28,320
+had changed or what people wanted to know then is 
+how do we model efficiently and effectively and
+
+112
+00:12:28,320 --> 00:12:33,440
+so there were a lot more interesting things like 
+frameworks and processes and these kind of and the
+
+113
+00:12:33,440 --> 00:12:39,600
+and the art of modeling as well and what we 
+found in the last probably three to five years is
+
+114
+00:12:39,600 --> 00:12:44,400
+the question the emphasis has changed 
+again and now the emphasis is very much on
+
+115
+00:12:44,400 --> 00:12:50,800
+well how do we now deploy this in our organization 
+so i think the maturity and the adoption of mbse
+
+116
+00:12:50,800 --> 00:12:57,040
+has increased enormously over the last couple of 
+decades and i think and as the adoption increases
+
+117
+00:12:57,040 --> 00:13:02,400
+and the maturity increases then the needs of the 
+people using it also increase so now it's a lot
+
+118
+00:13:02,400 --> 00:13:07,440
+more about well how do we deploy it on a project 
+that's already running you know there's all that's
+
+119
+00:13:07,440 --> 00:13:13,040
+that's midway through a project can we still get 
+benefit uh how do we um how do you deal with other
+
+120
+00:13:13,040 --> 00:13:18,960
+people processing tools um no so so i think the 
+question has changed but certainly the adoption
+
+121
+00:13:18,960 --> 00:13:25,600
+is far more widespread and in terms of the the 
+number of people is certainly increased but again
+
+122
+00:13:26,240 --> 00:13:32,960
+i mentioned INCOSE again and i using cozy in the 
+uk as a good indicator if you went about 10 or 15
+
+123
+00:13:32,960 --> 00:13:38,560
+years and you looked at the the the companies 
+typically attending our what's now called the
+
+124
+00:13:38,560 --> 00:13:43,200
+annual systems engineering conference the asec 
+and i'm sure you you'd see a similar pattern
+
+125
+00:13:43,200 --> 00:13:49,440
+across the world it was 80 90 percent aerospace 
+and defense and it's no longer the case anymore
+
+126
+00:13:49,440 --> 00:13:54,240
+we've seen all sorts of uh different companies 
+getting involved now and getting involved with
+
+127
+00:13:54,240 --> 00:14:00,960
+INCOSE so we have the uk advisory board here 
+and that's a group of about 40 companies who are
+
+128
+00:14:00,960 --> 00:14:06,480
+almost like a steering committee for INCOSE uk and 
+you look at the diversity on those companies now
+
+129
+00:14:06,480 --> 00:14:13,760
+we've got civil engineering companies we've got 
+i.t companies as i said automotive medical power
+
+130
+00:14:13,760 --> 00:14:20,320
+a lot more academia involved now so certainly 
+the adoption has become far more widespread and
+
+131
+00:14:20,320 --> 00:14:25,440
+because of that the questions that are being asked 
+have become more a lot more widespread as well
+
+132
+00:14:26,240 --> 00:14:31,440
+um and i'll say that that's certainly the picture 
+we see in the uk at the moment and certainly just
+
+133
+00:14:31,440 --> 00:14:35,040
+in terms of the number of clients that 
+we have now in the diversity of them
+
+134
+00:14:35,040 --> 00:14:43,840
+certainly increased yeah it's interesting that 
+in your new book you only need 445 pages to
+
+135
+00:14:44,560 --> 00:14:50,640
+systems engineering yeah well the reason for 
+that you see we we wrote the monster and uh
+
+136
+00:14:50,640 --> 00:14:54,960
+which was enormous and then people were saying 
+yeah we like it but i can't show that to anybody
+
+137
+00:14:54,960 --> 00:14:59,520
+there's just too much just too much it so then 
+we wrote a thing called don't panic which is a
+
+138
+00:14:59,520 --> 00:15:04,400
+very slim book which is only 50 pages long which 
+which there's now a whole series of these books
+
+139
+00:15:04,400 --> 00:15:09,440
+published by encode uk so that was aimed at 
+the the new people and the managers so that
+
+140
+00:15:09,440 --> 00:15:16,240
+the demystified kind of sits between the two 
+so it's more detailed than the um don't panic
+
+141
+00:15:16,240 --> 00:15:21,280
+but it's not quite as mind-numbing as the 
+thousand-page monster and of course if you've
+
+142
+00:15:21,280 --> 00:15:25,920
+got somebody operates at board level we've got a 
+book for them as well which is the children's book
+
+143
+00:15:25,920 --> 00:15:30,080
+that's aimed at eight-year-olds to 11 year olds 
+which is more and if they don't if they don't
+
+144
+00:15:30,080 --> 00:15:34,880
+understand the engineering they can just color it 
+in so that's aimed more at people at a ceo level
+
+145
+00:15:36,800 --> 00:15:42,080
+but there we go but yeah so the the demystified 
+book's an interesting one and i was approached
+
+146
+00:15:42,080 --> 00:15:46,240
+to write that by an indian publisher and 
+again it's interesting because although
+
+147
+00:15:46,240 --> 00:15:51,760
+it sold across the world obviously the demand 
+was coming from uh india and it's interesting
+
+148
+00:15:51,760 --> 00:15:56,080
+we were talking before about india and 
+china and and you know the adoption of
+
+149
+00:15:56,080 --> 00:16:01,920
+engineering um in in certain countries and 
+yeah we've just seen a far wider audience
+
+150
+00:16:02,720 --> 00:16:07,200
+and also because of who i am if somebody 
+asked me to do something as you as you know
+
+151
+00:16:07,200 --> 00:16:12,960
+know i can't say no i have to just agree to it 
+because my ego won't let anybody else do it so
+
+152
+00:16:13,600 --> 00:16:18,240
+this is why i ended up taking a lot of these 
+projects and committing to all sorts of weird
+
+153
+00:16:18,240 --> 00:16:23,040
+talks and things that that i wouldn't ordinarily 
+so when they approached me to do it and they said
+
+154
+00:16:23,040 --> 00:16:28,320
+it was aimed at this particular market and 
+people who are new to the field but wanted
+
+155
+00:16:28,320 --> 00:16:34,560
+uh some detail and wanted a case study going all 
+the way through it so there was quite um not that
+
+156
+00:16:34,560 --> 00:16:39,840
+strict but they had a very good set of criteria 
+that had come from their marketing department and
+
+157
+00:16:39,840 --> 00:16:44,320
+again that was interesting because the marketing 
+was predominantly done as i said in in sort of
+
+158
+00:16:44,320 --> 00:16:51,600
+india so and it's interesting seeing this these 
+these countries really take on board um systems
+
+159
+00:16:51,600 --> 00:16:56,080
+engineering and in particular model-based systems 
+engineering so i think that's a very encouraging
+
+160
+00:16:56,080 --> 00:17:02,960
+picture for mbse globally i i bought your book 
+but i must i bet i haven't read it yet i don't
+
+161
+00:17:10,319 --> 00:17:13,839
+demystifying systems engineering 
+sounds a little bit like you again
+
+162
+00:17:13,839 --> 00:17:18,479
+try to answer the the why question so 
+why should i do assistant editing um
+
+163
+00:17:21,280 --> 00:17:26,079
+the demystified is really that that's more from 
+the publisher it's i think it's a good title
+
+164
+00:17:26,079 --> 00:17:31,840
+obviously but they they do a series of books 
+called demystified um which are aimed at this
+
+165
+00:17:31,840 --> 00:17:36,800
+particular and it's kind of like so INCOSE uk 
+now we have the don't panic books which are you
+
+166
+00:17:36,800 --> 00:17:40,960
+know set at a higher level but yeah so when they 
+approached me they said you know this and they
+
+167
+00:17:40,960 --> 00:17:45,200
+sent me examples of what some of the other ones 
+were but they were all about coding so i couldn't
+
+168
+00:17:45,200 --> 00:17:51,840
+really read them but they were so that um so yeah 
+so the title of that and um that was one of the
+
+169
+00:17:51,840 --> 00:17:56,080
+things that they uh kind of came up with but apart 
+from that they gave me quite a lot of freedom in
+
+170
+00:17:56,080 --> 00:18:02,320
+the book to to write what i wanted so it was a 
+very good process working with them yeah writing
+
+171
+00:18:02,320 --> 00:18:09,280
+work i took a short look into it and uh it was 
+interesting for me that you are referring at the
+
+172
+00:18:09,280 --> 00:18:17,200
+end or the beginning of every chapter to how 
+does it comply to iso 15 to 88 well i think
+
+173
+00:18:18,320 --> 00:18:23,280
+to me the the the provenance of engineering 
+is very important and i think demonstration
+
+174
+00:18:23,280 --> 00:18:28,640
+compliance is very important i think increasingly 
+for a number of industries now and you know i'm
+
+175
+00:18:28,640 --> 00:18:34,880
+the first to admit things like iso standards 
+aren't perfect but it gives us a good it gives us
+
+176
+00:18:34,880 --> 00:18:41,440
+a good target to aim for and one of the problems 
+you'll get is with model-based systems engineering
+
+177
+00:18:41,440 --> 00:18:45,200
+people want to say well how does it relate to the 
+way that we do things already or you know how can
+
+178
+00:18:45,200 --> 00:18:50,800
+it solve these problems for us so that was a very 
+deliberate part of the book is wherever possible
+
+179
+00:18:50,800 --> 00:18:53,840
+are related and it's something that 
+we reflect in our working philosophy
+
+180
+00:18:54,400 --> 00:18:59,120
+philosophy anyway we try and relate it to 
+what's what's acknowledged as sort of best
+
+181
+00:18:59,120 --> 00:19:04,720
+practice and in the world today so the two big 
+standards we use in the book are obviously 15
+
+182
+00:19:04,720 --> 00:19:10,800
+to 88 which is more of the process side of 
+things but also the 42010 and the associated
+
+183
+00:19:11,360 --> 00:19:16,480
+standards which are more about architecture and 
+architecture framework um but we use those as
+
+184
+00:19:16,480 --> 00:19:20,720
+a central part obviously of all the modelling 
+that we do because when we do modeling a large
+
+185
+00:19:20,720 --> 00:19:26,240
+part of the book is advocating creating a good 
+framework for the model and so again we want to
+
+186
+00:19:26,240 --> 00:19:30,880
+reference that to best international practice 
+and i think the two standards work well together
+
+187
+00:19:30,880 --> 00:19:35,920
+as i said then the standards aren't perfect by 
+any means but they're a really good best practice
+
+188
+00:19:35,920 --> 00:19:41,600
+model they're acknowledged across the world and 
+it just gives you that extra level of credibility
+
+189
+00:19:41,600 --> 00:19:46,240
+um because i know from experience people will 
+say yeah but we do things like this already
+
+190
+00:19:46,240 --> 00:19:52,560
+how does mbse help us so it's kind of he's trying 
+to preempt that question if you like and say well
+
+191
+00:19:52,560 --> 00:19:56,800
+here's your best practice model you can use it 
+to do this you can use it to do this but what's
+
+192
+00:19:57,600 --> 00:20:02,880
+what what that also allows you to do which is very 
+interesting is you know i don't need to tell you
+
+193
+00:20:02,880 --> 00:20:08,240
+two about things like reuse but for lots of 
+people who don't have a modeling background
+
+194
+00:20:08,240 --> 00:20:12,880
+this is quite big news to them and when you 
+can say well actually for this part of the iso
+
+195
+00:20:12,880 --> 00:20:18,160
+standard remember that thing we did a while back 
+and we produced these views in this model we can
+
+196
+00:20:18,160 --> 00:20:23,680
+reuse those for this part as well so things that 
+we did in requirements and we'd be doing scenario
+
+197
+00:20:23,680 --> 00:20:28,240
+modelling and things like that we can reuse those 
+now as part of our acceptance testing that we're
+
+198
+00:20:28,240 --> 00:20:33,760
+now using as part of our vnv and so it allows 
+you to to do things like that and to make these
+
+199
+00:20:33,760 --> 00:20:41,120
+references back and and i think that's that's very 
+important as well because i don't want to get too
+
+200
+00:20:41,120 --> 00:20:46,160
+much into reuse but reuse is one of those things 
+that i remember back in the sort of mid-80s and
+
+201
+00:20:46,160 --> 00:20:51,120
+early 90s everything was about reuse and object 
+orientation and there were a lot of myths and a
+
+202
+00:20:51,120 --> 00:20:55,680
+lot of expectations that weren't quite met but 
+from a modeling point of view i think reuses is
+
+203
+00:20:55,680 --> 00:21:00,640
+very very possible when it's done properly and 
+so i think that was an important point that we
+
+204
+00:21:00,640 --> 00:21:06,320
+wanted to make as well and again the use of 
+standards is a good gives us a good mechanism
+
+205
+00:21:06,320 --> 00:21:10,640
+to show that particularly when it came to so 
+there's one chapter on management for example
+
+206
+00:21:11,920 --> 00:21:16,720
+and almost all the views that we create in 
+management are based on the engineering views
+
+207
+00:21:16,720 --> 00:21:21,680
+and and that that was a that's a nice exercise to 
+do and that's a point that we're often trying to
+
+208
+00:21:21,680 --> 00:21:27,040
+make to people as well is why do we have these two 
+completely separate disciplines that won't talk to
+
+209
+00:21:27,040 --> 00:21:32,080
+one another when actually we're all looking at the 
+same thing and i think this is a classic problem
+
+210
+00:21:32,080 --> 00:21:36,080
+that we have in systems engineering to me one of 
+the biggest problems that we have with systems
+
+211
+00:21:36,080 --> 00:21:41,200
+engineering is the word engineering because it 
+scares people away because people will say well
+
+212
+00:21:41,200 --> 00:21:45,840
+i'm not an engineer i can't possibly understand 
+what you're talking about we do things differently
+
+213
+00:21:45,840 --> 00:21:50,800
+whereas if you say systems thinking or a systems 
+approach oh everybody wants a systems approach
+
+214
+00:21:50,800 --> 00:21:55,520
+everybody wants new systems thinking but yeah you 
+say systems engineering and people people run for
+
+215
+00:21:55,520 --> 00:22:03,600
+the hills screaming so which can be a problem yeah 
+i also have more and more customers asking for iso
+
+216
+00:22:03,600 --> 00:22:10,640
+i think iso provides some stable more stable 
+areas in this very dynamic environment so it
+
+217
+00:22:10,640 --> 00:22:16,080
+feels a little bit more safe so many people ask 
+me how to map this mod to iso and the system
+
+218
+00:22:16,080 --> 00:22:22,800
+ellen iso standard and this is standard and so 
+on and it is and people like the the comfort
+
+219
+00:22:22,800 --> 00:22:27,200
+of iso as well we used to have an expression 
+in the uk i'm sure it was worldwide that said
+
+220
+00:22:27,200 --> 00:22:32,800
+nobody ever got fired for buying ibm right i won't 
+comment on how valid that is as a statement now
+
+221
+00:22:32,800 --> 00:22:37,120
+but it's that same philosophy which is well if 
+you're referencing iso you're not going to get
+
+222
+00:22:37,120 --> 00:22:42,480
+into trouble for you know complying with an 
+iso standard oh that was my cat just leaking
+
+223
+00:22:42,480 --> 00:22:46,880
+up then making it he he's not a big fan of iso 
+as soon as i mentioned that he leaves the room
+
+224
+00:22:49,200 --> 00:22:55,840
+um yeah i think i thought oh sorry it was also 
+very interesting what you said about the maturity
+
+225
+00:22:55,840 --> 00:23:05,920
+of mbse um and i think well in the past tools and 
+methods could do much more than the people needed
+
+226
+00:23:06,800 --> 00:23:14,720
+but i think now we are in a change and today 
+people need more than the tools and methodologies
+
+227
+00:23:14,720 --> 00:23:21,840
+can provide so i i couldn't agree to more with you 
+tim absolutely and and i think for so many years
+
+228
+00:23:21,840 --> 00:23:27,680
+uh this i will say now this is my personal opinion 
+and not aimed at any particular tool vendor um but
+
+229
+00:23:27,680 --> 00:23:32,800
+for so many years we had tools that were doing 
+so so much stuff that nobody would ever use and
+
+230
+00:23:33,520 --> 00:23:37,360
+it was never required i mean who's 
+ever wanted shadows on their lines
+
+231
+00:23:39,120 --> 00:23:44,960
+and this sort of insanity and all these different 
+techniques and all these that um people marketing
+
+232
+00:23:44,960 --> 00:23:50,400
+people tried to convince us we needed and we 
+you know just give us the basic functionality um
+
+233
+00:23:50,400 --> 00:23:55,520
+but i think for many years with all the tools 
+were way ahead of the game and would be providing
+
+234
+00:23:55,520 --> 00:24:01,920
+functionality that you know people weren't using 
+but i think suddenly now the last five years so i
+
+235
+00:24:01,920 --> 00:24:07,200
+i agree i think now the tools are playing 
+catch up and i think in some cases they're
+
+236
+00:24:07,200 --> 00:24:12,880
+focused on the wrong areas um but i think also 
+like i said we're living in a connected world
+
+237
+00:24:12,880 --> 00:24:19,760
+i think this idea of a single vendor people who 
+finally realizing is not particularly realistic
+
+238
+00:24:19,760 --> 00:24:24,320
+particularly when you work in a big organization 
+when you work in a large company you're going to
+
+239
+00:24:24,320 --> 00:24:29,360
+be using multiple tools from different vendors 
+and i think one of the biggest issues at the
+
+240
+00:24:29,360 --> 00:24:35,840
+moment is tool interoperability so actually 
+you're using a requirements tool for one vendor
+
+241
+00:24:35,840 --> 00:24:40,880
+you're using a system or modeling tool from 
+another vendor we've then got a plm environment
+
+242
+00:24:40,880 --> 00:24:45,680
+that somehow sticks holders together we've got 
+the mathematics and the simulation side of things
+
+243
+00:24:45,680 --> 00:24:50,560
+and we need all these things to work together and 
+i think at the moment most of the tools that i see
+
+244
+00:24:50,560 --> 00:24:57,840
+on the market are shockingly bad in this area of 
+tool interoperability and i think particularly in
+
+245
+00:24:57,840 --> 00:25:06,080
+areas like the visual world of snl compared to the 
+the formal mathematical world of simulation and
+
+246
+00:25:06,080 --> 00:25:11,120
+you know we've got mechanisms in csml that give 
+us that bridge you know so things like parametrics
+
+247
+00:25:11,120 --> 00:25:16,320
+give us a natural bridge into those but i think 
+many of the tools at the moment are terrible
+
+248
+00:25:16,320 --> 00:25:21,440
+to be quite frank in that area and i think this 
+is an area that needs to have a lot of improvement
+
+249
+00:25:21,440 --> 00:25:26,720
+and i also think that you look at some tools 
+and the usability of them um if you if you
+
+250
+00:25:26,720 --> 00:25:33,440
+went back 10 or 15 years it was it was the same 
+with many industries but software in particular
+
+251
+00:25:33,440 --> 00:25:37,680
+um software was telling you what you wanted 
+the vendors were saying no no you should do
+
+252
+00:25:37,680 --> 00:25:41,920
+that you want to do it like this you want to do 
+it like this people aren't that willing to accept
+
+253
+00:25:41,920 --> 00:25:47,760
+that anymore and i think using something we did 
+speak about briefly earlier to him but you know
+
+254
+00:25:47,760 --> 00:25:51,600
+using a tool with an interface that's 20 
+or 30 years old and hasn't really moved on
+
+255
+00:25:52,240 --> 00:26:01,040
+is is no longer good enough and and i don't think 
+some of the vendors realize that usability is such
+
+256
+00:26:01,040 --> 00:26:07,920
+a big issue at the moment because it really is and 
+again i would rather the vendors focused on making
+
+257
+00:26:07,920 --> 00:26:14,000
+the core functionality very usable user-friendly 
+and compatible with other tools and so on
+
+258
+00:26:14,000 --> 00:26:19,280
+than having the equivalent of windings on a 
+uh on a modeling tool which is essentially
+
+259
+00:26:19,280 --> 00:26:25,120
+what they they're doing in many cases um but 
+but yeah and you think any other software if
+
+260
+00:26:25,120 --> 00:26:29,760
+it had an interface that old you wouldn't 
+uh you know you wouldn't go near it but um
+
+261
+00:26:30,880 --> 00:26:34,880
+but but but i really think that's a big issue 
+to my mind that i think they're the two biggest
+
+262
+00:26:34,880 --> 00:26:39,280
+issues i have with them the first one at 
+the moment is the the whole interoperability
+
+263
+00:26:39,280 --> 00:26:44,640
+of the tools um and also the usability of 
+them and these things aren't cheap either
+
+264
+00:26:45,440 --> 00:26:50,640
+you know as we've just discussed before um and 
+they seem to be getting more more expensive as
+
+265
+00:26:50,640 --> 00:26:57,760
+time goes on and i think the the responsibilities 
+on the vendors now to actually produce something
+
+266
+00:26:57,760 --> 00:27:03,600
+that's more fit for purpose and many of the tools 
+are that's as diplomatic as i can be about tools
+
+267
+00:27:05,680 --> 00:27:12,000
+yeah we have two comments in the live chat this 
+time so um okay one recommendation for your book
+
+268
+00:27:12,000 --> 00:27:17,680
+that it's a great book by the way and we have a 
+comment from thanks mum she always joins in on
+
+269
+00:27:17,680 --> 00:27:24,560
+these podcasts we have a comment from mark 
+who suggests that we just have to rewrite
+
+270
+00:27:24,560 --> 00:27:31,440
+the standards as models well this is a really 
+important point and it's something that i've been
+
+271
+00:27:31,440 --> 00:27:36,160
+i've spoken to iso too i've been involved with 
+iso for a number of years for years and years and
+
+272
+00:27:36,160 --> 00:27:42,640
+years on and one of the ways that we demonstrate 
+compliance is we model the standards and again
+
+273
+00:27:43,200 --> 00:27:47,600
+anybody with any modeling knowledge will know that 
+just the very act of modeling gives you a very
+
+274
+00:27:47,600 --> 00:27:52,480
+good indication on how well-written something 
+is and if something's very well written and
+
+275
+00:27:52,480 --> 00:27:57,920
+well specified in your model it the model just 
+falls out and it's it's easy if it's difficult
+
+276
+00:27:57,920 --> 00:28:03,680
+to do the modeling if there's a lot of ambient it 
+tells you about how badly written the the source
+
+277
+00:28:03,680 --> 00:28:08,880
+information is and we've been doing this for 
+years and years we've uh in fact one of the first
+
+278
+00:28:09,520 --> 00:28:14,960
+um what we now refer to as the sort of frameworks 
+we use and so on uh one of the first ones that
+
+279
+00:28:14,960 --> 00:28:19,280
+that we produce back in if in fact i'll tell 
+you how long it was i mentioned the first
+
+280
+00:28:19,280 --> 00:28:26,720
+INCOSE conference i went to is in 1999 the paper 
+i presented was on using uml to model standards
+
+281
+00:28:26,720 --> 00:28:33,120
+right so and because standards were so com look 
+at standards look at best practice models there's
+
+282
+00:28:33,120 --> 00:28:37,040
+hundreds of them they're very complex they all 
+use different language they're difficult to
+
+283
+00:28:37,040 --> 00:28:42,160
+communicate with people people don't understand 
+them it's the perfect candidate for modeling
+
+284
+00:28:42,720 --> 00:28:48,400
+you know it takes all the modeling boxes 
+why you need to model and we why people
+
+285
+00:28:48,400 --> 00:28:53,760
+don't define standard using models is beyond me 
+and i've spoken to not just i said to different
+
+286
+00:28:53,760 --> 00:28:57,840
+standards bodies before as well to say you know 
+you should be doing them like this because it
+
+287
+00:28:58,640 --> 00:29:02,640
+it makes them far less ambiguous it makes 
+them easy to communicate you can translate
+
+288
+00:29:02,640 --> 00:29:08,560
+into different languages far easier and uh yeah i 
+think that's a so mark i love you mark that was an
+
+289
+00:29:08,560 --> 00:29:13,360
+excellent point and i i couldn't agree with you 
+more but also when it comes to compliance if we
+
+290
+00:29:13,360 --> 00:29:18,800
+model our own processes and frameworks using the 
+same technology modeling techniques that we then
+
+291
+00:29:18,800 --> 00:29:23,440
+model our standards within our best practice 
+models the compliance we can build into the
+
+292
+00:29:23,440 --> 00:29:29,600
+models in and we can actually import them into the 
+tools and the compliance is then built into our to
+
+293
+00:29:29,600 --> 00:29:36,240
+our overall model so and to me it's so obvious yet 
+so few people do it you know and i think that's a
+
+294
+00:29:37,040 --> 00:29:44,080
+a really really good observation there from by the 
+way we started um creating a document generation
+
+295
+00:29:44,720 --> 00:29:51,600
+from the model for the sysworld1 specification and 
+we found many inconsistencies in the specification
+
+296
+00:29:53,360 --> 00:29:56,800
+and the previous as well one versions 
+and also the uml versions are
+
+297
+00:29:57,520 --> 00:30:05,520
+well partly they are modeled but most of the stuff 
+is pure text document and yeah and you see this in
+
+298
+00:30:05,520 --> 00:30:11,040
+in so many standards and particularly if you do 
+any working frameworks and um you know things
+
+299
+00:30:11,040 --> 00:30:16,480
+like the the the defense-based architectural 
+framework so that the the modafs the dodas the
+
+300
+00:30:16,480 --> 00:30:22,480
+zindas the nafs and so on if you you just do 
+the most basic of modelling on those and they
+
+301
+00:30:22,480 --> 00:30:29,440
+they expose themselves for the bag of spanners 
+that they really are so yes but model absolutely
+
+302
+00:30:29,440 --> 00:30:34,240
+model standards model best practice references 
+whether it's in-house procedures whether it's
+
+303
+00:30:34,240 --> 00:30:38,960
+framework definitions and it will give you 
+all sorts of insights into what you're doing
+
+304
+00:30:38,960 --> 00:30:42,880
+and it gives you just a really good 
+indication of how good the source material is
+
+305
+00:30:45,920 --> 00:30:51,520
+yeah we have a very interesting discussion in 
+the chat about interoperability and i guess we
+
+306
+00:30:52,320 --> 00:30:58,240
+have to have it as an own topic on another 
+day but definitely definitely absolutely
+
+307
+00:30:59,120 --> 00:31:04,800
+but for now i would like to change the topic 
+a little bit on your professorship so you're
+
+308
+00:31:04,800 --> 00:31:12,400
+teaching systems engineering you're teaching at 
+a at a university is it the only worst university
+
+309
+00:31:12,400 --> 00:31:18,480
+where you can have systems engineering lessons 
+or is it wider spread and what do i do when
+
+310
+00:31:19,120 --> 00:31:29,120
+i mean it's clear it's clear it's the best taught 
+systems engineering in the uk if not the world but
+
+311
+00:31:29,680 --> 00:31:34,800
+apart from that we've seen an increase in the 
+number of universities that are offering systems
+
+312
+00:31:34,800 --> 00:31:40,880
+engineering and more important that we've seen a 
+big increase in the quality and i think it's fair
+
+313
+00:31:40,880 --> 00:31:46,640
+to say if you went back 10 years and you looked 
+at universities not all but some universities
+
+314
+00:31:46,640 --> 00:31:50,000
+they they would look at systems engineering 
+well we'll just take a bit of mechanical a
+
+315
+00:31:50,000 --> 00:31:54,960
+bit of electrical a bit of civil a bit of software 
+or a bit of management we'll mix it all together
+
+316
+00:31:54,960 --> 00:31:59,840
+and out comes the systems engineering degree for 
+example and so what we're seeing now is actually
+
+317
+00:32:00,480 --> 00:32:05,360
+and to me that that's kind of a master of nom 
+kind of approach you know but what we're really
+
+318
+00:32:05,360 --> 00:32:11,920
+seeing now the last sort of five or ten years is 
+universities creating these courses from scratch
+
+319
+00:32:11,920 --> 00:32:17,040
+and then bringing in other modules obviously 
+reusing from other as and when but actually um
+
+320
+00:32:17,760 --> 00:32:23,600
+they're really holding very well together as um 
+as systems engineering courses when it comes to
+
+321
+00:32:23,600 --> 00:32:28,800
+modeling and a problem that i've often had with 
+with uh which is good news for me because one of
+
+322
+00:32:28,800 --> 00:32:35,200
+the things i do in scarecrows i teach modelling 
+is people are leaving university and they've been
+
+323
+00:32:35,200 --> 00:32:39,680
+taught something like uml or sisuml but they've 
+been taught by somebody who's never used it in
+
+324
+00:32:39,680 --> 00:32:44,320
+anger they've been taught somebody who's read the 
+spec and understands it and understands modeling
+
+325
+00:32:44,320 --> 00:32:48,400
+but but you know as you'll as you'll both 
+know there's a big difference between
+
+326
+00:32:48,400 --> 00:32:52,560
+understanding what the diamond means and should it 
+be colored in an opera and actually applying this
+
+327
+00:32:52,560 --> 00:32:57,120
+onto a real project and and i think that that's 
+very interesting and that's what we've seen a
+
+328
+00:32:57,120 --> 00:33:02,960
+lot of now and i think also to be fair it's it's 
+why i was offered my position in the first place
+
+329
+00:33:02,960 --> 00:33:07,600
+or one of the reasons it was offered uh apart 
+from the good looks was because i had lots of
+
+330
+00:33:07,600 --> 00:33:12,720
+industrial experience and they wanted to bring 
+that they wanted to bring that into the course
+
+331
+00:33:12,720 --> 00:33:17,120
+and and i think that's very important as well 
+so we've seen a lot more uh systems engineering
+
+332
+00:33:17,120 --> 00:33:22,800
+being adopted and we're also seeing a lot more 
+now that the default is modelling is involved in
+
+333
+00:33:22,800 --> 00:33:28,720
+it somehow even if it's not you know full what i 
+call sort of stage five mbse this modeling is is
+
+334
+00:33:28,720 --> 00:33:34,960
+an increasingly important part of what we're doing 
+um when it comes to systems engineering so i think
+
+335
+00:33:34,960 --> 00:33:42,160
+the the education system is uh is improving we do 
+in and we have some working groups within encode
+
+336
+00:33:42,160 --> 00:33:47,600
+uk to look at this and in fact i do work with i've 
+mentioned very briefly the children's book that we
+
+337
+00:33:47,600 --> 00:33:52,960
+wrote but i do we have what we call stem in the 
+uk so stemi science technology engineering and
+
+338
+00:33:52,960 --> 00:33:59,200
+mathematics and so it's really promoting things 
+like engine for me obviously it's all stem but
+
+339
+00:33:59,200 --> 00:34:07,280
+secretly the e part of the stem to school children 
+so i'm also involved in doing um well i'll say i'm
+
+340
+00:34:07,280 --> 00:34:12,159
+involved i haven't been for the last 15 months for 
+obvious reasons but i used to do a lot of sort of
+
+341
+00:34:12,159 --> 00:34:16,959
+evening lectures and science festivals music 
+festivals i've got a music festival coming up
+
+342
+00:34:16,960 --> 00:34:25,360
+at the end of july so what i also do which uh you 
+probably most people don't know is sources well
+
+343
+00:34:26,239 --> 00:34:32,719
+i do uh i'm also a magician um as well as being 
+an assistant engineer so i do uh science and
+
+344
+00:34:32,719 --> 00:34:39,839
+music festivals where i use magic to communicate 
+uh systems engineering to people so we can talk
+
+345
+00:34:39,840 --> 00:34:43,840
+about things all the things we talk about in 
+modelling good communication looking at things
+
+346
+00:34:43,840 --> 00:34:49,360
+from different points of view visualization all 
+these kinds of things so visualization the things
+
+347
+00:34:49,360 --> 00:34:54,000
+that we would think about in sml we can use as a 
+basis for doing memory acts and things like that
+
+348
+00:34:54,000 --> 00:34:59,520
+so i can memorize a deck of cards using the same 
+visualization techniques i use i used to model
+
+349
+00:34:59,520 --> 00:35:06,320
+you know a car or an airplane or a medical system 
+so so there's a lot more work being done trying
+
+350
+00:35:06,320 --> 00:35:14,800
+to get into younger uh to convey um engineering in 
+particular systems engineers obviously my emphasis
+
+351
+00:35:14,800 --> 00:35:19,600
+to the younger generation as well and because 
+obviously you want to get them before they go
+
+352
+00:35:19,600 --> 00:35:24,000
+to universities to try and get them excited and 
+kind of inspired in some way and and i think
+
+353
+00:35:24,000 --> 00:35:28,880
+that's very important and we're starting to see 
+some of that come through now and uh and it's also
+
+354
+00:35:28,880 --> 00:35:35,040
+as a sign of getting old as well when when i meet 
+some when i meet an enormous man for example or or
+
+355
+00:35:35,040 --> 00:35:41,280
+a full grown woman and they say to me oh i saw you 
+when i was a child at a school it makes me feel
+
+356
+00:35:42,400 --> 00:35:49,360
+happy inside but old on the outside when that 
+sort of thing happens so i think it's important
+
+357
+00:35:49,360 --> 00:35:53,920
+that we we can yes get it into universities 
+and yes improve the way we're doing that
+
+358
+00:35:53,920 --> 00:35:56,160
+but i also think it's important that we can we can
+
+359
+00:35:57,280 --> 00:36:02,480
+go before that and get children uh you know 
+a younger age because everybody's naturally
+
+360
+00:36:02,480 --> 00:36:07,760
+curious about things and you know you mentioned 
+engineering people um people switch off you
+
+361
+00:36:07,760 --> 00:36:13,200
+mention problem solving everybody gets excited 
+you know what's engineering if not problem solving
+
+362
+00:36:13,920 --> 00:36:19,120
+and we do it by you know at the simplest level 
+drawing pictures of stuff and that's naturally how
+
+363
+00:36:19,120 --> 00:36:23,600
+people work that's naturally how people think and 
+for some reason that gets driven out of people's
+
+364
+00:36:23,600 --> 00:36:30,880
+minds to naturally think in images and visualize 
+things as we go through the education system
+
+365
+00:36:34,320 --> 00:36:37,920
+um would you say that there's something
+
+366
+00:36:38,560 --> 00:36:43,280
+special about mbse in the uk compared 
+to other countries except Jon Holt
+
+367
+00:36:46,480 --> 00:36:56,000
+this is what i get special um i don't know if 
+it's particularly special in the uk um i think
+
+368
+00:36:57,920 --> 00:37:00,640
+many countries it's a big 
+stereotype but many companies
+
+369
+00:37:01,200 --> 00:37:05,600
+have a particular mentality as well in the 
+way that i go about in the way they go about
+
+370
+00:37:05,600 --> 00:37:12,160
+things and what i've seen in the uk is these 
+mentalities can be associated with industries
+
+371
+00:37:12,160 --> 00:37:17,440
+so again i'm engineering space if they were 
+early adopters of systems engineering and
+
+372
+00:37:17,440 --> 00:37:23,600
+model-based systems engineering but they again 
+broad generalization far less open to new ideas
+
+373
+00:37:23,600 --> 00:37:28,320
+than you get automotive medical devices that you 
+know they're coming to the party late but they're
+
+374
+00:37:28,320 --> 00:37:32,720
+having a very good time when they get there you 
+know and they're a lot more receptive to try and
+
+375
+00:37:32,720 --> 00:37:38,400
+change the way that they work and so on um and i 
+think that's the big thing to me the big blocker
+
+376
+00:37:38,400 --> 00:37:43,600
+with mbse it's the people you know we often talk 
+about people processing tools it's the people side
+
+377
+00:37:43,600 --> 00:37:48,880
+of things and it's winning that battle with people 
+it's getting them to be able to see for themselves
+
+378
+00:37:48,880 --> 00:37:52,880
+rather than just tell them do it this the way you 
+do it this way it's great getting them to see for
+
+379
+00:37:52,880 --> 00:37:57,920
+themselves and realize that actually this is a 
+good way to do things and there are benefits in it
+
+380
+00:37:58,880 --> 00:38:02,880
+for different people so it's that 
+attitude change and i found that that's
+
+381
+00:38:03,520 --> 00:38:08,800
+more to do with the industries than sort of 
+geographically where we go um and it can also be
+
+382
+00:38:10,800 --> 00:38:16,240
+you know a younger generation coming through tend 
+to be more open to new ideas than and i include
+
+383
+00:38:16,240 --> 00:38:21,600
+myself in this old white middle-aged straight men 
+essentially which is what the industry is full of
+
+384
+00:38:21,600 --> 00:38:27,600
+at the moment but as we see more diversity from 
+you know in all different areas coming through um
+
+385
+00:38:27,600 --> 00:38:31,680
+coming through engineering because i still 
+think we're behind on this but i think a
+
+386
+00:38:31,680 --> 00:38:38,320
+natural emergent property of diversity is people 
+having a more open mind and people being more
+
+387
+00:38:38,320 --> 00:38:45,840
+receptive to you know maybe slightly different or 
+newer ideas than people of older generations um
+
+388
+00:38:46,480 --> 00:38:50,000
+and i think that's very important so 
+i think the future's very bright and
+
+389
+00:38:50,000 --> 00:38:53,600
+i think that's what we've got to focus on 
+is look at the future and say yeah can we
+
+390
+00:38:53,600 --> 00:38:59,520
+inspire the next generation of engineers and wow 
+what can what is it possible they can achieve
+
+391
+00:38:59,520 --> 00:39:04,080
+that just with a more open mindset and with you 
+you know open up the rise to these different
+
+392
+00:39:04,080 --> 00:39:08,640
+techniques so things that have been taking me 30 
+years to show to people who finally get them to
+
+393
+00:39:08,640 --> 00:39:12,800
+commence you know what about people who don't 
+have to do that who can just try out these new
+
+394
+00:39:12,800 --> 00:39:18,320
+ideas new areas and that the potential has got to 
+be enormous across the you know across the world
+
+395
+00:39:21,600 --> 00:39:28,400
+yeah one one very funny thing is if you 
+follow scarecrow consultants on linkedin
+
+396
+00:39:28,400 --> 00:39:34,400
+is that you publish every week 
+a riddle a scissor millenary on
+
+397
+00:39:35,360 --> 00:39:47,040
+song titles expressed in a sml diagram so so 
+we've um i i like puzzles i like terrible jokes
+
+398
+00:39:47,040 --> 00:39:52,240
+uh i like music i like film so there's a game 
+there's a very popular sort of parlor game
+
+399
+00:39:52,240 --> 00:39:56,880
+this called pictionary which is like 
+picture dictionary so you draw pictures
+
+400
+00:39:56,880 --> 00:40:01,920
+that represent films and so on and so he 
+started off as a bit of a joke where it was well
+
+401
+00:40:03,120 --> 00:40:08,160
+when i do courses and comments and things and 
+i and i would say oh you can represent any any
+
+402
+00:40:08,160 --> 00:40:12,640
+information using modeling because it's just a 
+way to visualize things and so people would say
+
+403
+00:40:12,640 --> 00:40:17,520
+oh can you do this can you do this so it started 
+off as a bit of a joke doing things like that but
+
+404
+00:40:17,520 --> 00:40:24,720
+no we do it every friday night so it's usually 
+a film or a uh or a song um so if it's a film it
+
+405
+00:40:24,720 --> 00:40:29,600
+might be the film title or it might be so this 
+week we we've actually got a scene from a film
+
+406
+00:40:29,600 --> 00:40:36,800
+that we've we've done with a sequence diagram and 
+so we use sysaml to uh to visualize either the
+
+407
+00:40:36,800 --> 00:40:42,800
+title or some of the lyrics of a song or whatever 
+um occasionally we'll do it for people uh very
+
+408
+00:40:42,800 --> 00:40:46,960
+occasionally we'll do it for a type of cheese 
+so it really depends on what we do but we've
+
+409
+00:40:46,960 --> 00:40:52,960
+got quite a big following on this now and it's 
+it's interesting wherever i i say wherever i go
+
+410
+00:40:52,960 --> 00:40:58,400
+wherever i used to go and will hopefully be going 
+again soon people come and approach me and uh you
+
+411
+00:40:58,400 --> 00:41:03,040
+know i was in america for example a few years ago 
+and rick stein came up to me and he says every
+
+412
+00:41:03,040 --> 00:41:07,200
+friday we gather the whole research group round 
+and uh we all see who can get it first there's a
+
+413
+00:41:07,200 --> 00:41:12,080
+bit of a competition going on and it's really 
+fascinating you just go what really that that
+
+414
+00:41:12,080 --> 00:41:17,520
+that terrible puzzle that we do every week um but 
+it but it's great and it gets people interested
+
+415
+00:41:17,520 --> 00:41:22,960
+and very occasionally people say they learn a bit 
+of sml from it as well but i think it's getting
+
+416
+00:41:22,960 --> 00:41:28,560
+people thinking in an abstract way it's not just 
+about designing the new aeroplane the new car the
+
+417
+00:41:28,560 --> 00:41:34,880
+train or whatever you can use these techniques to 
+convey any kind of information and in fact it was
+
+418
+00:41:34,880 --> 00:41:40,640
+rick stein that said to me which really stuck in 
+my mind he said well you can only truly master any
+
+419
+00:41:40,640 --> 00:41:46,640
+language if you can express humor in it and he and 
+he said and that's what system element does so he
+
+420
+00:41:46,640 --> 00:41:52,160
+uses that as an example for some of his students 
+and i think that's very important so if you do go
+
+421
+00:41:52,160 --> 00:41:56,720
+onto our linkedin page and you do this you have 
+to go with an open mind and bear in mind there
+
+422
+00:41:56,720 --> 00:42:02,640
+are some terrible terrible misinterpretations 
+of song titles and things like that on it so uh
+
+423
+00:42:03,920 --> 00:42:08,640
+but yeah so we do that every friday it's a good 
+fun thing to come along and uh and join in if you
+
+424
+00:42:08,640 --> 00:42:13,520
+do and if you're very lucky you might even have 
+it dedicated to you one week that's that's the uh
+
+425
+00:42:14,080 --> 00:42:19,760
+that's the goal tim yeah last week 
+it reminds me of a great film well
+
+426
+00:42:21,120 --> 00:42:30,320
+very good um is it correct that is that you 
+published some of them in a book i think
+
+427
+00:42:30,320 --> 00:42:34,000
+when we go to conferences and things 
+so we'll collect like a year together
+
+428
+00:42:34,000 --> 00:42:40,400
+and just print them in a book and we can uh well 
+we normally give them out uh just as like a free
+
+429
+00:42:40,400 --> 00:42:45,920
+thing and people tend to like it and then we give 
+match prizes and things like that as well but then
+
+430
+00:42:45,920 --> 00:42:53,120
+we we print them through an online uh publishing 
+uh company and um so just just for a joke simon
+
+431
+00:42:53,120 --> 00:42:56,880
+one of my colleagues where i write a lot of the 
+books with he said oh we'll just put it up for
+
+432
+00:42:56,880 --> 00:43:01,440
+five pounds and see if anybody's stupid enough 
+to buy it somebody in canada bought 50 copies
+
+433
+00:43:03,520 --> 00:43:09,440
+okay it's full with money as they say ain't 
+hardly a fall at all but but no so we we do the
+
+434
+00:43:09,440 --> 00:43:13,680
+so people want the hard copy just send me an email 
+we will send you some out so we give those away at
+
+435
+00:43:13,680 --> 00:43:17,040
+conferences and things like that we don't normally 
+charge for those but it's normally just like the
+
+436
+00:43:17,040 --> 00:43:22,960
+last year that we've done and put together and 
+it's kind of nice uh just to have them in you and
+
+437
+00:43:22,960 --> 00:43:29,440
+you can copy it from from linkedin so yeah yeah 
+so come come and see us at the next conference and
+
+438
+00:43:29,440 --> 00:43:36,400
+uh and you can have a a signed copy with a 
+personalized message in sicil especially for you
+
+439
+00:43:37,520 --> 00:43:44,880
+what's your next conference the next uh the next 
+face-to-face one i'm doing is hopefully the INCOSE
+
+440
+00:43:44,880 --> 00:43:50,400
+uk annual systems engineering conference in 
+november of this year uh that obviously takes
+
+441
+00:43:50,400 --> 00:43:55,600
+place in the uk um i'm heavily involved in that 
+i'm the technical director so i'm responsible for
+
+442
+00:43:55,600 --> 00:44:00,080
+getting your papers reviewed and all the technical 
+content so that'll be the next one that we're at
+
+443
+00:44:00,080 --> 00:44:06,400
+i'm appearing at some uh quite a few online ones 
+over the next 12 months as well i've got quite
+
+444
+00:44:06,400 --> 00:44:12,320
+a few german events coming up actually you're the 
+first of many german events that are coming up so
+
+445
+00:44:12,320 --> 00:44:17,200
+um so if you like this come and see me said the 
+others i'll be saying the same thing but with a
+
+446
+00:44:18,560 --> 00:44:22,720
+slightly different hat on maybe or something like 
+that but but yeah so there's quite a few coming
+
+447
+00:44:22,720 --> 00:44:27,680
+up i mean one of the good things about covert is 
+it's i get invited to a lot more international
+
+448
+00:44:27,680 --> 00:44:33,360
+conferences than i used to uh it's not quite as 
+nice sat on my sofa and imagining that i'm in
+
+449
+00:44:33,360 --> 00:44:39,200
+paris indies oh i was supposed to go to paris as 
+one of the keynotes in december um at christmas
+
+450
+00:44:39,200 --> 00:44:45,280
+time i thought that would be great and um take my 
+girlfriend we'll have a lovely time and we didn't
+
+451
+00:44:45,280 --> 00:44:50,640
+instead we sat here and drank red wine on that 
+evening and pretended that we were in paris so
+
+452
+00:44:51,600 --> 00:45:01,280
+not quite the same yeah sounds good great okay so 
+we are live for now 42 minutes time correct and i
+
+453
+00:45:01,280 --> 00:45:08,080
+have i have still three tasks for our listeners 
+uh the one is give us a thumbs up on youtube
+
+454
+00:45:08,640 --> 00:45:14,480
+so you can support the channel don't forget to 
+subscribe to the channel so you don't miss out
+
+455
+00:45:14,480 --> 00:45:22,800
+the next live stream and last but not least by 
+the book of Jon yes the new book not just that
+
+456
+00:45:22,800 --> 00:45:28,240
+one all of them also all of them are all seventeen 
+okay so but buy one i'll give you a free system
+
+457
+00:45:31,200 --> 00:45:36,560
+great yeah and tim well then the next topic is um
+
+458
+00:45:38,160 --> 00:45:42,720
+not planned yet um we have some ideas 
+but we have no next topic no date yet
+
+459
+00:45:43,600 --> 00:45:49,680
+and also a little bit summer break time um 
+but well we will do something pretty sure um
+
+460
+00:45:50,960 --> 00:45:57,280
+and well i think that's it well i'd just like 
+to say thanks thanks to both christian and tim
+
+461
+00:45:57,280 --> 00:46:02,400
+for inviting me on it's been a delight 
+and i'd also like to say very sincerely
+
+462
+00:46:02,400 --> 00:46:07,040
+good luck in the football tomorrow night 
+to you two and everybody in germany
+
+463
+00:46:10,240 --> 00:46:17,200
+so now you have to watch the youtube video 
+if you are just listening on it to see what
+
+464
+00:46:17,200 --> 00:46:22,160
+Jon really meant yeah we could also 
+could spoil the result for tomorrow
+
+465
+00:46:24,480 --> 00:46:25,040
+i know it
+
+466
+00:46:27,600 --> 00:46:34,080
+yeah Jon also from my side of was an honor to have 
+you here thank you very much thank you very much
+
+467
+00:46:34,080 --> 00:46:40,160
+okay i look i look forward to seeing you both 
+in person in the next year so yeah yeah okay
+
+468
+00:46:40,800 --> 00:46:49,840
+okay so and well then do not forget 
+trust this is we are suspicious good
+

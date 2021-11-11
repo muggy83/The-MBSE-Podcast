@@ -1,0 +1,6056 @@
+1
+00:00:05,480 --> 00:00:12,500
+[Musik]
+
+2
+00:00:15,060 --> 00:00:21,730
+[Musik]
+
+3
+00:00:52,450 --> 00:00:55,779
+[Musik]
+
+4
+00:01:30,060 --> 00:01:34,999
+[Musik]
+
+5
+00:01:38,480 --> 00:01:44,529
+[Musik]
+
+6
+00:02:01,340 --> 00:02:04,449
+[Musik]
+
+7
+00:02:05,320 --> 00:02:11,570
+hallo liebe freunde des mbs herzlich
+
+8
+00:02:08,660 --> 00:02:14,810
+willkommen zu einer neuen folge vom mps
+
+9
+00:02:11,570 --> 00:02:17,600
+podcast heute zum thema die panel system
+
+10
+00:02:14,810 --> 00:02:20,090
+auf systems engineering und zwar nicht
+
+11
+00:02:17,600 --> 00:02:22,310
+von tim und mir wie gewohnt sondern wir
+
+12
+00:02:20,090 --> 00:02:23,990
+haben heute einen gast nämlich christian
+
+13
+00:02:22,310 --> 00:02:26,320
+reiter christian möchtest du dir
+
+14
+00:02:23,990 --> 00:02:26,320
+vorstellen
+
+15
+00:02:27,370 --> 00:02:31,670
+das ist mein name man hört vielleicht
+
+16
+00:02:29,540 --> 00:02:33,980
+wirklich kommt etwas aus dem süden aus
+
+17
+00:02:31,670 --> 00:02:36,110
+österreich ich bin lehrern der
+
+18
+00:02:33,980 --> 00:02:38,060
+fachhochschule salzburg der erst seit
+
+19
+00:02:36,110 --> 00:02:39,709
+kurzen ein forschungszentrum zu dem
+
+20
+00:02:38,060 --> 00:02:41,780
+thema die pegi system of systems
+
+21
+00:02:39,709 --> 00:02:43,370
+engineering bleiben wo ich freue mich
+
+22
+00:02:41,780 --> 00:02:45,590
+total darauf mit euch beiden hat bisher
+
+23
+00:02:43,370 --> 00:02:49,880
+über unser fachgebiet zu fachsimpeln und
+
+24
+00:02:45,590 --> 00:02:51,530
+sotschi ja großartig wandels titel von
+
+25
+00:02:49,880 --> 00:02:53,500
+deinem forschungszentrum ich muss ja
+
+26
+00:02:51,530 --> 00:02:56,110
+jedes mal nachgucken
+
+27
+00:02:53,500 --> 00:02:58,730
+center systems engineering
+
+28
+00:02:56,110 --> 00:02:59,990
+da kann man gleich mal gut rein fragen
+
+29
+00:02:58,730 --> 00:03:02,810
+steckt viel dahinter was das denn so
+
+30
+00:02:59,990 --> 00:03:03,350
+alles ist haben wir doch mal der mitte
+
+31
+00:03:02,810 --> 00:03:05,630
+an
+
+32
+00:03:03,350 --> 00:03:08,300
+das steht neben deinem kopf da sehe ich
+
+33
+00:03:05,630 --> 00:03:11,330
+dass gerade die pnb system was verstehst
+
+34
+00:03:08,300 --> 00:03:14,930
+du oder die pendler ja das ist ein
+
+35
+00:03:11,330 --> 00:03:17,230
+erfolg ein begriff ist ist tatsächlich
+
+36
+00:03:14,930 --> 00:03:20,030
+auch mit einer bedeutung unterlegt und
+
+37
+00:03:17,230 --> 00:03:21,440
+deep and ability verstehen wir ja auf
+
+38
+00:03:20,030 --> 00:03:22,970
+deutsch die verlässlichkeit das ist
+
+39
+00:03:21,440 --> 00:03:24,650
+tatsächlich kein allein stehender
+
+40
+00:03:22,970 --> 00:03:26,989
+begriff sondern das ist ein
+
+41
+00:03:24,650 --> 00:03:29,180
+sammelbegriff für kritische qualitäten
+
+42
+00:03:26,989 --> 00:03:32,950
+also konkret für reliability
+
+43
+00:03:29,180 --> 00:03:36,410
+availability maintainer pille die safety
+
+44
+00:03:32,950 --> 00:03:38,810
+& security und was wir noch gerne machen
+
+45
+00:03:36,410 --> 00:03:41,180
+wir hätten gern noch ein p mit dazu für
+
+46
+00:03:38,810 --> 00:03:43,489
+gravity für datenschutz weil wir denken
+
+47
+00:03:41,180 --> 00:03:45,950
+dass das tatsächlich auch ein relativ
+
+48
+00:03:43,489 --> 00:03:47,810
+relevantes thema ist das bist du ein
+
+49
+00:03:45,950 --> 00:03:51,620
+sammelbegriff dem man gerne mal unter
+
+50
+00:03:47,810 --> 00:03:53,600
+verlässlichkeit besteht also die pendler
+
+51
+00:03:51,620 --> 00:03:54,610
+heißt verlässlichkeit ich konnte es erst
+
+52
+00:03:53,600 --> 00:03:56,930
+mal über gesehen hatte dass ihr
+
+53
+00:03:54,610 --> 00:03:58,310
+abhängige systeme aber in abhängigkeit
+
+54
+00:03:56,930 --> 00:04:00,590
+hat das nichts zu tun
+
+55
+00:03:58,310 --> 00:04:02,959
+ja es ist furchtbar schlecht übersetzt
+
+56
+00:04:00,590 --> 00:04:05,570
+muss man also darum auch in allem etwas
+
+57
+00:04:02,959 --> 00:04:08,430
+wie erklären sie sich mit den händen
+
+58
+00:04:05,570 --> 00:04:10,800
+und man kann vielleicht das akronym rams
+
+59
+00:04:08,430 --> 00:04:12,690
+also für reliability availability und so
+
+60
+00:04:10,800 --> 00:04:14,520
+weiter wurde es die anderen
+
+61
+00:04:12,690 --> 00:04:14,790
+begrifflichkeiten am besten definiert
+
+62
+00:04:14,520 --> 00:04:16,140
+sind
+
+63
+00:04:14,790 --> 00:04:18,359
+aber es ist tatsächlich ein
+
+64
+00:04:16,140 --> 00:04:20,250
+sammelbegriff ich glaube da gibt es auch
+
+65
+00:04:18,359 --> 00:04:22,560
+ein paper von la péri oder so ich hab
+
+66
+00:04:20,250 --> 00:04:25,200
+das gar nicht im kopf wo diese akronyme
+
+67
+00:04:22,560 --> 00:04:26,610
+erklärt zusammengefasst worden sind und
+
+68
+00:04:25,200 --> 00:04:30,690
+dieses akronym ramms ist relativ
+
+69
+00:04:26,610 --> 00:04:32,850
+etablierte war jetzt ist er also rams
+
+70
+00:04:30,690 --> 00:04:34,860
+oder genauer langsam
+
+71
+00:04:32,850 --> 00:04:37,020
+ja das macht das macht es unglaublich
+
+72
+00:04:34,860 --> 00:04:39,540
+schwer lesbar wenn man auch noch kein
+
+73
+00:04:37,020 --> 00:04:41,280
+schreiben haben wir glaube ich 2013/2014
+
+74
+00:04:39,540 --> 00:04:43,650
+darum paper veröffentlicht
+
+75
+00:04:41,280 --> 00:04:45,390
+das argument haben aber ich denke ist es
+
+76
+00:04:43,650 --> 00:04:47,880
+einfach gut dieses thema preise mit zu
+
+77
+00:04:45,390 --> 00:04:51,360
+berücksichtigen weil ich so was diese
+
+78
+00:04:47,880 --> 00:04:52,770
+anderen attribute vereint ist es sind
+
+79
+00:04:51,360 --> 00:04:55,020
+alles themen die themen die man bei
+
+80
+00:04:52,770 --> 00:04:57,210
+design integrieren muss also am ende ein
+
+81
+00:04:55,020 --> 00:04:59,340
+stück security einzubauen oder um jetzt
+
+82
+00:04:57,210 --> 00:05:01,980
+macht sie es noch war das funktioniert
+
+83
+00:04:59,340 --> 00:05:03,870
+ja nicht zu gehören und mit privacy ist
+
+84
+00:05:01,980 --> 00:05:05,250
+es letztlich ja genau das gleiche wenn
+
+85
+00:05:03,870 --> 00:05:07,890
+ich privat sind nicht von beginn an
+
+86
+00:05:05,250 --> 00:05:09,660
+mitdenken sparsame architektur macht
+
+87
+00:05:07,890 --> 00:05:11,580
+oder privacy enhancing technologies
+
+88
+00:05:09,660 --> 00:05:13,290
+einsetzt wenn wir jetzt nichts werden
+
+89
+00:05:11,580 --> 00:05:16,169
+den datenschutz und das hat ja das
+
+90
+00:05:13,290 --> 00:05:18,300
+potenzial ein showstopper zu werden und
+
+91
+00:05:16,169 --> 00:05:20,940
+von daher denke ich dass das dieses
+
+92
+00:05:18,300 --> 00:05:22,770
+programms frei weise und alles andere
+
+93
+00:05:20,940 --> 00:05:24,720
+und spende bittet dass das
+
+94
+00:05:22,770 --> 00:05:26,850
+gerechtfertigt ist dass er sagt und das
+
+95
+00:05:24,720 --> 00:05:30,300
+bitte bydesign auf jeden fall mal
+
+96
+00:05:26,850 --> 00:05:31,740
+andenken hast du ein beispiel dafür also
+
+97
+00:05:30,300 --> 00:05:36,720
+ihr habt ihr sicherlich schon projekte
+
+98
+00:05:31,740 --> 00:05:38,340
+wo er da so denkt man meist ein beispiel
+
+99
+00:05:36,720 --> 00:05:40,650
+für crysis oder allgemein für diese
+
+100
+00:05:38,340 --> 00:05:43,919
+themen allgemein sowie die per bus stop
+
+101
+00:05:40,650 --> 00:05:46,260
+system ja so in ein klassisches beispiel
+
+102
+00:05:43,919 --> 00:05:47,729
+dass wir wo wir auch herkommen aus der
+
+103
+00:05:46,260 --> 00:05:49,229
+forschung das wäre zum beispiel das
+
+104
+00:05:47,729 --> 00:05:51,690
+smart grid also das intelligente
+
+105
+00:05:49,229 --> 00:05:54,660
+stromnetz wo ich sage ich auf der einen
+
+106
+00:05:51,690 --> 00:05:56,400
+seite kritische infrastruktur wo ich mir
+
+107
+00:05:54,660 --> 00:05:59,210
+wünschen wird dass die tatsächlich auch
+
+108
+00:05:56,400 --> 00:06:01,020
+relativ oft funktioniert weil sonst
+
+109
+00:05:59,210 --> 00:06:02,100
+bekommt natürlich auch sagen wir
+
+110
+00:06:01,020 --> 00:06:04,530
+weitreichende probleme
+
+111
+00:06:02,100 --> 00:06:06,120
+das heißt von der von der kritik und der
+
+112
+00:06:04,530 --> 00:06:08,400
+kritischen infrastruktur seite her
+
+113
+00:06:06,120 --> 00:06:11,160
+andererseits haben wir natürlich auch im
+
+114
+00:06:08,400 --> 00:06:13,470
+smart grid jetzt auch and nutzerinnen
+
+115
+00:06:11,160 --> 00:06:15,720
+integriert also stichwort smart meter
+
+116
+00:06:13,470 --> 00:06:17,190
+electric vehicle charging habe ich auf
+
+117
+00:06:15,720 --> 00:06:18,240
+einmal einen großen datenaustausch
+
+118
+00:06:17,190 --> 00:06:20,460
+integriert wo
+
+119
+00:06:18,240 --> 00:06:22,680
+potenzielle kritische daten wie
+
+120
+00:06:20,460 --> 00:06:24,330
+verbrauchsdaten an irgendjemanden
+
+121
+00:06:22,680 --> 00:06:27,330
+übertrage und da würde ich mir natürlich
+
+122
+00:06:24,330 --> 00:06:29,940
+wünschen dass das von beginn weg auch so
+
+123
+00:06:27,330 --> 00:06:34,530
+gebaut ist dass es für die privatsphäre
+
+124
+00:06:29,940 --> 00:06:36,780
+möglichst minimal invasives betreibers
+
+125
+00:06:34,530 --> 00:06:37,970
+ist immer so ein trader ist genauso wie
+
+126
+00:06:36,780 --> 00:06:40,800
+im stromnetz
+
+127
+00:06:37,970 --> 00:06:43,139
+auf der einen seite möchten wir gern
+
+128
+00:06:40,800 --> 00:06:46,250
+erneuerbare energien integrieren so
+
+129
+00:06:43,139 --> 00:06:48,599
+windkraft photovoltaik und so weiter und
+
+130
+00:06:46,250 --> 00:06:50,160
+diese erneuerbaren energien haben wir
+
+131
+00:06:48,599 --> 00:06:51,120
+das fundamentale problem dass ich sie
+
+132
+00:06:50,160 --> 00:06:52,440
+nicht reden kann
+
+133
+00:06:51,120 --> 00:06:56,520
+also ich kann nicht kontrollieren kann
+
+134
+00:06:52,440 --> 00:06:59,669
+die sonne scheint und der wind geht im
+
+135
+00:06:56,520 --> 00:07:01,289
+stromnetz ich auf einmal erzeuger die
+
+136
+00:06:59,669 --> 00:07:02,400
+ich nicht mehr steuern kann man also
+
+137
+00:07:01,289 --> 00:07:03,780
+muss ich mal überlegen dass ich im
+
+138
+00:07:02,400 --> 00:07:06,090
+stromnetz ich mein kleid ich gebe ich
+
+139
+00:07:03,780 --> 00:07:07,470
+das verbrauchen der zeugung habe und
+
+140
+00:07:06,090 --> 00:07:09,030
+wenn ich die erzeugerseite nicht mehr
+
+141
+00:07:07,470 --> 00:07:10,830
+steuern kann dann muss ich vielleicht
+
+142
+00:07:09,030 --> 00:07:13,530
+die verbraucherseite steuern so was wie
+
+143
+00:07:10,830 --> 00:07:15,630
+elektrofahrzeuge und damit sich das netz
+
+144
+00:07:13,530 --> 00:07:17,460
+gut steuern kann ist es wichtig dass ich
+
+145
+00:07:15,630 --> 00:07:19,289
+relativ gut bescheid weiß wie es dann
+
+146
+00:07:17,460 --> 00:07:20,729
+ins stromnetz jetzt ausschaut wie viel
+
+147
+00:07:19,289 --> 00:07:22,560
+lassen wirklich verbraucht wird und die
+
+148
+00:07:20,729 --> 00:07:25,020
+spannung zum strom levels und so weiter
+
+149
+00:07:22,560 --> 00:07:26,449
+und da sind diese smart meter natürlich
+
+150
+00:07:25,020 --> 00:07:29,190
+sehr hilfreich
+
+151
+00:07:26,449 --> 00:07:32,849
+aus sicht der integration erneuerbarer
+
+152
+00:07:29,190 --> 00:07:34,669
+energien ist so ein hohe dichte an smart
+
+153
+00:07:32,849 --> 00:07:37,469
+metern sehr wünschenswert
+
+154
+00:07:34,669 --> 00:07:40,740
+andererseits diese smart meter wenn sie
+
+155
+00:07:37,469 --> 00:07:42,479
+dann allerdings tatsächlich in kurzen
+
+156
+00:07:40,740 --> 00:07:43,580
+zeitintervallen meine verbrauchsdaten
+
+157
+00:07:42,479 --> 00:07:45,930
+und jemand übermitteln
+
+158
+00:07:43,580 --> 00:07:47,610
+lässt sich da raus weil potenziell
+
+159
+00:07:45,930 --> 00:07:50,250
+verhalten schlussfolgern dass ich nicht
+
+160
+00:07:47,610 --> 00:07:52,770
+möchte dass wer weiß also eine zweite
+
+161
+00:07:50,250 --> 00:07:54,569
+forschungsgruppe bei uns beschäftigt
+
+162
+00:07:52,770 --> 00:07:56,430
+sich sehr stark mit privacy enhancing
+
+163
+00:07:54,569 --> 00:07:59,009
+technologies also kryptographische
+
+164
+00:07:56,430 --> 00:08:00,479
+methoden und analytischen methoden und
+
+165
+00:07:59,009 --> 00:08:02,759
+die können erschreckend viele sachen
+
+166
+00:08:00,479 --> 00:08:04,289
+daraus lesen wo es gut ist wenn man das
+
+167
+00:08:02,759 --> 00:08:06,180
+aktiv adressiert und sich von vornherein
+
+168
+00:08:04,289 --> 00:08:09,419
+überlegt wie baue ich denn solche
+
+169
+00:08:06,180 --> 00:08:11,729
+systeme das ja dass die privacy
+
+170
+00:08:09,419 --> 00:08:13,380
+möglichst gemeinden bleibt ja also da
+
+171
+00:08:11,729 --> 00:08:15,330
+habe ich auch ein schönes beispiel dass
+
+172
+00:08:13,380 --> 00:08:17,759
+wir selber mehrmals ausprobiert haben
+
+173
+00:08:15,330 --> 00:08:21,300
+wir haben ein auto ausgestattet mit
+
+174
+00:08:17,759 --> 00:08:23,819
+einem luftfeuchtigkeit und einem
+
+175
+00:08:21,300 --> 00:08:24,840
+temperatur sensor und das war
+
+176
+00:08:23,819 --> 00:08:27,419
+erschreckend
+
+177
+00:08:24,840 --> 00:08:28,740
+das wäre also wenn ich hab das in flux
+
+178
+00:08:27,419 --> 00:08:30,360
+datenbank geschrieben und dann im
+
+179
+00:08:28,740 --> 00:08:32,700
+grafenauer ausgewertet
+
+180
+00:08:30,360 --> 00:08:34,680
+und man konnte wirklich sehen wann ist
+
+181
+00:08:32,700 --> 00:08:36,690
+jemand aus dem bad gekommen wann gegen
+
+182
+00:08:34,680 --> 00:08:38,880
+die haustür auf und weil sofort die
+
+183
+00:08:36,690 --> 00:08:41,640
+luftfeuchtigkeit fällt also sozusagen
+
+184
+00:08:38,880 --> 00:08:42,599
+wann war der dhl täter und so was also
+
+185
+00:08:41,640 --> 00:08:45,140
+das konnte man alles so ein bisschen
+
+186
+00:08:42,599 --> 00:08:47,399
+abschätzen da durch es war tatsächlich
+
+187
+00:08:45,140 --> 00:08:49,829
+erschreckend und ich glaube gerade das
+
+188
+00:08:47,399 --> 00:08:51,390
+beispiel elektromobilität ist ja gerade
+
+189
+00:08:49,829 --> 00:08:55,440
+auch in deutschland grad hoch relevant
+
+190
+00:08:51,390 --> 00:08:56,490
+jetzt wo die die privaten ladepunkte
+
+191
+00:08:55,440 --> 00:08:59,279
+gefördert werden
+
+192
+00:08:56,490 --> 00:09:02,010
+und da war ja eine voraussetzung zur
+
+193
+00:08:59,279 --> 00:09:03,300
+förderung auch dass die steuerbar sein
+
+194
+00:09:02,010 --> 00:09:06,209
+müssen und das ist ja genau ich genau
+
+195
+00:09:03,300 --> 00:09:08,160
+der punkt den du ansprichst deshalb den
+
+196
+00:09:06,209 --> 00:09:10,350
+adler ein eingriff in die privatsphäre
+
+197
+00:09:08,160 --> 00:09:11,880
+da geht es ja darum dass die ich will
+
+198
+00:09:10,350 --> 00:09:13,019
+mein elektrofahrzeug aufladen der
+
+199
+00:09:11,880 --> 00:09:15,300
+stromversorger kann sagen wir jetzt
+
+200
+00:09:13,019 --> 00:09:17,070
+nicht und schaltet mich wieder aus so
+
+201
+00:09:15,300 --> 00:09:18,540
+stand da diese forderung da drin das ist
+
+202
+00:09:17,070 --> 00:09:21,480
+ziemlich krass vielleicht dachte ich
+
+203
+00:09:18,540 --> 00:09:23,310
+dass ich dringend aufnahme weil ich wohl
+
+204
+00:09:21,480 --> 00:09:25,140
+noch daran dahin und der versorger jetzt
+
+205
+00:09:23,310 --> 00:09:29,370
+passt mir gerade nicht das ding wieder
+
+206
+00:09:25,140 --> 00:09:32,070
+aus aber das ist nicht wichtig für die
+
+207
+00:09:29,370 --> 00:09:33,839
+stromversorger es ist wie vor allem für
+
+208
+00:09:32,070 --> 00:09:35,279
+die netzbetreiber also gibt es dank dem
+
+209
+00:09:33,839 --> 00:09:37,949
+anbahnt links und netzbetreibern
+
+210
+00:09:35,279 --> 00:09:39,180
+stromversorger strikt getrennt und was
+
+211
+00:09:37,949 --> 00:09:40,800
+man sich bewusst machen was ist
+
+212
+00:09:39,180 --> 00:09:42,690
+natürlich dass die infrastruktur des
+
+213
+00:09:40,800 --> 00:09:44,730
+stromnetzes jahr über eineinhalb
+
+214
+00:09:42,690 --> 00:09:46,709
+jahrhunderte gewachsen ist und die lässt
+
+215
+00:09:44,730 --> 00:09:47,430
+sich auch nicht so schnell dick machen
+
+216
+00:09:46,709 --> 00:09:49,140
+oder ausbauen
+
+217
+00:09:47,430 --> 00:09:50,279
+das heißt wenn wir jetzt aber auf einmal
+
+218
+00:09:49,140 --> 00:09:52,470
+ganz viele große verbraucher
+
+219
+00:09:50,279 --> 00:09:54,120
+anschließend elektroautos und aber
+
+220
+00:09:52,470 --> 00:09:55,740
+voraussetzen dass ich nicht per se mal
+
+221
+00:09:54,120 --> 00:09:57,329
+überall neue stromnetze waren kann man
+
+222
+00:09:55,740 --> 00:09:59,430
+braucht sich mit eleganter steuer
+
+223
+00:09:57,329 --> 00:10:01,800
+mechanismen und da kam auch schon zu
+
+224
+00:09:59,430 --> 00:10:02,399
+seinem spannenden punkt richtung system
+
+225
+00:10:01,800 --> 00:10:04,769
+of systems
+
+226
+00:10:02,399 --> 00:10:06,930
+wenn ich solche steuer ein zusammenspiel
+
+227
+00:10:04,769 --> 00:10:09,540
+von diesen beiden entitäten haben möchte
+
+228
+00:10:06,930 --> 00:10:10,890
+vom stromnetz und den elektroautos dann
+
+229
+00:10:09,540 --> 00:10:11,630
+müssen die irgendwie miteinander tun
+
+230
+00:10:10,890 --> 00:10:13,709
+können
+
+231
+00:10:11,630 --> 00:10:16,170
+und da haben wir dann tatsächlich ein
+
+232
+00:10:13,709 --> 00:10:18,390
+system of systems geschaffen und die
+
+233
+00:10:16,170 --> 00:10:21,810
+schwierigkeit ist wenn jetzt personal
+
+234
+00:10:18,390 --> 00:10:23,579
+ein stromnetz baut und person b ein auto
+
+235
+00:10:21,810 --> 00:10:25,980
+wie stelle ich erstens mal die
+
+236
+00:10:23,579 --> 00:10:27,060
+interoperabilität sicher und wie stelle
+
+237
+00:10:25,980 --> 00:10:29,250
+ich sicher dass die beide ein
+
+238
+00:10:27,060 --> 00:10:30,779
+gemeinsames ziel verfolgen und das immer
+
+239
+00:10:29,250 --> 00:10:33,029
+letztlich auch tatsächlich genau bei ihm
+
+240
+00:10:30,779 --> 00:10:34,560
+gelandet wo wir eigentlich herkommen was
+
+241
+00:10:33,029 --> 00:10:37,470
+ich habe heuer schon erwähnt dass markt
+
+242
+00:10:34,560 --> 00:10:39,779
+wird uns ein bisschen größer sind und
+
+243
+00:10:37,470 --> 00:10:40,990
+wir haben aus der historie heraus wir
+
+244
+00:10:39,779 --> 00:10:44,240
+haben versucht
+
+245
+00:10:40,990 --> 00:10:46,040
+trust zu hebeln also user trust und
+
+246
+00:10:44,240 --> 00:10:48,050
+dafür eben freiwillig und security
+
+247
+00:10:46,040 --> 00:10:49,639
+speziell adressiert und da wo immer eine
+
+248
+00:10:48,050 --> 00:10:51,290
+forschungsgruppe die sich die
+
+249
+00:10:49,639 --> 00:10:52,850
+kryptographischen primitive angeschaut
+
+250
+00:10:51,290 --> 00:10:53,810
+hat und die analytica was man wirklich
+
+251
+00:10:52,850 --> 00:10:57,170
+auslesen kann
+
+252
+00:10:53,810 --> 00:10:59,360
+das war dem abrutschen in der zweiten
+
+253
+00:10:57,170 --> 00:11:01,250
+forschungsgruppe tätig war war der
+
+254
+00:10:59,360 --> 00:11:03,199
+ansatz wir versuchen so was bydesign zu
+
+255
+00:11:01,250 --> 00:11:05,389
+ermöglichen das heißt top down kommen
+
+256
+00:11:03,199 --> 00:11:08,050
+wie kann ich so ein system ganzheitlich
+
+257
+00:11:05,389 --> 00:11:10,370
+bauen weil wenn man sich mal vorstellen
+
+258
+00:11:08,050 --> 00:11:11,779
+wenn wir jetzt nur darüber reden dass
+
+259
+00:11:10,370 --> 00:11:13,870
+ein netzbetreiber vielleicht und ein
+
+260
+00:11:11,779 --> 00:11:15,889
+elektro auto besitzt seine besitzerin
+
+261
+00:11:13,870 --> 00:11:18,589
+miteinander interagieren kann ich die
+
+262
+00:11:15,889 --> 00:11:20,839
+daten ja noch mir anschauen und sagen ja
+
+263
+00:11:18,589 --> 00:11:22,730
+kritisch nicht kritisch geht sich aus
+
+264
+00:11:20,839 --> 00:11:26,259
+aber wenn du jetzt vielleicht noch ein
+
+265
+00:11:22,730 --> 00:11:29,089
+anbieter dazu kommt für carsharing oder
+
+266
+00:11:26,259 --> 00:11:30,769
+vielleicht habe ich im ausland irgendwo
+
+267
+00:11:29,089 --> 00:11:32,600
+ein roaming wo ich gerade aufladung
+
+268
+00:11:30,769 --> 00:11:35,019
+tanke ich muss mich identifizieren oder
+
+269
+00:11:32,600 --> 00:11:37,130
+ladestation auch für die abrechnung
+
+270
+00:11:35,019 --> 00:11:39,860
+aggregieren sie habe sehr viele daten
+
+271
+00:11:37,130 --> 00:11:41,480
+auf die vielleicht wo jeder datensatz
+
+272
+00:11:39,860 --> 00:11:43,449
+für sich unkritisch ist aber in summe
+
+273
+00:11:41,480 --> 00:11:46,519
+könnten sie problematisch sein
+
+274
+00:11:43,449 --> 00:11:48,139
+und damit man so was eben ermöglichen
+
+275
+00:11:46,519 --> 00:11:50,029
+kann so analyse unserer betrachtungen
+
+276
+00:11:48,139 --> 00:11:51,829
+ermöglichen kann war für uns das
+
+277
+00:11:50,029 --> 00:11:53,329
+wichtige thema wie schaffe ich es denn
+
+278
+00:11:51,829 --> 00:11:55,120
+eine ganzheitlich ist nicht dass so ein
+
+279
+00:11:53,329 --> 00:11:57,500
+szenario zu ermöglichen
+
+280
+00:11:55,120 --> 00:11:59,420
+wer wäre denn dafür zuständig wenn ich
+
+281
+00:11:57,500 --> 00:12:01,720
+mir das wer wäre dafür das system of
+
+282
+00:11:59,420 --> 00:12:03,980
+systems zuständig das ist ja weder der
+
+283
+00:12:01,720 --> 00:12:07,490
+elektroautohersteller noch der
+
+284
+00:12:03,980 --> 00:12:07,880
+netzbetreiber oder erst darüber was ist
+
+285
+00:12:07,490 --> 00:12:11,839
+sein
+
+286
+00:12:07,880 --> 00:12:13,699
+das ist eine berechtigte frage weil
+
+287
+00:12:11,839 --> 00:12:15,050
+klassisch sagt man ja bei system of
+
+288
+00:12:13,699 --> 00:12:16,850
+systems dass der freiwillige
+
+289
+00:12:15,050 --> 00:12:19,370
+zusammenschluss von einzelnen systemen
+
+290
+00:12:16,850 --> 00:12:20,870
+ist die haut prinzipiell mal jedes für
+
+291
+00:12:19,370 --> 00:12:24,050
+sich ein schönes leben haben können aber
+
+292
+00:12:20,870 --> 00:12:26,029
+zu können sie auch zusammenarbeiten wo
+
+293
+00:12:24,050 --> 00:12:27,709
+man hören nutzen zu erzielen
+
+294
+00:12:26,029 --> 00:12:29,269
+ja wenn man vielleicht beim beispiel mit
+
+295
+00:12:27,709 --> 00:12:30,259
+elektroautos das ist so ein
+
+296
+00:12:29,269 --> 00:12:32,720
+paradebeispiel
+
+297
+00:12:30,259 --> 00:12:34,970
+dann könnte ich sagen mein über
+
+298
+00:12:32,720 --> 00:12:37,250
+gewordene der nutzen zwischen einem
+
+299
+00:12:34,970 --> 00:12:39,079
+elektroauto im stromnetz ist dass wir
+
+300
+00:12:37,250 --> 00:12:41,509
+uns ein flexibles lage szenario aus
+
+301
+00:12:39,079 --> 00:12:43,399
+machen damit wir es ermöglichen dass
+
+302
+00:12:41,509 --> 00:12:43,850
+mehr autos und stromnetz teilnehmen
+
+303
+00:12:43,399 --> 00:12:45,439
+können
+
+304
+00:12:43,850 --> 00:12:48,410
+das ist die leitung für sich her gehen
+
+305
+00:12:45,439 --> 00:12:49,730
+wird und darum arbeiten wir zusammen und
+
+306
+00:12:48,410 --> 00:12:53,209
+machen es vielleicht ein flexibles
+
+307
+00:12:49,730 --> 00:12:55,699
+preissystem auf so in der richtung wie
+
+308
+00:12:53,209 --> 00:12:57,670
+der stromnetzbetreiber möchte gern ein
+
+309
+00:12:55,699 --> 00:12:59,629
+bisschen steuern wann welches auto lebt
+
+310
+00:12:57,670 --> 00:13:01,879
+und tun bietet eine flexible
+
+311
+00:12:59,629 --> 00:13:03,379
+tarifmodelle mannschaft dieses
+
+312
+00:13:01,879 --> 00:13:06,079
+tarifmodell kriegst du einen besonders
+
+313
+00:13:03,379 --> 00:13:07,879
+günstigen strompreis der führen der
+
+314
+00:13:06,079 --> 00:13:10,220
+preis hoch geht schaltest du dich mal
+
+315
+00:13:07,879 --> 00:13:14,059
+für zwei stunden pause oder so also mal
+
+316
+00:13:10,220 --> 00:13:16,129
+verhandeln sich das quasi aus und es ist
+
+317
+00:13:14,059 --> 00:13:17,980
+ein übereinkommen zwischen den beiden da
+
+318
+00:13:16,129 --> 00:13:20,119
+gibt es jetzt keinen super oder
+
+319
+00:13:17,980 --> 00:13:21,319
+irgendwen der das dann kontrolliert
+
+320
+00:13:20,119 --> 00:13:24,860
+sondern die beiden machen sich das
+
+321
+00:13:21,319 --> 00:13:27,889
+miteinander aus freiwillig und die
+
+322
+00:13:24,860 --> 00:13:29,480
+schwierigkeit ist so war das in solchen
+
+323
+00:13:27,889 --> 00:13:31,670
+system of systems durch dieses
+
+324
+00:13:29,480 --> 00:13:33,829
+zusammenspiel das ist da durchaus auch
+
+325
+00:13:31,670 --> 00:13:36,259
+zu ungewünschten verhalten kommen kann
+
+326
+00:13:33,829 --> 00:13:38,990
+dass ich weiß nicht ich denke da begriff
+
+327
+00:13:36,259 --> 00:13:40,519
+im virgin media ist unseren zuhörerinnen
+
+328
+00:13:38,990 --> 00:13:43,509
+und zuhörer eine vielleicht ein wirklich
+
+329
+00:13:40,519 --> 00:13:45,800
+und dann geht es darum dass wir auf
+
+330
+00:13:43,509 --> 00:13:48,319
+einmaleffekte sehen die sich durch das
+
+331
+00:13:45,800 --> 00:13:49,850
+zusammenspiel geben wo jetzt nicht die
+
+332
+00:13:48,319 --> 00:13:51,920
+eine seite schule soll die andere
+
+333
+00:13:49,850 --> 00:13:55,279
+sondern durch das zusammenspiel ergeben
+
+334
+00:13:51,920 --> 00:13:57,079
+sich effekt vielleicht beim laden vom
+
+335
+00:13:55,279 --> 00:13:59,869
+auto könnte man sich so vorstellen
+
+336
+00:13:57,079 --> 00:14:01,850
+keine angst hat dann noch nenner ist
+
+337
+00:13:59,869 --> 00:14:04,899
+dass in deutschland axel ist in
+
+338
+00:14:01,850 --> 00:14:04,899
+deutschland aber ich gehöre ich dazu
+
+339
+00:14:05,769 --> 00:14:11,179
+resultat paradebeispiele wo ich mir
+
+340
+00:14:09,110 --> 00:14:13,600
+vorstelle ich sage ich komme abends nach
+
+341
+00:14:11,179 --> 00:14:15,860
+hause steckt man autoren die strom
+
+342
+00:14:13,600 --> 00:14:18,709
+steckdosen und das lied und sondern
+
+343
+00:14:15,860 --> 00:14:20,089
+20.15 wenn tatort im fernsehen beginnt
+
+344
+00:14:18,709 --> 00:14:21,619
+und vielleicht alle gleichzeitig
+
+345
+00:14:20,089 --> 00:14:24,709
+fernsehen um den kühlschrank aufmache
+
+346
+00:14:21,619 --> 00:14:26,869
+muss ich ein bier zu holen und dann auf
+
+347
+00:14:24,709 --> 00:14:31,369
+einmal sieht das stromnetz so heftig war
+
+348
+00:14:26,869 --> 00:14:32,929
+tim oder biologen und dann sieht das
+
+349
+00:14:31,369 --> 00:14:34,790
+stromnetz uhr jetzt verbrauchen auf
+
+350
+00:14:32,929 --> 00:14:36,769
+einmal viele leute viel strom das
+
+351
+00:14:34,790 --> 00:14:39,079
+gefällt mir nicht gut ich reagiere
+
+352
+00:14:36,769 --> 00:14:40,160
+darauf und ich schalte einfach mal den
+
+353
+00:14:39,079 --> 00:14:42,139
+strompreis höher
+
+354
+00:14:40,160 --> 00:14:43,459
+das elektroauto sind jetzt den höheren
+
+355
+00:14:42,139 --> 00:14:45,829
+strompreisen sollten
+
+356
+00:14:43,459 --> 00:14:46,970
+ich schalte mal aus weil das auto sagt
+
+357
+00:14:45,829 --> 00:14:47,839
+ich muss das nur sechs in der früh
+
+358
+00:14:46,970 --> 00:14:50,149
+geladen seien
+
+359
+00:14:47,839 --> 00:14:53,360
+ich mache mal zwei stunden pause und
+
+360
+00:14:50,149 --> 00:14:55,970
+schaltet aus und bleibt ostend bei 21
+
+361
+00:14:53,360 --> 00:14:57,920
+430 kommt das nächste auto und das
+
+362
+00:14:55,970 --> 00:15:01,009
+nächste auto sieht den hohen strompreis
+
+363
+00:14:57,920 --> 00:15:02,569
+bleibt auch auf standby 21 45 kommt das
+
+364
+00:15:01,009 --> 00:15:05,179
+dritte auto sieht den preis geht auf
+
+365
+00:15:02,569 --> 00:15:05,970
+standby und so weiter das heißt über die
+
+366
+00:15:05,179 --> 00:15:07,379
+zeit
+
+367
+00:15:05,970 --> 00:15:09,120
+poliert sich das auf und wir haben viele
+
+368
+00:15:07,379 --> 00:15:11,759
+autos die darauf lauern dass der preis
+
+369
+00:15:09,120 --> 00:15:13,439
+günstig wird und dann wenn tatort vorbei
+
+370
+00:15:11,759 --> 00:15:16,050
+sind fernsehen alle gehen schlafen der
+
+371
+00:15:13,439 --> 00:15:17,670
+stromverbrauch sinkt der netzbetreiber
+
+372
+00:15:16,050 --> 00:15:20,250
+haben ich habe genug strom wenn machen
+
+373
+00:15:17,670 --> 00:15:21,600
+den strompreis günstiger und der effekt
+
+374
+00:15:20,250 --> 00:15:23,639
+ist wenn der strompreis jetzt günstiger
+
+375
+00:15:21,600 --> 00:15:25,529
+wird dass alle gleichzeitig anfangen zum
+
+376
+00:15:23,639 --> 00:15:27,779
+laden und dann kriege ich sie einlade
+
+377
+00:15:25,529 --> 00:15:29,430
+peak zu sammeln und in dem moment wo der
+
+378
+00:15:27,779 --> 00:15:32,279
+peak auf einmal so steil nach oben geht
+
+379
+00:15:29,430 --> 00:15:34,350
+sagt der netzbetreiber nicht gut nicht
+
+380
+00:15:32,279 --> 00:15:36,540
+gut ich mache den stromkreis unbedingt
+
+381
+00:15:34,350 --> 00:15:37,980
+wieder höher werden weiser steiler weg
+
+382
+00:15:36,540 --> 00:15:40,439
+gemacht hatten strompreise auch sehr
+
+383
+00:15:37,980 --> 00:15:42,060
+gehört und auf diesen noch höheren
+
+384
+00:15:40,439 --> 00:15:43,920
+strompreis reagieren die autos dass sie
+
+385
+00:15:42,060 --> 00:15:45,930
+wieder ausschalten mit laden und weil
+
+386
+00:15:43,920 --> 00:15:47,370
+der strompreis aber so hoch ist schalten
+
+387
+00:15:45,930 --> 00:15:48,540
+nicht nur die elektroautos aus sondern
+
+388
+00:15:47,370 --> 00:15:50,459
+vielleicht auch die wärme punkten
+
+389
+00:15:48,540 --> 00:15:51,689
+das heißt der peak der nach oben
+
+390
+00:15:50,459 --> 00:15:52,410
+gegangen es geht jetzt noch viele steine
+
+391
+00:15:51,689 --> 00:15:56,089
+nach unten
+
+392
+00:15:52,410 --> 00:15:58,620
+der netzbetreiber panik zu viel strom
+
+393
+00:15:56,089 --> 00:16:00,300
+exportiert sofort den preis niedriger
+
+394
+00:15:58,620 --> 00:16:02,759
+machen und dann kann es zu seinem
+
+395
+00:16:00,300 --> 00:16:04,339
+aufschwingenden verhalten kommen das
+
+396
+00:16:02,759 --> 00:16:06,569
+wird definitiv nicht haben wollen
+
+397
+00:16:04,339 --> 00:16:09,149
+und das wäre ebenso ein klassisches
+
+398
+00:16:06,569 --> 00:16:11,430
+beispiel für immer gentes verhalten das
+
+399
+00:16:09,149 --> 00:16:14,220
+sich durch das zusammenspiel von vielen
+
+400
+00:16:11,430 --> 00:16:15,899
+einzelnen systemen ergibt dass wir eben
+
+401
+00:16:14,220 --> 00:16:18,019
+hoffentlich im vorhinein sehen und
+
+402
+00:16:15,899 --> 00:16:21,089
+verstehen und dann gegenmaßnahmen
+
+403
+00:16:18,019 --> 00:16:22,589
+ergreifen können aber das wichtige sehen
+
+404
+00:16:21,089 --> 00:16:24,269
+dass man überhaupt mal so ein verhalten
+
+405
+00:16:22,589 --> 00:16:25,889
+sieht weil es erst durch das
+
+406
+00:16:24,269 --> 00:16:27,870
+zusammenspiel von strom mehr zum
+
+407
+00:16:25,889 --> 00:16:29,670
+elektroautos kommt und weder auf der
+
+408
+00:16:27,870 --> 00:16:33,620
+einen seite alleine noch auf der anderen
+
+409
+00:16:29,670 --> 00:16:35,879
+seite alleine gelöst werden kann und
+
+410
+00:16:33,620 --> 00:16:38,399
+betrachtete das jetzt eher aus
+
+411
+00:16:35,879 --> 00:16:40,740
+methodischer sicht oder modelliert ihr
+
+412
+00:16:38,399 --> 00:16:42,509
+das ganze auch und schaut ihr auch dass
+
+413
+00:16:40,740 --> 00:16:44,850
+die ausführbare essverhalten habt um
+
+414
+00:16:42,509 --> 00:16:46,829
+genau solche solche sachen zu simulieren
+
+415
+00:16:44,850 --> 00:16:48,559
+also auf welchen ebenen bewegt ihr euch
+
+416
+00:16:46,829 --> 00:16:52,470
+da wenn euch das anschaut
+
+417
+00:16:48,559 --> 00:16:53,970
+also schritt für schritt am ende steht
+
+418
+00:16:52,470 --> 00:16:55,500
+natürlich das ziel das mit einer co
+
+419
+00:16:53,970 --> 00:16:58,410
+simulation zum beispiel verschiedene
+
+420
+00:16:55,500 --> 00:16:59,759
+modelle von stromnetz und autos
+
+421
+00:16:58,410 --> 00:17:01,350
+zusammenschließen kann und man schaut
+
+422
+00:16:59,759 --> 00:17:04,280
+was passiert denn wenn die sich so
+
+423
+00:17:01,350 --> 00:17:06,449
+verhalten aber dass das mal möglich ist
+
+424
+00:17:04,280 --> 00:17:08,039
+muss man mehrere stadt regieren
+
+425
+00:17:06,449 --> 00:17:10,380
+soll ich vielleicht ein bisschen aus
+
+426
+00:17:08,039 --> 00:17:12,780
+auch zu unserem hintergrund woher dieser
+
+427
+00:17:10,380 --> 00:17:14,699
+ganze ansatz überhaupt herkommt also
+
+428
+00:17:12,780 --> 00:17:16,049
+vielleicht sehr gut in unsere forschung
+
+429
+00:17:14,699 --> 00:17:18,310
+startet nicht bei null
+
+430
+00:17:16,049 --> 00:17:21,520
+wir forschen an dem thema
+
+431
+00:17:18,310 --> 00:17:22,930
+seit 2012 schon wunderbar ideen die
+
+432
+00:17:21,520 --> 00:17:23,520
+vielleicht tatsächlich funktionieren
+
+433
+00:17:22,930 --> 00:17:28,860
+könnten
+
+434
+00:17:23,520 --> 00:17:30,760
+und vielleicht um den anfang dazu machen
+
+435
+00:17:28,860 --> 00:17:34,090
+angefangen hat es damit dass im
+
+436
+00:17:30,760 --> 00:17:37,180
+stromnetz auf einmal elektro
+
+437
+00:17:34,090 --> 00:17:39,220
+technikerinnen mit software ingenieuren
+
+438
+00:17:37,180 --> 00:17:40,300
+zusammenarbeiten mussten ja und dann
+
+439
+00:17:39,220 --> 00:17:42,180
+noch regeln und technikerinnen
+
+440
+00:17:40,300 --> 00:17:44,350
+wirtschafts menschen und so weiter und
+
+441
+00:17:42,180 --> 00:17:46,480
+die schwierigkeit wird durch das
+
+442
+00:17:44,350 --> 00:17:48,490
+zusammenkommen von der telekommunikation
+
+443
+00:17:46,480 --> 00:17:50,170
+seitdem im stromnetz sind auf einmal
+
+444
+00:17:48,490 --> 00:17:51,550
+menschen zusammenkommen die komplette
+
+445
+00:17:50,170 --> 00:17:53,680
+andere sprache gesprochen
+
+446
+00:17:51,550 --> 00:17:56,050
+das ist eigentlich sind wir aus einer
+
+447
+00:17:53,680 --> 00:17:58,690
+organisations thematik herausgekommen
+
+448
+00:17:56,050 --> 00:18:01,180
+und die frage hat sich gestellt wie kann
+
+449
+00:17:58,690 --> 00:18:03,400
+ich denn überhaupt so ein stromnetz
+
+450
+00:18:01,180 --> 00:18:05,710
+ganzheitlich planen und idealerweise
+
+451
+00:18:03,400 --> 00:18:07,750
+natürlich auch modellieren und verstehen
+
+452
+00:18:05,710 --> 00:18:08,260
+wenn ihr alles unterschiedliche sprachen
+
+453
+00:18:07,750 --> 00:18:11,290
+sprechen
+
+454
+00:18:08,260 --> 00:18:13,360
+naja und der gelernte mwst engineer
+
+455
+00:18:11,290 --> 00:18:17,140
+kommt natürlich hin zeigt auf und was
+
+456
+00:18:13,360 --> 00:18:19,120
+sagt der sml ganz neue objekt
+
+457
+00:18:17,140 --> 00:18:21,040
+modellierung so funktioniert unser
+
+458
+00:18:19,120 --> 00:18:23,700
+gehirn ihr müsst es nur alle süßen
+
+459
+00:18:21,040 --> 00:18:25,990
+lernen probleme sind gelöst
+
+460
+00:18:23,700 --> 00:18:31,960
+was sagt die menge der auf die menge
+
+461
+00:18:25,990 --> 00:18:34,150
+sagt drauf system wort oder oder oder
+
+462
+00:18:31,960 --> 00:18:35,890
+ähnliche objekte modellierung sprache
+
+463
+00:18:34,150 --> 00:18:37,990
+ist natürlich ein probates mittel um
+
+464
+00:18:35,890 --> 00:18:40,660
+sowas darzustellen das problem ist noch
+
+465
+00:18:37,990 --> 00:18:42,130
+niemand versteht sie und das heißt wir
+
+466
+00:18:40,660 --> 00:18:43,570
+haben gesagt wir haben ein konzept mit
+
+467
+00:18:42,130 --> 00:18:45,490
+objekt modellierung das uns helfen
+
+468
+00:18:43,570 --> 00:18:46,120
+könnte solche komplexen systeme zu
+
+469
+00:18:45,490 --> 00:18:48,910
+verstehen
+
+470
+00:18:46,120 --> 00:18:51,280
+das problem niemand versteht und dann
+
+471
+00:18:48,910 --> 00:18:53,440
+haben wir eine schachtel mit menschen
+
+472
+00:18:51,280 --> 00:18:56,260
+vereinfacht gesagt elektrotechniker die
+
+473
+00:18:53,440 --> 00:18:58,470
+sprechen elektrotechnik sprech und eine
+
+474
+00:18:56,260 --> 00:19:00,250
+schachtel mit menschen ich sag mal mit
+
+475
+00:18:58,470 --> 00:19:01,870
+menschen die sprechen
+
+476
+00:19:00,250 --> 00:19:04,030
+ich spreche und die können alle nicht
+
+477
+00:19:01,870 --> 00:19:07,440
+miteinander und unsere überlegung
+
+478
+00:19:04,030 --> 00:19:09,820
+bereits zwei den exakten das erste rohr
+
+479
+00:19:07,440 --> 00:19:11,200
+prämisse objektorientierung würde
+
+480
+00:19:09,820 --> 00:19:13,390
+funktionieren um ein großes ganzes
+
+481
+00:19:11,200 --> 00:19:13,870
+komplexes system in kleinere teile zu
+
+482
+00:19:13,390 --> 00:19:16,390
+zerlegen
+
+483
+00:19:13,870 --> 00:19:17,950
+prinzipiell gut wie kriegen wir diese
+
+484
+00:19:16,390 --> 00:19:22,560
+zwei schachteln dazu dass du das
+
+485
+00:19:17,950 --> 00:19:22,560
+wenigstens verstehen dass fast aufwerten
+
+486
+00:19:22,770 --> 00:19:28,510
+und die überlegung war ihm aus der
+
+487
+00:19:26,190 --> 00:19:29,980
+unternehmensorganisation heraus wir
+
+488
+00:19:28,510 --> 00:19:32,260
+müssen neue schachtel finden
+
+489
+00:19:29,980 --> 00:19:34,030
+also wir brauchen einen neuen frame der
+
+490
+00:19:32,260 --> 00:19:35,100
+alle diese menschen beteiligt sind
+
+491
+00:19:34,030 --> 00:19:37,330
+involviert
+
+492
+00:19:35,100 --> 00:19:39,280
+und da haben wir die position der
+
+493
+00:19:37,330 --> 00:19:41,470
+kleinste gemeinsame nenner sprechen denn
+
+494
+00:19:39,280 --> 00:19:44,350
+die alle mit land und die antwort war
+
+495
+00:19:41,470 --> 00:19:46,470
+smart grid wenn egal aus welcher
+
+496
+00:19:44,350 --> 00:19:49,390
+schachteln sie kommen
+
+497
+00:19:46,470 --> 00:19:52,299
+das gemeinsame elemente des vereinigen
+
+498
+00:19:49,390 --> 00:19:54,760
+die element ist smart grid das heißt wir
+
+499
+00:19:52,299 --> 00:19:58,450
+brauchen eigentlich nur eine smart grid
+
+500
+00:19:54,760 --> 00:19:59,860
+sprache die wir oben drauf auf die
+
+501
+00:19:58,450 --> 00:20:02,260
+objekte modellierung setzen
+
+502
+00:19:59,860 --> 00:20:03,640
+das heißt die menschen sehen oben smart
+
+503
+00:20:02,260 --> 00:20:06,549
+grid sprache die sprache die sie
+
+504
+00:20:03,640 --> 00:20:07,840
+verstehen ja und was sie nicht sehen ist
+
+505
+00:20:06,549 --> 00:20:11,280
+das unterhalb einer objektorientierten
+
+506
+00:20:07,840 --> 00:20:13,600
+das modell ist ein system elmayer und
+
+507
+00:20:11,280 --> 00:20:15,850
+das war schon mal der erste ansatz also
+
+508
+00:20:13,600 --> 00:20:18,490
+vielleicht domain griffen design geht in
+
+509
+00:20:15,850 --> 00:20:19,630
+eine ähnliche richtung mit mit der
+
+510
+00:20:18,490 --> 00:20:21,720
+fachlichen architektur
+
+511
+00:20:19,630 --> 00:20:23,950
+das heißt das war so die idee also
+
+512
+00:20:21,720 --> 00:20:26,530
+organisation einen rahmen des
+
+513
+00:20:23,950 --> 00:20:29,140
+verbindenden element suchen und dann war
+
+514
+00:20:26,530 --> 00:20:31,150
+die nächste schwierige frage was ist
+
+515
+00:20:29,140 --> 00:20:33,790
+denn das smart grid sprache sollten wir
+
+516
+00:20:31,150 --> 00:20:35,740
+uns doch etwas neues überlegen und
+
+517
+00:20:33,790 --> 00:20:38,110
+erkenntnis wahrscheinlich beide wenn man
+
+518
+00:20:35,740 --> 00:20:39,400
+sich eine neue sprache dsl überlegt dann
+
+519
+00:20:38,110 --> 00:20:45,040
+kommt jeder er und sorgt sich aber eine
+
+520
+00:20:39,400 --> 00:20:48,160
+bessere sprache ist sozusagen ein ansatz
+
+521
+00:20:45,040 --> 00:20:50,320
+der potenzielle konflikte birgt und um
+
+522
+00:20:48,160 --> 00:20:54,160
+das was in dem bereich überhaupt aber
+
+523
+00:20:50,320 --> 00:20:58,030
+oder war tatsächlich ist tatsächlich ist
+
+524
+00:20:54,160 --> 00:20:59,140
+genau in der zeit also 2012 ist von 10 c
+
+525
+00:20:58,030 --> 00:21:01,030
+leg unece also den
+
+526
+00:20:59,140 --> 00:21:03,010
+standardisierungsgremien ist was
+
+527
+00:21:01,030 --> 00:21:04,690
+veröffentlicht worden und man muss sich
+
+528
+00:21:03,010 --> 00:21:06,370
+das so vorstellen also zehn als
+
+529
+00:21:04,690 --> 00:21:09,010
+europäische standardisierungs gruppe
+
+530
+00:21:06,370 --> 00:21:11,160
+heute zwei untergruppen des eine szene
+
+531
+00:21:09,010 --> 00:21:13,960
+lag und das andere ist e10
+
+532
+00:21:11,160 --> 00:21:16,320
+elektrotechnik ec für telekom und die
+
+533
+00:21:13,960 --> 00:21:18,580
+haben gesagt hey wenn das smartpad
+
+534
+00:21:16,320 --> 00:21:20,350
+elektrotechnik und telekom zusammen
+
+535
+00:21:18,580 --> 00:21:21,190
+wächst dann sollten wir mal gemeinsam
+
+536
+00:21:20,350 --> 00:21:23,200
+auf prüfen
+
+537
+00:21:21,190 --> 00:21:25,510
+er wurde in unsere standards ich
+
+538
+00:21:23,200 --> 00:21:27,730
+widersprechen überlappten überschneiden
+
+539
+00:21:25,510 --> 00:21:29,200
+unser wetter und da hat seine
+
+540
+00:21:27,730 --> 00:21:32,169
+arbeitsgruppe gegeben dass margrit
+
+541
+00:21:29,200 --> 00:21:35,380
+koordination group und die haben führt
+
+542
+00:21:32,169 --> 00:21:37,480
+diesen abgleich haben sie am ende 2012
+
+543
+00:21:35,380 --> 00:21:39,610
+das sogenannte smart grids architecture
+
+544
+00:21:37,480 --> 00:21:40,480
+morgen veröffentlicht das ist sozusagen
+
+545
+00:21:39,610 --> 00:21:43,510
+ein
+
+546
+00:21:40,480 --> 00:21:45,880
+standardisierung gesetzten rahmen wie
+
+547
+00:21:43,510 --> 00:21:48,940
+man so einen smart grid als stromnetz
+
+548
+00:21:45,880 --> 00:21:51,040
+mal kartografieren kann und diese
+
+549
+00:21:48,940 --> 00:21:52,780
+kartographierung es recht insgesamt also
+
+550
+00:21:51,040 --> 00:21:55,090
+man kann sich das mal vorstellen dass es
+
+551
+00:21:52,780 --> 00:21:57,040
+zuerst eine ebene gibt wie eine
+
+552
+00:21:55,090 --> 00:22:00,130
+landkarte und auf dieser ebene werden
+
+553
+00:21:57,040 --> 00:22:02,110
+die smart mit elemente verortet wäre
+
+554
+00:22:00,130 --> 00:22:04,660
+landkarte wenn kartographische system
+
+555
+00:22:02,110 --> 00:22:06,340
+und diese ebenen struktur ist so
+
+556
+00:22:04,660 --> 00:22:09,100
+gestaltet dass die eine achse die
+
+557
+00:22:06,340 --> 00:22:11,140
+x-achse ist so die überlegung das
+
+558
+00:22:09,100 --> 00:22:13,030
+stromnetz von groß noch klein also vom
+
+559
+00:22:11,140 --> 00:22:15,220
+kraftwerk über übertragungsnetze
+
+560
+00:22:13,030 --> 00:22:17,110
+verteilnetz so weiter bis zum ende
+
+561
+00:22:15,220 --> 00:22:18,990
+konnten ja dass ich einfach mal sagt ich
+
+562
+00:22:17,110 --> 00:22:21,309
+habe linearen ein stromnetz aufgezeigt
+
+563
+00:22:18,990 --> 00:22:24,000
+hat man nicht neu erfunden das hat es
+
+564
+00:22:21,309 --> 00:22:28,299
+schon gegeben alles gut alles akzeptiert
+
+565
+00:22:24,000 --> 00:22:30,429
+die zweite achse haben exakt und das ist
+
+566
+00:22:28,299 --> 00:22:33,100
+jetzt die automatisierungstechnik die
+
+567
+00:22:30,429 --> 00:22:35,010
+die die auf das stromnetz einwirkt wenn
+
+568
+00:22:33,100 --> 00:22:36,760
+man sagt na ja wie kann ich jetzt diese
+
+569
+00:22:35,010 --> 00:22:39,580
+automatisierungstechnik diese ganze
+
+570
+00:22:36,760 --> 00:22:40,780
+prozess steuerung darstellen und ob man
+
+571
+00:22:39,580 --> 00:22:43,630
+gesagt na ja da gibt es ja auch schon
+
+572
+00:22:40,780 --> 00:22:45,450
+was die skater automatisierungs pyramide
+
+573
+00:22:43,630 --> 00:22:48,910
+aus dem industriellen bereich
+
+574
+00:22:45,450 --> 00:22:51,220
+das heißt mit dieser mit diesen beiden
+
+575
+00:22:48,910 --> 00:22:52,960
+achsen einmal das stromnetz zerlegt und
+
+576
+00:22:51,220 --> 00:22:55,090
+einmal die automatisierungstechnik
+
+577
+00:22:52,960 --> 00:22:57,280
+verlegt habe ich jetzt so schöne
+
+578
+00:22:55,090 --> 00:23:00,730
+kartographie wo ich sagen kann welches
+
+579
+00:22:57,280 --> 00:23:02,020
+element liegt wo mal schön kommt das ist
+
+580
+00:23:00,730 --> 00:23:03,549
+dann auch an das blue devil weil die
+
+581
+00:23:02,020 --> 00:23:06,309
+achsen seine frau definiert das sind
+
+582
+00:23:03,549 --> 00:23:07,929
+schon alle akzeptiert und nur mit dieser
+
+583
+00:23:06,309 --> 00:23:09,580
+kartographierung kann ich tatsächlich
+
+584
+00:23:07,929 --> 00:23:11,950
+auch schon dinge ableiten
+
+585
+00:23:09,580 --> 00:23:14,230
+also so sachen wie wenn etwas weiter
+
+586
+00:23:11,950 --> 00:23:16,030
+links ist also auf der zuteilung vom
+
+587
+00:23:14,230 --> 00:23:18,490
+stromnetz innerhalb anderen großen
+
+588
+00:23:16,030 --> 00:23:20,559
+kraftwerk dann ist vermutlich security
+
+589
+00:23:18,490 --> 00:23:22,500
+ein sehr großes thema ich möchte mein
+
+590
+00:23:20,559 --> 00:23:25,720
+kraftwerk nicht hoch nehmen lassen
+
+591
+00:23:22,500 --> 00:23:28,270
+wenn was bei gerecht rechts liegt also
+
+592
+00:23:25,720 --> 00:23:30,010
+ganz beim erkunden und beim kunden ist
+
+593
+00:23:28,270 --> 00:23:33,070
+möglicherweise preis hier ein größeres
+
+594
+00:23:30,010 --> 00:23:34,630
+thema also man sieht nur durch diese
+
+595
+00:23:33,070 --> 00:23:36,660
+kartographierung kann ich schon mal
+
+596
+00:23:34,630 --> 00:23:38,740
+elemente verorten und dinge auch bleiben
+
+597
+00:23:36,660 --> 00:23:41,220
+und der schon mal der erste schritt
+
+598
+00:23:38,740 --> 00:23:43,510
+der zweite schritt war dass man gesagt
+
+599
+00:23:41,220 --> 00:23:45,120
+wenn ich dort bin jetzt zwei beliebige
+
+600
+00:23:43,510 --> 00:23:48,130
+elemente habe wo ich mir
+
+601
+00:23:45,120 --> 00:23:49,840
+interoperabilität wünsche dann möchte
+
+602
+00:23:48,130 --> 00:23:51,760
+ich dass die dinge miteinander tun
+
+603
+00:23:49,840 --> 00:23:54,549
+können und dann hat man sich die frage
+
+604
+00:23:51,760 --> 00:23:56,530
+stellt neben zwei geräte miteinander tun
+
+605
+00:23:54,549 --> 00:23:59,409
+können sollen wenn sich die verstehen
+
+606
+00:23:56,530 --> 00:24:01,510
+sollen auf welchen ebenen sollen die
+
+607
+00:23:59,409 --> 00:24:03,760
+miteinander reden können und dann hat
+
+608
+00:24:01,510 --> 00:24:05,409
+man quasi aus dieser einen ebene wo wir
+
+609
+00:24:03,760 --> 00:24:08,350
+jetzt mona die karthographierung hat man
+
+610
+00:24:05,409 --> 00:24:09,850
+gesagt macht man fünf ebenen und schauen
+
+611
+00:24:08,350 --> 00:24:12,220
+wir uns auf jeder ebene einen anderen
+
+612
+00:24:09,850 --> 00:24:13,870
+aspekt an und da wurden auf der obersten
+
+613
+00:24:12,220 --> 00:24:15,850
+ebene war dann ein so genannte business
+
+614
+00:24:13,870 --> 00:24:17,049
+wire das heißt ich schaue mir mal wenn
+
+615
+00:24:15,850 --> 00:24:19,510
+man möchte im weitesten sinn
+
+616
+00:24:17,049 --> 00:24:21,400
+requirements regulatorien an dass beide
+
+617
+00:24:19,510 --> 00:24:23,799
+die gleichen ziele haben gleichen an
+
+618
+00:24:21,400 --> 00:24:26,220
+formen und so weiter könnte man heute
+
+619
+00:24:23,799 --> 00:24:29,830
+als revivalband bezeichnen
+
+620
+00:24:26,220 --> 00:24:32,140
+auf der zweiten ebene weiter unten war
+
+621
+00:24:29,830 --> 00:24:33,429
+ein sogenannter function layer das heißt
+
+622
+00:24:32,140 --> 00:24:35,950
+ab und sagt da schaue ich mir nur die
+
+623
+00:24:33,429 --> 00:24:37,830
+funktionalität an was tun denn die
+
+624
+00:24:35,950 --> 00:24:39,790
+beiden miteinander
+
+625
+00:24:37,830 --> 00:24:41,620
+stichwort wie so oft in unserer news
+
+626
+00:24:39,790 --> 00:24:43,360
+case aus den wir gemeinsam haben zum
+
+627
+00:24:41,620 --> 00:24:43,840
+beispiel einen use case wie elektro auto
+
+628
+00:24:43,360 --> 00:24:47,260
+laden
+
+629
+00:24:43,840 --> 00:24:49,929
+wer es beteiligt wäre es involviert wie
+
+630
+00:24:47,260 --> 00:24:52,360
+interagieren die ja das heißt wir haben
+
+631
+00:24:49,929 --> 00:24:54,179
+mal einen business layer wo wir die
+
+632
+00:24:52,360 --> 00:24:57,100
+motivation anschauen und die regulatoren
+
+633
+00:24:54,179 --> 00:24:59,020
+eine funktion slayer wo wir uns die
+
+634
+00:24:57,100 --> 00:25:01,150
+interaktion anschauen und dann
+
+635
+00:24:59,020 --> 00:25:03,490
+unterbreiten dabei noch drei technische
+
+636
+00:25:01,150 --> 00:25:05,380
+lehrer wo man sich einmal das
+
+637
+00:25:03,490 --> 00:25:07,179
+semantische datenmodell anschaut also
+
+638
+00:25:05,380 --> 00:25:09,549
+dass die informationsobjekte konsistent
+
+639
+00:25:07,179 --> 00:25:14,350
+sind einmal die kommunikationsprotokolle
+
+640
+00:25:09,549 --> 00:25:18,220
+und einmal die physik und damit war auf
+
+641
+00:25:14,350 --> 00:25:21,309
+einmal ein gerüst geschaffen das es uns
+
+642
+00:25:18,220 --> 00:25:23,290
+ermöglicht hat besser über smart grids
+
+643
+00:25:21,309 --> 00:25:24,820
+zu reden weil wir die elemente verorten
+
+644
+00:25:23,290 --> 00:25:27,909
+kann in hamm sorgen wo sie sind und so
+
+645
+00:25:24,820 --> 00:25:30,370
+weiter und dadurch dass das ganze aus
+
+646
+00:25:27,909 --> 00:25:32,530
+der standardisierung kommen ist weil es
+
+647
+00:25:30,370 --> 00:25:33,940
+an das beauty also das heißt da hat man
+
+648
+00:25:32,530 --> 00:25:35,710
+nicht darüber diskutieren ob er das gut
+
+649
+00:25:33,940 --> 00:25:37,150
+finden oder schlecht es kam aus der
+
+650
+00:25:35,710 --> 00:25:39,880
+standardisierung das haben sie alle
+
+651
+00:25:37,150 --> 00:25:41,620
+akzeptiert und dadurch dass auch nichts
+
+652
+00:25:39,880 --> 00:25:43,330
+neues gemacht worden ist sondern das
+
+653
+00:25:41,620 --> 00:25:46,010
+vorhandene konzepte zusammengefügt wann
+
+654
+00:25:43,330 --> 00:25:47,390
+sind was auch verständlich
+
+655
+00:25:46,010 --> 00:25:50,230
+und auf einmal hatten wir eine
+
+656
+00:25:47,390 --> 00:25:53,180
+gemeinsame sprache für smart grids
+
+657
+00:25:50,230 --> 00:25:54,980
+einzige haken dabei war dieser würfel
+
+658
+00:25:53,180 --> 00:25:56,300
+dennig kontextuell beschrieben hat man
+
+659
+00:25:54,980 --> 00:25:57,980
+kann ihn aber auch google nennt gibt so
+
+660
+00:25:56,300 --> 00:25:58,490
+viel gebetet wirkliche bilder im
+
+661
+00:25:57,980 --> 00:25:59,960
+internet
+
+662
+00:25:58,490 --> 00:26:02,330
+vielleicht kann man sie und schaut auf
+
+663
+00:25:59,960 --> 00:26:04,100
+berlin gingen also dieser würfel ja so
+
+664
+00:26:02,330 --> 00:26:08,720
+super einfach verständlich war den alle
+
+665
+00:26:04,100 --> 00:26:10,310
+akzeptiert haben war ein powerpoint ich
+
+666
+00:26:08,720 --> 00:26:16,000
+habe tatsächlich sogar das originale
+
+667
+00:26:10,310 --> 00:26:18,410
+powerpoint und von daher waren natürlich
+
+668
+00:26:16,000 --> 00:26:20,030
+gesetzt sagt okay wir haben eine sprache
+
+669
+00:26:18,410 --> 00:26:21,680
+die die leute verstehen gut sieht es
+
+670
+00:26:20,030 --> 00:26:24,320
+momentan powerpoint aber man versteht
+
+671
+00:26:21,680 --> 00:26:26,980
+sie und das kann doch nicht so schwer
+
+672
+00:26:24,320 --> 00:26:29,630
+sein dass man jetzt diese sprache nimmt
+
+673
+00:26:26,980 --> 00:26:31,880
+und aus dieser verstandenen sprache eine
+
+674
+00:26:29,630 --> 00:26:33,860
+domain specific languages macht warum
+
+675
+00:26:31,880 --> 00:26:36,290
+auf einmal kann ich smart grid
+
+676
+00:26:33,860 --> 00:26:37,940
+modellieren und die ergebnisse schon
+
+677
+00:26:36,290 --> 00:26:40,100
+nicht mehr aus wie klassen diagramme
+
+678
+00:26:37,940 --> 00:26:41,600
+oder blog diagramme sondern schon aus
+
+679
+00:26:40,100 --> 00:26:43,880
+wie ein information layer 1
+
+680
+00:26:41,600 --> 00:26:46,070
+communication layer and function layer
+
+681
+00:26:43,880 --> 00:26:49,430
+und so weiter etwas das die stakeholder
+
+682
+00:26:46,070 --> 00:26:51,610
+verstehen aber ihr habt das schon ganz
+
+683
+00:26:49,430 --> 00:26:55,600
+konkret mit uml das ist mehr gemacht
+
+684
+00:26:51,610 --> 00:26:58,040
+genau profil erstellt weil du sagst es
+
+685
+00:26:55,600 --> 00:26:59,480
+tatsächlich nicht mehr so dass ich auch
+
+686
+00:26:58,040 --> 00:27:00,980
+nach einer sprache die sich verstehen
+
+687
+00:26:59,480 --> 00:27:02,690
+aber wenn ich ganz eine leere tüten
+
+688
+00:27:00,980 --> 00:27:04,040
+jetzt auf der e mail anwender sitzt
+
+689
+00:27:02,690 --> 00:27:06,110
+immer noch das mit einem male aus
+
+690
+00:27:04,040 --> 00:27:08,600
+außerdem passten oben vielleicht ein
+
+691
+00:27:06,110 --> 00:27:11,330
+name steht der vertrauter ist als block
+
+692
+00:27:08,600 --> 00:27:12,590
+oder klasse genau so dass man
+
+693
+00:27:11,330 --> 00:27:14,200
+tatsächlich auch eine architektur
+
+694
+00:27:12,590 --> 00:27:16,880
+entscheidung die wir getroffen haben
+
+695
+00:27:14,200 --> 00:27:18,890
+wollen wir streben und standardkonforme
+
+696
+00:27:16,880 --> 00:27:20,660
+ausschließlich die mechanismen der uml
+
+697
+00:27:18,890 --> 00:27:22,790
+profil das ist im elmo viele verwenden
+
+698
+00:27:20,660 --> 00:27:23,780
+und dann werden wir konform und tool
+
+699
+00:27:22,790 --> 00:27:25,940
+interoperabel
+
+700
+00:27:23,780 --> 00:27:27,260
+aber wir gewinnen nichts und wir haben
+
+701
+00:27:25,940 --> 00:27:29,870
+uns dann dafür entschieden dass uns auf
+
+702
+00:27:27,260 --> 00:27:31,490
+einen tool festgelegt haben diese neben
+
+703
+00:27:29,870 --> 00:27:33,470
+den reinen profil noch zusätzliche
+
+704
+00:27:31,490 --> 00:27:34,670
+mechanismen zur verfügung stellt wo man
+
+705
+00:27:33,470 --> 00:27:37,330
+wirklich aus die entscheidungsgewalt
+
+706
+00:27:34,670 --> 00:27:40,340
+ändern kann und matrizen einfügen kann
+
+707
+00:27:37,330 --> 00:27:42,170
+und mittlerweile sind wir soweit dass
+
+708
+00:27:40,340 --> 00:27:44,150
+wir halt gar nicht nur eigene diagramme
+
+709
+00:27:42,170 --> 00:27:46,130
+mit eigene elemente haben sondern wir
+
+710
+00:27:44,150 --> 00:27:48,530
+bieten auch zusatzfunktionen also sowas
+
+711
+00:27:46,130 --> 00:27:50,150
+wie automatische model transformations
+
+712
+00:27:48,530 --> 00:27:53,540
+wenn ich zum beispiel vom logischen
+
+713
+00:27:50,150 --> 00:27:55,430
+flugzeug jetzt möchte ich denen konkrete
+
+714
+00:27:53,540 --> 00:27:57,510
+physikalische elemente transformieren
+
+715
+00:27:55,430 --> 00:27:59,130
+das heißt es ist schon groß
+
+716
+00:27:57,510 --> 00:28:01,290
+große unterstützung für die für die
+
+717
+00:27:59,130 --> 00:28:03,030
+anwenderinnen ja also nicht brache
+
+718
+00:28:01,290 --> 00:28:04,770
+selbst ist aber dann immer noch konform
+
+719
+00:28:03,030 --> 00:28:06,960
+zum standart mich an als wäre
+
+720
+00:28:04,770 --> 00:28:09,600
+theoretisch ausgehen nur zusätzliche
+
+721
+00:28:06,960 --> 00:28:10,650
+views definiert und transformation die
+
+722
+00:28:09,600 --> 00:28:12,210
+werden draufsetzen
+
+723
+00:28:10,650 --> 00:28:14,520
+dadurch habe ich natürlich was zu
+
+724
+00:28:12,210 --> 00:28:16,020
+spezifisches das gleiche modell nicht
+
+725
+00:28:14,520 --> 00:28:17,970
+einfach einander museums werkzeuggewalt
+
+726
+00:28:16,020 --> 00:28:20,640
+ist das wahrscheinlich nicht weil ich
+
+727
+00:28:17,970 --> 00:28:22,350
+genau diese dass ich kein ich könnte mal
+
+728
+00:28:20,640 --> 00:28:24,000
+grün zu wählen das modell expertin einem
+
+729
+00:28:22,350 --> 00:28:26,390
+anderen werkzeug laden und dann habe ich
+
+730
+00:28:24,000 --> 00:28:28,680
+tatsächlich lauter klassen oder blöcke
+
+731
+00:28:26,390 --> 00:28:30,210
+medientyp oben drauf und ich schauen
+
+732
+00:28:28,680 --> 00:28:32,130
+halt dann nicht aus wie ein stromnetz zu
+
+733
+00:28:30,210 --> 00:28:33,710
+den elektro auto aber theoretisch werde
+
+734
+00:28:32,130 --> 00:28:35,640
+ist natürlich möglich
+
+735
+00:28:33,710 --> 00:28:37,230
+aber das heißt dass ich grundsätzlich
+
+736
+00:28:35,640 --> 00:28:39,930
+ziemlich charmant also überhaupt die
+
+737
+00:28:37,230 --> 00:28:42,510
+regierungs werkzeuge tools zu haben die
+
+738
+00:28:39,930 --> 00:28:44,760
+zwar auf einem system -modell arbeiten
+
+739
+00:28:42,510 --> 00:28:46,320
+aber das steak oder orientiert hat
+
+740
+00:28:44,760 --> 00:28:47,670
+darstellen man hat sich stabilisiert und
+
+741
+00:28:46,320 --> 00:28:50,820
+diagramme die sind auch wichtig aber man
+
+742
+00:28:47,670 --> 00:28:52,350
+kann auch viel mehr darstellen wir
+
+743
+00:28:50,820 --> 00:28:53,730
+propagieren im prinzip auch an modeling
+
+744
+00:28:52,350 --> 00:28:56,070
+steak über drei ebenen
+
+745
+00:28:53,730 --> 00:28:57,090
+das heißt wir sagen kann ganz oben haben
+
+746
+00:28:56,070 --> 00:28:58,830
+wir eine ebene
+
+747
+00:28:57,090 --> 00:29:01,290
+ich sag mal system system kontext
+
+748
+00:28:58,830 --> 00:29:02,730
+analyse dass mein fokus er darauf dass
+
+749
+00:29:01,290 --> 00:29:04,680
+ich verstehe wie mein system mit seiner
+
+750
+00:29:02,730 --> 00:29:06,660
+umgebung interagiert was es tun soll
+
+751
+00:29:04,680 --> 00:29:08,970
+welche umgebungs interface ist welche
+
+752
+00:29:06,660 --> 00:29:11,040
+interaktionen und so weiter und auf
+
+753
+00:29:08,970 --> 00:29:13,230
+dieser ebene steht hat die steak oder
+
+754
+00:29:11,040 --> 00:29:15,030
+interaktion im vordergrund das heißt da
+
+755
+00:29:13,230 --> 00:29:16,020
+versuche ich die sprache das stakeholder
+
+756
+00:29:15,030 --> 00:29:18,660
+rennen zu sprechen
+
+757
+00:29:16,020 --> 00:29:20,790
+an der stelle würde jetzt quasi auch
+
+758
+00:29:18,660 --> 00:29:25,650
+unser domain specific languages zur
+
+759
+00:29:20,790 --> 00:29:28,350
+anwendung kommen und dann zu wenn er bei
+
+760
+00:29:25,650 --> 00:29:29,370
+ich bin dir ins wort gefallen aber was
+
+761
+00:29:28,350 --> 00:29:30,900
+mich jetzt da interessieren würde wer
+
+762
+00:29:29,370 --> 00:29:35,040
+hat denn jetzt also transformations-
+
+763
+00:29:30,900 --> 00:29:37,380
+leistung gemacht vom von der von der von
+
+764
+00:29:35,040 --> 00:29:42,000
+der powerpoint oder vom rhein narrativ
+
+765
+00:29:37,380 --> 00:29:44,510
+hinzu struktur verhalten klassifikation
+
+766
+00:29:42,000 --> 00:29:46,530
+und so weiter
+
+767
+00:29:44,510 --> 00:29:48,360
+das war tatsächlich der inhalt von
+
+768
+00:29:46,530 --> 00:29:55,440
+meiner dissertation damals ein team noch
+
+769
+00:29:48,360 --> 00:29:56,820
+mal fürs verlegen übrigens bitte nicht
+
+770
+00:29:55,440 --> 00:29:58,290
+zu viel werbung machen sie mit jeder
+
+771
+00:29:56,820 --> 00:30:00,410
+dieser zone nachnamen ist es mir so
+
+772
+00:29:58,290 --> 00:30:00,410
+peinlich
+
+773
+00:30:01,070 --> 00:30:05,340
+lernt ja immer mehr über ist dass man
+
+774
+00:30:03,090 --> 00:30:06,720
+alles nicht weiß und und eigentlich
+
+775
+00:30:05,340 --> 00:30:08,010
+könnte immer weiter schreiben aber
+
+776
+00:30:06,720 --> 00:30:10,860
+irgendwann muss man spricht kommt zu
+
+777
+00:30:08,010 --> 00:30:12,750
+machen aber tatsächlich die
+
+778
+00:30:10,860 --> 00:30:14,250
+schwierigkeit war aus diesem konzept
+
+779
+00:30:12,750 --> 00:30:16,440
+heraus wie bringe ich das in ein schönes
+
+780
+00:30:14,250 --> 00:30:17,850
+modell wie schaut's zwei metern modell
+
+781
+00:30:16,440 --> 00:30:20,760
+aus ist dann vielleicht auch
+
+782
+00:30:17,850 --> 00:30:23,310
+einigermaßen normalisiert ist mit einem
+
+783
+00:30:20,760 --> 00:30:27,540
+schönen abstraktion topmodel concrete
+
+784
+00:30:23,310 --> 00:30:29,520
+und ex-model konstruiere schwierigkeiten
+
+785
+00:30:27,540 --> 00:30:32,850
+dem arbeiten wir auch nach wie vor muss
+
+786
+00:30:29,520 --> 00:30:34,950
+ich dazu sagen und ja also ich glaube
+
+787
+00:30:32,850 --> 00:30:36,720
+das ist in work in progress
+
+788
+00:30:34,950 --> 00:30:38,270
+also wir haben das framework wir haben
+
+789
+00:30:36,720 --> 00:30:40,140
+uns im tooling weiterentwickelt
+
+790
+00:30:38,270 --> 00:30:41,970
+mittlerweile ist es so dass wir im juli
+
+791
+00:30:40,140 --> 00:30:43,650
+neben direkt auf die datenbanken der
+
+792
+00:30:41,970 --> 00:30:46,500
+werkzeuge zu greifen und damit man mehr
+
+793
+00:30:43,650 --> 00:30:48,740
+möglichkeiten haben aber welche elemente
+
+794
+00:30:46,500 --> 00:30:52,320
+konkret ihnen fielen verwendet werden
+
+795
+00:30:48,740 --> 00:30:54,480
+das ist nach wie vor wirkung coaches wer
+
+796
+00:30:52,320 --> 00:30:58,400
+ist denn wir also dass josef classic
+
+797
+00:30:54,480 --> 00:30:59,820
+center for gerade erst letzten monat
+
+798
+00:30:58,400 --> 00:31:04,530
+eröffnet worden
+
+799
+00:30:59,820 --> 00:31:06,090
+aber offiziell aber die arbeit von der
+
+800
+00:31:04,530 --> 00:31:08,310
+frage spricht die ist ja viel älter ist
+
+801
+00:31:06,090 --> 00:31:10,410
+er hier genannt
+
+802
+00:31:08,310 --> 00:31:11,790
+also da auch zu gehen das ist von uns
+
+803
+00:31:10,410 --> 00:31:14,190
+also wir mehr angefangen in einem
+
+804
+00:31:11,790 --> 00:31:15,720
+älteren josef ressel center das sage ich
+
+805
+00:31:14,190 --> 00:31:16,410
+den namen jetzt nicht mehr noch schwerer
+
+806
+00:31:15,720 --> 00:31:18,720
+zu merken
+
+807
+00:31:16,410 --> 00:31:20,430
+wir haben im prinzip anfangen uns dem
+
+808
+00:31:18,720 --> 00:31:22,230
+problem ist wir haben uns den problemen
+
+809
+00:31:20,430 --> 00:31:25,770
+privacy and security im smart grid
+
+810
+00:31:22,230 --> 00:31:27,390
+gestellt und quasi die die idee domain
+
+811
+00:31:25,770 --> 00:31:28,140
+specific languages modellierung waren
+
+812
+00:31:27,390 --> 00:31:30,780
+mittel zum zweck
+
+813
+00:31:28,140 --> 00:31:32,610
+und dann hat sich aber herausgestellt so
+
+814
+00:31:30,780 --> 00:31:33,090
+hoppla eigentlich so die konzepte ganz
+
+815
+00:31:32,610 --> 00:31:35,310
+cool
+
+816
+00:31:33,090 --> 00:31:37,950
+und die sind jetzt prinzipiell nicht auf
+
+817
+00:31:35,310 --> 00:31:39,630
+dem smart grid limitiert wir haben dann
+
+818
+00:31:37,950 --> 00:31:41,460
+in unsere forschungsgruppe die vorher im
+
+819
+00:31:39,630 --> 00:31:43,530
+smart mit gearbeitet wurde gearbeitet
+
+820
+00:31:41,460 --> 00:31:45,270
+hat das sind dann neue unternehmens
+
+821
+00:31:43,530 --> 00:31:47,430
+partner dazugekommen und wir haben
+
+822
+00:31:45,270 --> 00:31:49,950
+versucht dieses konzept erst mal auf
+
+823
+00:31:47,430 --> 00:31:51,630
+industrie 40 zu übertragen also
+
+824
+00:31:49,950 --> 00:31:54,330
+vielleicht arbeitet jemand im kontext
+
+825
+00:31:51,630 --> 00:31:55,770
+industrie 40 und kennt dass rami 40 ist
+
+826
+00:31:54,330 --> 00:31:58,800
+referenz architekt schon mal von
+
+827
+00:31:55,770 --> 00:32:00,630
+industrie four points im endeffekt der
+
+828
+00:31:58,800 --> 00:32:03,740
+auch aus diesem smart mit architekt
+
+829
+00:32:00,630 --> 00:32:03,740
+schon morgen abgeleitet wurde
+
+830
+00:32:07,280 --> 00:32:10,740
+genau
+
+831
+00:32:08,570 --> 00:32:13,140
+und das heißt wir haben sagt naja dieser
+
+832
+00:32:10,740 --> 00:32:15,240
+würfel für die industrie 40 architektur
+
+833
+00:32:13,140 --> 00:32:17,280
+dem smart grid würfel nicht ganz
+
+834
+00:32:15,240 --> 00:32:19,440
+unähnlich weil er von emi abgeleitet
+
+835
+00:32:17,280 --> 00:32:20,550
+wurde gehen die methoden da auch und
+
+836
+00:32:19,440 --> 00:32:22,800
+dann haben wir quasi eine zweigstelle
+
+837
+00:32:20,550 --> 00:32:24,780
+aufgemacht wo wir uns auf einmal mit
+
+838
+00:32:22,800 --> 00:32:27,000
+wurde focus stärken die methoden
+
+839
+00:32:24,780 --> 00:32:28,530
+gewandert ist und wir haben uns auf die
+
+840
+00:32:27,000 --> 00:32:30,990
+anwendungs domäne industrie 40
+
+841
+00:32:28,530 --> 00:32:33,090
+konzentriert nebenbei und dann später
+
+842
+00:32:30,990 --> 00:32:34,940
+mit einem neuen unternehmenspartner
+
+843
+00:32:33,090 --> 00:32:38,280
+einmal auf das thema automotiv gekommen
+
+844
+00:32:34,940 --> 00:32:40,830
+und dann über die standardisierung war
+
+845
+00:32:38,280 --> 00:32:42,300
+wo ich aktiv bin ist das thema noch die
+
+846
+00:32:40,830 --> 00:32:44,640
+kommen nämlich aus mit smart city
+
+847
+00:32:42,300 --> 00:32:46,230
+architektur lassen und auf einmal haben
+
+848
+00:32:44,640 --> 00:32:48,740
+wir angefangen diesen methoden die wir
+
+849
+00:32:46,230 --> 00:32:51,120
+da anfänglich entwickelt haben zu
+
+850
+00:32:48,740 --> 00:32:53,070
+transformieren zu transferieren in die
+
+851
+00:32:51,120 --> 00:32:54,360
+anderen anwendungs terminen und auf
+
+852
+00:32:53,070 --> 00:32:58,140
+einmal haben wir unseren methoden für
+
+853
+00:32:54,360 --> 00:33:00,960
+smart grid smart city industrie 40 und
+
+854
+00:32:58,140 --> 00:33:02,670
+automotive übertragen und haben die
+
+855
+00:33:00,960 --> 00:33:05,880
+motoren weiterentwickelt also auch so
+
+856
+00:33:02,670 --> 00:33:09,120
+ist also motivation co simulation der
+
+857
+00:33:05,880 --> 00:33:12,000
+falsche kurz besprochen haben generation
+
+858
+00:33:09,120 --> 00:33:15,180
+und diverse dinge und damals ein
+
+859
+00:33:12,000 --> 00:33:16,410
+ziemlich gutes essen mit dem großen
+
+860
+00:33:15,180 --> 00:33:18,080
+glück dass ich unglaublich coole
+
+861
+00:33:16,410 --> 00:33:19,890
+kollegen habe die unglaublich staus sind
+
+862
+00:33:18,080 --> 00:33:21,650
+und diese dieser pool und
+
+863
+00:33:19,890 --> 00:33:23,910
+mitarbeiterinnen und wirklich
+
+864
+00:33:21,650 --> 00:33:24,720
+fantastisch da kann man nicht hoch genug
+
+865
+00:33:23,910 --> 00:33:27,360
+einschätzen
+
+866
+00:33:24,720 --> 00:33:28,650
+und dann war da dieses konstrukt da wo
+
+867
+00:33:27,360 --> 00:33:30,920
+man gesagt habe jetzt aber so viel
+
+868
+00:33:28,650 --> 00:33:33,660
+wissen der haben so viele assets
+
+869
+00:33:30,920 --> 00:33:35,370
+allerdings die klassische problematik in
+
+870
+00:33:33,660 --> 00:33:37,140
+der forschung mit kurzfristigen
+
+871
+00:33:35,370 --> 00:33:39,480
+verträgen forschungswerk weser und so
+
+872
+00:33:37,140 --> 00:33:40,980
+weiter und dann ist gemeinsam mit den
+
+873
+00:33:39,480 --> 00:33:42,750
+unternehmenspartnern eben die idee
+
+874
+00:33:40,980 --> 00:33:44,160
+geboren worden ob er diese forschung
+
+875
+00:33:42,750 --> 00:33:47,060
+nicht zusammenfassen kann man
+
+876
+00:33:44,160 --> 00:33:49,590
+konsolidieren in etwas stabileres und
+
+877
+00:33:47,060 --> 00:33:52,440
+dort gibt sich natürlich dann dieses
+
+878
+00:33:49,590 --> 00:33:54,300
+konzept war josef westhoff zentren
+
+879
+00:33:52,440 --> 00:33:56,970
+das ist dann natürlich prädestiniert
+
+880
+00:33:54,300 --> 00:33:58,410
+also das ist bei diesen josef ressel
+
+881
+00:33:56,970 --> 00:34:00,330
+zentren handelt sich sondern ein
+
+882
+00:33:58,410 --> 00:34:03,830
+unglaublich charmant das fördermodell in
+
+883
+00:34:00,330 --> 00:34:06,510
+österreich das funktioniert so man muss
+
+884
+00:34:03,830 --> 00:34:08,730
+zuerst einmal industriepartner finden
+
+885
+00:34:06,510 --> 00:34:09,870
+die mir sagen ja wir haben ein thema
+
+886
+00:34:08,730 --> 00:34:11,700
+jahres ist spannend ja alles
+
+887
+00:34:09,870 --> 00:34:13,350
+interessiert uns ja daran glauben wir
+
+888
+00:34:11,700 --> 00:34:15,570
+und ja dafür sind wir bereit geld zu
+
+889
+00:34:13,350 --> 00:34:18,030
+zahlen und zwar nicht einmalig sondern
+
+890
+00:34:15,570 --> 00:34:19,320
+über fünf jahre lang jährlich also wenn
+
+891
+00:34:18,030 --> 00:34:20,880
+sich an unternehmenspartner dafür
+
+892
+00:34:19,320 --> 00:34:24,600
+konnten dass sie fünf jahre lang
+
+893
+00:34:20,880 --> 00:34:25,440
+jährlich wo geld einwerfen dann kann man
+
+894
+00:34:24,600 --> 00:34:26,550
+schritt weiter gehen
+
+895
+00:34:25,440 --> 00:34:29,070
+dann kann man zu
+
+896
+00:34:26,550 --> 00:34:31,950
+christian doppler gesellschaft gehen und
+
+897
+00:34:29,070 --> 00:34:33,150
+einen antrag schreiben und wenn dann der
+
+898
+00:34:31,950 --> 00:34:35,010
+antrag wird dann wissenschaftlich
+
+899
+00:34:33,150 --> 00:34:36,810
+evaluiert also die welt an weltweiter
+
+900
+00:34:35,010 --> 00:34:39,350
+einfach ich werde einfach experten und
+
+901
+00:34:36,810 --> 00:34:41,100
+geschickt für quasi eine
+
+902
+00:34:39,350 --> 00:34:42,900
+wissenschaftlich ein wissenschaftliches
+
+903
+00:34:41,100 --> 00:34:44,700
+abklopfen noch mal zu machen dass das
+
+904
+00:34:42,900 --> 00:34:46,970
+sind relevante signifikantes thema ist
+
+905
+00:34:44,700 --> 00:34:50,760
+und wenn die auch finden dass es gut ist
+
+906
+00:34:46,970 --> 00:34:53,070
+wie es war ein zentrum genehmigt und das
+
+907
+00:34:50,760 --> 00:34:55,020
+zentrum läuft dann ebenso das über fünf
+
+908
+00:34:53,070 --> 00:34:57,480
+jahre lang die unternehmenspartner das
+
+909
+00:34:55,020 --> 00:35:00,090
+zugesagte geld an die christian doppler
+
+910
+00:34:57,480 --> 00:35:02,240
+gesellschaft werfen die christian
+
+911
+00:35:00,090 --> 00:35:06,870
+doppler gesellschaft verdoppeltes geld
+
+912
+00:35:02,240 --> 00:35:08,280
+und macht witze und gibt es dann uns und
+
+913
+00:35:06,870 --> 00:35:11,730
+gibt es dann quasi dem forschungszentrum
+
+914
+00:35:08,280 --> 00:35:14,430
+zum arbeiten und das charmante waren es
+
+915
+00:35:11,730 --> 00:35:16,610
+einfach das geht also erstmal geholfen
+
+916
+00:35:14,430 --> 00:35:19,500
+oder das team system zu stabilisieren
+
+917
+00:35:16,610 --> 00:35:21,720
+struktur zu geben fokus zu geben
+
+918
+00:35:19,500 --> 00:35:23,520
+auszurichten und es gibt einfach allen
+
+919
+00:35:21,720 --> 00:35:26,220
+beteiligten eine perspektive und ich
+
+920
+00:35:23,520 --> 00:35:28,280
+habe dann den industriellen seine jack
+
+921
+00:35:26,220 --> 00:35:30,840
+die partner dass die dabei sind in
+
+922
+00:35:28,280 --> 00:35:32,700
+wissenschaftlichen seine check durch die
+
+923
+00:35:30,840 --> 00:35:35,220
+christian doppler gesellschaft und da
+
+924
+00:35:32,700 --> 00:35:36,870
+hat man einfach unglaublich gutes
+
+925
+00:35:35,220 --> 00:35:38,790
+wertvolles biotop ohne wirklich mehr
+
+926
+00:35:36,870 --> 00:35:40,620
+konzentriert längerfristiger seiner
+
+927
+00:35:38,790 --> 00:35:41,760
+forschung arbeiten kann und das haben
+
+928
+00:35:40,620 --> 00:35:43,380
+wir jetzt sozusagen wirklich auch sehr
+
+929
+00:35:41,760 --> 00:35:45,810
+stolz darauf dass das man das genehmigt
+
+930
+00:35:43,380 --> 00:35:48,570
+bekommen haben das wollen rente weg
+
+931
+00:35:45,810 --> 00:35:52,260
+dahin und wer ist eigentlich dieser
+
+932
+00:35:48,570 --> 00:35:54,000
+fresse ich weiß ehrlich gesagt nicht
+
+933
+00:35:52,260 --> 00:35:58,830
+mehr das war der erfinder der
+
+934
+00:35:54,000 --> 00:36:00,300
+schiffsschraube in österreich ja wer ist
+
+935
+00:35:58,830 --> 00:36:01,290
+eigentlich hat die geschichte ist ich
+
+936
+00:36:00,300 --> 00:36:03,090
+jetzt eigentlich hätte ich mich
+
+937
+00:36:01,290 --> 00:36:04,010
+vorbereiten können hätte ich mir denken
+
+938
+00:36:03,090 --> 00:36:06,630
+können wir es nicht weiter
+
+939
+00:36:04,010 --> 00:36:08,490
+soweit ich so wenig verfolgt hat ja so
+
+940
+00:36:06,630 --> 00:36:11,460
+initial diese erfindung gemacht ist aber
+
+941
+00:36:08,490 --> 00:36:12,900
+irgendwie den von den ergebnissen nicht
+
+942
+00:36:11,460 --> 00:36:15,270
+wirklich billig wie es nicht auch
+
+943
+00:36:12,900 --> 00:36:16,650
+irgendwie verharmlosung also mache ich
+
+944
+00:36:15,270 --> 00:36:19,950
+nichts an der geschichte fest
+
+945
+00:36:16,650 --> 00:36:23,850
+dann habe ich einen plan zwar bestimmt
+
+946
+00:36:19,950 --> 00:36:28,680
+so einem donauschiff kapitäns man merkt
+
+947
+00:36:23,850 --> 00:36:30,810
+es nicht mehr kann man also kann man
+
+948
+00:36:28,680 --> 00:36:35,390
+ganz gleich wie austrian wünschen auf
+
+949
+00:36:30,810 --> 00:36:35,390
+englisch anfahren da kennen wir ja
+
+950
+00:36:35,609 --> 00:36:41,700
+ja aber ich mache jetzt ich versuche es
+
+951
+00:36:39,579 --> 00:36:43,960
+nicht wienerischen nachzumachen
+
+952
+00:36:41,700 --> 00:36:47,200
+das kann nur peinlich werden
+
+953
+00:36:43,960 --> 00:36:50,290
+ja aber jetzt nochmal zu diesem josef
+
+954
+00:36:47,200 --> 00:36:52,510
+ressel center wie kommst du dazu dass
+
+955
+00:36:50,290 --> 00:36:55,480
+das ihr jetzt in genau in salzburg
+
+956
+00:36:52,510 --> 00:36:59,410
+angesiedelt sein und jetzt genau dort an
+
+957
+00:36:55,480 --> 00:37:00,460
+der fans an der geschichte zu es war
+
+958
+00:36:59,410 --> 00:37:02,470
+eine verkettung von unglücklichen
+
+959
+00:37:00,460 --> 00:37:04,359
+umständen dass ich gold jan in die
+
+960
+00:37:02,470 --> 00:37:07,560
+akademiker ich bin alles was ich mache
+
+961
+00:37:04,359 --> 00:37:10,050
+immer nur ein geschlittert irgendwie
+
+962
+00:37:07,560 --> 00:37:12,400
+links der salzburger habe da auch mal
+
+963
+00:37:10,050 --> 00:37:13,810
+schule für technische informatik macht
+
+964
+00:37:12,400 --> 00:37:15,940
+das software entwickelt dann mal kurz
+
+965
+00:37:13,810 --> 00:37:17,890
+gearbeitet bevor ich festgestellt dass
+
+966
+00:37:15,940 --> 00:37:20,819
+kann es noch nicht gewesen sein und habe
+
+967
+00:37:17,890 --> 00:37:23,140
+dann im gras telematic studiert das ist
+
+968
+00:37:20,819 --> 00:37:24,609
+telematik an sich ist ein wort das ist
+
+969
+00:37:23,140 --> 00:37:28,030
+nichts das ist eine vor silbernen
+
+970
+00:37:24,609 --> 00:37:29,670
+nachsilbe aber inhaltlich besteht sie im
+
+971
+00:37:28,030 --> 00:37:32,980
+prinzip also eine kombination aus
+
+972
+00:37:29,670 --> 00:37:33,609
+informatik elektrotechnik und sind
+
+973
+00:37:32,980 --> 00:37:35,109
+mathematik
+
+974
+00:37:33,609 --> 00:37:37,569
+das ist ungefähr gedrittelt das heißt
+
+975
+00:37:35,109 --> 00:37:39,040
+immer so die die schnittstellen und ich
+
+976
+00:37:37,569 --> 00:37:42,579
+war zuerst in der automotive branche
+
+977
+00:37:39,040 --> 00:37:44,829
+tätig aus der wurde ich dann wieder mal
+
+978
+00:37:42,579 --> 00:37:47,650
+ich bin oft in ein unternehmen wo wir
+
+979
+00:37:44,829 --> 00:37:50,650
+steuergeräte für erneuerbare gemacht
+
+980
+00:37:47,650 --> 00:37:53,440
+haben da bin ich auch das erste mal an
+
+981
+00:37:50,650 --> 00:37:54,849
+das thema gestand das vielleicht
+
+982
+00:37:53,440 --> 00:37:57,250
+software menschen und habe menschen
+
+983
+00:37:54,849 --> 00:37:59,069
+nicht so gut miteinander können zwar in
+
+984
+00:37:57,250 --> 00:38:01,390
+ein schlüsselerlebnis
+
+985
+00:37:59,069 --> 00:38:05,410
+ich sage nur stichwort was ist eine
+
+986
+00:38:01,390 --> 00:38:06,730
+funktion das ist ein modell genau das
+
+987
+00:38:05,410 --> 00:38:11,109
+kann man so meetings immer mehr auf den
+
+988
+00:38:06,730 --> 00:38:12,700
+tisch werfen und dann sorgen also das
+
+989
+00:38:11,109 --> 00:38:14,619
+was ich meinen sprung in den u-bahnen
+
+990
+00:38:12,700 --> 00:38:15,730
+energien und besonders salzburg
+
+991
+00:38:14,619 --> 00:38:18,609
+verschlagen wo ich in einem ganzen
+
+992
+00:38:15,730 --> 00:38:21,280
+großen demonstrationsvorhaben für smart
+
+993
+00:38:18,609 --> 00:38:27,210
+bis tätig war beim netzbetreiber und hab
+
+994
+00:38:21,280 --> 00:38:27,210
+dann aber relativ schnell erkannt dass
+
+995
+00:38:27,599 --> 00:38:31,329
+die energieversorgungsbranche ist sehr
+
+996
+00:38:29,950 --> 00:38:33,430
+robust und sehr stabil
+
+997
+00:38:31,329 --> 00:38:34,900
+das wünscht man sich so auch von
+
+998
+00:38:33,430 --> 00:38:37,839
+kritischer infrastruktur also ist alles
+
+999
+00:38:34,900 --> 00:38:40,180
+okay finde ich das passt aber wenn man
+
+1000
+00:38:37,839 --> 00:38:41,800
+wirklich jetzt wo schnell vorangehen bin
+
+1001
+00:38:40,180 --> 00:38:43,300
+schon etwas machen will ist das
+
+1002
+00:38:41,800 --> 00:38:45,550
+vielleicht manchmal ein bisschen
+
+1003
+00:38:43,300 --> 00:38:46,320
+schwierig und da sich dann die chance
+
+1004
+00:38:45,550 --> 00:38:47,790
+geben dass du ein
+
+1005
+00:38:46,320 --> 00:38:51,180
+forschungszentrum heraus gegründet wurde
+
+1006
+00:38:47,790 --> 00:38:52,350
+2012 oder 2013 gestartet und ich bin
+
+1007
+00:38:51,180 --> 00:38:53,970
+quasi mit diesen mit der gründung von
+
+1008
+00:38:52,350 --> 00:38:55,200
+diesem forschungszentrum ich dann die
+
+1009
+00:38:53,970 --> 00:38:58,260
+academia verschlagen
+
+1010
+00:38:55,200 --> 00:39:00,090
+und das wollten der weg wo wir in einem
+
+1011
+00:38:58,260 --> 00:39:01,620
+josef ressel zentrum auch im ersten
+
+1012
+00:39:00,090 --> 00:39:04,440
+zeige ich auch den titel
+
+1013
+00:39:01,620 --> 00:39:10,020
+josef ressel center for achter user
+
+1014
+00:39:04,440 --> 00:39:13,080
+centric smart security noch einfacher
+
+1015
+00:39:10,020 --> 00:39:14,520
+kann da also zusätzlich eigentlich in
+
+1016
+00:39:13,080 --> 00:39:15,600
+die akademie verschlagen dann
+
+1017
+00:39:14,520 --> 00:39:17,550
+herausgefunden dass man es eigentlich
+
+1018
+00:39:15,600 --> 00:39:18,840
+sehr gut gefällt sondern themen zu
+
+1019
+00:39:17,550 --> 00:39:21,300
+arbeiten nehmen wir noch ein bisschen
+
+1020
+00:39:18,840 --> 00:39:23,250
+als trainer und consulter den fuß in der
+
+1021
+00:39:21,300 --> 00:39:25,320
+industrie behalten und so hat sich
+
+1022
+00:39:23,250 --> 00:39:26,970
+irgendwie gefügt und da bin ich
+
+1023
+00:39:25,320 --> 00:39:29,520
+letztlich in der fachhochschule gelandet
+
+1024
+00:39:26,970 --> 00:39:31,260
+und draufkommen dass eigentlich das
+
+1025
+00:39:29,520 --> 00:39:32,820
+arbeiten mit jungen menschen an sondern
+
+1026
+00:39:31,260 --> 00:39:34,410
+in so einem umfeld das ist unglaublich
+
+1027
+00:39:32,820 --> 00:39:35,070
+sagt und das ist genau das was ich
+
+1028
+00:39:34,410 --> 00:39:38,400
+machen möchte
+
+1029
+00:39:35,070 --> 00:39:40,050
+ja und das war dann so aus versehen in
+
+1030
+00:39:38,400 --> 00:39:43,830
+ein forschungszentrum gestolpert und
+
+1031
+00:39:40,050 --> 00:39:46,200
+wird probieren die themen daneben vom
+
+1032
+00:39:43,830 --> 00:39:48,270
+smart grids aus anwendungs to mine
+
+1033
+00:39:46,200 --> 00:39:50,310
+weiter entwickelt auf die methodik und
+
+1034
+00:39:48,270 --> 00:39:52,500
+auf einmal was systems engineering
+
+1035
+00:39:50,310 --> 00:39:54,780
+das ist das wo ich auch jetzt stehen wo
+
+1036
+00:39:52,500 --> 00:39:55,710
+meine passion ist sowohl auf der
+
+1037
+00:39:54,780 --> 00:39:57,410
+technischen seite
+
+1038
+00:39:55,710 --> 00:39:59,400
+es war auch auf der
+
+1039
+00:39:57,410 --> 00:40:02,100
+organisationsentwicklung sagt dass ich
+
+1040
+00:39:59,400 --> 00:40:04,190
+neben einerseits die perfekte auch schon
+
+1041
+00:40:02,100 --> 00:40:06,750
+öfters begegnet dass es so themen wie
+
+1042
+00:40:04,190 --> 00:40:08,250
+systems engineering dass man das nicht
+
+1043
+00:40:06,750 --> 00:40:09,720
+technisch einführen kann sondern
+
+1044
+00:40:08,250 --> 00:40:11,720
+eigentlich nur über die wehr gesetzt
+
+1045
+00:40:09,720 --> 00:40:14,190
+worden
+
+1046
+00:40:11,720 --> 00:40:18,570
+kennt man kann wo es lang werfe ich mal
+
+1047
+00:40:14,190 --> 00:40:19,740
+in die runde dass sich voll rein genau
+
+1048
+00:40:18,570 --> 00:40:22,500
+liegen
+
+1049
+00:40:19,740 --> 00:40:27,180
+und das sind sie meine meinem eine herz
+
+1050
+00:40:22,500 --> 00:40:30,450
+themen die mir richtig spaß machen was
+
+1051
+00:40:27,180 --> 00:40:32,760
+jetzt neu geöffnet wurde beziehung aus
+
+1052
+00:40:30,450 --> 00:40:34,740
+zu incose oder oder auch das thema
+
+1053
+00:40:32,760 --> 00:40:37,080
+herbst bei in cosi habe ich das thema
+
+1054
+00:40:34,740 --> 00:40:39,000
+die pendelbusse spenden source systems
+
+1055
+00:40:37,080 --> 00:40:40,140
+oder so noch nicht hier sehen in der
+
+1056
+00:40:39,000 --> 00:40:43,890
+kombination
+
+1057
+00:40:40,140 --> 00:40:46,580
+also wir haben leider kein noch keine
+
+1058
+00:40:43,890 --> 00:40:49,440
+beziehung zur situation in deutschland
+
+1059
+00:40:46,580 --> 00:40:51,810
+soweit ich weiß hat sich
+
+1060
+00:40:49,440 --> 00:40:54,359
+mit österreicher quasi von der gfs oder
+
+1061
+00:40:51,810 --> 00:40:55,970
+chapter germany chapter of incose ist so
+
+1062
+00:40:54,359 --> 00:40:58,560
+schön heißt mitbetreut
+
+1063
+00:40:55,970 --> 00:41:00,869
+aber wenn wir sie zum aktuelles mir in
+
+1064
+00:40:58,560 --> 00:41:02,880
+österreich kein vorhaben in dieser
+
+1065
+00:41:00,869 --> 00:41:04,260
+richtung bekannt dass das irgendwie auf
+
+1066
+00:41:02,880 --> 00:41:06,930
+eigene beine gestellt wird
+
+1067
+00:41:04,260 --> 00:41:09,390
+es gibt wie gesagt auch noch keine die
+
+1068
+00:41:06,930 --> 00:41:11,819
+keinen direkten austausch noch im rahmen
+
+1069
+00:41:09,390 --> 00:41:14,790
+des pressezentrums vernetzung natürlich
+
+1070
+00:41:11,819 --> 00:41:16,319
+ganz ganz wichtig und wir müssen uns mal
+
+1071
+00:41:14,790 --> 00:41:17,609
+die mitglieder raten anschauen aber ich
+
+1072
+00:41:16,319 --> 00:41:19,800
+nehme an da gibt es einen academic
+
+1073
+00:41:17,609 --> 00:41:21,839
+tarifa und dann wäre es natürlich
+
+1074
+00:41:19,800 --> 00:41:24,560
+erstrebenswert dass er sich auch
+
+1075
+00:41:21,839 --> 00:41:24,560
+engagieren
+
+1076
+00:41:26,900 --> 00:41:35,190
+das ist das nur uni und da dreht sich
+
+1077
+00:41:30,359 --> 00:41:36,920
+alles roger sagt iris jetzt ob wir das
+
+1078
+00:41:35,190 --> 00:41:38,970
+jetzt sind also unverständlicherweise
+
+1079
+00:41:36,920 --> 00:41:45,510
+werden die noch nicht in den top 3 der
+
+1080
+00:41:38,970 --> 00:41:46,859
+really great wir arbeiten gerade also
+
+1081
+00:41:45,510 --> 00:41:49,020
+eine explizite system of systems
+
+1082
+00:41:46,859 --> 00:41:51,180
+engineering community wärme nicht
+
+1083
+00:41:49,020 --> 00:41:53,250
+bewusst ich glaube auch nicht dass das
+
+1084
+00:41:51,180 --> 00:41:54,750
+irgendwie sinnvoll wäre ich denke dass
+
+1085
+00:41:53,250 --> 00:41:56,220
+man diesem kontext von systems
+
+1086
+00:41:54,750 --> 00:41:58,920
+engineering im kontext der ihn quasi
+
+1087
+00:41:56,220 --> 00:42:02,099
+ansiedeln sollte aber also die
+
+1088
+00:41:58,920 --> 00:42:04,170
+vernetzung auch mit fachinstituten ist
+
+1089
+00:42:02,099 --> 00:42:06,630
+es ganz müssten also wie gesagt wir sind
+
+1090
+00:42:04,170 --> 00:42:09,089
+hier bei uns an der hochschule systems
+
+1091
+00:42:06,630 --> 00:42:11,310
+engineering jetzt nicht das mittel oder
+
+1092
+00:42:09,089 --> 00:42:14,069
+das fachgebiet ist wir seit 30 jahren
+
+1093
+00:42:11,310 --> 00:42:17,040
+machen mit experten sondern hinterher
+
+1094
+00:42:14,069 --> 00:42:18,630
+reingestolpert mittlerweile schon länger
+
+1095
+00:42:17,040 --> 00:42:19,950
+gestolpert und erfahren beim stolpern
+
+1096
+00:42:18,630 --> 00:42:21,930
+nicht mehr so oft auf die nase leicht
+
+1097
+00:42:19,950 --> 00:42:24,869
+aber wir sind rein gestaltbar und
+
+1098
+00:42:21,930 --> 00:42:28,349
+natürlich gibt es international andere
+
+1099
+00:42:24,869 --> 00:42:31,109
+institute organisationen die einfach von
+
+1100
+00:42:28,349 --> 00:42:33,270
+denen wir viel lernen können und diese
+
+1101
+00:42:31,109 --> 00:42:35,810
+vernetzung ist natürlich angestellt also
+
+1102
+00:42:33,270 --> 00:42:38,010
+nicht der fachliche austausch einerseits
+
+1103
+00:42:35,810 --> 00:42:40,109
+andererseits muss er noch dazu kommt
+
+1104
+00:42:38,010 --> 00:42:41,849
+natürlich in österreich an
+
+1105
+00:42:40,109 --> 00:42:42,650
+fachhochschulen einen anderen status als
+
+1106
+00:42:41,849 --> 00:42:44,700
+in deutschland
+
+1107
+00:42:42,650 --> 00:42:47,010
+also bei uns ist es zum beispiel auch
+
+1108
+00:42:44,700 --> 00:42:48,960
+nicht möglich dass jemand promoviert und
+
+1109
+00:42:47,010 --> 00:42:50,010
+habilitation macht das heißt immer wenn
+
+1110
+00:42:48,960 --> 00:42:51,510
+es für uns jemand gibt der
+
+1111
+00:42:50,010 --> 00:42:54,089
+promotionsvorhaben heute aber vielleicht
+
+1112
+00:42:51,510 --> 00:42:56,880
+ein habilitation abspielt da braucht man
+
+1113
+00:42:54,089 --> 00:42:59,849
+nur partneruniversität wo man gemeinsam
+
+1114
+00:42:56,880 --> 00:43:00,930
+arbeitet damals sehr gute erfahrungen
+
+1115
+00:42:59,849 --> 00:43:02,390
+gemacht wie sie zum beispiel in
+
+1116
+00:43:00,930 --> 00:43:03,890
+oldenburg promoviert
+
+1117
+00:43:02,390 --> 00:43:05,029
+mit den kollegen verbindet uns
+
+1118
+00:43:03,890 --> 00:43:06,220
+mittlerweile richtig freundlich ein
+
+1119
+00:43:05,029 --> 00:43:09,019
+gutes verhältnis
+
+1120
+00:43:06,220 --> 00:43:11,299
+das war einer der größten händler also
+
+1121
+00:43:09,019 --> 00:43:14,289
+da sind wir aktiv auch bereiten die
+
+1122
+00:43:11,299 --> 00:43:14,289
+vernetzung auszubauen
+
+1123
+00:43:15,369 --> 00:43:19,849
+vielleicht haben ja auch unsere
+
+1124
+00:43:17,089 --> 00:43:22,039
+zuschauer eine frage ihr könnt natürlich
+
+1125
+00:43:19,849 --> 00:43:23,779
+gerne den chat verwenden den live chat
+
+1126
+00:43:22,039 --> 00:43:25,369
+das sehen wir dann hier und würden
+
+1127
+00:43:23,779 --> 00:43:26,769
+entsprechend die frage an christian
+
+1128
+00:43:25,369 --> 00:43:29,059
+weiterleiten
+
+1129
+00:43:26,769 --> 00:43:31,130
+die hat der erste paar genießt sein
+
+1130
+00:43:29,059 --> 00:43:33,859
+welches wir wägen sie eigentlich mal
+
+1131
+00:43:31,130 --> 00:43:36,019
+gucken ob sie kommt was mich noch
+
+1132
+00:43:33,859 --> 00:43:37,960
+interessieren würde du als österreicher
+
+1133
+00:43:36,019 --> 00:43:40,730
+kannst mir vielleicht die frage
+
+1134
+00:43:37,960 --> 00:43:42,440
+beantworten österreich ist ja ein
+
+1135
+00:43:40,730 --> 00:43:45,589
+relativ kleines land aber irgendwie habt
+
+1136
+00:43:42,440 --> 00:43:47,390
+ihr relativ guten impact bei mbs also
+
+1137
+00:43:45,589 --> 00:43:49,400
+wenn ich da an die grazer kollegen denkt
+
+1138
+00:43:47,390 --> 00:43:52,579
+und wenn ich an daniel siegl denken und
+
+1139
+00:43:49,400 --> 00:43:57,410
+jetzt halt noch die wie kommt so was
+
+1140
+00:43:52,579 --> 00:43:58,039
+hast du deine ideen kuh muss ich mir
+
+1141
+00:43:57,410 --> 00:43:59,720
+versuche ich habe jetzt keine
+
+1142
+00:43:58,039 --> 00:44:00,980
+unmittelbare die ich meine reinert
+
+1143
+00:43:59,720 --> 00:44:05,019
+haberfellner hast jetzt nicht namentlich
+
+1144
+00:44:00,980 --> 00:44:07,940
+erwähnt er wisse leider verstorben
+
+1145
+00:44:05,019 --> 00:44:11,420
+größter in den bereich was ich mir
+
+1146
+00:44:07,940 --> 00:44:14,440
+vielleicht erklären könnte systems
+
+1147
+00:44:11,420 --> 00:44:17,630
+engineering per se ist ja eine nische
+
+1148
+00:44:14,440 --> 00:44:19,369
+also als vorher was kommt darüber
+
+1149
+00:44:17,630 --> 00:44:23,900
+gesprochen wie erkläre ich jemand das
+
+1150
+00:44:19,369 --> 00:44:26,960
+thema und möglicherweise könnte es daher
+
+1151
+00:44:23,900 --> 00:44:29,480
+kommen dass wir in österreich vielleicht
+
+1152
+00:44:26,960 --> 00:44:31,490
+jetzt bei den beiden themen entscheiden
+
+1153
+00:44:29,480 --> 00:44:33,650
+erst der nicht unser bericht werden mit
+
+1154
+00:44:31,490 --> 00:44:35,690
+release - zu konkurrieren und mit großen
+
+1155
+00:44:33,650 --> 00:44:37,039
+universitäten nach und vielleicht ist
+
+1156
+00:44:35,690 --> 00:44:39,369
+das einer der gründe warum es uns in
+
+1157
+00:44:37,039 --> 00:44:41,450
+diesem sitzen keine ahnung oder
+
+1158
+00:44:39,369 --> 00:44:43,160
+vielleicht weil wir in österreich als
+
+1159
+00:44:41,450 --> 00:44:46,000
+und toll sind mit ihm der kulturelle
+
+1160
+00:44:43,160 --> 00:44:49,990
+interaktion auch mit die deutschen
+
+1161
+00:44:46,000 --> 00:44:53,480
+wollen wir das natürlich gleich erwarten
+
+1162
+00:44:49,990 --> 00:44:55,490
+ich habe da keine pauschale doch es
+
+1163
+00:44:53,480 --> 00:44:58,819
+freut mich dass das so wahrgenommen wird
+
+1164
+00:44:55,490 --> 00:45:02,140
+ich war mir nicht bewusst was fällt auf
+
+1165
+00:44:58,819 --> 00:45:05,390
+es werden auch ein thema wird klar doch
+
+1166
+00:45:02,140 --> 00:45:06,829
+mal nbsp around the world bei den
+
+1167
+00:45:05,390 --> 00:45:08,960
+verschiedenen ländern mal reinzuschauen
+
+1168
+00:45:06,829 --> 00:45:11,779
+und mal zu hören wie mbc in dem land
+
+1169
+00:45:08,960 --> 00:45:17,080
+gerade ist das weil wir nächstes jahr
+
+1170
+00:45:11,779 --> 00:45:19,130
+starten mit schweben planung ersichtlich
+
+1171
+00:45:17,080 --> 00:45:20,750
+jetzt sichert dann kann man es oft nicht
+
+1172
+00:45:19,130 --> 00:45:24,410
+mehr fertig das bier treffen nicht nur
+
+1173
+00:45:20,750 --> 00:45:26,210
+remote das wäre sehr schön so was wie
+
+1174
+00:45:24,410 --> 00:45:27,650
+die nordex systems engineering team da
+
+1175
+00:45:26,210 --> 00:45:29,090
+haben uns übrigens das erste nicht ganz
+
+1176
+00:45:27,650 --> 00:45:31,220
+so gar einzige mal persönlich gesehen
+
+1177
+00:45:29,090 --> 00:45:40,780
+oder auf harmlose 20 17
+
+1178
+00:45:31,220 --> 00:45:40,780
+genau die war super young war vom 3
+
+1179
+00:45:41,560 --> 00:45:45,830
+so ist dort wiederum gibt es eigentlich
+
+1180
+00:45:44,000 --> 00:45:47,210
+keines südliche systems engineering tool
+
+1181
+00:45:45,830 --> 00:45:49,160
+gibt es also es gibt eine sache an
+
+1182
+00:45:47,210 --> 00:45:51,500
+systems engine die agentur auf der
+
+1183
+00:45:49,160 --> 00:45:53,180
+allerersten agentur wachholder mit was
+
+1184
+00:45:51,500 --> 00:45:55,160
+sie danach machen vergessen und das
+
+1185
+00:45:53,180 --> 00:45:55,970
+technical director von cosi in spanien
+
+1186
+00:45:55,160 --> 00:45:59,060
+und dann hat das dann irgendwie
+
+1187
+00:45:55,970 --> 00:46:02,330
+angeschoben und die tour durch italien
+
+1188
+00:45:59,060 --> 00:46:03,590
+spanien frankreich und schweiz sowie das
+
+1189
+00:46:02,330 --> 00:46:08,540
+heißt wir sitzen wieder zwischen den
+
+1190
+00:46:03,590 --> 00:46:11,210
+stühlen oder vermieteten die alpine
+
+1191
+00:46:08,540 --> 00:46:13,520
+systems engineering tour ja die macht
+
+1192
+00:46:11,210 --> 00:46:23,360
+mein winter zum skifahren haben sie
+
+1193
+00:46:13,520 --> 00:46:24,710
+damals schon gibt österreich lassen den
+
+1194
+00:46:23,360 --> 00:46:26,210
+corona und gesagt virtuell machen wir
+
+1195
+00:46:24,710 --> 00:46:27,980
+das nicht das passt zu vernehmen ist
+
+1196
+00:46:26,210 --> 00:46:33,770
+aber nächstes jahr ist schon wieder in
+
+1197
+00:46:27,980 --> 00:46:36,800
+planung das wird ihr super passen ja
+
+1198
+00:46:33,770 --> 00:46:38,150
+christian ihr seid ja wie gesagt neu
+
+1199
+00:46:36,800 --> 00:46:40,310
+gegründet du hast doch schon von ein
+
+1200
+00:46:38,150 --> 00:46:41,780
+paar mitarbeitern erzählt aber ich
+
+1201
+00:46:40,310 --> 00:46:44,420
+vermute mal ihr habt ja auch mal so ein
+
+1202
+00:46:41,780 --> 00:46:44,930
+bisschen grundfinanzierung bekommen oder
+
+1203
+00:46:44,420 --> 00:46:47,150
+sowas
+
+1204
+00:46:44,930 --> 00:46:49,160
+sucht ihr mitarbeiter wenn da jemand
+
+1205
+00:46:47,150 --> 00:46:51,440
+sagt mensch ich möchte jetzt mal eine
+
+1206
+00:46:49,160 --> 00:46:53,630
+akademische karriere starten oder ich
+
+1207
+00:46:51,440 --> 00:46:58,280
+bin gerade fertigen zum studium gibt es
+
+1208
+00:46:53,630 --> 00:46:59,420
+da was bei euch immer also es ist
+
+1209
+00:46:58,280 --> 00:47:01,340
+tatsächlich so dass wir haben ein
+
+1210
+00:46:59,420 --> 00:47:04,370
+gewisses pobla für für mitarbeiterinnen
+
+1211
+00:47:01,340 --> 00:47:06,770
+und mitarbeiter wir sind doch nicht im
+
+1212
+00:47:04,370 --> 00:47:08,420
+endausbau das heißt natürlich halten wir
+
+1213
+00:47:06,770 --> 00:47:09,970
+die augen immer offen nach geeigneten
+
+1214
+00:47:08,420 --> 00:47:12,260
+kolleginnen und kollegen
+
+1215
+00:47:09,970 --> 00:47:14,660
+wir suchen aktuell gerade nicht aktiv
+
+1216
+00:47:12,260 --> 00:47:16,610
+weil wir durch corona jetzt auch ein
+
+1217
+00:47:14,660 --> 00:47:18,740
+gewisses raumproblem haben mit es dürfen
+
+1218
+00:47:16,610 --> 00:47:20,390
+nicht so viele leute im raum sitzen also
+
+1219
+00:47:18,740 --> 00:47:22,700
+ich sag mal so der kontostand wird und
+
+1220
+00:47:20,390 --> 00:47:25,790
+mehr hergeben als die raumgröße eine
+
+1221
+00:47:22,700 --> 00:47:27,859
+absurde situation aber wir sind noch
+
+1222
+00:47:25,790 --> 00:47:30,039
+nicht ganz im eng ausbauen
+
+1223
+00:47:27,859 --> 00:47:32,180
+und 7 also über mitarbeiter auch über
+
+1224
+00:47:30,039 --> 00:47:34,009
+erwähnt auch über unternehmenspartner
+
+1225
+00:47:32,180 --> 00:47:35,109
+also wir sind ja auch ein modell das
+
+1226
+00:47:34,009 --> 00:47:37,279
+wachsen kann
+
+1227
+00:47:35,109 --> 00:47:38,869
+und generell über jegliche form von
+
+1228
+00:47:37,279 --> 00:47:40,519
+wissenschaftlichen austausch also doch
+
+1229
+00:47:38,869 --> 00:47:41,809
+freuen wir uns über jeden einfach der
+
+1230
+00:47:40,519 --> 00:47:48,230
+blick über den tellerrand ganz ganz
+
+1231
+00:47:41,809 --> 00:47:52,880
+wichtig ist also wollte ich jetzt nicht
+
+1232
+00:47:48,230 --> 00:47:57,140
+bewerben oder aktuell wenn ich gerade
+
+1233
+00:47:52,880 --> 00:47:59,299
+gut geht so gerade kein leerlauf keine
+
+1234
+00:47:57,140 --> 00:48:00,859
+langeweile wenn es sehr schön im
+
+1235
+00:47:59,299 --> 00:48:02,289
+consulting bereitet das uns eigentlich
+
+1236
+00:48:00,859 --> 00:48:06,140
+zurzeit gar nicht so schlecht geht oder
+
+1237
+00:48:02,289 --> 00:48:07,489
+das kann ich bestätigen merkt es ja auch
+
+1238
+00:48:06,140 --> 00:48:09,410
+dass sich in den firmen im bereich
+
+1239
+00:48:07,489 --> 00:48:12,489
+digitalisierung digitale zusammenarbeit
+
+1240
+00:48:09,410 --> 00:48:12,489
+viel getan hat
+
+1241
+00:48:12,670 --> 00:48:17,569
+gemischt
+
+1242
+00:48:15,079 --> 00:48:19,489
+ich hoffe dass ich auch gerne also wir
+
+1243
+00:48:17,569 --> 00:48:21,319
+haben wir sind ja ich arbeite auch beim
+
+1244
+00:48:19,489 --> 00:48:23,470
+softwareunternehmen und da auch in der
+
+1245
+00:48:21,319 --> 00:48:25,789
+beratung und im produktmanagement und
+
+1246
+00:48:23,470 --> 00:48:29,230
+ich fand das sehr spannend jetzt zu
+
+1247
+00:48:25,789 --> 00:48:31,549
+sehen in corona zeiten dass die einen
+
+1248
+00:48:29,230 --> 00:48:34,400
+gesagt haben um gottes willen lasst uns
+
+1249
+00:48:31,549 --> 00:48:36,019
+so wir haben kurzarbeit und die andere
+
+1250
+00:48:34,400 --> 00:48:38,710
+fraktion gesagt ey haben endlich mal
+
+1251
+00:48:36,019 --> 00:48:38,710
+zeit für uns haiti
+
+1252
+00:48:38,769 --> 00:48:44,180
+lasst uns mal ein backup machen oder
+
+1253
+00:48:41,920 --> 00:48:46,039
+verlassen von unsere prozesse angucken
+
+1254
+00:48:44,180 --> 00:48:47,289
+und überprüfen ob unsere tour ist noch
+
+1255
+00:48:46,039 --> 00:48:49,519
+die richtigen sind
+
+1256
+00:48:47,289 --> 00:48:50,869
+ein hoffnungsschimmer ist ein bisschen
+
+1257
+00:48:49,519 --> 00:48:52,910
+zu forsch angesprochen
+
+1258
+00:48:50,869 --> 00:48:55,190
+das kommt beim thema systems engineering
+
+1259
+00:48:52,910 --> 00:48:56,869
+was industrie unterbringen möchte da
+
+1260
+00:48:55,190 --> 00:48:58,400
+einführen möchte das meistens auch
+
+1261
+00:48:56,869 --> 00:49:00,829
+wieder ganz nah torische änderungen geht
+
+1262
+00:48:58,400 --> 00:49:04,039
+also wenn ich so box über menschen herum
+
+1263
+00:49:00,829 --> 00:49:07,759
+neu ziehen möchte dann geht es meistens
+
+1264
+00:49:04,039 --> 00:49:09,559
+nicht nur virtuell und mein eindruck ist
+
+1265
+00:49:07,759 --> 00:49:10,849
+dass bei verschiedenen und nicht bei
+
+1266
+00:49:09,559 --> 00:49:12,319
+allen aber manchen unternehmen
+
+1267
+00:49:10,849 --> 00:49:14,299
+das einfach durch diese digitalisierung
+
+1268
+00:49:12,319 --> 00:49:16,119
+jetzt das einfach unglaublich viele
+
+1269
+00:49:14,299 --> 00:49:17,539
+sachen bewegung komme es in der struktur
+
+1270
+00:49:16,119 --> 00:49:19,279
+aufgebrochen sind
+
+1271
+00:49:17,539 --> 00:49:21,349
+und ich habe ein bisschen die hoffnung
+
+1272
+00:49:19,279 --> 00:49:23,539
+dass man dieses momentum mitnehmen kann
+
+1273
+00:49:21,349 --> 00:49:26,089
+und dass das vielleicht auch für für
+
+1274
+00:49:23,539 --> 00:49:27,829
+model based systems engineering wenn ein
+
+1275
+00:49:26,089 --> 00:49:30,559
+beschleuniger sein kann weil einfach
+
+1276
+00:49:27,829 --> 00:49:32,150
+viele ängste vorher daran sich aus ihrer
+
+1277
+00:49:30,559 --> 00:49:32,569
+zuneigung ausgestellt und zum gewissen
+
+1278
+00:49:32,150 --> 00:49:35,019
+grad
+
+1279
+00:49:32,569 --> 00:49:36,890
+wir haben bei einigen merklich ist eine
+
+1280
+00:49:35,019 --> 00:49:38,539
+beschleunigung sagt sind gerade bisschen
+
+1281
+00:49:36,890 --> 00:49:39,950
+entschleunigt durch corona das nächste
+
+1282
+00:49:38,539 --> 00:49:41,080
+was ich ja nix zu tun haben aber da
+
+1283
+00:49:39,950 --> 00:49:42,970
+dieser projekte
+
+1284
+00:49:41,080 --> 00:49:44,410
+das gerade raus weil ihr vielleicht
+
+1285
+00:49:42,970 --> 00:49:45,760
+gerade keine ahnung die zulieferkette
+
+1286
+00:49:44,410 --> 00:49:47,140
+nicht gut funktioniert oder sowas und
+
+1287
+00:49:45,760 --> 00:49:48,790
+das haben sie ein bisschen zeit eben
+
+1288
+00:49:47,140 --> 00:49:50,020
+auch so was wie mbs immer einzuführen
+
+1289
+00:49:48,790 --> 00:49:51,400
+weil sagen dass man schon immer mal
+
+1290
+00:49:50,020 --> 00:49:54,340
+machen jetzt ein bisschen mehr ruhe
+
+1291
+00:49:51,400 --> 00:49:56,430
+dafür dass und bereit sind froh dass es
+
+1292
+00:49:54,340 --> 00:49:59,680
+wieder losgeht das kann ich auch ehrlich
+
+1293
+00:49:56,430 --> 00:50:00,970
+merck tendenziell lustigerweise wenn man
+
+1294
+00:49:59,680 --> 00:50:02,410
+das thema systems engineering so
+
+1295
+00:50:00,970 --> 00:50:05,140
+reflektiert in zeiten führung von rainer
+
+1296
+00:50:02,410 --> 00:50:07,570
+traber fällen danach war er so auf
+
+1297
+00:50:05,140 --> 00:50:10,420
+großprojekte wie fein schiffbau einer
+
+1298
+00:50:07,570 --> 00:50:12,400
+rakete und so weiter ausgerichtet jetzt
+
+1299
+00:50:10,420 --> 00:50:15,310
+geht es mir in die richtung ich sage
+
+1300
+00:50:12,400 --> 00:50:19,870
+banal runtergebrochen hardware software
+
+1301
+00:50:15,310 --> 00:50:21,880
+kooperation und der sollte sich ein
+
+1302
+00:50:19,870 --> 00:50:24,010
+beispiel das auch immer so dass das nasa
+
+1303
+00:50:21,880 --> 00:50:25,240
+handbook on systems engineering wenn man
+
+1304
+00:50:24,010 --> 00:50:28,060
+sich anschaut die erste version ich
+
+1305
+00:50:25,240 --> 00:50:31,330
+glaube 1997 oder so in der größenordnung
+
+1306
+00:50:28,060 --> 00:50:34,270
+und die zweite version 2017 also das
+
+1307
+00:50:31,330 --> 00:50:36,250
+spiel ist es schön und meine wahrnehmung
+
+1308
+00:50:34,270 --> 00:50:37,810
+ist dass im endeffekt durch diese
+
+1309
+00:50:36,250 --> 00:50:39,910
+vernetzung momentan also dass wir so
+
+1310
+00:50:37,810 --> 00:50:42,040
+viele vernetzte systeme jetzt sagen dass
+
+1311
+00:50:39,910 --> 00:50:44,920
+diese vernetzung letztlich die
+
+1312
+00:50:42,040 --> 00:50:47,470
+komplexität der systeme so belegbar
+
+1313
+00:50:44,920 --> 00:50:49,420
+erwachsenen lässt und letztlich die
+
+1314
+00:50:47,470 --> 00:50:52,000
+antwort auf komplexität ist ja immer
+
+1315
+00:50:49,420 --> 00:50:54,160
+modellierung so ist das gehirn von uns
+
+1316
+00:50:52,000 --> 00:50:55,960
+macht und das sehe ich momentan auch aus
+
+1317
+00:50:54,160 --> 00:51:00,220
+den verschiedensten branchen auf einmal
+
+1318
+00:50:55,960 --> 00:51:02,110
+einen pool so wir wollen das thema und
+
+1319
+00:51:00,220 --> 00:51:04,300
+dieses thema gibt es nicht für friede
+
+1320
+00:51:02,110 --> 00:51:06,700
+ist gibt es nur mit organisatorischen
+
+1321
+00:51:04,300 --> 00:51:07,720
+änderungen auch da sehe ich jetzt schon
+
+1322
+00:51:06,700 --> 00:51:09,880
+ein großer moment
+
+1323
+00:51:07,720 --> 00:51:12,280
+nehmen sie das auch so war dass das so
+
+1324
+00:51:09,880 --> 00:51:13,300
+überall gleichzeitig kann es ja ich
+
+1325
+00:51:12,280 --> 00:51:14,650
+werde darauf dass sie das dann nicht
+
+1326
+00:51:13,300 --> 00:51:16,360
+dass uns entringen nennen also wenn man
+
+1327
+00:51:14,650 --> 00:51:17,740
+reinkommt in der unternehmen sieht man
+
+1328
+00:51:16,360 --> 00:51:19,690
+dass die das eigentlich schon betreiben
+
+1329
+00:51:17,740 --> 00:51:21,430
+aber die längste irgendwie anders also
+
+1330
+00:51:19,690 --> 00:51:23,440
+das einen anderen namen die sie da
+
+1331
+00:51:21,430 --> 00:51:24,430
+verwenden sagt eigentlich dass du es
+
+1332
+00:51:23,440 --> 00:51:28,840
+eigentlich jährigen welcher aufwand
+
+1333
+00:51:24,430 --> 00:51:30,370
+versagt hat ja in cosi gehört machen
+
+1334
+00:51:28,840 --> 00:51:31,930
+eigentlich von satzungsänderungen das
+
+1335
+00:51:30,370 --> 00:51:33,640
+kommt jetzt überall so wer an allen
+
+1336
+00:51:31,930 --> 00:51:35,140
+ecken und enden hoch dieses
+
+1337
+00:51:33,640 --> 00:51:38,790
+interdisziplinäre zusammenarbeit das ist
+
+1338
+00:51:35,140 --> 00:51:41,650
+jetzt natürlich auch so lustige anekdote
+
+1339
+00:51:38,790 --> 00:51:43,120
+weil wir reden ja immer als von systems
+
+1340
+00:51:41,650 --> 00:51:45,160
+engineering und wenn sie ein unternehmen
+
+1341
+00:51:43,120 --> 00:51:46,690
+rein gehst und sagst ja und systems
+
+1342
+00:51:45,160 --> 00:51:48,160
+engineering und sorgen sie immer ja
+
+1343
+00:51:46,690 --> 00:51:51,010
+system engineering machen dass er 20
+
+1344
+00:51:48,160 --> 00:51:51,700
+jahren wird die lustige anekdote ist
+
+1345
+00:51:51,010 --> 00:51:53,710
+immer so
+
+1346
+00:51:51,700 --> 00:51:56,859
+wenn es jetzt genau hinhört wenn jemand
+
+1347
+00:51:53,710 --> 00:51:58,450
+systems engineering mit grüner es dann
+
+1348
+00:51:56,859 --> 00:52:00,339
+kriegt man schon mit ihr hat sich bisher
+
+1349
+00:51:58,450 --> 00:52:03,280
+mit beschäftigt und wenn jemand sagt
+
+1350
+00:52:00,339 --> 00:52:05,260
+system engineering dann meinen sie
+
+1351
+00:52:03,280 --> 00:52:11,020
+tendenziell das arbeiten auf systemebene
+
+1352
+00:52:05,260 --> 00:52:14,579
+ja natürlich das genauso ich habe aber
+
+1353
+00:52:11,020 --> 00:52:19,060
+auch so ein bisschen das gefühl dass
+
+1354
+00:52:14,579 --> 00:52:20,589
+durch den einzug der software viele ja
+
+1355
+00:52:19,060 --> 00:52:21,970
+viele schmerzen erlebt worden ist
+
+1356
+00:52:20,589 --> 00:52:25,660
+natürlich und das jetzt gerade dieser
+
+1357
+00:52:21,970 --> 00:52:28,780
+hardware software zusammenarbeit wie
+
+1358
+00:52:25,660 --> 00:52:30,190
+gesagt immer wichtiger wird weil glaube
+
+1359
+00:52:28,780 --> 00:52:31,960
+ich auch ein großer teil der
+
+1360
+00:52:30,190 --> 00:52:34,089
+wertschöpfung oder der gewinn des
+
+1361
+00:52:31,960 --> 00:52:36,510
+kundennutzens der kommt halt daraus dass
+
+1362
+00:52:34,089 --> 00:52:39,609
+man hardware mit software zusammen
+
+1363
+00:52:36,510 --> 00:52:42,369
+verbinden und wie es nicht geht hat man
+
+1364
+00:52:39,609 --> 00:52:44,079
+die letzten 20 jahre erlebt und wie es
+
+1365
+00:52:42,369 --> 00:52:46,089
+besser geht sieht man dann manchen
+
+1366
+00:52:44,079 --> 00:52:47,530
+beispielen und ich würde glaube ich
+
+1367
+00:52:46,089 --> 00:52:49,780
+sogar noch einen schritt weiter gehen
+
+1368
+00:52:47,530 --> 00:52:51,820
+wird sagen sogar der erste sprung war so
+
+1369
+00:52:49,780 --> 00:52:54,369
+kunden nutzen unsere verbindung hardware
+
+1370
+00:52:51,820 --> 00:52:55,650
+software als ein system und was ich
+
+1371
+00:52:54,369 --> 00:52:58,300
+jetzt sehe
+
+1372
+00:52:55,650 --> 00:52:58,750
+stichwort beauty autonomes fahren und so
+
+1373
+00:52:58,300 --> 00:53:00,520
+weiter
+
+1374
+00:52:58,750 --> 00:53:02,230
+weil auch das jetzt die software immer
+
+1375
+00:53:00,520 --> 00:53:03,130
+stärker in cyber physical systems
+
+1376
+00:53:02,230 --> 00:53:04,510
+hineinwächst
+
+1377
+00:53:03,130 --> 00:53:06,010
+du hast du jetzt auf einmal doch
+
+1378
+00:53:04,510 --> 00:53:07,869
+zusätzlich das problem es geht nicht nur
+
+1379
+00:53:06,010 --> 00:53:10,270
+darum dass es oft um miteinander kann
+
+1380
+00:53:07,869 --> 00:53:12,400
+sondern was sie immer und verlässlich
+
+1381
+00:53:10,270 --> 00:53:14,020
+miteinander kann und ich glaub ich
+
+1382
+00:53:12,400 --> 00:53:16,300
+glaube dass sich doch nur mal ganz
+
+1383
+00:53:14,020 --> 00:53:19,810
+brutal die spreu vom weizen trennen wird
+
+1384
+00:53:16,300 --> 00:53:23,640
+weil ich sage mal so dem stichwort ki ja
+
+1385
+00:53:19,810 --> 00:53:25,569
+also keinen kontext von data warehouse
+
+1386
+00:53:23,640 --> 00:53:27,280
+produktvorschläge und so weiter alles
+
+1387
+00:53:25,569 --> 00:53:29,109
+gut macht spaß kann man ausprobieren
+
+1388
+00:53:27,280 --> 00:53:30,730
+experimentieren wenn einmal ein
+
+1389
+00:53:29,109 --> 00:53:32,859
+schlechter treffer angezeigt wird kein
+
+1390
+00:53:30,730 --> 00:53:35,319
+problem wenn es da jetzt irgendwie
+
+1391
+00:53:32,859 --> 00:53:36,579
+personen erkennen und mit künast dann
+
+1392
+00:53:35,319 --> 00:53:38,369
+würdest du dir schon wünschen dass die
+
+1393
+00:53:36,579 --> 00:53:41,349
+einigermaßen verlässlich funktioniert
+
+1394
+00:53:38,369 --> 00:53:44,020
+und daher kommt ja auch bei uns dass die
+
+1395
+00:53:41,349 --> 00:53:45,609
+paypal wo wir ebenso den schritt sehen
+
+1396
+00:53:44,020 --> 00:53:47,980
+wir wollen dass die systeme nicht einmal
+
+1397
+00:53:45,609 --> 00:53:50,890
+sondern immer funktionieren und ich
+
+1398
+00:53:47,980 --> 00:53:54,640
+glaube der sprung von kohle technik geht
+
+1399
+00:53:50,890 --> 00:53:55,930
+mal bis hin zu coolen technik die auch
+
+1400
+00:53:54,640 --> 00:53:58,089
+im kritischen bereich geht
+
+1401
+00:53:55,930 --> 00:53:59,829
+ich glaube da ist noch einmal ganz
+
+1402
+00:53:58,089 --> 00:54:01,210
+großer sprung bei der wirtschaft
+
+1403
+00:53:59,829 --> 00:54:02,760
+deutlich formaler art ist sehr
+
+1404
+00:54:01,210 --> 00:54:04,900
+herausfordernd
+
+1405
+00:54:02,760 --> 00:54:08,190
+und die meisten haben auch angst davor
+
+1406
+00:54:04,900 --> 00:54:08,190
+dass dann immer so viel spaß macht
+
+1407
+00:54:10,050 --> 00:54:15,910
+theoretisch ja genau und wenn also die
+
+1408
+00:54:13,600 --> 00:54:17,830
+wiederkommen so was wie ried war ja
+
+1409
+00:54:15,910 --> 00:54:19,980
+meint ich habe einen krieg war jetzt
+
+1410
+00:54:17,830 --> 00:54:23,859
+auseinandersetzen muss mit traceability
+
+1411
+00:54:19,980 --> 00:54:26,380
+mit verifikation validierung das macht
+
+1412
+00:54:23,859 --> 00:54:29,560
+ja alles nicht zu viel spaß gefährlicher
+
+1413
+00:54:26,380 --> 00:54:31,180
+weise haben ja genau ein thema oder es
+
+1414
+00:54:29,560 --> 00:54:34,780
+ist genau mein thema das immer wieder
+
+1415
+00:54:31,180 --> 00:54:37,930
+bei der nische von österreich gibt es
+
+1416
+00:54:34,780 --> 00:54:39,369
+dieses schöne zitat wird das weil ich
+
+1417
+00:54:37,930 --> 00:54:41,170
+das gemacht habe was niemand machen
+
+1418
+00:54:39,369 --> 00:54:48,190
+wollte kann ich heute was sonst niemand
+
+1419
+00:54:41,170 --> 00:54:49,480
+kann gebracht fast ganz ehrlich ich
+
+1420
+00:54:48,190 --> 00:54:51,850
+denke tatsächlich also gerade dieses
+
+1421
+00:54:49,480 --> 00:54:54,220
+auch als entspannend vor allem weil es
+
+1422
+00:54:51,850 --> 00:54:56,230
+ja wenn ich möchte das thema verlässlich
+
+1423
+00:54:54,220 --> 00:54:58,660
+funktionieren reichte eben der
+
+1424
+00:54:56,230 --> 00:55:00,609
+technische fokus nicht mehr zahle ich
+
+1425
+00:54:58,660 --> 00:55:04,570
+muss den fokus auch weiter auch machen
+
+1426
+00:55:00,609 --> 00:55:06,130
+richtung organisation prozesse wenn man
+
+1427
+00:55:04,570 --> 00:55:08,290
+so möchte auch mittlerweile coaching
+
+1428
+00:55:06,130 --> 00:55:09,700
+mitarbeiterführung und das finde ich
+
+1429
+00:55:08,290 --> 00:55:13,270
+unglaublich spannendes gebiet das
+
+1430
+00:55:09,700 --> 00:55:15,820
+einfach breit solistische das schlagwort
+
+1431
+00:55:13,270 --> 00:55:17,650
+auch noch umgibt machen die ganzen
+
+1432
+00:55:15,820 --> 00:55:22,510
+portugal star geschafft ohne holistisch
+
+1433
+00:55:17,650 --> 00:55:23,770
+zu sagen ein wissenschaftliches paper
+
+1434
+00:55:22,510 --> 00:55:28,480
+ist nicht gut wenn nicht einmal drin
+
+1435
+00:55:23,770 --> 00:55:31,240
+steht günstig ist das okay deswegen geht
+
+1436
+00:55:28,480 --> 00:55:38,130
+kommen die alle durch reden wir über
+
+1437
+00:55:31,240 --> 00:55:38,130
+buzz words dass wir eine schöne episode
+
+1438
+00:55:40,080 --> 00:55:44,580
+kann alle mitspielen
+
+1439
+00:55:41,770 --> 00:55:47,260
+oh ja es ist das ist eine super idee
+
+1440
+00:55:44,580 --> 00:55:48,609
+würde mir einfallen hörst du mich schon
+
+1441
+00:55:47,260 --> 00:56:01,060
+kannst du mich gehören der micro ist an
+
+1442
+00:55:48,609 --> 00:56:03,850
+du bist mir was wird bis 2020 ja gut
+
+1443
+00:56:01,060 --> 00:56:05,980
+jetzt immer ja schon fast am ende der
+
+1444
+00:56:03,850 --> 00:56:07,600
+stunde die wir miteinander verbringen
+
+1445
+00:56:05,980 --> 00:56:09,010
+wollten ich traue mich gar nichts mehr
+
+1446
+00:56:07,600 --> 00:56:11,850
+neues einzuwerfen weil ich nebenbei
+
+1447
+00:56:09,010 --> 00:56:11,850
+brach auf die uhr schauen
+
+1448
+00:56:11,910 --> 00:56:15,750
+ja es gibt noch viele viele themen aus
+
+1449
+00:56:14,160 --> 00:56:17,819
+der cyber physical systems buzzword mal
+
+1450
+00:56:15,750 --> 00:56:18,869
+rein geworfen das ist da hätten wir auch
+
+1451
+00:56:17,819 --> 00:56:20,760
+voll darauf anspringen könnte aber ich
+
+1452
+00:56:18,869 --> 00:56:22,829
+muss das ist ja auch gerade gebremst
+
+1453
+00:56:20,760 --> 00:56:27,770
+habe da wird das nicht zu lange währt
+
+1454
+00:56:22,829 --> 00:56:27,770
+aber doch noch ein thema machen
+
+1455
+00:56:28,760 --> 00:56:32,819
+bemerkt man auch sowieso die
+
+1456
+00:56:30,420 --> 00:56:35,190
+auswirkungen von 2020 wie sich jeder
+
+1457
+00:56:32,819 --> 00:56:38,190
+ganz ganz ganz alltägliche vorne
+
+1458
+00:56:35,190 --> 00:56:40,339
+sozialen interaktionen festklammerte so
+
+1459
+00:56:38,190 --> 00:56:43,230
+andere menschen zum reden
+
+1460
+00:56:40,339 --> 00:56:45,410
+ein anzeichen für soziale verwahrlosung
+
+1461
+00:56:43,230 --> 00:56:47,880
+10 25 20
+
+1462
+00:56:45,410 --> 00:56:53,579
+ja ich muss sagen ich habe selten so
+
+1463
+00:56:47,880 --> 00:56:55,619
+viel mit ihm zu tun gehabt wie 2020 auf
+
+1464
+00:56:53,579 --> 00:56:58,380
+die schiene ernst war der treffpunkt war
+
+1465
+00:56:55,619 --> 00:56:59,039
+ins gesicht und zusammen ein bier
+
+1466
+00:56:58,380 --> 00:57:09,420
+getrunken
+
+1467
+00:56:59,039 --> 00:57:11,010
+ja genau ich schicke ich mache ja dann
+
+1468
+00:57:09,420 --> 00:57:13,289
+würde ich sagen kommen wir doch so
+
+1469
+00:57:11,010 --> 00:57:15,559
+langsam zum abschluss christian vielen
+
+1470
+00:57:13,289 --> 00:57:19,079
+vielen dank für deine teilnahme
+
+1471
+00:57:15,559 --> 00:57:20,250
+also wir gern ist ein vergnügen war
+
+1472
+00:57:19,079 --> 00:57:22,589
+jetzt das auch das erste mal für uns
+
+1473
+00:57:20,250 --> 00:57:25,470
+dass wir einen gast daten also ich würde
+
+1474
+00:57:22,589 --> 00:57:28,829
+sagen kann man wieder machen kann man da
+
+1475
+00:57:25,470 --> 00:57:29,940
+machen kann ja auch wieder genau wir
+
+1476
+00:57:28,829 --> 00:57:34,069
+können es noch nicht ganz genau sagen
+
+1477
+00:57:29,940 --> 00:57:40,380
+wann wir planen für anfang januar einen
+
+1478
+00:57:34,069 --> 00:57:42,109
+podcast zusammen mit jason jason max mit
+
+1479
+00:57:40,380 --> 00:57:44,460
+von der ohren
+
+1480
+00:57:42,109 --> 00:57:48,470
+er ist was ist denn er eigentlich
+
+1481
+00:57:44,460 --> 00:57:52,500
+technical director finance director and
+
+1482
+00:57:48,470 --> 00:57:55,140
+technical director und wir wollen
+
+1483
+00:57:52,500 --> 00:57:56,940
+kreisen einmal fragen wie die ob sie
+
+1484
+00:57:55,140 --> 00:58:01,230
+funktioniert und das würde mich auch so
+
+1485
+00:57:56,940 --> 00:58:02,549
+ein passwort bingo mit pft fh df und so
+
+1486
+00:58:01,230 --> 00:58:04,670
+nah das können wir noch ein bisschen
+
+1487
+00:58:02,549 --> 00:58:07,589
+weiter führen und schossen auf uns mal
+
+1488
+00:58:04,670 --> 00:58:10,140
+excellon wie das alles funktioniert wie
+
+1489
+00:58:07,589 --> 00:58:12,270
+man auch zu einem standard kommt wenn
+
+1490
+00:58:10,140 --> 00:58:13,289
+man gewillt ist so ein zu machen oder
+
+1491
+00:58:12,270 --> 00:58:16,470
+wie man auch an einem standard
+
+1492
+00:58:13,289 --> 00:58:17,760
+mitarbeiten kann kann man auch mal
+
+1493
+00:58:16,470 --> 00:58:19,380
+fragen wie man einen dieb ende bestens
+
+1494
+00:58:17,760 --> 00:58:21,539
+wenigstens in den standard machen könnte
+
+1495
+00:58:19,380 --> 00:58:23,069
+das können wir versuchen aber deine
+
+1496
+00:58:21,539 --> 00:58:24,520
+antwort auf material kommt ja eher aus
+
+1497
+00:58:23,069 --> 00:58:26,590
+dem bereich bpmn
+
+1498
+00:58:24,520 --> 00:58:33,850
+vielleicht hat er da auch nochmal an die
+
+1499
+00:58:26,590 --> 00:58:35,710
+domain task force ist beliebt ja wenn es
+
+1500
+00:58:33,850 --> 00:58:39,100
+euch gefallen hat gebt uns ein daumen
+
+1501
+00:58:35,710 --> 00:58:40,960
+hoch abonniert den kanal für alle die
+
+1502
+00:58:39,100 --> 00:58:44,290
+heute nicht zu gucken konnten
+
+1503
+00:58:40,960 --> 00:58:46,360
+ich hoffe ihr habt heute auf spotify
+
+1504
+00:58:44,290 --> 00:58:48,940
+oder apple podcast oder jetzt auch ganz
+
+1505
+00:58:46,360 --> 00:58:52,030
+neu auf amazon musik gelauscht und
+
+1506
+00:58:48,940 --> 00:58:53,830
+gelernt und ich hoffe es hat euch
+
+1507
+00:58:52,030 --> 00:58:55,620
+genauso viel spaß gemacht wie mir
+
+1508
+00:58:53,830 --> 00:58:58,180
+zumindest wie sieht es bei euch aus
+
+1509
+00:58:55,620 --> 00:59:00,220
+ich schließe mich vorlage wurde dann
+
+1510
+00:58:58,180 --> 00:59:13,630
+lustig ist immer gut mit christian zu
+
+1511
+00:59:00,220 --> 00:59:16,150
+schlagen und sagen knacken dürfte also
+
+1512
+00:59:13,630 --> 00:59:18,730
+ich glaube es kommt was zumindest ja
+
+1513
+00:59:16,150 --> 00:59:21,990
+also wie gesagt war sehr schön und wie
+
+1514
+00:59:18,730 --> 00:59:21,990
+immer nicht vergessen
+

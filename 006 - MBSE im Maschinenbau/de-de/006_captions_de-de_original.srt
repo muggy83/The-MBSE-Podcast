@@ -1,0 +1,4660 @@
+1
+00:00:05,580 --> 00:00:08,910
+[Musik]
+
+2
+00:00:43,190 --> 00:00:48,130
+[Musik]
+
+3
+00:00:51,610 --> 00:00:57,659
+[Musik]
+
+4
+00:01:20,730 --> 00:01:27,670
+[Musik]
+
+5
+00:01:23,159 --> 00:01:30,490
+hallo herzlich willkommen zum podcast im
+
+6
+00:01:27,670 --> 00:01:32,590
+bsi im maschinenbau das ist unsere
+
+7
+00:01:30,490 --> 00:01:35,619
+sechste episode die wir heute machen und
+
+8
+00:01:32,590 --> 00:01:37,149
+heute haben wir zwei gäste bei uns wir
+
+9
+00:01:35,619 --> 00:01:39,520
+haben die geschäftsführer vom centre for
+
+10
+00:01:37,149 --> 00:01:43,060
+systems entstehen hier drj bert und dr
+
+11
+00:01:39,520 --> 00:01:44,860
+michael sommer und ich übergebe gleich
+
+12
+00:01:43,060 --> 00:01:47,080
+mal an euch dass ihr euch selbst
+
+13
+00:01:44,860 --> 00:01:51,880
+vorstellt fangen wir doch bei york
+
+14
+00:01:47,080 --> 00:01:54,750
+einfach mal ja hallo an euch beide danke
+
+15
+00:01:51,880 --> 00:01:54,750
+dass wir heute hier sein dürfen
+
+16
+00:01:55,110 --> 00:01:59,610
+im namen des händlers systems
+
+17
+00:01:57,100 --> 00:02:03,729
+engineering der rwth aachen
+
+18
+00:01:59,610 --> 00:02:06,390
+ich selbst bin zum einen an der rwth
+
+19
+00:02:03,729 --> 00:02:08,590
+aachen angestellt am institut für
+
+20
+00:02:06,390 --> 00:02:12,940
+maschinenelemente und systementwicklung
+
+21
+00:02:08,590 --> 00:02:15,400
+bin dort bereichsleiter dafür eben den
+
+22
+00:02:12,940 --> 00:02:18,690
+bereich systems engineering im
+
+23
+00:02:15,400 --> 00:02:25,829
+speziellen modellierung und simulation
+
+24
+00:02:18,690 --> 00:02:28,950
+und zusammen mit dem michi eben auch
+
+25
+00:02:25,829 --> 00:02:30,609
+nicht gründer aber zumindest
+
+26
+00:02:28,950 --> 00:02:33,010
+geschäftsführer der center systems
+
+27
+00:02:30,609 --> 00:02:36,640
+engineering gründer nicht deshalb weil
+
+28
+00:02:33,010 --> 00:02:38,739
+wir natürlich auf initiative unserer
+
+29
+00:02:36,640 --> 00:02:40,720
+jeweiligen chefs dieses
+
+30
+00:02:38,739 --> 00:02:41,620
+interdisziplinäre center gegründet haben
+
+31
+00:02:40,720 --> 00:02:44,190
+sind
+
+32
+00:02:41,620 --> 00:02:47,560
+der professor jacobs der professor schuh
+
+33
+00:02:44,190 --> 00:02:50,769
+und der professor humpe zudem machen wir
+
+34
+00:02:47,560 --> 00:02:53,489
+noch den professor brecher mit dabei und
+
+35
+00:02:50,769 --> 00:02:56,829
+damit sehr dahinter des meeres
+
+36
+00:02:53,489 --> 00:03:00,120
+wissenschaftler team mit dem wir
+
+37
+00:02:56,829 --> 00:03:02,470
+zusammen mit eben industrievertretern
+
+38
+00:03:00,120 --> 00:03:03,970
+zum thema ist es unseren linie rings um
+
+39
+00:03:02,470 --> 00:03:06,090
+einen forschen und zum anderen aber auch
+
+40
+00:03:03,970 --> 00:03:09,880
+den transfer von forschungsergebnissen
+
+41
+00:03:06,090 --> 00:03:11,980
+in die industrie sich erstellen und auf
+
+42
+00:03:09,880 --> 00:03:14,019
+der anderen seite aber auch die roadmap
+
+43
+00:03:11,980 --> 00:03:18,810
+die forschungsreihe knapp zusammen mit
+
+44
+00:03:14,019 --> 00:03:18,810
+den industriepartnern definieren
+
+45
+00:03:19,410 --> 00:03:24,519
+da mache ich mit weiter und weiter aus
+
+46
+00:03:22,329 --> 00:03:25,830
+michael riesener ist man da ich komme
+
+47
+00:03:24,519 --> 00:03:27,720
+ich auch hier zu seinen vielen dank
+
+48
+00:03:25,830 --> 00:03:30,540
+die einladung ich bin geschäftsführer
+
+49
+00:03:27,720 --> 00:03:31,050
+der oberbank maschine laborkittel in
+
+50
+00:03:30,540 --> 00:03:32,910
+aachen
+
+51
+00:03:31,050 --> 00:03:35,730
+darüber hinaus zusammen mit jörg weiter
+
+52
+00:03:32,910 --> 00:03:37,740
+dieses center systems engineering und
+
+53
+00:03:35,730 --> 00:03:39,540
+von hause aus
+
+54
+00:03:37,740 --> 00:03:41,750
+damit wartet man kinder insofern ist es
+
+55
+00:03:39,540 --> 00:03:45,360
+heute eigentlich genau das thema was uns
+
+56
+00:03:41,750 --> 00:03:47,640
+seit jahren fasziniert und ich durfte
+
+57
+00:03:45,360 --> 00:03:50,760
+letzten ca 10 jahre ganz im themenfeld
+
+58
+00:03:47,640 --> 00:03:54,540
+innovation entwicklung verschiedene
+
+59
+00:03:50,760 --> 00:03:56,700
+trends mit entwickeln und mit verfolgen
+
+60
+00:03:54,540 --> 00:03:59,610
+am aachener campus und jetzt das thema
+
+61
+00:03:56,700 --> 00:04:01,320
+systems ganz besonders zentrales thema
+
+62
+00:03:59,610 --> 00:04:04,740
+täglich jetzt oder auch für die nächsten
+
+63
+00:04:01,320 --> 00:04:08,000
+jahre vor uns dass wir sind ja freut
+
+64
+00:04:04,740 --> 00:04:10,170
+mich auch sehr euch hier haben zu dürfen
+
+65
+00:04:08,000 --> 00:04:11,580
+insbesondere michael das ist ja witzig
+
+66
+00:04:10,170 --> 00:04:12,720
+wir hätten gerne gemeinsame
+
+67
+00:04:11,580 --> 00:04:15,380
+vergangenheit
+
+68
+00:04:12,720 --> 00:04:17,310
+wir kannten uns schon aus dem
+
+69
+00:04:15,380 --> 00:04:19,799
+wissenschaftlichen mitarbeiter dasein
+
+70
+00:04:17,310 --> 00:04:21,780
+zwischen kaiserslautern und der rwth
+
+71
+00:04:19,799 --> 00:04:23,640
+aachen wollte ja leider nix das projekt
+
+72
+00:04:21,780 --> 00:04:24,780
+damals aber ich fand es schön als wir
+
+73
+00:04:23,640 --> 00:04:28,020
+uns dann wieder gesehen haben auf
+
+74
+00:04:24,780 --> 00:04:30,210
+unserem weg und jagt dich dürfte ich als
+
+75
+00:04:28,020 --> 00:04:31,919
+auch kennenlernen seit die kontakte
+
+76
+00:04:30,210 --> 00:04:33,300
+software eben auch mitglied des centre
+
+77
+00:04:31,919 --> 00:04:36,870
+for systems engineer nichts geworden ist
+
+78
+00:04:33,300 --> 00:04:45,660
+und muss auch sagen tolle zusammenarbeit
+
+79
+00:04:36,870 --> 00:04:49,680
+bis jetzt aber denkt frank werneke ja
+
+80
+00:04:45,660 --> 00:04:51,870
+freut uns wir wollen uns ja heute ein
+
+81
+00:04:49,680 --> 00:04:54,720
+bisschen über den maschinenbau
+
+82
+00:04:51,870 --> 00:04:57,930
+unterhalten und auch wm bse mit dem
+
+83
+00:04:54,720 --> 00:04:58,890
+maschinenbau zusammenhängt oder was so
+
+84
+00:04:57,930 --> 00:05:00,660
+ein bisschen die schwierigkeiten sind
+
+85
+00:04:58,890 --> 00:05:03,570
+aber vielleicht auch die gemeinsamkeiten
+
+86
+00:05:00,660 --> 00:05:06,870
+und ich würde mal mit der ganz
+
+87
+00:05:03,570 --> 00:05:10,140
+provokativen frage starten vielleicht an
+
+88
+00:05:06,870 --> 00:05:14,060
+dich york ist der maschinenbau heute
+
+89
+00:05:10,140 --> 00:05:14,060
+noch die führenden engineers disziplin
+
+90
+00:05:17,120 --> 00:05:24,300
+naja vorneweg vielleicht musste er
+
+91
+00:05:22,919 --> 00:05:27,690
+maschinenbau die führende
+
+92
+00:05:24,300 --> 00:05:29,400
+ingenieurdisziplinen sein muss dazu
+
+93
+00:05:27,690 --> 00:05:31,470
+sagen wenn man den namen von
+
+94
+00:05:29,400 --> 00:05:34,950
+maschinenbau redet dann meint man damit
+
+95
+00:05:31,470 --> 00:05:37,879
+ja eigentlich mechatroniker bei uns sind
+
+96
+00:05:34,950 --> 00:05:41,150
+die regelungstechnik sämtliche
+
+97
+00:05:37,879 --> 00:05:44,940
+in der wissenschaftlichen disziplin
+
+98
+00:05:41,150 --> 00:05:49,139
+unter dem kurz begriff maschinenbau zu
+
+99
+00:05:44,940 --> 00:05:51,979
+hause insofern die produkte die wir
+
+100
+00:05:49,139 --> 00:05:56,580
+entwickeln sind natürlich nicht
+
+101
+00:05:51,979 --> 00:05:58,370
+rain machine baulicher natur sind
+
+102
+00:05:56,580 --> 00:06:02,460
+mechatronische systeme mittlerweile
+
+103
+00:05:58,370 --> 00:06:05,430
+stark vernetzte systeme die ja damit
+
+104
+00:06:02,460 --> 00:06:08,909
+auch eine komplexität generieren die
+
+105
+00:06:05,430 --> 00:06:11,280
+teams dann auch zu schaffen macht und
+
+106
+00:06:08,909 --> 00:06:12,990
+selbstverständlich kann das der wenn man
+
+107
+00:06:11,280 --> 00:06:16,590
+klassische maschinenbau alleine nicht
+
+108
+00:06:12,990 --> 00:06:19,750
+leisten und wissen software getrieben
+
+109
+00:06:16,590 --> 00:06:21,020
+vielmehr software getrieben
+
+110
+00:06:19,750 --> 00:06:22,469
+[Musik]
+
+111
+00:06:21,020 --> 00:06:24,840
+insofern ein
+
+112
+00:06:22,469 --> 00:06:25,650
+ich glaube es ist ein team erfurt der
+
+113
+00:06:24,840 --> 00:06:29,610
+notwendig ist
+
+114
+00:06:25,650 --> 00:06:32,490
+die systeme von heute zu entwickeln und
+
+115
+00:06:29,610 --> 00:06:36,360
+wir helfen dabei das auto auf die straße
+
+116
+00:06:32,490 --> 00:06:38,599
+zu bringen oder den wasserkocher kochen
+
+117
+00:06:36,360 --> 00:06:38,599
+zu lassen
+
+118
+00:06:38,870 --> 00:06:44,360
+neben all den anderen disziplinen die
+
+119
+00:06:41,039 --> 00:06:49,169
+die mit reinspielt in die entwicklung
+
+120
+00:06:44,360 --> 00:06:50,639
+ok einige sagen ja also christians
+
+121
+00:06:49,169 --> 00:06:52,110
+gesagt die maschinenbau war die für eine
+
+122
+00:06:50,639 --> 00:06:53,789
+ingenieurs disziplin oder die frage ob
+
+123
+00:06:52,110 --> 00:06:56,880
+es immer noch ist ich will von anderer
+
+124
+00:06:53,789 --> 00:06:58,169
+seite häufiger weiteren kommentar das
+
+125
+00:06:56,880 --> 00:07:00,270
+ist es nicht mehr software ist jetzt die
+
+126
+00:06:58,169 --> 00:07:02,250
+führenden ingenieurs disziplin da spielt
+
+127
+00:07:00,270 --> 00:07:04,979
+die ganze musik bei dir jetzt raus ist
+
+128
+00:07:02,250 --> 00:07:07,139
+geht es eher um das zusammenspiel von
+
+129
+00:07:04,979 --> 00:07:08,580
+den disziplin- und das braucht
+
+130
+00:07:07,139 --> 00:07:10,009
+vielleicht gar keine führende ingenieurs
+
+131
+00:07:08,580 --> 00:07:13,430
+disziplin ist noch ein unsinniger
+
+132
+00:07:10,009 --> 00:07:17,900
+wettkampf der disziplin der stattfindet
+
+133
+00:07:13,430 --> 00:07:21,000
+also denke ich denke ich ganz stark
+
+134
+00:07:17,900 --> 00:07:22,800
+klar das wird je nach business case wird
+
+135
+00:07:21,000 --> 00:07:23,629
+einmal die software mehr im vordergrund
+
+136
+00:07:22,800 --> 00:07:25,710
+stehen
+
+137
+00:07:23,629 --> 00:07:30,690
+auf der anderen seite das ist dann aber
+
+138
+00:07:25,710 --> 00:07:32,370
+wieder vielleicht ja die baugruppe damit
+
+139
+00:07:30,690 --> 00:07:34,259
+gerät auch mehr der maschinenbau ich
+
+140
+00:07:32,370 --> 00:07:37,979
+glaube das ist individuell was aber
+
+141
+00:07:34,259 --> 00:07:40,680
+wesentlich ist dass wir gemeinsam diese
+
+142
+00:07:37,979 --> 00:07:43,620
+systeme entwickeln und damit natürlich
+
+143
+00:07:40,680 --> 00:07:45,690
+auch schnittstellen lande haben und die
+
+144
+00:07:43,620 --> 00:07:47,219
+erfahrung und die beobachtung zeigt eben
+
+145
+00:07:45,690 --> 00:07:51,120
+dass genau an diesen schnittstellen oft
+
+146
+00:07:47,219 --> 00:07:53,340
+hakt und dadurch
+
+147
+00:07:51,120 --> 00:07:57,120
+vielleicht deshalb beschäftigen wir uns
+
+148
+00:07:53,340 --> 00:07:58,590
+intensiv mit dem systems engineering bei
+
+149
+00:07:57,120 --> 00:08:04,110
+dem wir genau an diesen schnittstellen
+
+150
+00:07:58,590 --> 00:08:05,820
+ansetzen wenn sie das klassische bild
+
+151
+00:08:04,110 --> 00:08:08,310
+weshalb der typische fielen auch
+
+152
+00:08:05,820 --> 00:08:11,460
+vielleicht auch seine sachkenntnisse die
+
+153
+00:08:08,310 --> 00:08:16,350
+blumen tiere in der die software früher
+
+154
+00:08:11,460 --> 00:08:18,389
+irgendwie eine zeile war lissabon die
+
+155
+00:08:16,350 --> 00:08:21,449
+software zu flashen oder irgend sowas so
+
+156
+00:08:18,389 --> 00:08:22,889
+ein punkt der relative und das wird sich
+
+157
+00:08:21,449 --> 00:08:25,410
+halt oder das ist ja gerade schon dabei
+
+158
+00:08:22,889 --> 00:08:26,280
+seit jahren sich zu wandeln und genauso
+
+159
+00:08:25,410 --> 00:08:27,780
+wenn jetzt von dem softwareunternehmen
+
+160
+00:08:26,280 --> 00:08:30,539
+drauf haben würde da wären vielleicht
+
+161
+00:08:27,780 --> 00:08:34,820
+irgendwann das technische konstrukt oder
+
+162
+00:08:30,539 --> 00:08:38,339
+die hülle sozusagen ist danach ein
+
+163
+00:08:34,820 --> 00:08:39,810
+baustein in dem code also kann man halt
+
+164
+00:08:38,339 --> 00:08:41,250
+auch auf die pflegesoftware sich drauf
+
+165
+00:08:39,810 --> 00:08:43,260
+schauen da sieht man ja schon dass an
+
+166
+00:08:41,250 --> 00:08:46,230
+diesen beiden sichtweisen dass sich die
+
+167
+00:08:43,260 --> 00:08:48,810
+beiden systeme miteinander verhakt sich
+
+168
+00:08:46,230 --> 00:08:51,089
+verstehen müssen und austauschen müssen
+
+169
+00:08:48,810 --> 00:08:53,760
+das ist das spannende dass man bis
+
+170
+00:08:51,089 --> 00:08:55,290
+neutral über funktionen nachdenkt das
+
+171
+00:08:53,760 --> 00:08:57,000
+spannende an das unternehmen deswegen
+
+172
+00:08:55,290 --> 00:08:57,630
+mit diesen wettbewerber da würden sie
+
+173
+00:08:57,000 --> 00:09:00,209
+jemals gab
+
+174
+00:08:57,630 --> 00:09:01,440
+weil ich kann ich aber es macht keinen
+
+175
+00:09:00,209 --> 00:09:02,730
+sinn mehr in diesen dörfern zu führen
+
+176
+00:09:01,440 --> 00:09:05,490
+sondern man muss ja gemeinsam mit
+
+177
+00:09:02,730 --> 00:09:07,500
+disziplin das machen und das neue was
+
+178
+00:09:05,490 --> 00:09:09,690
+vielleicht kommt ist genau deshalb
+
+179
+00:09:07,500 --> 00:09:12,440
+deutlich ausgeprägt ist und sein wird
+
+180
+00:09:09,690 --> 00:09:12,440
+als noch vor zehn jahren
+
+181
+00:09:13,640 --> 00:09:26,430
+dann frage ich mal andersrum sozusagen
+
+182
+00:09:19,220 --> 00:09:27,390
+die diplomatisch werden hier ihr habt
+
+183
+00:09:26,430 --> 00:09:29,430
+jetzt mal ganz schön dargestellt
+
+184
+00:09:27,390 --> 00:09:32,279
+eigentlich dass das eben gerade die
+
+185
+00:09:29,430 --> 00:09:34,140
+zusammenarbeit ganz wichtig ist und ich
+
+186
+00:09:32,279 --> 00:09:38,580
+glaube auch viel innovation eben daher
+
+187
+00:09:34,140 --> 00:09:40,950
+kommt das ja funktionen aus
+
+188
+00:09:38,580 --> 00:09:43,440
+verschiedenen ingenieurs disziplinen
+
+189
+00:09:40,950 --> 00:09:48,890
+gemeinsam verwendet werden um dann eben
+
+190
+00:09:43,440 --> 00:09:48,890
+ein größeres ganzes zu realisieren
+
+191
+00:09:48,980 --> 00:09:54,300
+wie seht ihr denn jetzt ich weiß nicht
+
+192
+00:09:51,810 --> 00:09:55,920
+mehr darauf antworten möchte wie seht
+
+193
+00:09:54,300 --> 00:09:57,600
+ihr denn so ein bisschen den
+
+194
+00:09:55,920 --> 00:09:59,519
+zusammenhang zwischen systems
+
+195
+00:09:57,600 --> 00:10:01,709
+engineering und der maschinenbau wo
+
+196
+00:09:59,519 --> 00:10:09,690
+ähnelt sich das wo unterscheidet sich
+
+197
+00:10:01,709 --> 00:10:11,870
+das vielleicht also ich weiß gar nicht
+
+198
+00:10:09,690 --> 00:10:15,329
+immer das so sagen kann
+
+199
+00:10:11,870 --> 00:10:17,550
+denn systems engineering ansatz denn
+
+200
+00:10:15,329 --> 00:10:20,519
+verfolgen wir maschinenbau ja
+
+201
+00:10:17,550 --> 00:10:25,010
+letztendlich auch zumindest theoretisch
+
+202
+00:10:20,519 --> 00:10:28,980
+so so die wissenschafter es versucht hat
+
+203
+00:10:25,010 --> 00:10:33,180
+wir haben auch hier seit seit 30 jahren
+
+204
+00:10:28,980 --> 00:10:35,430
+in der konstruktions methodik zum
+
+205
+00:10:33,180 --> 00:10:36,839
+beispiel unter professor kollaps lange
+
+206
+00:10:35,430 --> 00:10:40,459
+damit beschäftigt wie wir
+
+207
+00:10:36,839 --> 00:10:43,260
+funktional entwickeln können wie wir
+
+208
+00:10:40,459 --> 00:10:47,990
+ausgehend von einer funktionalen deko
+
+209
+00:10:43,260 --> 00:10:51,180
+position dass das system runter bis auf
+
+210
+00:10:47,990 --> 00:10:55,800
+sogenannte elementare funktionen die
+
+211
+00:10:51,180 --> 00:11:00,990
+letztendlich unsere unsere kleinsten
+
+212
+00:10:55,800 --> 00:11:02,940
+grundfunktion darstellen lösung finden
+
+213
+00:11:00,990 --> 00:11:05,370
+können und dass vor allem strukturiert
+
+214
+00:11:02,940 --> 00:11:08,250
+finden können über so genannte prinzip
+
+215
+00:11:05,370 --> 00:11:10,290
+lösungen bei denen wir letztendlich zur
+
+216
+00:11:08,250 --> 00:11:13,079
+elementare funktionen wie zum beispiel
+
+217
+00:11:10,290 --> 00:11:16,680
+sein können verriet mit energie zu
+
+218
+00:11:13,079 --> 00:11:19,170
+beauftragen oder energie von einer
+
+219
+00:11:16,680 --> 00:11:20,820
+formen die andere zu konvertieren eben
+
+220
+00:11:19,170 --> 00:11:22,560
+entsprechende physikalische effekte
+
+221
+00:11:20,820 --> 00:11:24,630
+finden können aus denen dann
+
+222
+00:11:22,560 --> 00:11:27,320
+letztendlich lösungen stehen können ja
+
+223
+00:11:24,630 --> 00:11:29,640
+also wir haben uns schon immer versucht
+
+224
+00:11:27,320 --> 00:11:31,680
+wir haben es aber glaube ich noch nicht
+
+225
+00:11:29,640 --> 00:11:34,910
+so richtig dann ins handwerkliche
+
+226
+00:11:31,680 --> 00:11:37,620
+übersetzen können in der vergangenheit
+
+227
+00:11:34,910 --> 00:11:40,399
+das hat sich ja sehr viel damit zu tun
+
+228
+00:11:37,620 --> 00:11:44,970
+dass der maschinenbauer an sich
+
+229
+00:11:40,399 --> 00:11:47,310
+plastisch denkt und früher sein brett
+
+230
+00:11:44,970 --> 00:11:48,899
+von der skizze bis in die technische
+
+231
+00:11:47,310 --> 00:11:52,380
+zeichnen und gegangen ist heute heben
+
+232
+00:11:48,899 --> 00:11:58,139
+im 3d cad system gerne seine lösung
+
+233
+00:11:52,380 --> 00:12:03,329
+direkt plastisch modelliert und und und
+
+234
+00:11:58,139 --> 00:12:04,680
+dann entsprechend umsetzt und da aber
+
+235
+00:12:03,329 --> 00:12:07,500
+letztendlich auch angreifen weil wir
+
+236
+00:12:04,680 --> 00:12:09,059
+glauben dass uns damit ein wesentlicher
+
+237
+00:12:07,500 --> 00:12:12,419
+teil
+
+238
+00:12:09,059 --> 00:12:16,729
+verloren geht im maschinenbau der es vor
+
+239
+00:12:12,419 --> 00:12:18,749
+allem dann dann zum problem werden lässt
+
+240
+00:12:16,729 --> 00:12:21,019
+wenn aufgrund von geänderten
+
+241
+00:12:18,749 --> 00:12:23,329
+anforderungen plötzlich ganz neue
+
+242
+00:12:21,019 --> 00:12:26,279
+funktionsmerkmale aufkommen und ich mein
+
+243
+00:12:23,329 --> 00:12:29,639
+vorhandenes physikalisches system eine
+
+244
+00:12:26,279 --> 00:12:32,969
+maschine plötzlich neu verlegen muss und
+
+245
+00:12:29,639 --> 00:12:34,889
+zwar auf basis der der anforderungen die
+
+246
+00:12:32,969 --> 00:12:36,929
+der kunde in form von kunden funktionen
+
+247
+00:12:34,889 --> 00:12:40,649
+stellt und dann stehe ich plötzlich vor
+
+248
+00:12:36,929 --> 00:12:42,569
+diesem baugruppen konstrukt und finde
+
+249
+00:12:40,649 --> 00:12:43,949
+meine funktion nicht wieder wenn ich die
+
+250
+00:12:42,569 --> 00:12:46,709
+da sagen ja nicht hinkommt niederrhein
+
+251
+00:12:43,949 --> 00:12:49,109
+korrigiert haben mit dem in dem moment
+
+252
+00:12:46,709 --> 00:12:51,059
+fällt uns dann auf dass wir da doch
+
+253
+00:12:49,109 --> 00:12:53,189
+irgendwie ein bisschen zu viel im pc dem
+
+254
+00:12:51,059 --> 00:12:56,479
+kopf voraus gesetzt haben und das
+
+255
+00:12:53,189 --> 00:12:58,499
+vielleicht gar nicht so für die nachwelt
+
+256
+00:12:56,479 --> 00:13:00,689
+irgendwohin wo dokumentiert und
+
+257
+00:12:58,499 --> 00:13:04,019
+spezifiziert haben ist ein schöner
+
+258
+00:13:00,689 --> 00:13:06,389
+gedanke und ich glaube auch persönlich
+
+259
+00:13:04,019 --> 00:13:09,779
+dass da genau der unterschied liegt
+
+260
+00:13:06,389 --> 00:13:12,179
+zwischen dem deutschen system ingenieure
+
+261
+00:13:09,779 --> 00:13:13,619
+die man schon seit jahren oder fast
+
+262
+00:13:12,179 --> 00:13:16,139
+schon dekaden in den stellenanzeigen
+
+263
+00:13:13,619 --> 00:13:19,649
+findet und dem systems engineering
+
+264
+00:13:16,139 --> 00:13:21,089
+incose sinne also das ist mir in den
+
+265
+00:13:19,649 --> 00:13:23,029
+letzten jahren je mehr ich mich mit
+
+266
+00:13:21,089 --> 00:13:26,339
+einem bse beschäftigt habt immer
+
+267
+00:13:23,029 --> 00:13:28,769
+präsenter geworden und ich weiß nicht
+
+268
+00:13:26,339 --> 00:13:31,919
+hier bildet ja viele systems engineer s
+
+269
+00:13:28,769 --> 00:13:33,389
+aus was bringen die dann somit aus
+
+270
+00:13:31,919 --> 00:13:38,159
+welchen disziplinen kommen die denn
+
+271
+00:13:33,389 --> 00:13:41,879
+oftmals escobars im prinzip aus allen
+
+272
+00:13:38,159 --> 00:13:43,079
+disziplinen aus dem bauch würde ich
+
+273
+00:13:41,879 --> 00:13:47,359
+sagen wahrscheinlich schon weniger
+
+274
+00:13:43,079 --> 00:13:49,709
+maschinenbau also eher software
+
+275
+00:13:47,359 --> 00:13:55,229
+electricals engineering und sowas der
+
+276
+00:13:49,709 --> 00:13:57,449
+ecke aber auch maschinenbau und wichtige
+
+277
+00:13:55,229 --> 00:13:58,949
+eigenschaften finde ich es eben dass das
+
+278
+00:13:57,449 --> 00:14:00,389
+system denken zu haben so schwer
+
+279
+00:13:58,949 --> 00:14:02,699
+greifbaren das sieht man jemanden nicht
+
+280
+00:14:00,389 --> 00:14:04,739
+an ob er das hat versteht eine testfrage
+
+281
+00:14:02,699 --> 00:14:06,659
+zu stellen das ist irgendwie so ein
+
+282
+00:14:04,739 --> 00:14:07,709
+match das merkt man nach einer weile ob
+
+283
+00:14:06,659 --> 00:14:10,139
+jemand das hat oder nicht
+
+284
+00:14:07,709 --> 00:14:11,219
+und dieses abstraktionsvermögen zu haben
+
+285
+00:14:10,139 --> 00:14:14,489
+das ist ehrlich so dass das
+
+286
+00:14:11,219 --> 00:14:15,869
+entscheidende was meinst du mit dem
+
+287
+00:14:14,489 --> 00:14:17,220
+deutschen system ingenieur
+
+288
+00:14:15,869 --> 00:14:18,449
+ich hatte als erstes den kopf wenn man
+
+289
+00:14:17,220 --> 00:14:20,699
+in stellenanzeigen guckt es dann aber
+
+290
+00:14:18,449 --> 00:14:21,050
+der adressat von gross rechenanlagen der
+
+291
+00:14:20,699 --> 00:14:23,570
+werden
+
+292
+00:14:21,050 --> 00:14:25,160
+auch systemingenieur genannt aber dem
+
+293
+00:14:23,570 --> 00:14:27,529
+hat das du wahrscheinlich genau hin
+
+294
+00:14:25,160 --> 00:14:29,600
+meinte ich natürlich nicht sondern es
+
+295
+00:14:27,529 --> 00:14:31,940
+ist man findet schon seit vielen vielen
+
+296
+00:14:29,600 --> 00:14:34,130
+jahren immer wieder stellenanzeigen wo
+
+297
+00:14:31,940 --> 00:14:36,050
+ja ein breites ingenieurswissen aus
+
+298
+00:14:34,130 --> 00:14:39,160
+vielen disziplinen vorausgesetzt wird
+
+299
+00:14:36,050 --> 00:14:44,209
+die dann eben ja ich sag mal auf sondern
+
+300
+00:14:39,160 --> 00:14:46,480
+übergeordneten ebene die die disziplinen
+
+301
+00:14:44,209 --> 00:14:50,089
+unterstützen weil die sich halt oftmals
+
+302
+00:14:46,480 --> 00:14:54,589
+ja nicht verstehen muss man einfach so
+
+303
+00:14:50,089 --> 00:14:57,410
+sagen und was ich ganz spannend fand bei
+
+304
+00:14:54,589 --> 00:14:59,709
+uns im vorgespräch war eigentlich der
+
+305
+00:14:57,410 --> 00:15:02,149
+gedanke den michael gebracht hat dass
+
+306
+00:14:59,709 --> 00:15:05,420
+der maschinenbau ja nicht schon immer so
+
+307
+00:15:02,149 --> 00:15:08,269
+war wie er ist und ich glaube da hat
+
+308
+00:15:05,420 --> 00:15:09,350
+sich ja schon einiges getan auch in den
+
+309
+00:15:08,269 --> 00:15:11,810
+ich weiß nicht wie alt ist der
+
+310
+00:15:09,350 --> 00:15:16,339
+maschinenbau und was gibt es eine grobe
+
+311
+00:15:11,810 --> 00:15:19,430
+entwicklung die man so sehen kann also
+
+312
+00:15:16,339 --> 00:15:20,930
+der viel daran sich die frage wie wollen
+
+313
+00:15:19,430 --> 00:15:23,930
+wir jetzt in der historie zurück geben
+
+314
+00:15:20,930 --> 00:15:27,950
+sozusagen erstmal schienen gebaut so
+
+315
+00:15:23,930 --> 00:15:30,709
+dass man sagen kann dass das vor 200
+
+316
+00:15:27,950 --> 00:15:32,720
+jahren den wilden lichten maschinen
+
+317
+00:15:30,709 --> 00:15:35,750
+waren die aus rein mechanischen
+
+318
+00:15:32,720 --> 00:15:39,700
+komponenten standen das war rein
+
+319
+00:15:35,750 --> 00:15:42,110
+mechanisch oder dann irgendwann mit
+
+320
+00:15:39,700 --> 00:15:44,060
+elektrik elektronik immer weiter
+
+321
+00:15:42,110 --> 00:15:48,200
+angereichert aber gerade diese
+
+322
+00:15:44,060 --> 00:15:50,899
+verschiebung der letzten ca 20 25 jahre
+
+323
+00:15:48,200 --> 00:15:51,829
+die ist halt tatsächlich oder führt dazu
+
+324
+00:15:50,899 --> 00:15:56,000
+dass es eine art paradigmenwechsel
+
+325
+00:15:51,829 --> 00:15:58,310
+pappig gibt wenn man natürlich rein
+
+326
+00:15:56,000 --> 00:16:00,110
+mechanische lösungen entwickelt dann
+
+327
+00:15:58,310 --> 00:16:02,089
+kann man auch mit prinzipien daran gehen
+
+328
+00:16:00,110 --> 00:16:05,149
+die halt die lösungsfindung sozusagen
+
+329
+00:16:02,089 --> 00:16:07,329
+oder auch mit methoden modellen halt
+
+330
+00:16:05,149 --> 00:16:09,470
+einfach nur auf das mechanische
+
+331
+00:16:07,329 --> 00:16:10,880
+entwickeln sich fokussieren wenn man
+
+332
+00:16:09,470 --> 00:16:13,279
+jetzt aber im letzten und 20 jahren und
+
+333
+00:16:10,880 --> 00:16:15,200
+das dreht sich erweitert das gerade
+
+334
+00:16:13,279 --> 00:16:18,200
+gerade dann merkt das
+
+335
+00:16:15,200 --> 00:16:20,390
+der funktions anteil der mit software an
+
+336
+00:16:18,200 --> 00:16:22,550
+mit der elektronik realisiert wird
+
+337
+00:16:20,390 --> 00:16:25,820
+einfach immer weiter ansteigt dann ist
+
+338
+00:16:22,550 --> 00:16:28,100
+es natürlich nicht mehr möglich nur mit
+
+339
+00:16:25,820 --> 00:16:31,310
+den alten daher gebrachten methoden
+
+340
+00:16:28,100 --> 00:16:33,290
+sozusagen zu arbeiten und deswegen muss
+
+341
+00:16:31,310 --> 00:16:33,680
+man das zunehmend in so einem system zu
+
+342
+00:16:33,290 --> 00:16:35,090
+drängen
+
+343
+00:16:33,680 --> 00:16:36,350
+deswegen also sein recht bestehen dass
+
+344
+00:16:35,090 --> 00:16:37,790
+ich vielleicht einfach nicht verstehen
+
+345
+00:16:36,350 --> 00:16:41,480
+also viel disziplin und verstehen sich
+
+346
+00:16:37,790 --> 00:16:44,270
+nicht früher halt weil die software
+
+347
+00:16:41,480 --> 00:16:46,070
+überhaupt ein addon an das produkt heute
+
+348
+00:16:44,270 --> 00:16:48,380
+ist aber die software ein wesentlicher
+
+349
+00:16:46,070 --> 00:16:51,620
+bestandteil der lösungsfindung und der
+
+350
+00:16:48,380 --> 00:16:55,880
+defizit und das zu integrieren das geht
+
+351
+00:16:51,620 --> 00:16:58,190
+nur über modelle über ein andenken und
+
+352
+00:16:55,880 --> 00:17:00,560
+was über die 2d 3d informationen hinaus
+
+353
+00:16:58,190 --> 00:17:03,350
+geht also der eine gefahr denn man sieht
+
+354
+00:17:00,560 --> 00:17:05,900
+diese verschiebung von den funktions
+
+355
+00:17:03,350 --> 00:17:07,220
+eröffnung freute das hat meinem vor
+
+356
+00:17:05,900 --> 00:17:10,209
+gespräche oder eben schon mal kurz
+
+357
+00:17:07,220 --> 00:17:13,040
+angedeutet dass wir morgen natürlich
+
+358
+00:17:10,209 --> 00:17:15,320
+systeme haben die connected sind systeme
+
+359
+00:17:13,040 --> 00:17:18,199
+haben bei dem es mehr um eine einbindung
+
+360
+00:17:15,320 --> 00:17:19,940
+in ein geschäftsmodell geht wenn wir an
+
+361
+00:17:18,199 --> 00:17:21,170
+die landwirtschaft denken weil sie das
+
+362
+00:17:19,940 --> 00:17:24,770
+ist aber weniger um den traktor geht
+
+363
+00:17:21,170 --> 00:17:26,990
+sondern eher um den einsatz im feld der
+
+364
+00:17:24,770 --> 00:17:28,400
+dann abgerechnet werden kann morgen das
+
+365
+00:17:26,990 --> 00:17:32,990
+heißt dass auch noch ein system
+
+366
+00:17:28,400 --> 00:17:34,040
+wir betrachten was nutzt abdeckt und das
+
+367
+00:17:32,990 --> 00:17:35,780
+wiesen beide richten kann jetzt ein
+
+368
+00:17:34,040 --> 00:17:37,880
+standard ablesen dass es eben nicht mehr
+
+369
+00:17:35,780 --> 00:17:41,330
+würden die klassischen nur 3d 2d cad
+
+370
+00:17:37,880 --> 00:17:44,360
+system geht sondern dass man halt für im
+
+371
+00:17:41,330 --> 00:17:48,260
+maschinenbau in der mechatronik ganz
+
+372
+00:17:44,360 --> 00:17:49,340
+klar über das system der gekommen ich
+
+373
+00:17:48,260 --> 00:17:50,230
+habe dich haben jetzt ja schon häufiger
+
+374
+00:17:49,340 --> 00:17:52,520
+erwähnt
+
+375
+00:17:50,230 --> 00:17:53,270
+ich bin auf dem eis wird ist das nicht
+
+376
+00:17:52,520 --> 00:17:55,900
+sogar eine deutsche erfindung
+
+377
+00:17:53,270 --> 00:17:59,870
+mechatronik dass man der mechanik
+
+378
+00:17:55,900 --> 00:18:01,130
+elektronik und es ist nicht aber
+
+379
+00:17:59,870 --> 00:18:02,300
+irgendwas ich mit dem kopf aber mich hat
+
+380
+00:18:01,130 --> 00:18:03,920
+roddick ist das nicht so ein
+
+381
+00:18:02,300 --> 00:18:05,420
+gleichgewicht ich wäre systems engineer
+
+382
+00:18:03,920 --> 00:18:06,770
+das irgendwie auf dem weg dorthin hat
+
+383
+00:18:05,420 --> 00:18:08,930
+immer drei disziplinen zusammen geworfen
+
+384
+00:18:06,770 --> 00:18:10,100
+die oft zusammenfallen und versucht die
+
+385
+00:18:08,930 --> 00:18:11,570
+zusammenzubringen
+
+386
+00:18:10,100 --> 00:18:12,710
+zu einer neuen disziplin und systems
+
+387
+00:18:11,570 --> 00:18:14,020
+engineering ist einfach nur noch viel
+
+388
+00:18:12,710 --> 00:18:15,830
+allgemeiner
+
+389
+00:18:14,020 --> 00:18:16,580
+und ich habe auch nichts halte eine
+
+390
+00:18:15,830 --> 00:18:21,260
+rolle zu spielen
+
+391
+00:18:16,580 --> 00:18:22,760
+bei euch immer stehen liegt daran das
+
+392
+00:18:21,260 --> 00:18:24,340
+hat natürlich zunächst hauptsächlich
+
+393
+00:18:22,760 --> 00:18:26,169
+elektrik elektronik
+
+394
+00:18:24,340 --> 00:18:28,870
+funktionierten die positive eingebaut
+
+395
+00:18:26,169 --> 00:18:30,820
+wurden in den 90er und 2000er jahren
+
+396
+00:18:28,870 --> 00:18:32,260
+jetzt hat die letzten zehn jahre hat
+
+397
+00:18:30,820 --> 00:18:33,490
+hauptsächlich der fokus natürlich hat
+
+398
+00:18:32,260 --> 00:18:36,940
+auch auf zunehmendes auch für
+
+399
+00:18:33,490 --> 00:18:38,279
+integration und cloud sollten weiter
+
+400
+00:18:36,940 --> 00:18:40,000
+gepflegt wurde
+
+401
+00:18:38,279 --> 00:18:44,770
+mittlerweile stand über die welt
+
+402
+00:18:40,000 --> 00:18:46,779
+ausgehen ja ich finde das auch sehr
+
+403
+00:18:44,770 --> 00:18:48,760
+witzig so wie ich jetzt eben das
+
+404
+00:18:46,779 --> 00:18:51,700
+institut vom jörg kennenlernen durfte
+
+405
+00:18:48,760 --> 00:18:54,100
+die ja wirklich sehr ja mechatronik
+
+406
+00:18:51,700 --> 00:18:56,799
+denken da hatte ich so eine anekdote bei
+
+407
+00:18:54,100 --> 00:19:00,309
+uns an der uni in kaiserslautern wo man
+
+408
+00:18:56,799 --> 00:19:01,750
+ja sagte das heißt doch hier nicht
+
+409
+00:19:00,309 --> 00:19:03,279
+mechanik baut das heißt auch
+
+410
+00:19:01,750 --> 00:19:06,190
+maschinenbau warum stellen sie sich denn
+
+411
+00:19:03,279 --> 00:19:08,440
+hier manchmal so an das finde ich sehr
+
+412
+00:19:06,190 --> 00:19:12,130
+schön einfach den den ansatz den ihrer
+
+413
+00:19:08,440 --> 00:19:14,799
+fahrt am msc weil ihr ja eigentlich
+
+414
+00:19:12,130 --> 00:19:17,590
+wirklich nur mechanisches fach habt ja
+
+415
+00:19:14,799 --> 00:19:21,210
+also mit maschinen elementen oder also
+
+416
+00:19:17,590 --> 00:19:24,130
+mechanischer geht es ja fast nicht
+
+417
+00:19:21,210 --> 00:19:26,380
+deshalb freut es uns auch rw gießen
+
+418
+00:19:24,130 --> 00:19:28,299
+früher institut für maschinenelemente
+
+419
+00:19:26,380 --> 00:19:30,419
+und maschinen gestartet
+
+420
+00:19:28,299 --> 00:19:33,730
+heute halte maschinenelemente und
+
+421
+00:19:30,419 --> 00:19:34,720
+systementwicklung kehrmaschinen
+
+422
+00:19:33,730 --> 00:19:36,610
+gestaltung hat es nicht so richtig
+
+423
+00:19:34,720 --> 00:19:39,190
+ausgedrückt aber der faktor war schon
+
+424
+00:19:36,610 --> 00:19:41,289
+immer das thema also in dem moment in
+
+425
+00:19:39,190 --> 00:19:44,440
+dem ich maschinenelemente entwickle als
+
+426
+00:19:41,289 --> 00:19:47,440
+kleines teil system sind sie immer ein
+
+427
+00:19:44,440 --> 00:19:51,309
+teil des gesamtsystems konnte gerade in
+
+428
+00:19:47,440 --> 00:19:52,899
+der in der dynamik haben wir sofort die
+
+429
+00:19:51,309 --> 00:19:55,210
+wechselwirkung zwischen den einzelnen
+
+430
+00:19:52,899 --> 00:20:00,220
+teilsystem schon auf mechanischer hebel
+
+431
+00:19:55,210 --> 00:20:01,960
+naja also auch da spüren wir schon schon
+
+432
+00:20:00,220 --> 00:20:04,240
+die zusammenhänge und wenn man jetzt
+
+433
+00:20:01,960 --> 00:20:08,110
+darüber hinaus geht und sagt das system
+
+434
+00:20:04,240 --> 00:20:12,100
+ist typischerweise noch von dem von dem
+
+435
+00:20:08,110 --> 00:20:13,720
+regelungstechnische system umspannt dann
+
+436
+00:20:12,100 --> 00:20:17,770
+sind wir ja schon in der mechatronik
+
+437
+00:20:13,720 --> 00:20:19,929
+also was mit reifen dann fängt sich
+
+438
+00:20:17,770 --> 00:20:23,590
+einfach aus einem teilsystem das
+
+439
+00:20:19,929 --> 00:20:27,250
+übergeordnete system zu geben dann wird
+
+440
+00:20:23,590 --> 00:20:29,799
+das ebenso was bedeutet das für die
+
+441
+00:20:27,250 --> 00:20:31,870
+lehre also ihr bringt wahrscheinlich
+
+442
+00:20:29,799 --> 00:20:34,809
+ihren studenten immer noch zeichnen bei
+
+443
+00:20:31,870 --> 00:20:36,809
+vermutlich man aber lernte maschinen
+
+444
+00:20:34,809 --> 00:20:39,480
+bauen zwischen sam l
+
+445
+00:20:36,809 --> 00:20:41,840
+ja also das ist natürlich ein starkes
+
+446
+00:20:39,480 --> 00:20:44,999
+bestreben also vielleicht noch mal
+
+447
+00:20:41,840 --> 00:20:46,950
+fragen warum es im herrlich ich meine
+
+448
+00:20:44,999 --> 00:20:49,679
+mit der mel ist ja eine sprache gelungen
+
+449
+00:20:46,950 --> 00:20:52,940
+die eben nicht nur der software
+
+450
+00:20:49,679 --> 00:20:56,749
+techniker sondern auch maschinenbau
+
+451
+00:20:52,940 --> 00:21:00,269
+elektrotechnik entsprechen soll
+
+452
+00:20:56,749 --> 00:21:02,340
+da erhoffen wir uns natürlich daraus und
+
+453
+00:21:00,269 --> 00:21:04,519
+davon dass es dann auch die möglichkeit
+
+454
+00:21:02,340 --> 00:21:07,220
+bietet dass sich diese domain
+
+455
+00:21:04,519 --> 00:21:09,210
+entsprechend auch besser untereinander
+
+456
+00:21:07,220 --> 00:21:11,600
+beziehungsweise genau an den
+
+457
+00:21:09,210 --> 00:21:14,190
+schnittstellen verstehen lernen
+
+458
+00:21:11,600 --> 00:21:17,850
+insofern ist das für uns sehr wichtig
+
+459
+00:21:14,190 --> 00:21:20,039
+dass das in der lehre mittlerweile auch
+
+460
+00:21:17,850 --> 00:21:24,539
+aus rheine seinen platz gefunden hat
+
+461
+00:21:20,039 --> 00:21:26,580
+wir sind aktuell sehr sehr stark daran
+
+462
+00:21:24,539 --> 00:21:30,179
+unsere modellbasierte produktentwicklung
+
+463
+00:21:26,580 --> 00:21:32,999
+als modul hier an der uni in der
+
+464
+00:21:30,179 --> 00:21:34,740
+fakultät weiter ausbauen
+
+465
+00:21:32,999 --> 00:21:37,799
+es spielt das eine ganz zentrale rolle
+
+466
+00:21:34,740 --> 00:21:40,559
+also wir wir sehen hier schon genauso
+
+467
+00:21:37,799 --> 00:21:42,509
+wie damals um 3d cad system den
+
+468
+00:21:40,559 --> 00:21:43,409
+paradigmenwechsel schlechthin wir
+
+469
+00:21:42,509 --> 00:21:46,159
+erfahren werden
+
+470
+00:21:43,409 --> 00:21:48,929
+in der entwicklung von systemen nämlich
+
+471
+00:21:46,159 --> 00:21:52,559
+damals weg vom zeichenbrett ihn zum 3d
+
+472
+00:21:48,929 --> 00:21:53,809
+system sind wir heute daneben schritt
+
+473
+00:21:52,559 --> 00:21:56,429
+weiter noch hinzu
+
+474
+00:21:53,809 --> 00:21:59,210
+wirklich absolut modell basieren weil
+
+475
+00:21:56,429 --> 00:22:01,529
+wir glauben in den modellen
+
+476
+00:21:59,210 --> 00:22:02,700
+typischerweise physikalische modelle
+
+477
+00:22:01,529 --> 00:22:04,350
+vielleicht aber auch wirtschaftliche
+
+478
+00:22:02,700 --> 00:22:07,980
+modelle da steckt die wahrheit drin mit
+
+479
+00:22:04,350 --> 00:22:11,850
+der wir am ende system funktionieren
+
+480
+00:22:07,980 --> 00:22:16,320
+können und somit auch system optimale
+
+481
+00:22:11,850 --> 00:22:18,840
+lösung finden kann ich den quattro
+
+482
+00:22:16,320 --> 00:22:22,950
+gemacht wenn man also maschinenbau heißt
+
+483
+00:22:18,840 --> 00:22:24,360
+er so war ihr für nach maschinen baut ja
+
+484
+00:22:22,950 --> 00:22:25,919
+genau aber jetzt mal 100 jahre
+
+485
+00:22:24,360 --> 00:22:29,190
+zurückdenkt da war die maschine ja aber
+
+486
+00:22:25,919 --> 00:22:31,679
+das system und dann hat man halt noch
+
+487
+00:22:29,190 --> 00:22:33,659
+ein bisschen dampf und strom raum gebaut
+
+488
+00:22:31,679 --> 00:22:34,740
+oder gibt des weges ungefähr aber
+
+489
+00:22:33,659 --> 00:22:36,389
+letztendlich war es ja das systems
+
+490
+00:22:34,740 --> 00:22:39,869
+engineering von vor 100 jahren deswegen
+
+491
+00:22:36,389 --> 00:22:41,340
+sind maschinenbau hat auch er den
+
+492
+00:22:39,869 --> 00:22:42,419
+ganzheitlichen ansatz der schon damit
+
+493
+00:22:41,340 --> 00:22:43,799
+drin steckt
+
+494
+00:22:42,419 --> 00:22:44,940
+dass man das ganze betrachtet wenn jetzt
+
+495
+00:22:43,799 --> 00:22:47,250
+in anderen disziplinen reinkommt
+
+496
+00:22:44,940 --> 00:22:49,980
+spezifisch und dem wir mal so oft es
+
+497
+00:22:47,250 --> 00:22:51,779
+vielleicht speziell zu speziell optical
+
+498
+00:22:49,980 --> 00:22:52,889
+engineering oder so was die würden habe
+
+499
+00:22:51,779 --> 00:22:54,240
+ich nicht so schnell an das
+
+500
+00:22:52,889 --> 00:22:56,399
+ganzheitliche system denken die haben
+
+501
+00:22:54,240 --> 00:22:57,659
+nur ihre spezifischen hat die optik die
+
+502
+00:22:56,399 --> 00:22:59,879
+sie sich anschauen aber ihr habt schon
+
+503
+00:22:57,659 --> 00:23:01,159
+immer das gesamte system im blick gehabt
+
+504
+00:22:59,879 --> 00:23:05,990
+maschinenbau heißt ja im prinzip
+
+505
+00:23:01,159 --> 00:23:05,990
+systembau und nicht nur blech liegen
+
+506
+00:23:06,619 --> 00:23:11,820
+also auf jeden fall her
+
+507
+00:23:09,379 --> 00:23:15,000
+ich habe mich nur gefragt maschinenbau
+
+508
+00:23:11,820 --> 00:23:16,830
+da so rum da auch dieses themas in lego
+
+509
+00:23:15,000 --> 00:23:19,889
+so stark entstanden ist aus dem team
+
+510
+00:23:16,830 --> 00:23:22,409
+heraus das bild jetzt vielleicht nochmal
+
+511
+00:23:19,889 --> 00:23:24,690
+aufzugreifen forfour sagen wir den 19
+
+512
+00:23:22,409 --> 00:23:26,789
+50er jahren da gab es im maschinenbau
+
+513
+00:23:24,690 --> 00:23:30,769
+unternehmen noch dem chefkonstrukteur
+
+514
+00:23:26,789 --> 00:23:30,769
+der hatte die gesamte maschine im blick
+
+515
+00:23:30,919 --> 00:23:37,769
+welche funktion in dem bauteil steckt ja
+
+516
+00:23:35,490 --> 00:23:40,950
+das waren aber auch noch eben genau
+
+517
+00:23:37,769 --> 00:23:42,840
+diese einfacheren systeme wenn wir das
+
+518
+00:23:40,950 --> 00:23:44,730
+jetzt auf heute übertragen dann springt
+
+519
+00:23:42,840 --> 00:23:46,500
+er einfach nicht mehr von diesen
+
+520
+00:23:44,730 --> 00:23:47,570
+systemen die eine person überblicken
+
+521
+00:23:46,500 --> 00:23:51,090
+kann
+
+522
+00:23:47,570 --> 00:23:53,279
+und genau da ist für uns auch der ansatz
+
+523
+00:23:51,090 --> 00:23:55,799
+des systems engineering stars wir warum
+
+524
+00:23:53,279 --> 00:23:57,840
+diese komplexen systeme die wir da heute
+
+525
+00:23:55,799 --> 00:23:59,909
+den markt stellen die mittig am
+
+526
+00:23:57,840 --> 00:24:01,500
+übergeordneten system kommunizierender
+
+527
+00:23:59,909 --> 00:24:04,379
+so ist die windenergie anlage die mit
+
+528
+00:24:01,500 --> 00:24:07,169
+dem netz kommunizieren und auch
+
+529
+00:24:04,379 --> 00:24:09,929
+antwortet auf netzanforderungen oder dem
+
+530
+00:24:07,169 --> 00:24:14,609
+traktor der letztendlich das feld
+
+531
+00:24:09,929 --> 00:24:16,710
+bestellt diese systeme
+
+532
+00:24:14,609 --> 00:24:19,049
+die können wir nur auch beherrschen
+
+533
+00:24:16,710 --> 00:24:21,720
+indem wir die amis schon gesagt hatte
+
+534
+00:24:19,049 --> 00:24:25,529
+ihr noch meine eine dimension und
+
+535
+00:24:21,720 --> 00:24:27,659
+unterlägen die uns dabei hilft die
+
+536
+00:24:25,529 --> 00:24:30,029
+funktion und letztendlich auch die
+
+537
+00:24:27,659 --> 00:24:32,149
+erfüllung der funktion im griff zu
+
+538
+00:24:30,029 --> 00:24:32,149
+halten
+
+539
+00:24:34,279 --> 00:24:38,940
+chefkonstrukteur ja dass er deshalb
+
+540
+00:24:36,899 --> 00:24:40,980
+bekommt bei der das seit 20 jahren
+
+541
+00:24:38,940 --> 00:24:42,360
+gemacht hat weil er halt alle weil er
+
+542
+00:24:40,980 --> 00:24:44,340
+auch wahrgenommen wurde in den
+
+543
+00:24:42,360 --> 00:24:48,300
+unternehmen als derjenige der das wissen
+
+544
+00:24:44,340 --> 00:24:49,590
+da hinsicht verinnerlicht hat es geht
+
+545
+00:24:48,300 --> 00:24:51,750
+zum einen heutzutage aufgrund der
+
+546
+00:24:49,590 --> 00:24:53,310
+interdisziplinarität gar nicht so ich
+
+547
+00:24:51,750 --> 00:24:54,690
+kann gar nicht experte in so vielen
+
+548
+00:24:53,310 --> 00:24:56,700
+unterschiedlichen disziplinen seinen
+
+549
+00:24:54,690 --> 00:24:57,930
+ersten zwei ist der funktionsumfang ist
+
+550
+00:24:56,700 --> 00:24:58,470
+so groß dass heißt das wissen kann ich
+
+551
+00:24:57,930 --> 00:25:00,240
+auch gar nicht
+
+552
+00:24:58,470 --> 00:25:01,920
+selbst wenn ich alles verstehen würde
+
+553
+00:25:00,240 --> 00:25:03,000
+kann ich das gar nicht richtig meine auf
+
+554
+00:25:01,920 --> 00:25:04,770
+alles halten
+
+555
+00:25:03,000 --> 00:25:07,430
+und drittens ist es auch eine ganz
+
+556
+00:25:04,770 --> 00:25:09,450
+entscheidende entwicklung durchführen
+
+557
+00:25:07,430 --> 00:25:10,910
+unternehmen jetzt aus organisatorischer
+
+558
+00:25:09,450 --> 00:25:12,840
+sicht also wer am lehrstuhl
+
+559
+00:25:10,910 --> 00:25:14,400
+produktionssystematik beschäftigen uns
+
+560
+00:25:12,840 --> 00:25:17,370
+ja auch damit wie müssen unternehmen
+
+561
+00:25:14,400 --> 00:25:18,750
+geführt realisiert werden und die
+
+562
+00:25:17,370 --> 00:25:20,460
+arbeiten die letztlich zusammen dass
+
+563
+00:25:18,750 --> 00:25:24,660
+auch mit der grund warum mit dem system
+
+564
+00:25:20,460 --> 00:25:27,600
+dabei sind weil ich war ja auch anders
+
+565
+00:25:24,660 --> 00:25:29,730
+mit dem wissen der der menschen umgehen
+
+566
+00:25:27,600 --> 00:25:31,950
+muss also früher war das wissen in
+
+567
+00:25:29,730 --> 00:25:34,160
+diesem kopf einfach gespeichert und dann
+
+568
+00:25:31,950 --> 00:25:36,270
+konnte ich immer den kollegen anrufen
+
+569
+00:25:34,160 --> 00:25:37,650
+wenn ich dann eine frage hat das geht
+
+570
+00:25:36,270 --> 00:25:39,780
+heutzutage nicht mehr heute habe ich
+
+571
+00:25:37,650 --> 00:25:41,190
+keine 40 50 jahre zugehörigkeit zu einem
+
+572
+00:25:39,780 --> 00:25:42,300
+unternehmen mehr heute habe ich dieses
+
+573
+00:25:41,190 --> 00:25:44,760
+wissen nicht mehr in person
+
+574
+00:25:42,300 --> 00:25:46,440
+also muss ich dieses wissen zunehmend
+
+575
+00:25:44,760 --> 00:25:48,840
+aus den köpfen eigentlich im modell
+
+576
+00:25:46,440 --> 00:25:50,550
+überführen und halt nicht in einen
+
+577
+00:25:48,840 --> 00:25:52,740
+anführungszeichen dumm das 3d modell
+
+578
+00:25:50,550 --> 00:25:54,270
+sondern ich muss halt in einem modell
+
+579
+00:25:52,740 --> 00:25:55,560
+bei für einen eben genau dieses christen
+
+580
+00:25:54,270 --> 00:25:57,590
+auch gespeichert ist und das sind nun
+
+581
+00:25:55,560 --> 00:25:59,760
+mal wissensbasierte modell das können
+
+582
+00:25:57,590 --> 00:26:01,410
+auch in dem angesprochen hat das können
+
+583
+00:25:59,760 --> 00:26:02,730
+physikalische modelle seien das keine
+
+584
+00:26:01,410 --> 00:26:04,830
+aber auch business modelle seien im
+
+585
+00:26:02,730 --> 00:26:06,690
+sinne von wenn ich diese oder jene
+
+586
+00:26:04,830 --> 00:26:09,810
+konstruktion wäre oder wenn ich diese
+
+587
+00:26:06,690 --> 00:26:12,090
+oder jene modelle dann habe ich den
+
+588
+00:26:09,810 --> 00:26:13,620
+folgenden wirtschaftlichen effekt das
+
+589
+00:26:12,090 --> 00:26:14,910
+hat auch jemand früher im kopf gehabt
+
+590
+00:26:13,620 --> 00:26:16,560
+gehabt dass er dieses und
+
+591
+00:26:14,910 --> 00:26:18,450
+fertigungsverfahren nicht wählen da galt
+
+592
+00:26:16,560 --> 00:26:21,300
+es uns orientiert wird das kann ich aber
+
+593
+00:26:18,450 --> 00:26:23,160
+auch mobil ihren dieses wissen und ganz
+
+594
+00:26:21,300 --> 00:26:24,660
+wichtig für die entwicklung des hat sich
+
+595
+00:26:23,160 --> 00:26:25,500
+auch mal spieler unternehmen heute damit
+
+596
+00:26:24,660 --> 00:26:27,510
+beschäftigen müssen
+
+597
+00:26:25,500 --> 00:26:29,190
+dass sie sich jetzt schon darauf
+
+598
+00:26:27,510 --> 00:26:32,070
+einstellten zehn jahren eben nicht mehr
+
+599
+00:26:29,190 --> 00:26:34,200
+diesen experten für die gesamte maschine
+
+600
+00:26:32,070 --> 00:26:36,030
+was ich unternehmen haben werden und
+
+601
+00:26:34,200 --> 00:26:38,010
+dass jetzt schon vorbereiten die großen
+
+602
+00:26:36,030 --> 00:26:39,740
+unternehmen mit den gesprächen die sagen
+
+603
+00:26:38,010 --> 00:26:42,080
+alle das ist ein ganz klares
+
+604
+00:26:39,740 --> 00:26:43,940
+organisations theoretisches problem die
+
+605
+00:26:42,080 --> 00:26:46,480
+wissen genau dass die anderen
+
+606
+00:26:43,940 --> 00:26:48,020
+mitarbeiter brauchen als das heute
+
+607
+00:26:46,480 --> 00:26:50,740
+benötigen oder wünschen würde
+
+608
+00:26:48,020 --> 00:26:52,730
+mitarbeiter mit anderen fähigkeiten
+
+609
+00:26:50,740 --> 00:26:55,460
+haben daher leicht noch eins oben drauf
+
+610
+00:26:52,730 --> 00:26:58,160
+zu setzen als wäre die komplexität
+
+611
+00:26:55,460 --> 00:27:00,860
+beherrschung nicht schon schlimm genug
+
+612
+00:26:58,160 --> 00:27:02,870
+wollen wir ja auch noch aufgrund von
+
+613
+00:27:00,860 --> 00:27:07,040
+weiteren marktanforderungen sich
+
+614
+00:27:02,870 --> 00:27:10,510
+schneller ändernden randbedingungen auch
+
+615
+00:27:07,040 --> 00:27:13,700
+noch agiler also schneller entwickelt
+
+616
+00:27:10,510 --> 00:27:16,429
+wesentlich kurz zykliker das heißt wir
+
+617
+00:27:13,700 --> 00:27:19,250
+müssen auch wesentlich schneller in der
+
+618
+00:27:16,429 --> 00:27:23,030
+lage sein änderung im produkt
+
+619
+00:27:19,250 --> 00:27:26,090
+letztendlich auch schnell wieder zu
+
+620
+00:27:23,030 --> 00:27:27,910
+überprüfen in der funktion und in der
+
+621
+00:27:26,090 --> 00:27:30,920
+funktions erfüllung
+
+622
+00:27:27,910 --> 00:27:35,540
+und auch da glauben wir dass das ebenso
+
+623
+00:27:30,920 --> 00:27:38,179
+im unterbau der der letztendlich über
+
+624
+00:27:35,540 --> 00:27:40,400
+modelle funktioniert hier eben die
+
+625
+00:27:38,179 --> 00:27:43,340
+ordnung bereitstellt um genau diese
+
+626
+00:27:40,400 --> 00:27:45,590
+kurzzyklischen funktionstests
+
+627
+00:27:43,340 --> 00:27:47,860
+letztendlich überhaupt haltbar zu machen
+
+628
+00:27:45,590 --> 00:27:50,090
+tragbar zu machen
+
+629
+00:27:47,860 --> 00:27:52,730
+das bedeutet aber auch dass man
+
+630
+00:27:50,090 --> 00:27:53,780
+irgendwie eine schnittstelle braucht
+
+631
+00:27:52,730 --> 00:27:55,730
+zwischen den klassischen
+
+632
+00:27:53,780 --> 00:27:57,620
+ingenieurdisziplinen und dem systems
+
+633
+00:27:55,730 --> 00:27:59,390
+engineering und türen wenn ich mich
+
+634
+00:27:57,620 --> 00:28:01,610
+richtig erinnere dann habt ihr ja mal
+
+635
+00:27:59,390 --> 00:28:03,260
+ein forschungsprojekt gehabt wo er genau
+
+636
+00:28:01,610 --> 00:28:05,600
+das angegangen seit ich glaube das war
+
+637
+00:28:03,260 --> 00:28:07,550
+es fast vor allem das team habe das
+
+638
+00:28:05,600 --> 00:28:08,270
+genannt und auf fast 450 agenturen für
+
+639
+00:28:07,550 --> 00:28:10,370
+systeme
+
+640
+00:28:08,270 --> 00:28:11,420
+das waren wir dann das des systems
+
+641
+00:28:10,370 --> 00:28:14,120
+englischen jährigen welt und ein
+
+642
+00:28:11,420 --> 00:28:16,490
+vorkämpfer mechanics und haben dort
+
+643
+00:28:14,120 --> 00:28:17,870
+einen übergang geschaffen aus einem ganz
+
+644
+00:28:16,490 --> 00:28:20,929
+konkret was also ist in dem modell was
+
+645
+00:28:17,870 --> 00:28:23,240
+wir genommen haben übergang schaffen
+
+646
+00:28:20,929 --> 00:28:25,220
+über die frequenz man dann in functional
+
+647
+00:28:23,240 --> 00:28:26,720
+logical ja dann immer ein physiklehrer
+
+648
+00:28:25,220 --> 00:28:27,290
+auch da oben schon eingeführt also
+
+649
+00:28:26,720 --> 00:28:29,150
+messen
+
+650
+00:28:27,290 --> 00:28:32,000
+das ist ein l welt ganz grob die
+
+651
+00:28:29,150 --> 00:28:35,480
+baustruktur angegeben und konnte dann
+
+652
+00:28:32,000 --> 00:28:37,400
+ein cad modell quasi generieren ersten
+
+653
+00:28:35,480 --> 00:28:38,690
+version was uns aber wichtig war weil
+
+654
+00:28:37,400 --> 00:28:40,400
+ich nur dieses noch wie haben sie nach
+
+655
+00:28:38,690 --> 00:28:41,990
+unten drücken von informationen sondern
+
+656
+00:28:40,400 --> 00:28:43,340
+weil diese feedback schleifen mit ihnen
+
+657
+00:28:41,990 --> 00:28:45,290
+ganz wichtig an und man beitrag
+
+658
+00:28:43,340 --> 00:28:47,720
+gearbeitet wird dass die information
+
+659
+00:28:45,290 --> 00:28:49,929
+auch wieder hochkommt und das haben wir
+
+660
+00:28:47,720 --> 00:28:51,430
+auch dort mitgemacht haben eine software
+
+661
+00:28:49,929 --> 00:28:54,880
+prototypen
+
+662
+00:28:51,430 --> 00:28:56,650
+wirklich prototypisch gehabt aber auch
+
+663
+00:28:54,880 --> 00:28:58,060
+so dass man nachher im cad programm
+
+664
+00:28:56,650 --> 00:28:59,500
+konnte man halt ein bauteil anklicken
+
+665
+00:28:58,060 --> 00:29:00,820
+und dann hat er einem die das
+
+666
+00:28:59,500 --> 00:29:02,230
+requirement angezeigt was im grunde aber
+
+667
+00:29:00,820 --> 00:29:04,510
+in der system welt war oder die funktion
+
+668
+00:29:02,230 --> 00:29:07,360
+die dahinter steckt ist eigentlich recht
+
+669
+00:29:04,510 --> 00:29:10,690
+coole sache damals ja was meint ihr zu
+
+670
+00:29:07,360 --> 00:29:12,100
+stecken geblieben wir kennen die
+
+671
+00:29:10,690 --> 00:29:15,100
+forschungsprojekte natürlich und der
+
+672
+00:29:12,100 --> 00:29:17,980
+setzen da ja auch an also diese
+
+673
+00:29:15,100 --> 00:29:18,700
+grundsätzliche elektrode dieses
+
+674
+00:29:17,980 --> 00:29:22,420
+vorhanden
+
+675
+00:29:18,700 --> 00:29:24,250
+die entwickeln wir auch weiter ziehen
+
+676
+00:29:22,420 --> 00:29:27,760
+dass wir jetzt gerade verfolgen das eben
+
+677
+00:29:24,250 --> 00:29:30,700
+genau diesen diese brücke zwischen der
+
+678
+00:29:27,760 --> 00:29:34,120
+funktion als funktions struktur und am
+
+679
+00:29:30,700 --> 00:29:36,490
+ende der bauteil struktur für
+
+680
+00:29:34,120 --> 00:29:38,280
+physikalische also für viel physische
+
+681
+00:29:36,490 --> 00:29:40,630
+komponenten zu schließen wir
+
+682
+00:29:38,280 --> 00:29:42,550
+andererseits in der software bei dem wir
+
+683
+00:29:40,630 --> 00:29:45,730
+aus der spezifikation also letztendlich
+
+684
+00:29:42,550 --> 00:29:48,190
+der funktions struktur kommen einfach
+
+685
+00:29:45,730 --> 00:29:50,160
+nur weiter in den kurs spezifizieren
+
+686
+00:29:48,190 --> 00:29:53,310
+müssen und den dann schreiten müssen
+
+687
+00:29:50,160 --> 00:29:57,660
+haben wir maschinenbau eben das problem
+
+688
+00:29:53,310 --> 00:30:02,080
+dass wir an diesen bruch kommen von
+
+689
+00:29:57,660 --> 00:30:04,600
+funktionaler spezifikation über die
+
+690
+00:30:02,080 --> 00:30:07,990
+funktion struktur ins bauteil struktur
+
+691
+00:30:04,600 --> 00:30:10,720
+haben wir keinen keinen direkten koppel
+
+692
+00:30:07,990 --> 00:30:13,560
+punkt und gesehen aber gerade mit den
+
+693
+00:30:10,720 --> 00:30:17,680
+arbeiten die irgend auch schon hals sind
+
+694
+00:30:13,560 --> 00:30:22,030
+zb von erwähnt nach koller können wir
+
+695
+00:30:17,680 --> 00:30:26,980
+schaffen in dem wir letztendlich über
+
+696
+00:30:22,030 --> 00:30:30,190
+über lösungsmodelle und daran geknüpfte
+
+697
+00:30:26,980 --> 00:30:32,290
+letztendlich elementare geometrie die
+
+698
+00:30:30,190 --> 00:30:34,090
+entstehen aus den physikalischen
+
+699
+00:30:32,290 --> 00:30:36,610
+zusammenhängen und die physik hier kann
+
+700
+00:30:34,090 --> 00:30:38,860
+man nun mal leider nicht austricksen
+
+701
+00:30:36,610 --> 00:30:41,500
+wir können sie uns aber zu nutzen machen
+
+702
+00:30:38,860 --> 00:30:44,800
+damit letztendlich die notwendige
+
+703
+00:30:41,500 --> 00:30:48,100
+geometrie erzeugen und eben genau über
+
+704
+00:30:44,800 --> 00:30:49,150
+diesen zusammenhang dann auch die
+
+705
+00:30:48,100 --> 00:30:52,270
+verbindung herstellen zwischen
+
+706
+00:30:49,150 --> 00:30:54,790
+funktionen und in der eigentlichen
+
+707
+00:30:52,270 --> 00:30:57,460
+bauteil struktur am ende so unsere idee
+
+708
+00:30:54,790 --> 00:30:59,830
+und das machen wir eben bis runter auf
+
+709
+00:30:57,460 --> 00:31:02,350
+die das müssen wir auch es runter auf
+
+710
+00:30:59,830 --> 00:31:04,530
+die physikalische parameter ebene bei
+
+711
+00:31:02,350 --> 00:31:08,610
+der letztendlich
+
+712
+00:31:04,530 --> 00:31:11,560
+kommen von von technischen anforderungen
+
+713
+00:31:08,610 --> 00:31:13,930
+sagen wir mal eine bestimmte leistung
+
+714
+00:31:11,560 --> 00:31:19,020
+die die erreicht werden muss dann eben
+
+715
+00:31:13,930 --> 00:31:21,850
+auch lösungs prinzipien modellieren
+
+716
+00:31:19,020 --> 00:31:25,440
+kommt einsetzen und prüfen können ob sie
+
+717
+00:31:21,850 --> 00:31:28,900
+grundsätzlich geeignet sind diese
+
+718
+00:31:25,440 --> 00:31:31,090
+leistungsanforderungen zu erfüllen und
+
+719
+00:31:28,900 --> 00:31:33,430
+das impliziert natürlich eine geometrie
+
+720
+00:31:31,090 --> 00:31:36,670
+die wir dann entsprechend wieder bis er
+
+721
+00:31:33,430 --> 00:31:39,250
+im cad-system fortsetzt also im prinzip
+
+722
+00:31:36,670 --> 00:31:41,950
+die unter lagerung des cad modelle es
+
+723
+00:31:39,250 --> 00:31:46,180
+wirklich mit modell hat physikalischen
+
+724
+00:31:41,950 --> 00:31:48,490
+bei der information hätte gerade eben
+
+725
+00:31:46,180 --> 00:31:51,180
+schon gesagt das wissen muss aus den
+
+726
+00:31:48,490 --> 00:31:55,750
+köpfen auch in die modelle bin ich
+
+727
+00:31:51,180 --> 00:31:57,550
+absolut also hat er auch ist eine angst
+
+728
+00:31:55,750 --> 00:31:59,080
+bekommen sagen so was was welche rolle
+
+729
+00:31:57,550 --> 00:32:00,370
+habe ich dennoch ein unternehmen wenn
+
+730
+00:31:59,080 --> 00:32:01,900
+mein wissen in den modellen steckt da
+
+731
+00:32:00,370 --> 00:32:03,310
+bin ich ja irgendwie überflüssig fand
+
+732
+00:32:01,900 --> 00:32:04,840
+vor immer so toll dass mich alle gefragt
+
+733
+00:32:03,310 --> 00:32:06,960
+haben wie etwas funktioniert das ist
+
+734
+00:32:04,840 --> 00:32:09,760
+jetzt nicht mehr leute ins modell
+
+735
+00:32:06,960 --> 00:32:11,020
+wenn man jetzt noch mehr so sieht die
+
+736
+00:32:09,760 --> 00:32:12,460
+prozesse auch immer mehr abbilden
+
+737
+00:32:11,020 --> 00:32:14,170
+modelle und wenn man meinen das thema
+
+738
+00:32:12,460 --> 00:32:15,250
+artificial intelligence reingeguckt und
+
+739
+00:32:14,170 --> 00:32:17,290
+vielleicht mal ein bisschen rum stimmt
+
+740
+00:32:15,250 --> 00:32:18,750
+mal 15 jahre in die zukunft guckt was
+
+741
+00:32:17,290 --> 00:32:21,160
+dann wohl alles geht
+
+742
+00:32:18,750 --> 00:32:22,090
+da geht es gleich eine ganze menge es
+
+743
+00:32:21,160 --> 00:32:24,240
+gibt ja jetzt schon sehr an sätze dass
+
+744
+00:32:22,090 --> 00:32:26,890
+jennifer engineerings verursachen ja
+
+745
+00:32:24,240 --> 00:32:29,920
+relativ erzeugt werden ziemlich
+
+746
+00:32:26,890 --> 00:32:32,020
+beeindruckend was vom geht dann frage
+
+747
+00:32:29,920 --> 00:32:33,340
+ich mich was bleibt da noch übrig das
+
+748
+00:32:32,020 --> 00:32:34,690
+betrifft wahrscheinlich alle engineering
+
+749
+00:32:33,340 --> 00:32:35,890
+disziplin aber eben auch den
+
+750
+00:32:34,690 --> 00:32:40,690
+maschinenbau was macht der
+
+751
+00:32:35,890 --> 00:32:44,500
+maschinenbauer noch in zehn jahren also
+
+752
+00:32:40,690 --> 00:32:46,510
+wir sind eine ähnliche frage wie dies
+
+753
+00:32:44,500 --> 00:32:49,630
+regelmäßig auf die titelseiten des
+
+754
+00:32:46,510 --> 00:32:51,460
+spiegel schafft die computerisierung
+
+755
+00:32:49,630 --> 00:32:54,160
+dazu dass wir morgen keine arbeitsplätze
+
+756
+00:32:51,460 --> 00:32:55,510
+mehr haben oder auch jedes besuchen als
+
+757
+00:32:54,160 --> 00:32:57,270
+es vor einigen jahren zum thema
+
+758
+00:32:55,510 --> 00:32:59,860
+kanalisierung der maschinenbau als
+
+759
+00:32:57,270 --> 00:33:01,190
+angesagt wird ja wenn wir mehr
+
+760
+00:32:59,860 --> 00:33:03,410
+stabilisieren
+
+761
+00:33:01,190 --> 00:33:06,680
+auch morgen weniger personal das hat
+
+762
+00:33:03,410 --> 00:33:07,970
+danach ich glaube dass genau das
+
+763
+00:33:06,680 --> 00:33:10,640
+umgekehrte der fall ist also durch
+
+764
+00:33:07,970 --> 00:33:13,010
+standardisierungen wurden wiederum
+
+765
+00:33:10,640 --> 00:33:14,720
+kapazitäten für innovation und frei also
+
+766
+00:33:13,010 --> 00:33:16,700
+dadurch dass ich bestimmte bereiche
+
+767
+00:33:14,720 --> 00:33:18,410
+modular gestaltet und eben nicht jedes
+
+768
+00:33:16,700 --> 00:33:21,890
+mal neu erfinden kann ich mich mit
+
+769
+00:33:18,410 --> 00:33:23,630
+meinem ingenieur einer intuitiven
+
+770
+00:33:21,890 --> 00:33:25,580
+kompetenz hat genau die spannenden fälle
+
+771
+00:33:23,630 --> 00:33:28,160
+mit irgend konzentrieren und ähnliches
+
+772
+00:33:25,580 --> 00:33:29,930
+wird in einer anderen kategorie morgen
+
+773
+00:33:28,160 --> 00:33:32,690
+auch im müssen uns entscheiden
+
+774
+00:33:29,930 --> 00:33:35,690
+das ist geld das heißt dort ganz konkret
+
+775
+00:33:32,690 --> 00:33:37,790
+wird der ingenieur morgen diese modellen
+
+776
+00:33:35,690 --> 00:33:41,240
+mit pflegen mit aufbauen müssten
+
+777
+00:33:37,790 --> 00:33:42,590
+das wird uns nicht abnehmen und autor
+
+778
+00:33:41,240 --> 00:33:44,270
+entnehmen und das nicht abnehmen wir
+
+779
+00:33:42,590 --> 00:33:47,720
+müssen dann immer noch den markt
+
+780
+00:33:44,270 --> 00:33:49,790
+verstehen die übersetzung von innovation
+
+781
+00:33:47,720 --> 00:33:52,670
+innovative ideen in modelle
+
+782
+00:33:49,790 --> 00:33:56,060
+das müssen wir weiterhin alles tun aber
+
+783
+00:33:52,670 --> 00:33:58,790
+viele der repetitiven tätigkeiten werden
+
+784
+00:33:56,060 --> 00:34:01,750
+hat sukzessive entfallen gut dazu führt
+
+785
+00:33:58,790 --> 00:34:04,130
+man sich dazu dass er im
+
+786
+00:34:01,750 --> 00:34:06,170
+personalmanagement jetzt schon anfangen
+
+787
+00:34:04,130 --> 00:34:07,130
+müssen die personen jetzt in den
+
+788
+00:34:06,170 --> 00:34:08,660
+unternehmen arbeiten
+
+789
+00:34:07,130 --> 00:34:10,580
+genau auf diese zukünftige rolle
+
+790
+00:34:08,660 --> 00:34:11,960
+vorzubereiten also sprich das ganze
+
+791
+00:34:10,580 --> 00:34:14,570
+endet jetzt eigentlich schon mit zu
+
+792
+00:34:11,960 --> 00:34:16,010
+nehmen und zu sagen morgen braucht es
+
+793
+00:34:14,570 --> 00:34:18,770
+viel mehr dieses system stecken morgen
+
+794
+00:34:16,010 --> 00:34:20,870
+braucht es das denken in bällen und und
+
+795
+00:34:18,770 --> 00:34:22,610
+dass man sein team nicht morgen aus dem
+
+796
+00:34:20,870 --> 00:34:24,560
+schluss dass mannigfachen weil er bei
+
+797
+00:34:22,610 --> 00:34:25,940
+den fachkräften sondern dass man das
+
+798
+00:34:24,560 --> 00:34:28,220
+derzeit mit nimmt nun durch
+
+799
+00:34:25,940 --> 00:34:30,740
+weiterbildung und durch erste projekte
+
+800
+00:34:28,220 --> 00:34:32,870
+halt diese richtung treibt das ist das
+
+801
+00:34:30,740 --> 00:34:34,760
+was morgen also sprich in fünf oder zehn
+
+802
+00:34:32,870 --> 00:34:37,520
+jahren macht also dann wird auch eine
+
+803
+00:34:34,760 --> 00:34:38,990
+kalli schrittweise erfüllt werden
+
+804
+00:34:37,520 --> 00:34:40,670
+es fängt aber an mit genau dieser teil
+
+805
+00:34:38,990 --> 00:34:43,760
+automatisierung und repetitiven
+
+806
+00:34:40,670 --> 00:34:46,850
+tätigkeiten das ist natürlich eigentlich
+
+807
+00:34:43,760 --> 00:34:49,130
+auch ein eigentlich ja schon attraktives
+
+808
+00:34:46,850 --> 00:34:50,540
+ziel oder hat auf jeden fall
+
+809
+00:34:49,130 --> 00:34:51,980
+attraktivität wenn ich jetzt
+
+810
+00:34:50,540 --> 00:34:54,050
+der maschinenbauer den
+
+811
+00:34:51,980 --> 00:34:55,850
+maschinenbauunternehmen sage durch die
+
+812
+00:34:54,050 --> 00:34:57,140
+einführung von mbc kriegst du eigentlich
+
+813
+00:34:55,850 --> 00:35:00,590
+wieder kapazitäten die du für
+
+814
+00:34:57,140 --> 00:35:04,610
+innovationen nutzen kannst jetzt ist es
+
+815
+00:35:00,590 --> 00:35:05,960
+vielleicht nicht ganz ganz einfach zu
+
+816
+00:35:04,610 --> 00:35:07,970
+verstehen aber das jahrelang neben
+
+817
+00:35:05,960 --> 00:35:10,270
+klassischen mit mechatronischen
+
+818
+00:35:07,970 --> 00:35:12,170
+maschinenbau gemacht habt
+
+819
+00:35:10,270 --> 00:35:13,400
+und da muss man ja die leute so ein
+
+820
+00:35:12,170 --> 00:35:14,840
+bisschen an die hand nehmen und den das
+
+821
+00:35:13,400 --> 00:35:17,600
+mal zeigen und ich glaube das ist ja
+
+822
+00:35:14,840 --> 00:35:19,900
+auch genau das was wir im centre for
+
+823
+00:35:17,600 --> 00:35:22,250
+systems engineering machen
+
+824
+00:35:19,900 --> 00:35:24,860
+das wurde ja vor
+
+825
+00:35:22,250 --> 00:35:27,830
+wann wurde das reich gegründet sich gar
+
+826
+00:35:24,860 --> 00:35:29,330
+nicht mehr ein vor zwei jahren oder so
+
+827
+00:35:27,830 --> 00:35:31,850
+sind jetzt als bayern unterwegs oder
+
+828
+00:35:29,330 --> 00:35:33,010
+zwei einen unfairen ein vollständiges
+
+829
+00:35:31,850 --> 00:35:38,000
+jahre und 20 20
+
+830
+00:35:33,010 --> 00:35:39,440
+genau die ersten schritte ja ok wie muss
+
+831
+00:35:38,000 --> 00:35:41,090
+man sich so eine sanktion center
+
+832
+00:35:39,440 --> 00:35:42,440
+vorstellen dass das gibt ja mehrere
+
+833
+00:35:41,090 --> 00:35:44,900
+center an der rwth
+
+834
+00:35:42,440 --> 00:35:48,650
+was ist das besondere daran an diesem
+
+835
+00:35:44,900 --> 00:35:51,980
+struktur also nimm den center begriff
+
+836
+00:35:48,650 --> 00:35:55,760
+der ist tatsächlich in aachen entstanden
+
+837
+00:35:51,980 --> 00:35:58,250
+für eine zusammenkunft aus auf der einen
+
+838
+00:35:55,760 --> 00:36:00,310
+seite industriepartnern auf der anderen
+
+839
+00:35:58,250 --> 00:36:03,470
+seite den jeweiligen wissenschaftlichen
+
+840
+00:36:00,310 --> 00:36:04,850
+instituten und zwar war sie früher war
+
+841
+00:36:03,470 --> 00:36:08,750
+zusammenhang zwischen hochschulen
+
+842
+00:36:04,850 --> 00:36:10,910
+industrie insbesondere zumeist bilateral
+
+843
+00:36:08,750 --> 00:36:12,920
+also sprich eine unternehmen hat mit
+
+844
+00:36:10,910 --> 00:36:16,070
+einem lehrstuhl zusammengearbeitet und
+
+845
+00:36:12,920 --> 00:36:17,300
+sie war temporär und so für ein
+
+846
+00:36:16,070 --> 00:36:19,880
+bestimmtes projekt hat man dann einmal
+
+847
+00:36:17,300 --> 00:36:22,190
+irgendwann institut beauftragt und der
+
+848
+00:36:19,880 --> 00:36:23,630
+campus und die ganzen cent achten campus
+
+849
+00:36:22,190 --> 00:36:25,369
+gegründet worden
+
+850
+00:36:23,630 --> 00:36:26,720
+eigentlich eine dimension im trainern
+
+851
+00:36:25,369 --> 00:36:28,760
+also erstens wir wollten nicht mehr nur
+
+852
+00:36:26,720 --> 00:36:30,950
+bilaterale kooperation fördern weil wir
+
+853
+00:36:28,760 --> 00:36:33,170
+glauben dass das leben gesprochen haben
+
+854
+00:36:30,950 --> 00:36:35,000
+interdisziplinarität ist der schlüssel
+
+855
+00:36:33,170 --> 00:36:37,609
+für innovationen von morgen
+
+856
+00:36:35,000 --> 00:36:40,160
+also brauchen in material multilaterale
+
+857
+00:36:37,609 --> 00:36:42,410
+kooperation und zweitens nicht nur
+
+858
+00:36:40,160 --> 00:36:43,520
+temporär an sondern kontinuierlich dafür
+
+859
+00:36:42,410 --> 00:36:46,010
+ist genau dieses center geschaffen
+
+860
+00:36:43,520 --> 00:36:47,480
+worden oder die sich ja es gibt über 20
+
+861
+00:36:46,010 --> 00:36:49,850
+stück zu unterschiedlichsten themen mehr
+
+862
+00:36:47,480 --> 00:36:53,240
+machen der campus vom werkzeugbau über
+
+863
+00:36:49,850 --> 00:36:55,010
+komplexität im endeffekt strecken also
+
+864
+00:36:53,240 --> 00:36:56,540
+alle zukunfts und trendthemen unter
+
+865
+00:36:55,010 --> 00:36:57,640
+anderem hat auch das thema systems
+
+866
+00:36:56,540 --> 00:37:01,890
+entschieden
+
+867
+00:36:57,640 --> 00:37:04,900
+und in unserem center sind jetzt circa
+
+868
+00:37:01,890 --> 00:37:06,010
+15 unternehmen die aus den
+
+869
+00:37:04,900 --> 00:37:07,859
+unterschiedlichsten branchen kommen also
+
+870
+00:37:06,010 --> 00:37:10,839
+aus der softwareindustrie aus der
+
+871
+00:37:07,859 --> 00:37:12,430
+produzierenden industrie sind mit den
+
+872
+00:37:10,839 --> 00:37:15,839
+jeweiligen kompetenzen der rwth dann
+
+873
+00:37:12,430 --> 00:37:18,819
+verbunden und wir sind glaube ich
+
+874
+00:37:15,839 --> 00:37:20,380
+dahingehend führen dass wir diese themen
+
+875
+00:37:18,819 --> 00:37:22,769
+nicht nur besprechen sondern tatsächlich
+
+876
+00:37:20,380 --> 00:37:25,240
+auch praktisch umsetzen zum themenfeld
+
+877
+00:37:22,769 --> 00:37:26,289
+in form von glow projekten consozial
+
+878
+00:37:25,240 --> 00:37:29,289
+studien ähnlich
+
+879
+00:37:26,289 --> 00:37:32,289
+das macht vielleicht das wetter im kern
+
+880
+00:37:29,289 --> 00:37:34,539
+im kern ausdenken wie muss man sich das
+
+881
+00:37:32,289 --> 00:37:35,470
+vorstellen so ein consozial projekt oder
+
+882
+00:37:34,539 --> 00:37:40,690
+so eine studie
+
+883
+00:37:35,470 --> 00:37:43,240
+jörg ihr begleitet das ja einmal so also
+
+884
+00:37:40,690 --> 00:37:45,700
+wir haben im wesentlichen haben wir kann
+
+885
+00:37:43,240 --> 00:37:47,890
+man sagen drei kooperationen oder drei
+
+886
+00:37:45,700 --> 00:37:50,279
+typische projekt formen und
+
+887
+00:37:47,890 --> 00:37:52,750
+kooperationsformen konzentrat unter den
+
+888
+00:37:50,279 --> 00:37:55,000
+akteuren also wissenschaftlern und
+
+889
+00:37:52,750 --> 00:37:58,390
+industrie teilnehmern
+
+890
+00:37:55,000 --> 00:38:01,059
+da sind einmal ganz klassisch bilaterale
+
+891
+00:37:58,390 --> 00:38:03,490
+projekte die sich dann ergeben aus
+
+892
+00:38:01,059 --> 00:38:05,910
+hauses den gesprächen und dann eben
+
+893
+00:38:03,490 --> 00:38:11,740
+wieder michael schon gesagt hat
+
+894
+00:38:05,910 --> 00:38:14,259
+consozial projekte consozial studien und
+
+895
+00:38:11,740 --> 00:38:16,420
+dann aber auch sicherlich auch teilweise
+
+896
+00:38:14,259 --> 00:38:17,950
+öffentlich geförderte projekte in denen
+
+897
+00:38:16,420 --> 00:38:21,549
+sich dann konsortium aus dem trend
+
+898
+00:38:17,950 --> 00:38:24,089
+herausbildet und letztendlich die die
+
+899
+00:38:21,549 --> 00:38:26,740
+zusammenarbeit sieht so aus dass wir zu
+
+900
+00:38:24,089 --> 00:38:28,599
+regelmäßigen treffen einladen sind
+
+901
+00:38:26,740 --> 00:38:31,119
+gerade einen quartalsweisen tonus
+
+902
+00:38:28,599 --> 00:38:34,890
+unterwegs dem wir aktuell noch wirklich
+
+903
+00:38:31,119 --> 00:38:38,049
+in der großen runde workshops gestalten
+
+904
+00:38:34,890 --> 00:38:40,539
+immer einen teil natürlich
+
+905
+00:38:38,049 --> 00:38:44,289
+wissenstransfer aus der uni zum anderen
+
+906
+00:38:40,539 --> 00:38:49,029
+aber auch podium für den wissenstransfer
+
+907
+00:38:44,289 --> 00:38:51,730
+unter den unternehmen soweit möglich
+
+908
+00:38:49,029 --> 00:38:53,470
+natürlich wir haben aber glaube ich
+
+909
+00:38:51,730 --> 00:38:54,099
+zurzeit ein sehr vertrauensvolles
+
+910
+00:38:53,470 --> 00:38:58,029
+verhältnis
+
+911
+00:38:54,099 --> 00:39:01,839
+ja und dann eben auch das heraustragen
+
+912
+00:38:58,029 --> 00:39:05,970
+von themen die tatsächlich mehrere
+
+913
+00:39:01,839 --> 00:39:08,300
+unternehmen aktuell spannend finden und
+
+914
+00:39:05,970 --> 00:39:09,580
+gerne weiter untersuchen wollen
+
+915
+00:39:08,300 --> 00:39:11,990
+dann bilden sich letztendlich
+
+916
+00:39:09,580 --> 00:39:16,610
+interessensgruppen den formen dieser
+
+917
+00:39:11,990 --> 00:39:19,250
+consozial studien losgehen und gemeinsam
+
+918
+00:39:16,610 --> 00:39:23,870
+diese frage beantworten die da gerade
+
+919
+00:39:19,250 --> 00:39:26,000
+aufkam und vielleicht auch noch
+
+920
+00:39:23,870 --> 00:39:29,480
+erwähnenswert wir haben jetzt erst vor
+
+921
+00:39:26,000 --> 00:39:33,110
+kurzem consozial benchmark durchgeführt
+
+922
+00:39:29,480 --> 00:39:35,300
+und auch beendet bei dem wir über 300
+
+923
+00:39:33,110 --> 00:39:37,640
+industrieunternehmen befragt haben zum
+
+924
+00:39:35,300 --> 00:39:40,070
+thema systems engineering verhalten
+
+925
+00:39:37,640 --> 00:39:42,830
+model based systems engineering und dem
+
+926
+00:39:40,070 --> 00:39:44,720
+grad der umsetzung aktuell und konnten
+
+927
+00:39:42,830 --> 00:39:47,080
+hier eben auch zusammen mit den
+
+928
+00:39:44,720 --> 00:39:48,500
+partnerunternehmen die das mit uns
+
+929
+00:39:47,080 --> 00:39:50,300
+durchgeführt haben
+
+930
+00:39:48,500 --> 00:39:52,060
+successfactors unternehmen
+
+931
+00:39:50,300 --> 00:39:54,470
+identifizieren das heißt wirklich
+
+932
+00:39:52,060 --> 00:39:56,390
+unternehmen die gerade ganz vorne dran
+
+933
+00:39:54,470 --> 00:39:58,730
+sind was die implementierung von
+
+934
+00:39:56,390 --> 00:40:03,490
+entsprechenden methoden aber auch
+
+935
+00:39:58,730 --> 00:40:05,390
+werkzeugen angeht und und auch so
+
+936
+00:40:03,490 --> 00:40:10,040
+schaffen wir es letztendlich einfach
+
+937
+00:40:05,390 --> 00:40:13,190
+wissen zu generieren im center darüber
+
+938
+00:40:10,040 --> 00:40:17,750
+hinaus haben wir noch die zusammen oder
+
+939
+00:40:13,190 --> 00:40:19,670
+die community bildungs form des des
+
+940
+00:40:17,750 --> 00:40:21,260
+kongresses also wird man jährlichen
+
+941
+00:40:19,670 --> 00:40:23,330
+systems engineering kongress der auch
+
+942
+00:40:21,260 --> 00:40:25,910
+noch mal dazu dient auch noch mal über
+
+943
+00:40:23,330 --> 00:40:28,100
+das center hinaus interessierten
+
+944
+00:40:25,910 --> 00:40:29,750
+teilnehmer an dass das themenfeld näher
+
+945
+00:40:28,100 --> 00:40:32,300
+zu bringen und auch ihr immer
+
+946
+00:40:29,750 --> 00:40:34,130
+entsprechendes netzwerk zwischen
+
+947
+00:40:32,300 --> 00:40:35,140
+industrie und hochschule weiter zu
+
+948
+00:40:34,130 --> 00:40:39,290
+etablieren
+
+949
+00:40:35,140 --> 00:40:40,700
+das war auch schon sprecher oder letzten
+
+950
+00:40:39,290 --> 00:40:43,850
+es muss aufpassen vor zwei jahren genau
+
+951
+00:40:40,700 --> 00:40:45,050
+also 2019 nicht aus kann ich sehr
+
+952
+00:40:43,850 --> 00:40:47,360
+spannend vor allem kann ich sehr
+
+953
+00:40:45,050 --> 00:40:48,770
+spannend es viele der teilnehmer aus
+
+954
+00:40:47,360 --> 00:40:51,170
+unternehmen kam zu denen ich bis jetzt
+
+955
+00:40:48,770 --> 00:40:53,690
+noch keinen so großen kontakt hat es war
+
+956
+00:40:51,170 --> 00:40:55,250
+anders als jetzt bei pac das ist uns
+
+957
+00:40:53,690 --> 00:40:58,490
+allerdings zum beispiel das irgendwie
+
+958
+00:40:55,250 --> 00:41:00,020
+andere grüne unterwegs die frage beim
+
+959
+00:40:58,490 --> 00:41:02,120
+setup uns ist das eine was für firmen
+
+960
+00:41:00,020 --> 00:41:05,090
+sind denn da so typischerweise bitte aus
+
+961
+00:41:02,120 --> 00:41:07,700
+welchen branchen kommen die also wir
+
+962
+00:41:05,090 --> 00:41:11,330
+haben das damals das haus so forciert
+
+963
+00:41:07,700 --> 00:41:13,600
+dass wir uns aus wir sind branchen offen
+
+964
+00:41:11,330 --> 00:41:16,700
+dass man das mal sein
+
+965
+00:41:13,600 --> 00:41:22,900
+also müssen
+
+966
+00:41:16,700 --> 00:41:25,240
+ems gezielt dann war da natürlich auch
+
+967
+00:41:22,900 --> 00:41:28,400
+automobile und und windindustrie
+
+968
+00:41:25,240 --> 00:41:29,660
+das sind zulieferer aus
+
+969
+00:41:28,400 --> 00:41:32,810
+unterschiedlichen industrien
+
+970
+00:41:29,660 --> 00:41:35,440
+das sind aber auch aus anderen branchen
+
+971
+00:41:32,810 --> 00:41:35,440
+gesprochen
+
+972
+00:41:35,500 --> 00:41:44,050
+mittelständische bis große konzerne
+
+973
+00:41:39,339 --> 00:41:48,640
+klassischer maschinenbau bis hin zu
+
+974
+00:41:44,050 --> 00:41:48,640
+bayern mittlerweile auch systemanbietern
+
+975
+00:41:48,730 --> 00:41:56,710
+erweitern muss sich zur zeit jeder und
+
+976
+00:41:53,359 --> 00:41:58,849
+dann aber vor allem auch noch software
+
+977
+00:41:56,710 --> 00:42:01,880
+unternehmen deshalb software vendor
+
+978
+00:41:58,849 --> 00:42:03,260
+damit denen wir natürlich auch wie zum
+
+979
+00:42:01,880 --> 00:42:05,839
+beispiel auch mit der kontakt software
+
+980
+00:42:03,260 --> 00:42:08,869
+hier an der erweiterung von
+
+981
+00:42:05,839 --> 00:42:12,950
+funktionalitäten gerne arbeiten und
+
+982
+00:42:08,869 --> 00:42:15,859
+darauf entsprechend die die neat der
+
+983
+00:42:12,950 --> 00:42:19,630
+unternehmen versuchen dann auch an die
+
+984
+00:42:15,859 --> 00:42:21,650
+software unternehmen weiter zu tragen
+
+985
+00:42:19,630 --> 00:42:28,099
+seit der national oder international
+
+986
+00:42:21,650 --> 00:42:30,500
+auch tmx erstmal dazu nahe aber der
+
+987
+00:42:28,099 --> 00:42:32,990
+fokus im ersten schritt war halt es
+
+988
+00:42:30,500 --> 00:42:36,859
+hauptsächlich im deutschsprachigen raum
+
+989
+00:42:32,990 --> 00:42:39,290
+hat die taten haben halt auf einem
+
+990
+00:42:36,859 --> 00:42:41,900
+möglichst wohl hinter aktions frequenz
+
+991
+00:42:39,290 --> 00:42:44,540
+halt dann auch ins praktisch umsetzen zu
+
+992
+00:42:41,900 --> 00:42:48,079
+können wir sind aber auch offen für für
+
+993
+00:42:44,540 --> 00:42:50,720
+internationale zusagen und das besondere
+
+994
+00:42:48,079 --> 00:42:53,420
+was er gleich noch betonen dass wir bei
+
+995
+00:42:50,720 --> 00:42:56,390
+diesen diese auswahl so getroffen haben
+
+996
+00:42:53,420 --> 00:42:58,339
+da wir genau glauben dass man morgen
+
+997
+00:42:56,390 --> 00:43:01,420
+diese bereich braucht sondern auch die
+
+998
+00:42:58,339 --> 00:43:03,319
+wissenschaft als mit dem treiber als sie
+
+999
+00:43:01,420 --> 00:43:05,930
+diejenigen die die konzepte sich
+
+1000
+00:43:03,319 --> 00:43:08,780
+entwickeln und noch die unternehmen die
+
+1001
+00:43:05,930 --> 00:43:09,980
+die anforderungen stellen wie morgen
+
+1002
+00:43:08,780 --> 00:43:11,810
+entwickelt werden muss und man braucht
+
+1003
+00:43:09,980 --> 00:43:13,940
+gleichzeitig auch die soft agenturen die
+
+1004
+00:43:11,810 --> 00:43:16,099
+die prozesse und tools darauf
+
+1005
+00:43:13,940 --> 00:43:16,430
+bereitstellen morgen so entwickeln zu
+
+1006
+00:43:16,099 --> 00:43:18,319
+können
+
+1007
+00:43:16,430 --> 00:43:20,150
+deswegen ist das eigentlich ein aus
+
+1008
+00:43:18,319 --> 00:43:23,300
+unserer sicht einzig jahren zusammen
+
+1009
+00:43:20,150 --> 00:43:25,860
+beschluss der jeden tag legt dann halt
+
+1010
+00:43:23,300 --> 00:43:28,500
+auch zusammen aber ist okay und
+
+1011
+00:43:25,860 --> 00:43:32,550
+wenn mich das jetzt als maschinenbau
+
+1012
+00:43:28,500 --> 00:43:35,280
+oder mechatronisches produzierendes
+
+1013
+00:43:32,550 --> 00:43:36,750
+gewerbe jetzt interessiert wie kann ich
+
+1014
+00:43:35,280 --> 00:43:39,270
+damit machen wofür ich dich daran mich
+
+1015
+00:43:36,750 --> 00:43:41,010
+und sagt ich möchte mitmachen oder ja
+
+1016
+00:43:39,270 --> 00:43:45,050
+wann kann man da einsteigen gibt es da
+
+1017
+00:43:41,010 --> 00:43:49,380
+termine wann lohnt sich also das
+
+1018
+00:43:45,050 --> 00:43:49,980
+bestehende gerne über solche fragen zur
+
+1019
+00:43:49,380 --> 00:43:55,980
+verfügung
+
+1020
+00:43:49,980 --> 00:43:58,350
+wir haben vier vertrags treffen da gibt
+
+1021
+00:43:55,980 --> 00:43:59,460
+es aber weiter und jain früher meine
+
+1022
+00:43:58,350 --> 00:44:01,830
+einstellungen zu früher kann man
+
+1023
+00:43:59,460 --> 00:44:03,690
+sozusagen auch die roadmap mitgestalten
+
+1024
+00:44:01,830 --> 00:44:04,620
+die themen der als quartz treffen wäre
+
+1025
+00:44:03,690 --> 00:44:06,750
+dann immer von den mitgliedsunternehmen
+
+1026
+00:44:04,620 --> 00:44:08,490
+selber entwickelt und wir bereiten diese
+
+1027
+00:44:06,750 --> 00:44:09,630
+dann entsprechend war das heißt der
+
+1028
+00:44:08,490 --> 00:44:10,950
+einstieg ist jederzeit möglich aber
+
+1029
+00:44:09,630 --> 00:44:12,270
+natürlich ist sondern dann wenn man
+
+1030
+00:44:10,950 --> 00:44:14,670
+jetzt im jahresturnus zum beispiel vor
+
+1031
+00:44:12,270 --> 00:44:17,580
+der brust hat dann aber da ich gerne
+
+1032
+00:44:14,670 --> 00:44:20,130
+kleine wellen und gleichzeitig hat man
+
+1033
+00:44:17,580 --> 00:44:22,860
+auch das vielleicht als hinweis wir
+
+1034
+00:44:20,130 --> 00:44:24,120
+haben eine große rolle chubb mit dem
+
+1035
+00:44:22,860 --> 00:44:24,900
+ganzen wissen nach der ganzen letzten
+
+1036
+00:44:24,120 --> 00:44:27,480
+jahre
+
+1037
+00:44:24,900 --> 00:44:28,590
+alle verträge die wir mit unseren
+
+1038
+00:44:27,480 --> 00:44:30,510
+experten entwickelt haben
+
+1039
+00:44:28,590 --> 00:44:33,540
+auf dieses wissen dass man nicht ein
+
+1040
+00:44:30,510 --> 00:44:34,770
+automat auch mit zugriff das heißt wir
+
+1041
+00:44:33,540 --> 00:44:36,750
+sind eigentlich nach dem unternehmen die
+
+1042
+00:44:34,770 --> 00:44:37,740
+entweder in dem themenfeld schon etwas
+
+1043
+00:44:36,750 --> 00:44:39,300
+gemacht haben und sich weiter entwickeln
+
+1044
+00:44:37,740 --> 00:44:40,590
+wollen oder aber auch diejenigen die
+
+1045
+00:44:39,300 --> 00:44:42,110
+einfach nicht verpassen wollen und die
+
+1046
+00:44:40,590 --> 00:44:44,700
+sagen wir müssen uns mit dem dem
+
+1047
+00:44:42,110 --> 00:44:47,160
+geschäftigen brauchen an meinen auf
+
+1048
+00:44:44,700 --> 00:44:49,470
+wartungsarmen einfachen einstieg in
+
+1049
+00:44:47,160 --> 00:44:51,540
+dieses thema und da ist das alter etwas
+
+1050
+00:44:49,470 --> 00:44:54,420
+was man nicht lernen kann das kabel sind
+
+1051
+00:44:51,540 --> 00:44:55,770
+wir uns alle einig kann man angenehm
+
+1052
+00:44:54,420 --> 00:44:58,160
+büchern lernen aber man muss es
+
+1053
+00:44:55,770 --> 00:45:00,360
+eigentlich machen um es tatsächlich auch
+
+1054
+00:44:58,160 --> 00:45:06,060
+möglich zu merken was geht und was geht
+
+1055
+00:45:00,360 --> 00:45:09,810
+nicht gleich mal aus meiner aus meiner
+
+1056
+00:45:06,060 --> 00:45:11,490
+eigenen erfahrung also ich bin ja und
+
+1057
+00:45:09,810 --> 00:45:13,110
+jahrelang sogar schöpfung menschen
+
+1058
+00:45:11,490 --> 00:45:15,320
+komplexitätsmanagement gearbeitet in
+
+1059
+00:45:13,110 --> 00:45:17,210
+kurzen mit industrieprojekten
+
+1060
+00:45:15,320 --> 00:45:19,730
+und ein spruch ist mir jetzt kürzlich
+
+1061
+00:45:17,210 --> 00:45:23,540
+noch noch im kopf geblieben
+
+1062
+00:45:19,730 --> 00:45:25,520
+da habe ich mit dem kollegen
+
+1063
+00:45:23,540 --> 00:45:26,750
+entsprechend gesprochen die da in dem
+
+1064
+00:45:25,520 --> 00:45:29,330
+bereich kommt dieses punkten immer
+
+1065
+00:45:26,750 --> 00:45:31,280
+unterwegs sind und der kollege sei
+
+1066
+00:45:29,330 --> 00:45:33,890
+eigentlich machen dies sind näher ist
+
+1067
+00:45:31,280 --> 00:45:35,800
+das so wie wir das als variante aber da
+
+1068
+00:45:33,890 --> 00:45:39,290
+komplex tänzer machen sollten
+
+1069
+00:45:35,800 --> 00:45:41,420
+und das ist wie mehrere im kopf
+
+1070
+00:45:39,290 --> 00:45:44,090
+geblieben und mir gezeigt dass das hat
+
+1071
+00:45:41,420 --> 00:45:46,370
+auch eine evolution ist von dem also vor
+
+1072
+00:45:44,090 --> 00:45:48,920
+15 20 jahren war der schwerpunkt
+
+1073
+00:45:46,370 --> 00:45:51,170
+komplexe baukasten gestaltung und lutz
+
+1074
+00:45:48,920 --> 00:45:52,340
+klein und so weiter und heute müssen wir
+
+1075
+00:45:51,170 --> 00:45:53,540
+aber die sind einen schritt weiter gehen
+
+1076
+00:45:52,340 --> 00:45:55,520
+das ist eigentlich alle unternehmen die
+
+1077
+00:45:53,540 --> 00:45:56,750
+sich bislang mit mehr oder weniger
+
+1078
+00:45:55,520 --> 00:45:58,400
+erfolgreich vielleicht auch die
+
+1079
+00:45:56,750 --> 00:45:59,870
+komplexität es mich beschäftigt haben
+
+1080
+00:45:58,400 --> 00:46:01,940
+die müssten jetzt eigentlich mindestens
+
+1081
+00:45:59,870 --> 00:46:03,980
+parallel heißt nicht dass man komplett
+
+1082
+00:46:01,940 --> 00:46:05,690
+aufgeben sollte im gegenteil das muss
+
+1083
+00:46:03,980 --> 00:46:07,940
+weiter getrieben wird aber das nächste
+
+1084
+00:46:05,690 --> 00:46:10,400
+thema muss jetzt quasi genauso mit
+
+1085
+00:46:07,940 --> 00:46:17,240
+angeschoben werden und dadurch bieten
+
+1086
+00:46:10,400 --> 00:46:20,420
+wir startet ok super klingt auf jeden
+
+1087
+00:46:17,240 --> 00:46:23,120
+fall spannend also muss sagen ich finde
+
+1088
+00:46:20,420 --> 00:46:25,820
+es auch wirklich jetzt so selber als
+
+1089
+00:46:23,120 --> 00:46:27,940
+mitglied dort echt spannende community
+
+1090
+00:46:25,820 --> 00:46:30,110
+macht sehr viel spaß
+
+1091
+00:46:27,940 --> 00:46:33,380
+folge managt muss man wirklich sagen
+
+1092
+00:46:30,110 --> 00:46:39,200
+also professionell wie man das von der
+
+1093
+00:46:33,380 --> 00:46:42,230
+rwth erwartet und ja also wir können es
+
+1094
+00:46:39,200 --> 00:46:46,520
+nur empfehlen gerade wenn man jetzt eben
+
+1095
+00:46:42,230 --> 00:46:48,560
+die themen einer klassischen disziplin
+
+1096
+00:46:46,520 --> 00:46:50,540
+mit dem systems engineering verbinden
+
+1097
+00:46:48,560 --> 00:46:52,160
+will ist das glaube ich als sehr guten
+
+1098
+00:46:50,540 --> 00:46:54,070
+angebote in deutschland im
+
+1099
+00:46:52,160 --> 00:46:58,130
+deutschsprachigen raum
+
+1100
+00:46:54,070 --> 00:47:00,170
+und ja ich würde sagen ich schaue mal
+
+1101
+00:46:58,130 --> 00:47:02,390
+kurz in den channel live chat ob jemand
+
+1102
+00:47:00,170 --> 00:47:05,000
+noch eine frage an euch hatte das haben
+
+1103
+00:47:02,390 --> 00:47:09,710
+als gar nicht dazu gesagt nee ist keiner
+
+1104
+00:47:05,000 --> 00:47:15,530
+da hast du noch eine frage ja ich sehe
+
+1105
+00:47:09,710 --> 00:47:18,050
+ich glaube mir fällt gerade du hast du
+
+1106
+00:47:15,530 --> 00:47:22,100
+keine weitere frage wird noch was in
+
+1107
+00:47:18,050 --> 00:47:23,750
+eigener sache loswerden was natürlich
+
+1108
+00:47:22,100 --> 00:47:27,830
+auch wieder zum thema wissenstransfer
+
+1109
+00:47:23,750 --> 00:47:28,580
+und vor allem erweiterung des wissens
+
+1110
+00:47:27,830 --> 00:47:32,360
+oben
+
+1111
+00:47:28,580 --> 00:47:34,460
+das engineering sich drehen wird vom
+
+1112
+00:47:32,360 --> 00:47:38,000
+neunten bis zwölften märz diesen jahres
+
+1113
+00:47:34,460 --> 00:47:39,140
+wird die 13 technologiekonferenz in
+
+1114
+00:47:38,000 --> 00:47:41,540
+aachen stattfinden
+
+1115
+00:47:39,140 --> 00:47:44,000
+parallel und zusammen mit der konferenz
+
+1116
+00:47:41,540 --> 00:47:46,510
+vor windparks ist eine zweijährige
+
+1117
+00:47:44,000 --> 00:47:48,370
+konferenz die wir von der hochschule
+
+1118
+00:47:46,510 --> 00:47:55,010
+ausrichten
+
+1119
+00:47:48,370 --> 00:47:57,530
+speziell zu dem thema antriebssystem von
+
+1120
+00:47:55,010 --> 00:48:01,340
+windenergieanlagen und trieben aber auch
+
+1121
+00:47:57,530 --> 00:48:04,130
+ganz allgemein anderen anwendungen und
+
+1122
+00:48:01,340 --> 00:48:08,840
+hier wird dieses jahr einen dedizierten
+
+1123
+00:48:04,130 --> 00:48:11,600
+systems engineering track geben den wir
+
+1124
+00:48:08,840 --> 00:48:13,270
+hier bespielen mit spannenden vor einem
+
+1125
+00:48:11,600 --> 00:48:16,430
+wissenschaftlichen beiträgen
+
+1126
+00:48:13,270 --> 00:48:18,140
+wer schnell ist kann sich noch sogar
+
+1127
+00:48:16,430 --> 00:48:20,110
+noch ein ticket mit rabatt sichern ich
+
+1128
+00:48:18,140 --> 00:48:23,150
+habe das morgen läuft die aktion noch
+
+1129
+00:48:20,110 --> 00:48:27,770
+also wenn das jemand interessiert gerne
+
+1130
+00:48:23,150 --> 00:48:29,930
+mal vorbeischauen und der tk de finden
+
+1131
+00:48:27,770 --> 00:48:31,400
+sich alle informationen und freuen uns
+
+1132
+00:48:29,930 --> 00:48:33,800
+natürlich auch darüber zwar eine
+
+1133
+00:48:31,400 --> 00:48:35,690
+teilnahme werden vom center systems
+
+1134
+00:48:33,800 --> 00:48:37,900
+engineering dann natürlich auch
+
+1135
+00:48:35,690 --> 00:48:40,280
+zumindest in unserem virtuellen
+
+1136
+00:48:37,900 --> 00:48:44,240
+ausstellungsraum dann mit dabei seien
+
+1137
+00:48:40,280 --> 00:48:46,400
+auch mit so einem banner ja ja wenn wir
+
+1138
+00:48:44,240 --> 00:48:48,710
+schon bei terminen sind tim dann geht es
+
+1139
+00:48:46,400 --> 00:48:49,340
+dann bei uns im podcast weiter ist das
+
+1140
+00:48:48,710 --> 00:48:52,940
+schon klar
+
+1141
+00:48:49,340 --> 00:48:54,440
+die nächsten termine haben ja schon und
+
+1142
+00:48:52,940 --> 00:48:56,210
+ich meine diese februar wenn ich mich
+
+1143
+00:48:54,440 --> 00:48:57,160
+selbst ich verhaue haben wir den
+
+1144
+00:48:56,210 --> 00:49:00,260
+nächsten termin
+
+1145
+00:48:57,160 --> 00:49:03,530
+und da starten wir eine neue serie
+
+1146
+00:49:00,260 --> 00:49:05,270
+sozusagen mbs around the world wir
+
+1147
+00:49:03,530 --> 00:49:08,540
+wollen nicht mal schauen wie steht es
+
+1148
+00:49:05,270 --> 00:49:11,810
+dann so mit mbs in anderen ländern sehr
+
+1149
+00:49:08,540 --> 00:49:14,810
+sehr spannend und starten mit schweben
+
+1150
+00:49:11,810 --> 00:49:18,230
+da haben wir den top strandberg zu
+
+1151
+00:49:14,810 --> 00:49:20,000
+besuch von der firma süntel die machen
+
+1152
+00:49:18,230 --> 00:49:21,710
+das ist zum zehnjährigen beratung und
+
+1153
+00:49:20,000 --> 00:49:24,470
+trainings entscheiden und er ist ein
+
+1154
+00:49:21,710 --> 00:49:27,200
+urgestein von incose und von cosi
+
+1155
+00:49:24,470 --> 00:49:29,150
+logischer dann schweben ja und er wird
+
+1156
+00:49:27,200 --> 00:49:32,020
+uns dabei erzählen wie mbst in schweden
+
+1157
+00:49:29,150 --> 00:49:32,020
+so aussieht was da so passiert
+
+1158
+00:49:35,749 --> 00:49:42,449
+jörg-michael vielen vielen dank für eure
+
+1159
+00:49:38,489 --> 00:49:44,789
+teilnahme sei dank war auf jeden fall
+
+1160
+00:49:42,449 --> 00:49:47,180
+ein schöner ein blick ins center aber
+
+1161
+00:49:44,789 --> 00:49:51,539
+eben auch eure einschätzung zum thema
+
+1162
+00:49:47,180 --> 00:49:53,099
+mbst und maschinenbau und damit bleibt
+
+1163
+00:49:51,539 --> 00:50:01,259
+uns eigentlich wieder nur noch zu sagen
+
+1164
+00:49:53,099 --> 00:50:05,719
+trotz des systems engines dank nicht
+
+1165
+00:50:01,259 --> 00:50:05,719
+dabei sein dürfen gerne doch
+

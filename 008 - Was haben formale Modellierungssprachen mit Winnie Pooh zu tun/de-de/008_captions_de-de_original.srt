@@ -1,0 +1,3148 @@
+1
+00:00:00,000 --> 00:00:03,830
+[Musik]
+
+2
+00:00:06,430 --> 00:00:15,369
+[Musik]
+
+3
+00:00:43,880 --> 00:00:47,139
+[Musik]
+
+4
+00:01:21,430 --> 00:01:26,369
+[Musik]
+
+5
+00:01:29,840 --> 00:01:35,480
+[Musik]
+
+6
+00:01:32,360 --> 00:01:37,470
+hallo liebe freunde des mbc podcasts und
+
+7
+00:01:35,480 --> 00:01:39,240
+auch freunde von winnie puuh
+
+8
+00:01:37,470 --> 00:01:41,670
+wahrscheinlich die heute hier
+
+9
+00:01:39,240 --> 00:01:45,360
+eingeschaltet haben zu unserer neuesten
+
+10
+00:01:41,670 --> 00:01:47,700
+podcast folge zum thema was winnie puuh
+
+11
+00:01:45,360 --> 00:01:51,590
+mit formalen modellierungs sprachen zu
+
+12
+00:01:47,700 --> 00:01:54,630
+tun hat und das möchten wir tim und ich
+
+13
+00:01:51,590 --> 00:01:58,250
+heute zusammen mit silvia mit doktor
+
+14
+00:01:54,630 --> 00:02:02,330
+silvia melzer von der uni hamburg klären
+
+15
+00:01:58,250 --> 00:02:02,330
+silvia stell dich doch mal kurz vor
+
+16
+00:02:37,810 --> 00:02:40,170
+cool
+
+17
+00:07:06,370 --> 00:07:12,370
+gutzeit information redet man weiter
+
+18
+00:07:10,120 --> 00:07:15,699
+unsere zuhörer hören euch jetzt gerade
+
+19
+00:07:12,370 --> 00:07:16,510
+nicht hören um mich ich versuche das mal
+
+20
+00:07:15,699 --> 00:07:20,440
+hier zu lösen
+
+21
+00:07:16,510 --> 00:07:23,229
+ihr könnt ja schon mal weiter reden und
+
+22
+00:07:20,440 --> 00:07:27,070
+für alle zuschauer die jetzt gerade
+
+23
+00:07:23,229 --> 00:07:29,740
+nichts hören nur mich hören wir nehmen
+
+24
+00:07:27,070 --> 00:07:32,790
+den ton separat auf also ihr könnt auf
+
+25
+00:07:29,740 --> 00:07:35,169
+alle fälle danach nachhören
+
+26
+00:07:32,790 --> 00:07:39,510
+ich versuche jetzt mal dass ihr auch
+
+27
+00:07:35,169 --> 00:07:39,510
+noch tim und sylvia hört
+
+28
+00:08:06,240 --> 00:08:10,860
+im flugzeug verhalten von astrid den
+
+29
+00:08:09,270 --> 00:08:14,960
+fehler auf und man hat jetzt
+
+30
+00:08:10,860 --> 00:08:14,960
+verschiedene interaktionsmöglichkeiten
+
+31
+00:10:51,840 --> 00:10:54,410
+dollar
+
+32
+00:11:13,350 --> 00:11:17,490
+google würde sonst auch dieses mal
+
+33
+00:11:16,170 --> 00:11:19,170
+vielleicht ganz anders aussehen an der
+
+34
+00:11:17,490 --> 00:11:23,940
+stelle also dass dass ich so etwas wie
+
+35
+00:11:19,170 --> 00:11:27,210
+hier garnicht modellieren kann wenn ich
+
+36
+00:11:23,940 --> 00:11:29,490
+also wäre also wünschenswert wäre es
+
+37
+00:11:27,210 --> 00:11:32,910
+wahrscheinlich dass dieses ml so bleibt
+
+38
+00:11:29,490 --> 00:11:37,670
+also das ist für den anwender so bleibt
+
+39
+00:11:32,910 --> 00:11:41,250
+wie es jetzt ist bei cml wurde ja dafür
+
+40
+00:11:37,670 --> 00:11:47,820
+entwickelt unter anderem das ich sehen
+
+41
+00:11:41,250 --> 00:11:49,610
+kann also dass ich sie du das ich sehen
+
+42
+00:11:47,820 --> 00:11:52,950
+kann dass ich modell ihre es soll ja
+
+43
+00:11:49,610 --> 00:11:55,530
+gleich verständlich sein und wenn ich
+
+44
+00:11:52,950 --> 00:11:57,690
+damit anfange meine ich kann ja gleich
+
+45
+00:11:55,530 --> 00:12:01,350
+formale sprachen verwenden und sagen
+
+46
+00:11:57,690 --> 00:12:03,900
+hier die haben wir diese anthologie da
+
+47
+00:12:01,350 --> 00:12:08,450
+schreiben wir das ganze wissen ein gibt
+
+48
+00:12:03,900 --> 00:12:10,410
+es ja auch nutzt man aber eben jetzt
+
+49
+00:12:08,450 --> 00:12:16,130
+bereich der modellbasierten entwicklung
+
+50
+00:12:10,410 --> 00:12:18,720
+nicht weil das einfach zu schwierig ist
+
+51
+00:12:16,130 --> 00:12:19,710
+also man muss natürlich die leute
+
+52
+00:12:18,720 --> 00:12:21,810
+ausbilden
+
+53
+00:12:19,710 --> 00:12:24,720
+die anwendung ist ausgebildet seien in
+
+54
+00:12:21,810 --> 00:12:27,930
+diesen formalen sprachen und ich denke
+
+55
+00:12:24,720 --> 00:12:31,170
+da sind gerade auch die hersteller
+
+56
+00:12:27,930 --> 00:12:33,390
+gefragt dass sie möglichst viel in den
+
+57
+00:12:31,170 --> 00:12:35,670
+hintergrund mit einbauen so wie es
+
+58
+00:12:33,390 --> 00:12:37,950
+zurzeit auch gibt es eine validierung
+
+59
+00:12:35,670 --> 00:12:40,410
+der sprache uml und system elke
+
+60
+00:12:37,950 --> 00:12:42,030
+hinterlegt und im hintergrund wird ja
+
+61
+00:12:40,410 --> 00:12:44,520
+geprüft ich kann nicht alle modelle
+
+62
+00:12:42,030 --> 00:12:47,100
+elemente in jedem diagramm verwenden
+
+63
+00:12:44,520 --> 00:12:49,770
+sondern nur das was die spezifikation
+
+64
+00:12:47,100 --> 00:12:52,950
+zulässt und das stelle ich eben genau so
+
+65
+00:12:49,770 --> 00:12:55,680
+auch vor das ist bei der verwendung von
+
+66
+00:12:52,950 --> 00:12:57,860
+von doll oder der sml zukünftig auch so
+
+67
+00:12:55,680 --> 00:13:03,180
+bleiben soll
+
+68
+00:12:57,860 --> 00:13:04,110
+was soll dann erst und ab laufen ja ich
+
+69
+00:13:03,180 --> 00:13:06,480
+erinnere mich dass er sowas gemacht
+
+70
+00:13:04,110 --> 00:13:09,480
+hatten als wir dieses teleskop modell
+
+71
+00:13:06,480 --> 00:13:10,890
+entwickelt haben mit dass der user
+
+72
+00:13:09,480 --> 00:13:15,570
+veröffentlicht wurde gemeinsam mit der
+
+73
+00:13:10,890 --> 00:13:18,180
+eso wo wir ein subsystem das extremely
+
+74
+00:13:15,570 --> 00:13:20,460
+large telescope geschrieben haben da
+
+75
+00:13:18,180 --> 00:13:21,930
+hatte das war da war leider ich nicht
+
+76
+00:13:20,460 --> 00:13:23,220
+dabei weil die software ist lebens teuer
+
+77
+00:13:21,930 --> 00:13:24,410
+weil ich konnte es nicht ausprobieren
+
+78
+00:13:23,220 --> 00:13:26,449
+aber mein kompagnon
+
+79
+00:13:24,410 --> 00:13:27,529
+robert capa und er hat das gemacht er
+
+80
+00:13:26,449 --> 00:13:31,459
+hatte im hintergrund auch eine
+
+81
+00:13:27,529 --> 00:13:33,259
+anthologie software laufen und die deine
+
+82
+00:13:31,459 --> 00:13:35,690
+theorie eingespeist und dieses tool
+
+83
+00:13:33,259 --> 00:13:38,720
+hatte dann unser modell überprüft ob es
+
+84
+00:13:35,690 --> 00:13:42,610
+der der ontologie dann entspricht und
+
+85
+00:13:38,720 --> 00:13:44,269
+aber einen wissen drin über teleskope
+
+86
+00:13:42,610 --> 00:13:45,980
+aber wie gesagt habe ja leider nicht
+
+87
+00:13:44,269 --> 00:13:48,079
+reingucken können weil ich die software
+
+88
+00:13:45,980 --> 00:13:51,230
+nicht nutzen konnte aber das war ein
+
+89
+00:13:48,079 --> 00:13:52,850
+ähnlicher ansatz fand ich spannend ja
+
+90
+00:13:51,230 --> 00:13:54,410
+vielleicht auch kommst du du erwähnt ist
+
+91
+00:13:52,850 --> 00:13:55,610
+hanija die distributed und tolle
+
+92
+00:13:54,410 --> 00:13:59,029
+teamorder in specification
+
+93
+00:13:55,610 --> 00:14:00,350
+wirtschaftliches wort ist seit 2008 sind
+
+94
+00:13:59,029 --> 00:14:02,360
+recht da schon noch mal die seiten was
+
+95
+00:14:00,350 --> 00:14:05,420
+ist es von von der oben sie entwickelten
+
+96
+00:14:02,360 --> 00:14:07,730
+standard und die alle oben standards
+
+97
+00:14:05,420 --> 00:14:10,759
+findet man das auf deren webseiten ist
+
+98
+00:14:07,730 --> 00:14:12,230
+frei verfügbaren g-punkt org / backslash
+
+99
+00:14:10,759 --> 00:14:14,930
+und dann kommt die abkürzung in diesem
+
+100
+00:14:12,230 --> 00:14:17,420
+fall die us mail schreibt mit dieser sms
+
+101
+00:14:14,930 --> 00:14:19,540
+bergmann stadium specks und so weiter
+
+102
+00:14:17,420 --> 00:14:21,949
+wir brauchen aber die chance packen
+
+103
+00:14:19,540 --> 00:14:23,209
+ja ich habe viel über ihn gesprochen was
+
+104
+00:14:21,949 --> 00:14:27,379
+ist denn überhaupt eine anthologie das
+
+105
+00:14:23,209 --> 00:14:28,759
+board mit der sehr oft benutzt ist ein
+
+106
+00:14:27,379 --> 00:14:30,319
+bisschen inflation er aber was ist es
+
+107
+00:14:28,759 --> 00:14:32,240
+denn wirklich auswirkt ob es wird häufig
+
+108
+00:14:30,319 --> 00:14:34,939
+auch falsch verwendet was ist eine
+
+109
+00:14:32,240 --> 00:14:37,009
+richtig ja in der informatik sind und
+
+110
+00:14:34,939 --> 00:14:38,870
+theologie sprachlich gefasst und formal
+
+111
+00:14:37,009 --> 00:14:40,670
+geordnete darstellung eine menge von
+
+112
+00:14:38,870 --> 00:14:42,079
+begriffen und der zwischen ihnen
+
+113
+00:14:40,670 --> 00:14:44,060
+bestehenden beziehungen in einem
+
+114
+00:14:42,079 --> 00:14:48,880
+bestimmten gegenstands bereich so das
+
+115
+00:14:44,060 --> 00:14:52,310
+ist was ich oftmals abgefragt habe in
+
+116
+00:14:48,880 --> 00:14:54,589
+prüfung und sie werden dazu benutzt um
+
+117
+00:14:52,310 --> 00:14:56,600
+wissen in digitalisierter und formaler
+
+118
+00:14:54,589 --> 00:14:58,930
+form zwischen anwendungsprogramm und
+
+119
+00:14:56,600 --> 00:15:02,149
+diensten auszutauschen
+
+120
+00:14:58,930 --> 00:15:04,009
+einfach gesagt sag ich es ist ein
+
+121
+00:15:02,149 --> 00:15:07,269
+beziehungsmodell man hat einzelne
+
+122
+00:15:04,009 --> 00:15:09,649
+konzepte wie beispielsweise lübecker und
+
+123
+00:15:07,269 --> 00:15:11,420
+spezialisierung maximal paaren liebhaber
+
+124
+00:15:09,649 --> 00:15:12,620
+man könnte sich eben auch vorstellen
+
+125
+00:15:11,420 --> 00:15:15,019
+dass man eben auf der anderen seite den
+
+126
+00:15:12,620 --> 00:15:17,439
+kieler und dann die gomez hat und
+
+127
+00:15:15,019 --> 00:15:19,790
+marzipan liebhaber und gomez haben eine
+
+128
+00:15:17,439 --> 00:15:21,339
+assoziation so und wenn ich eine
+
+129
+00:15:19,790 --> 00:15:24,500
+assoziation zwischen den beiden
+
+130
+00:15:21,339 --> 00:15:28,279
+konzepten zwischen lübeck und kiel habe
+
+131
+00:15:24,500 --> 00:15:32,439
+mit den machthabern und den gummis
+
+132
+00:15:28,279 --> 00:15:32,439
+spreche ich dann von einer anthologie
+
+133
+00:15:32,559 --> 00:15:39,430
+und dort dort kann man eben festlegen
+
+134
+00:15:35,540 --> 00:15:41,870
+dass auch ein lieber kein mensch
+
+135
+00:15:39,430 --> 00:15:43,399
+in der bundesrepublik deutschland wie
+
+136
+00:15:41,870 --> 00:15:44,990
+quelle in die hauptstadt der
+
+137
+00:15:43,399 --> 00:15:47,029
+bundesrepublik deutschland ist also das
+
+138
+00:15:44,990 --> 00:15:48,910
+ist alles was ich in den hintern einer
+
+139
+00:15:47,029 --> 00:15:51,259
+und energie hinterlegen kann
+
+140
+00:15:48,910 --> 00:15:53,860
+so jetzt kann ich wieder war ich
+
+141
+00:15:51,259 --> 00:15:56,600
+einsteigen
+
+142
+00:15:53,860 --> 00:15:58,899
+ok also ontologie habe ich jetzt
+
+143
+00:15:56,600 --> 00:16:01,930
+mitbekommen
+
+144
+00:15:58,899 --> 00:16:04,370
+jetzt gibt es ja mit sicherheit auch
+
+145
+00:16:01,930 --> 00:16:06,380
+standards wie man so so wissen
+
+146
+00:16:04,370 --> 00:16:09,709
+repräsentiert das in solar und theologie
+
+147
+00:16:06,380 --> 00:16:13,100
+steckt ja es gibt zum beispiel die web
+
+148
+00:16:09,709 --> 00:16:15,880
+und theologie language kurzweil ist eine
+
+149
+00:16:13,100 --> 00:16:18,620
+spezifikation auch das world wide web
+
+150
+00:16:15,880 --> 00:16:20,420
+consortiums um ontologien anhand einer
+
+151
+00:16:18,620 --> 00:16:25,040
+formalen beschreibungssprache erstellen
+
+152
+00:16:20,420 --> 00:16:28,310
+publizieren und verteilen zu können hat
+
+153
+00:16:25,040 --> 00:16:29,899
+das auch etwas mit internet zu tun hat
+
+154
+00:16:28,310 --> 00:16:31,940
+der ontologie auch etwas mit internet zu
+
+155
+00:16:29,899 --> 00:16:33,050
+tun oder diesen kontext internet
+
+156
+00:16:31,940 --> 00:16:35,690
+entwickelt worden
+
+157
+00:16:33,050 --> 00:16:38,959
+welche rolle spielt die aus also es geht
+
+158
+00:16:35,690 --> 00:16:44,089
+darum ein format zu schaffen um das
+
+159
+00:16:38,959 --> 00:16:47,740
+wissen ja zwischen verschiedenen
+
+160
+00:16:44,089 --> 00:16:50,000
+maschinen austauschbar zu machen
+
+161
+00:16:47,740 --> 00:16:52,699
+das kam dann wahrscheinlich auch alles
+
+162
+00:16:50,000 --> 00:17:00,050
+im rahmen des ganzen semantik webs
+
+163
+00:16:52,699 --> 00:17:02,300
+anfang der 2000er ja gut wenn ich mir
+
+164
+00:17:00,050 --> 00:17:04,669
+jetzt vorstelle ich moderiere jetzt
+
+165
+00:17:02,300 --> 00:17:07,270
+wissen und tim modelliert auch wissen
+
+166
+00:17:04,669 --> 00:17:10,459
+ist dass dann notwendig dass wir beide
+
+167
+00:17:07,270 --> 00:17:13,000
+beispielsweise öl verwenden oder kann
+
+168
+00:17:10,459 --> 00:17:18,260
+man das auch irgendwie übertragen
+
+169
+00:17:13,000 --> 00:17:20,240
+also man muss nicht sich abstimmen
+
+170
+00:17:18,260 --> 00:17:23,329
+vorher die modelle können verschiedenen
+
+171
+00:17:20,240 --> 00:17:25,730
+sprachen formalisiert sein wenn man dort
+
+172
+00:17:23,329 --> 00:17:28,330
+verwenden möchte die können sich sogar
+
+173
+00:17:25,730 --> 00:17:30,730
+in ihrer ausdrucksstarken ausdruckskraft
+
+174
+00:17:28,330 --> 00:17:33,820
+unterscheiden
+
+175
+00:17:30,730 --> 00:17:37,179
+besonderheit eine verwendung
+
+176
+00:17:33,820 --> 00:17:42,710
+was ist denn sogar ausdruckskraft einer
+
+177
+00:17:37,179 --> 00:17:44,090
+sprache ja wenn wir uns also bis dahin
+
+178
+00:17:42,710 --> 00:17:46,159
+genauer anschauen
+
+179
+00:17:44,090 --> 00:17:49,159
+europa sieht ja im wesentlichen auf
+
+180
+00:17:46,159 --> 00:17:51,260
+beschreibung slogan es gibt die in
+
+181
+00:17:49,159 --> 00:17:56,460
+unterschiedlichen versionen
+
+182
+00:17:51,260 --> 00:17:58,980
+rtl oder neu jahre ist 2 dl die l steht
+
+183
+00:17:56,460 --> 00:18:00,990
+dann für beschreibung logik eine familie
+
+184
+00:17:58,980 --> 00:18:02,159
+von sprachen zu fahren malen wissens
+
+185
+00:18:00,990 --> 00:18:06,450
+repräsentation
+
+186
+00:18:02,159 --> 00:18:12,779
+es gibt auch bauleiter rolf uns erstmal
+
+187
+00:18:06,450 --> 00:18:16,100
+auf die l und raul 2 die lbl gilt
+
+188
+00:18:12,779 --> 00:18:21,600
+nämlich schon in klammern de und be2
+
+189
+00:18:16,100 --> 00:18:23,490
+gilt es ruhig in klammern die wobei de l
+
+190
+00:18:21,600 --> 00:18:26,909
+steht doch eigentlich für description
+
+191
+00:18:23,490 --> 00:18:31,950
+logic um den ort und das ist die
+
+192
+00:18:26,909 --> 00:18:34,130
+beschreibung logik aber jetzt freuen
+
+193
+00:18:31,950 --> 00:18:38,659
+schreibt de
+
+194
+00:18:34,130 --> 00:18:38,659
+da was ist das ist dann schon wieder die
+
+195
+00:18:41,450 --> 00:18:48,210
+buchstaben selber stehen für eine eine
+
+196
+00:18:45,570 --> 00:18:52,110
+also ist die codierung einer logik nur
+
+197
+00:18:48,210 --> 00:18:55,559
+wir sehen bei freuen und sie haben beide
+
+198
+00:18:52,110 --> 00:18:57,720
+ein ass und es ist für die abkürzung als
+
+199
+00:18:55,559 --> 00:18:59,250
+also als sie ist auch wieder eine
+
+200
+00:18:57,720 --> 00:19:03,029
+abkürzung für tribut language that
+
+201
+00:18:59,250 --> 00:19:05,850
+kontinents und dass es kann zusätzlich
+
+202
+00:19:03,029 --> 00:19:09,570
+also zu alt + transit iwe rollen
+
+203
+00:19:05,850 --> 00:19:12,330
+da stellen wir nutzen
+
+204
+00:19:09,570 --> 00:19:17,100
+da das sind dann so so mächtigkeiten so
+
+205
+00:19:12,330 --> 00:19:18,630
+ausdruckskraft von sprachen richtig als
+
+206
+00:19:17,100 --> 00:19:21,360
+sie ist die einfachste beschreibung
+
+207
+00:19:18,630 --> 00:19:23,730
+logik damit ist es dann möglich atomare
+
+208
+00:19:21,360 --> 00:19:27,029
+konzepte zu definieren wie lübecker
+
+209
+00:19:23,730 --> 00:19:29,940
+marzipan liebhaber man kann die nation
+
+210
+00:19:27,029 --> 00:19:31,919
+ausdrücken wie kein marzipan lieber man
+
+211
+00:19:29,940 --> 00:19:35,010
+kann rolle nahm definieren wie hat
+
+212
+00:19:31,919 --> 00:19:37,440
+besitzt ist teil von man kann
+
+213
+00:19:35,010 --> 00:19:39,659
+grundfunktionen ausdrücken lübecker und
+
+214
+00:19:37,440 --> 00:19:41,820
+marzipan liebhaber oder man kann
+
+215
+00:19:39,659 --> 00:19:42,630
+dysfunktion ausdrücken wie lübeck oder
+
+216
+00:19:41,820 --> 00:19:45,240
+kiel
+
+217
+00:19:42,630 --> 00:19:47,010
+man kann existenz und werte
+
+218
+00:19:45,240 --> 00:19:48,659
+restriktionen definieren
+
+219
+00:19:47,010 --> 00:19:50,789
+das heißt man kann auch sagen das
+
+220
+00:19:48,659 --> 00:19:53,279
+lübecker die einen marzipan liebhaber
+
+221
+00:19:50,789 --> 00:19:55,320
+haben sagen oder lübecker die keine
+
+222
+00:19:53,279 --> 00:19:58,559
+marzipan fechter haben ausdrücken
+
+223
+00:19:55,320 --> 00:19:59,850
+und das steckt in dem anc drin was man
+
+224
+00:19:58,559 --> 00:20:02,039
+ausdrücken kann
+
+225
+00:19:59,850 --> 00:20:03,539
+wir haben ja dass es das heißt transit
+
+226
+00:20:02,039 --> 00:20:04,650
+iwe rollen gelten
+
+227
+00:20:03,539 --> 00:20:06,240
+dh
+
+228
+00:20:04,650 --> 00:20:09,720
+als bei transit even wollen kann ich
+
+229
+00:20:06,240 --> 00:20:11,790
+dann sagen wenn kieler gomez haben und
+
+230
+00:20:09,720 --> 00:20:14,250
+hobbies marzipan liebhaber haben dann
+
+231
+00:20:11,790 --> 00:20:16,410
+folgt das kieler marzipan die papa haben
+
+232
+00:20:14,250 --> 00:20:20,280
+so das kann ich dann über diese
+
+233
+00:20:16,410 --> 00:20:22,140
+tradition heraus bekommen dass man auf
+
+234
+00:20:20,280 --> 00:20:24,030
+die sml gemünzt
+
+235
+00:20:22,140 --> 00:20:26,430
+also vieles habe ich jetzt direkt wieder
+
+236
+00:20:24,030 --> 00:20:30,780
+erkannt also ist teil von das ist ja
+
+237
+00:20:26,430 --> 00:20:34,380
+auch so ein konzept was man auch in das
+
+238
+00:20:30,780 --> 00:20:37,770
+system beispielsweise findet kannst du
+
+239
+00:20:34,380 --> 00:20:39,750
+ganz spontan so was wie transit iwe
+
+240
+00:20:37,770 --> 00:20:42,480
+rollenwahl auf den smi übersetzen
+
+241
+00:20:39,750 --> 00:20:44,840
+wo findet man oder würde man so etwas
+
+242
+00:20:42,480 --> 00:20:50,580
+finden oder findet man es überhaupt
+
+243
+00:20:44,840 --> 00:20:53,520
+der transit iwwerall also man kann eine
+
+244
+00:20:50,580 --> 00:20:55,470
+assoziation zu sich selber legen dann
+
+245
+00:20:53,520 --> 00:20:56,570
+hätte man eine andere eine positive
+
+246
+00:20:55,470 --> 00:21:06,750
+rolle
+
+247
+00:20:56,570 --> 00:21:10,680
+ein freund hat hat freund okay doch das
+
+248
+00:21:06,750 --> 00:21:11,880
+erklärt ja also es gibt auch das ganze
+
+249
+00:21:10,680 --> 00:21:13,920
+ist jetzt noch mal also jetzt als see
+
+250
+00:21:11,880 --> 00:21:16,800
+ist ja dass es steht hier als er das
+
+251
+00:21:13,920 --> 00:21:19,350
+sagt man auch in alzey + transit das
+
+252
+00:21:16,800 --> 00:21:21,870
+haus geräumt und das tessin scheuen und
+
+253
+00:21:19,350 --> 00:21:24,090
+streut drin steckt heißt dass es schon
+
+254
+00:21:21,870 --> 00:21:32,880
+los freut diese ausdruckskraft habe
+
+255
+00:21:24,090 --> 00:21:34,350
+genau dann wenn man ausdrücken also die
+
+256
+00:21:32,880 --> 00:21:36,180
+freunde meine freunde sind auch meine
+
+257
+00:21:34,350 --> 00:21:39,090
+freunde kann man das eben mittel scheuen
+
+258
+00:21:36,180 --> 00:21:40,470
+ausdrücken die feinde meiner freunde
+
+259
+00:21:39,090 --> 00:21:43,140
+sind auch meine feinde
+
+260
+00:21:40,470 --> 00:21:49,010
+das kann ich in scheint nicht ausdrücken
+
+261
+00:21:43,140 --> 00:21:51,630
+dazu muss ich mich ja zusätzliche
+
+262
+00:21:49,010 --> 00:21:53,070
+ausdrucksstärke bedienen die dann zeug
+
+263
+00:21:51,630 --> 00:21:55,860
+anbietet mit dem r
+
+264
+00:21:53,070 --> 00:21:57,170
+dass ich dann zusätzlich aussagen über
+
+265
+00:21:55,860 --> 00:22:00,320
+rollen treffen kann
+
+266
+00:21:57,170 --> 00:22:05,090
+also dann sind da noch ganz ganz viele
+
+267
+00:22:00,320 --> 00:22:11,250
+möglichkeiten die man nutzen kann
+
+268
+00:22:05,090 --> 00:22:13,680
+und wenn ich sowohl scheuen uns rocken
+
+269
+00:22:11,250 --> 00:22:16,290
+inverse rollen dargestellt werden das
+
+270
+00:22:13,680 --> 00:22:18,150
+ist dass sie damit lassen sich die
+
+271
+00:22:16,290 --> 00:22:19,710
+oberen aussagen investiert
+
+272
+00:22:18,150 --> 00:22:21,780
+ich hab dann jetzt die lübecker die
+
+273
+00:22:19,710 --> 00:22:23,610
+einen marzipan liebhaber nicht haben
+
+274
+00:22:21,780 --> 00:22:26,010
+oder lübecker die keine marzipan
+
+275
+00:22:23,610 --> 00:22:29,030
+verächter nicht haben nicht unbedingt
+
+276
+00:22:26,010 --> 00:22:33,830
+immer dasselbe das bin ich aus die
+
+277
+00:22:29,030 --> 00:22:37,680
+marzipan verächter haben
+
+278
+00:22:33,830 --> 00:22:40,920
+es ist dann negiert dargestellt das kann
+
+279
+00:22:37,680 --> 00:22:43,980
+ich in so die inverse rollen kann ich
+
+280
+00:22:40,920 --> 00:22:46,230
+nutzen und dann gibt es noch sogenannte
+
+281
+00:22:43,980 --> 00:22:49,710
+dominanz die man verwenden kann es ist
+
+282
+00:22:46,230 --> 00:22:52,230
+dass das kann ich individuelle namen
+
+283
+00:22:49,710 --> 00:22:55,130
+angeben nicht nur personen personen
+
+284
+00:22:52,230 --> 00:22:59,700
+sondern auch den namen der person
+
+285
+00:22:55,130 --> 00:23:00,420
+christian kann ich dort angeben dass die
+
+286
+00:22:59,700 --> 00:23:08,490
+instanzen
+
+287
+00:23:00,420 --> 00:23:11,700
+das ist ja dann fehlt uns noch hsc haar
+
+288
+00:23:08,490 --> 00:23:15,300
+für die rollen hierarchie es gilt die
+
+289
+00:23:11,700 --> 00:23:18,570
+rolle ist tochter oder ist sohn und die
+
+290
+00:23:15,300 --> 00:23:19,410
+gilt dann nur wenn es die rolle ist kind
+
+291
+00:23:18,570 --> 00:23:21,990
+zutrifft
+
+292
+00:23:19,410 --> 00:23:23,670
+erst wenn man ist kind also ist kind
+
+293
+00:23:21,990 --> 00:23:26,070
+vorhanden dann kann das kind eben
+
+294
+00:23:23,670 --> 00:23:31,250
+tochter oder sohn sein und solche
+
+295
+00:23:26,070 --> 00:23:31,250
+hierarchien einig festlegen mit
+
+296
+00:23:31,520 --> 00:23:37,830
+und dann und dann gibt es noch das n
+
+297
+00:23:35,100 --> 00:23:39,810
+das sind die die zahlen restriktionen
+
+298
+00:23:37,830 --> 00:23:42,150
+also ich kann auch ausdrücken klasse
+
+299
+00:23:39,810 --> 00:23:46,110
+aller lübecker mit 100 und 1000 oder
+
+300
+00:23:42,150 --> 00:23:48,180
+mehr massiven pannen liebhaber und weiß
+
+301
+00:23:46,110 --> 00:23:50,670
+rolf das erlaubt bisschen mehr das kann
+
+302
+00:23:48,180 --> 00:23:52,710
+nämlich dass q oder es repräsentiert das
+
+303
+00:23:50,670 --> 00:23:53,790
+qs erlaubt qualifizierte zahlen
+
+304
+00:23:52,710 --> 00:23:56,460
+restriktionen
+
+305
+00:23:53,790 --> 00:23:59,070
+da kann ich nämlich ausdrücken klasse
+
+306
+00:23:56,460 --> 00:24:02,580
+aller lübecker mit 100.000 oder mehr
+
+307
+00:23:59,070 --> 00:24:05,400
+marzipan liebhabern die kombis sind das
+
+308
+00:24:02,580 --> 00:24:08,130
+heißt dieser zusatz die gummis sind die
+
+309
+00:24:05,400 --> 00:24:12,180
+kann ich ins volk ausdrücken entscheid
+
+310
+00:24:08,130 --> 00:24:14,750
+nicht also anderson ins abseits von q
+
+311
+00:24:12,180 --> 00:24:14,750
+sozusagen
+
+312
+00:24:15,560 --> 00:24:19,470
+und dann gibt es noch das de
+
+313
+00:24:17,820 --> 00:24:21,750
+das haben wir ja im anklamer nach der in
+
+314
+00:24:19,470 --> 00:24:23,160
+klammern genau weil das in dem sie keine
+
+315
+00:24:21,750 --> 00:24:24,600
+logik ist
+
+316
+00:24:23,160 --> 00:24:28,520
+das steht dann für einen datentyp die
+
+317
+00:24:24,600 --> 00:24:31,530
+man verwenden kann also sagen kann
+
+318
+00:24:28,520 --> 00:24:33,900
+bestimmten personen sind im trink sollen
+
+319
+00:24:31,530 --> 00:24:36,240
+die personenangaben machen oder die die
+
+320
+00:24:33,900 --> 00:24:39,540
+zahl die ich ausdrücken möchte es in
+
+321
+00:24:36,240 --> 00:24:40,790
+china beispielsweise also das ist auch
+
+322
+00:24:39,540 --> 00:24:43,770
+nicht selbstverständlich
+
+323
+00:24:40,790 --> 00:24:46,410
+das steht dann in diesem dem rennen
+
+324
+00:24:43,770 --> 00:24:49,100
+das heißt das hat schon seine seine
+
+325
+00:24:46,410 --> 00:24:54,150
+bedeutung warum man diese
+
+326
+00:24:49,100 --> 00:24:57,660
+buchstabenkürzel hat gesagt dieses
+
+327
+00:24:54,150 --> 00:24:59,250
+scheuen uns freut das gilt bei rwe oder
+
+328
+00:24:57,660 --> 00:24:59,970
+jedoch owl version geht das eine oder
+
+329
+00:24:59,250 --> 00:25:03,720
+das andere
+
+330
+00:24:59,970 --> 00:25:05,010
+wo kommt diese scheuen und her während
+
+331
+00:25:03,720 --> 00:25:07,530
+sich das mal ausgedacht
+
+332
+00:25:05,010 --> 00:25:12,390
+das ist ein standard oder ist das ja das
+
+333
+00:25:07,530 --> 00:25:16,100
+sind die strache mächtigkeiten die von
+
+334
+00:25:12,390 --> 00:25:19,710
+rtl also die l repräsentiert also die
+
+335
+00:25:16,100 --> 00:25:26,060
+ausdrucksstärke scheuen und zwei ideell
+
+336
+00:25:19,710 --> 00:25:27,960
+die ausrichtung und vielleicht ist es
+
+337
+00:25:26,060 --> 00:25:29,430
+verständlich wenn man sich jetzt
+
+338
+00:25:27,960 --> 00:25:32,100
+überlegt wie wird dann diese
+
+339
+00:25:29,430 --> 00:25:38,750
+wissensbasis aufgestellt ich habe dann
+
+340
+00:25:32,100 --> 00:25:40,980
+ja die ausdrucksstärke und ich hab dann
+
+341
+00:25:38,750 --> 00:25:43,650
+für diejenigen die den sich flächen der
+
+342
+00:25:40,980 --> 00:25:49,710
+xml aus kern es gibt vordefinierte tags
+
+343
+00:25:43,650 --> 00:25:51,660
+auch in die kann ich nutzen und für eine
+
+344
+00:25:49,710 --> 00:25:54,120
+eine klasse habe ich dann aber
+
+345
+00:25:51,660 --> 00:25:55,200
+doppelpunkt last die verwenden kann und
+
+346
+00:25:54,120 --> 00:25:57,690
+dann kann ich dort die klasse
+
+347
+00:25:55,200 --> 00:26:03,390
+hinschreiben dies gibt es eben auch für
+
+348
+00:25:57,690 --> 00:26:04,950
+alle anderen ausdrücke ich vornehmen
+
+349
+00:26:03,390 --> 00:26:06,510
+möchte zahlen restriktionen und so
+
+350
+00:26:04,950 --> 00:26:09,120
+weiter da gibt es entsprechende
+
+351
+00:26:06,510 --> 00:26:11,250
+fragmente die ich nutzen kann und so
+
+352
+00:26:09,120 --> 00:26:17,160
+baue ich mir quasi meinem wissensbasis
+
+353
+00:26:11,250 --> 00:26:20,240
+auf also meint meinen augen das heißt
+
+354
+00:26:17,160 --> 00:26:21,900
+ich habe dann meinen mein wissen
+
+355
+00:26:20,240 --> 00:26:27,210
+modelliert haben irgendwie so ein
+
+356
+00:26:21,900 --> 00:26:29,010
+wissens graf oder wie auch immer kann
+
+357
+00:26:27,210 --> 00:26:30,710
+ich das jetzt auch irgendwie abfragen
+
+358
+00:26:29,010 --> 00:26:34,920
+dieses wissen
+
+359
+00:26:30,710 --> 00:26:37,830
+richtig ja es gibt es werke als als
+
+360
+00:26:34,920 --> 00:26:40,730
+anfrage sprache die anfragen dann in
+
+361
+00:26:37,830 --> 00:26:43,950
+form von rdf trippeln auf rdf dokumente
+
+362
+00:26:40,730 --> 00:26:46,320
+gestellt und oldie l und robin sind
+
+363
+00:26:43,950 --> 00:26:49,500
+selbst eine teilmenge von rdf und kann
+
+364
+00:26:46,320 --> 00:26:50,040
+über spezifische rtl ausdrücke erstellt
+
+365
+00:26:49,500 --> 00:26:52,440
+werden
+
+366
+00:26:50,040 --> 00:26:55,140
+ok und das muss man vielleicht noch dazu
+
+367
+00:26:52,440 --> 00:26:59,660
+sagen all die fs ja das resource
+
+368
+00:26:55,140 --> 00:26:59,660
+description framework auch von der w3c
+
+369
+00:26:59,750 --> 00:27:05,360
+entwickelt und diese triple sind ja dann
+
+370
+00:27:02,910 --> 00:27:07,880
+immer so subjekt objekt prädikat mäßig
+
+371
+00:27:05,360 --> 00:27:14,670
+richtig aufgebaut
+
+372
+00:27:07,880 --> 00:27:19,890
+okay aber das ist jetzt wieder eine
+
+373
+00:27:14,670 --> 00:27:22,260
+abkürzung für was stets vage dass es ist
+
+374
+00:27:19,890 --> 00:27:24,690
+hier besonders dass es ist nämlich die
+
+375
+00:27:22,260 --> 00:27:32,760
+abkürzung man glaubt es nicht auch für
+
+376
+00:27:24,690 --> 00:27:46,890
+sparkle und da haben wir ein positives
+
+377
+00:27:32,760 --> 00:27:48,980
+akronym logica scherz ok und die sprache
+
+378
+00:27:46,890 --> 00:27:52,800
+weiß ja
+
+379
+00:27:48,980 --> 00:27:54,240
+und die ist ja die web und tolle
+
+380
+00:27:52,800 --> 00:27:55,460
+language und wenn ich dann genau drauf
+
+381
+00:27:54,240 --> 00:28:02,840
+gucke haut das wieder nicht hin
+
+382
+00:27:55,460 --> 00:28:02,840
+also wird ein tolles englisch ist wow
+
+383
+00:28:02,990 --> 00:28:13,530
+den song logica witz viele denken es hat
+
+384
+00:28:10,800 --> 00:28:17,100
+mit unity dem bern zu tun
+
+385
+00:28:13,530 --> 00:28:20,010
+beziehungsweise mit der eule aus pu der
+
+386
+00:28:17,100 --> 00:28:21,720
+bär ist das einzige tier im
+
+387
+00:28:20,010 --> 00:28:23,700
+hundertmorgenwald was ihren namen
+
+388
+00:28:21,720 --> 00:28:25,530
+schreiben kann allerdings mit einem
+
+389
+00:28:23,700 --> 00:28:27,570
+buchstaben vertreter im englischen
+
+390
+00:28:25,530 --> 00:28:28,940
+original bl stadtteil
+
+391
+00:28:27,570 --> 00:28:32,970
+dies wird die oft fälschlicherweise
+
+392
+00:28:28,940 --> 00:28:34,010
+angenommen dass deshalb die abkürzung
+
+393
+00:28:32,970 --> 00:28:36,660
+genutzt wurde
+
+394
+00:28:34,010 --> 00:28:38,670
+über den ursprung des buch stammt adreas
+
+395
+00:28:36,660 --> 00:28:41,490
+findet man aber antwort in den archiven
+
+396
+00:28:38,670 --> 00:28:43,920
+des w3c kämpfen hatte diesen namen
+
+397
+00:28:41,490 --> 00:28:45,840
+vorgeschlagen weil es klar ist wie
+
+398
+00:28:43,920 --> 00:28:48,990
+manaus spricht nämlich wie das englische
+
+399
+00:28:45,840 --> 00:28:52,980
+wort für eule und es mit der weisheit
+
+400
+00:28:48,990 --> 00:29:00,140
+von allen assoziiert werden kann wenn
+
+401
+00:28:52,980 --> 00:29:00,140
+ich jetzt wohl oder ausspreche einfacher
+
+402
+00:29:01,640 --> 00:29:13,020
+sein entsprechende deutschen werden also
+
+403
+00:29:04,620 --> 00:29:15,810
+leichter wohl gut ich hatte mal noch
+
+404
+00:29:13,020 --> 00:29:19,800
+eine weitere interpretation gelesen
+
+405
+00:29:15,810 --> 00:29:21,870
+die besagte dass das walisische oder
+
+406
+00:29:19,800 --> 00:29:25,350
+irgendein teil von großbritannien dass
+
+407
+00:29:21,870 --> 00:29:29,910
+da das ort das wort für eule sogar wohl
+
+408
+00:29:25,350 --> 00:29:32,400
+wäre aber das also schon spannend dass
+
+409
+00:29:29,910 --> 00:29:34,020
+es ganz verschiedene interpretationen
+
+410
+00:29:32,400 --> 00:29:35,670
+von gibt und ich muss sagen ich finde
+
+411
+00:29:34,020 --> 00:29:37,640
+winnie puuh interpretation eigentlich am
+
+412
+00:29:35,670 --> 00:29:40,050
+schönsten dieses schönen ja
+
+413
+00:29:37,640 --> 00:29:44,180
+wahrscheinlich ist es ganz banal bei lkw
+
+414
+00:29:40,050 --> 00:29:47,070
+auf dem w3c treffen entstanden sonderbar
+
+415
+00:29:44,180 --> 00:29:50,670
+weil auch so das könnte ich mir gut
+
+416
+00:29:47,070 --> 00:29:52,500
+vorstellen hier alles konkret oder e
+
+417
+00:29:50,670 --> 00:29:55,110
+mails ausgetauscht dass er da hat er das
+
+418
+00:29:52,500 --> 00:30:00,150
+ja e mail kommunikation statt gut
+
+419
+00:29:55,110 --> 00:30:02,460
+dokumentiert ja wir kriegen hier im live
+
+420
+00:30:00,150 --> 00:30:11,840
+chat schon den hinweis owl wäre doch
+
+421
+00:30:02,460 --> 00:30:19,320
+ganz eindeutig ostwestfalen lippe ja ja
+
+422
+00:30:11,840 --> 00:30:20,970
+ja super ja wenn ihr im chat im
+
+423
+00:30:19,320 --> 00:30:23,970
+live-chat auch noch fragen habt an
+
+424
+00:30:20,970 --> 00:30:25,620
+silvia dann haut die schon mal raus dann
+
+425
+00:30:23,970 --> 00:30:27,620
+können wir die im anschluss noch an
+
+426
+00:30:25,620 --> 00:30:30,030
+silvia stellen
+
+427
+00:30:27,620 --> 00:30:30,990
+aber in der zwischenzeit haben wir
+
+428
+00:30:30,030 --> 00:30:32,520
+natürlich noch ein paar fragen
+
+429
+00:30:30,990 --> 00:30:33,870
+vorbereitet weil würden ja ich doch
+
+430
+00:30:32,520 --> 00:30:38,880
+gerne noch mal auf diese marzipan und
+
+431
+00:30:33,870 --> 00:30:42,300
+die partner zurückkommen und die frage
+
+432
+00:30:38,880 --> 00:30:44,340
+ist jetzt irgendwie ich modellieren
+
+433
+00:30:42,300 --> 00:30:45,870
+modellierer jetzt und wie werde ich dann
+
+434
+00:30:44,340 --> 00:30:52,010
+als anwender jetzt darüber in kenntnis
+
+435
+00:30:45,870 --> 00:30:56,800
+gesetzt dass ja was war das beispiel
+
+436
+00:30:52,010 --> 00:31:00,790
+dass die kieler gummis
+
+437
+00:30:56,800 --> 00:31:07,300
+genau jetzt nur die marzipan vechta so
+
+438
+00:31:00,790 --> 00:31:10,630
+rum ja hier sind die die zwei hersteller
+
+439
+00:31:07,300 --> 00:31:14,440
+gefragt ein werkzeug sollte die semantik
+
+440
+00:31:10,630 --> 00:31:16,690
+im hintergrund hinterlegt haben und der
+
+441
+00:31:14,440 --> 00:31:18,880
+anwender sollte sie grafisch dargestellt
+
+442
+00:31:16,690 --> 00:31:20,350
+werden als eine möglichkeit ist
+
+443
+00:31:18,880 --> 00:31:23,290
+umzusetzen
+
+444
+00:31:20,350 --> 00:31:27,130
+wir selbst hatten mal in einem pdf
+
+445
+00:31:23,290 --> 00:31:28,990
+beitrag des systems engineering dass man
+
+446
+00:31:27,130 --> 00:31:31,330
+durch einsatz von formalen modellierungs
+
+447
+00:31:28,990 --> 00:31:33,670
+sprachen im modul ihrer eine validierung
+
+448
+00:31:31,330 --> 00:31:39,100
+des modells grafisch unterstützen kann
+
+449
+00:31:33,670 --> 00:31:42,520
+und da ging es darum dass wir von dem
+
+450
+00:31:39,100 --> 00:31:44,590
+bekannten teleskopen beispiel und zwei
+
+451
+00:31:42,520 --> 00:31:47,710
+sensoren raus gegriffen haben
+
+452
+00:31:44,590 --> 00:31:49,990
+zeus und gypsy und wollten einfach nur
+
+453
+00:31:47,710 --> 00:31:52,650
+wissen haben die auch eine semantische
+
+454
+00:31:49,990 --> 00:31:56,080
+differenz bislang sieht man wenn man
+
+455
+00:31:52,650 --> 00:32:00,130
+sich anschaut sind unterscheiden sie
+
+456
+00:31:56,080 --> 00:32:01,780
+sich sieht man nur dass sich der blog
+
+457
+00:32:00,130 --> 00:32:05,530
+vielleicht verschoben hat aber obwohl
+
+458
+00:32:01,780 --> 00:32:08,290
+sie inhaltlich irgendwie unterscheiden
+
+459
+00:32:05,530 --> 00:32:11,770
+wurde bislang nicht unterstützt
+
+460
+00:32:08,290 --> 00:32:13,930
+und dort haben wir tatsächlich schon die
+
+461
+00:32:11,770 --> 00:32:19,060
+ersten arbeiten gab von vier versucht
+
+462
+00:32:13,930 --> 00:32:21,340
+haben dieses ml auf allzu meppen um die
+
+463
+00:32:19,060 --> 00:32:24,640
+algorithmen die ist bereits in den
+
+464
+00:32:21,340 --> 00:32:26,110
+formalen sprachen schon gibt da gab es
+
+465
+00:32:24,640 --> 00:32:29,370
+dann ein operator den wir verwenden
+
+466
+00:32:26,110 --> 00:32:32,110
+konnten um die semantische differenz von
+
+467
+00:32:29,370 --> 00:32:34,720
+vier sensoren zu berechnen
+
+468
+00:32:32,110 --> 00:32:38,050
+und dort haben wir einige unterschiede
+
+469
+00:32:34,720 --> 00:32:41,920
+festgestellt und auch festgestellt
+
+470
+00:32:38,050 --> 00:32:45,670
+welche teile gleich sind und hier könnte
+
+471
+00:32:41,920 --> 00:32:48,790
+man das in diesem beispiel eben so
+
+472
+00:32:45,670 --> 00:32:50,710
+machen dass man im hintergrund ein
+
+473
+00:32:48,790 --> 00:32:53,320
+algorithmus laufen hat der dann
+
+474
+00:32:50,710 --> 00:32:55,960
+berechnet und wenn man dann dabei ist
+
+475
+00:32:53,320 --> 00:32:59,860
+diese diesem fall also die
+
+476
+00:32:55,960 --> 00:33:01,510
+spezialisierung darzustellen von japan
+
+477
+00:32:59,860 --> 00:33:04,180
+die fahrbahn zu gemäss dass er sagt nee
+
+478
+00:33:01,510 --> 00:33:06,220
+das geht jetzt hier nicht lübecker und
+
+479
+00:33:04,180 --> 00:33:06,670
+keller des sind des winters geht so
+
+480
+00:33:06,220 --> 00:33:08,140
+nicht
+
+481
+00:33:06,670 --> 00:33:10,269
+also da muss man sich entscheiden
+
+482
+00:33:08,140 --> 00:33:11,769
+entweder sagt man die sind
+
+483
+00:33:10,269 --> 00:33:14,139
+wenn ich das scheint man kann beides
+
+484
+00:33:11,769 --> 00:33:17,589
+sein oder man muss sich dann überlegen
+
+485
+00:33:14,139 --> 00:33:18,969
+ob man denn die marzipan die pav
+
+486
+00:33:17,589 --> 00:33:21,339
+rechtlich als spezialisierung von
+
+487
+00:33:18,969 --> 00:33:22,659
+lübecker modelliert sondern eher auf
+
+488
+00:33:21,339 --> 00:33:26,139
+einer anderen ebene
+
+489
+00:33:22,659 --> 00:33:28,479
+die modellierung vornimmt dass das
+
+490
+00:33:26,139 --> 00:33:31,239
+sollte dann im hintergrund sein und in
+
+491
+00:33:28,479 --> 00:33:33,549
+dem tv-beitrag hatten wir das im kontext
+
+492
+00:33:31,239 --> 00:33:36,059
+von varianten modellierung gemacht was
+
+493
+00:33:33,549 --> 00:33:38,529
+ja auch 1 1 ein thema ist
+
+494
+00:33:36,059 --> 00:33:40,450
+man möchte ja auch automatisch
+
+495
+00:33:38,529 --> 00:33:43,769
+vielleicht ausgerechnet bekommen was ist
+
+496
+00:33:40,450 --> 00:33:46,349
+dort der gleiche anteil um was ist
+
+497
+00:33:43,769 --> 00:33:50,320
+differenzierende anteil
+
+498
+00:33:46,349 --> 00:33:52,659
+und da helfen formale modellierung
+
+499
+00:33:50,320 --> 00:33:55,329
+sprachen wenn man ja nicht immer alles
+
+500
+00:33:52,659 --> 00:33:58,209
+auf einem diagramm sehen kann man hat ja
+
+501
+00:33:55,329 --> 00:34:01,629
+eben ganz ganz viele einzelne diagramme
+
+502
+00:33:58,209 --> 00:34:03,609
+die zusammenspielen und irgendwann
+
+503
+00:34:01,629 --> 00:34:06,009
+verliert man ja den den überblick und
+
+504
+00:34:03,609 --> 00:34:07,950
+die werkzeuge sollen uns ja darin gehend
+
+505
+00:34:06,009 --> 00:34:12,990
+unterstützen dass wir diesen überblick
+
+506
+00:34:07,950 --> 00:34:18,399
+über diese komplexität behalten
+
+507
+00:34:12,990 --> 00:34:22,529
+ja das auf jeden fall so und vorher gab
+
+508
+00:34:18,399 --> 00:34:26,649
+es ja das soll nicht jetzt ist natürlich
+
+509
+00:34:22,529 --> 00:34:28,629
+herausfordernd oder wie sieht das dann
+
+510
+00:34:26,649 --> 00:34:30,700
+demnächst aus wie kann das mapping von
+
+511
+00:34:28,629 --> 00:34:32,919
+den deutsch standards genutzt werden
+
+512
+00:34:30,700 --> 00:34:34,990
+also haben ja gesagt einmal selber
+
+513
+00:34:32,919 --> 00:34:37,409
+innerhalb von modellen aber auch wie
+
+514
+00:34:34,990 --> 00:34:39,909
+kann ich mehrere modelle zusammen tun
+
+515
+00:34:37,409 --> 00:34:44,260
+sie ja auch arbeiten in das spektiv
+
+516
+00:34:39,909 --> 00:34:47,940
+format wo man versucht hat einheitliche
+
+517
+00:34:44,260 --> 00:34:51,909
+standards modelle auszutauschen
+
+518
+00:34:47,940 --> 00:34:53,829
+hier hat man dann eben noch mehr
+
+519
+00:34:51,909 --> 00:34:55,119
+vielleicht möglichkeiten und wir sagten
+
+520
+00:34:53,829 --> 00:34:57,220
+ja wir können hier unterschiedliche
+
+521
+00:34:55,119 --> 00:35:00,240
+sprachen verwenden und trotzdem so ein
+
+522
+00:34:57,220 --> 00:35:03,130
+modell aus tausch durchführen
+
+523
+00:35:00,240 --> 00:35:05,020
+das sind ja bisher fokussiert der
+
+524
+00:35:03,130 --> 00:35:08,079
+modelle austauschen mehr auf der auch
+
+525
+00:35:05,020 --> 00:35:09,609
+der syntax nur wie kann ich die daten
+
+526
+00:35:08,079 --> 00:35:11,200
+rüber schaufeln aber wenn ich die
+
+527
+00:35:09,609 --> 00:35:16,720
+information über schaufel also auch die
+
+528
+00:35:11,200 --> 00:35:18,430
+semantik mit reinnehmen dann bist ja das
+
+529
+00:35:16,720 --> 00:35:20,740
+ist auch die große kritik an der braker
+
+530
+00:35:18,430 --> 00:35:21,800
+format das irgendwie die semantik
+
+531
+00:35:20,740 --> 00:35:25,430
+anfielen
+
+532
+00:35:21,800 --> 00:35:27,200
+gefehlt und deswegen beschäftigen sich
+
+533
+00:35:25,430 --> 00:35:29,810
+ja viele leute oder einige leute
+
+534
+00:35:27,200 --> 00:35:33,500
+inzwischen mit des pkf die das ganze
+
+535
+00:35:29,810 --> 00:35:35,710
+natürlich jetzt mal mitbringen soll ja
+
+536
+00:35:33,500 --> 00:35:41,080
+auch mein thema stimmt im podcast
+
+537
+00:35:35,710 --> 00:35:41,080
+richtig haben wir mal den oscar ein
+
+538
+00:35:41,830 --> 00:35:48,170
+aber das ist es ja also spiele ich merke
+
+539
+00:35:45,800 --> 00:35:49,490
+dass rumpelt in meinem kopf was man da
+
+540
+00:35:48,170 --> 00:35:51,590
+alles dann machen könnte ich konnte ja
+
+541
+00:35:49,490 --> 00:35:55,160
+auch ziemlich komplexes modell haben und
+
+542
+00:35:51,590 --> 00:35:59,000
+dann jetzt mit da drauf los gehen willst
+
+543
+00:35:55,160 --> 00:36:00,050
+mit analyse-tools die semantik verstehen
+
+544
+00:35:59,000 --> 00:36:01,520
+und dann könnt ihr mir sagen menschen in
+
+545
+00:36:00,050 --> 00:36:05,720
+dem bereich und in dem bereich das ist
+
+546
+00:36:01,520 --> 00:36:07,670
+aber ziemlich ähnlich was du hast habe
+
+547
+00:36:05,720 --> 00:36:09,410
+ich dann vielleicht zwei komponenten die
+
+548
+00:36:07,670 --> 00:36:11,060
+ich dann völlig getrennt entwickelt habe
+
+549
+00:36:09,410 --> 00:36:12,560
+und er stellt fest diesen eigentlich
+
+550
+00:36:11,060 --> 00:36:14,510
+ziemlich ähnlich aus einer gemeinsamkeit
+
+551
+00:36:12,560 --> 00:36:15,560
+da kannst du die effekte nutzen und so
+
+552
+00:36:14,510 --> 00:36:18,020
+etwas zu was wäre dann theoretisch
+
+553
+00:36:15,560 --> 00:36:20,470
+denkbar ja ich genau also gerade fall
+
+554
+00:36:18,020 --> 00:36:22,820
+für die varianten modellierung
+
+555
+00:36:20,470 --> 00:36:26,510
+wünschenswert genau sowas zu haben
+
+556
+00:36:22,820 --> 00:36:28,250
+ja es würde damit der mit der version 2
+
+557
+00:36:26,510 --> 00:36:29,930
+finden ein bisschen leichter weil daher
+
+558
+00:36:28,250 --> 00:36:32,030
+war ja nur die jungen explizite der
+
+559
+00:36:29,930 --> 00:36:33,530
+sprache wird das ist ja dann immer
+
+560
+00:36:32,030 --> 00:36:35,510
+leicht auf sowas aufzusetzen wenn es
+
+561
+00:36:33,530 --> 00:36:38,390
+auch im standard basiert und uns muss
+
+562
+00:36:35,510 --> 00:36:39,610
+ich ja da etwas spezifisches und
+
+563
+00:36:38,390 --> 00:36:41,510
+entwickeln
+
+564
+00:36:39,610 --> 00:36:43,730
+ja ich kann es aber auch super
+
+565
+00:36:41,510 --> 00:36:45,950
+interessant für die im online paris also
+
+566
+00:36:43,730 --> 00:36:48,820
+für die domain specific libraries die
+
+567
+00:36:45,950 --> 00:36:50,840
+sollen ja auch auf domänen wissen
+
+568
+00:36:48,820 --> 00:36:53,300
+zurückgreifen und ja ich würde jetzt
+
+569
+00:36:50,840 --> 00:36:56,720
+einfach mal vermuten dass das dann eben
+
+570
+00:36:53,300 --> 00:36:59,210
+auch dass man sich verfahren ausdenken
+
+571
+00:36:56,720 --> 00:37:03,920
+muss wie man idealerweise ebensolche
+
+572
+00:36:59,210 --> 00:37:06,200
+formal modellierten wissens modelle in
+
+573
+00:37:03,920 --> 00:37:11,060
+eine sprach bibliothek umwandelt oder
+
+574
+00:37:06,200 --> 00:37:12,740
+überführen kann spricht in dem
+
+575
+00:37:11,060 --> 00:37:14,030
+zusammenhang künstler intelligenz eine
+
+576
+00:37:12,740 --> 00:37:16,310
+rolle wie schwer es ist so vor ich bin
+
+577
+00:37:14,030 --> 00:37:17,780
+also am vor mich hin modellieren und im
+
+578
+00:37:16,310 --> 00:37:19,610
+hintergrund ist ein programm was sagst
+
+579
+00:37:17,780 --> 00:37:21,470
+du das stimmt nicht was du da machst
+
+580
+00:37:19,610 --> 00:37:25,070
+inhaltlich das macht gar keinen sinn das
+
+581
+00:37:21,470 --> 00:37:26,420
+marzipan die habe ein gutes oder so oder
+
+582
+00:37:25,070 --> 00:37:27,470
+spricht man nicht von künstler
+
+583
+00:37:26,420 --> 00:37:29,270
+intelligenz fühlt sich ein bisschen so
+
+584
+00:37:27,470 --> 00:37:30,880
+an als anwender weil wir das programm
+
+585
+00:37:29,270 --> 00:37:33,220
+sagt macht er inhaltlich nadel quatsch
+
+586
+00:37:30,880 --> 00:37:35,300
+das fühlt sich schon schlau an aber
+
+587
+00:37:33,220 --> 00:37:44,540
+spielt kürzlich ganz in dem zu
+
+588
+00:37:35,300 --> 00:37:47,630
+rolle das ist also man man spricht davon
+
+589
+00:37:44,540 --> 00:37:50,990
+dass der künstliche intelligenz eine
+
+590
+00:37:47,630 --> 00:37:55,340
+rolle spielen weil dort auswertung
+
+591
+00:37:50,990 --> 00:37:55,910
+vorgenommen werden auf formale art und
+
+592
+00:37:55,340 --> 00:37:59,840
+weise
+
+593
+00:37:55,910 --> 00:38:08,050
+und das eben nachzubilden das was der
+
+594
+00:37:59,840 --> 00:38:08,050
+mensch denkt ja wir reagieren würde
+
+595
+00:38:10,540 --> 00:38:17,780
+okay was also ist auch eine episode
+
+596
+00:38:14,900 --> 00:38:18,920
+was bitte ist ja auch normal episode
+
+597
+00:38:17,780 --> 00:38:21,350
+künstliche intelligenz des zuschauens
+
+598
+00:38:18,920 --> 00:38:24,830
+engineering also in der eu gibt es
+
+599
+00:38:21,350 --> 00:38:27,560
+inzwischen einige einige leute die sich
+
+600
+00:38:24,830 --> 00:38:29,510
+darüber gedanken gemacht haben wobei da
+
+601
+00:38:27,560 --> 00:38:31,820
+man ist als vorsichtig bin inwiefern das
+
+602
+00:38:29,510 --> 00:38:36,260
+eben jetzt momentan dieser dieser hype
+
+603
+00:38:31,820 --> 00:38:40,550
+ist mit karin ja das noch also in beiden
+
+604
+00:38:36,260 --> 00:38:42,650
+kurse gibt es sei vorerst roadmap die da
+
+605
+00:38:40,550 --> 00:38:44,480
+aufgestellt wurde und da sieht man dass
+
+606
+00:38:42,650 --> 00:38:45,950
+das noch ein weiter weg ist wir sind
+
+607
+00:38:44,480 --> 00:38:48,770
+noch viele andere grundlagen legen bis
+
+608
+00:38:45,950 --> 00:38:51,260
+wir da angekommen aber spannend auf
+
+609
+00:38:48,770 --> 00:38:53,870
+jeden fall so jetzt haben wir noch eine
+
+610
+00:38:51,260 --> 00:38:56,510
+frage bekommen hier im live chat s
+
+611
+00:38:53,870 --> 00:38:59,270
+klasse s dir mal vor ist die semmel eine
+
+612
+00:38:56,510 --> 00:39:06,080
+ökologie der system beschreibung mittel
+
+613
+00:38:59,270 --> 00:39:08,390
+also die sprach definition auf im 2 wenn
+
+614
+00:39:06,080 --> 00:39:10,820
+ich das jetzt richtig interpretiere oder
+
+615
+00:39:08,390 --> 00:39:15,020
+zwar versuchen um zu modellieren ist die
+
+616
+00:39:10,820 --> 00:39:20,510
+sml eine anthologie um systeme zu
+
+617
+00:39:15,020 --> 00:39:24,070
+beschreiben eine und also dass sich an
+
+618
+00:39:20,510 --> 00:39:30,370
+hotel wahrscheinlich hier in dem fall
+
+619
+00:39:24,070 --> 00:39:33,370
+soll man nutzt ja das modell um sein
+
+620
+00:39:30,370 --> 00:39:35,720
+wissen zu zu repräsentieren und
+
+621
+00:39:33,370 --> 00:39:38,360
+letztendlich würde man damit auch seine
+
+622
+00:39:35,720 --> 00:39:40,820
+seiner und theologie zusammenbauen ja
+
+623
+00:39:38,360 --> 00:39:44,990
+also momentan würde man das
+
+624
+00:39:40,820 --> 00:39:47,680
+so nutzen oder nutzt man es die frage
+
+625
+00:39:44,990 --> 00:39:53,000
+ist wie würde man das zukünftig nutzen
+
+626
+00:39:47,680 --> 00:39:54,680
+um zusätzlich ja ich habe konzepte mit
+
+627
+00:39:53,000 --> 00:39:58,220
+einzubringen also wenn ich jetzt der
+
+628
+00:39:54,680 --> 00:40:01,580
+wissensbasis dann habe wenn ich dann
+
+629
+00:39:58,220 --> 00:40:03,620
+sagen möchte welche städte gehören dann
+
+630
+00:40:01,580 --> 00:40:05,780
+alles zu schleswig-holstein
+
+631
+00:40:03,620 --> 00:40:08,480
+dann ist ja sein dass ich diese sie
+
+632
+00:40:05,780 --> 00:40:11,410
+wissensbasis hinterlegt habe auch wenn
+
+633
+00:40:08,480 --> 00:40:17,360
+ich selber teile davon nicht modellieren
+
+634
+00:40:11,410 --> 00:40:20,660
+also stelle ich mir eben also dort wird
+
+635
+00:40:17,360 --> 00:40:23,000
+ja auch ganz in diesem dreiklang gesagt
+
+636
+00:40:20,660 --> 00:40:26,120
+dass es eben diese wissensbasis gibt es
+
+637
+00:40:23,000 --> 00:40:28,520
+gibt selber das modell und es gibt die
+
+638
+00:40:26,120 --> 00:40:31,670
+spezifikation und das modell wird
+
+639
+00:40:28,520 --> 00:40:34,900
+gegenüber der der ontologie die die die
+
+640
+00:40:31,670 --> 00:40:34,900
+hinterlegt ist ausgewertet
+
+641
+00:40:36,310 --> 00:40:42,650
+momentan habe ja nichts also in der
+
+642
+00:40:40,250 --> 00:40:46,220
+richtung ontologie selber haben ist das
+
+643
+00:40:42,650 --> 00:40:49,940
+was wir modellieren unsere unsere und
+
+644
+00:40:46,220 --> 00:40:51,400
+theologie in unserem dem also in unserem
+
+645
+00:40:49,940 --> 00:40:56,390
+bereich
+
+646
+00:40:51,400 --> 00:40:59,330
+ja ich glaube ich auf zustand vermutlich
+
+647
+00:40:56,390 --> 00:41:01,670
+ist m2 also die die definition der
+
+648
+00:40:59,330 --> 00:41:03,080
+sprache selbst ist sicherlich eine art
+
+649
+00:41:01,670 --> 00:41:05,570
+von ontologie zumindest hab ich ja genau
+
+650
+00:41:03,080 --> 00:41:07,160
+da diese beziehungen nicht seine
+
+651
+00:41:05,570 --> 00:41:08,960
+konzepte und sagen sie sind teil von
+
+652
+00:41:07,160 --> 00:41:13,070
+oder ist eine art von und so etwas aber
+
+653
+00:41:08,960 --> 00:41:15,710
+es ist eben nicht basierend auf oder es
+
+654
+00:41:13,070 --> 00:41:19,250
+ist nicht ist es nicht standardisiert
+
+655
+00:41:15,710 --> 00:41:22,960
+also das ist standardisiert daher jetzt
+
+656
+00:41:19,250 --> 00:41:28,670
+ein eindeutiges mapping auf owl hätte
+
+657
+00:41:22,960 --> 00:41:30,500
+wäre das wahrscheinlich sogar versuchen
+
+658
+00:41:28,670 --> 00:41:32,090
+die damals gemacht hast bei dem was
+
+659
+00:41:30,500 --> 00:41:33,380
+gerade in beschrieben hast mit shops und
+
+660
+00:41:32,090 --> 00:41:35,420
+ca
+
+661
+00:41:33,380 --> 00:41:39,800
+diese komponenten von dem teleskop
+
+662
+00:41:35,420 --> 00:41:41,420
+subsystem war das da konnte ich
+
+663
+00:41:39,800 --> 00:41:43,460
+irgendwie erkennen ob so eine abbildung
+
+664
+00:41:41,420 --> 00:41:46,010
+ob es theoretisch geben kann
+
+665
+00:41:43,460 --> 00:41:47,750
+eine saubere abbildung von süßem lwl
+
+666
+00:41:46,010 --> 00:41:49,760
+oder gibt es da einfach wirklich dann
+
+667
+00:41:47,750 --> 00:41:50,840
+unschärfen und sagte da ist mir dann
+
+668
+00:41:49,760 --> 00:41:52,900
+doch zu schwach das kriege ich nicht
+
+669
+00:41:50,840 --> 00:41:54,760
+abgebildet
+
+670
+00:41:52,900 --> 00:41:58,620
+wird die ausdrucksstärker sehe mir die
+
+671
+00:41:54,760 --> 00:42:03,030
+einfachste beschreibung logik genommen
+
+672
+00:41:58,620 --> 00:42:06,490
+und die haben tatsächlich solche
+
+673
+00:42:03,030 --> 00:42:09,700
+ontologien selbst im modell nicht gehabt
+
+674
+00:42:06,490 --> 00:42:12,270
+sondern wir haben das modell genutzt und
+
+675
+00:42:09,700 --> 00:42:16,600
+haben die die blöcke quasi dann auf die
+
+676
+00:42:12,270 --> 00:42:21,730
+konzept namen übersetzt sozusagen jeder
+
+677
+00:42:16,600 --> 00:42:24,880
+block ist dann in ein konzept name oder
+
+678
+00:42:21,730 --> 00:42:28,210
+atomare konzepte wie man sie nennt also
+
+679
+00:42:24,880 --> 00:42:34,840
+lieber kg plant verächter und so weiter
+
+680
+00:42:28,210 --> 00:42:41,500
+und haben dann die die assoziationen als
+
+681
+00:42:34,840 --> 00:42:44,290
+als rollen interpretiert und haben das
+
+682
+00:42:41,500 --> 00:42:47,560
+modell genommen übersetzt und haben dann
+
+683
+00:42:44,290 --> 00:42:49,510
+die wissensbasis haben wir selber auf
+
+684
+00:42:47,560 --> 00:42:52,570
+mode auf der formalen seite eingesetzt
+
+685
+00:42:49,510 --> 00:42:54,070
+dh das mit doll würde das also das muss
+
+686
+00:42:52,570 --> 00:42:55,420
+ja irgendwo hinterlegt seien
+
+687
+00:42:54,070 --> 00:42:57,690
+wahrscheinlich auch in modellierungs
+
+688
+00:42:55,420 --> 00:43:00,840
+werkzeug könnte ich mir vorstellen aber
+
+689
+00:42:57,690 --> 00:43:03,640
+das haben wir nicht selber modell gehabt
+
+690
+00:43:00,840 --> 00:43:07,390
+das heißt wir haben quasi diese diese
+
+691
+00:43:03,640 --> 00:43:11,050
+kleinere und theologie also unsere und
+
+692
+00:43:07,390 --> 00:43:17,940
+theologie dort überführt unsere
+
+693
+00:43:11,050 --> 00:43:20,740
+wissensbasis sie übersetzt und dort
+
+694
+00:43:17,940 --> 00:43:22,600
+gesagt dann die anderen konzepte mit
+
+695
+00:43:20,740 --> 00:43:24,550
+einfließen lassen und dann auswertung
+
+696
+00:43:22,600 --> 00:43:29,080
+gemacht gibt es dann eine semantische
+
+697
+00:43:24,550 --> 00:43:31,570
+differenz oder nicht vielleicht eine
+
+698
+00:43:29,080 --> 00:43:33,580
+frage zum abschluss die wir so auch gar
+
+699
+00:43:31,570 --> 00:43:35,260
+nicht besprochen hatten vorher aber die
+
+700
+00:43:33,580 --> 00:43:37,900
+wir jetzt gerade so einfältig darüber
+
+701
+00:43:35,260 --> 00:43:39,970
+nachdenkt ist sam l
+
+702
+00:43:37,900 --> 00:43:42,130
+denn jetzt eine formale modellierung
+
+703
+00:43:39,970 --> 00:43:46,090
+sprache klammer auf manchmal wird ja
+
+704
+00:43:42,130 --> 00:43:49,830
+auch gesagt semi formal klammer zu es
+
+705
+00:43:46,090 --> 00:43:52,250
+keine formale modellierungs brachen ein
+
+706
+00:43:49,830 --> 00:43:56,730
+ja das ist auch meine aussage
+
+707
+00:43:52,250 --> 00:43:59,800
+[Gelächter]
+
+708
+00:43:56,730 --> 00:44:02,050
+also dieses mehr als 24 möchte man ja
+
+709
+00:43:59,800 --> 00:44:03,720
+die wird dann auch keine formale museum
+
+710
+00:44:02,050 --> 00:44:06,280
+sprache aber die möchte man auf ein
+
+711
+00:44:03,720 --> 00:44:08,470
+formales fundament draufsetzen
+
+712
+00:44:06,280 --> 00:44:10,060
+das ist der richter oder die sprache
+
+713
+00:44:08,470 --> 00:44:11,320
+selbst würde keine formale sprache
+
+714
+00:44:10,060 --> 00:44:13,540
+werden aber dadurch dass ich ein koma
+
+715
+00:44:11,320 --> 00:44:18,000
+das fundament darunter läge habe ich
+
+716
+00:44:13,540 --> 00:44:20,530
+halt trotzdem die eine präzise semantik
+
+717
+00:44:18,000 --> 00:44:23,590
+bestimmt das duo oder wäre es ist mein 2
+
+718
+00:44:20,530 --> 00:44:25,390
+dann doch eine formale sprache wenn es
+
+719
+00:44:23,590 --> 00:44:30,190
+theoretisch komplett abbildbar wäre
+
+720
+00:44:25,390 --> 00:44:32,200
+jetzt auf opel oder so also die
+
+721
+00:44:30,190 --> 00:44:36,730
+spezifikation ist ja noch nicht noch
+
+722
+00:44:32,200 --> 00:44:38,560
+nicht draußen also da und ich sage es
+
+723
+00:44:36,730 --> 00:44:41,650
+auf dem letzten meeting gab es auch
+
+724
+00:44:38,560 --> 00:44:44,859
+schon einen vortrag aus unserem team die
+
+725
+00:44:41,650 --> 00:44:46,540
+semantischen schulden so betitelt dass
+
+726
+00:44:44,859 --> 00:44:49,300
+man da ein bisschen hinten dran hängt
+
+727
+00:44:46,540 --> 00:44:51,310
+und wenn die die timeline die jetzt
+
+728
+00:44:49,300 --> 00:44:52,720
+gerade gesetzt ist wirklich ein gehalt
+
+729
+00:44:51,310 --> 00:44:54,160
+wird was extrem sportlich ist wird
+
+730
+00:44:52,720 --> 00:44:55,500
+glaube ich die semantik ein bisschen
+
+731
+00:44:54,160 --> 00:44:58,060
+hinten dran bleiben
+
+732
+00:44:55,500 --> 00:44:59,770
+etwas was man vielleicht nachschieben
+
+733
+00:44:58,060 --> 00:45:03,400
+kann also die präzision der semantik
+
+734
+00:44:59,770 --> 00:45:05,740
+manchmal der ja auch gemacht hat aber
+
+735
+00:45:03,400 --> 00:45:08,170
+das ist halt noch großes brett was da
+
+736
+00:45:05,740 --> 00:45:09,490
+noch gebohrt werden muss und auf seine
+
+737
+00:45:08,170 --> 00:45:11,530
+seite ziehen die stakeholder die sagen
+
+738
+00:45:09,490 --> 00:45:13,080
+jetzt kommt man die pötte dieses 12 muss
+
+739
+00:45:11,530 --> 00:45:15,340
+mal rauskommen ich will was sehen
+
+740
+00:45:13,080 --> 00:45:21,010
+es ist dann egal dass dahinter etwas
+
+741
+00:45:15,340 --> 00:45:23,800
+normales ist gratwanderung wird er also
+
+742
+00:45:21,010 --> 00:45:27,430
+ansätze gibt es ja da war das ist selbst
+
+743
+00:45:23,800 --> 00:45:30,280
+bei und dort auch an einigen stellen in
+
+744
+00:45:27,430 --> 00:45:31,300
+der spezifikation schon auf aber das ist
+
+745
+00:45:30,280 --> 00:45:35,800
+ein großes loch wenn man genauer
+
+746
+00:45:31,300 --> 00:45:36,160
+reinkommt das glaube ich auch viel zu
+
+747
+00:45:35,800 --> 00:45:42,030
+tun
+
+748
+00:45:36,160 --> 00:45:48,910
+tja mein kopf braucht ja ich bin auch
+
+749
+00:45:42,030 --> 00:45:51,410
+das zeug und ich glaube heute lohnt sich
+
+750
+00:45:48,910 --> 00:45:53,930
+mal so richtig in die chance zu gucken
+
+751
+00:45:51,410 --> 00:45:56,760
+wie dieses scheuen und streut
+
+752
+00:45:53,930 --> 00:46:00,270
+geschrieben wird wird packen auch ein
+
+753
+00:45:56,760 --> 00:46:01,620
+paar links rein weil ein paar quellen wo
+
+754
+00:46:00,270 --> 00:46:05,550
+man das mal ein bisschen nachlesen kann
+
+755
+00:46:01,620 --> 00:46:07,170
+ich verzichten ergänzen genau genau also
+
+756
+00:46:05,550 --> 00:46:09,630
+die nächsten tage wird da was kommen
+
+757
+00:46:07,170 --> 00:46:11,370
+ich fand es total spannend mich damit zu
+
+758
+00:46:09,630 --> 00:46:13,020
+beschäftigen und muss sagen ich hatte
+
+759
+00:46:11,370 --> 00:46:17,270
+jetzt noch keine episode auf die ich
+
+760
+00:46:13,020 --> 00:46:17,270
+mich so viel vorbereitet habe wie diese
+
+761
+00:46:17,480 --> 00:46:24,900
+und ja was bleibt uns noch so zu sagen
+
+762
+00:46:22,850 --> 00:46:26,700
+wir können die gerne noch so die nächste
+
+763
+00:46:24,900 --> 00:46:27,810
+episode an die in der tat können wir das
+
+764
+00:46:26,700 --> 00:46:30,270
+gerade auch nicht tun wir haben so ein
+
+765
+00:46:27,810 --> 00:46:32,400
+paar themen natürlich immer in
+
+766
+00:46:30,270 --> 00:46:34,770
+vorbereitung sind dennoch in kontakt mit
+
+767
+00:46:32,400 --> 00:46:37,640
+den leuten aber haben bisher noch nicht
+
+768
+00:46:34,770 --> 00:46:39,810
+final rast festlegen können
+
+769
+00:46:37,640 --> 00:46:43,440
+geplant ist auf jeden fall dass wir das
+
+770
+00:46:39,810 --> 00:46:44,610
+ende märz machen aber mal gucken ja
+
+771
+00:46:43,440 --> 00:46:47,880
+genau
+
+772
+00:46:44,610 --> 00:46:50,940
+auf jeden fall müssen wir uns noch ganz
+
+773
+00:46:47,880 --> 00:46:54,330
+herzlich hier bei silvia bedanken für
+
+774
+00:46:50,940 --> 00:46:56,030
+die vorbereitung und das ganze wissen
+
+775
+00:46:54,330 --> 00:46:59,420
+was du uns jetzt hier vermittelt hass
+
+776
+00:46:56,030 --> 00:47:03,420
+und also vielen herzlichen dank dafür
+
+777
+00:46:59,420 --> 00:47:05,550
+wer da ist es natürlich gedanken wer da
+
+778
+00:47:03,420 --> 00:47:07,500
+industriellen bedarf hat an der uni
+
+779
+00:47:05,550 --> 00:47:10,370
+hamburg schrägstrich uni lübeck gibt es
+
+780
+00:47:07,500 --> 00:47:12,510
+leute die sich damit beschäftigen
+
+781
+00:47:10,370 --> 00:47:13,080
+somit bleibt uns eigentlich nur noch zu
+
+782
+00:47:12,510 --> 00:47:17,850
+sagen
+
+783
+00:47:13,080 --> 00:47:23,550
+die 100 forget strassers wir sie es
+
+784
+00:47:17,850 --> 00:47:25,910
+system center dies macht es doch bis zum
+
+785
+00:47:23,550 --> 00:47:25,910
+nächsten mal
+
+786
+00:47:33,790 --> 00:47:40,809
+[Musik]
+
+787
+00:47:43,370 --> 00:47:50,039
+[Musik]
+

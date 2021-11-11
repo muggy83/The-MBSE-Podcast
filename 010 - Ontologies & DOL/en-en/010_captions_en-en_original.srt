@@ -1,0 +1,4428 @@
+1
+00:00:00,320 --> 00:00:06,480
+hello fellow systems engineers and
+
+2
+00:00:02,399 --> 00:00:10,719
+welcome back to a new podcast episode
+
+3
+00:00:06,480 --> 00:00:14,559
+we have a guest for the topic today
+
+4
+00:00:10,719 --> 00:00:17,119
+which is about ontologies and doll
+
+5
+00:00:14,559 --> 00:00:18,640
+and our guest today is fabian neuhaus
+
+6
+00:00:17,119 --> 00:00:20,880
+fabian would you like to introduce
+
+7
+00:00:18,640 --> 00:00:23,519
+yourself
+
+8
+00:00:20,880 --> 00:00:25,199
+hi um thank you very much for inviting
+
+9
+00:00:23,519 --> 00:00:28,720
+me my name is fabi my house
+
+10
+00:00:25,199 --> 00:00:30,640
+i work usually at the university in
+
+11
+00:00:28,720 --> 00:00:31,840
+marketbook and then could be the life
+
+12
+00:00:30,640 --> 00:00:34,239
+department
+
+13
+00:00:31,840 --> 00:00:34,880
+and i'm currently located in the
+
+14
+00:00:34,239 --> 00:00:38,320
+wonderful
+
+15
+00:00:34,880 --> 00:00:41,280
+city of portsmouth in the italian alps
+
+16
+00:00:38,320 --> 00:00:42,840
+where i am on a research project working
+
+17
+00:00:41,280 --> 00:00:45,840
+with colleagues here in
+
+18
+00:00:42,840 --> 00:00:48,320
+italy great so
+
+19
+00:00:45,840 --> 00:00:49,920
+and what exactly do you do at the
+
+20
+00:00:48,320 --> 00:00:51,120
+universities with magnavox or now in
+
+21
+00:00:49,920 --> 00:00:54,399
+bolton
+
+22
+00:00:51,120 --> 00:00:57,680
+well i mean i have the
+
+23
+00:00:54,399 --> 00:01:00,079
+mixed pleasure of teaching a computer
+
+24
+00:00:57,680 --> 00:01:01,359
+logic and uh theoretical computer
+
+25
+00:01:00,079 --> 00:01:03,760
+science but
+
+26
+00:01:01,359 --> 00:01:04,640
+uh my research areas are mostly in
+
+27
+00:01:03,760 --> 00:01:06,799
+ontology
+
+28
+00:01:04,640 --> 00:01:08,640
+all kinds of topics related to
+
+29
+00:01:06,799 --> 00:01:11,680
+ontologies
+
+30
+00:01:08,640 --> 00:01:14,320
+i and of course also
+
+31
+00:01:11,680 --> 00:01:15,280
+i was part of the group who developed
+
+32
+00:01:14,320 --> 00:01:19,040
+all i guess
+
+33
+00:01:15,280 --> 00:01:23,840
+that's also relevant for you inviting me
+
+34
+00:01:19,040 --> 00:01:26,799
+yes sure sure yeah fun fact
+
+35
+00:01:23,840 --> 00:01:27,520
+aside is that we are we three are all
+
+36
+00:01:26,799 --> 00:01:30,000
+germans
+
+37
+00:01:27,520 --> 00:01:33,840
+but we never met in germany only in the
+
+38
+00:01:30,000 --> 00:01:33,840
+united states at the omg meetings
+
+39
+00:01:35,680 --> 00:01:41,439
+well yeah so now we'll listen to three
+
+40
+00:01:37,920 --> 00:01:46,640
+germans trying to speak english for yeah
+
+41
+00:01:41,439 --> 00:01:46,640
+yeah so our listeners are used to it
+
+42
+00:01:48,000 --> 00:01:52,079
+like this laughing out loud shows also
+
+43
+00:01:52,479 --> 00:01:58,719
+so um so you're at a
+
+44
+00:01:55,520 --> 00:02:00,880
+computer science department but you are
+
+45
+00:01:58,719 --> 00:02:02,240
+not a computer scientist right you're a
+
+46
+00:02:00,880 --> 00:02:05,520
+philosopher no
+
+47
+00:02:02,240 --> 00:02:08,719
+indeed yes i'm a philosopher by training
+
+48
+00:02:05,520 --> 00:02:08,719
+phd in philosophy
+
+49
+00:02:08,959 --> 00:02:14,319
+and slowly migrated and i even worked as
+
+50
+00:02:12,480 --> 00:02:15,680
+a postdoc in a philosophy department in
+
+51
+00:02:14,319 --> 00:02:19,360
+buffalo for a while
+
+52
+00:02:15,680 --> 00:02:21,440
+and then slowly migrated first to list
+
+53
+00:02:19,360 --> 00:02:22,480
+which people might know as a
+
+54
+00:02:21,440 --> 00:02:25,200
+standardization
+
+55
+00:02:22,480 --> 00:02:27,200
+organization of the us and then came
+
+56
+00:02:25,200 --> 00:02:30,480
+back to work here in rugby book
+
+57
+00:02:27,200 --> 00:02:33,360
+and yeah so this is
+
+58
+00:02:30,480 --> 00:02:35,360
+why i have i mean ontologies are very
+
+59
+00:02:33,360 --> 00:02:37,040
+interdisciplinary area
+
+60
+00:02:35,360 --> 00:02:38,800
+not only because the ontologies
+
+61
+00:02:37,040 --> 00:02:40,560
+themselves are typical about something
+
+62
+00:02:38,800 --> 00:02:44,080
+else than computer science
+
+63
+00:02:40,560 --> 00:02:47,519
+right but also because
+
+64
+00:02:44,080 --> 00:02:50,560
+it draws a lot from logic from
+
+65
+00:02:47,519 --> 00:02:52,720
+philosophy um
+
+66
+00:02:50,560 --> 00:02:54,560
+well from other areas as well even in
+
+67
+00:02:52,720 --> 00:02:58,319
+linguistics
+
+68
+00:02:54,560 --> 00:02:59,360
+so that's you know by people like me who
+
+69
+00:02:58,319 --> 00:03:01,680
+don't really
+
+70
+00:02:59,360 --> 00:03:02,640
+originally come from computer science uh
+
+71
+00:03:01,680 --> 00:03:04,959
+often
+
+72
+00:03:02,640 --> 00:03:07,519
+migrate there and otherwise in the other
+
+73
+00:03:04,959 --> 00:03:09,840
+direction a lot of ontologists who are
+
+74
+00:03:07,519 --> 00:03:11,599
+really engineers or computer scientists
+
+75
+00:03:09,840 --> 00:03:15,280
+are very well versed in
+
+76
+00:03:11,599 --> 00:03:16,640
+uh philosophy so the very
+
+77
+00:03:15,280 --> 00:03:18,560
+interesting group of people who work in
+
+78
+00:03:16,640 --> 00:03:20,560
+this area yeah hopefully we'll
+
+79
+00:03:18,560 --> 00:03:22,239
+we are coming back to this philosophic
+
+80
+00:03:20,560 --> 00:03:26,159
+background of ontologies
+
+81
+00:03:22,239 --> 00:03:29,200
+uh in some minutes but um
+
+82
+00:03:26,159 --> 00:03:30,640
+a simple question to you uh what are
+
+83
+00:03:29,200 --> 00:03:33,840
+ontologies about
+
+84
+00:03:30,640 --> 00:03:34,319
+for somebody to explain it for somebody
+
+85
+00:03:33,840 --> 00:03:37,280
+who
+
+86
+00:03:34,319 --> 00:03:37,280
+never heard this term
+
+87
+00:03:37,360 --> 00:03:42,080
+well so there's an academic answer an
+
+88
+00:03:41,120 --> 00:03:45,599
+authority is
+
+89
+00:03:42,080 --> 00:03:48,640
+a fair specification of
+
+90
+00:03:45,599 --> 00:03:49,760
+some conceptualization and that's an
+
+91
+00:03:48,640 --> 00:03:51,599
+example for the
+
+92
+00:03:49,760 --> 00:03:52,879
+mission that doesn't help anybody
+
+93
+00:03:51,599 --> 00:03:54,720
+because
+
+94
+00:03:52,879 --> 00:03:56,640
+if you don't know what an ontology is
+
+95
+00:03:54,720 --> 00:03:58,159
+you you know for sure don't know what
+
+96
+00:03:56,640 --> 00:04:03,120
+the concept is
+
+97
+00:03:58,159 --> 00:04:03,120
+nobody knows that really and
+
+98
+00:04:03,439 --> 00:04:10,239
+so if i have to explain
+
+99
+00:04:06,799 --> 00:04:12,879
+what an ontology is i usually start off
+
+100
+00:04:10,239 --> 00:04:15,200
+with a glossary and say well think of a
+
+101
+00:04:12,879 --> 00:04:19,120
+glossary
+
+102
+00:04:15,200 --> 00:04:20,160
+and now you kind of rip the glossary
+
+103
+00:04:19,120 --> 00:04:22,479
+apart
+
+104
+00:04:20,160 --> 00:04:25,040
+in you know different pieces and because
+
+105
+00:04:22,479 --> 00:04:27,919
+you reorganize it completely
+
+106
+00:04:25,040 --> 00:04:29,759
+um so the first thing is you you know a
+
+107
+00:04:27,919 --> 00:04:33,440
+lottery typically has
+
+108
+00:04:29,759 --> 00:04:35,919
+um different is focused on terms
+
+109
+00:04:33,440 --> 00:04:37,759
+and ontologies are not so much focused
+
+110
+00:04:35,919 --> 00:04:38,720
+on terms but more on the concepts or
+
+111
+00:04:37,759 --> 00:04:42,960
+classes
+
+112
+00:04:38,720 --> 00:04:45,759
+that are important so you know
+
+113
+00:04:42,960 --> 00:04:47,840
+in in english for example you have
+
+114
+00:04:45,759 --> 00:04:50,400
+different words for sweets
+
+115
+00:04:47,840 --> 00:04:52,240
+right and uh well in the uk i think it
+
+116
+00:04:50,400 --> 00:04:52,720
+would be they would be called sweets in
+
+117
+00:04:52,240 --> 00:04:55,520
+the
+
+118
+00:04:52,720 --> 00:04:56,160
+u.s it will be called candy and in
+
+119
+00:04:55,520 --> 00:04:57,759
+australia
+
+120
+00:04:56,160 --> 00:04:59,919
+australian english it would be called
+
+121
+00:04:57,759 --> 00:05:02,479
+lollies and then the
+
+122
+00:04:59,919 --> 00:05:03,919
+glossary you might get different entries
+
+123
+00:05:02,479 --> 00:05:06,320
+for each of them
+
+124
+00:05:03,919 --> 00:05:07,039
+it's alphabetically ordered so the
+
+125
+00:05:06,320 --> 00:05:09,680
+glossary
+
+126
+00:05:07,039 --> 00:05:10,880
+typically is alphabetically ordered so
+
+127
+00:05:09,680 --> 00:05:13,280
+you want to find
+
+128
+00:05:10,880 --> 00:05:14,960
+s under s you will find sweets under the
+
+129
+00:05:13,280 --> 00:05:17,199
+l you find lollies and
+
+130
+00:05:14,960 --> 00:05:19,520
+maybe they're cross references and then
+
+131
+00:05:17,199 --> 00:05:22,000
+on in our ontology that kind of
+
+132
+00:05:19,520 --> 00:05:23,440
+the labels aren't that important but the
+
+133
+00:05:22,000 --> 00:05:26,240
+concept are important so
+
+134
+00:05:23,440 --> 00:05:28,160
+there will be one entry and we'll say
+
+135
+00:05:26,240 --> 00:05:28,720
+maybe it will don't even have a word for
+
+136
+00:05:28,160 --> 00:05:31,840
+it but
+
+137
+00:05:28,720 --> 00:05:34,160
+rather a number and say this concept is
+
+138
+00:05:31,840 --> 00:05:37,039
+called in australia
+
+139
+00:05:34,160 --> 00:05:39,039
+lollies and in uk it's called sweets etc
+
+140
+00:05:37,039 --> 00:05:41,600
+cetera in german it's called
+
+141
+00:05:39,039 --> 00:05:43,759
+and then french is you know okay so it's
+
+142
+00:05:41,600 --> 00:05:46,880
+called in french right
+
+143
+00:05:43,759 --> 00:05:48,479
+it's it's really the the concept in the
+
+144
+00:05:46,880 --> 00:05:51,600
+center not so much the word
+
+145
+00:05:48,479 --> 00:05:54,639
+okay and
+
+146
+00:05:51,600 --> 00:05:57,680
+can can you also say that uh
+
+147
+00:05:54,639 --> 00:06:01,680
+the relationship between those terms uh
+
+148
+00:05:57,680 --> 00:06:04,160
+are a part of an ontology
+
+149
+00:06:01,680 --> 00:06:05,680
+definitely yeah so the the the first
+
+150
+00:06:04,160 --> 00:06:07,759
+thing if you would want to go from a
+
+151
+00:06:05,680 --> 00:06:10,160
+glossary is kind of focus more on the
+
+152
+00:06:07,759 --> 00:06:14,080
+concepts and disambiguate
+
+153
+00:06:10,160 --> 00:06:17,199
+the the words and the next thing is you
+
+154
+00:06:14,080 --> 00:06:19,600
+basically order the concepts
+
+155
+00:06:17,199 --> 00:06:21,360
+hierarchically so you get a taxonomy
+
+156
+00:06:19,600 --> 00:06:22,800
+that would be in my opinion that still
+
+157
+00:06:21,360 --> 00:06:24,800
+would be an ontology
+
+158
+00:06:22,800 --> 00:06:25,840
+but that would be the next step so that
+
+159
+00:06:24,800 --> 00:06:27,520
+you you know
+
+160
+00:06:25,840 --> 00:06:29,120
+uh for example you would have a link
+
+161
+00:06:27,520 --> 00:06:32,160
+between the concepts of
+
+162
+00:06:29,120 --> 00:06:35,039
+um or the class of sweets to the class
+
+163
+00:06:32,160 --> 00:06:36,639
+of confectionary because confectionary
+
+164
+00:06:35,039 --> 00:06:41,280
+is the superclass
+
+165
+00:06:36,639 --> 00:06:42,800
+of sweet right and in different kinds of
+
+166
+00:06:41,280 --> 00:06:44,800
+you would have different sub classes of
+
+167
+00:06:42,800 --> 00:06:47,280
+sweets so basically instead of having
+
+168
+00:06:44,800 --> 00:06:48,000
+ordered alphabetically you get a in this
+
+169
+00:06:47,280 --> 00:06:51,039
+particular case
+
+170
+00:06:48,000 --> 00:06:53,440
+it would be a graph maybe a tree
+
+171
+00:06:51,039 --> 00:06:56,880
+structure ideally a tree structure but
+
+172
+00:06:53,440 --> 00:06:59,919
+most likely a graph of um
+
+173
+00:06:56,880 --> 00:07:02,560
+of concept and that's that would be
+
+174
+00:06:59,919 --> 00:07:04,160
+so that would be the taxonomy and some
+
+175
+00:07:02,560 --> 00:07:05,759
+people already would say taxonomy is
+
+176
+00:07:04,160 --> 00:07:10,880
+kind of an ontology i'm
+
+177
+00:07:05,759 --> 00:07:10,880
+you know well the borderline case and
+
+178
+00:07:11,680 --> 00:07:16,160
+then you would maybe add some additional
+
+179
+00:07:14,400 --> 00:07:17,440
+relationships like
+
+180
+00:07:16,160 --> 00:07:19,759
+you could talk about what are the
+
+181
+00:07:17,440 --> 00:07:22,080
+ingredients
+
+182
+00:07:19,759 --> 00:07:24,000
+right so you would have not just uh you
+
+183
+00:07:22,080 --> 00:07:26,000
+would have links between concepts like
+
+184
+00:07:24,000 --> 00:07:28,639
+you know the main ingredients of the
+
+185
+00:07:26,000 --> 00:07:30,960
+sweet is sugar
+
+186
+00:07:28,639 --> 00:07:32,240
+you for other things you would have
+
+187
+00:07:30,960 --> 00:07:35,360
+password relations
+
+188
+00:07:32,240 --> 00:07:38,880
+so a layer cake has different uh
+
+189
+00:07:35,360 --> 00:07:42,560
+belgian praline has uh has a filling
+
+190
+00:07:38,880 --> 00:07:45,919
+right um so additional information and
+
+191
+00:07:42,560 --> 00:07:49,199
+all of this things i should say
+
+192
+00:07:45,919 --> 00:07:51,520
+are not expressed just by you know
+
+193
+00:07:49,199 --> 00:07:53,120
+arrows on a piece of paper but in some
+
+194
+00:07:51,520 --> 00:07:54,720
+logical language so that would be
+
+195
+00:07:53,120 --> 00:07:58,000
+distinguishing
+
+196
+00:07:54,720 --> 00:08:01,440
+uh characteristic from
+
+197
+00:07:58,000 --> 00:08:02,960
+let's say uml diagrams
+
+198
+00:08:01,440 --> 00:08:05,280
+you know most of what i just said you
+
+199
+00:08:02,960 --> 00:08:08,720
+could do in the email class diagram
+
+200
+00:08:05,280 --> 00:08:12,000
+but the language which you're using here
+
+201
+00:08:08,720 --> 00:08:15,879
+is is going to be underpinned by some
+
+202
+00:08:12,000 --> 00:08:19,120
+logic the reason for that is that the
+
+203
+00:08:15,879 --> 00:08:20,840
+neonatology so just coming to what's the
+
+204
+00:08:19,120 --> 00:08:23,840
+purpose of it you want to have
+
+205
+00:08:20,840 --> 00:08:23,840
+interoperability
+
+206
+00:08:23,919 --> 00:08:28,400
+between not only humans and humans but
+
+207
+00:08:26,479 --> 00:08:29,440
+also between humans and machines and
+
+208
+00:08:28,400 --> 00:08:32,880
+machines and machines
+
+209
+00:08:29,440 --> 00:08:36,000
+so you want to capture the semantics
+
+210
+00:08:32,880 --> 00:08:39,200
+um in the machine interpretable way
+
+211
+00:08:36,000 --> 00:08:41,120
+so that is where i would say the
+
+212
+00:08:39,200 --> 00:08:42,399
+real ontology starts so everything you
+
+213
+00:08:41,120 --> 00:08:44,399
+know if you just think of
+
+214
+00:08:42,399 --> 00:08:46,480
+you start with the glossary so basically
+
+215
+00:08:44,399 --> 00:08:47,120
+you add the your order differently you
+
+216
+00:08:46,480 --> 00:08:50,640
+look as
+
+217
+00:08:47,120 --> 00:08:52,839
+you can look at the concepts you put in
+
+218
+00:08:50,640 --> 00:08:55,760
+additional
+
+219
+00:08:52,839 --> 00:08:56,240
+relationships and then you do all of
+
+220
+00:08:55,760 --> 00:08:58,000
+that
+
+221
+00:08:56,240 --> 00:08:59,440
+in the language which is a logical
+
+222
+00:08:58,000 --> 00:09:01,120
+language and if you have done that you
+
+223
+00:08:59,440 --> 00:09:03,680
+have mythology
+
+224
+00:09:01,120 --> 00:09:06,080
+okay so what what's the difference
+
+225
+00:09:03,680 --> 00:09:08,959
+between a concept and a term
+
+226
+00:09:06,080 --> 00:09:09,519
+is there a difference so you said that
+
+227
+00:09:08,959 --> 00:09:12,000
+that
+
+228
+00:09:09,519 --> 00:09:12,959
+sweets and candy is not it's not a
+
+229
+00:09:12,000 --> 00:09:14,640
+concept that's
+
+230
+00:09:12,959 --> 00:09:16,160
+these are terms in a glossary for
+
+231
+00:09:14,640 --> 00:09:19,040
+example and
+
+232
+00:09:16,160 --> 00:09:19,440
+now they're grouped in a concept but
+
+233
+00:09:19,040 --> 00:09:22,880
+where's
+
+234
+00:09:19,440 --> 00:09:26,160
+the difference between concept and term
+
+235
+00:09:22,880 --> 00:09:29,200
+well if
+
+236
+00:09:26,160 --> 00:09:32,959
+you have two sentences or let's say
+
+237
+00:09:29,200 --> 00:09:36,720
+we take bread roll
+
+238
+00:09:32,959 --> 00:09:39,839
+bread roll and butcher i mean for the
+
+239
+00:09:36,720 --> 00:09:41,279
+english speakers is one translation of
+
+240
+00:09:39,839 --> 00:09:44,959
+breadfall in german
+
+241
+00:09:41,279 --> 00:09:46,959
+so uh each of them are words in
+
+242
+00:09:44,959 --> 00:09:48,399
+this case different languages but the
+
+243
+00:09:46,959 --> 00:09:51,519
+express shared
+
+244
+00:09:48,399 --> 00:09:53,680
+something which is a clear concept
+
+245
+00:09:51,519 --> 00:09:56,480
+right that's the it's basically that
+
+246
+00:09:53,680 --> 00:09:59,360
+watch when you go from one sentence
+
+247
+00:09:56,480 --> 00:10:01,120
+if you went translate well you know the
+
+248
+00:09:59,360 --> 00:10:02,959
+justification why you choose that
+
+249
+00:10:01,120 --> 00:10:04,720
+translation and you wouldn't say you
+
+250
+00:10:02,959 --> 00:10:08,079
+know something completely different
+
+251
+00:10:04,720 --> 00:10:10,160
+is because you say well this one means
+
+252
+00:10:08,079 --> 00:10:11,279
+the same in english as it means in
+
+253
+00:10:10,160 --> 00:10:13,440
+german so
+
+254
+00:10:11,279 --> 00:10:15,680
+you can maybe i shouldn't use the word
+
+255
+00:10:13,440 --> 00:10:19,040
+concept i could have just said meaning
+
+256
+00:10:15,680 --> 00:10:20,480
+the problem is meaning is even more
+
+257
+00:10:19,040 --> 00:10:23,680
+weight
+
+258
+00:10:20,480 --> 00:10:26,480
+or problematic many
+
+259
+00:10:23,680 --> 00:10:26,959
+multi-faceted than concept i mean
+
+260
+00:10:26,480 --> 00:10:28,480
+concept
+
+261
+00:10:26,959 --> 00:10:31,839
+is hard to understand meaning is even
+
+262
+00:10:28,480 --> 00:10:34,320
+harder to to get
+
+263
+00:10:31,839 --> 00:10:35,680
+okay we could have a whole i mean a
+
+264
+00:10:34,320 --> 00:10:39,040
+whole podcast on
+
+265
+00:10:35,680 --> 00:10:41,519
+what's this meaning uh of the of the
+
+266
+00:10:39,040 --> 00:10:43,440
+sentence it's uh it's a very fascinating
+
+267
+00:10:41,519 --> 00:10:46,240
+and really multifaceted topic
+
+268
+00:10:43,440 --> 00:10:46,880
+so this is often and that's probably
+
+269
+00:10:46,240 --> 00:10:48,560
+also
+
+270
+00:10:46,880 --> 00:10:50,800
+you know sometimes people say
+
+271
+00:10:48,560 --> 00:10:56,240
+mythologies are used to capture
+
+272
+00:10:50,800 --> 00:10:56,240
+the meaning of the terms
+
+273
+00:10:56,320 --> 00:11:00,079
+and that's true and false at the same
+
+274
+00:10:59,680 --> 00:11:02,320
+time
+
+275
+00:11:00,079 --> 00:11:04,720
+because it really depends on what you
+
+276
+00:11:02,320 --> 00:11:08,399
+mean by meaning
+
+277
+00:11:04,720 --> 00:11:11,600
+okay so
+
+278
+00:11:08,399 --> 00:11:15,279
+let's assume we have an ontology
+
+279
+00:11:11,600 --> 00:11:18,720
+what can i do with it
+
+280
+00:11:15,279 --> 00:11:19,839
+well it depends it depends really on the
+
+281
+00:11:18,720 --> 00:11:22,160
+opponent you have
+
+282
+00:11:19,839 --> 00:11:24,240
+that's uh let's look at a particular
+
+283
+00:11:22,160 --> 00:11:28,240
+example so the most
+
+284
+00:11:24,240 --> 00:11:31,760
+successful ontology out there in terms
+
+285
+00:11:28,240 --> 00:11:34,880
+of users i think and also of
+
+286
+00:11:31,760 --> 00:11:36,480
+influence is the gene ontology
+
+287
+00:11:34,880 --> 00:11:38,000
+now the gene ontology from a magician's
+
+288
+00:11:36,480 --> 00:11:40,320
+point of view which i'm
+
+289
+00:11:38,000 --> 00:11:42,160
+more or less is a rather boring monology
+
+290
+00:11:40,320 --> 00:11:44,399
+because it doesn't have nice axioms it's
+
+291
+00:11:42,160 --> 00:11:45,839
+not very strongly exomatized compared to
+
+292
+00:11:44,399 --> 00:11:49,440
+other approaches
+
+293
+00:11:45,839 --> 00:11:52,480
+but it's it is successful because
+
+294
+00:11:49,440 --> 00:11:54,480
+um it's it's uh involves
+
+295
+00:11:52,480 --> 00:11:55,600
+solving a really big problem for the
+
+296
+00:11:54,480 --> 00:11:58,000
+biologists
+
+297
+00:11:55,600 --> 00:11:59,440
+and in still solving the problem um that
+
+298
+00:11:58,000 --> 00:12:01,440
+they faced when they
+
+299
+00:11:59,440 --> 00:12:04,160
+produced a lot of data so the the
+
+300
+00:12:01,440 --> 00:12:07,040
+problem they i mean in the 90s when
+
+301
+00:12:04,160 --> 00:12:09,279
+when they started to develop it they had
+
+302
+00:12:07,040 --> 00:12:12,320
+this huge amount of genomic data
+
+303
+00:12:09,279 --> 00:12:14,959
+right and every so you
+
+304
+00:12:12,320 --> 00:12:15,760
+you could look at the genome of mice and
+
+305
+00:12:14,959 --> 00:12:18,320
+of
+
+306
+00:12:15,760 --> 00:12:18,959
+various plants and of course of humans
+
+307
+00:12:18,320 --> 00:12:21,760
+and you
+
+308
+00:12:18,959 --> 00:12:22,480
+and you could uh find out that you know
+
+309
+00:12:21,760 --> 00:12:25,839
+this
+
+310
+00:12:22,480 --> 00:12:28,000
+genome is able
+
+311
+00:12:25,839 --> 00:12:28,880
+to express this kind of protein and
+
+312
+00:12:28,000 --> 00:12:30,880
+that's protein
+
+313
+00:12:28,880 --> 00:12:32,160
+placed in these roles in these kinds of
+
+314
+00:12:30,880 --> 00:12:34,959
+processes and
+
+315
+00:12:32,160 --> 00:12:36,240
+they were generating tons of i mean tons
+
+316
+00:12:34,959 --> 00:12:37,760
+of papers
+
+317
+00:12:36,240 --> 00:12:39,519
+and nobody could read these papers
+
+318
+00:12:37,760 --> 00:12:43,600
+anymore i mean there is too much
+
+319
+00:12:39,519 --> 00:12:46,240
+and if you were an expert in mouse
+
+320
+00:12:43,600 --> 00:12:47,440
+stuff you wouldn't be able to be to link
+
+321
+00:12:46,240 --> 00:12:50,560
+it to the
+
+322
+00:12:47,440 --> 00:12:52,880
+to the stuff which was done on plants
+
+323
+00:12:50,560 --> 00:12:53,680
+but the same genes are involved in some
+
+324
+00:12:52,880 --> 00:12:55,760
+sense of
+
+325
+00:12:53,680 --> 00:12:57,279
+the same and of course and ultimately
+
+326
+00:12:55,760 --> 00:12:58,959
+we're interested in humans because it's
+
+327
+00:12:57,279 --> 00:13:02,399
+all medically irrelevant
+
+328
+00:12:58,959 --> 00:13:04,880
+so in order to organize knowledge
+
+329
+00:13:02,399 --> 00:13:06,800
+they developed the gene ontology which
+
+330
+00:13:04,880 --> 00:13:11,519
+is a controlled vocabulary
+
+331
+00:13:06,800 --> 00:13:15,680
+which you can use to annotate
+
+332
+00:13:11,519 --> 00:13:20,639
+the literature and annotate the data
+
+333
+00:13:15,680 --> 00:13:24,000
+from from the very and
+
+334
+00:13:20,639 --> 00:13:28,079
+that allowed them uh first of all
+
+335
+00:13:24,000 --> 00:13:28,079
+to just get hold of the literature so we
+
+336
+00:13:29,200 --> 00:13:34,800
+oh fabian you're breaking openly to find
+
+337
+00:13:32,320 --> 00:13:34,800
+relevant
+
+338
+00:13:35,839 --> 00:13:39,600
+oh sorry but i can't do anything about
+
+339
+00:13:37,920 --> 00:13:43,120
+it yeah we know you're back
+
+340
+00:13:39,600 --> 00:13:46,160
+um okay
+
+341
+00:13:43,120 --> 00:13:47,839
+so the and but the the important thing
+
+342
+00:13:46,160 --> 00:13:49,760
+it was to them that they could then
+
+343
+00:13:47,839 --> 00:13:53,279
+automatically integrate
+
+344
+00:13:49,760 --> 00:13:56,959
+the various uh
+
+345
+00:13:53,279 --> 00:14:00,720
+databases they had about results
+
+346
+00:13:56,959 --> 00:14:02,720
+and without i mean each database
+
+347
+00:14:00,720 --> 00:14:04,320
+of this you know was individually owned
+
+348
+00:14:02,720 --> 00:14:06,240
+or whoever created it
+
+349
+00:14:04,320 --> 00:14:08,639
+and of course everybody has their own
+
+350
+00:14:06,240 --> 00:14:11,680
+database schema fitting for their
+
+351
+00:14:08,639 --> 00:14:15,120
+computer system in their environment but
+
+352
+00:14:11,680 --> 00:14:16,320
+um the andrologies allow them to
+
+353
+00:14:15,120 --> 00:14:18,720
+basically
+
+354
+00:14:16,320 --> 00:14:20,720
+integrate that data without having to
+
+355
+00:14:18,720 --> 00:14:22,399
+physically change them from it you know
+
+356
+00:14:20,720 --> 00:14:25,120
+the way their database worked
+
+357
+00:14:22,399 --> 00:14:25,920
+that was that was the next you know that
+
+358
+00:14:25,120 --> 00:14:28,800
+was the
+
+359
+00:14:25,920 --> 00:14:30,320
+immediate payoff and now they have tools
+
+360
+00:14:28,800 --> 00:14:33,120
+which basically just
+
+361
+00:14:30,320 --> 00:14:34,959
+automatically you know you you for
+
+362
+00:14:33,120 --> 00:14:37,920
+example analyze
+
+363
+00:14:34,959 --> 00:14:38,560
+um what kinds of proteins are available
+
+364
+00:14:37,920 --> 00:14:40,959
+in some
+
+365
+00:14:38,560 --> 00:14:43,120
+you know snippets of tissue and it will
+
+366
+00:14:40,959 --> 00:14:44,240
+automatically use that information about
+
+367
+00:14:43,120 --> 00:14:46,720
+what is there to
+
+368
+00:14:44,240 --> 00:14:47,600
+link it to the processes to biological
+
+369
+00:14:46,720 --> 00:14:49,519
+processes
+
+370
+00:14:47,600 --> 00:14:52,000
+which are mentioned in the ontology and
+
+371
+00:14:49,519 --> 00:14:53,360
+then will automatically tell you okay
+
+372
+00:14:52,000 --> 00:14:57,279
+what is going on
+
+373
+00:14:53,360 --> 00:14:59,279
+here and this so you you it's basically
+
+374
+00:14:57,279 --> 00:15:00,480
+now used for knowledge generation and
+
+375
+00:14:59,279 --> 00:15:03,600
+that's just one
+
+376
+00:15:00,480 --> 00:15:06,000
+one of many users so it's really
+
+377
+00:15:03,600 --> 00:15:07,920
+making data enjoyable it's one of the
+
+378
+00:15:06,000 --> 00:15:10,000
+main
+
+379
+00:15:07,920 --> 00:15:11,279
+use cases now you mentioned the example
+
+380
+00:15:10,000 --> 00:15:14,079
+of genes
+
+381
+00:15:11,279 --> 00:15:16,880
+i remember i i started to read a book
+
+382
+00:15:14,079 --> 00:15:17,920
+from barry smith about bfos and i think
+
+383
+00:15:16,880 --> 00:15:21,279
+it was
+
+384
+00:15:17,920 --> 00:15:23,040
+the example is it possible or do i mix
+
+385
+00:15:21,279 --> 00:15:25,760
+up things
+
+386
+00:15:23,040 --> 00:15:27,440
+um it could be i mean barry i used to
+
+387
+00:15:25,760 --> 00:15:28,560
+work for barry and i used to work for
+
+388
+00:15:27,440 --> 00:15:32,160
+barry when he
+
+389
+00:15:28,560 --> 00:15:34,240
+uh started the oboe well i mean
+
+390
+00:15:32,160 --> 00:15:35,199
+he was one of the many founders i mean
+
+391
+00:15:34,240 --> 00:15:38,399
+he's
+
+392
+00:15:35,199 --> 00:15:40,560
+he was the german told you expect
+
+393
+00:15:38,399 --> 00:15:42,079
+so it would be make absolute sense that
+
+394
+00:15:40,560 --> 00:15:44,480
+uses that example as well
+
+395
+00:15:42,079 --> 00:15:44,480
+okay
+
+396
+00:15:45,440 --> 00:15:48,480
+i think autologies are also used in the
+
+397
+00:15:47,839 --> 00:15:51,680
+context of
+
+398
+00:15:48,480 --> 00:15:54,800
+semantics web right so i think that was
+
+399
+00:15:51,680 --> 00:15:57,199
+the first time i heard of ontologies
+
+400
+00:15:54,800 --> 00:15:58,720
+yeah so the semantic web is an
+
+401
+00:15:57,199 --> 00:16:02,240
+interesting case for
+
+402
+00:15:58,720 --> 00:16:05,440
+when you have something in mind
+
+403
+00:16:02,240 --> 00:16:08,880
+and the idea fails but the
+
+404
+00:16:05,440 --> 00:16:09,440
+results are still useful so the semantic
+
+405
+00:16:08,880 --> 00:16:12,079
+web the
+
+406
+00:16:09,440 --> 00:16:14,079
+the idea was created the the original
+
+407
+00:16:12,079 --> 00:16:15,600
+idea was before google
+
+408
+00:16:14,079 --> 00:16:17,600
+and we didn't find anything on the
+
+409
+00:16:15,600 --> 00:16:18,560
+internet so the idea was basically you
+
+410
+00:16:17,600 --> 00:16:22,079
+would
+
+411
+00:16:18,560 --> 00:16:25,199
+put metadata on your on your websites
+
+412
+00:16:22,079 --> 00:16:29,600
+and then which is representing this
+
+413
+00:16:25,199 --> 00:16:31,839
+web ontology language and then
+
+414
+00:16:29,600 --> 00:16:33,839
+clever agents would use automatic
+
+415
+00:16:31,839 --> 00:16:36,800
+reasoning in order to decide
+
+416
+00:16:33,839 --> 00:16:38,240
+whether what you're currently looking at
+
+417
+00:16:36,800 --> 00:16:39,600
+uh
+
+418
+00:16:38,240 --> 00:16:41,600
+if you look for something that a
+
+419
+00:16:39,600 --> 00:16:43,120
+particular website
+
+420
+00:16:41,600 --> 00:16:44,639
+would be good for you you know whether
+
+421
+00:16:43,120 --> 00:16:47,519
+it has the answer
+
+422
+00:16:44,639 --> 00:16:48,240
+and that's original vision i think it's
+
+423
+00:16:47,519 --> 00:16:50,399
+safe to say
+
+424
+00:16:48,240 --> 00:16:51,360
+failed i mean google just solved that
+
+425
+00:16:50,399 --> 00:16:54,320
+problem
+
+426
+00:16:51,360 --> 00:16:54,639
+using completely different technologies
+
+427
+00:16:54,320 --> 00:16:58,320
+but
+
+428
+00:16:54,639 --> 00:17:00,480
+um but the uh first of all the
+
+429
+00:16:58,320 --> 00:17:03,040
+the technology was was developed there
+
+430
+00:17:00,480 --> 00:17:04,319
+like all the weaponry language of ldf
+
+431
+00:17:03,040 --> 00:17:07,919
+and other things
+
+432
+00:17:04,319 --> 00:17:10,079
+were suddenly used very useful so
+
+433
+00:17:07,919 --> 00:17:10,959
+partially used in the biology world but
+
+434
+00:17:10,079 --> 00:17:12,720
+also linked up
+
+435
+00:17:10,959 --> 00:17:15,280
+data was then the next development where
+
+436
+00:17:12,720 --> 00:17:17,919
+we said okay it's not so much about the
+
+437
+00:17:15,280 --> 00:17:19,360
+semantic web in the sense original sense
+
+438
+00:17:17,919 --> 00:17:22,559
+but more
+
+439
+00:17:19,360 --> 00:17:25,839
+linking linking data sets
+
+440
+00:17:22,559 --> 00:17:29,200
+so um yeah and in that case the in this
+
+441
+00:17:25,839 --> 00:17:31,600
+semantic web is you have rdf which is
+
+442
+00:17:29,200 --> 00:17:33,600
+represent just a way of representing the
+
+443
+00:17:31,600 --> 00:17:37,600
+data in forms of triples
+
+444
+00:17:33,600 --> 00:17:39,120
+and um typically what the iris that are
+
+445
+00:17:37,600 --> 00:17:40,720
+used in these triples
+
+446
+00:17:39,120 --> 00:17:42,559
+come are coming from the control
+
+447
+00:17:40,720 --> 00:17:46,400
+vocabulary that's
+
+448
+00:17:42,559 --> 00:17:48,640
+then an ontology but the ontologies
+
+449
+00:17:46,400 --> 00:17:49,440
+that you see in that domain and that's
+
+450
+00:17:48,640 --> 00:17:51,280
+why i said
+
+451
+00:17:49,440 --> 00:17:53,760
+said you know what you can do with an
+
+452
+00:17:51,280 --> 00:17:55,600
+ontology kind of depends
+
+453
+00:17:53,760 --> 00:17:57,360
+what how your ontology looks like the
+
+454
+00:17:55,600 --> 00:17:59,440
+ontologies that you that are used in a
+
+455
+00:17:57,360 --> 00:18:00,160
+semantic web are typically looking quite
+
+456
+00:17:59,440 --> 00:18:03,919
+differently
+
+457
+00:18:00,160 --> 00:18:03,919
+from the ones but
+
+458
+00:18:05,600 --> 00:18:11,360
+yeah and maybe um another question
+
+459
+00:18:08,559 --> 00:18:14,160
+before we come to doll
+
+460
+00:18:11,360 --> 00:18:15,280
+so we mentioned in the beginning that
+
+461
+00:18:14,160 --> 00:18:18,400
+ontologies have a
+
+462
+00:18:15,280 --> 00:18:23,120
+philosophic background and
+
+463
+00:18:18,400 --> 00:18:26,080
+maybe you can give us in some sentences
+
+464
+00:18:23,120 --> 00:18:26,720
+a hint what what the origins or what the
+
+465
+00:18:26,080 --> 00:18:29,760
+roots
+
+466
+00:18:26,720 --> 00:18:32,880
+of authorities are and why are they in
+
+467
+00:18:29,760 --> 00:18:32,880
+to fight in philosophy
+
+468
+00:18:33,120 --> 00:18:37,360
+well philosophers were always interested
+
+469
+00:18:36,000 --> 00:18:40,400
+in the question what
+
+470
+00:18:37,360 --> 00:18:41,200
+what is there and i mean the natural
+
+471
+00:18:40,400 --> 00:18:43,200
+philosophy
+
+472
+00:18:41,200 --> 00:18:44,799
+uh the inheritance of that natural
+
+473
+00:18:43,200 --> 00:18:46,559
+philosophy are now sitting in the
+
+474
+00:18:44,799 --> 00:18:47,360
+physics department still wondering what
+
+475
+00:18:46,559 --> 00:18:50,240
+is there
+
+476
+00:18:47,360 --> 00:18:51,280
+you know talking about string theory and
+
+477
+00:18:50,240 --> 00:18:53,840
+uh
+
+478
+00:18:51,280 --> 00:18:55,440
+and the of course philosophers in the
+
+479
+00:18:53,840 --> 00:18:56,000
+greek world like our startups didn't
+
+480
+00:18:55,440 --> 00:18:58,720
+really do
+
+481
+00:18:56,000 --> 00:19:00,600
+string theory uh but uh you know had
+
+482
+00:18:58,720 --> 00:19:01,760
+similar questions and then came up with
+
+483
+00:19:00,600 --> 00:19:05,760
+categorizations
+
+484
+00:19:01,760 --> 00:19:09,280
+of uh of uh you know what is there
+
+485
+00:19:05,760 --> 00:19:13,760
+and um these categories
+
+486
+00:19:09,280 --> 00:19:15,120
+um these the idea of categorizing and
+
+487
+00:19:13,760 --> 00:19:18,400
+thinking systematically
+
+488
+00:19:15,120 --> 00:19:21,520
+what categories of things there are is
+
+489
+00:19:18,400 --> 00:19:25,760
+um is something which helps you to
+
+490
+00:19:21,520 --> 00:19:27,440
+organize the ontology so you know
+
+491
+00:19:25,760 --> 00:19:30,400
+that's typically when i teach my
+
+492
+00:19:27,440 --> 00:19:32,240
+students uh ontology i start with them
+
+493
+00:19:30,400 --> 00:19:34,080
+telling them the technology like here's
+
+494
+00:19:32,240 --> 00:19:36,840
+all now
+
+495
+00:19:34,080 --> 00:19:38,000
+that's like giving somebody you know
+
+496
+00:19:36,840 --> 00:19:40,160
+chessboard
+
+497
+00:19:38,000 --> 00:19:41,760
+and say telling them yeah this is how
+
+498
+00:19:40,160 --> 00:19:42,400
+the pieces move that doesn't mean that
+
+499
+00:19:41,760 --> 00:19:44,960
+you know
+
+500
+00:19:42,400 --> 00:19:46,240
+really how to play chess you know now
+
+501
+00:19:44,960 --> 00:19:49,120
+you have just you need to
+
+502
+00:19:46,240 --> 00:19:50,880
+fill the ontology with content and the
+
+503
+00:19:49,120 --> 00:19:51,360
+question is always where do i start you
+
+504
+00:19:50,880 --> 00:19:54,400
+know where
+
+505
+00:19:51,360 --> 00:19:55,760
+how do i um how do i organize the
+
+506
+00:19:54,400 --> 00:19:59,280
+content in the ontology
+
+507
+00:19:55,760 --> 00:20:02,000
+which is and uh
+
+508
+00:19:59,280 --> 00:20:03,440
+so many people use upper level ontology
+
+509
+00:20:02,000 --> 00:20:04,480
+so called upper level ontologies which
+
+510
+00:20:03,440 --> 00:20:07,200
+give you kind of a
+
+511
+00:20:04,480 --> 00:20:08,640
+structure which you can reuse like the
+
+512
+00:20:07,200 --> 00:20:12,720
+basic formula
+
+513
+00:20:08,640 --> 00:20:16,640
+you mentioned earlier from barry smith
+
+514
+00:20:12,720 --> 00:20:19,440
+and the um
+
+515
+00:20:16,640 --> 00:20:20,400
+the the this this upper level ontologies
+
+516
+00:20:19,440 --> 00:20:23,440
+are typically
+
+517
+00:20:20,400 --> 00:20:27,679
+inspired from philosophy so
+
+518
+00:20:23,440 --> 00:20:30,000
+there is i mean i'm um also
+
+519
+00:20:27,679 --> 00:20:32,840
+i have the lofty title of vice president
+
+520
+00:20:30,000 --> 00:20:35,280
+of the international association of
+
+521
+00:20:32,840 --> 00:20:36,400
+uh consul for ontology and its
+
+522
+00:20:35,280 --> 00:20:40,080
+applications and
+
+523
+00:20:36,400 --> 00:20:41,520
+we are regularly uh organizing a
+
+524
+00:20:40,080 --> 00:20:44,640
+conference this year again
+
+525
+00:20:41,520 --> 00:20:46,640
+by the way um where
+
+526
+00:20:44,640 --> 00:20:48,080
+four applied controlledly and basically
+
+527
+00:20:46,640 --> 00:20:50,080
+a third of the people
+
+528
+00:20:48,080 --> 00:20:52,559
+or the papers that are submitted there
+
+529
+00:20:50,080 --> 00:20:55,280
+are usually more philosophical
+
+530
+00:20:52,559 --> 00:20:55,679
+and then other people looking more at
+
+531
+00:20:55,280 --> 00:20:58,640
+the
+
+532
+00:20:55,679 --> 00:20:59,200
+you know how do you apply this then for
+
+533
+00:20:58,640 --> 00:21:02,240
+more
+
+534
+00:20:59,200 --> 00:21:03,840
+you know specific so that's really an
+
+535
+00:21:02,240 --> 00:21:06,720
+interesting thing where
+
+536
+00:21:03,840 --> 00:21:07,600
+the more philosophical domain can
+
+537
+00:21:06,720 --> 00:21:10,320
+interact with
+
+538
+00:21:07,600 --> 00:21:11,120
+uh you know people who have concrete
+
+539
+00:21:10,320 --> 00:21:14,000
+problems
+
+540
+00:21:11,120 --> 00:21:14,000
+that they want to solve
+
+541
+00:21:14,159 --> 00:21:22,400
+okay um a few days ago i
+
+542
+00:21:18,480 --> 00:21:24,960
+i found a website about the iof
+
+543
+00:21:22,400 --> 00:21:25,840
+the industrial ontologies foundry do you
+
+544
+00:21:24,960 --> 00:21:30,000
+know
+
+545
+00:21:25,840 --> 00:21:32,080
+that one um it looks very interesting
+
+546
+00:21:30,000 --> 00:21:33,280
+i know of it but i have not been
+
+547
+00:21:32,080 --> 00:21:35,760
+involved i know
+
+548
+00:21:33,280 --> 00:21:36,400
+people who are involved in it but sorry
+
+549
+00:21:35,760 --> 00:21:38,400
+not
+
+550
+00:21:36,400 --> 00:21:40,960
+okay i know bearish this is involved
+
+551
+00:21:38,400 --> 00:21:45,039
+michael gruner got involved
+
+552
+00:21:40,960 --> 00:21:48,720
+okay so this is really a serious thing
+
+553
+00:21:45,039 --> 00:21:51,840
+i have things though okay it wasn't true
+
+554
+00:21:48,720 --> 00:21:54,720
+it looked very interesting but i thought
+
+555
+00:21:51,840 --> 00:21:57,280
+well just the website well the people
+
+556
+00:21:54,720 --> 00:21:59,600
+who are involved are definitely
+
+557
+00:21:57,280 --> 00:22:02,159
+very serious people yeah okay very good
+
+558
+00:21:59,600 --> 00:22:05,200
+know what they're doing
+
+559
+00:22:02,159 --> 00:22:08,000
+yeah there's also a subgroup
+
+560
+00:22:05,200 --> 00:22:09,039
+systems engineering so that's uh yeah
+
+561
+00:22:08,000 --> 00:22:12,799
+sounds very interesting
+
+562
+00:22:09,039 --> 00:22:16,320
+so okay maybe
+
+563
+00:22:12,799 --> 00:22:20,320
+we switch over to doll and uh
+
+564
+00:22:16,320 --> 00:22:21,360
+from my point of view i can use doll
+
+565
+00:22:20,320 --> 00:22:23,840
+when
+
+566
+00:22:21,360 --> 00:22:25,679
+tim thought about a concept and i
+
+567
+00:22:23,840 --> 00:22:27,679
+thought about a concept
+
+568
+00:22:25,679 --> 00:22:29,039
+and they have some links and we want to
+
+569
+00:22:27,679 --> 00:22:33,280
+bring it together
+
+570
+00:22:29,039 --> 00:22:35,440
+is this correct can i use dole for this
+
+571
+00:22:33,280 --> 00:22:37,679
+well if you just talk about the
+
+572
+00:22:35,440 --> 00:22:42,240
+individual concepts
+
+573
+00:22:37,679 --> 00:22:44,480
+i would just that that just would
+
+574
+00:22:42,240 --> 00:22:46,400
+typically that means you you want to
+
+575
+00:22:44,480 --> 00:22:48,000
+build an ontology together and then you
+
+576
+00:22:46,400 --> 00:22:51,120
+don't need doll then you built this
+
+577
+00:22:48,000 --> 00:22:54,720
+ontology together um
+
+578
+00:22:51,120 --> 00:22:57,679
+now doll is a language
+
+579
+00:22:54,720 --> 00:22:58,320
+a meta kind of meta language which is
+
+580
+00:22:57,679 --> 00:23:01,280
+designed
+
+581
+00:22:58,320 --> 00:23:01,679
+to be help people to reuse ontologies
+
+582
+00:23:01,280 --> 00:23:03,840
+not
+
+583
+00:23:01,679 --> 00:23:05,840
+to build individual ontologies but you
+
+584
+00:23:03,840 --> 00:23:07,600
+will use some
+
+585
+00:23:05,840 --> 00:23:09,840
+the problem with ontologies or one
+
+586
+00:23:07,600 --> 00:23:11,280
+problem with ontologies is that they are
+
+587
+00:23:09,840 --> 00:23:14,080
+typically
+
+588
+00:23:11,280 --> 00:23:16,400
+rather expensive to build because it
+
+589
+00:23:14,080 --> 00:23:20,840
+requires domain expertise
+
+590
+00:23:16,400 --> 00:23:24,720
+they are usually monolithic
+
+591
+00:23:20,840 --> 00:23:27,360
+and um that makes it hard
+
+592
+00:23:24,720 --> 00:23:28,720
+to reuse for them to be reused because
+
+593
+00:23:27,360 --> 00:23:32,000
+they're these monolithic
+
+594
+00:23:28,720 --> 00:23:36,720
+blobs and doyle
+
+595
+00:23:32,000 --> 00:23:39,679
+is um was intended to be used to
+
+596
+00:23:36,720 --> 00:23:42,320
+structure your ontologies to modify
+
+597
+00:23:39,679 --> 00:23:43,279
+existing ontology so that you can adapt
+
+598
+00:23:42,320 --> 00:23:46,320
+them for your
+
+599
+00:23:43,279 --> 00:23:48,640
+purposes and then use building
+
+600
+00:23:46,320 --> 00:23:49,360
+existing building blocks and them
+
+601
+00:23:48,640 --> 00:23:52,480
+together
+
+602
+00:23:49,360 --> 00:23:55,520
+two bigger ontologies
+
+603
+00:23:52,480 --> 00:23:57,679
+and um also define
+
+604
+00:23:55,520 --> 00:23:59,200
+constraints on the interaction between
+
+605
+00:23:57,679 --> 00:24:03,039
+different modules so that
+
+606
+00:23:59,200 --> 00:24:05,919
+when somebody changes one module
+
+607
+00:24:03,039 --> 00:24:07,520
+you can have checks whether this change
+
+608
+00:24:05,919 --> 00:24:09,600
+uh
+
+609
+00:24:07,520 --> 00:24:12,080
+you know interacts with the rest of the
+
+610
+00:24:09,600 --> 00:24:15,840
+modules in a way which is not intended
+
+611
+00:24:12,080 --> 00:24:19,200
+so that's that's um that's one aspect
+
+612
+00:24:15,840 --> 00:24:22,240
+the other aspect is that we are have
+
+613
+00:24:19,200 --> 00:24:24,480
+the situation that many more languages
+
+614
+00:24:22,240 --> 00:24:25,279
+are used in reality or in in the world
+
+615
+00:24:24,480 --> 00:24:27,840
+than just
+
+616
+00:24:25,279 --> 00:24:28,320
+owl or one single language and they have
+
+617
+00:24:27,840 --> 00:24:29,919
+good
+
+618
+00:24:28,320 --> 00:24:31,600
+good reasons for using different
+
+619
+00:24:29,919 --> 00:24:33,679
+languages and
+
+620
+00:24:31,600 --> 00:24:35,840
+doll also wanted to tackle that
+
+621
+00:24:33,679 --> 00:24:40,640
+basically enable people to
+
+622
+00:24:35,840 --> 00:24:42,720
+develop heterogeneous ontologies and um
+
+623
+00:24:40,640 --> 00:24:43,679
+models and specifications that's in the
+
+624
+00:24:42,720 --> 00:24:46,720
+title
+
+625
+00:24:43,679 --> 00:24:49,919
+right so the um but it's not uh
+
+626
+00:24:46,720 --> 00:24:52,880
+yeah if you think of something like
+
+627
+00:24:49,919 --> 00:24:54,159
+um i'm not sure whether you're aware of
+
+628
+00:24:52,880 --> 00:24:57,200
+the
+
+629
+00:24:54,159 --> 00:24:58,559
+time and date vocabulary it's an omg
+
+630
+00:24:57,200 --> 00:25:01,840
+standard
+
+631
+00:24:58,559 --> 00:25:03,919
+yeah yeah yeah that is
+
+632
+00:25:01,840 --> 00:25:05,679
+they also had that idea that we use
+
+633
+00:25:03,919 --> 00:25:09,120
+basically different languages
+
+634
+00:25:05,679 --> 00:25:11,440
+um um
+
+635
+00:25:09,120 --> 00:25:13,760
+definitely owl and common logic
+
+636
+00:25:11,440 --> 00:25:14,960
+numerical and class diagrams but also
+
+637
+00:25:13,760 --> 00:25:17,679
+sbvr
+
+638
+00:25:14,960 --> 00:25:19,279
+the problem there is if you just have
+
+639
+00:25:17,679 --> 00:25:21,600
+these languages next to each other and
+
+640
+00:25:19,279 --> 00:25:24,640
+modules in different languages next to
+
+641
+00:25:21,600 --> 00:25:25,760
+each other you don't um you don't know
+
+642
+00:25:24,640 --> 00:25:27,520
+whether they fit
+
+643
+00:25:25,760 --> 00:25:29,200
+if somebody changes something in one
+
+644
+00:25:27,520 --> 00:25:30,320
+module and somebody changes something in
+
+645
+00:25:29,200 --> 00:25:31,919
+the other module
+
+646
+00:25:30,320 --> 00:25:33,520
+there's no formal connections between
+
+647
+00:25:31,919 --> 00:25:35,520
+those i mean even
+
+648
+00:25:33,520 --> 00:25:37,200
+you even can have a problem within
+
+649
+00:25:35,520 --> 00:25:40,080
+different uml
+
+650
+00:25:37,200 --> 00:25:41,919
+diagram types you know if you have a
+
+651
+00:25:40,080 --> 00:25:42,559
+complex model using different diagram
+
+652
+00:25:41,919 --> 00:25:45,200
+types
+
+653
+00:25:42,559 --> 00:25:48,080
+that as we see the connections between
+
+654
+00:25:45,200 --> 00:25:51,200
+these diagrams is relatively loose
+
+655
+00:25:48,080 --> 00:25:53,200
+and so the one other
+
+656
+00:25:51,200 --> 00:25:54,960
+problem adults designed to tackle is
+
+657
+00:25:53,200 --> 00:25:57,120
+using this
+
+658
+00:25:54,960 --> 00:25:59,440
+several languages at the same time
+
+659
+00:25:57,120 --> 00:26:01,279
+modules in different languages
+
+660
+00:25:59,440 --> 00:26:03,200
+in the context of systems we currently
+
+661
+00:26:01,279 --> 00:26:05,440
+have the challenge now we have system
+
+662
+00:26:03,200 --> 00:26:07,200
+version one and now we work on system l
+
+663
+00:26:05,440 --> 00:26:11,120
+versus version two
+
+664
+00:26:07,200 --> 00:26:14,000
+so theoretical we could use dull
+
+665
+00:26:11,120 --> 00:26:15,840
+to define a mapping between social lv
+
+666
+00:26:14,000 --> 00:26:17,840
+one and this might be two or to
+
+667
+00:26:15,840 --> 00:26:21,840
+validate that the system will be one
+
+668
+00:26:17,840 --> 00:26:21,840
+concepts are also in system rv2
+
+669
+00:26:22,880 --> 00:26:27,520
+no because system l is not a very
+
+670
+00:26:26,080 --> 00:26:30,720
+compliant language
+
+671
+00:26:27,520 --> 00:26:33,840
+so dollar ism is working for
+
+672
+00:26:30,720 --> 00:26:35,200
+ontology languages or modeling languages
+
+673
+00:26:33,840 --> 00:26:37,840
+which have a
+
+674
+00:26:35,200 --> 00:26:39,120
+formal semantics because ultimately
+
+675
+00:26:37,840 --> 00:26:43,360
+about the meaning of things
+
+676
+00:26:39,120 --> 00:26:45,600
+the these constraints that you check
+
+677
+00:26:43,360 --> 00:26:48,159
+well you they need to be clearly and
+
+678
+00:26:45,600 --> 00:26:50,480
+formally mathematically defined
+
+679
+00:26:48,159 --> 00:26:51,440
+and that you do with the that you only
+
+680
+00:26:50,480 --> 00:26:54,640
+have with the
+
+681
+00:26:51,440 --> 00:26:55,600
+um if you have a formal semantics so i
+
+682
+00:26:54,640 --> 00:26:59,679
+know that there are
+
+683
+00:26:55,600 --> 00:27:01,840
+i mean there are parts of uml
+
+684
+00:26:59,679 --> 00:27:04,000
+which for which you have that it's not
+
+685
+00:27:01,840 --> 00:27:05,200
+part of the official uml center but
+
+686
+00:27:04,000 --> 00:27:08,799
+there's fuml
+
+687
+00:27:05,200 --> 00:27:12,559
+and the doll
+
+688
+00:27:08,799 --> 00:27:16,240
+standard itself has some
+
+689
+00:27:12,559 --> 00:27:18,880
+mapping from uml to
+
+690
+00:27:16,240 --> 00:27:20,000
+chrome logic which provides this form
+
+691
+00:27:18,880 --> 00:27:22,799
+former semantics
+
+692
+00:27:20,000 --> 00:27:24,399
+but as far as i know nobody ever has uh
+
+693
+00:27:22,799 --> 00:27:27,039
+tried to do that for the whole
+
+694
+00:27:24,399 --> 00:27:27,840
+system so in order to do this formal
+
+695
+00:27:27,039 --> 00:27:31,520
+mapping
+
+696
+00:27:27,840 --> 00:27:33,840
+you you know never in computer science
+
+697
+00:27:31,520 --> 00:27:34,720
+nobody you know you don't get anything
+
+698
+00:27:33,840 --> 00:27:37,200
+for free
+
+699
+00:27:34,720 --> 00:27:38,720
+you if you want to have if you ever want
+
+700
+00:27:37,200 --> 00:27:40,640
+to have a machine check
+
+701
+00:27:38,720 --> 00:27:41,760
+whether what you did is nonsense you
+
+702
+00:27:40,640 --> 00:27:43,919
+need to
+
+703
+00:27:41,760 --> 00:27:46,320
+formally declare what is you know the
+
+704
+00:27:43,919 --> 00:27:48,480
+meaning or semantics of your language
+
+705
+00:27:46,320 --> 00:27:50,320
+if you don't have that you can't check
+
+706
+00:27:48,480 --> 00:27:51,200
+you can't use these logical tools to
+
+707
+00:27:50,320 --> 00:27:53,919
+check it
+
+708
+00:27:51,200 --> 00:27:56,000
+so right unfortunately it's not that
+
+709
+00:27:53,919 --> 00:27:58,880
+easy
+
+710
+00:27:56,000 --> 00:27:59,760
+maybe we have to clarify what doll
+
+711
+00:27:58,880 --> 00:28:02,000
+stands for
+
+712
+00:27:59,760 --> 00:28:02,799
+i guess some of our listeners are not
+
+713
+00:28:02,000 --> 00:28:06,720
+aware what
+
+714
+00:28:02,799 --> 00:28:10,159
+omg the distributed ontology modeling
+
+715
+00:28:06,720 --> 00:28:10,799
+and specification language so arguably
+
+716
+00:28:10,159 --> 00:28:13,919
+the
+
+717
+00:28:10,799 --> 00:28:16,559
+acronym should be more complex but
+
+718
+00:28:13,919 --> 00:28:18,159
+you know it's hard to pronounce uh
+
+719
+00:28:16,559 --> 00:28:22,720
+pronounce it if you put all
+
+720
+00:28:18,159 --> 00:28:22,720
+the other letters in there
+
+721
+00:28:25,440 --> 00:28:32,159
+and it's an omg specification right
+
+722
+00:28:29,120 --> 00:28:34,600
+it's an oven yes it has been
+
+723
+00:28:32,159 --> 00:28:37,360
+it's an official omg specification since
+
+724
+00:28:34,600 --> 00:28:39,840
+2018.
+
+725
+00:28:37,360 --> 00:28:40,399
+and is it also planned uh that it will
+
+726
+00:28:39,840 --> 00:28:42,720
+be an
+
+727
+00:28:40,399 --> 00:28:44,559
+iso specification so some omg
+
+728
+00:28:42,720 --> 00:28:46,799
+specifications are
+
+729
+00:28:44,559 --> 00:28:48,720
+uh also iso no not iso specification but
+
+730
+00:28:46,799 --> 00:28:51,679
+iso standards
+
+731
+00:28:48,720 --> 00:28:52,960
+well let's let's put it this way we
+
+732
+00:28:51,679 --> 00:28:56,320
+started all
+
+733
+00:28:52,960 --> 00:28:58,080
+trying to do the speci you know
+
+734
+00:28:56,320 --> 00:29:00,799
+standardize the content of the dollar
+
+735
+00:28:58,080 --> 00:29:03,520
+standard in iceland
+
+736
+00:29:00,799 --> 00:29:04,799
+and we were so frustrated with the iso
+
+737
+00:29:03,520 --> 00:29:07,840
+process that we went
+
+738
+00:29:04,799 --> 00:29:11,200
+to omg so
+
+739
+00:29:07,840 --> 00:29:13,279
+i myself don't feel the inclination to
+
+740
+00:29:11,200 --> 00:29:17,039
+go back to iso it just
+
+741
+00:29:13,279 --> 00:29:19,039
+you know like
+
+742
+00:29:17,039 --> 00:29:21,919
+but there's a relationship between omg
+
+743
+00:29:19,039 --> 00:29:23,279
+and isola so many omg specifications are
+
+744
+00:29:21,919 --> 00:29:26,720
+iso standards
+
+745
+00:29:23,279 --> 00:29:29,600
+and that process is much easier
+
+746
+00:29:26,720 --> 00:29:31,760
+uh than to start from the scratch at iso
+
+747
+00:29:29,600 --> 00:29:33,360
+so uml is an iso stand that system is an
+
+748
+00:29:31,760 --> 00:29:38,320
+iso standard
+
+749
+00:29:33,360 --> 00:29:38,320
+so maybe could also be an iso standard
+
+750
+00:29:38,640 --> 00:29:45,760
+if somebody wants to do it fine
+
+751
+00:29:42,000 --> 00:29:48,799
+i i uh not i mean um
+
+752
+00:29:45,760 --> 00:29:50,480
+yeah it's it's really not my highest
+
+753
+00:29:48,799 --> 00:29:54,240
+priority really
+
+754
+00:29:50,480 --> 00:29:56,559
+because i mean ultimately ultimately um
+
+755
+00:29:54,240 --> 00:29:58,399
+you know i'm working academics so i'm
+
+756
+00:29:56,559 --> 00:30:00,640
+i'm kind of in the
+
+757
+00:29:58,399 --> 00:30:01,600
+in the business of creating new ideas
+
+758
+00:30:00,640 --> 00:30:03,840
+and
+
+759
+00:30:01,600 --> 00:30:05,679
+you know working on the same old ideas
+
+760
+00:30:03,840 --> 00:30:10,399
+is not very
+
+761
+00:30:05,679 --> 00:30:10,399
+appealing to me so um
+
+762
+00:30:10,720 --> 00:30:16,840
+and we're also non-academics
+
+763
+00:30:14,880 --> 00:30:18,000
+organizations involved in the dollar
+
+764
+00:30:16,840 --> 00:30:20,320
+specification
+
+765
+00:30:18,000 --> 00:30:21,279
+with the business interests in the
+
+766
+00:30:20,320 --> 00:30:24,559
+dollar standard
+
+767
+00:30:21,279 --> 00:30:27,919
+i mean the pure academic no
+
+768
+00:30:24,559 --> 00:30:30,880
+i mean the texting requirement or to
+
+769
+00:30:27,919 --> 00:30:31,679
+to understand that that you have support
+
+770
+00:30:30,880 --> 00:30:36,399
+of
+
+771
+00:30:31,679 --> 00:30:40,320
+of uh industry um i mean one uh
+
+772
+00:30:36,399 --> 00:30:41,840
+i mean i wouldn't want to start to list
+
+773
+00:30:40,320 --> 00:30:43,440
+them because i forget
+
+774
+00:30:41,840 --> 00:30:45,120
+and surely forget somebody and then
+
+775
+00:30:43,440 --> 00:30:47,039
+there will be inside
+
+776
+00:30:45,120 --> 00:30:48,640
+obviously mentioned in the omg standard
+
+777
+00:30:47,039 --> 00:30:51,679
+itself has supported it
+
+778
+00:30:48,640 --> 00:30:53,120
+uh but uh you know for example i to just
+
+779
+00:30:51,679 --> 00:30:54,159
+name one person because she was
+
+780
+00:30:53,120 --> 00:30:57,360
+particularly
+
+781
+00:30:54,159 --> 00:30:59,760
+as lisa campbell um he uh
+
+782
+00:30:57,360 --> 00:31:01,519
+you know this standard would have never
+
+783
+00:30:59,760 --> 00:31:03,919
+happened without her
+
+784
+00:31:01,519 --> 00:31:04,720
+he was extremely supportive and helped
+
+785
+00:31:03,919 --> 00:31:06,960
+us
+
+786
+00:31:04,720 --> 00:31:09,360
+and you know she's of course has her own
+
+787
+00:31:06,960 --> 00:31:09,360
+company
+
+788
+00:31:10,320 --> 00:31:13,200
+plans to use bulk
+
+789
+00:31:13,600 --> 00:31:16,960
+so they plan to use dollar do they
+
+790
+00:31:15,840 --> 00:31:20,960
+already have a
+
+791
+00:31:16,960 --> 00:31:24,080
+doll tool no i think the only doll tool
+
+792
+00:31:20,960 --> 00:31:26,399
+i mean the yeah the only doll tool which
+
+793
+00:31:24,080 --> 00:31:28,080
+tries to capture the whole standard is
+
+794
+00:31:26,399 --> 00:31:30,559
+something we developed in
+
+795
+00:31:28,080 --> 00:31:31,360
+macro book but uh that's an academic
+
+796
+00:31:30,559 --> 00:31:34,640
+tool that's
+
+797
+00:31:31,360 --> 00:31:35,919
+not um you know it's not something you
+
+798
+00:31:34,640 --> 00:31:39,120
+would
+
+799
+00:31:35,919 --> 00:31:42,559
+give out for into an industry so we are
+
+800
+00:31:39,120 --> 00:31:44,399
+hoping that that industry will adopt uh
+
+801
+00:31:42,559 --> 00:31:46,240
+solve at least parts of the i mean the
+
+802
+00:31:44,399 --> 00:31:48,080
+whole standard is really a little bit
+
+803
+00:31:46,240 --> 00:31:52,240
+challenging i think
+
+804
+00:31:48,080 --> 00:31:55,360
+i have to admit um you know things grow
+
+805
+00:31:52,240 --> 00:31:56,000
+but many import the functionalities
+
+806
+00:31:55,360 --> 00:31:59,039
+which
+
+807
+00:31:56,000 --> 00:32:02,640
+um allow you basically to
+
+808
+00:31:59,039 --> 00:32:04,000
+to support a modular development of
+
+809
+00:32:02,640 --> 00:32:07,519
+ontologies
+
+810
+00:32:04,000 --> 00:32:11,840
+i think is actually something which
+
+811
+00:32:07,519 --> 00:32:11,840
+which is not that complicated
+
+812
+00:32:12,840 --> 00:32:17,039
+implemented
+
+813
+00:32:14,000 --> 00:32:20,799
+okay maybe we can switch
+
+814
+00:32:17,039 --> 00:32:22,960
+to a question which
+
+815
+00:32:20,799 --> 00:32:24,080
+again regards systems engineering
+
+816
+00:32:22,960 --> 00:32:27,200
+because we are the
+
+817
+00:32:24,080 --> 00:32:29,360
+mbse podcast and we are
+
+818
+00:32:27,200 --> 00:32:30,399
+very aware of that you are not a systems
+
+819
+00:32:29,360 --> 00:32:34,240
+engineer
+
+820
+00:32:30,399 --> 00:32:35,120
+but yes um in in the field of systems
+
+821
+00:32:34,240 --> 00:32:39,919
+engineering you
+
+822
+00:32:35,120 --> 00:32:41,440
+hear the term ontologies very often and
+
+823
+00:32:39,919 --> 00:32:43,919
+yeah what i would like to discuss with
+
+824
+00:32:41,440 --> 00:32:46,640
+both of you is um
+
+825
+00:32:43,919 --> 00:32:48,559
+could be ontologies helpful for systems
+
+826
+00:32:46,640 --> 00:32:50,480
+engineering for example to bring
+
+827
+00:32:48,559 --> 00:32:51,600
+together the concept of different
+
+828
+00:32:50,480 --> 00:32:55,519
+engineering domains
+
+829
+00:32:51,600 --> 00:32:58,720
+or to bring together the concepts of
+
+830
+00:32:55,519 --> 00:33:00,159
+different processes in in the systems
+
+831
+00:32:58,720 --> 00:33:02,399
+engineering process
+
+832
+00:33:00,159 --> 00:33:05,120
+so could could that be a way to use
+
+833
+00:33:02,399 --> 00:33:05,120
+autologies
+
+834
+00:33:05,200 --> 00:33:11,919
+well to me
+
+835
+00:33:08,840 --> 00:33:12,320
+um so i'm working among other things
+
+836
+00:33:11,919 --> 00:33:16,240
+with
+
+837
+00:33:12,320 --> 00:33:19,519
+uh people who uh
+
+838
+00:33:16,240 --> 00:33:22,080
+well i'm working with the open energy
+
+839
+00:33:19,519 --> 00:33:23,360
+modeling community that's open energy
+
+840
+00:33:22,080 --> 00:33:25,679
+ontology
+
+841
+00:33:23,360 --> 00:33:26,799
+um so this is probably closer to your
+
+842
+00:33:25,679 --> 00:33:30,399
+community than
+
+843
+00:33:26,799 --> 00:33:31,840
+maybe the biology they are you know
+
+844
+00:33:30,399 --> 00:33:34,720
+like it says in the title they are
+
+845
+00:33:31,840 --> 00:33:37,039
+interested in models or energy systems
+
+846
+00:33:34,720 --> 00:33:38,720
+usually on the level of you know let's
+
+847
+00:33:37,039 --> 00:33:42,159
+say cities or countries
+
+848
+00:33:38,720 --> 00:33:46,320
+uh not much individual plants
+
+849
+00:33:42,159 --> 00:33:46,960
+and um whenever you have five of them in
+
+850
+00:33:46,320 --> 00:33:48,720
+a room
+
+851
+00:33:46,960 --> 00:33:50,159
+don't even need five we have three in
+
+852
+00:33:48,720 --> 00:33:52,240
+the room and
+
+853
+00:33:50,159 --> 00:33:54,080
+they try to communicate with each other
+
+854
+00:33:52,240 --> 00:33:54,399
+they use different terminology i mean
+
+855
+00:33:54,080 --> 00:33:57,039
+it's
+
+856
+00:33:54,399 --> 00:33:58,799
+it's just that's that's the fact of life
+
+857
+00:33:57,039 --> 00:33:59,679
+in all disciplines i mean i've worked
+
+858
+00:33:58,799 --> 00:34:02,240
+with many different
+
+859
+00:33:59,679 --> 00:34:03,919
+different disciplines just that's you
+
+860
+00:34:02,240 --> 00:34:05,519
+know anthropologies are always
+
+861
+00:34:03,919 --> 00:34:07,039
+you're always working with some other
+
+862
+00:34:05,519 --> 00:34:10,320
+domain experts
+
+863
+00:34:07,039 --> 00:34:13,359
+and um as soon as um they
+
+864
+00:34:10,320 --> 00:34:15,200
+i mean one important thing they they
+
+865
+00:34:13,359 --> 00:34:17,200
+uh you know the most basic thing they
+
+866
+00:34:15,200 --> 00:34:18,960
+have to do is create a scenario when
+
+867
+00:34:17,200 --> 00:34:22,000
+they're doing the modeling
+
+868
+00:34:18,960 --> 00:34:24,639
+and you know use the scenario
+
+869
+00:34:22,000 --> 00:34:25,440
+as input for the model now you would
+
+870
+00:34:24,639 --> 00:34:27,200
+think that
+
+871
+00:34:25,440 --> 00:34:28,480
+they would know what the scenario is
+
+872
+00:34:27,200 --> 00:34:31,359
+they could
+
+873
+00:34:28,480 --> 00:34:34,560
+you know it took them forever to come up
+
+874
+00:34:31,359 --> 00:34:38,079
+with the definition of the scenario
+
+875
+00:34:34,560 --> 00:34:40,560
+which which half satisfies
+
+876
+00:34:38,079 --> 00:34:42,240
+most of them and it's kind of important
+
+877
+00:34:40,560 --> 00:34:43,359
+for them because one of the things is
+
+878
+00:34:42,240 --> 00:34:46,720
+that they want to re
+
+879
+00:34:43,359 --> 00:34:50,079
+compare the results of
+
+880
+00:34:46,720 --> 00:34:51,679
+what they are simulating so the idea of
+
+881
+00:34:50,079 --> 00:34:53,919
+what is a scenario what's part of the
+
+882
+00:34:51,679 --> 00:34:55,280
+scenario what is parameters but how do
+
+883
+00:34:53,919 --> 00:34:56,960
+parameters
+
+884
+00:34:55,280 --> 00:34:58,560
+relate to the scenario although that
+
+885
+00:34:56,960 --> 00:35:00,000
+needs to be controlled if you have a
+
+886
+00:34:58,560 --> 00:35:01,440
+controlled environment to exchange
+
+887
+00:35:00,000 --> 00:35:02,000
+information about the results of your
+
+888
+00:35:01,440 --> 00:35:06,480
+modeling
+
+889
+00:35:02,000 --> 00:35:09,040
+models now i'm not sure you know
+
+890
+00:35:06,480 --> 00:35:10,160
+i assume that is the problem that will
+
+891
+00:35:09,040 --> 00:35:12,480
+resonate with
+
+892
+00:35:10,160 --> 00:35:14,000
+any um any engineering problem if you
+
+893
+00:35:12,480 --> 00:35:15,839
+have a complex product
+
+894
+00:35:14,000 --> 00:35:17,680
+different people model different aspects
+
+895
+00:35:15,839 --> 00:35:19,760
+of it people different people
+
+896
+00:35:17,680 --> 00:35:22,160
+story about different aspects right some
+
+897
+00:35:19,760 --> 00:35:25,280
+people design it some people have to
+
+898
+00:35:22,160 --> 00:35:27,440
+uh think about the components
+
+899
+00:35:25,280 --> 00:35:29,119
+get get the components others have to
+
+900
+00:35:27,440 --> 00:35:30,720
+assemble it all of that leads to
+
+901
+00:35:29,119 --> 00:35:31,760
+different perspective on the same
+
+902
+00:35:30,720 --> 00:35:33,680
+products
+
+903
+00:35:31,760 --> 00:35:35,200
+and all of these people have different
+
+904
+00:35:33,680 --> 00:35:37,680
+have an impact
+
+905
+00:35:35,200 --> 00:35:39,280
+incomplete view of the product and of
+
+906
+00:35:37,680 --> 00:35:41,440
+the whole process
+
+907
+00:35:39,280 --> 00:35:42,480
+and they have to exchange information
+
+908
+00:35:41,440 --> 00:35:45,599
+and
+
+909
+00:35:42,480 --> 00:35:49,280
+use different terminologies so
+
+910
+00:35:45,599 --> 00:35:52,079
+you always have that ontologies are
+
+911
+00:35:49,280 --> 00:35:53,920
+basically that that's the the main
+
+912
+00:35:52,079 --> 00:35:55,200
+purpose of ontology is trying to get
+
+913
+00:35:53,920 --> 00:35:58,160
+interoperability between
+
+914
+00:35:55,200 --> 00:35:58,640
+people and their computers with but i
+
+915
+00:35:58,160 --> 00:36:01,200
+think that
+
+916
+00:35:58,640 --> 00:36:01,760
+was a sorry tim but i think there was a
+
+917
+00:36:01,200 --> 00:36:06,240
+very
+
+918
+00:36:01,760 --> 00:36:08,240
+a very good example um with a project of
+
+919
+00:36:06,240 --> 00:36:09,680
+an interdisciplinary project with
+
+920
+00:36:08,240 --> 00:36:12,960
+different engineers
+
+921
+00:36:09,680 --> 00:36:17,760
+because it's exactly not
+
+922
+00:36:12,960 --> 00:36:17,760
+sufficient to just create a glossary
+
+923
+00:36:18,560 --> 00:36:24,079
+yeah but i asked myself how
+
+924
+00:36:21,920 --> 00:36:25,760
+how really can an ontology help them so
+
+925
+00:36:24,079 --> 00:36:28,560
+for example if i look at the roadmap of
+
+926
+00:36:25,760 --> 00:36:30,800
+this industrial ontology foundry
+
+927
+00:36:28,560 --> 00:36:32,480
+and the systems editing working group
+
+928
+00:36:30,800 --> 00:36:35,280
+according to the roadmap they
+
+929
+00:36:32,480 --> 00:36:36,400
+would like to pick uh iso standards like
+
+930
+00:36:35,280 --> 00:36:38,480
+15 to 88
+
+931
+00:36:36,400 --> 00:36:40,320
+that's a system changing iso standard
+
+932
+00:36:38,480 --> 00:36:43,119
+and 42
+
+933
+00:36:40,320 --> 00:36:44,960
+0 10 for example and create an systems
+
+934
+00:36:43,119 --> 00:36:48,400
+ending ontology
+
+935
+00:36:44,960 --> 00:36:49,040
+and so if i have a systems editing term
+
+936
+00:36:48,400 --> 00:36:50,800
+like
+
+937
+00:36:49,040 --> 00:36:52,800
+system architecture for example i can
+
+938
+00:36:50,800 --> 00:36:56,880
+look in the in the iso standard
+
+939
+00:36:52,800 --> 00:36:58,560
+and find a definition which is very well
+
+940
+00:36:56,880 --> 00:37:00,000
+not very helpful i would say that it
+
+941
+00:36:58,560 --> 00:37:02,079
+says a system architecture
+
+942
+00:37:00,000 --> 00:37:03,440
+are fundamental concepts of a system
+
+943
+00:37:02,079 --> 00:37:06,560
+which sounds true but
+
+944
+00:37:03,440 --> 00:37:08,400
+not helpful so what really is it and
+
+945
+00:37:06,560 --> 00:37:10,320
+now i can look in the system generating
+
+946
+00:37:08,400 --> 00:37:14,180
+anthology and then i get a clear answer
+
+947
+00:37:10,320 --> 00:37:15,520
+or how i i don't know how it would work
+
+948
+00:37:14,180 --> 00:37:17,280
+[Music]
+
+949
+00:37:15,520 --> 00:37:18,800
+but if it was developed by a clever
+
+950
+00:37:17,280 --> 00:37:21,280
+ontologist they would have
+
+951
+00:37:18,800 --> 00:37:22,880
+realized that that isn't a helpful
+
+952
+00:37:21,280 --> 00:37:25,760
+definition and hopefully
+
+953
+00:37:22,880 --> 00:37:26,240
+um put in a better definition but i mean
+
+954
+00:37:25,760 --> 00:37:29,680
+that's
+
+955
+00:37:26,240 --> 00:37:31,920
+you know obviously
+
+956
+00:37:29,680 --> 00:37:33,359
+you know that you don't need to you know
+
+957
+00:37:31,920 --> 00:37:34,960
+you could also improve the
+
+958
+00:37:33,359 --> 00:37:36,880
+quality of the glossary you don't need
+
+959
+00:37:34,960 --> 00:37:37,920
+an ontology for just adding a better
+
+960
+00:37:36,880 --> 00:37:42,480
+definition
+
+961
+00:37:37,920 --> 00:37:45,680
+not the the so
+
+962
+00:37:42,480 --> 00:37:48,320
+one reason why
+
+963
+00:37:45,680 --> 00:37:49,760
+glossaries often don't work especially
+
+964
+00:37:48,320 --> 00:37:51,760
+if you don't
+
+965
+00:37:49,760 --> 00:37:53,520
+you aren't in a hierarchical situation
+
+966
+00:37:51,760 --> 00:37:56,000
+but you have different people
+
+967
+00:37:53,520 --> 00:37:56,800
+who are not you can't tell people what
+
+968
+00:37:56,000 --> 00:37:59,520
+to do
+
+969
+00:37:56,800 --> 00:38:00,640
+uh is that people don't like to give up
+
+970
+00:37:59,520 --> 00:38:03,599
+their terminology
+
+971
+00:38:00,640 --> 00:38:04,800
+so an anthology by just not working i
+
+972
+00:38:03,599 --> 00:38:07,119
+mean
+
+973
+00:38:04,800 --> 00:38:08,800
+um let's say that people use different
+
+974
+00:38:07,119 --> 00:38:10,720
+terms for the same thing
+
+975
+00:38:08,800 --> 00:38:12,880
+of course in an ideal world you could
+
+976
+00:38:10,720 --> 00:38:14,640
+just tell everybody use the same word
+
+977
+00:38:12,880 --> 00:38:16,560
+and then you will understand each other
+
+978
+00:38:14,640 --> 00:38:18,400
+right but
+
+979
+00:38:16,560 --> 00:38:19,520
+that's not going to happen i mean
+
+980
+00:38:18,400 --> 00:38:21,520
+there's just people like their
+
+981
+00:38:19,520 --> 00:38:22,800
+terminologies and they are not you know
+
+982
+00:38:21,520 --> 00:38:25,599
+unless you force them
+
+983
+00:38:22,800 --> 00:38:27,119
+uh you're not and usually you don't have
+
+984
+00:38:25,599 --> 00:38:29,040
+the authority to do so
+
+985
+00:38:27,119 --> 00:38:31,119
+they will just use the terminology you
+
+986
+00:38:29,040 --> 00:38:33,520
+want since an ontology
+
+987
+00:38:31,119 --> 00:38:35,839
+will basically have an usually an
+
+988
+00:38:33,520 --> 00:38:38,400
+alphanumeric identifier for the concept
+
+989
+00:38:35,839 --> 00:38:39,119
+and then different labels you can have
+
+990
+00:38:38,400 --> 00:38:42,640
+in
+
+991
+00:38:39,119 --> 00:38:45,920
+the gui you choose the labels which are
+
+992
+00:38:42,640 --> 00:38:49,280
+suitable for for the person who's
+
+993
+00:38:45,920 --> 00:38:52,000
+you know working with the gui and uh
+
+994
+00:38:49,280 --> 00:38:53,839
+you know they they you can display one
+
+995
+00:38:52,000 --> 00:38:54,320
+set of labels to one group and another
+
+996
+00:38:53,839 --> 00:38:56,079
+set of
+
+997
+00:38:54,320 --> 00:38:57,680
+labels to other group and everybody is
+
+998
+00:38:56,079 --> 00:38:59,280
+happy they don't complain
+
+999
+00:38:57,680 --> 00:39:01,440
+because they see the terminology they're
+
+1000
+00:38:59,280 --> 00:39:04,079
+used to and they're still
+
+1001
+00:39:01,440 --> 00:39:05,920
+working together so this is purely on
+
+1002
+00:39:04,079 --> 00:39:08,640
+the human to human level
+
+1003
+00:39:05,920 --> 00:39:09,920
+but more importantly you usually have
+
+1004
+00:39:08,640 --> 00:39:13,200
+data associated with
+
+1005
+00:39:09,920 --> 00:39:15,440
+it all right with the with the things so
+
+1006
+00:39:13,200 --> 00:39:18,320
+you're using the you will use the
+
+1007
+00:39:15,440 --> 00:39:20,240
+control vocabulary
+
+1008
+00:39:18,320 --> 00:39:21,599
+in different ways either to annotate
+
+1009
+00:39:20,240 --> 00:39:23,760
+just the
+
+1010
+00:39:21,599 --> 00:39:25,920
+relational database or maybe you even
+
+1011
+00:39:23,760 --> 00:39:28,480
+have an um
+
+1012
+00:39:25,920 --> 00:39:29,440
+a graph database or you have a idf
+
+1013
+00:39:28,480 --> 00:39:32,720
+triple store
+
+1014
+00:39:29,440 --> 00:39:37,040
+and represent the in that case the
+
+1015
+00:39:32,720 --> 00:39:40,400
+triple store and the basically the
+
+1016
+00:39:37,040 --> 00:39:43,440
+ontology terms are directly in the data
+
+1017
+00:39:40,400 --> 00:39:46,560
+um so you by just using these
+
+1018
+00:39:43,440 --> 00:39:50,480
+um uh by using the
+
+1019
+00:39:46,560 --> 00:39:54,000
+uh ontology you can easily integrate
+
+1020
+00:39:50,480 --> 00:39:57,040
+the various data stats
+
+1021
+00:39:54,000 --> 00:40:00,480
+without you know loss of or
+
+1022
+00:39:57,040 --> 00:40:02,480
+without any problems but it's very hard
+
+1023
+00:40:00,480 --> 00:40:03,340
+to do that in an audio format it's much
+
+1024
+00:40:02,480 --> 00:40:07,119
+easier to show
+
+1025
+00:40:03,340 --> 00:40:09,760
+[Laughter]
+
+1026
+00:40:07,119 --> 00:40:12,000
+on the human to human level if i would
+
+1027
+00:40:09,760 --> 00:40:15,520
+like to use an ontology
+
+1028
+00:40:12,000 --> 00:40:18,880
+um it's typically by using a tool
+
+1029
+00:40:15,520 --> 00:40:22,160
+and i look in the tool to to read an
+
+1030
+00:40:18,880 --> 00:40:26,000
+anthology so it's it's not another pdf
+
+1031
+00:40:22,160 --> 00:40:26,000
+to find something
+
+1032
+00:40:26,160 --> 00:40:29,599
+typically your you your end user won't i
+
+1033
+00:40:29,200 --> 00:40:32,079
+mean
+
+1034
+00:40:29,599 --> 00:40:34,240
+you won't see the ontology i mean unless
+
+1035
+00:40:32,079 --> 00:40:34,240
+you
+
+1036
+00:40:34,640 --> 00:40:41,040
+i can't think of many reasons why you
+
+1037
+00:40:37,200 --> 00:40:43,040
+want somebody to see the ontology
+
+1038
+00:40:41,040 --> 00:40:45,520
+it's more that it's working in the
+
+1039
+00:40:43,040 --> 00:40:49,280
+background
+
+1040
+00:40:45,520 --> 00:40:51,200
+so the let's let's say
+
+1041
+00:40:49,280 --> 00:40:52,880
+let me give a completely different use
+
+1042
+00:40:51,200 --> 00:40:55,040
+case let's say you want just to
+
+1043
+00:40:52,880 --> 00:40:56,240
+use an ontology to support semantic
+
+1044
+00:40:55,040 --> 00:40:59,760
+search so
+
+1045
+00:40:56,240 --> 00:41:02,640
+somebody uses uh and let's say you have
+
+1046
+00:40:59,760 --> 00:41:03,680
+a lot of photos annotated with terms on
+
+1047
+00:41:02,640 --> 00:41:05,440
+anthology
+
+1048
+00:41:03,680 --> 00:41:07,280
+you're locking your the thing you're
+
+1049
+00:41:05,440 --> 00:41:10,960
+looking for is cute
+
+1050
+00:41:07,280 --> 00:41:12,960
+dogs right in the picture
+
+1051
+00:41:10,960 --> 00:41:16,079
+in the answer and so if you if you have
+
+1052
+00:41:12,960 --> 00:41:18,800
+an ontology behind it you can
+
+1053
+00:41:16,079 --> 00:41:19,280
+enrich it semantically by you know if
+
+1054
+00:41:18,800 --> 00:41:21,440
+there is
+
+1055
+00:41:19,280 --> 00:41:23,359
+any german shepherds and picture
+
+1056
+00:41:21,440 --> 00:41:25,119
+annotated with german shepherd
+
+1057
+00:41:23,359 --> 00:41:27,119
+that ontology knows german shepherds or
+
+1058
+00:41:25,119 --> 00:41:30,560
+dogs you can use it
+
+1059
+00:41:27,119 --> 00:41:33,119
+um you uh you know enrich the
+
+1060
+00:41:30,560 --> 00:41:34,079
+original search that is a very stupid
+
+1061
+00:41:33,119 --> 00:41:36,000
+use of an ontology
+
+1062
+00:41:34,079 --> 00:41:37,599
+in this case you don't even need any
+
+1063
+00:41:36,000 --> 00:41:39,359
+agreement or
+
+1064
+00:41:37,599 --> 00:41:41,280
+controlled vocabulary but that's an
+
+1065
+00:41:39,359 --> 00:41:43,040
+example of the use of an anthropology
+
+1066
+00:41:41,280 --> 00:41:44,000
+where the end user would never know that
+
+1067
+00:41:43,040 --> 00:41:46,400
+there is an ontology
+
+1068
+00:41:44,000 --> 00:41:47,359
+which is that you know the entries are
+
+1069
+00:41:46,400 --> 00:41:50,079
+just happy to see
+
+1070
+00:41:47,359 --> 00:41:50,720
+you talk whether that there was label
+
+1071
+00:41:50,079 --> 00:41:53,440
+dog or
+
+1072
+00:41:50,720 --> 00:41:53,760
+german shepherds didn't care right so i
+
+1073
+00:41:53,440 --> 00:41:56,960
+think
+
+1074
+00:41:53,760 --> 00:41:59,359
+usually anthologies are not displayed
+
+1075
+00:41:56,960 --> 00:41:59,359
+to be
+
+1076
+00:42:00,240 --> 00:42:05,040
+to the end user okay
+
+1077
+00:42:05,839 --> 00:42:13,280
+so we are already
+
+1078
+00:42:09,920 --> 00:42:16,960
+42 minutes on our way
+
+1079
+00:42:13,280 --> 00:42:20,240
+yes so 42 is a good time 42 minutes
+
+1080
+00:42:16,960 --> 00:42:20,240
+42 is a great number
+
+1081
+00:42:21,760 --> 00:42:25,839
+yeah so thank you very much fabian for
+
+1082
+00:42:24,800 --> 00:42:30,640
+being with us
+
+1083
+00:42:25,839 --> 00:42:32,960
+answering our questions uh without
+
+1084
+00:42:30,640 --> 00:42:32,960
+without
+
+1085
+00:42:35,839 --> 00:42:41,119
+yeah tim um what can we expect for the
+
+1086
+00:42:38,800 --> 00:42:44,880
+next weeks
+
+1087
+00:42:41,119 --> 00:42:48,319
+uh we have a
+
+1088
+00:42:44,880 --> 00:42:51,140
+an episode scheduled for may 25th
+
+1089
+00:42:48,319 --> 00:42:52,560
+if i remember it correctly um
+
+1090
+00:42:51,140 --> 00:42:55,200
+[Music]
+
+1091
+00:42:52,560 --> 00:42:56,160
+there's no title yet but we will publish
+
+1092
+00:42:55,200 --> 00:42:58,240
+it soon
+
+1093
+00:42:56,160 --> 00:43:00,000
+and you already know the guests and we
+
+1094
+00:42:58,240 --> 00:43:04,160
+all will also publish that soon
+
+1095
+00:43:00,000 --> 00:43:07,440
+and maybe we have a episode before that
+
+1096
+00:43:04,160 --> 00:43:07,920
+um so we have to figure out if you get a
+
+1097
+00:43:07,440 --> 00:43:11,280
+guest
+
+1098
+00:43:07,920 --> 00:43:12,720
+and a date um yeah so that's the plans
+
+1099
+00:43:11,280 --> 00:43:16,800
+for the next
+
+1100
+00:43:12,720 --> 00:43:19,200
+four weeks all right so
+
+1101
+00:43:16,800 --> 00:43:20,480
+don't forget to subscribe to the channel
+
+1102
+00:43:19,200 --> 00:43:24,640
+so you would not
+
+1103
+00:43:20,480 --> 00:43:28,079
+uh would not miss another episode
+
+1104
+00:43:24,640 --> 00:43:32,560
+and um so
+
+1105
+00:43:28,079 --> 00:43:36,400
+like always we just can say trust us
+
+1106
+00:43:32,560 --> 00:43:38,800
+we are systems engineers goodbye
+
+1107
+00:43:36,400 --> 00:43:38,800
+bye
+

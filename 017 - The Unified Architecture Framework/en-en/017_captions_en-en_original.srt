@@ -1,0 +1,4224 @@
+1
+00:00:02,710 --> 00:00:09,309
+[Music]
+
+2
+00:00:43,590 --> 00:00:49,929
+[Music]
+
+3
+00:00:57,039 --> 00:01:02,480
+hello and welcome to our new episode of
+
+4
+00:00:59,760 --> 00:01:04,640
+the mbse podcast
+
+5
+00:01:02,480 --> 00:01:07,439
+today we are talking about
+
+6
+00:01:04,640 --> 00:01:10,240
+and framework for the first time
+
+7
+00:01:07,439 --> 00:01:13,119
+and we are talking about the unified
+
+8
+00:01:10,240 --> 00:01:14,400
+architecture framework also known as omg
+
+9
+00:01:13,119 --> 00:01:16,560
+uaf
+
+10
+00:01:14,400 --> 00:01:19,119
+and therefore we have a guest
+
+11
+00:01:16,560 --> 00:01:22,240
+and i would say a friend
+
+12
+00:01:19,119 --> 00:01:22,240
+uh aurelius
+
+13
+00:01:23,280 --> 00:01:28,000
+so okay
+
+14
+00:01:24,720 --> 00:01:30,479
+nearly nearly perfect
+
+15
+00:01:28,000 --> 00:01:32,159
+but uh yeah our videos introduce
+
+16
+00:01:30,479 --> 00:01:35,040
+yourself and i guess you can pronounce
+
+17
+00:01:32,159 --> 00:01:37,360
+your name better than me
+
+18
+00:01:35,040 --> 00:01:39,280
+thank you christian uh hello everyone
+
+19
+00:01:37,360 --> 00:01:41,119
+hello tim uh
+
+20
+00:01:39,280 --> 00:01:43,439
+as
+
+21
+00:01:41,119 --> 00:01:45,040
+christian introduced my name is aurelius
+
+22
+00:01:43,439 --> 00:01:46,880
+markavichis
+
+23
+00:01:45,040 --> 00:01:49,840
+and i'm
+
+24
+00:01:46,880 --> 00:01:52,000
+working for the system as the expert on
+
+25
+00:01:49,840 --> 00:01:54,720
+mbsc and enterprise architectures and
+
+26
+00:01:52,000 --> 00:01:56,960
+also as a leader of experts a team of
+
+27
+00:01:54,720 --> 00:01:59,040
+experts in the mbsc and enterprise
+
+28
+00:01:56,960 --> 00:02:00,479
+architecture focusing on
+
+29
+00:01:59,040 --> 00:02:03,200
+sesame
+
+30
+00:02:00,479 --> 00:02:05,600
+and also uaf and nato architecture
+
+31
+00:02:03,200 --> 00:02:07,680
+framework
+
+32
+00:02:05,600 --> 00:02:10,560
+consulting and
+
+33
+00:02:07,680 --> 00:02:12,800
+teaching and expertise to our clients
+
+34
+00:02:10,560 --> 00:02:15,200
+and also probably more important to
+
+35
+00:02:12,800 --> 00:02:17,599
+mention in this context is
+
+36
+00:02:15,200 --> 00:02:18,959
+my work with the omg and
+
+37
+00:02:17,599 --> 00:02:22,560
+co-chairing
+
+38
+00:02:18,959 --> 00:02:24,640
+the uaf standard in omg for for more
+
+39
+00:02:22,560 --> 00:02:25,520
+than 10 years already
+
+40
+00:02:24,640 --> 00:02:27,520
+wow
+
+41
+00:02:25,520 --> 00:02:30,080
+wow that's a long time so
+
+42
+00:02:27,520 --> 00:02:32,879
+yeah so welcome already thanks for
+
+43
+00:02:30,080 --> 00:02:36,000
+joining us in our podcast um
+
+44
+00:02:32,879 --> 00:02:37,440
+yeah the uaf that's quite interesting um
+
+45
+00:02:36,000 --> 00:02:38,400
+let's start with the
+
+46
+00:02:37,440 --> 00:02:40,080
+um
+
+47
+00:02:38,400 --> 00:02:42,319
+with the framework of architecture
+
+48
+00:02:40,080 --> 00:02:44,800
+framework what what is it what what is
+
+49
+00:02:42,319 --> 00:02:50,480
+an architecture framework now is it is
+
+50
+00:02:44,800 --> 00:02:50,480
+it a is a method or a methodology and
+
+51
+00:02:51,440 --> 00:02:54,480
+how do you define architecture
+
+52
+00:02:52,800 --> 00:02:56,560
+frameworks
+
+53
+00:02:54,480 --> 00:02:58,400
+uh that's that's exactly a good question
+
+54
+00:02:56,560 --> 00:03:00,239
+is um
+
+55
+00:02:58,400 --> 00:03:02,159
+now it's really um called the
+
+56
+00:03:00,239 --> 00:03:03,840
+architecture description framework to be
+
+57
+00:03:02,159 --> 00:03:06,560
+very precise
+
+58
+00:03:03,840 --> 00:03:08,640
+according to iso 42010 this is kind of a
+
+59
+00:03:06,560 --> 00:03:10,879
+new thing for us as well
+
+60
+00:03:08,640 --> 00:03:14,319
+and and that really stands for some you
+
+61
+00:03:10,879 --> 00:03:16,560
+know uh best best practices um for for
+
+62
+00:03:14,319 --> 00:03:18,400
+some um structure
+
+63
+00:03:16,560 --> 00:03:20,480
+um which
+
+64
+00:03:18,400 --> 00:03:23,760
+allows you which gives you some some
+
+65
+00:03:20,480 --> 00:03:26,480
+basic background of how you um
+
+66
+00:03:23,760 --> 00:03:27,840
+create the the model of the system of
+
+67
+00:03:26,480 --> 00:03:29,680
+interest or
+
+68
+00:03:27,840 --> 00:03:30,959
+the enterprise really depend on what we
+
+69
+00:03:29,680 --> 00:03:33,920
+are talking about
+
+70
+00:03:30,959 --> 00:03:36,400
+but it not always include the
+
+71
+00:03:33,920 --> 00:03:38,000
+methodology behind it or or a method so
+
+72
+00:03:36,400 --> 00:03:40,799
+that can be a part
+
+73
+00:03:38,000 --> 00:03:42,640
+like looking into toga for example but
+
+74
+00:03:40,799 --> 00:03:44,159
+in some other frameworks it's it's it's
+
+75
+00:03:42,640 --> 00:03:45,760
+not the case
+
+76
+00:03:44,159 --> 00:03:47,519
+and
+
+77
+00:03:45,760 --> 00:03:50,080
+really this is this is the point where
+
+78
+00:03:47,519 --> 00:03:51,840
+uh i think i i wanted really to um
+
+79
+00:03:50,080 --> 00:03:52,799
+emphasize a little bit about the book
+
+80
+00:03:51,840 --> 00:03:55,519
+that
+
+81
+00:03:52,799 --> 00:03:57,599
+uh i wrote recently we think of the uk
+
+82
+00:03:55,519 --> 00:04:00,239
+that uh don't panic
+
+83
+00:03:57,599 --> 00:04:01,760
+um sirius which is the absolute
+
+84
+00:04:00,239 --> 00:04:02,959
+beginner's guide to the architecture
+
+85
+00:04:01,760 --> 00:04:04,959
+frameworks
+
+86
+00:04:02,959 --> 00:04:07,360
+so if you if you want to learn more
+
+87
+00:04:04,959 --> 00:04:09,519
+you're welcome to to look for it online
+
+88
+00:04:07,360 --> 00:04:11,760
+there is a book available and it has all
+
+89
+00:04:09,519 --> 00:04:15,840
+the explanation of all those
+
+90
+00:04:11,760 --> 00:04:15,840
+you know terminology things
+
+91
+00:04:16,479 --> 00:04:22,639
+all right okay so um
+
+92
+00:04:19,919 --> 00:04:24,960
+uaf like it's called today has a long
+
+93
+00:04:22,639 --> 00:04:28,400
+history and even
+
+94
+00:04:24,960 --> 00:04:31,199
+omg it was called updm before and
+
+95
+00:04:28,400 --> 00:04:34,080
+even there before there was some history
+
+96
+00:04:31,199 --> 00:04:35,600
+can you give us a brief introduction to
+
+97
+00:04:34,080 --> 00:04:37,840
+this
+
+98
+00:04:35,600 --> 00:04:40,800
+absolutely actually at the beginning it
+
+99
+00:04:37,840 --> 00:04:43,759
+was called updm the unified profile for
+
+100
+00:04:40,800 --> 00:04:46,560
+dodaf and modaf which initially uh has
+
+101
+00:04:43,759 --> 00:04:48,080
+been released in 2009
+
+102
+00:04:46,560 --> 00:04:49,919
+uh prior this
+
+103
+00:04:48,080 --> 00:04:51,440
+it's been it's been a long work to come
+
+104
+00:04:49,919 --> 00:04:53,199
+to this point but
+
+105
+00:04:51,440 --> 00:04:54,720
+basically the need was to unify the
+
+106
+00:04:53,199 --> 00:04:56,160
+department of defense architecture
+
+107
+00:04:54,720 --> 00:04:58,800
+frameworks and ministry of defense
+
+108
+00:04:56,160 --> 00:04:59,840
+architecture frameworks this uk and and
+
+109
+00:04:58,800 --> 00:05:02,639
+us
+
+110
+00:04:59,840 --> 00:05:05,840
+common military projects
+
+111
+00:05:02,639 --> 00:05:09,199
+later later on it evolved
+
+112
+00:05:05,840 --> 00:05:10,400
+but only in in 2017 we actually renamed
+
+113
+00:05:09,199 --> 00:05:13,039
+it to uaf
+
+114
+00:05:10,400 --> 00:05:15,680
+uh and and of course
+
+115
+00:05:13,039 --> 00:05:16,960
+why uif uh you can ask it's because we
+
+116
+00:05:15,680 --> 00:05:19,440
+we wanted to
+
+117
+00:05:16,960 --> 00:05:21,199
+commercialize it or sometimes we call it
+
+118
+00:05:19,440 --> 00:05:23,199
+demilitarize it
+
+119
+00:05:21,199 --> 00:05:25,199
+whatever you can you can look from both
+
+120
+00:05:23,199 --> 00:05:26,000
+sides
+
+121
+00:05:25,199 --> 00:05:28,160
+and
+
+122
+00:05:26,000 --> 00:05:31,120
+this was the idea of changing the name
+
+123
+00:05:28,160 --> 00:05:32,720
+because updm was very very uh related to
+
+124
+00:05:31,120 --> 00:05:35,280
+the military
+
+125
+00:05:32,720 --> 00:05:37,039
+background and
+
+126
+00:05:35,280 --> 00:05:38,880
+also in between the lines
+
+127
+00:05:37,039 --> 00:05:42,720
+the updm
+
+128
+00:05:38,880 --> 00:05:45,440
+also became an iso standard into 2017
+
+129
+00:05:42,720 --> 00:05:48,720
+and now we are working with uh iso to to
+
+130
+00:05:45,440 --> 00:05:51,039
+publish uaf uh version 1.1 and this this
+
+131
+00:05:48,720 --> 00:05:53,360
+should happen pretty soon because
+
+132
+00:05:51,039 --> 00:05:55,360
+the votes were we passed already and
+
+133
+00:05:53,360 --> 00:05:57,600
+it's just a question of uh
+
+134
+00:05:55,360 --> 00:05:59,759
+editing and publishing procedure and
+
+135
+00:05:57,600 --> 00:06:02,240
+then of course you know looking looking
+
+136
+00:05:59,759 --> 00:06:04,880
+further is
+
+137
+00:06:02,240 --> 00:06:06,560
+continue working on on the uaf and
+
+138
+00:06:04,880 --> 00:06:07,680
+specific focus
+
+139
+00:06:06,560 --> 00:06:10,400
+um
+
+140
+00:06:07,680 --> 00:06:12,560
+to the needs not only of defense clients
+
+141
+00:06:10,400 --> 00:06:14,880
+but also on the commercial clients that
+
+142
+00:06:12,560 --> 00:06:15,680
+we have
+
+143
+00:06:14,880 --> 00:06:16,720
+okay
+
+144
+00:06:15,680 --> 00:06:17,919
+so
+
+145
+00:06:16,720 --> 00:06:21,840
+well it's
+
+146
+00:06:17,919 --> 00:06:24,880
+based on modaf and dota or that's
+
+147
+00:06:21,840 --> 00:06:24,880
+part of their history
+
+148
+00:06:25,360 --> 00:06:28,960
+also mentioned togaf
+
+149
+00:06:27,840 --> 00:06:30,880
+and
+
+150
+00:06:28,960 --> 00:06:32,560
+there's another architectural framework
+
+151
+00:06:30,880 --> 00:06:33,520
+a military architecture framework called
+
+152
+00:06:32,560 --> 00:06:36,000
+enough
+
+153
+00:06:33,520 --> 00:06:38,800
+the nato architecture framework so is
+
+154
+00:06:36,000 --> 00:06:41,840
+there a relationship from uaf to togaf
+
+155
+00:06:38,800 --> 00:06:41,840
+and uaf to naf
+
+156
+00:06:42,479 --> 00:06:46,240
+uh
+
+157
+00:06:43,600 --> 00:06:49,120
+yeah actually at least with naf there is
+
+158
+00:06:46,240 --> 00:06:50,639
+a strong relationship and
+
+159
+00:06:49,120 --> 00:06:52,800
+we started with the release of the nato
+
+160
+00:06:50,639 --> 00:06:54,560
+architecture framework 4 which happened
+
+161
+00:06:52,800 --> 00:06:57,039
+a year ago
+
+162
+00:06:54,560 --> 00:07:00,080
+just probably a year before we started
+
+163
+00:06:57,039 --> 00:07:02,400
+close collaboration with the nato
+
+164
+00:07:00,080 --> 00:07:04,960
+architecture capability team
+
+165
+00:07:02,400 --> 00:07:07,360
+where where we had um
+
+166
+00:07:04,960 --> 00:07:09,680
+some some common meetings uh either them
+
+167
+00:07:07,360 --> 00:07:12,800
+coming to the omg meetings or we uh
+
+168
+00:07:09,680 --> 00:07:15,919
+going to the uh nato uh architecture
+
+169
+00:07:12,800 --> 00:07:18,000
+capability team meetings and uh
+
+170
+00:07:15,919 --> 00:07:20,800
+officially uaf is
+
+171
+00:07:18,000 --> 00:07:23,680
+one of the two meta models for nato
+
+172
+00:07:20,800 --> 00:07:26,960
+architecture uh version uh nato
+
+173
+00:07:23,680 --> 00:07:31,840
+architecture framework version four
+
+174
+00:07:26,960 --> 00:07:33,599
+the other being archimate uh and um
+
+175
+00:07:31,840 --> 00:07:36,639
+uh there is no
+
+176
+00:07:33,599 --> 00:07:38,479
+metamodel developed by the nato uh today
+
+177
+00:07:36,639 --> 00:07:39,840
+because it's it's really
+
+178
+00:07:38,479 --> 00:07:43,759
+um
+
+179
+00:07:39,840 --> 00:07:46,160
+a lot of resources demanding uh
+
+180
+00:07:43,759 --> 00:07:48,800
+endeavor and then they decided to go
+
+181
+00:07:46,160 --> 00:07:51,199
+with some standard
+
+182
+00:07:48,800 --> 00:07:52,479
+bodies like omg for example or the open
+
+183
+00:07:51,199 --> 00:07:55,520
+group
+
+184
+00:07:52,479 --> 00:07:57,840
+the relationship with togaf is um
+
+185
+00:07:55,520 --> 00:08:00,240
+is obviously not so clear it's it's not
+
+186
+00:07:57,840 --> 00:08:03,599
+clearly described in in any of the
+
+187
+00:08:00,240 --> 00:08:05,360
+specifications nor in uaf and either in
+
+188
+00:08:03,599 --> 00:08:07,440
+togaf
+
+189
+00:08:05,360 --> 00:08:09,520
+and and as they're really coming from
+
+190
+00:08:07,440 --> 00:08:12,080
+the very different worlds it's not not
+
+191
+00:08:09,520 --> 00:08:14,160
+so easy to connect and specifically
+
+192
+00:08:12,080 --> 00:08:16,319
+we're facing this within nato where we
+
+193
+00:08:14,160 --> 00:08:18,240
+have models produced in archimate which
+
+194
+00:08:16,319 --> 00:08:19,280
+is also the open group so it's similar
+
+195
+00:08:18,240 --> 00:08:23,199
+to
+
+196
+00:08:19,280 --> 00:08:26,400
+um to togaf um in in its um let's say
+
+197
+00:08:23,199 --> 00:08:28,319
+from the terminology point of view and
+
+198
+00:08:26,400 --> 00:08:30,879
+this is where we sometimes have a need
+
+199
+00:08:28,319 --> 00:08:31,919
+to be able to interchange these models
+
+200
+00:08:30,879 --> 00:08:33,760
+but
+
+201
+00:08:31,919 --> 00:08:35,519
+it's it's work in progress
+
+202
+00:08:33,760 --> 00:08:36,880
+i would say and at the moment there is
+
+203
+00:08:35,519 --> 00:08:39,839
+no clear
+
+204
+00:08:36,880 --> 00:08:43,760
+description of it where in some examples
+
+205
+00:08:39,839 --> 00:08:45,760
+people are taking uaf um and they are
+
+206
+00:08:43,760 --> 00:08:47,600
+using togaf architecture development
+
+207
+00:08:45,760 --> 00:08:49,440
+method
+
+208
+00:08:47,600 --> 00:08:52,320
+which provides steps of how to create
+
+209
+00:08:49,440 --> 00:08:54,720
+the architecture and and that this
+
+210
+00:08:52,320 --> 00:08:57,360
+happens because we didn't have one
+
+211
+00:08:54,720 --> 00:08:59,279
+uh the method in in uaf before and we
+
+212
+00:08:57,360 --> 00:09:02,640
+still don't but in the next version in
+
+213
+00:08:59,279 --> 00:09:05,040
+the in the 1.2 version coming out
+
+214
+00:09:02,640 --> 00:09:09,040
+next year we're going to introduce the
+
+215
+00:09:05,040 --> 00:09:10,320
+ua so-called uaf guide as the appendix
+
+216
+00:09:09,040 --> 00:09:13,360
+to the spec
+
+217
+00:09:10,320 --> 00:09:17,440
+which is the um kind of a method
+
+218
+00:09:13,360 --> 00:09:20,560
+approach how you go from you know a to z
+
+219
+00:09:17,440 --> 00:09:22,560
+in in creating the the uaf models
+
+220
+00:09:20,560 --> 00:09:23,680
+okay okay
+
+221
+00:09:22,560 --> 00:09:25,519
+and
+
+222
+00:09:23,680 --> 00:09:27,440
+uh chris everyone my question regarding
+
+223
+00:09:25,519 --> 00:09:29,519
+the military stuff uh
+
+224
+00:09:27,440 --> 00:09:31,120
+you said you uh removed the military
+
+225
+00:09:29,519 --> 00:09:35,200
+stuff from from
+
+226
+00:09:31,120 --> 00:09:38,880
+upgm which creates then uaf um so what
+
+227
+00:09:35,200 --> 00:09:41,440
+exactly did you do how how what should
+
+228
+00:09:38,880 --> 00:09:44,000
+what was removed from from the the
+
+229
+00:09:41,440 --> 00:09:45,839
+standard uh to exclude the military
+
+230
+00:09:44,000 --> 00:09:48,480
+stuff and at the same time it's uh
+
+231
+00:09:45,839 --> 00:09:50,160
+conformed to the the naf and and the
+
+232
+00:09:48,480 --> 00:09:53,040
+other stuff so
+
+233
+00:09:50,160 --> 00:09:56,320
+it's it's it's mainly about terminology
+
+234
+00:09:53,040 --> 00:09:58,640
+um the name itself like updm uh it talks
+
+235
+00:09:56,320 --> 00:10:01,600
+about dodaf and modaf so we just change
+
+236
+00:09:58,640 --> 00:10:04,160
+it to to the uaf um and then
+
+237
+00:10:01,600 --> 00:10:07,120
+some terminology some concepts that we
+
+238
+00:10:04,160 --> 00:10:09,839
+had like for example in in in in dodaf
+
+239
+00:10:07,120 --> 00:10:11,920
+world there is a concept of a node
+
+240
+00:10:09,839 --> 00:10:15,600
+is the same in modaf which represents
+
+241
+00:10:11,920 --> 00:10:18,640
+you know some structural block
+
+242
+00:10:15,600 --> 00:10:20,720
+uh in the operational scenario
+
+243
+00:10:18,640 --> 00:10:22,720
+uh we we
+
+244
+00:10:20,720 --> 00:10:25,839
+replaced it by the operational performer
+
+245
+00:10:22,720 --> 00:10:27,040
+which sound more um
+
+246
+00:10:25,839 --> 00:10:29,839
+let's say
+
+247
+00:10:27,040 --> 00:10:31,120
+universal right more genericized than
+
+248
+00:10:29,839 --> 00:10:33,920
+than the node
+
+249
+00:10:31,120 --> 00:10:37,600
+um some some other terminology
+
+250
+00:10:33,920 --> 00:10:39,519
+that that we also had like uh you know
+
+251
+00:10:37,600 --> 00:10:42,640
+doctrine doctrine
+
+252
+00:10:39,519 --> 00:10:44,399
+um and and and
+
+253
+00:10:42,640 --> 00:10:45,519
+it's basically basically basically
+
+254
+00:10:44,399 --> 00:10:47,120
+around that
+
+255
+00:10:45,519 --> 00:10:48,320
+but then we
+
+256
+00:10:47,120 --> 00:10:51,120
+solved
+
+257
+00:10:48,320 --> 00:10:52,880
+the traceability question by
+
+258
+00:10:51,120 --> 00:10:55,120
+creating
+
+259
+00:10:52,880 --> 00:10:56,880
+a additional
+
+260
+00:10:55,120 --> 00:10:58,959
+document
+
+261
+00:10:56,880 --> 00:11:01,839
+with the specification called the
+
+262
+00:10:58,959 --> 00:11:04,959
+traceability document and it has all the
+
+263
+00:11:01,839 --> 00:11:08,880
+mapping to the different frameworks
+
+264
+00:11:04,959 --> 00:11:08,880
+just to make the terminology clear
+
+265
+00:11:09,279 --> 00:11:15,279
+okay great
+
+266
+00:11:11,839 --> 00:11:17,200
+yeah and uh one thing that would be
+
+267
+00:11:15,279 --> 00:11:20,880
+interesting for me is
+
+268
+00:11:17,200 --> 00:11:23,040
+how did uaf or its predecessors become
+
+269
+00:11:20,880 --> 00:11:26,000
+an omg standard why why did military
+
+270
+00:11:23,040 --> 00:11:26,000
+come to omg
+
+271
+00:11:26,480 --> 00:11:30,000
+uh
+
+272
+00:11:27,279 --> 00:11:33,440
+yeah it's uh it's it's a it's a long
+
+273
+00:11:30,000 --> 00:11:34,880
+long story but um
+
+274
+00:11:33,440 --> 00:11:37,279
+it was really at that time there was a
+
+275
+00:11:34,880 --> 00:11:40,240
+big involvement of the uh
+
+276
+00:11:37,279 --> 00:11:43,120
+dod within omg
+
+277
+00:11:40,240 --> 00:11:44,000
+and and uh the big representation from
+
+278
+00:11:43,120 --> 00:11:48,480
+uh
+
+279
+00:11:44,000 --> 00:11:50,800
+big big names and um even even a dod cio
+
+280
+00:11:48,480 --> 00:11:52,240
+has been a common participant in in the
+
+281
+00:11:50,800 --> 00:11:53,600
+omg meetings
+
+282
+00:11:52,240 --> 00:11:56,480
+clearly expressing the need of
+
+283
+00:11:53,600 --> 00:12:00,000
+interchange uh and and this this was
+
+284
+00:11:56,480 --> 00:12:01,920
+where the idea of of updm started
+
+285
+00:12:00,000 --> 00:12:04,959
+strongly driven by the ibm at the
+
+286
+00:12:01,920 --> 00:12:06,399
+beginning uh later we had some some some
+
+287
+00:12:04,959 --> 00:12:09,120
+issues and conflicts between the
+
+288
+00:12:06,399 --> 00:12:12,639
+different group of groups of interest
+
+289
+00:12:09,120 --> 00:12:13,600
+um ibm even uh vetoed the first release
+
+290
+00:12:12,639 --> 00:12:16,800
+of the
+
+291
+00:12:13,600 --> 00:12:19,519
+of the uaf and uh that
+
+292
+00:12:16,800 --> 00:12:20,720
+a little bit uh you know um
+
+293
+00:12:19,519 --> 00:12:24,399
+postponed the release of the
+
+294
+00:12:20,720 --> 00:12:27,120
+specification of the uptm specification
+
+295
+00:12:24,399 --> 00:12:29,040
+but uh well nevertheless
+
+296
+00:12:27,120 --> 00:12:30,800
+later on the obstacle obstacles were
+
+297
+00:12:29,040 --> 00:12:32,720
+were gone we found an agreement and
+
+298
+00:12:30,800 --> 00:12:35,360
+there was the the
+
+299
+00:12:32,720 --> 00:12:37,040
+the updm released and
+
+300
+00:12:35,360 --> 00:12:39,519
+after that
+
+301
+00:12:37,040 --> 00:12:41,839
+as i said uh you know we we really got a
+
+302
+00:12:39,519 --> 00:12:44,079
+lot of requests from other industries as
+
+303
+00:12:41,839 --> 00:12:45,760
+well not not purely from the defense and
+
+304
+00:12:44,079 --> 00:12:46,880
+other frameworks like even in defense
+
+305
+00:12:45,760 --> 00:12:48,560
+like naf
+
+306
+00:12:46,880 --> 00:12:51,360
+which was not
+
+307
+00:12:48,560 --> 00:12:53,120
+a part of the updm at the beginning
+
+308
+00:12:51,360 --> 00:12:55,680
+with nato architecture framework and
+
+309
+00:12:53,120 --> 00:12:56,959
+later on we just had more frameworks to
+
+310
+00:12:55,680 --> 00:12:59,279
+incorporate
+
+311
+00:12:56,959 --> 00:13:01,920
+more frameworks to support more more uh
+
+312
+00:12:59,279 --> 00:13:04,839
+communities to to support
+
+313
+00:13:01,920 --> 00:13:06,800
+and and this is where the idea of
+
+314
+00:13:04,839 --> 00:13:08,639
+uaf um
+
+315
+00:13:06,800 --> 00:13:10,880
+came to our mind we we had to fight
+
+316
+00:13:08,639 --> 00:13:12,320
+strongly to get this name because you
+
+317
+00:13:10,880 --> 00:13:14,639
+know other
+
+318
+00:13:12,320 --> 00:13:16,240
+groups of interest especially coming for
+
+319
+00:13:14,639 --> 00:13:18,079
+from business architecture said no no
+
+320
+00:13:16,240 --> 00:13:19,600
+this is this cannot be unified you know
+
+321
+00:13:18,079 --> 00:13:22,000
+because we have different frameworks
+
+322
+00:13:19,600 --> 00:13:24,240
+from bpmn and other stuff
+
+323
+00:13:22,000 --> 00:13:26,240
+um but but finally we managed to to
+
+324
+00:13:24,240 --> 00:13:28,480
+register it so it's registered trademark
+
+325
+00:13:26,240 --> 00:13:32,160
+of omg and it's um
+
+326
+00:13:28,480 --> 00:13:34,240
+it's it's it's now said that it's for
+
+327
+00:13:32,160 --> 00:13:35,279
+multiple purposes right is for for
+
+328
+00:13:34,240 --> 00:13:38,720
+defense
+
+329
+00:13:35,279 --> 00:13:40,959
+for for uh industry and for for and also
+
+330
+00:13:38,720 --> 00:13:42,160
+for for uh federate uh federal
+
+331
+00:13:40,959 --> 00:13:45,120
+government
+
+332
+00:13:42,160 --> 00:13:49,279
+so it can be used for for different um
+
+333
+00:13:45,120 --> 00:13:51,360
+purposes and use cases can i also use it
+
+334
+00:13:49,279 --> 00:13:53,920
+for for enterprise modeling so for
+
+335
+00:13:51,360 --> 00:13:58,079
+enterprise architectures
+
+336
+00:13:53,920 --> 00:14:00,639
+or only for systems or products
+
+337
+00:13:58,079 --> 00:14:02,639
+we can with the uh of course we try to
+
+338
+00:14:00,639 --> 00:14:04,480
+talk about this this idea and we really
+
+339
+00:14:02,639 --> 00:14:06,480
+think that that the future of the
+
+340
+00:14:04,480 --> 00:14:09,199
+enterprise uh
+
+341
+00:14:06,480 --> 00:14:12,240
+architecture is really in uh what we
+
+342
+00:14:09,199 --> 00:14:14,240
+call um enterprise as a system
+
+343
+00:14:12,240 --> 00:14:16,720
+uh so so this is where
+
+344
+00:14:14,240 --> 00:14:19,920
+you know enterprise is just a complex
+
+345
+00:14:16,720 --> 00:14:22,079
+system or or even the system of systems
+
+346
+00:14:19,920 --> 00:14:24,880
+at some point depends how you look at it
+
+347
+00:14:22,079 --> 00:14:27,920
+and it can be analyzed
+
+348
+00:14:24,880 --> 00:14:30,959
+similar way as any kind of other system
+
+349
+00:14:27,920 --> 00:14:32,880
+it can be um you know
+
+350
+00:14:30,959 --> 00:14:34,959
+some of the things can be simulated
+
+351
+00:14:32,880 --> 00:14:37,360
+within the enterprise
+
+352
+00:14:34,959 --> 00:14:39,279
+and and it really lacks today more
+
+353
+00:14:37,360 --> 00:14:41,120
+precise description to be able to do
+
+354
+00:14:39,279 --> 00:14:43,120
+that if we look into today's
+
+355
+00:14:41,120 --> 00:14:44,720
+architecture frameworks it's
+
+356
+00:14:43,120 --> 00:14:46,000
+enterprise architecture
+
+357
+00:14:44,720 --> 00:14:48,240
+and how it's done in different
+
+358
+00:14:46,000 --> 00:14:51,519
+organizations it's really powerpoint and
+
+359
+00:14:48,240 --> 00:14:53,440
+and and and visio and
+
+360
+00:14:51,519 --> 00:14:55,519
+well sometimes togaf but
+
+361
+00:14:53,440 --> 00:14:57,279
+then what what togaf is if if you look
+
+362
+00:14:55,519 --> 00:15:00,320
+into togaf that there is meta model but
+
+363
+00:14:57,279 --> 00:15:02,800
+there is no formal way of um really you
+
+364
+00:15:00,320 --> 00:15:05,120
+know uh implementing that meta model so
+
+365
+00:15:02,800 --> 00:15:07,360
+so you can use uml or user
+
+366
+00:15:05,120 --> 00:15:08,480
+you can use you know bpmn or some other
+
+367
+00:15:07,360 --> 00:15:10,880
+language
+
+368
+00:15:08,480 --> 00:15:13,680
+but but that's that's not really
+
+369
+00:15:10,880 --> 00:15:15,519
+getting uh getting to to to the right
+
+370
+00:15:13,680 --> 00:15:17,760
+point where you have everything unified
+
+371
+00:15:15,519 --> 00:15:20,079
+and you can you know validate your model
+
+372
+00:15:17,760 --> 00:15:22,560
+simulate your models and this is where
+
+373
+00:15:20,079 --> 00:15:24,240
+we're we're going with uaf it's yes it's
+
+374
+00:15:22,560 --> 00:15:26,480
+coming from the different world it's
+
+375
+00:15:24,240 --> 00:15:29,199
+coming from the engineering world it's
+
+376
+00:15:26,480 --> 00:15:31,600
+much more precise uh and it means that
+
+377
+00:15:29,199 --> 00:15:33,519
+um even if the complexity is higher at
+
+378
+00:15:31,600 --> 00:15:36,639
+the end you can achieve
+
+379
+00:15:33,519 --> 00:15:39,199
+a better consistency um in in your
+
+380
+00:15:36,639 --> 00:15:41,839
+architectural uh description
+
+381
+00:15:39,199 --> 00:15:44,240
+and you create for the enterprise
+
+382
+00:15:41,839 --> 00:15:44,240
+okay
+
+383
+00:15:44,480 --> 00:15:47,279
+so
+
+384
+00:15:46,000 --> 00:15:49,440
+i'm
+
+385
+00:15:47,279 --> 00:15:51,759
+still not sure if our listeners
+
+386
+00:15:49,440 --> 00:15:53,759
+know what uif is and what you can do
+
+387
+00:15:51,759 --> 00:15:57,079
+with uif and
+
+388
+00:15:53,759 --> 00:16:02,079
+to my knowledge you are modeling
+
+389
+00:15:57,079 --> 00:16:03,920
+structures and behavior and missions and
+
+390
+00:16:02,079 --> 00:16:06,079
+something that
+
+391
+00:16:03,920 --> 00:16:08,480
+that has to be achieved and to my
+
+392
+00:16:06,079 --> 00:16:10,959
+knowledge you you use many other
+
+393
+00:16:08,480 --> 00:16:13,759
+standards can you give us a little bit
+
+394
+00:16:10,959 --> 00:16:15,199
+of insight to that
+
+395
+00:16:13,759 --> 00:16:16,160
+we do
+
+396
+00:16:15,199 --> 00:16:19,519
+so
+
+397
+00:16:16,160 --> 00:16:21,440
+first of all probably i would say that
+
+398
+00:16:19,519 --> 00:16:23,519
+uaf
+
+399
+00:16:21,440 --> 00:16:25,680
+has a couple of parts within the
+
+400
+00:16:23,519 --> 00:16:27,519
+specification one of the parts is the
+
+401
+00:16:25,680 --> 00:16:29,279
+conceptual meta model
+
+402
+00:16:27,519 --> 00:16:32,000
+which is um
+
+403
+00:16:29,279 --> 00:16:34,000
+based on on uml but it's not really you
+
+404
+00:16:32,000 --> 00:16:36,399
+know the implementation or the languages
+
+405
+00:16:34,000 --> 00:16:39,279
+it's just the conceptual metamodel
+
+406
+00:16:36,399 --> 00:16:42,160
+providing a number of
+
+407
+00:16:39,279 --> 00:16:44,160
+concepts and their relationships
+
+408
+00:16:42,160 --> 00:16:46,160
+and and how they're used and where they
+
+409
+00:16:44,160 --> 00:16:47,040
+supposed to be used but going further
+
+410
+00:16:46,160 --> 00:16:50,480
+there is
+
+411
+00:16:47,040 --> 00:16:52,560
+the standard implementation of the uaf
+
+412
+00:16:50,480 --> 00:16:54,639
+today it's called uaf profile and
+
+413
+00:16:52,560 --> 00:16:57,199
+tomorrow is going to be called
+
+414
+00:16:54,639 --> 00:16:58,800
+uaf modeling language
+
+415
+00:16:57,199 --> 00:17:01,440
+so so we're changing that to make it
+
+416
+00:16:58,800 --> 00:17:03,360
+more obvious and more aligned with sml
+
+417
+00:17:01,440 --> 00:17:04,480
+for example which is systems modeling
+
+418
+00:17:03,360 --> 00:17:05,360
+language
+
+419
+00:17:04,480 --> 00:17:07,760
+and
+
+420
+00:17:05,360 --> 00:17:09,199
+specifically uif modeling language is
+
+421
+00:17:07,760 --> 00:17:11,439
+based uh
+
+422
+00:17:09,199 --> 00:17:13,360
+as a profile of uml of course it's first
+
+423
+00:17:11,439 --> 00:17:15,360
+based on on the uml
+
+424
+00:17:13,360 --> 00:17:17,600
+but it's also based on sml with the
+
+425
+00:17:15,360 --> 00:17:18,720
+tight relationship to sml
+
+426
+00:17:17,600 --> 00:17:21,760
+and
+
+427
+00:17:18,720 --> 00:17:23,600
+we use systeml diagrams to represent
+
+428
+00:17:21,760 --> 00:17:25,679
+uaf data
+
+429
+00:17:23,600 --> 00:17:28,079
+um so at the end
+
+430
+00:17:25,679 --> 00:17:29,919
+you know it's it's strongly dependent on
+
+431
+00:17:28,079 --> 00:17:31,760
+on this sml
+
+432
+00:17:29,919 --> 00:17:34,320
+today because we don't define our
+
+433
+00:17:31,760 --> 00:17:37,679
+notation we use the system of standard
+
+434
+00:17:34,320 --> 00:17:39,280
+decimal notation we just define the
+
+435
+00:17:37,679 --> 00:17:42,640
+the the number of elements that you
+
+436
+00:17:39,280 --> 00:17:46,160
+would use within um sesame diagrams
+
+437
+00:17:42,640 --> 00:17:48,480
+uh then we have some dependency on bpmn
+
+438
+00:17:46,160 --> 00:17:50,720
+it's not exactly dependency it's more
+
+439
+00:17:48,480 --> 00:17:52,880
+it's more how you use both together
+
+440
+00:17:50,720 --> 00:17:56,000
+you can use bpmn
+
+441
+00:17:52,880 --> 00:17:58,559
+to be more precise the the profile
+
+442
+00:17:56,000 --> 00:18:01,200
+uml profile for bpmn which is a
+
+443
+00:17:58,559 --> 00:18:02,720
+different standard than bpmn
+
+444
+00:18:01,200 --> 00:18:05,760
+to express
+
+445
+00:18:02,720 --> 00:18:08,720
+process models so like operational
+
+446
+00:18:05,760 --> 00:18:11,440
+activity models or function models
+
+447
+00:18:08,720 --> 00:18:13,679
+uh security processes models and and so
+
+448
+00:18:11,440 --> 00:18:15,280
+on and there are some other standards
+
+449
+00:18:13,679 --> 00:18:17,600
+where we have some hooks too it's not
+
+450
+00:18:15,280 --> 00:18:20,160
+that we incorporate them uh or we use
+
+451
+00:18:17,600 --> 00:18:22,160
+them so we we have some relation to niem
+
+452
+00:18:20,160 --> 00:18:23,280
+which is national uh information
+
+453
+00:18:22,160 --> 00:18:26,960
+exchange
+
+454
+00:18:23,280 --> 00:18:28,640
+model or ieppv which i can hardly uh
+
+455
+00:18:26,960 --> 00:18:31,039
+spell
+
+456
+00:18:28,640 --> 00:18:33,440
+then the base profile
+
+457
+00:18:31,039 --> 00:18:34,480
+recently has been developed
+
+458
+00:18:33,440 --> 00:18:36,559
+so
+
+459
+00:18:34,480 --> 00:18:38,400
+base profile for uaf is really extending
+
+460
+00:18:36,559 --> 00:18:41,679
+uaf towards
+
+461
+00:18:38,400 --> 00:18:44,960
+supporting face standard that's here
+
+462
+00:18:41,679 --> 00:18:46,799
+airspace here for standard and then
+
+463
+00:18:44,960 --> 00:18:49,760
+possibly we will have some relationship
+
+464
+00:18:46,799 --> 00:18:51,440
+to a risk analysis and an assurance
+
+465
+00:18:49,760 --> 00:18:52,640
+modeling language
+
+466
+00:18:51,440 --> 00:18:54,320
+which is
+
+467
+00:18:52,640 --> 00:18:56,160
+upcoming standard
+
+468
+00:18:54,320 --> 00:18:57,679
+in the omg so so there are tight
+
+469
+00:18:56,160 --> 00:18:59,679
+relationships and of course for data
+
+470
+00:18:57,679 --> 00:19:00,640
+exchange it's it's xmi
+
+471
+00:18:59,679 --> 00:19:02,240
+uh
+
+472
+00:19:00,640 --> 00:19:03,440
+standard
+
+473
+00:19:02,240 --> 00:19:05,200
+okay so
+
+474
+00:19:03,440 --> 00:19:07,919
+and yeah you mentioned you have uh but
+
+475
+00:19:05,200 --> 00:19:09,679
+you have this this meter model of uaf
+
+476
+00:19:07,919 --> 00:19:12,000
+and system l
+
+477
+00:19:09,679 --> 00:19:13,840
+and i assume also b and n all this other
+
+478
+00:19:12,000 --> 00:19:15,840
+stuff is only
+
+479
+00:19:13,840 --> 00:19:18,000
+one possible implementation
+
+480
+00:19:15,840 --> 00:19:19,840
+of this beta model so theoretically i
+
+481
+00:19:18,000 --> 00:19:21,039
+could also use um
+
+482
+00:19:19,840 --> 00:19:22,559
+capella
+
+483
+00:19:21,039 --> 00:19:24,880
+for uaf
+
+484
+00:19:22,559 --> 00:19:27,600
+and and any other
+
+485
+00:19:24,880 --> 00:19:31,440
+systems modeling language uh like yeah
+
+486
+00:19:27,600 --> 00:19:32,720
+capella or uh or opm uh and maybe the
+
+487
+00:19:31,440 --> 00:19:35,600
+other around
+
+488
+00:19:32,720 --> 00:19:37,840
+uh this is that true so system is just
+
+489
+00:19:35,600 --> 00:19:39,679
+an implementation of the meter model
+
+490
+00:19:37,840 --> 00:19:41,200
+that's that's that's correct it's uh
+
+491
+00:19:39,679 --> 00:19:43,600
+it's just we call standard
+
+492
+00:19:41,200 --> 00:19:46,080
+implementation because we have a
+
+493
+00:19:43,600 --> 00:19:46,880
+published omg standard for that
+
+494
+00:19:46,080 --> 00:19:48,880
+okay
+
+495
+00:19:46,880 --> 00:19:50,840
+and of course it's much easier to use
+
+496
+00:19:48,880 --> 00:19:53,919
+the
+
+497
+00:19:50,840 --> 00:19:55,520
+system then creating your own modeling
+
+498
+00:19:53,919 --> 00:19:57,840
+language and then the tool vendors must
+
+499
+00:19:55,520 --> 00:20:00,640
+create their own tools and so on
+
+500
+00:19:57,840 --> 00:20:03,520
+um yeah speaking of tools um is url
+
+501
+00:20:00,640 --> 00:20:04,840
+bound to a specific tool but do i need a
+
+502
+00:20:03,520 --> 00:20:07,280
+uaf
+
+503
+00:20:04,840 --> 00:20:09,360
+tool uh
+
+504
+00:20:07,280 --> 00:20:11,440
+it's actually it's it's it's not too
+
+505
+00:20:09,360 --> 00:20:13,520
+specific so it's like a standard it's
+
+506
+00:20:11,440 --> 00:20:15,760
+too agnostic
+
+507
+00:20:13,520 --> 00:20:17,039
+i would say it's really um you know two
+
+508
+00:20:15,760 --> 00:20:19,600
+vendors are highly involved in
+
+509
+00:20:17,039 --> 00:20:21,200
+development of the standard um
+
+510
+00:20:19,600 --> 00:20:22,960
+so so for this
+
+511
+00:20:21,200 --> 00:20:25,120
+historically we we had and still have
+
+512
+00:20:22,960 --> 00:20:27,600
+many tool vendors attending
+
+513
+00:20:25,120 --> 00:20:29,520
+um and and um a lot of them are our
+
+514
+00:20:27,600 --> 00:20:31,200
+system well as we just discussed so so
+
+515
+00:20:29,520 --> 00:20:33,440
+there are some um
+
+516
+00:20:31,200 --> 00:20:35,919
+tool vendors coming from
+
+517
+00:20:33,440 --> 00:20:38,880
+different world
+
+518
+00:20:35,919 --> 00:20:42,159
+like like mega for example and mega opex
+
+519
+00:20:38,880 --> 00:20:44,640
+tool or or the system architect
+
+520
+00:20:42,159 --> 00:20:47,440
+which is also not sesame based
+
+521
+00:20:44,640 --> 00:20:48,960
+so there are there are examples and
+
+522
+00:20:47,440 --> 00:20:51,840
+as you said there might be different
+
+523
+00:20:48,960 --> 00:20:54,320
+different implementations of it
+
+524
+00:20:51,840 --> 00:20:56,159
+so so it's really not um
+
+525
+00:20:54,320 --> 00:20:59,280
+not dependent on the specific tool but
+
+526
+00:20:56,159 --> 00:21:00,559
+on the other side you know um
+
+527
+00:20:59,280 --> 00:21:03,280
+probably
+
+528
+00:21:00,559 --> 00:21:04,400
+tools that implement uaf specifically
+
+529
+00:21:03,280 --> 00:21:07,520
+and and they highlight that they
+
+530
+00:21:04,400 --> 00:21:10,240
+implement uif they provide um
+
+531
+00:21:07,520 --> 00:21:13,120
+slightly different experience towards
+
+532
+00:21:10,240 --> 00:21:15,280
+you know creating uaf models than
+
+533
+00:21:13,120 --> 00:21:17,840
+if you would do it without the specific
+
+534
+00:21:15,280 --> 00:21:17,840
+tool
+
+535
+00:21:19,520 --> 00:21:25,600
+okay but that means that a tool that
+
+536
+00:21:23,039 --> 00:21:27,919
+supports only so small would not be
+
+537
+00:21:25,600 --> 00:21:27,919
+enough
+
+538
+00:21:29,039 --> 00:21:32,320
+uh well definitely uh
+
+539
+00:21:31,039 --> 00:21:34,880
+probably not
+
+540
+00:21:32,320 --> 00:21:36,640
+theoretically it could could could be um
+
+541
+00:21:34,880 --> 00:21:38,400
+you could could use it for one or the
+
+542
+00:21:36,640 --> 00:21:42,720
+other view when you say okay i'm just
+
+543
+00:21:38,400 --> 00:21:45,679
+using uaf um grid which just have a list
+
+544
+00:21:42,720 --> 00:21:47,520
+of views that you need to create
+
+545
+00:21:45,679 --> 00:21:48,559
+and and then you create them in the
+
+546
+00:21:47,520 --> 00:21:50,720
+different
+
+547
+00:21:48,559 --> 00:21:52,640
+sesame diagrams but at the end to get
+
+548
+00:21:50,720 --> 00:21:55,520
+you know the full experience the the
+
+549
+00:21:52,640 --> 00:21:56,960
+metamodel compliance with the omg
+
+550
+00:21:55,520 --> 00:22:00,799
+standard
+
+551
+00:21:56,960 --> 00:22:02,960
+you you need you need to have um uaf uh
+
+552
+00:22:00,799 --> 00:22:04,799
+specific tool but at the end just adding
+
+553
+00:22:02,960 --> 00:22:06,640
+adding to this point you know what we
+
+554
+00:22:04,799 --> 00:22:08,480
+see sometimes in industry and not
+
+555
+00:22:06,640 --> 00:22:12,480
+necessarily in defense
+
+556
+00:22:08,480 --> 00:22:14,400
+that uh people take a small and and they
+
+557
+00:22:12,480 --> 00:22:17,120
+highly customize it
+
+558
+00:22:14,400 --> 00:22:19,200
+they highly customize it they extend it
+
+559
+00:22:17,120 --> 00:22:22,640
+and at the end they they come very close
+
+560
+00:22:19,200 --> 00:22:24,320
+to to what really uaf is today
+
+561
+00:22:22,640 --> 00:22:26,720
+what do we have what do we do in systems
+
+562
+00:22:24,320 --> 00:22:28,400
+engineering we do operational analysis
+
+563
+00:22:26,720 --> 00:22:31,039
+uh we do functional
+
+564
+00:22:28,400 --> 00:22:32,799
+architecture we do logical architecture
+
+565
+00:22:31,039 --> 00:22:35,679
+and you know this actually corresponds
+
+566
+00:22:32,799 --> 00:22:37,039
+to the to the views that that we have in
+
+567
+00:22:35,679 --> 00:22:38,640
+in the uaf
+
+568
+00:22:37,039 --> 00:22:41,919
+sometimes you know you need features you
+
+569
+00:22:38,640 --> 00:22:42,799
+need capabilities it depends on on which
+
+570
+00:22:41,919 --> 00:22:44,159
+which
+
+571
+00:22:42,799 --> 00:22:46,559
+industry you are
+
+572
+00:22:44,159 --> 00:22:49,440
+and and and those kind of concepts you
+
+573
+00:22:46,559 --> 00:22:50,720
+know are are also um something you you
+
+574
+00:22:49,440 --> 00:22:52,799
+extend
+
+575
+00:22:50,720 --> 00:22:54,880
+so sometimes you know you you you get
+
+576
+00:22:52,799 --> 00:22:57,440
+close to it just
+
+577
+00:22:54,880 --> 00:23:01,679
+over customizing system now
+
+578
+00:22:57,440 --> 00:23:01,679
+not not even knowing that you do that
+
+579
+00:23:02,000 --> 00:23:10,400
+so um so if but if i use a standard
+
+580
+00:23:04,559 --> 00:23:14,240
+system a tool um to to yeah apply uaf
+
+581
+00:23:10,400 --> 00:23:17,520
+um and also an um bpmn modeling tool to
+
+582
+00:23:14,240 --> 00:23:19,679
+apply uaf so the bpmn part of uaf
+
+583
+00:23:17,520 --> 00:23:22,799
+now i have two tools with two models uh
+
+584
+00:23:19,679 --> 00:23:25,840
+and i need some kind of exchange of data
+
+585
+00:23:22,799 --> 00:23:28,799
+and have this inter operability issue so
+
+586
+00:23:25,840 --> 00:23:30,240
+is there a standard exchange format for
+
+587
+00:23:28,799 --> 00:23:32,159
+uaf
+
+588
+00:23:30,240 --> 00:23:34,720
+models what data
+
+589
+00:23:32,159 --> 00:23:36,640
+the the standard exchange is is for a
+
+590
+00:23:34,720 --> 00:23:38,480
+sml implementation
+
+591
+00:23:36,640 --> 00:23:42,080
+only so if you are
+
+592
+00:23:38,480 --> 00:23:44,640
+you if you if you have uh you know small
+
+593
+00:23:42,080 --> 00:23:46,559
+if you if you implement uaf modeling
+
+594
+00:23:44,640 --> 00:23:49,520
+using qf modeling language which is
+
+595
+00:23:46,559 --> 00:23:51,760
+based on sml then you can use xmi to
+
+596
+00:23:49,520 --> 00:23:54,000
+interchange or diagram interchange
+
+597
+00:23:51,760 --> 00:23:56,000
+format which which is there by omg so
+
+598
+00:23:54,000 --> 00:23:58,320
+i'm not sure that there are tools really
+
+599
+00:23:56,000 --> 00:24:00,240
+implementing it but theoretically
+
+600
+00:23:58,320 --> 00:24:01,679
+theoretically should be
+
+601
+00:24:00,240 --> 00:24:03,440
+should be possible
+
+602
+00:24:01,679 --> 00:24:05,440
+using those standards but if you use
+
+603
+00:24:03,440 --> 00:24:06,960
+some proprietary implementation then
+
+604
+00:24:05,440 --> 00:24:12,000
+then you probably have to have some
+
+605
+00:24:06,960 --> 00:24:12,000
+exporter into the correct xmi format
+
+606
+00:24:12,159 --> 00:24:15,760
+okay
+
+607
+00:24:14,240 --> 00:24:20,159
+so
+
+608
+00:24:15,760 --> 00:24:23,919
+as uif is a huge framework
+
+609
+00:24:20,159 --> 00:24:26,240
+we cannot go into every detail today
+
+610
+00:24:23,919 --> 00:24:30,240
+but could you give us some example
+
+611
+00:24:26,240 --> 00:24:34,000
+aspects of views that are created or
+
+612
+00:24:30,240 --> 00:24:34,000
+covered by uaf
+
+613
+00:24:34,559 --> 00:24:37,279
+uh
+
+614
+00:24:35,600 --> 00:24:40,640
+yeah absolutely you know saying huge
+
+615
+00:24:37,279 --> 00:24:42,559
+it's uh it's probably the right word but
+
+616
+00:24:40,640 --> 00:24:44,880
+uh we used to say that when you when you
+
+617
+00:24:42,559 --> 00:24:47,039
+look into uaf for for some people you
+
+618
+00:24:44,880 --> 00:24:50,320
+know this this grid that we have reminds
+
+619
+00:24:47,039 --> 00:24:53,039
+us reminds the uh periodic table of
+
+620
+00:24:50,320 --> 00:24:55,120
+elements that we learn at school
+
+621
+00:24:53,039 --> 00:24:58,000
+um and and you know but you usually
+
+622
+00:24:55,120 --> 00:25:01,600
+don't use the all the elements there to
+
+623
+00:24:58,000 --> 00:25:03,600
+to to create um new composite material
+
+624
+00:25:01,600 --> 00:25:06,960
+you just take you know somewhat what you
+
+625
+00:25:03,600 --> 00:25:10,240
+need like hydrogen oxygen for the water
+
+626
+00:25:06,960 --> 00:25:12,960
+so so it's similar here we we just say
+
+627
+00:25:10,240 --> 00:25:15,039
+okay so it's like foundation giving you
+
+628
+00:25:12,960 --> 00:25:18,000
+everything and you just need to pick the
+
+629
+00:25:15,039 --> 00:25:21,200
+right things and primarily you know the
+
+630
+00:25:18,000 --> 00:25:23,840
+the core uh core viewpoints that we uh
+
+631
+00:25:21,200 --> 00:25:25,520
+have is the strategic operational and
+
+632
+00:25:23,840 --> 00:25:28,480
+resources
+
+633
+00:25:25,520 --> 00:25:30,159
+um where you know uh really represent
+
+634
+00:25:28,480 --> 00:25:32,880
+three different layers of abstraction
+
+635
+00:25:30,159 --> 00:25:34,640
+starting from one strategy and uh
+
+636
+00:25:32,880 --> 00:25:37,039
+answering question why
+
+637
+00:25:34,640 --> 00:25:39,679
+this is about you know capabilities and
+
+638
+00:25:37,039 --> 00:25:41,520
+their realization in time the strategy
+
+639
+00:25:39,679 --> 00:25:44,320
+from the enterprise
+
+640
+00:25:41,520 --> 00:25:46,320
+level how you go from one
+
+641
+00:25:44,320 --> 00:25:48,080
+state of the enterprise to the other
+
+642
+00:25:46,320 --> 00:25:50,559
+from one state of the system or system
+
+643
+00:25:48,080 --> 00:25:51,760
+of systems to the other
+
+644
+00:25:50,559 --> 00:25:54,400
+how that changed in terms of
+
+645
+00:25:51,760 --> 00:25:57,200
+capabilities in terms of features
+
+646
+00:25:54,400 --> 00:25:59,279
+really dependent um on on the goals you
+
+647
+00:25:57,200 --> 00:26:02,400
+have uh then then we go to the
+
+648
+00:25:59,279 --> 00:26:03,840
+operational scenarios to to to describe
+
+649
+00:26:02,400 --> 00:26:05,679
+um
+
+650
+00:26:03,840 --> 00:26:08,320
+also uh
+
+651
+00:26:05,679 --> 00:26:09,440
+what we need to do to achieve the goals
+
+652
+00:26:08,320 --> 00:26:11,200
+and
+
+653
+00:26:09,440 --> 00:26:14,000
+achieve the capabilities so the
+
+654
+00:26:11,200 --> 00:26:16,559
+operational scenarios are really related
+
+655
+00:26:14,000 --> 00:26:18,960
+to the environment to the user uh who's
+
+656
+00:26:16,559 --> 00:26:20,960
+using the the system of interest what
+
+657
+00:26:18,960 --> 00:26:23,520
+the the main players how they how they
+
+658
+00:26:20,960 --> 00:26:26,080
+communicate what are
+
+659
+00:26:23,520 --> 00:26:28,559
+the the process uh behind it
+
+660
+00:26:26,080 --> 00:26:30,480
+and and finally you know on
+
+661
+00:26:28,559 --> 00:26:32,159
+how we implement those operational
+
+662
+00:26:30,480 --> 00:26:34,559
+scenarios is where we talk about
+
+663
+00:26:32,159 --> 00:26:36,320
+resources and um
+
+664
+00:26:34,559 --> 00:26:37,520
+when we talk about resources we talk
+
+665
+00:26:36,320 --> 00:26:40,000
+about
+
+666
+00:26:37,520 --> 00:26:42,880
+people we talk about
+
+667
+00:26:40,000 --> 00:26:45,520
+software we talk about systems hardware
+
+668
+00:26:42,880 --> 00:26:47,200
+etc natural resources
+
+669
+00:26:45,520 --> 00:26:49,200
+so there are many different types of
+
+670
+00:26:47,200 --> 00:26:50,159
+resources that needs to collaborate
+
+671
+00:26:49,200 --> 00:26:53,039
+together
+
+672
+00:26:50,159 --> 00:26:54,799
+to to achieve the goals and you know we
+
+673
+00:26:53,039 --> 00:26:55,919
+sometimes take take an example if you
+
+674
+00:26:54,799 --> 00:26:58,720
+have um
+
+675
+00:26:55,919 --> 00:27:00,799
+if you model the missile and um you know
+
+676
+00:26:58,720 --> 00:27:03,520
+the missile system of interest for for
+
+677
+00:27:00,799 --> 00:27:06,320
+for for for some and it's been
+
+678
+00:27:03,520 --> 00:27:08,880
+um for the company that designs it right
+
+679
+00:27:06,320 --> 00:27:10,559
+uh but if we if we look from the uh
+
+680
+00:27:08,880 --> 00:27:13,679
+ministry of defense perspective for
+
+681
+00:27:10,559 --> 00:27:15,600
+example uh then you know they're buying
+
+682
+00:27:13,679 --> 00:27:18,159
+not only the missile but they need to
+
+683
+00:27:15,600 --> 00:27:20,159
+understand how they are going to use it
+
+684
+00:27:18,159 --> 00:27:22,559
+so they need the launch platform they
+
+685
+00:27:20,159 --> 00:27:24,960
+need some transportation how to move it
+
+686
+00:27:22,559 --> 00:27:27,919
+from one place to the other or some uh
+
+687
+00:27:24,960 --> 00:27:30,159
+if it's stationary some some place to
+
+688
+00:27:27,919 --> 00:27:31,919
+place it they need personnel to be able
+
+689
+00:27:30,159 --> 00:27:34,399
+to to be capable
+
+690
+00:27:31,919 --> 00:27:37,279
+to use it so they have to do training uh
+
+691
+00:27:34,399 --> 00:27:38,159
+they have to have some competencies and
+
+692
+00:27:37,279 --> 00:27:39,919
+all
+
+693
+00:27:38,159 --> 00:27:42,640
+these kind of things they can be they
+
+694
+00:27:39,919 --> 00:27:45,039
+can be captured and modeled and and that
+
+695
+00:27:42,640 --> 00:27:47,919
+usually goes just beyond the simple uh
+
+696
+00:27:45,039 --> 00:27:50,240
+you know system of interest
+
+697
+00:27:47,919 --> 00:27:51,039
+and of course there are some other other
+
+698
+00:27:50,240 --> 00:27:52,720
+um
+
+699
+00:27:51,039 --> 00:27:55,279
+viewpoints in addition like security
+
+700
+00:27:52,720 --> 00:27:58,240
+which quite important these days
+
+701
+00:27:55,279 --> 00:28:00,320
+you know to cyber security
+
+702
+00:27:58,240 --> 00:28:03,360
+in any industry it's it's not it's not
+
+703
+00:28:00,320 --> 00:28:06,320
+specifically a defense on um
+
+704
+00:28:03,360 --> 00:28:08,240
+some standards and and and services but
+
+705
+00:28:06,320 --> 00:28:10,880
+it's really about these three and and
+
+706
+00:28:08,240 --> 00:28:13,679
+how they how they um relate together and
+
+707
+00:28:10,880 --> 00:28:16,720
+traceability between them
+
+708
+00:28:13,679 --> 00:28:18,880
+so that's so to say uh the the
+
+709
+00:28:16,720 --> 00:28:21,120
+the default approach how to start with
+
+710
+00:28:18,880 --> 00:28:23,760
+your effort the the minimal
+
+711
+00:28:21,120 --> 00:28:25,760
+uif so to say i think at first glance it
+
+712
+00:28:23,760 --> 00:28:28,080
+seems for many people daunting and too
+
+713
+00:28:25,760 --> 00:28:30,320
+extensive but people also say the same
+
+714
+00:28:28,080 --> 00:28:33,520
+about assistant and human that's too
+
+715
+00:28:30,320 --> 00:28:36,159
+complex too much and
+
+716
+00:28:33,520 --> 00:28:38,000
+but they do not understand that it's
+
+717
+00:28:36,159 --> 00:28:39,840
+only a language
+
+718
+00:28:38,000 --> 00:28:41,520
+an offer and you don't have to pick
+
+719
+00:28:39,840 --> 00:28:42,480
+everything
+
+720
+00:28:41,520 --> 00:28:45,520
+and
+
+721
+00:28:42,480 --> 00:28:48,880
+uaf um is much much more like if you
+
+722
+00:28:45,520 --> 00:28:50,480
+open up publications about uaf it's
+
+723
+00:28:48,880 --> 00:28:51,279
+all these viewpoints and
+
+724
+00:28:50,480 --> 00:28:54,559
+so
+
+725
+00:28:51,279 --> 00:28:56,640
+your recommendation is then um if i do
+
+726
+00:28:54,559 --> 00:28:59,279
+not have a specific plan uh to start
+
+727
+00:28:56,640 --> 00:29:01,679
+with uif i start with these three major
+
+728
+00:28:59,279 --> 00:29:04,320
+viewpoints then right straight that's
+
+729
+00:29:01,679 --> 00:29:05,919
+exactly the case and then yeah okay yeah
+
+730
+00:29:04,320 --> 00:29:08,159
+that's exactly the case plus you know we
+
+731
+00:29:05,919 --> 00:29:10,320
+have those uh also columns that
+
+732
+00:29:08,159 --> 00:29:12,559
+represent different types of diagrams
+
+733
+00:29:10,320 --> 00:29:14,240
+different xsml that's that's called
+
+734
+00:29:12,559 --> 00:29:17,039
+pillars sometimes you know like
+
+735
+00:29:14,240 --> 00:29:18,960
+requirements structure behavior
+
+736
+00:29:17,039 --> 00:29:20,720
+so we have we have more of those and
+
+737
+00:29:18,960 --> 00:29:23,200
+then you you can also decide you know
+
+738
+00:29:20,720 --> 00:29:25,520
+which ones you you need to do so like uh
+
+739
+00:29:23,200 --> 00:29:27,279
+you know requirements structure behavior
+
+740
+00:29:25,520 --> 00:29:28,880
+they're usually
+
+741
+00:29:27,279 --> 00:29:31,840
+what you commonly do
+
+742
+00:29:28,880 --> 00:29:33,200
+when we go more towards constraints or
+
+743
+00:29:31,840 --> 00:29:35,440
+you know the
+
+744
+00:29:33,200 --> 00:29:37,360
+time aspect that's not
+
+745
+00:29:35,440 --> 00:29:38,799
+something you always do it just really
+
+746
+00:29:37,360 --> 00:29:40,559
+depends on
+
+747
+00:29:38,799 --> 00:29:41,279
+you know parametrics the same in small
+
+748
+00:29:40,559 --> 00:29:43,039
+you know
+
+749
+00:29:41,279 --> 00:29:46,240
+don't do parametrics all the time it's
+
+750
+00:29:43,039 --> 00:29:47,679
+just for some specific uh tasks
+
+751
+00:29:46,240 --> 00:29:49,679
+usually
+
+752
+00:29:47,679 --> 00:29:51,840
+it reminds me a bit of product line
+
+753
+00:29:49,679 --> 00:29:54,320
+engineering so i have a set of features
+
+754
+00:29:51,840 --> 00:29:56,640
+that i can use
+
+755
+00:29:54,320 --> 00:29:58,720
+and then i also have these uh
+
+756
+00:29:56,640 --> 00:30:00,480
+feature constraints so if i select this
+
+757
+00:29:58,720 --> 00:30:02,720
+feature i also have to select that
+
+758
+00:30:00,480 --> 00:30:04,960
+feature or if i select this feature i
+
+759
+00:30:02,720 --> 00:30:07,600
+cannot use this feature uh you have
+
+760
+00:30:04,960 --> 00:30:10,320
+similar constraints in uaf or a
+
+761
+00:30:07,600 --> 00:30:12,399
+guideline how how i can select the the
+
+762
+00:30:10,320 --> 00:30:14,080
+right features so at the end that i for
+
+763
+00:30:12,399 --> 00:30:16,640
+example still have a traceability in the
+
+764
+00:30:14,080 --> 00:30:19,760
+model which doesn't work if i remove
+
+765
+00:30:16,640 --> 00:30:22,399
+one important part of the chain
+
+766
+00:30:19,760 --> 00:30:23,760
+uh so so there is uh probably the uaf
+
+767
+00:30:22,399 --> 00:30:25,520
+guide that i mentioned that's coming
+
+768
+00:30:23,760 --> 00:30:27,760
+with the next release is the closest to
+
+769
+00:30:25,520 --> 00:30:30,240
+that where where we explain you know
+
+770
+00:30:27,760 --> 00:30:32,240
+every step in in more details what what
+
+771
+00:30:30,240 --> 00:30:34,000
+is it about and what you need to do and
+
+772
+00:30:32,240 --> 00:30:37,120
+which step follows the other and what
+
+773
+00:30:34,000 --> 00:30:38,640
+are the um impacts from one step towards
+
+774
+00:30:37,120 --> 00:30:41,120
+the other so there's going to be the
+
+775
+00:30:38,640 --> 00:30:43,440
+impact kind of impact map
+
+776
+00:30:41,120 --> 00:30:45,760
+for for for every viewpoint so so that's
+
+777
+00:30:43,440 --> 00:30:47,520
+probably the case but in general uh you
+
+778
+00:30:45,760 --> 00:30:48,960
+know when you say it's big
+
+779
+00:30:47,520 --> 00:30:51,039
+i think it's really trade-off because
+
+780
+00:30:48,960 --> 00:30:53,600
+sometimes if you take the pure
+
+781
+00:30:51,039 --> 00:30:54,960
+pure systema language and you over
+
+782
+00:30:53,600 --> 00:30:57,120
+customize it
+
+783
+00:30:54,960 --> 00:30:59,760
+it's really expensive
+
+784
+00:30:57,120 --> 00:31:02,240
+to maintain afterwards so maybe it's
+
+785
+00:30:59,760 --> 00:31:03,519
+better to take the bigger thing and just
+
+786
+00:31:02,240 --> 00:31:05,840
+cut it down
+
+787
+00:31:03,519 --> 00:31:08,000
+then to take the smaller and grow it
+
+788
+00:31:05,840 --> 00:31:10,240
+expand it towards your knees it's the
+
+789
+00:31:08,000 --> 00:31:12,000
+end of trade-off
+
+790
+00:31:10,240 --> 00:31:13,760
+and people somehow think about okay we
+
+791
+00:31:12,000 --> 00:31:16,799
+take simpler but at the end they they
+
+792
+00:31:13,760 --> 00:31:16,799
+have something like that
+
+793
+00:31:17,519 --> 00:31:21,919
+yeah speaking of susan l or tim do you
+
+794
+00:31:21,120 --> 00:31:22,960
+no
+
+795
+00:31:21,919 --> 00:31:26,320
+okay
+
+796
+00:31:22,960 --> 00:31:27,760
+yeah speaking of system l um
+
+797
+00:31:26,320 --> 00:31:30,960
+would
+
+798
+00:31:27,760 --> 00:31:32,480
+would system lv2 influence uif in some
+
+799
+00:31:30,960 --> 00:31:34,880
+reason so would you
+
+800
+00:31:32,480 --> 00:31:35,600
+would you change to system l2 and would
+
+801
+00:31:34,880 --> 00:31:37,600
+it
+
+802
+00:31:35,600 --> 00:31:38,720
+be
+
+803
+00:31:37,600 --> 00:31:41,039
+yeah
+
+804
+00:31:38,720 --> 00:31:42,720
+bring advantages which you don't have
+
+805
+00:31:41,039 --> 00:31:45,919
+right now
+
+806
+00:31:42,720 --> 00:31:47,039
+it would definitely influence heavily
+
+807
+00:31:45,919 --> 00:31:49,440
+it's just
+
+808
+00:31:47,039 --> 00:31:50,640
+the the question of time of how we
+
+809
+00:31:49,440 --> 00:31:52,960
+handle that
+
+810
+00:31:50,640 --> 00:31:56,080
+our current plan is to
+
+811
+00:31:52,960 --> 00:31:58,880
+have uaf we two
+
+812
+00:31:56,080 --> 00:32:02,399
+or faults y
+
+813
+00:31:58,880 --> 00:32:04,960
+compatible with the system lv2 um we we
+
+814
+00:32:02,399 --> 00:32:06,480
+would have a good match in numbers um
+
+815
+00:32:04,960 --> 00:32:08,799
+b2v2
+
+816
+00:32:06,480 --> 00:32:10,240
+um it would be clear what we're talking
+
+817
+00:32:08,799 --> 00:32:12,320
+about but
+
+818
+00:32:10,240 --> 00:32:13,519
+then then we need to think about how we
+
+819
+00:32:12,320 --> 00:32:15,840
+want to
+
+820
+00:32:13,519 --> 00:32:18,159
+to base uaf on smr2 because they can be
+
+821
+00:32:15,840 --> 00:32:20,960
+couple of different practices we can we
+
+822
+00:32:18,159 --> 00:32:24,240
+can take our conceptual meta model and
+
+823
+00:32:20,960 --> 00:32:26,720
+base it on the system our v2 and caramel
+
+824
+00:32:24,240 --> 00:32:26,720
+concepts
+
+825
+00:32:26,799 --> 00:32:31,519
+in in that case we would not
+
+826
+00:32:28,960 --> 00:32:35,039
+probably need the separate maintenance
+
+827
+00:32:31,519 --> 00:32:37,679
+of the implementation in the samal
+
+828
+00:32:35,039 --> 00:32:39,200
+and the other option is just to make
+
+829
+00:32:37,679 --> 00:32:40,960
+keep what we have and just add
+
+830
+00:32:39,200 --> 00:32:42,960
+additional uh
+
+831
+00:32:40,960 --> 00:32:46,720
+document to the spec which would be
+
+832
+00:32:42,960 --> 00:32:48,640
+implementation of uaf and the smlv2
+
+833
+00:32:46,720 --> 00:32:49,840
+um so we have to think carefully because
+
+834
+00:32:48,640 --> 00:32:52,399
+you know as is
+
+835
+00:32:49,840 --> 00:32:55,600
+they're not only small tools that that
+
+836
+00:32:52,399 --> 00:32:57,200
+implement uaf um and not not only some
+
+837
+00:32:55,600 --> 00:32:59,279
+other users so if we change the
+
+838
+00:32:57,200 --> 00:33:01,679
+conceptual meta model
+
+839
+00:32:59,279 --> 00:33:03,200
+uh for them uh that's that's the big
+
+840
+00:33:01,679 --> 00:33:05,360
+impact
+
+841
+00:33:03,200 --> 00:33:07,360
+because they have to move towards sml
+
+842
+00:33:05,360 --> 00:33:08,720
+where they're maybe more like business
+
+843
+00:33:07,360 --> 00:33:10,880
+kind of tools
+
+844
+00:33:08,720 --> 00:33:12,240
+uh business architecture kind of tools
+
+845
+00:33:10,880 --> 00:33:14,159
+and then for them that that gives
+
+846
+00:33:12,240 --> 00:33:17,039
+additional complexity on the other side
+
+847
+00:33:14,159 --> 00:33:19,360
+we also want to keep um
+
+848
+00:33:17,039 --> 00:33:21,840
+support for the system l1.x which we
+
+849
+00:33:19,360 --> 00:33:24,480
+believe will be at least for 10 years in
+
+850
+00:33:21,840 --> 00:33:27,200
+the future it will definitely be here
+
+851
+00:33:24,480 --> 00:33:29,360
+and many projects will will run on it so
+
+852
+00:33:27,200 --> 00:33:31,360
+we have to somehow keep this backwards
+
+853
+00:33:29,360 --> 00:33:33,760
+compatibility so at the same time we
+
+854
+00:33:31,360 --> 00:33:35,440
+have to maintain the implementation it's
+
+855
+00:33:33,760 --> 00:33:37,279
+a small we want
+
+856
+00:33:35,440 --> 00:33:39,360
+so it's really in considerations we have
+
+857
+00:33:37,279 --> 00:33:40,880
+to we have to think of how to how to
+
+858
+00:33:39,360 --> 00:33:43,039
+move forward
+
+859
+00:33:40,880 --> 00:33:46,480
+and and that's really you know the tough
+
+860
+00:33:43,039 --> 00:33:46,480
+work um ahead of us
+
+861
+00:33:46,559 --> 00:33:51,279
+yeah i think it's for example how to
+
+862
+00:33:48,399 --> 00:33:52,960
+maintain the the old version
+
+863
+00:33:51,279 --> 00:33:55,039
+for this movie one when you already have
+
+864
+00:33:52,960 --> 00:33:57,039
+the new version because according to the
+
+865
+00:33:55,039 --> 00:33:59,919
+omg policies if you have published the
+
+866
+00:33:57,039 --> 00:34:01,519
+new version the old version is not
+
+867
+00:33:59,919 --> 00:34:03,519
+not there anymore it's the same for
+
+868
+00:34:01,519 --> 00:34:05,840
+system lv2 as soon as it's officially
+
+869
+00:34:03,519 --> 00:34:07,919
+published there is no system lv1 anymore
+
+870
+00:34:05,840 --> 00:34:09,599
+so it's well it's not maintained anymore
+
+871
+00:34:07,919 --> 00:34:11,359
+but of course it's still there it was
+
+872
+00:34:09,599 --> 00:34:14,720
+published but it's not maintained
+
+873
+00:34:11,359 --> 00:34:17,599
+anymore no official specifications
+
+874
+00:34:14,720 --> 00:34:17,599
+it's complicated
+
+875
+00:34:18,240 --> 00:34:22,560
+plus in terms of a workload you know uh
+
+876
+00:34:20,560 --> 00:34:24,720
+like like with system we have
+
+877
+00:34:22,560 --> 00:34:26,800
+different teams working on
+
+878
+00:34:24,720 --> 00:34:30,399
+uh one.x right different people leading
+
+879
+00:34:26,800 --> 00:34:32,079
+the groups on one.x and on two um
+
+880
+00:34:30,399 --> 00:34:34,800
+so it's it's it's really you know the
+
+881
+00:34:32,079 --> 00:34:35,520
+big big scale you have to somehow manage
+
+882
+00:34:34,800 --> 00:34:37,359
+it
+
+883
+00:34:35,520 --> 00:34:39,440
+yeah yeah and i think
+
+884
+00:34:37,359 --> 00:34:42,720
+yeah and i think uh
+
+885
+00:34:39,440 --> 00:34:46,159
+when we are talking about a future uml
+
+886
+00:34:42,720 --> 00:34:50,079
+three i i really can't imagine that
+
+887
+00:34:46,159 --> 00:34:51,679
+omg says okay uml 2 is gone all our meta
+
+888
+00:34:50,079 --> 00:34:52,879
+model and and
+
+889
+00:34:51,679 --> 00:34:57,440
+whatever
+
+890
+00:34:52,879 --> 00:34:59,280
+uh things they are in uh until yeah
+
+891
+00:34:57,440 --> 00:35:01,839
+even until moth
+
+892
+00:34:59,280 --> 00:35:04,160
+yeah it's everything gone we have um
+
+893
+00:35:01,839 --> 00:35:06,240
+three now i can't imagine that one
+
+894
+00:35:04,160 --> 00:35:08,880
+and it's similar to this system
+
+895
+00:35:06,240 --> 00:35:08,880
+right yeah
+
+896
+00:35:10,000 --> 00:35:15,599
+yeah so you already mentioned that uaf
+
+897
+00:35:12,720 --> 00:35:18,880
+is stopped only for military projects i
+
+898
+00:35:15,599 --> 00:35:21,040
+can also use it for for other stuff
+
+899
+00:35:18,880 --> 00:35:24,480
+can you mention a few of them so what is
+
+900
+00:35:21,040 --> 00:35:29,119
+a typical use case for a company to use
+
+901
+00:35:24,480 --> 00:35:30,400
+uaf so i assume not for a normal system
+
+902
+00:35:29,119 --> 00:35:31,920
+so
+
+903
+00:35:30,400 --> 00:35:32,960
+so
+
+904
+00:35:31,920 --> 00:35:35,599
+what's yeah
+
+905
+00:35:32,960 --> 00:35:38,079
+i would i would say uif is a relatively
+
+906
+00:35:35,599 --> 00:35:41,359
+new standard just just look for how much
+
+907
+00:35:38,079 --> 00:35:42,320
+time it took to um really uh
+
+908
+00:35:41,359 --> 00:35:45,040
+you know
+
+909
+00:35:42,320 --> 00:35:49,200
+start using sesame which was first
+
+910
+00:35:45,040 --> 00:35:51,280
+introduced in 2007 right or 2006. um and
+
+911
+00:35:49,200 --> 00:35:54,160
+and and now we just see you know that
+
+912
+00:35:51,280 --> 00:35:56,640
+the heavy adoption in in industry uh and
+
+913
+00:35:54,160 --> 00:35:58,320
+for the first 10 years it was really
+
+914
+00:35:56,640 --> 00:36:01,440
+rarely
+
+915
+00:35:58,320 --> 00:36:04,640
+adopted just you know by some companies
+
+916
+00:36:01,440 --> 00:36:07,599
+with uaf um it's it's again
+
+917
+00:36:04,640 --> 00:36:11,200
+that the user base outside of defense is
+
+918
+00:36:07,599 --> 00:36:13,920
+not huge uh it's growing uh all the time
+
+919
+00:36:11,200 --> 00:36:16,480
+we we try to emphasize that uh one of
+
+920
+00:36:13,920 --> 00:36:18,880
+the things is the uaf group on linkedin
+
+921
+00:36:16,480 --> 00:36:21,520
+so i highly encourage uh for those who
+
+922
+00:36:18,880 --> 00:36:23,520
+are not on on on the group join it there
+
+923
+00:36:21,520 --> 00:36:26,560
+is community where publish
+
+924
+00:36:23,520 --> 00:36:30,079
+many many user stories
+
+925
+00:36:26,560 --> 00:36:31,520
+also you know the other area is the uaf
+
+926
+00:36:30,079 --> 00:36:34,560
+annual
+
+927
+00:36:31,520 --> 00:36:37,680
+summit which we started to do every year
+
+928
+00:36:34,560 --> 00:36:39,440
+in in march like probably five years ago
+
+929
+00:36:37,680 --> 00:36:40,960
+and we last year grew to 700
+
+930
+00:36:39,440 --> 00:36:44,160
+registrations
+
+931
+00:36:40,960 --> 00:36:46,720
+which almost like in cozy symposium
+
+932
+00:36:44,160 --> 00:36:49,119
+when it became virtual so that that's
+
+933
+00:36:46,720 --> 00:36:52,720
+pretty good attendance and we definitely
+
+934
+00:36:49,119 --> 00:36:55,119
+keep it to virtual or hybrid because you
+
+935
+00:36:52,720 --> 00:36:57,599
+know we we
+
+936
+00:36:55,119 --> 00:36:59,359
+think that it it's really uh pays off
+
+937
+00:36:57,599 --> 00:37:01,040
+and many people join
+
+938
+00:36:59,359 --> 00:37:04,400
+and and this is where we have you know
+
+939
+00:37:01,040 --> 00:37:07,200
+some stories to share um uh projects and
+
+940
+00:37:04,400 --> 00:37:10,400
+in the system of system engineering and
+
+941
+00:37:07,200 --> 00:37:11,839
+um infrastructure projects like electric
+
+942
+00:37:10,400 --> 00:37:13,520
+roads um
+
+943
+00:37:11,839 --> 00:37:15,359
+in sweden
+
+944
+00:37:13,520 --> 00:37:16,560
+there are some in in gas and oil
+
+945
+00:37:15,359 --> 00:37:17,520
+industry
+
+946
+00:37:16,560 --> 00:37:19,760
+um
+
+947
+00:37:17,520 --> 00:37:22,720
+electric grids
+
+948
+00:37:19,760 --> 00:37:24,800
+and then there are also you know even
+
+949
+00:37:22,720 --> 00:37:26,160
+if it's sometimes you know defense
+
+950
+00:37:24,800 --> 00:37:27,599
+industry but not specifically the
+
+951
+00:37:26,160 --> 00:37:29,119
+defense use case
+
+952
+00:37:27,599 --> 00:37:31,599
+so there are there are some on digital
+
+953
+00:37:29,119 --> 00:37:33,680
+transformation on the enterprise where
+
+954
+00:37:31,599 --> 00:37:35,520
+um
+
+955
+00:37:33,680 --> 00:37:37,680
+some companies find it
+
+956
+00:37:35,520 --> 00:37:40,480
+a useful tool like deloitte consulting
+
+957
+00:37:37,680 --> 00:37:42,960
+for example find uaf as a very useful
+
+958
+00:37:40,480 --> 00:37:45,680
+tool to do digital transformation of the
+
+959
+00:37:42,960 --> 00:37:47,359
+uh of their clients of the organizations
+
+960
+00:37:45,680 --> 00:37:49,119
+where you can define how you transform
+
+961
+00:37:47,359 --> 00:37:51,599
+the enterprise from one state to the
+
+962
+00:37:49,119 --> 00:37:53,440
+other and what resources are needed and
+
+963
+00:37:51,599 --> 00:37:55,760
+what processes are needed so that's
+
+964
+00:37:53,440 --> 00:37:58,960
+relatively easy it is
+
+965
+00:37:55,760 --> 00:38:00,880
+new new use case and and we did quite a
+
+966
+00:37:58,960 --> 00:38:03,599
+lot in the recent version to to improve
+
+967
+00:38:00,880 --> 00:38:06,320
+in this area um to define the drivers
+
+968
+00:38:03,599 --> 00:38:09,280
+for change the challenges we face
+
+969
+00:38:06,320 --> 00:38:12,240
+um the effects the outcomes such
+
+970
+00:38:09,280 --> 00:38:15,839
+concepts that we didn't have previously
+
+971
+00:38:12,240 --> 00:38:18,320
+in in the uaf and um that industry uh
+
+972
+00:38:15,839 --> 00:38:20,960
+wanted to have in terms of supporting
+
+973
+00:38:18,320 --> 00:38:23,119
+the the digital uh transformation topic
+
+974
+00:38:20,960 --> 00:38:26,400
+there are some also some some stories
+
+975
+00:38:23,119 --> 00:38:28,240
+from from automotive in this area
+
+976
+00:38:26,400 --> 00:38:30,880
+and we started some more collaboration
+
+977
+00:38:28,240 --> 00:38:33,040
+with the automotive uh and in
+
+978
+00:38:30,880 --> 00:38:36,800
+germany on um
+
+979
+00:38:33,040 --> 00:38:38,800
+uh autonomous mobility uh projects uh
+
+980
+00:38:36,800 --> 00:38:42,560
+within within the pro step
+
+981
+00:38:38,800 --> 00:38:44,880
+yeah so we we we hope we can um reach
+
+982
+00:38:42,560 --> 00:38:46,720
+achieve something uh in this direction
+
+983
+00:38:44,880 --> 00:38:48,320
+you know perhaps the specifically
+
+984
+00:38:46,720 --> 00:38:51,200
+adopted guidance
+
+985
+00:38:48,320 --> 00:38:53,520
+of the uaf and how you would use it so
+
+986
+00:38:51,200 --> 00:38:55,119
+so we're trying to to expand and to go
+
+987
+00:38:53,520 --> 00:38:57,280
+into
+
+988
+00:38:55,119 --> 00:39:00,560
+other directions uh
+
+989
+00:38:57,280 --> 00:39:03,440
+of course at the same time we still love
+
+990
+00:39:00,560 --> 00:39:06,560
+our um defense customers and we try to
+
+991
+00:39:03,440 --> 00:39:08,079
+do the best to them so i just don't want
+
+992
+00:39:06,560 --> 00:39:10,400
+to scare people
+
+993
+00:39:08,079 --> 00:39:12,480
+listen to this podcast yeah right
+
+994
+00:39:10,400 --> 00:39:14,720
+primarily still is still our industry
+
+995
+00:39:12,480 --> 00:39:16,560
+right so we we survive based on it that
+
+996
+00:39:14,720 --> 00:39:18,720
+the main people contributing are are
+
+997
+00:39:16,560 --> 00:39:21,839
+coming from a defense world
+
+998
+00:39:18,720 --> 00:39:24,480
+um but it it also you know i want to say
+
+999
+00:39:21,839 --> 00:39:27,119
+that we are looking towards you know
+
+1000
+00:39:24,480 --> 00:39:30,640
+expanding horizons and
+
+1001
+00:39:27,119 --> 00:39:32,079
+um towards the different ways of of of
+
+1002
+00:39:30,640 --> 00:39:33,680
+using uaf
+
+1003
+00:39:32,079 --> 00:39:36,160
+okay
+
+1004
+00:39:33,680 --> 00:39:38,240
+all right so that means so
+
+1005
+00:39:36,160 --> 00:39:39,119
+if i'm coming from a industry which is
+
+1006
+00:39:38,240 --> 00:39:42,560
+not
+
+1007
+00:39:39,119 --> 00:39:44,720
+defense and space um
+
+1008
+00:39:42,560 --> 00:39:47,040
+i already learned i can join the
+
+1009
+00:39:44,720 --> 00:39:49,040
+linkedin group um
+
+1010
+00:39:47,040 --> 00:39:50,400
+can i also just
+
+1011
+00:39:49,040 --> 00:39:53,040
+come to
+
+1012
+00:39:50,400 --> 00:39:55,920
+to the omg meeting and participate or
+
+1013
+00:39:53,040 --> 00:39:58,400
+how does it work absolutely absolutely
+
+1014
+00:39:55,920 --> 00:40:00,560
+definitely you you can participate uh
+
+1015
+00:39:58,400 --> 00:40:03,599
+you can join linkedin group you can
+
+1016
+00:40:00,560 --> 00:40:05,280
+contact me or other members of of the
+
+1017
+00:40:03,599 --> 00:40:06,800
+omg
+
+1018
+00:40:05,280 --> 00:40:11,280
+group um
+
+1019
+00:40:06,800 --> 00:40:12,560
+so yeah yeah we're open to communicate
+
+1020
+00:40:11,280 --> 00:40:14,319
+great
+
+1021
+00:40:12,560 --> 00:40:16,319
+okay
+
+1022
+00:40:14,319 --> 00:40:17,440
+so well i think we are running out of
+
+1023
+00:40:16,319 --> 00:40:20,720
+time
+
+1024
+00:40:17,440 --> 00:40:23,200
+and we are running out of questions
+
+1025
+00:40:20,720 --> 00:40:24,000
+not really though it's a huge topic so
+
+1026
+00:40:23,200 --> 00:40:28,079
+we
+
+1027
+00:40:24,000 --> 00:40:30,800
+could talk hours about it um absolutely
+
+1028
+00:40:28,079 --> 00:40:31,920
+but we already covered a lot and
+
+1029
+00:40:30,800 --> 00:40:33,839
+well so
+
+1030
+00:40:31,920 --> 00:40:35,520
+yeah that's close
+
+1031
+00:40:33,839 --> 00:40:36,880
+this episode
+
+1032
+00:40:35,520 --> 00:40:40,160
+and
+
+1033
+00:40:36,880 --> 00:40:43,359
+this time we already know the next topic
+
+1034
+00:40:40,160 --> 00:40:46,640
+and the next date
+
+1035
+00:40:43,359 --> 00:40:49,920
+next topic is again an episode in our
+
+1036
+00:40:46,640 --> 00:40:52,319
+series about mbse tools
+
+1037
+00:40:49,920 --> 00:40:53,520
+and we will have a look on the ink query
+
+1038
+00:40:52,319 --> 00:40:55,119
+suite
+
+1039
+00:40:53,520 --> 00:40:56,560
+from inquiry
+
+1040
+00:40:55,119 --> 00:40:59,040
+labs i think it's the name of their
+
+1041
+00:40:56,560 --> 00:41:02,160
+company and our guests are one of the
+
+1042
+00:40:59,040 --> 00:41:04,400
+founders espana from that company
+
+1043
+00:41:02,160 --> 00:41:06,800
+and they have a collaboration with zuken
+
+1044
+00:41:04,400 --> 00:41:06,800
+and
+
+1045
+00:41:12,160 --> 00:41:14,400
+yes
+
+1046
+00:41:17,040 --> 00:41:22,400
+you know him very well he will also join
+
+1047
+00:41:19,359 --> 00:41:23,280
+us so and uh the date is november 18th
+
+1048
+00:41:22,400 --> 00:41:26,800
+um
+
+1049
+00:41:23,280 --> 00:41:30,800
+i think it's a thursday or so and again
+
+1050
+00:41:26,800 --> 00:41:34,640
+at 7 central european time
+
+1051
+00:41:30,800 --> 00:41:36,880
+so yeah and well finally
+
+1052
+00:41:34,640 --> 00:41:38,319
+do not forget
+
+1053
+00:41:36,880 --> 00:41:41,280
+trust us
+
+1054
+00:41:38,319 --> 00:41:43,760
+we are systems engineers
+
+1055
+00:41:41,280 --> 00:41:46,880
+goodbye and thank you already for being
+
+1056
+00:41:43,760 --> 00:41:46,880
+with us yeah thank you
+

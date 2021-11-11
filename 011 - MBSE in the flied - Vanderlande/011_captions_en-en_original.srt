@@ -1,0 +1,4200 @@
+1
+00:00:01,760 --> 00:00:07,839
+okay so hello welcome
+
+2
+00:00:03,919 --> 00:00:11,679
+to a new episode of our mbse podcast
+
+3
+00:00:07,839 --> 00:00:13,120
+uh today we start our new series mbse in
+
+4
+00:00:11,679 --> 00:00:16,240
+the field and take a look
+
+5
+00:00:13,120 --> 00:00:18,560
+at how mbse is used in practice
+
+6
+00:00:16,240 --> 00:00:19,680
+our guest is from the company vender
+
+7
+00:00:18,560 --> 00:00:21,920
+lender
+
+8
+00:00:19,680 --> 00:00:23,199
+and well although you may have never
+
+9
+00:00:21,920 --> 00:00:25,840
+heard of the company
+
+10
+00:00:23,199 --> 00:00:27,519
+you have mostly likely worked with the
+
+11
+00:00:25,840 --> 00:00:29,359
+system either directly
+
+12
+00:00:27,519 --> 00:00:31,359
+or indirectly among other things
+
+13
+00:00:29,359 --> 00:00:32,160
+wonderland develops baggage handling
+
+14
+00:00:31,359 --> 00:00:34,719
+systems
+
+15
+00:00:32,160 --> 00:00:36,000
+for airports so and we are pleased to
+
+16
+00:00:34,719 --> 00:00:38,640
+have fatih akan
+
+17
+00:00:36,000 --> 00:00:41,200
+as our guest today and fatih please
+
+18
+00:00:38,640 --> 00:00:43,680
+introduce yourself
+
+19
+00:00:41,200 --> 00:00:45,600
+hi tim christian thanks for having me in
+
+20
+00:00:43,680 --> 00:00:49,200
+this uh
+
+21
+00:00:45,600 --> 00:00:52,480
+amazing nbsc podcast first of all
+
+22
+00:00:49,200 --> 00:00:55,600
+um my name is fatih arkhan
+
+23
+00:00:52,480 --> 00:00:57,440
+i work in architecture and strategy team
+
+24
+00:00:55,600 --> 00:01:00,239
+in bundo london
+
+25
+00:00:57,440 --> 00:01:02,000
+we are as a team defining the reference
+
+26
+00:01:00,239 --> 00:01:03,840
+architectures
+
+27
+00:01:02,000 --> 00:01:05,519
+and the design methods and the
+
+28
+00:01:03,840 --> 00:01:07,119
+guidelines for all of our business
+
+29
+00:01:05,519 --> 00:01:09,280
+segments
+
+30
+00:01:07,119 --> 00:01:13,840
+you can generalize our domain as
+
+31
+00:01:09,280 --> 00:01:13,840
+material handling systems in waldoland
+
+32
+00:01:13,920 --> 00:01:18,240
+recording in progress but also the the
+
+33
+00:01:16,560 --> 00:01:21,680
+warehousing
+
+34
+00:01:18,240 --> 00:01:24,159
+domain and the past domain
+
+35
+00:01:21,680 --> 00:01:25,200
+we delivered solutions to to our
+
+36
+00:01:24,159 --> 00:01:29,200
+customers which
+
+37
+00:01:25,200 --> 00:01:33,600
+are like hong kong airports heathrow
+
+38
+00:01:29,200 --> 00:01:37,119
+airports orlando amsterdam
+
+39
+00:01:33,600 --> 00:01:41,280
+istanbul airport amazon lidl
+
+40
+00:01:37,119 --> 00:01:42,960
+fedex ups dhl are also our customers
+
+41
+00:01:41,280 --> 00:01:45,759
+from warehousing and parcel business
+
+42
+00:01:42,960 --> 00:01:46,960
+so we are global leader in airports but
+
+43
+00:01:45,759 --> 00:01:50,000
+also a key player
+
+44
+00:01:46,960 --> 00:01:52,840
+in these other businesses
+
+45
+00:01:50,000 --> 00:01:55,119
+um i started to work for one london in
+
+46
+00:01:52,840 --> 00:01:58,159
+2017
+
+47
+00:01:55,119 --> 00:02:01,439
+as a solution architect in
+
+48
+00:01:58,159 --> 00:02:05,439
+airports business segment
+
+49
+00:02:01,439 --> 00:02:09,840
+and then we i also moved to this
+
+50
+00:02:05,439 --> 00:02:09,840
+new role last year
+
+51
+00:02:10,000 --> 00:02:14,800
+my bachelor and master degree is in
+
+52
+00:02:12,400 --> 00:02:17,680
+embedded software
+
+53
+00:02:14,800 --> 00:02:18,879
+and hardware engineering that was the
+
+54
+00:02:17,680 --> 00:02:21,920
+first five years of
+
+55
+00:02:18,879 --> 00:02:23,920
+my 15 years of engineering story and
+
+56
+00:02:21,920 --> 00:02:26,879
+later on i became a systems engineer in
+
+57
+00:02:23,920 --> 00:02:30,319
+the air defense and weapon systems
+
+58
+00:02:26,879 --> 00:02:33,040
+and in 2017 after
+
+59
+00:02:30,319 --> 00:02:33,599
+doing this weapon systems engineering
+
+60
+00:02:33,040 --> 00:02:36,160
+for
+
+61
+00:02:33,599 --> 00:02:37,360
+six years i moved to netherlands to work
+
+62
+00:02:36,160 --> 00:02:40,560
+for vandal under and
+
+63
+00:02:37,360 --> 00:02:43,440
+for the last four years basically i'm
+
+64
+00:02:40,560 --> 00:02:44,879
+i'm i'm doing this systems architecting
+
+65
+00:02:43,440 --> 00:02:48,840
+both for the projects
+
+66
+00:02:44,879 --> 00:02:51,280
+and also for the technology rnd side of
+
+67
+00:02:48,840 --> 00:02:54,319
+development
+
+68
+00:02:51,280 --> 00:02:57,440
+okay very cool cool experience
+
+69
+00:02:54,319 --> 00:03:01,040
+a good good kickstart for mbse
+
+70
+00:02:57,440 --> 00:03:04,080
+so could you give us a brief
+
+71
+00:03:01,040 --> 00:03:05,840
+motivation what was the
+
+72
+00:03:04,080 --> 00:03:08,959
+yeah the beginning of the journey the
+
+73
+00:03:05,840 --> 00:03:12,480
+nbc journey at vanderland and
+
+74
+00:03:08,959 --> 00:03:14,879
+when did it start how did it start
+
+75
+00:03:12,480 --> 00:03:15,599
+well i need to take it all the way from
+
+76
+00:03:14,879 --> 00:03:17,640
+the beginning
+
+77
+00:03:15,599 --> 00:03:19,120
+the foundation of the company is going
+
+78
+00:03:17,640 --> 00:03:22,400
+1949
+
+79
+00:03:19,120 --> 00:03:25,040
+and you might imagine the evolution of
+
+80
+00:03:22,400 --> 00:03:27,599
+the design was bottom-up like in other
+
+81
+00:03:25,040 --> 00:03:28,720
+words it was from mechanical to
+
+82
+00:03:27,599 --> 00:03:30,720
+electro-mechanical the
+
+83
+00:03:28,720 --> 00:03:32,799
+electro-mechanical to
+
+84
+00:03:30,720 --> 00:03:34,799
+embedded software first and then to
+
+85
+00:03:32,799 --> 00:03:37,200
+application software
+
+86
+00:03:34,799 --> 00:03:38,879
+and somewhere around 2000 2005 the
+
+87
+00:03:37,200 --> 00:03:43,280
+complexity became higher
+
+88
+00:03:38,879 --> 00:03:43,280
+and basically becomes a complex system
+
+89
+00:03:43,519 --> 00:03:47,440
+and then at that time the company
+
+90
+00:03:45,040 --> 00:03:50,000
+already started to invest on
+
+91
+00:03:47,440 --> 00:03:51,920
+having a stable requirements management
+
+92
+00:03:50,000 --> 00:03:53,599
+environment configuration management
+
+93
+00:03:51,920 --> 00:03:56,159
+change management
+
+94
+00:03:53,599 --> 00:03:58,720
+it was not just the military standards
+
+95
+00:03:56,159 --> 00:04:01,120
+like ocd sss ssd
+
+96
+00:03:58,720 --> 00:04:02,159
+but we also started to see some visual
+
+97
+00:04:01,120 --> 00:04:04,239
+drawings
+
+98
+00:04:02,159 --> 00:04:06,319
+which which was explaining the material
+
+99
+00:04:04,239 --> 00:04:09,200
+flow of diagrams which is really
+
+100
+00:04:06,319 --> 00:04:10,720
+critical in the logistic domain so all
+
+101
+00:04:09,200 --> 00:04:14,239
+of these things
+
+102
+00:04:10,720 --> 00:04:16,799
+try to be taken out of control in a in
+
+103
+00:04:14,239 --> 00:04:18,079
+a stable configuration management but
+
+104
+00:04:16,799 --> 00:04:20,720
+you can imagine
+
+105
+00:04:18,079 --> 00:04:22,320
+when when the systems are getting more
+
+106
+00:04:20,720 --> 00:04:26,320
+complex
+
+107
+00:04:22,320 --> 00:04:29,440
+and you can lose the traceability easily
+
+108
+00:04:26,320 --> 00:04:33,360
+and at the same time we were
+
+109
+00:04:29,440 --> 00:04:35,520
+forcing our um internal design to be
+
+110
+00:04:33,360 --> 00:04:38,400
+more platform-based like
+
+111
+00:04:35,520 --> 00:04:39,680
+creating reusable assets that that each
+
+112
+00:04:38,400 --> 00:04:42,639
+project can
+
+113
+00:04:39,680 --> 00:04:45,199
+can reuse what we are building and this
+
+114
+00:04:42,639 --> 00:04:48,240
+brings extra complexity
+
+115
+00:04:45,199 --> 00:04:49,680
+and somewhere in 2005 2010 we already
+
+116
+00:04:48,240 --> 00:04:52,400
+started to see that
+
+117
+00:04:49,680 --> 00:04:53,040
+it's it's getting more difficult to to
+
+118
+00:04:52,400 --> 00:04:56,000
+make
+
+119
+00:04:53,040 --> 00:04:57,680
+a reliable change impact analysis on the
+
+120
+00:04:56,000 --> 00:05:01,919
+things which are changing in your
+
+121
+00:04:57,680 --> 00:05:05,440
+technology domain on the customer's side
+
+122
+00:05:01,919 --> 00:05:07,919
+and that's why even actually before me
+
+123
+00:05:05,440 --> 00:05:09,600
+starting to work for this mbsc all the
+
+124
+00:05:07,919 --> 00:05:13,520
+way back in 2010
+
+125
+00:05:09,600 --> 00:05:15,360
+we started to see some uml models
+
+126
+00:05:13,520 --> 00:05:17,280
+appearing especially in the software
+
+127
+00:05:15,360 --> 00:05:19,440
+environment but
+
+128
+00:05:17,280 --> 00:05:22,400
+you can imagine the uml models are also
+
+129
+00:05:19,440 --> 00:05:24,400
+used to explain system level things
+
+130
+00:05:22,400 --> 00:05:26,880
+and at that time bond london was working
+
+131
+00:05:24,400 --> 00:05:29,520
+with ibm in certain projects so
+
+132
+00:05:26,880 --> 00:05:30,720
+that's why ibm rational draws what was
+
+133
+00:05:29,520 --> 00:05:32,720
+they appearing at that time
+
+134
+00:05:30,720 --> 00:05:36,240
+so when i look at the history i can
+
+135
+00:05:32,720 --> 00:05:39,680
+still see these type of models
+
+136
+00:05:36,240 --> 00:05:43,919
+in 2010 by the way 2010 they used
+
+137
+00:05:39,680 --> 00:05:43,919
+russian roles for indian projects
+
+138
+00:05:44,160 --> 00:05:49,840
+yeah there was again 2010 was still
+
+139
+00:05:47,919 --> 00:05:51,360
+a little bit influencing relationship
+
+140
+00:05:49,840 --> 00:05:54,160
+between ibm and wonderland
+
+141
+00:05:51,360 --> 00:05:56,960
+at that moment later on monday are
+
+142
+00:05:54,160 --> 00:05:59,600
+influenced by this and i started to
+
+143
+00:05:56,960 --> 00:06:02,319
+when i started to investigate backwards
+
+144
+00:05:59,600 --> 00:06:03,520
+i think 2013 is the year when i have
+
+145
+00:06:02,319 --> 00:06:05,600
+seen some
+
+146
+00:06:03,520 --> 00:06:06,960
+reference models appearing so some
+
+147
+00:06:05,600 --> 00:06:09,600
+people
+
+148
+00:06:06,960 --> 00:06:11,680
+already the people who are ready to
+
+149
+00:06:09,600 --> 00:06:12,000
+embrace the complexity and try to solve
+
+150
+00:06:11,680 --> 00:06:14,080
+it
+
+151
+00:06:12,000 --> 00:06:15,199
+started to create some uml models which
+
+152
+00:06:14,080 --> 00:06:18,800
+are really
+
+153
+00:06:15,199 --> 00:06:22,800
+depicting what we have
+
+154
+00:06:18,800 --> 00:06:25,840
+i even seen in 2015-16 when you look at
+
+155
+00:06:22,800 --> 00:06:27,759
+again the repositories create created
+
+156
+00:06:25,840 --> 00:06:30,639
+before you can even see some
+
+157
+00:06:27,759 --> 00:06:33,039
+automated interface creations like xst
+
+158
+00:06:30,639 --> 00:06:34,800
+files coming from these uml models
+
+159
+00:06:33,039 --> 00:06:36,160
+it was getting more and more
+
+160
+00:06:34,800 --> 00:06:38,560
+professional i should say
+
+161
+00:06:36,160 --> 00:06:39,280
+really more executable model instead of
+
+162
+00:06:38,560 --> 00:06:42,400
+just
+
+163
+00:06:39,280 --> 00:06:45,600
+knowledge gathering and sharing
+
+164
+00:06:42,400 --> 00:06:47,360
+but in all of these stories
+
+165
+00:06:45,600 --> 00:06:49,199
+there is there was a missing piece which
+
+166
+00:06:47,360 --> 00:06:52,240
+is a framework so
+
+167
+00:06:49,199 --> 00:06:53,120
+there was not a single way of creating
+
+168
+00:06:52,240 --> 00:06:54,880
+models
+
+169
+00:06:53,120 --> 00:06:56,960
+the modeling languages were not that
+
+170
+00:06:54,880 --> 00:06:59,199
+much
+
+171
+00:06:56,960 --> 00:07:01,440
+structured so there are several ways to
+
+172
+00:06:59,199 --> 00:07:05,919
+model with uml and csml
+
+173
+00:07:01,440 --> 00:07:08,160
+as you know so i tried to put this
+
+174
+00:07:05,919 --> 00:07:11,039
+missing piece into puzzle by trying to
+
+175
+00:07:08,160 --> 00:07:14,160
+create a framework and also a way of
+
+176
+00:07:11,039 --> 00:07:17,440
+working and the other missing piece
+
+177
+00:07:14,160 --> 00:07:19,919
+was basically uh
+
+178
+00:07:17,440 --> 00:07:22,080
+the models were never at the base so
+
+179
+00:07:19,919 --> 00:07:23,039
+they were always the supporting artifact
+
+180
+00:07:22,080 --> 00:07:24,240
+of the
+
+181
+00:07:23,039 --> 00:07:28,160
+of the main channel which is
+
+182
+00:07:24,240 --> 00:07:32,160
+documentation and that's why
+
+183
+00:07:28,160 --> 00:07:34,400
+we not just uh people before me but
+
+184
+00:07:32,160 --> 00:07:36,319
+it's always a common pattern that you
+
+185
+00:07:34,400 --> 00:07:38,160
+give up maintain the models if it's not
+
+186
+00:07:36,319 --> 00:07:39,759
+at the base of your thing
+
+187
+00:07:38,160 --> 00:07:41,520
+so that was also the missing piece in
+
+188
+00:07:39,759 --> 00:07:43,440
+the puzzle so
+
+189
+00:07:41,520 --> 00:07:45,520
+we were not i think one london was not
+
+190
+00:07:43,440 --> 00:07:48,960
+putting models at the base of the
+
+191
+00:07:45,520 --> 00:07:51,280
+of of the of the development of the
+
+192
+00:07:48,960 --> 00:07:53,280
+configuration management and etc so
+
+193
+00:07:51,280 --> 00:07:56,400
+these are basically the things i i put
+
+194
+00:07:53,280 --> 00:07:56,400
+on the frame
+
+195
+00:07:56,639 --> 00:08:00,000
+did you join wonderland to to create
+
+196
+00:07:58,960 --> 00:08:03,280
+this missing piece
+
+197
+00:08:00,000 --> 00:08:04,720
+was this that your first task the mbse
+
+198
+00:08:03,280 --> 00:08:08,000
+journey
+
+199
+00:08:04,720 --> 00:08:11,120
+well that was that that
+
+200
+00:08:08,000 --> 00:08:12,240
+uh that would be a different way but i
+
+201
+00:08:11,120 --> 00:08:14,800
+think
+
+202
+00:08:12,240 --> 00:08:15,840
+it was part of the story i was having
+
+203
+00:08:14,800 --> 00:08:18,319
+from
+
+204
+00:08:15,840 --> 00:08:20,960
+defense which you might imagine putting
+
+205
+00:08:18,319 --> 00:08:23,440
+a good foundation on your
+
+206
+00:08:20,960 --> 00:08:24,639
+systems engineering and model based
+
+207
+00:08:23,440 --> 00:08:26,879
+approach that's what
+
+208
+00:08:24,639 --> 00:08:28,479
+i have learned in my ex-employment in
+
+209
+00:08:26,879 --> 00:08:31,360
+turkey
+
+210
+00:08:28,479 --> 00:08:32,880
+and there was a certain reason i think i
+
+211
+00:08:31,360 --> 00:08:36,080
+started to work
+
+212
+00:08:32,880 --> 00:08:37,839
+here also they they need a structure
+
+213
+00:08:36,080 --> 00:08:39,599
+on the systems engineering not from the
+
+214
+00:08:37,839 --> 00:08:40,000
+documentation perspective also on the
+
+215
+00:08:39,599 --> 00:08:43,360
+model
+
+216
+00:08:40,000 --> 00:08:46,720
+based so i have been asked to
+
+217
+00:08:43,360 --> 00:08:49,839
+investigate this as a site task
+
+218
+00:08:46,720 --> 00:08:53,120
+i was doing the airports projects
+
+219
+00:08:49,839 --> 00:08:55,440
+like hong kong but at the same time
+
+220
+00:08:53,120 --> 00:08:56,880
+i was i was trying to understand how we
+
+221
+00:08:55,440 --> 00:08:59,920
+can move
+
+222
+00:08:56,880 --> 00:09:02,080
+the complete apos design from document
+
+223
+00:08:59,920 --> 00:09:05,519
+based model based
+
+224
+00:09:02,080 --> 00:09:06,800
+and i i was basically taking this as a
+
+225
+00:09:05,519 --> 00:09:09,600
+kind of side track but
+
+226
+00:09:06,800 --> 00:09:10,720
+later on it became an official task for
+
+227
+00:09:09,600 --> 00:09:13,279
+me
+
+228
+00:09:10,720 --> 00:09:16,480
+and in the beginning i was trying to
+
+229
+00:09:13,279 --> 00:09:19,760
+apply this only for airports platform
+
+230
+00:09:16,480 --> 00:09:22,320
+airport platform business and then
+
+231
+00:09:19,760 --> 00:09:24,000
+airport platform and the business models
+
+232
+00:09:22,320 --> 00:09:25,839
+and then i was asked to apply this to
+
+233
+00:09:24,000 --> 00:09:28,560
+the whole business segments
+
+234
+00:09:25,839 --> 00:09:30,480
+try to create a framework applicable to
+
+235
+00:09:28,560 --> 00:09:33,360
+everything we do
+
+236
+00:09:30,480 --> 00:09:33,360
+as one london
+
+237
+00:09:33,600 --> 00:09:37,040
+okay and when you are talking about
+
+238
+00:09:36,080 --> 00:09:42,800
+foundation
+
+239
+00:09:37,040 --> 00:09:42,800
+and platforms what do you mean by that
+
+240
+00:09:42,959 --> 00:09:50,080
+well you can accept the
+
+241
+00:09:47,279 --> 00:09:50,399
+mbsc foundation as a light definition
+
+242
+00:09:50,080 --> 00:09:53,120
+for
+
+243
+00:09:50,399 --> 00:09:53,920
+the framework actually because when you
+
+244
+00:09:53,120 --> 00:09:56,160
+say that
+
+245
+00:09:53,920 --> 00:09:57,040
+hey i'm defining a framework for you it
+
+246
+00:09:56,160 --> 00:09:59,519
+can
+
+247
+00:09:57,040 --> 00:10:01,680
+create a heavy feeling on the other side
+
+248
+00:09:59,519 --> 00:10:04,320
+we call it mbsc foundation
+
+249
+00:10:01,680 --> 00:10:05,279
+so that's basically what we are trying
+
+250
+00:10:04,320 --> 00:10:07,760
+to create and
+
+251
+00:10:05,279 --> 00:10:08,880
+this framework is just having a meta
+
+252
+00:10:07,760 --> 00:10:11,519
+model
+
+253
+00:10:08,880 --> 00:10:12,160
+to explain people not just the content
+
+254
+00:10:11,519 --> 00:10:14,720
+but
+
+255
+00:10:12,160 --> 00:10:17,040
+the main structure of the models so a
+
+256
+00:10:14,720 --> 00:10:20,320
+kind of conformance guideline
+
+257
+00:10:17,040 --> 00:10:22,079
+also the way of working this is
+
+258
+00:10:20,320 --> 00:10:24,320
+basically what the mbsc foundation is
+
+259
+00:10:22,079 --> 00:10:24,320
+about
+
+260
+00:10:26,720 --> 00:10:31,279
+and the platform so
+
+261
+00:10:29,920 --> 00:10:33,360
+these are different things right the
+
+262
+00:10:31,279 --> 00:10:36,560
+mbse foundation is more the
+
+263
+00:10:33,360 --> 00:10:38,959
+the methodology and the platform is
+
+264
+00:10:36,560 --> 00:10:40,560
+your product itself right yeah the
+
+265
+00:10:38,959 --> 00:10:43,360
+platform is is
+
+266
+00:10:40,560 --> 00:10:44,320
+you can accept platform as a system with
+
+267
+00:10:43,360 --> 00:10:46,720
+its
+
+268
+00:10:44,320 --> 00:10:47,440
+own architecture and product line so it
+
+269
+00:10:46,720 --> 00:10:49,519
+is
+
+270
+00:10:47,440 --> 00:10:50,880
+similar to product design not completely
+
+271
+00:10:49,519 --> 00:10:54,000
+but
+
+272
+00:10:50,880 --> 00:10:55,040
+because it is a system architecture and
+
+273
+00:10:54,000 --> 00:10:57,360
+we
+
+274
+00:10:55,040 --> 00:10:59,040
+platforms are basically not necessarily
+
+275
+00:10:57,360 --> 00:11:01,680
+they don't need to be model based of
+
+276
+00:10:59,040 --> 00:11:03,200
+course our platforms are just reusable
+
+277
+00:11:01,680 --> 00:11:06,720
+asset repositories
+
+278
+00:11:03,200 --> 00:11:08,959
+in each business segment so that each
+
+279
+00:11:06,720 --> 00:11:11,600
+project can be instantiated from this
+
+280
+00:11:08,959 --> 00:11:12,320
+reusable asset repository you don't need
+
+281
+00:11:11,600 --> 00:11:13,839
+to
+
+282
+00:11:12,320 --> 00:11:15,519
+start from scratch all of your
+
+283
+00:11:13,839 --> 00:11:16,480
+functional decomposition structural
+
+284
+00:11:15,519 --> 00:11:19,519
+decomposition
+
+285
+00:11:16,480 --> 00:11:20,560
+you just need to pick what you need we
+
+286
+00:11:19,519 --> 00:11:22,480
+are nowadays calling
+
+287
+00:11:20,560 --> 00:11:24,320
+configure to order business instead of
+
+288
+00:11:22,480 --> 00:11:28,240
+engineer to order
+
+289
+00:11:24,320 --> 00:11:30,880
+so that's what the platforms are about
+
+290
+00:11:28,240 --> 00:11:32,720
+so that means you have this platform
+
+291
+00:11:30,880 --> 00:11:34,480
+approach really from
+
+292
+00:11:32,720 --> 00:11:35,839
+the requirements or at least from a
+
+293
+00:11:34,480 --> 00:11:39,519
+functional
+
+294
+00:11:35,839 --> 00:11:40,640
+layer uh throughout your bombs in the
+
+295
+00:11:39,519 --> 00:11:45,519
+end
+
+296
+00:11:40,640 --> 00:11:47,760
+yes that's true that's foreign
+
+297
+00:11:45,519 --> 00:11:48,880
+technology environment like you are
+
+298
+00:11:47,760 --> 00:11:51,519
+trying to generalize
+
+299
+00:11:48,880 --> 00:11:53,200
+requirements or features which can cover
+
+300
+00:11:51,519 --> 00:11:55,360
+the market
+
+301
+00:11:53,200 --> 00:11:57,519
+and then your reusable asset repository
+
+302
+00:11:55,360 --> 00:11:58,160
+should be covering as much as possible
+
+303
+00:11:57,519 --> 00:12:00,000
+so that
+
+304
+00:11:58,160 --> 00:12:03,600
+you don't need to reinvent things for
+
+305
+00:12:00,000 --> 00:12:03,600
+each customer specific things
+
+306
+00:12:04,079 --> 00:12:09,200
+well how does it work well
+
+307
+00:12:07,120 --> 00:12:10,880
+that's that's a dream for many
+
+308
+00:12:09,200 --> 00:12:11,600
+organizations to have something like
+
+309
+00:12:10,880 --> 00:12:13,920
+that a
+
+310
+00:12:11,600 --> 00:12:15,440
+working product line in the mbse
+
+311
+00:12:13,920 --> 00:12:18,639
+environment so
+
+312
+00:12:15,440 --> 00:12:20,639
+how does it work indeed it's
+
+313
+00:12:18,639 --> 00:12:22,880
+very challenging and i would be really
+
+314
+00:12:20,639 --> 00:12:25,040
+happy when it really works
+
+315
+00:12:22,880 --> 00:12:27,279
+we are really working hard to make it
+
+316
+00:12:25,040 --> 00:12:27,279
+work
+
+317
+00:12:27,600 --> 00:12:33,839
+and having a platform in its own
+
+318
+00:12:32,000 --> 00:12:35,920
+environment is a challenging task but
+
+319
+00:12:33,839 --> 00:12:39,040
+applying an mbac to this which is
+
+320
+00:12:35,920 --> 00:12:42,160
+actually our topic today is an extra
+
+321
+00:12:39,040 --> 00:12:43,680
+challenge because from what i
+
+322
+00:12:42,160 --> 00:12:46,560
+what i've learned before and what i'm
+
+323
+00:12:43,680 --> 00:12:49,040
+studying and also applying
+
+324
+00:12:46,560 --> 00:12:50,720
+doing mbs for a project can be a little
+
+325
+00:12:49,040 --> 00:12:52,800
+bit better like focusing on a certain
+
+326
+00:12:50,720 --> 00:12:54,320
+customer requirement and applying
+
+327
+00:12:52,800 --> 00:12:56,240
+this decomposition according to the
+
+328
+00:12:54,320 --> 00:12:56,639
+needs is fine but when you try to apply
+
+329
+00:12:56,240 --> 00:12:59,519
+it for
+
+330
+00:12:56,639 --> 00:13:02,399
+platforms you need to create a reusable
+
+331
+00:12:59,519 --> 00:13:06,240
+asset repository for your models
+
+332
+00:13:02,399 --> 00:13:09,600
+so that so that each project can reuse
+
+333
+00:13:06,240 --> 00:13:09,600
+your your platform models
+
+334
+00:13:10,720 --> 00:13:17,920
+what what we are working on nowadays
+
+335
+00:13:14,160 --> 00:13:20,480
+is to to define
+
+336
+00:13:17,920 --> 00:13:21,200
+the core parts which is not changing per
+
+337
+00:13:20,480 --> 00:13:24,880
+project
+
+338
+00:13:21,200 --> 00:13:28,320
+and the variable part explicitly so that
+
+339
+00:13:24,880 --> 00:13:30,160
+you can at least work on work on the
+
+340
+00:13:28,320 --> 00:13:32,240
+variety model in a different way than
+
+341
+00:13:30,160 --> 00:13:33,360
+the core modeling so core modeling can
+
+342
+00:13:32,240 --> 00:13:35,200
+still work
+
+343
+00:13:33,360 --> 00:13:37,360
+with main artifacts which is a little
+
+344
+00:13:35,200 --> 00:13:38,800
+bit a little bit more straightforward i
+
+345
+00:13:37,360 --> 00:13:39,760
+should say when it comes to the right
+
+346
+00:13:38,800 --> 00:13:42,079
+model
+
+347
+00:13:39,760 --> 00:13:43,680
+you need to do different stuff but also
+
+348
+00:13:42,079 --> 00:13:45,360
+we are trying to simplify things for
+
+349
+00:13:43,680 --> 00:13:49,760
+projects
+
+350
+00:13:45,360 --> 00:13:53,839
+such as if you have a model for your
+
+351
+00:13:49,760 --> 00:13:55,279
+uh core part and even for the variant
+
+352
+00:13:53,839 --> 00:13:57,600
+part which is
+
+353
+00:13:55,279 --> 00:13:58,720
+not specified for customers so you have
+
+354
+00:13:57,600 --> 00:14:01,360
+it already
+
+355
+00:13:58,720 --> 00:14:03,199
+you don't need to ask your projects to
+
+356
+00:14:01,360 --> 00:14:04,720
+to be dealt with models
+
+357
+00:14:03,199 --> 00:14:07,680
+they just need to configure what you
+
+358
+00:14:04,720 --> 00:14:09,519
+have but at least they can focus on the
+
+359
+00:14:07,680 --> 00:14:11,839
+customer specific part so
+
+360
+00:14:09,519 --> 00:14:15,199
+they can spend their time to create
+
+361
+00:14:11,839 --> 00:14:18,560
+models for customer specific parts
+
+362
+00:14:15,199 --> 00:14:20,240
+but to be ready applying this we we try
+
+363
+00:14:18,560 --> 00:14:23,519
+to
+
+364
+00:14:20,240 --> 00:14:25,680
+introduce a data connection from the
+
+365
+00:14:23,519 --> 00:14:26,880
+models to a web-based application like
+
+366
+00:14:25,680 --> 00:14:29,680
+you can
+
+367
+00:14:26,880 --> 00:14:30,959
+use the data of the model instead of
+
+368
+00:14:29,680 --> 00:14:33,279
+trying to
+
+369
+00:14:30,959 --> 00:14:35,120
+understand the models which you already
+
+370
+00:14:33,279 --> 00:14:36,880
+have in your product line
+
+371
+00:14:35,120 --> 00:14:38,639
+because the models for the platform is
+
+372
+00:14:36,880 --> 00:14:41,199
+only for the product line
+
+373
+00:14:38,639 --> 00:14:42,800
+and that's a communication pattern as a
+
+374
+00:14:41,199 --> 00:14:43,680
+communication channel you need to do in
+
+375
+00:14:42,800 --> 00:14:45,519
+your development
+
+376
+00:14:43,680 --> 00:14:47,360
+environment but when it comes to deploy
+
+377
+00:14:45,519 --> 00:14:50,320
+some customer solution
+
+378
+00:14:47,360 --> 00:14:51,839
+you don't need to expose your models to
+
+379
+00:14:50,320 --> 00:14:52,880
+the customer environment that's
+
+380
+00:14:51,839 --> 00:14:54,639
+basically
+
+381
+00:14:52,880 --> 00:14:56,880
+one of the most important stuff we are
+
+382
+00:14:54,639 --> 00:15:00,880
+trying to implement
+
+383
+00:14:56,880 --> 00:15:05,519
+um for for the for the other
+
+384
+00:15:00,880 --> 00:15:08,959
+for for the other aspect of it um
+
+385
+00:15:05,519 --> 00:15:10,800
+so we want solution teams to spend more
+
+386
+00:15:08,959 --> 00:15:13,839
+time on the customer specific part but
+
+387
+00:15:10,800 --> 00:15:16,880
+that means we have a big task in the rnd
+
+388
+00:15:13,839 --> 00:15:19,920
+environment to really make
+
+389
+00:15:16,880 --> 00:15:21,920
+the change impact analysis consistent
+
+390
+00:15:19,920 --> 00:15:23,760
+and also the models which are being
+
+391
+00:15:21,920 --> 00:15:25,279
+created by different teams are not
+
+392
+00:15:23,760 --> 00:15:27,199
+looking very different from each other
+
+393
+00:15:25,279 --> 00:15:30,320
+that's where that's where this
+
+394
+00:15:27,199 --> 00:15:32,639
+meta model comes into place in other
+
+395
+00:15:30,320 --> 00:15:35,440
+words metamodels should also show
+
+396
+00:15:32,639 --> 00:15:38,320
+your core and their right parts
+
+397
+00:15:35,440 --> 00:15:41,199
+separated from each other
+
+398
+00:15:38,320 --> 00:15:42,320
+that's that's basically um that's
+
+399
+00:15:41,199 --> 00:15:45,440
+basically what we are
+
+400
+00:15:42,320 --> 00:15:47,120
+spending time on to to really apply
+
+401
+00:15:45,440 --> 00:15:49,600
+product line engineering on an mbsc
+
+402
+00:15:47,120 --> 00:15:49,600
+environment
+
+403
+00:15:51,680 --> 00:15:58,560
+um maybe for this one tim
+
+404
+00:15:55,199 --> 00:16:01,279
+maybe make it more tangible i can i can
+
+405
+00:15:58,560 --> 00:16:03,600
+show the platform and the project
+
+406
+00:16:01,279 --> 00:16:06,880
+connection a little bit better to you
+
+407
+00:16:03,600 --> 00:16:09,519
+by some by some slides if you like
+
+408
+00:16:06,880 --> 00:16:10,959
+yeah that's a good idea but please
+
+409
+00:16:09,519 --> 00:16:13,120
+explain the slice so that
+
+410
+00:16:10,959 --> 00:16:14,560
+our pure audio listeners also understand
+
+411
+00:16:13,120 --> 00:16:17,279
+it
+
+412
+00:16:14,560 --> 00:16:17,279
+that would be great
+
+413
+00:16:20,880 --> 00:16:27,680
+i hope it's visible it is
+
+414
+00:16:24,399 --> 00:16:31,279
+yeah so
+
+415
+00:16:27,680 --> 00:16:33,279
+the platform is basically
+
+416
+00:16:31,279 --> 00:16:35,680
+as you can see at the bottom of our
+
+417
+00:16:33,279 --> 00:16:38,560
+picture it's a kind of
+
+418
+00:16:35,680 --> 00:16:39,440
+reusable asset repository again which
+
+419
+00:16:38,560 --> 00:16:42,240
+can be
+
+420
+00:16:39,440 --> 00:16:44,639
+instantiated for different customer
+
+421
+00:16:42,240 --> 00:16:44,639
+projects
+
+422
+00:16:44,720 --> 00:16:48,079
+and as you can see in the middle of
+
+423
+00:16:47,040 --> 00:16:51,920
+picture we have
+
+424
+00:16:48,079 --> 00:16:53,519
+a reality which is a kind of airports
+
+425
+00:16:51,920 --> 00:16:54,880
+this is the heathrow project at the back
+
+426
+00:16:53,519 --> 00:16:56,639
+end and on top of it you see the
+
+427
+00:16:54,880 --> 00:17:00,000
+customer solution model
+
+428
+00:16:56,639 --> 00:17:00,000
+that's really what you are deploying
+
+429
+00:17:00,240 --> 00:17:03,600
+but this this model of course does not
+
+430
+00:17:02,160 --> 00:17:05,360
+mean too much
+
+431
+00:17:03,600 --> 00:17:07,039
+for the stakeholders if not if you are
+
+432
+00:17:05,360 --> 00:17:08,559
+not creating views
+
+433
+00:17:07,039 --> 00:17:10,160
+and you need to be able to create
+
+434
+00:17:08,559 --> 00:17:11,280
+different views and these different
+
+435
+00:17:10,160 --> 00:17:12,959
+views
+
+436
+00:17:11,280 --> 00:17:15,280
+as you can imagine in the in for
+
+437
+00:17:12,959 --> 00:17:16,079
+instance csm like csml pillars like you
+
+438
+00:17:15,280 --> 00:17:20,079
+have a
+
+439
+00:17:16,079 --> 00:17:24,480
+behavior view you have a structure
+
+440
+00:17:20,079 --> 00:17:28,079
+you might have also customer specific
+
+441
+00:17:24,480 --> 00:17:29,840
+views like the layout like our 3d
+
+442
+00:17:28,079 --> 00:17:32,640
+environment involved which is very
+
+443
+00:17:29,840 --> 00:17:34,320
+important how the
+
+444
+00:17:32,640 --> 00:17:36,080
+how the mechanical equipment is really
+
+445
+00:17:34,320 --> 00:17:37,200
+fitting into building that you need to
+
+446
+00:17:36,080 --> 00:17:39,679
+show
+
+447
+00:17:37,200 --> 00:17:40,720
+so if you speak about models you do not
+
+448
+00:17:39,679 --> 00:17:43,280
+only mean system
+
+449
+00:17:40,720 --> 00:17:44,160
+models mbs e-modules in general so
+
+450
+00:17:43,280 --> 00:17:47,520
+including
+
+451
+00:17:44,160 --> 00:17:50,240
+cat models and whatever models okay
+
+452
+00:17:47,520 --> 00:17:51,280
+well you see you see in the in this
+
+453
+00:17:50,240 --> 00:17:54,480
+diagonal
+
+454
+00:17:51,280 --> 00:17:57,360
+you see the the software structure and
+
+455
+00:17:54,480 --> 00:18:00,000
+the function capabilities we've already
+
+456
+00:17:57,360 --> 00:18:03,679
+you can cover them easily with the very
+
+457
+00:18:00,000 --> 00:18:05,600
+well known aspects of csml and uml
+
+458
+00:18:03,679 --> 00:18:08,160
+when it comes to this logistic view for
+
+459
+00:18:05,600 --> 00:18:10,000
+instance like the material flow diagram
+
+460
+00:18:08,160 --> 00:18:11,600
+you might need to switch to domain
+
+461
+00:18:10,000 --> 00:18:12,799
+specific languages which we are for
+
+462
+00:18:11,600 --> 00:18:14,720
+instance looking at
+
+463
+00:18:12,799 --> 00:18:17,120
+and as you mentioned when it comes to
+
+464
+00:18:14,720 --> 00:18:19,200
+mechanical it's the cad model
+
+465
+00:18:17,120 --> 00:18:20,720
+but this this weave is also interesting
+
+466
+00:18:19,200 --> 00:18:23,840
+if you look at the right hand side
+
+467
+00:18:20,720 --> 00:18:26,720
+you see a configuration view point
+
+468
+00:18:23,840 --> 00:18:29,039
+that's basically how we want to set so
+
+469
+00:18:26,720 --> 00:18:32,000
+if you can emit the data
+
+470
+00:18:29,039 --> 00:18:33,600
+of your configurability in a certain way
+
+471
+00:18:32,000 --> 00:18:35,200
+in a customer meeting
+
+472
+00:18:33,600 --> 00:18:37,200
+what we are saying this is a configure
+
+473
+00:18:35,200 --> 00:18:38,320
+to order business that's that's how you
+
+474
+00:18:37,200 --> 00:18:40,720
+can execute
+
+475
+00:18:38,320 --> 00:18:43,120
+this platform model for a certain
+
+476
+00:18:40,720 --> 00:18:45,840
+customer starting from sales
+
+477
+00:18:43,120 --> 00:18:49,520
+till the end of deployment that's what
+
+478
+00:18:45,840 --> 00:18:51,280
+we are also trying to put in the context
+
+479
+00:18:49,520 --> 00:18:52,960
+and the other wheel you see on the left
+
+480
+00:18:51,280 --> 00:18:56,000
+is the documentation
+
+481
+00:18:52,960 --> 00:18:57,760
+so it's always the topic in mbse are you
+
+482
+00:18:56,000 --> 00:19:00,320
+able to create documents out of
+
+483
+00:18:57,760 --> 00:19:02,240
+models that's what we want to do if it's
+
+484
+00:19:00,320 --> 00:19:04,400
+if it's hundred percent
+
+485
+00:19:02,240 --> 00:19:06,080
+uh coming from what you have done before
+
+486
+00:19:04,400 --> 00:19:06,480
+you should be writing the text again and
+
+487
+00:19:06,080 --> 00:19:09,440
+again
+
+488
+00:19:06,480 --> 00:19:11,120
+that's what basically we are saying so
+
+489
+00:19:09,440 --> 00:19:15,120
+this is all in this
+
+490
+00:19:11,120 --> 00:19:16,480
+image in a nutshell same system
+
+491
+00:19:15,120 --> 00:19:18,160
+mean different things for different
+
+492
+00:19:16,480 --> 00:19:19,760
+stakeholders and you need to really
+
+493
+00:19:18,160 --> 00:19:21,360
+understand all these views by
+
+494
+00:19:19,760 --> 00:19:24,640
+communicating with your stakeholders
+
+495
+00:19:21,360 --> 00:19:27,200
+that's what we are doing
+
+496
+00:19:24,640 --> 00:19:29,520
+furthermore you haven't seen the meta
+
+497
+00:19:27,200 --> 00:19:32,320
+model in this discussion yet because
+
+498
+00:19:29,520 --> 00:19:35,120
+your meta model should be aiming
+
+499
+00:19:32,320 --> 00:19:38,160
+different businesses so in this slide
+
+500
+00:19:35,120 --> 00:19:40,320
+you see a platform model warehousing
+
+501
+00:19:38,160 --> 00:19:42,160
+platform model and the parcel platform
+
+502
+00:19:40,320 --> 00:19:45,120
+model
+
+503
+00:19:42,160 --> 00:19:46,160
+to we are aiming these things to work in
+
+504
+00:19:45,120 --> 00:19:48,799
+the same way
+
+505
+00:19:46,160 --> 00:19:49,600
+at least on the model-based environment
+
+506
+00:19:48,799 --> 00:19:52,480
+that's why
+
+507
+00:19:49,600 --> 00:19:54,080
+you need to be able to create a common
+
+508
+00:19:52,480 --> 00:19:55,760
+guideline
+
+509
+00:19:54,080 --> 00:19:58,240
+at the bottom that's showing the
+
+510
+00:19:55,760 --> 00:20:01,280
+relationship between each classes
+
+511
+00:19:58,240 --> 00:20:02,799
+each blocks so what type of
+
+512
+00:20:01,280 --> 00:20:04,400
+things you can have in this model i
+
+513
+00:20:02,799 --> 00:20:07,280
+think the theoretical definition for
+
+514
+00:20:04,400 --> 00:20:09,520
+this is taxonomy of your model
+
+515
+00:20:07,280 --> 00:20:11,600
+and a part of its ontology so we are
+
+516
+00:20:09,520 --> 00:20:13,919
+trying to
+
+517
+00:20:11,600 --> 00:20:16,159
+merge this theoretical discussions like
+
+518
+00:20:13,919 --> 00:20:18,400
+metamodel ontology and taxonomy in a
+
+519
+00:20:16,159 --> 00:20:20,720
+single thing called metamodel
+
+520
+00:20:18,400 --> 00:20:22,080
+and we even call it mbsc foundation to
+
+521
+00:20:20,720 --> 00:20:24,320
+make it even simpler for
+
+522
+00:20:22,080 --> 00:20:25,600
+the company so that's what you see on
+
+523
+00:20:24,320 --> 00:20:28,960
+these slides
+
+524
+00:20:25,600 --> 00:20:30,799
+okay uh yeah if i look at this that's
+
+525
+00:20:28,960 --> 00:20:31,200
+for example for for the airport it looks
+
+526
+00:20:30,799 --> 00:20:35,120
+like
+
+527
+00:20:31,200 --> 00:20:37,679
+in the center you show a solution model
+
+528
+00:20:35,120 --> 00:20:39,919
+and around i can see the different views
+
+529
+00:20:37,679 --> 00:20:41,840
+like the layout view of the airport
+
+530
+00:20:39,919 --> 00:20:43,039
+or the software view or the functional
+
+531
+00:20:41,840 --> 00:20:46,320
+views and so on
+
+532
+00:20:43,039 --> 00:20:49,039
+but in the middle the solution model is
+
+533
+00:20:46,320 --> 00:20:49,679
+physically these are several models
+
+534
+00:20:49,039 --> 00:20:51,520
+right
+
+535
+00:20:49,679 --> 00:20:52,799
+it's it's a cat model and it's a system
+
+536
+00:20:51,520 --> 00:20:54,480
+model and so on
+
+537
+00:20:52,799 --> 00:20:55,919
+uh so logical it's a single solution
+
+538
+00:20:54,480 --> 00:20:58,320
+model but physically you have
+
+539
+00:20:55,919 --> 00:20:59,360
+several models exactly how do you
+
+540
+00:20:58,320 --> 00:21:02,000
+connect these
+
+541
+00:20:59,360 --> 00:21:03,520
+models well that's one of the big
+
+542
+00:21:02,000 --> 00:21:05,600
+challenges today
+
+543
+00:21:03,520 --> 00:21:07,120
+yeah for many companies how to connect
+
+544
+00:21:05,600 --> 00:21:09,679
+different models so this model
+
+545
+00:21:07,120 --> 00:21:12,960
+interoperability how does it work
+
+546
+00:21:09,679 --> 00:21:12,960
+well in our case
+
+547
+00:21:13,440 --> 00:21:18,480
+a little bit i think we can
+
+548
+00:21:16,720 --> 00:21:20,960
+we will talk about more details on the
+
+549
+00:21:18,480 --> 00:21:23,679
+tool suite challenges i guess here but
+
+550
+00:21:20,960 --> 00:21:25,440
+yet at least the interoperability now
+
+551
+00:21:23,679 --> 00:21:28,559
+we're not that much
+
+552
+00:21:25,440 --> 00:21:30,880
+in good shape yet so we are still
+
+553
+00:21:28,559 --> 00:21:33,840
+using our existing tools like sparks
+
+554
+00:21:30,880 --> 00:21:36,720
+enterprise architect
+
+555
+00:21:33,840 --> 00:21:39,120
+we are using csml and the magic grid
+
+556
+00:21:36,720 --> 00:21:40,880
+framework which explains
+
+557
+00:21:39,120 --> 00:21:43,280
+how you should make this metamodel but
+
+558
+00:21:40,880 --> 00:21:45,120
+when it comes to really realize it
+
+559
+00:21:43,280 --> 00:21:47,760
+with this interoperability we are
+
+560
+00:21:45,120 --> 00:21:52,080
+hitting the boundaries of our existing
+
+561
+00:21:47,760 --> 00:21:54,240
+ict architecture in this story of course
+
+562
+00:21:52,080 --> 00:21:56,720
+we are working on some gateways like
+
+563
+00:21:54,240 --> 00:21:58,799
+showing the proof of concepts
+
+564
+00:21:56,720 --> 00:22:00,000
+like trying to connect at least requires
+
+565
+00:21:58,799 --> 00:22:02,720
+management to
+
+566
+00:22:00,000 --> 00:22:04,080
+to to the modeling environment to really
+
+567
+00:22:02,720 --> 00:22:05,200
+be able to create documents
+
+568
+00:22:04,080 --> 00:22:07,440
+automatically
+
+569
+00:22:05,200 --> 00:22:09,440
+maybe some some synchronization between
+
+570
+00:22:07,440 --> 00:22:12,880
+these environments
+
+571
+00:22:09,440 --> 00:22:14,000
+when it comes to cad models and etc we
+
+572
+00:22:12,880 --> 00:22:17,120
+need to think
+
+573
+00:22:14,000 --> 00:22:20,000
+within the platform world and good bits
+
+574
+00:22:17,120 --> 00:22:22,720
+because as i said we have some domain
+
+575
+00:22:20,000 --> 00:22:24,559
+specific languages already in place
+
+576
+00:22:22,720 --> 00:22:27,440
+it's really difficult to call them
+
+577
+00:22:24,559 --> 00:22:29,520
+officially the dsls but
+
+578
+00:22:27,440 --> 00:22:30,960
+as an organization you already have them
+
+579
+00:22:29,520 --> 00:22:33,919
+so there are rules
+
+580
+00:22:30,960 --> 00:22:34,240
+in these mechanical models we are we are
+
+581
+00:22:33,919 --> 00:22:37,360
+now
+
+582
+00:22:34,240 --> 00:22:39,679
+for instance running a project with tno
+
+583
+00:22:37,360 --> 00:22:42,480
+esi here in netherlands just to focus on
+
+584
+00:22:39,679 --> 00:22:44,320
+the relationship between these models
+
+585
+00:22:42,480 --> 00:22:46,480
+and the plm environment product line
+
+586
+00:22:44,320 --> 00:22:49,360
+management like in innovia
+
+587
+00:22:46,480 --> 00:22:51,440
+and in our layout environment for
+
+588
+00:22:49,360 --> 00:22:54,720
+instance
+
+589
+00:22:51,440 --> 00:22:57,679
+the transformations i think we
+
+590
+00:22:54,720 --> 00:22:58,960
+we will be creating some gateways but at
+
+591
+00:22:57,679 --> 00:23:02,559
+the same time while
+
+592
+00:22:58,960 --> 00:23:04,799
+showing the necessities of this stuff
+
+593
+00:23:02,559 --> 00:23:06,880
+with with the ict people in our company
+
+594
+00:23:04,799 --> 00:23:08,799
+we are looking for different two suites
+
+595
+00:23:06,880 --> 00:23:10,640
+which are really showing these
+
+596
+00:23:08,799 --> 00:23:12,400
+dependencies immediately like
+
+597
+00:23:10,640 --> 00:23:14,799
+synchronized way
+
+598
+00:23:12,400 --> 00:23:16,320
+but for now our transformations are
+
+599
+00:23:14,799 --> 00:23:19,919
+really
+
+600
+00:23:16,320 --> 00:23:24,159
+um we are still too much
+
+601
+00:23:19,919 --> 00:23:26,880
+optimizing the well-known
+
+602
+00:23:24,159 --> 00:23:28,960
+model artifacts like the functions and
+
+603
+00:23:26,880 --> 00:23:30,400
+structural view
+
+604
+00:23:28,960 --> 00:23:32,640
+the challenge is a little bit the
+
+605
+00:23:30,400 --> 00:23:34,400
+configurations view but we are still
+
+606
+00:23:32,640 --> 00:23:37,679
+modeling this in the sparks enterprise
+
+607
+00:23:34,400 --> 00:23:40,799
+architect so in a nutshell
+
+608
+00:23:37,679 --> 00:23:43,039
+still the models are in a kind of
+
+609
+00:23:40,799 --> 00:23:44,640
+single tool island but we are trying to
+
+610
+00:23:43,039 --> 00:23:48,240
+connect them to the others as much as
+
+611
+00:23:44,640 --> 00:23:48,240
+possible that's what we are working on
+
+612
+00:23:48,880 --> 00:23:53,360
+okay and then imagine that you are also
+
+613
+00:23:52,640 --> 00:23:56,400
+doing
+
+614
+00:23:53,360 --> 00:23:59,520
+model based product line engineering
+
+615
+00:23:56,400 --> 00:24:01,120
+um which is a challenging thing for
+
+616
+00:23:59,520 --> 00:24:04,080
+itself
+
+617
+00:24:01,120 --> 00:24:06,159
+so what kind of technologies do you use
+
+618
+00:24:04,080 --> 00:24:10,880
+in this direction
+
+619
+00:24:06,159 --> 00:24:15,679
+yeah let me stop sharing and then
+
+620
+00:24:10,880 --> 00:24:18,320
+this this product line engineering
+
+621
+00:24:15,679 --> 00:24:20,080
+we we can call our platforms as a
+
+622
+00:24:18,320 --> 00:24:22,159
+product line engineering plus more
+
+623
+00:24:20,080 --> 00:24:23,679
+so it's not completely a product line
+
+624
+00:24:22,159 --> 00:24:25,200
+because we are not just selling
+
+625
+00:24:23,679 --> 00:24:26,640
+single products they are really working
+
+626
+00:24:25,200 --> 00:24:28,159
+together there is an architecture and
+
+627
+00:24:26,640 --> 00:24:29,440
+etc
+
+628
+00:24:28,159 --> 00:24:31,679
+and meaning that we have a bigger
+
+629
+00:24:29,440 --> 00:24:33,600
+challenge but at least just for this
+
+630
+00:24:31,679 --> 00:24:37,279
+product line part
+
+631
+00:24:33,600 --> 00:24:39,919
+for the variety management we
+
+632
+00:24:37,279 --> 00:24:43,120
+we started to investigate some
+
+633
+00:24:39,919 --> 00:24:46,559
+extensions to the existing csml
+
+634
+00:24:43,120 --> 00:24:50,000
+as i said we are using xml mostly 1.55
+
+635
+00:24:46,559 --> 00:24:52,960
+waiting for 2.0 to be also
+
+636
+00:24:50,000 --> 00:24:53,760
+more solidified because i know very well
+
+637
+00:24:52,960 --> 00:24:56,159
+the right
+
+638
+00:24:53,760 --> 00:24:57,200
+management is more explicit there what
+
+639
+00:24:56,159 --> 00:24:59,520
+we are trying
+
+640
+00:24:57,200 --> 00:25:01,120
+what we are trying to do is looking at
+
+641
+00:24:59,520 --> 00:25:03,360
+some
+
+642
+00:25:01,120 --> 00:25:06,000
+existing extensions like vamos for
+
+643
+00:25:03,360 --> 00:25:11,200
+instance from them
+
+644
+00:25:06,000 --> 00:25:11,200
+try to apply it in our project
+
+645
+00:25:11,440 --> 00:25:15,200
+but at the same time we have been
+
+646
+00:25:13,760 --> 00:25:18,880
+realizing
+
+647
+00:25:15,200 --> 00:25:20,960
+the variety trees are not that much
+
+648
+00:25:18,880 --> 00:25:22,799
+difficult to model even with the
+
+649
+00:25:20,960 --> 00:25:25,840
+existing xml blocks
+
+650
+00:25:22,799 --> 00:25:29,120
+but when it comes to model
+
+651
+00:25:25,840 --> 00:25:31,120
+the constraints the rules
+
+652
+00:25:29,120 --> 00:25:33,039
+and to really execute them for
+
+653
+00:25:31,120 --> 00:25:36,320
+verification validation and for
+
+654
+00:25:33,039 --> 00:25:39,279
+sending purposes or your product line
+
+655
+00:25:36,320 --> 00:25:40,159
+we have a challenge there that's where
+
+656
+00:25:39,279 --> 00:25:42,640
+we are looking at
+
+657
+00:25:40,159 --> 00:25:44,640
+for some transformation like maybe
+
+658
+00:25:42,640 --> 00:25:47,120
+modeling the rules
+
+659
+00:25:44,640 --> 00:25:48,559
+in a little bit more domain specific
+
+660
+00:25:47,120 --> 00:25:51,279
+language environment
+
+661
+00:25:48,559 --> 00:25:53,760
+where we can make some xml connection
+
+662
+00:25:51,279 --> 00:25:57,360
+between the sparks environment and
+
+663
+00:25:53,760 --> 00:25:59,360
+the other rule based
+
+664
+00:25:57,360 --> 00:26:00,640
+modeling environment so that's that's
+
+665
+00:25:59,360 --> 00:26:03,760
+basically
+
+666
+00:26:00,640 --> 00:26:07,440
+uh one of the things
+
+667
+00:26:03,760 --> 00:26:09,200
+we are doing the pure variance
+
+668
+00:26:07,440 --> 00:26:11,120
+we are looking we are also looking at
+
+669
+00:26:09,200 --> 00:26:14,159
+this orthogonal variety
+
+670
+00:26:11,120 --> 00:26:14,159
+modeling is another
+
+671
+00:26:14,480 --> 00:26:19,919
+method from vm
+
+672
+00:26:17,600 --> 00:26:21,279
+so all of all of these things are in our
+
+673
+00:26:19,919 --> 00:26:23,200
+concentration that's a very
+
+674
+00:26:21,279 --> 00:26:24,480
+good good moment to speak about this
+
+675
+00:26:23,200 --> 00:26:27,440
+because we are really running this
+
+676
+00:26:24,480 --> 00:26:30,159
+project with tn or esi right now
+
+677
+00:26:27,440 --> 00:26:32,720
+and i think at the end of this project
+
+678
+00:26:30,159 --> 00:26:35,520
+somewhere in june
+
+679
+00:26:32,720 --> 00:26:37,440
+we are finishing it in july or august
+
+680
+00:26:35,520 --> 00:26:39,360
+you might see an article coming from our
+
+681
+00:26:37,440 --> 00:26:40,640
+side on our learnings on this variety
+
+682
+00:26:39,360 --> 00:26:43,039
+modeling
+
+683
+00:26:40,640 --> 00:26:44,960
+moving the how it will it can be applied
+
+684
+00:26:43,039 --> 00:26:46,799
+in an automated logistics domain
+
+685
+00:26:44,960 --> 00:26:48,000
+so that will be writing the title of the
+
+686
+00:26:46,799 --> 00:26:51,440
+article
+
+687
+00:26:48,000 --> 00:26:54,720
+oh cool it reminds me that we have to
+
+688
+00:26:51,440 --> 00:26:57,279
+have two more episodes one on vamos and
+
+689
+00:26:54,720 --> 00:27:00,159
+one we have to invite danilo boyce from
+
+690
+00:26:57,279 --> 00:27:00,159
+pure systems
+
+691
+00:27:00,960 --> 00:27:05,440
+will be interesting also and i i've
+
+692
+00:27:03,919 --> 00:27:06,640
+currently a project where we combine
+
+693
+00:27:05,440 --> 00:27:09,840
+both
+
+694
+00:27:06,640 --> 00:27:12,880
+which are perfectly fits together
+
+695
+00:27:09,840 --> 00:27:14,640
+with farmers you can model variability
+
+696
+00:27:12,880 --> 00:27:16,159
+and you can model the the features and
+
+697
+00:27:14,640 --> 00:27:17,679
+the feature constraints now if you
+
+698
+00:27:16,159 --> 00:27:20,399
+select this feature you must also
+
+699
+00:27:17,679 --> 00:27:22,159
+select that one etc but you can also
+
+700
+00:27:20,399 --> 00:27:23,039
+extract the feature modeling to appear
+
+701
+00:27:22,159 --> 00:27:25,600
+variants
+
+702
+00:27:23,039 --> 00:27:27,440
+which makes sense if it's not only about
+
+703
+00:27:25,600 --> 00:27:29,279
+system l
+
+704
+00:27:27,440 --> 00:27:31,520
+the feature model should also impact
+
+705
+00:27:29,279 --> 00:27:32,000
+other models not only the system model
+
+706
+00:27:31,520 --> 00:27:33,679
+oh yeah
+
+707
+00:27:32,000 --> 00:27:35,200
+but the modeling of the variability in
+
+708
+00:27:33,679 --> 00:27:36,720
+the system um
+
+709
+00:27:35,200 --> 00:27:39,360
+can still be done with uh with the
+
+710
+00:27:36,720 --> 00:27:39,360
+vehemence approach
+
+711
+00:27:40,320 --> 00:27:44,880
+the dsl discussions a little bit we have
+
+712
+00:27:43,360 --> 00:27:48,640
+some complexities like
+
+713
+00:27:44,880 --> 00:27:51,200
+very very complicated rules just
+
+714
+00:27:48,640 --> 00:27:51,840
+sometimes need some dsl extension that's
+
+715
+00:27:51,200 --> 00:27:54,480
+also
+
+716
+00:27:51,840 --> 00:27:54,960
+a very interesting learning for us on
+
+717
+00:27:54,480 --> 00:27:58,080
+the way
+
+718
+00:27:54,960 --> 00:28:00,320
+yeah okay so
+
+719
+00:27:58,080 --> 00:28:03,200
+well yeah you do a lot of sophisticated
+
+720
+00:28:00,320 --> 00:28:06,559
+mbse stuff i would say
+
+721
+00:28:03,200 --> 00:28:09,600
+so and what do you think are
+
+722
+00:28:06,559 --> 00:28:11,600
+the main organizational challenges in
+
+723
+00:28:09,600 --> 00:28:13,600
+adapting mbsc so one part is the
+
+724
+00:28:11,600 --> 00:28:16,000
+technical challenges but what are about
+
+725
+00:28:13,600 --> 00:28:16,799
+the organizational challenges yeah
+
+726
+00:28:16,000 --> 00:28:20,080
+that's the
+
+727
+00:28:16,799 --> 00:28:23,440
+that's the bitter sweet part
+
+728
+00:28:20,080 --> 00:28:24,320
+of the meal now so acceptance and
+
+729
+00:28:23,440 --> 00:28:26,480
+ownership
+
+730
+00:28:24,320 --> 00:28:28,080
+that might sound cliche i think i see
+
+731
+00:28:26,480 --> 00:28:30,000
+this answer as a copy paste
+
+732
+00:28:28,080 --> 00:28:31,679
+in many contexts especially if you're
+
+733
+00:28:30,000 --> 00:28:34,480
+trying to embed this
+
+734
+00:28:31,679 --> 00:28:36,720
+on a wider scope and if you have someone
+
+735
+00:28:34,480 --> 00:28:40,159
+it's possible to do that
+
+736
+00:28:36,720 --> 00:28:40,159
+i think that's that's still the biggest
+
+737
+00:28:40,559 --> 00:28:46,640
+challenge um i need to maybe
+
+738
+00:28:44,320 --> 00:28:48,799
+i need to go back to what i did before
+
+739
+00:28:46,640 --> 00:28:50,080
+like as i explained in airports i tried
+
+740
+00:28:48,799 --> 00:28:53,279
+to do that
+
+741
+00:28:50,080 --> 00:28:55,200
+as a side track and i was trying to use
+
+742
+00:28:53,279 --> 00:28:56,799
+it in the project and showing the value
+
+743
+00:28:55,200 --> 00:28:58,720
+immediately
+
+744
+00:28:56,799 --> 00:29:00,960
+at the same time having meetings with
+
+745
+00:28:58,720 --> 00:29:04,480
+with many stakeholders and
+
+746
+00:29:00,960 --> 00:29:06,640
+i i was not the domain senior
+
+747
+00:29:04,480 --> 00:29:08,399
+meaning that i was i need i needed to
+
+748
+00:29:06,640 --> 00:29:11,120
+find senior architects
+
+749
+00:29:08,399 --> 00:29:13,919
+knowing the domain also can understand
+
+750
+00:29:11,120 --> 00:29:16,159
+what ccmet and uml means i should say
+
+751
+00:29:13,919 --> 00:29:18,480
+and and not running away when i call
+
+752
+00:29:16,159 --> 00:29:21,520
+something called metamodel
+
+753
+00:29:18,480 --> 00:29:23,200
+if it's too theoretical let's say and
+
+754
+00:29:21,520 --> 00:29:24,799
+also some executive leaders of course
+
+755
+00:29:23,200 --> 00:29:27,919
+you need to find
+
+756
+00:29:24,799 --> 00:29:29,200
+some some budget owners some sponsors i
+
+757
+00:29:27,919 --> 00:29:31,840
+was mostly aiming
+
+758
+00:29:29,200 --> 00:29:33,279
+that part saying that if i if i had
+
+759
+00:29:31,840 --> 00:29:36,720
+these green lights
+
+760
+00:29:33,279 --> 00:29:37,200
+then we can go but i think that was not
+
+761
+00:29:36,720 --> 00:29:39,200
+the
+
+762
+00:29:37,200 --> 00:29:41,200
+whole story so acceptance and ownership
+
+763
+00:29:39,200 --> 00:29:44,640
+is really running in the teams
+
+764
+00:29:41,200 --> 00:29:46,320
+so you cannot really understand your
+
+765
+00:29:44,640 --> 00:29:48,159
+acceptance and ownership by just looking
+
+766
+00:29:46,320 --> 00:29:49,760
+at the organizational chart so you need
+
+767
+00:29:48,159 --> 00:29:51,760
+to look at
+
+768
+00:29:49,760 --> 00:29:54,080
+who is struggling about this document
+
+769
+00:29:51,760 --> 00:29:55,919
+creation who is struggling about
+
+770
+00:29:54,080 --> 00:29:57,360
+doing some certain stuff and maybe they
+
+771
+00:29:55,919 --> 00:29:58,080
+don't need model they need something
+
+772
+00:29:57,360 --> 00:29:59,840
+else and
+
+773
+00:29:58,080 --> 00:30:02,399
+you really need to hear these stories
+
+774
+00:29:59,840 --> 00:30:05,919
+first to understand
+
+775
+00:30:02,399 --> 00:30:08,320
+the level of details in your models
+
+776
+00:30:05,919 --> 00:30:09,520
+but also they need to be involved from
+
+777
+00:30:08,320 --> 00:30:12,080
+day one
+
+778
+00:30:09,520 --> 00:30:12,960
+i mean if you go there with the complete
+
+779
+00:30:12,080 --> 00:30:14,799
+story
+
+780
+00:30:12,960 --> 00:30:16,559
+there's not much room for improvement
+
+781
+00:30:14,799 --> 00:30:17,919
+and you're just staying with your great
+
+782
+00:30:16,559 --> 00:30:21,120
+models i mean
+
+783
+00:30:17,919 --> 00:30:22,880
+it's really like the ivory tower
+
+784
+00:30:21,120 --> 00:30:25,120
+behavior happening also on the nbsc
+
+785
+00:30:22,880 --> 00:30:27,919
+that's not only for nbc you can imagine
+
+786
+00:30:25,120 --> 00:30:31,360
+in all kinds of transformation and what
+
+787
+00:30:27,919 --> 00:30:34,720
+i did now for instance in this new task
+
+788
+00:30:31,360 --> 00:30:38,080
+i tried to get all stakeholders involved
+
+789
+00:30:34,720 --> 00:30:39,679
+as much as possible from day one so that
+
+790
+00:30:38,080 --> 00:30:41,440
+they can define the metamodel
+
+791
+00:30:39,679 --> 00:30:43,679
+so it's a kind of language you need to
+
+792
+00:30:41,440 --> 00:30:44,960
+create all together so everyone needs to
+
+793
+00:30:43,679 --> 00:30:48,080
+understand the same thing
+
+794
+00:30:44,960 --> 00:30:48,799
+from a function and the function can be
+
+795
+00:30:48,080 --> 00:30:50,640
+written in
+
+796
+00:30:48,799 --> 00:30:52,080
+100 different ways in all systems
+
+797
+00:30:50,640 --> 00:30:54,240
+engineering books
+
+798
+00:30:52,080 --> 00:30:55,919
+even in csml you can say i have a
+
+799
+00:30:54,240 --> 00:30:57,200
+function but there is a property which
+
+800
+00:30:55,919 --> 00:31:00,240
+makes it non-functional you
+
+801
+00:30:57,200 --> 00:31:03,039
+you really need to align on this stuff
+
+802
+00:31:00,240 --> 00:31:04,000
+from day one so that they can feel that
+
+803
+00:31:03,039 --> 00:31:07,120
+that's also their
+
+804
+00:31:04,000 --> 00:31:08,559
+own thing so that they can all so that's
+
+805
+00:31:07,120 --> 00:31:10,960
+basically
+
+806
+00:31:08,559 --> 00:31:11,760
+would be my message to everyone when it
+
+807
+00:31:10,960 --> 00:31:13,120
+comes to
+
+808
+00:31:11,760 --> 00:31:16,240
+they face the same challenge on
+
+809
+00:31:13,120 --> 00:31:16,240
+acceptance and ownership
+
+810
+00:31:16,559 --> 00:31:21,679
+all right so one
+
+811
+00:31:19,679 --> 00:31:23,519
+question so that uh do you translate
+
+812
+00:31:21,679 --> 00:31:26,240
+your your meta model or your
+
+813
+00:31:23,519 --> 00:31:28,159
+your language your mbse language into
+
+814
+00:31:26,240 --> 00:31:30,720
+the models meaning that you
+
+815
+00:31:28,159 --> 00:31:32,159
+do not use for the system l term for
+
+816
+00:31:30,720 --> 00:31:34,720
+example activity
+
+817
+00:31:32,159 --> 00:31:35,760
+but instead use your term for that and
+
+818
+00:31:34,720 --> 00:31:37,760
+uh by using
+
+819
+00:31:35,760 --> 00:31:38,960
+stereotypes and name it and function or
+
+820
+00:31:37,760 --> 00:31:40,320
+whatever yeah
+
+821
+00:31:38,960 --> 00:31:42,240
+that's where this story went a little
+
+822
+00:31:40,320 --> 00:31:43,519
+bit theoretical for our team but thanks
+
+823
+00:31:42,240 --> 00:31:46,799
+for asking
+
+824
+00:31:43,519 --> 00:31:47,519
+because actually that's what we are
+
+825
+00:31:46,799 --> 00:31:50,720
+doing
+
+826
+00:31:47,519 --> 00:31:54,159
+so we are somehow tuning some names like
+
+827
+00:31:50,720 --> 00:31:56,799
+you know we don't call it uh
+
+828
+00:31:54,159 --> 00:31:57,440
+a function but we call the capability so
+
+829
+00:31:56,799 --> 00:31:59,120
+that's
+
+830
+00:31:57,440 --> 00:32:00,880
+so that that's that's maybe more
+
+831
+00:31:59,120 --> 00:32:02,240
+resonating with the company but when it
+
+832
+00:32:00,880 --> 00:32:05,120
+comes to
+
+833
+00:32:02,240 --> 00:32:06,880
+certain diagram artifacts we are not
+
+834
+00:32:05,120 --> 00:32:07,840
+hiding the fact that we are using use
+
+835
+00:32:06,880 --> 00:32:10,880
+case modeling
+
+836
+00:32:07,840 --> 00:32:10,880
+they are use cases
+
+837
+00:32:11,120 --> 00:32:15,600
+but people are just understanding hey we
+
+838
+00:32:13,760 --> 00:32:16,960
+have a capability model here
+
+839
+00:32:15,600 --> 00:32:18,799
+so they don't need to understand what
+
+840
+00:32:16,960 --> 00:32:21,600
+the use case is
+
+841
+00:32:18,799 --> 00:32:22,240
+but it's not a very formal method model
+
+842
+00:32:21,600 --> 00:32:23,840
+meaning that
+
+843
+00:32:22,240 --> 00:32:25,600
+there is another toolbox that you can
+
+844
+00:32:23,840 --> 00:32:28,720
+drag and drop different
+
+845
+00:32:25,600 --> 00:32:29,279
+artifacts like a profile it's not there
+
+846
+00:32:28,720 --> 00:32:32,640
+yet
+
+847
+00:32:29,279 --> 00:32:34,320
+although i'm thinking about it how
+
+848
+00:32:32,640 --> 00:32:36,799
+we are deploying this method model now
+
+849
+00:32:34,320 --> 00:32:40,799
+is just a little bit knowledge model
+
+850
+00:32:36,799 --> 00:32:43,360
+i should say and then we are creating
+
+851
+00:32:40,799 --> 00:32:44,640
+the platform models for each business
+
+852
+00:32:43,360 --> 00:32:47,919
+segment
+
+853
+00:32:44,640 --> 00:32:49,279
+that they look exactly the same how the
+
+854
+00:32:47,919 --> 00:32:51,679
+metamodel looks like
+
+855
+00:32:49,279 --> 00:32:53,440
+they have the same relationship between
+
+856
+00:32:51,679 --> 00:32:54,799
+all of their packages and classes and
+
+857
+00:32:53,440 --> 00:32:57,519
+even views
+
+858
+00:32:54,799 --> 00:32:59,279
+and then they can always look back how
+
+859
+00:32:57,519 --> 00:33:00,799
+the metamodel looks like
+
+860
+00:32:59,279 --> 00:33:03,120
+but the relationship between these
+
+861
+00:33:00,799 --> 00:33:06,320
+elements are not
+
+862
+00:33:03,120 --> 00:33:10,320
+automatically transferred to each other
+
+863
+00:33:06,320 --> 00:33:13,360
+but in time after a while after a solid
+
+864
+00:33:10,320 --> 00:33:16,480
+metamodel team we are planning to
+
+865
+00:33:13,360 --> 00:33:17,600
+create a verification template like you
+
+866
+00:33:16,480 --> 00:33:19,600
+can
+
+867
+00:33:17,600 --> 00:33:21,840
+compile your platform model saying that
+
+868
+00:33:19,600 --> 00:33:23,919
+okay you are still in the meta model
+
+869
+00:33:21,840 --> 00:33:26,559
+or you have some relationship which
+
+870
+00:33:23,919 --> 00:33:29,200
+doesn't make sense for the metamodel
+
+871
+00:33:26,559 --> 00:33:31,519
+that's also what i plan to do in future
+
+872
+00:33:29,200 --> 00:33:31,519
+okay
+
+873
+00:33:32,080 --> 00:33:37,519
+cool yeah but i'm still interested in
+
+874
+00:33:36,480 --> 00:33:39,519
+those
+
+875
+00:33:37,519 --> 00:33:40,720
+acceptance and ownership things i i
+
+876
+00:33:39,519 --> 00:33:42,880
+guess this is much
+
+877
+00:33:40,720 --> 00:33:46,720
+more the problem than finding the right
+
+878
+00:33:42,880 --> 00:33:49,840
+tool chain or something like that
+
+879
+00:33:46,720 --> 00:33:51,600
+yeah that's true i mean there is
+
+880
+00:33:49,840 --> 00:33:54,000
+one trap for instance we have found
+
+881
+00:33:51,600 --> 00:33:56,159
+ourselves recently
+
+882
+00:33:54,000 --> 00:33:57,760
+it was a little bit similar question and
+
+883
+00:33:56,159 --> 00:34:00,240
+answer that just happened between team
+
+884
+00:33:57,760 --> 00:34:02,240
+and me so when you
+
+885
+00:34:00,240 --> 00:34:04,240
+when you when you are really enjoying
+
+886
+00:34:02,240 --> 00:34:06,159
+modeling when you are enjoying when you
+
+887
+00:34:04,240 --> 00:34:08,720
+know the mbscs similar
+
+888
+00:34:06,159 --> 00:34:09,280
+uml that can also stay very theoretical
+
+889
+00:34:08,720 --> 00:34:11,599
+for
+
+890
+00:34:09,280 --> 00:34:13,200
+the organization you can say hey we have
+
+891
+00:34:11,599 --> 00:34:16,320
+a nice language here
+
+892
+00:34:13,200 --> 00:34:19,760
+we created this meta model together
+
+893
+00:34:16,320 --> 00:34:21,760
+but you should be able to create very
+
+894
+00:34:19,760 --> 00:34:25,200
+quick proof of concepts
+
+895
+00:34:21,760 --> 00:34:26,320
+like really maybe documented as part of
+
+896
+00:34:25,200 --> 00:34:29,119
+the baseline
+
+897
+00:34:26,320 --> 00:34:30,480
+or creating some software for them they
+
+898
+00:34:29,119 --> 00:34:32,079
+can drag and drop
+
+899
+00:34:30,480 --> 00:34:33,679
+a block and the interface is
+
+900
+00:34:32,079 --> 00:34:35,359
+automatically appearing
+
+901
+00:34:33,679 --> 00:34:36,800
+so if you are not able to show this very
+
+902
+00:34:35,359 --> 00:34:39,520
+quickly
+
+903
+00:34:36,800 --> 00:34:42,000
+you can also find a trap find yourself
+
+904
+00:34:39,520 --> 00:34:43,839
+in the trap that i have found so
+
+905
+00:34:42,000 --> 00:34:46,320
+i i've heard a lot of criticism for
+
+906
+00:34:43,839 --> 00:34:48,560
+instance like it's too theoretical so
+
+907
+00:34:46,320 --> 00:34:51,839
+we need a phd to understand this abs
+
+908
+00:34:48,560 --> 00:34:53,520
+influence these type of things are also
+
+909
+00:34:51,839 --> 00:34:54,960
+something that's right now happening for
+
+910
+00:34:53,520 --> 00:34:57,280
+instance that's
+
+911
+00:34:54,960 --> 00:34:59,599
+why we started to deploy some proof of
+
+912
+00:34:57,280 --> 00:35:02,400
+concepts very quickly so
+
+913
+00:34:59,599 --> 00:35:03,040
+i already started to see some teams are
+
+914
+00:35:02,400 --> 00:35:06,320
+taking it
+
+915
+00:35:03,040 --> 00:35:08,880
+as as part of their daily job
+
+916
+00:35:06,320 --> 00:35:10,240
+so we have some acceptance but the
+
+917
+00:35:08,880 --> 00:35:11,920
+ownership is also like
+
+918
+00:35:10,240 --> 00:35:14,240
+the validation of the systems you need
+
+919
+00:35:11,920 --> 00:35:15,200
+to wait one year to see that they are
+
+920
+00:35:14,240 --> 00:35:18,720
+really maintained
+
+921
+00:35:15,200 --> 00:35:21,040
+so i think maybe
+
+922
+00:35:18,720 --> 00:35:23,119
+in another episode after a year we can
+
+923
+00:35:21,040 --> 00:35:26,880
+close the loop saying that hey
+
+924
+00:35:23,119 --> 00:35:28,000
+the ownership is there but i'm still
+
+925
+00:35:26,880 --> 00:35:30,960
+hopeful that that
+
+926
+00:35:28,000 --> 00:35:32,480
+that we will really uh overcome this
+
+927
+00:35:30,960 --> 00:35:34,880
+acceptance of ownership
+
+928
+00:35:32,480 --> 00:35:34,880
+challenge
+
+929
+00:35:36,880 --> 00:35:40,880
+uh i think the well another part side of
+
+930
+00:35:40,160 --> 00:35:44,720
+the coin
+
+931
+00:35:40,880 --> 00:35:47,839
+of acceptance is the right tool
+
+932
+00:35:44,720 --> 00:35:50,800
+um you could have a very good
+
+933
+00:35:47,839 --> 00:35:51,680
+methodology and concepts etc etc but if
+
+934
+00:35:50,800 --> 00:35:53,599
+you don't have
+
+935
+00:35:51,680 --> 00:35:54,800
+the tool then it does not work in
+
+936
+00:35:53,599 --> 00:35:58,480
+practice or it's not
+
+937
+00:35:54,800 --> 00:35:59,359
+not very effective to do that so um and
+
+938
+00:35:58,480 --> 00:36:01,839
+you mentioned that this
+
+939
+00:35:59,359 --> 00:36:03,920
+is another organizational challenge so
+
+940
+00:36:01,839 --> 00:36:07,839
+what what exactly do you mean
+
+941
+00:36:03,920 --> 00:36:07,839
+by that challenge in your context
+
+942
+00:36:08,079 --> 00:36:12,320
+actually it's the kind of cliche from
+
+943
+00:36:09,839 --> 00:36:13,440
+time to time when you say hey the right
+
+944
+00:36:12,320 --> 00:36:16,079
+tool suites are
+
+945
+00:36:13,440 --> 00:36:17,280
+very important because i've been hearing
+
+946
+00:36:16,079 --> 00:36:19,280
+more and more
+
+947
+00:36:17,280 --> 00:36:20,720
+hey the tools are coming later first
+
+948
+00:36:19,280 --> 00:36:23,920
+define your
+
+949
+00:36:20,720 --> 00:36:25,680
+methodology define what you need but
+
+950
+00:36:23,920 --> 00:36:29,119
+especially looking at
+
+951
+00:36:25,680 --> 00:36:30,720
+my previous answer like you need to be
+
+952
+00:36:29,119 --> 00:36:33,760
+able to show the proof of concept as
+
+953
+00:36:30,720 --> 00:36:36,000
+quick as possible to be able to do that
+
+954
+00:36:33,760 --> 00:36:37,920
+you need to write connection with your
+
+955
+00:36:36,000 --> 00:36:39,760
+existing structure
+
+956
+00:36:37,920 --> 00:36:41,119
+the reason why i'm saying the existing
+
+957
+00:36:39,760 --> 00:36:42,880
+structure
+
+958
+00:36:41,119 --> 00:36:44,320
+if you are not creating systems
+
+959
+00:36:42,880 --> 00:36:46,240
+engineering as a green field
+
+960
+00:36:44,320 --> 00:36:47,520
+in your company if you have something
+
+961
+00:36:46,240 --> 00:36:49,520
+already in place
+
+962
+00:36:47,520 --> 00:36:50,720
+probably you have systems engineers who
+
+963
+00:36:49,520 --> 00:36:54,400
+know
+
+964
+00:36:50,720 --> 00:36:56,400
+how things work they know how doors
+
+965
+00:36:54,400 --> 00:36:58,160
+can be used for requirements management
+
+966
+00:36:56,400 --> 00:37:00,480
+in the traceability
+
+967
+00:36:58,160 --> 00:37:02,240
+things are in place it might work it
+
+968
+00:37:00,480 --> 00:37:03,200
+might not work as well you might have
+
+969
+00:37:02,240 --> 00:37:05,280
+some
+
+970
+00:37:03,200 --> 00:37:06,480
+personal view on this topic it should be
+
+971
+00:37:05,280 --> 00:37:08,720
+improved
+
+972
+00:37:06,480 --> 00:37:09,760
+but this is a stable environment if you
+
+973
+00:37:08,720 --> 00:37:12,560
+somehow show
+
+974
+00:37:09,760 --> 00:37:14,720
+just the side track without being able
+
+975
+00:37:12,560 --> 00:37:16,720
+to synchronize
+
+976
+00:37:14,720 --> 00:37:17,760
+the current channel and your side
+
+977
+00:37:16,720 --> 00:37:20,240
+channel
+
+978
+00:37:17,760 --> 00:37:22,000
+you will never be able to show the proof
+
+979
+00:37:20,240 --> 00:37:25,119
+of concept values
+
+980
+00:37:22,000 --> 00:37:26,320
+as as big as you think because that's
+
+981
+00:37:25,119 --> 00:37:28,640
+not an added value
+
+982
+00:37:26,320 --> 00:37:30,000
+so you are bringing something but at the
+
+983
+00:37:28,640 --> 00:37:32,160
+same time you are taking
+
+984
+00:37:30,000 --> 00:37:34,079
+something out of the box it's a kind of
+
+985
+00:37:32,160 --> 00:37:36,800
+chicken and egg scenario so
+
+986
+00:37:34,079 --> 00:37:37,520
+you don't have the right tool suite in
+
+987
+00:37:36,800 --> 00:37:39,520
+place
+
+988
+00:37:37,520 --> 00:37:41,520
+because you have a vision first and
+
+989
+00:37:39,520 --> 00:37:44,640
+before having the right tool suite
+
+990
+00:37:41,520 --> 00:37:48,160
+you believe that you're not able to show
+
+991
+00:37:44,640 --> 00:37:50,320
+the real value as you are imagining and
+
+992
+00:37:48,160 --> 00:37:52,320
+that's why i think the solution to that
+
+993
+00:37:50,320 --> 00:37:54,240
+at least what we are doing is
+
+994
+00:37:52,320 --> 00:37:55,920
+without explaining the details to people
+
+995
+00:37:54,240 --> 00:37:57,119
+what you are doing just try to connect
+
+996
+00:37:55,920 --> 00:38:00,720
+with gateways
+
+997
+00:37:57,119 --> 00:38:03,040
+like it can be bi-directional it can be
+
+998
+00:38:00,720 --> 00:38:04,480
+just export imports like what we are
+
+999
+00:38:03,040 --> 00:38:07,680
+doing in the variety management
+
+1000
+00:38:04,480 --> 00:38:09,839
+maybe and then you can say that if i
+
+1001
+00:38:07,680 --> 00:38:13,359
+have a full synchronization here
+
+1002
+00:38:09,839 --> 00:38:16,320
+like in this tool suite it will be 100
+
+1003
+00:38:13,359 --> 00:38:18,560
+better so just give me this tool suite
+
+1004
+00:38:16,320 --> 00:38:20,800
+so that i can go that way so that's what
+
+1005
+00:38:18,560 --> 00:38:22,560
+basically we are doing in wanda london
+
+1006
+00:38:20,800 --> 00:38:24,079
+which is really profit based and you
+
+1007
+00:38:22,560 --> 00:38:26,800
+should always show the value
+
+1008
+00:38:24,079 --> 00:38:27,760
+to be invested in so that would be my
+
+1009
+00:38:26,800 --> 00:38:32,800
+answer to this
+
+1010
+00:38:27,760 --> 00:38:36,640
+two suite challenge question
+
+1011
+00:38:32,800 --> 00:38:39,119
+yeah was definitely very interesting to
+
+1012
+00:38:36,640 --> 00:38:42,320
+see what's what's going on in the field
+
+1013
+00:38:39,119 --> 00:38:45,520
+and um yeah so our
+
+1014
+00:38:42,320 --> 00:38:48,560
+our time is more or less already over
+
+1015
+00:38:45,520 --> 00:38:49,680
+okay so thank you very much fadi for
+
+1016
+00:38:48,560 --> 00:38:52,880
+your insights
+
+1017
+00:38:49,680 --> 00:38:56,320
+and your openness talking about your
+
+1018
+00:38:52,880 --> 00:38:58,000
+approaches i hope people can learn from
+
+1019
+00:38:56,320 --> 00:39:01,760
+it
+
+1020
+00:38:58,000 --> 00:39:04,480
+we will link your linkedin
+
+1021
+00:39:01,760 --> 00:39:07,200
+profile so people can get in touch with
+
+1022
+00:39:04,480 --> 00:39:10,160
+you if they have additional questions
+
+1023
+00:39:07,200 --> 00:39:11,280
+uh of course uh people you can write
+
+1024
+00:39:10,160 --> 00:39:15,119
+your comments below
+
+1025
+00:39:11,280 --> 00:39:18,720
+the video or below the
+
+1026
+00:39:15,119 --> 00:39:22,560
+uh streams and we will give
+
+1027
+00:39:18,720 --> 00:39:22,560
+the questions to fatty
+
+1028
+00:39:23,040 --> 00:39:27,599
+yeah to everybody who is not subscribed
+
+1029
+00:39:25,440 --> 00:39:28,079
+yet please don't forget to subscribe the
+
+1030
+00:39:27,599 --> 00:39:31,119
+channel
+
+1031
+00:39:28,079 --> 00:39:31,839
+so you're getting informed about new
+
+1032
+00:39:31,119 --> 00:39:35,119
+videos
+
+1033
+00:39:31,839 --> 00:39:39,280
+and the next episode will
+
+1034
+00:39:35,119 --> 00:39:42,880
+be with daniel siegel about a tool
+
+1035
+00:39:39,280 --> 00:39:45,280
+and we are talking about lementry
+
+1036
+00:39:42,880 --> 00:39:45,920
+unfortunately we can't give you a date
+
+1037
+00:39:45,280 --> 00:39:48,720
+we are
+
+1038
+00:39:45,920 --> 00:39:49,200
+still in consideration with daniel but
+
+1039
+00:39:48,720 --> 00:39:51,920
+we
+
+1040
+00:39:49,200 --> 00:39:51,920
+you will find
+
+1041
+00:39:52,240 --> 00:39:58,280
+on the known channels
+
+1042
+00:39:55,599 --> 00:39:59,440
+the information on the website
+
+1043
+00:39:58,280 --> 00:40:01,680
+mbse.rocks
+
+1044
+00:39:59,440 --> 00:40:03,520
+or on the youtube channel you will find
+
+1045
+00:40:01,680 --> 00:40:07,040
+the date
+
+1046
+00:40:03,520 --> 00:40:10,880
+yeah that's it for today but
+
+1047
+00:40:07,040 --> 00:40:14,000
+do not forget trust us trust us
+
+1048
+00:40:10,880 --> 00:40:15,359
+we are systems engineers correct good
+
+1049
+00:40:14,000 --> 00:40:20,400
+bye
+
+1050
+00:40:15,359 --> 00:40:20,400
+bye bye
+
