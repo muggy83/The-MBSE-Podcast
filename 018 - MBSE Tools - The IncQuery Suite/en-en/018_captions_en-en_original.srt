@@ -1,0 +1,7032 @@
+1
+00:01:02,719 --> 00:01:05,199
+welcome to a new episode of our mbse
+
+2
+00:01:05,199 --> 00:01:07,840
+podcast today's episode
+
+3
+00:01:07,840 --> 00:01:10,640
+comes again from our series on
+
+4
+00:01:10,640 --> 00:01:11,760
+mbs
+
+5
+00:01:11,760 --> 00:01:13,520
+and we are not looking at a standard
+
+6
+00:01:13,520 --> 00:01:15,600
+system modeling tool but at the ink very
+
+7
+00:01:15,600 --> 00:01:18,080
+sweet from inquiry labs
+
+8
+00:01:18,080 --> 00:01:19,759
+we will talk about the tool in the first
+
+9
+00:01:19,759 --> 00:01:22,159
+part of the episode and look at it in a
+
+10
+00:01:22,159 --> 00:01:24,400
+demo in the second part so for all your
+
+11
+00:01:24,400 --> 00:01:26,960
+only listeners it means that the second
+
+12
+00:01:26,960 --> 00:01:29,040
+part might be difficult to follow the
+
+13
+00:01:29,040 --> 00:01:31,439
+podcast without the video
+
+14
+00:01:31,439 --> 00:01:34,159
+today we have two great guests with us
+
+15
+00:01:34,159 --> 00:01:37,200
+eastbound from inquiry and enrique from
+
+16
+00:01:37,200 --> 00:01:38,960
+zuken so
+
+17
+00:01:38,960 --> 00:01:40,960
+let's start with the introduction so
+
+18
+00:01:40,960 --> 00:01:42,479
+please introduce yourself let's start
+
+19
+00:01:42,479 --> 00:01:45,520
+with eastbound welcome
+
+20
+00:01:45,520 --> 00:01:47,119
+welcome thank you very much for having
+
+21
+00:01:47,119 --> 00:01:48,479
+me and having us today i really
+
+22
+00:01:48,479 --> 00:01:50,159
+appreciate that
+
+23
+00:01:50,159 --> 00:01:51,680
+my name is ishnarat i'm the ceo of
+
+24
+00:01:51,680 --> 00:01:54,079
+inquiry labs
+
+25
+00:01:54,079 --> 00:01:56,079
+the digital thread analytics company has
+
+26
+00:01:56,079 --> 00:01:58,560
+been uh call it nowadays but many of our
+
+27
+00:01:58,560 --> 00:02:01,119
+listeners maybe know us from the mbsc
+
+28
+00:02:01,119 --> 00:02:04,159
+world as a provider for customized tool
+
+29
+00:02:04,159 --> 00:02:06,479
+solutions around various mbsc tools and
+
+30
+00:02:06,479 --> 00:02:07,680
+tool chains
+
+31
+00:02:07,680 --> 00:02:09,598
+and csml in general
+
+32
+00:02:09,598 --> 00:02:11,520
+and obviously i'm here today to talk
+
+33
+00:02:11,520 --> 00:02:13,680
+about our flagship product the inquiry
+
+34
+00:02:13,680 --> 00:02:15,920
+suite
+
+35
+00:02:17,120 --> 00:02:20,400
+all right i am enrique kursmalnik i
+
+36
+00:02:20,400 --> 00:02:22,080
+think that might be the first time many
+
+37
+00:02:22,080 --> 00:02:23,680
+of you have actually heard me pronounce
+
+38
+00:02:23,680 --> 00:02:25,040
+my last name
+
+39
+00:02:25,040 --> 00:02:27,360
+i usually just go by enrique
+
+40
+00:02:27,360 --> 00:02:31,840
+um i'm currently the ceo of vitek vitec
+
+41
+00:02:31,840 --> 00:02:34,800
+is a company that was acquired by
+
+42
+00:02:34,800 --> 00:02:38,000
+zuken in august of 2019
+
+43
+00:02:38,000 --> 00:02:39,440
+and i think many of the listeners might
+
+44
+00:02:39,440 --> 00:02:42,319
+be familiar with vitek as being the
+
+45
+00:02:42,319 --> 00:02:45,280
+originators and developers of core
+
+46
+00:02:45,280 --> 00:02:48,160
+which has now been succeeded by genesis
+
+47
+00:02:48,160 --> 00:02:50,720
+which is the new modeling platform from
+
+48
+00:02:50,720 --> 00:02:52,080
+vitek
+
+49
+00:02:52,080 --> 00:02:54,800
+and uh of course i know tim and
+
+50
+00:02:54,800 --> 00:02:57,120
+christian and ishvan from my
+
+51
+00:02:57,120 --> 00:03:00,560
+previous role as cto of no magic so i'm
+
+52
+00:03:00,560 --> 00:03:03,519
+very excited to be here um excited to be
+
+53
+00:03:03,519 --> 00:03:06,000
+talking about mbsc and excited to be
+
+54
+00:03:06,000 --> 00:03:07,599
+showing some of the work
+
+55
+00:03:07,599 --> 00:03:11,200
+that uh ishvan and i have been working
+
+56
+00:03:11,200 --> 00:03:13,440
+together uh working on together for the
+
+57
+00:03:13,440 --> 00:03:16,000
+last six months or so
+
+58
+00:03:16,000 --> 00:03:19,599
+yeah great very nice to have too so yeah
+
+59
+00:03:19,599 --> 00:03:22,800
+so to say long-term experts on mvc here
+
+60
+00:03:22,800 --> 00:03:24,400
+on the podcast
+
+61
+00:03:24,400 --> 00:03:25,840
+um yeah
+
+62
+00:03:25,840 --> 00:03:28,480
+as we already discovered you're from two
+
+63
+00:03:28,480 --> 00:03:31,920
+different companies and um maybe you can
+
+64
+00:03:31,920 --> 00:03:34,080
+tell our listeners um
+
+65
+00:03:34,080 --> 00:03:35,920
+what's the relationship between inquiry
+
+66
+00:03:35,920 --> 00:03:39,200
+and zukin or why tech
+
+67
+00:03:39,200 --> 00:03:40,640
+well i think that's a great place to
+
+68
+00:03:40,640 --> 00:03:41,599
+start
+
+69
+00:03:41,599 --> 00:03:44,560
+um so as i mentioned zuken acquired
+
+70
+00:03:44,560 --> 00:03:45,599
+vitek
+
+71
+00:03:45,599 --> 00:03:48,400
+in 2019 and zuken for those of you who
+
+72
+00:03:48,400 --> 00:03:49,680
+don't know
+
+73
+00:03:49,680 --> 00:03:51,280
+is an international company
+
+74
+00:03:51,280 --> 00:03:53,519
+headquartered in yokohama japan
+
+75
+00:03:53,519 --> 00:03:56,000
+known for its ecad tools specifically
+
+76
+00:03:56,000 --> 00:03:59,920
+around pc board design wire harness etc
+
+77
+00:03:59,920 --> 00:04:03,439
+and zuken realized a while back
+
+78
+00:04:03,439 --> 00:04:05,360
+that it was important to start moving
+
+79
+00:04:05,360 --> 00:04:08,319
+upstream couldn't continue to just be a
+
+80
+00:04:08,319 --> 00:04:10,159
+detailed design company focus on
+
+81
+00:04:10,159 --> 00:04:12,879
+electrical and electronic design
+
+82
+00:04:12,879 --> 00:04:15,200
+um the
+
+83
+00:04:15,200 --> 00:04:17,759
+correlation and the connection between
+
+84
+00:04:17,759 --> 00:04:20,959
+ecad electrical design and
+
+85
+00:04:20,959 --> 00:04:23,600
+mbse specifically because so many
+
+86
+00:04:23,600 --> 00:04:26,639
+complex systems today are dependent on
+
+87
+00:04:26,639 --> 00:04:28,720
+electrical electronic
+
+88
+00:04:28,720 --> 00:04:30,639
+execution of behaviors and software
+
+89
+00:04:30,639 --> 00:04:31,440
+that's
+
+90
+00:04:31,440 --> 00:04:33,360
+deployed through ecu's
+
+91
+00:04:33,360 --> 00:04:36,160
+they're inextricably connected right
+
+92
+00:04:36,160 --> 00:04:37,199
+so
+
+93
+00:04:37,199 --> 00:04:39,199
+being able to move upstream to the
+
+94
+00:04:39,199 --> 00:04:41,040
+architecture and that top-down design
+
+95
+00:04:41,040 --> 00:04:43,040
+was very important to zuken
+
+96
+00:04:43,040 --> 00:04:44,880
+hence the acquisition so there are
+
+97
+00:04:44,880 --> 00:04:47,840
+really two dimensions to to the work
+
+98
+00:04:47,840 --> 00:04:49,919
+that's that's been done
+
+99
+00:04:49,919 --> 00:04:52,160
+um
+
+100
+00:04:52,160 --> 00:04:54,479
+zuken
+
+101
+00:04:54,479 --> 00:04:58,720
+sees the the streamlining of that
+
+102
+00:04:58,720 --> 00:05:01,199
+transition from architecture to detail
+
+103
+00:05:01,199 --> 00:05:03,039
+design as a critical
+
+104
+00:05:03,039 --> 00:05:04,320
+enabler
+
+105
+00:05:04,320 --> 00:05:07,840
+for successful development of products
+
+106
+00:05:07,840 --> 00:05:11,440
+right now as we know uh mbsc and systems
+
+107
+00:05:11,440 --> 00:05:14,320
+engineering unfortunately
+
+108
+00:05:14,320 --> 00:05:15,199
+function
+
+109
+00:05:15,199 --> 00:05:17,680
+as a silo in many cases
+
+110
+00:05:17,680 --> 00:05:19,120
+and and that's problematic it's
+
+111
+00:05:19,120 --> 00:05:21,199
+problematic for organizations because
+
+112
+00:05:21,199 --> 00:05:23,840
+they can't really realize the the
+
+113
+00:05:23,840 --> 00:05:25,840
+potential roi
+
+114
+00:05:25,840 --> 00:05:28,320
+that mba and not just mbsc but the whole
+
+115
+00:05:28,320 --> 00:05:29,840
+digitalization
+
+116
+00:05:29,840 --> 00:05:33,520
+this whole transformation can deliver
+
+117
+00:05:33,520 --> 00:05:37,360
+so one aspect is this streamlining of
+
+118
+00:05:37,360 --> 00:05:39,680
+that transition from architecture to
+
+119
+00:05:39,680 --> 00:05:41,440
+detail design
+
+120
+00:05:41,440 --> 00:05:44,240
+but the second aspect of this
+
+121
+00:05:44,240 --> 00:05:47,120
+is and this is really driven by by vitec
+
+122
+00:05:47,120 --> 00:05:49,919
+is a belief that it is open and
+
+123
+00:05:49,919 --> 00:05:50,840
+connected
+
+124
+00:05:50,840 --> 00:05:53,600
+ecosystems that need to drive
+
+125
+00:05:53,600 --> 00:05:55,759
+these digital engineering strategies in
+
+126
+00:05:55,759 --> 00:05:59,360
+these digital engineering platforms
+
+127
+00:05:59,759 --> 00:06:03,360
+smaller companies like inquiry labs
+
+128
+00:06:03,360 --> 00:06:06,000
+are companies that often drive a lot of
+
+129
+00:06:06,000 --> 00:06:07,759
+the innovation
+
+130
+00:06:07,759 --> 00:06:09,360
+in industries
+
+131
+00:06:09,360 --> 00:06:10,319
+and
+
+132
+00:06:10,319 --> 00:06:13,199
+we as zooken we as vitec want to help
+
+133
+00:06:13,199 --> 00:06:14,800
+enable that
+
+134
+00:06:14,800 --> 00:06:17,680
+we see these collaborative partnerships
+
+135
+00:06:17,680 --> 00:06:20,880
+as really bringing new ideas and new
+
+136
+00:06:20,880 --> 00:06:22,960
+technologies to the market
+
+137
+00:06:22,960 --> 00:06:25,120
+and you know these
+
+138
+00:06:25,120 --> 00:06:28,080
+providing these open connected vendor
+
+139
+00:06:28,080 --> 00:06:29,759
+neutral and i
+
+140
+00:06:29,759 --> 00:06:32,160
+you know it's hard to say vendor neutral
+
+141
+00:06:32,160 --> 00:06:34,479
+because as you know it's hard to support
+
+142
+00:06:34,479 --> 00:06:35,840
+everything out there but as vendor
+
+143
+00:06:35,840 --> 00:06:37,360
+neutral as one can be
+
+144
+00:06:37,360 --> 00:06:39,280
+you know the idea being that we want
+
+145
+00:06:39,280 --> 00:06:41,360
+companies to be able to select their
+
+146
+00:06:41,360 --> 00:06:42,720
+tool chain
+
+147
+00:06:42,720 --> 00:06:44,160
+find the tools that they believe are
+
+148
+00:06:44,160 --> 00:06:45,840
+best of breed and that best fit their
+
+149
+00:06:45,840 --> 00:06:46,800
+needs
+
+150
+00:06:46,800 --> 00:06:48,800
+and build that digital solution on those
+
+151
+00:06:48,800 --> 00:06:51,759
+tools um so the partnership was was
+
+152
+00:06:51,759 --> 00:06:53,599
+really a natural and uh the
+
+153
+00:06:53,599 --> 00:06:55,120
+conversations have been
+
+154
+00:06:55,120 --> 00:06:57,039
+very natural and
+
+155
+00:06:57,039 --> 00:06:59,759
+they were driven really by this
+
+156
+00:06:59,759 --> 00:07:04,000
+lightweight bridge that zuken developed
+
+157
+00:07:04,000 --> 00:07:06,800
+to connect genesis to
+
+158
+00:07:06,800 --> 00:07:09,199
+the the wire harness tool
+
+159
+00:07:09,199 --> 00:07:11,440
+and having had you know a previous
+
+160
+00:07:11,440 --> 00:07:14,160
+relationship with with ishvan and his
+
+161
+00:07:14,160 --> 00:07:15,680
+company
+
+162
+00:07:15,680 --> 00:07:18,560
+i saw them as being a
+
+163
+00:07:18,560 --> 00:07:20,880
+a partner that could really help tie
+
+164
+00:07:20,880 --> 00:07:23,599
+this together for us
+
+165
+00:07:23,599 --> 00:07:25,360
+so i know it was a long answer but i
+
+166
+00:07:25,360 --> 00:07:27,520
+think there was a lot to share in that
+
+167
+00:07:27,520 --> 00:07:29,840
+absolutely
+
+168
+00:07:29,840 --> 00:07:31,919
+the lightweight bridge between
+
+169
+00:07:31,919 --> 00:07:34,800
+e3 and the genesis the lightweight
+
+170
+00:07:34,800 --> 00:07:36,720
+bridge is a part of the inquiry suite
+
+171
+00:07:36,720 --> 00:07:37,840
+then
+
+172
+00:07:37,840 --> 00:07:39,520
+no it is not part of the it's not part
+
+173
+00:07:39,520 --> 00:07:42,000
+of the inquiry suite it is actually a
+
+174
+00:07:42,000 --> 00:07:44,479
+product that is
+
+175
+00:07:44,479 --> 00:07:46,080
+that has been developed and is marketed
+
+176
+00:07:46,080 --> 00:07:47,599
+by zukin us
+
+177
+00:07:47,599 --> 00:07:50,639
+okay so and welcome the inquiry speed
+
+178
+00:07:50,639 --> 00:07:52,560
+then into the game
+
+179
+00:07:52,560 --> 00:07:55,680
+so the inquiry suite is a layer that
+
+180
+00:07:55,680 --> 00:07:58,960
+sits on top of that so the bridge itself
+
+181
+00:07:58,960 --> 00:08:02,160
+what it does is it exposes a design
+
+182
+00:08:02,160 --> 00:08:03,199
+envelope
+
+183
+00:08:03,199 --> 00:08:05,280
+you can think of this as
+
+184
+00:08:05,280 --> 00:08:07,680
+you know the the information needed by
+
+185
+00:08:07,680 --> 00:08:10,240
+the electrical engineer to do their job
+
+186
+00:08:10,240 --> 00:08:13,199
+so we provide in this design envelope
+
+187
+00:08:13,199 --> 00:08:17,039
+you know diagrams requirements um
+
+188
+00:08:17,039 --> 00:08:18,639
+verification requirements test
+
+189
+00:08:18,639 --> 00:08:20,639
+configurations
+
+190
+00:08:20,639 --> 00:08:23,599
+all done through a viewpoint so the
+
+191
+00:08:23,599 --> 00:08:26,319
+systems engineer
+
+192
+00:08:26,319 --> 00:08:29,039
+doesn't have to do anything that special
+
+193
+00:08:29,039 --> 00:08:30,319
+other than
+
+194
+00:08:30,319 --> 00:08:32,719
+you know i'll i'll make this analogous
+
+195
+00:08:32,719 --> 00:08:36,240
+to to the sysml world it's basically
+
+196
+00:08:36,240 --> 00:08:39,360
+adding some stereotypes right so
+
+197
+00:08:39,360 --> 00:08:41,279
+you you um
+
+198
+00:08:41,279 --> 00:08:42,640
+you make sure
+
+199
+00:08:42,640 --> 00:08:45,920
+as a systems engineer that you indicate
+
+200
+00:08:45,920 --> 00:08:46,800
+what
+
+201
+00:08:46,800 --> 00:08:48,959
+signals are electrical signals
+
+202
+00:08:48,959 --> 00:08:50,560
+what components
+
+203
+00:08:50,560 --> 00:08:52,240
+are electrical components are
+
+204
+00:08:52,240 --> 00:08:55,200
+participating in an electrical system
+
+205
+00:08:55,200 --> 00:08:56,080
+so
+
+206
+00:08:56,080 --> 00:08:58,240
+basically just like stereotyping
+
+207
+00:08:58,240 --> 00:08:59,360
+and
+
+208
+00:08:59,360 --> 00:09:01,279
+through this process we're able to
+
+209
+00:09:01,279 --> 00:09:03,120
+extract this viewpoint that is then
+
+210
+00:09:03,120 --> 00:09:06,240
+consumed by the electrical engineer
+
+211
+00:09:06,240 --> 00:09:08,399
+and is used to prime that initial
+
+212
+00:09:08,399 --> 00:09:10,560
+electrical design
+
+213
+00:09:10,560 --> 00:09:12,880
+in the process of priming that design
+
+214
+00:09:12,880 --> 00:09:16,240
+and bringing information over from
+
+215
+00:09:16,240 --> 00:09:19,600
+genesis into e3 we begin to create that
+
+216
+00:09:19,600 --> 00:09:22,560
+traceability that that connection
+
+217
+00:09:22,560 --> 00:09:23,839
+right
+
+218
+00:09:23,839 --> 00:09:25,760
+but that wasn't enough
+
+219
+00:09:25,760 --> 00:09:28,080
+right that's only part of the process
+
+220
+00:09:28,080 --> 00:09:30,800
+we have to ensure that what's brought
+
+221
+00:09:30,800 --> 00:09:32,000
+over
+
+222
+00:09:32,000 --> 00:09:34,320
+is then worked on in a way that that
+
+223
+00:09:34,320 --> 00:09:36,080
+delivers a complete design because we
+
+224
+00:09:36,080 --> 00:09:37,920
+can't bring
+
+225
+00:09:37,920 --> 00:09:40,320
+a detailed design over when
+
+226
+00:09:40,320 --> 00:09:42,959
+in its entirety when we're doing
+
+227
+00:09:42,959 --> 00:09:44,800
+something that's at a high abstract
+
+228
+00:09:44,800 --> 00:09:47,360
+level right we're only providing
+
+229
+00:09:47,360 --> 00:09:48,880
+guidance and knowledge and
+
+230
+00:09:48,880 --> 00:09:50,720
+specifications for what needs to be done
+
+231
+00:09:50,720 --> 00:09:52,800
+but there's still a lot of work that the
+
+232
+00:09:52,800 --> 00:09:55,519
+electrical engineer has to do
+
+233
+00:09:55,519 --> 00:09:57,920
+so the idea behind this is to make sure
+
+234
+00:09:57,920 --> 00:10:00,720
+that as the electrical engineer
+
+235
+00:10:00,720 --> 00:10:03,519
+does it does his or her job as they are
+
+236
+00:10:03,519 --> 00:10:06,480
+iterating on this that we have a way to
+
+237
+00:10:06,480 --> 00:10:08,560
+automatically check
+
+238
+00:10:08,560 --> 00:10:11,279
+the the quality of the model and make
+
+239
+00:10:11,279 --> 00:10:12,720
+sure that
+
+240
+00:10:12,720 --> 00:10:14,079
+that what is defined in that
+
+241
+00:10:14,079 --> 00:10:16,800
+specification is reflected
+
+242
+00:10:16,800 --> 00:10:19,360
+in the detailed design right if a
+
+243
+00:10:19,360 --> 00:10:21,680
+component exists in the architecture it
+
+244
+00:10:21,680 --> 00:10:24,320
+should exist in the detailed design
+
+245
+00:10:24,320 --> 00:10:26,079
+if there's a connection
+
+246
+00:10:26,079 --> 00:10:27,440
+it should exist
+
+247
+00:10:27,440 --> 00:10:29,279
+if there's a signal it should be
+
+248
+00:10:29,279 --> 00:10:32,480
+allocated to some sort of wire somewhere
+
+249
+00:10:32,480 --> 00:10:34,800
+right so we run all of these checks to
+
+250
+00:10:34,800 --> 00:10:36,959
+ensure that what we've
+
+251
+00:10:36,959 --> 00:10:38,480
+specified
+
+252
+00:10:38,480 --> 00:10:42,079
+is complete and consistent and correct
+
+253
+00:10:42,079 --> 00:10:43,040
+on the
+
+254
+00:10:43,040 --> 00:10:45,519
+design side iterating that means this
+
+255
+00:10:45,519 --> 00:10:47,040
+bridge works in both directions so it's
+
+256
+00:10:47,040 --> 00:10:49,040
+not only that you push information from
+
+257
+00:10:49,040 --> 00:10:51,120
+genesis to e3 but also in the other
+
+258
+00:10:51,120 --> 00:10:52,399
+direction
+
+259
+00:10:52,399 --> 00:10:54,000
+there is information that goes in the
+
+260
+00:10:54,000 --> 00:10:55,760
+other direction
+
+261
+00:10:55,760 --> 00:10:58,720
+so the electrical engineer is able to
+
+262
+00:10:58,720 --> 00:11:00,800
+provide feedback
+
+263
+00:11:00,800 --> 00:11:03,920
+uh for example on on requirements and
+
+264
+00:11:03,920 --> 00:11:05,760
+verification testing
+
+265
+00:11:05,760 --> 00:11:08,079
+that would go back to the model exactly
+
+266
+00:11:08,079 --> 00:11:09,440
+exactly and it's a good point tim
+
+267
+00:11:09,440 --> 00:11:11,360
+because one of the one of the problems
+
+268
+00:11:11,360 --> 00:11:14,720
+we have today is not just that this
+
+269
+00:11:14,720 --> 00:11:16,320
+process of transitioning from
+
+270
+00:11:16,320 --> 00:11:18,640
+architecture to detailed design is is
+
+271
+00:11:18,640 --> 00:11:20,560
+disconnected
+
+272
+00:11:20,560 --> 00:11:22,160
+as a result of that the model becomes
+
+273
+00:11:22,160 --> 00:11:25,040
+irrelevant right the model
+
+274
+00:11:25,040 --> 00:11:26,720
+doesn't matter anymore and the detailed
+
+275
+00:11:26,720 --> 00:11:29,200
+design continues to evolve
+
+276
+00:11:29,200 --> 00:11:30,880
+without any reference back to the
+
+277
+00:11:30,880 --> 00:11:32,560
+original architecture
+
+278
+00:11:32,560 --> 00:11:35,279
+so this gives a way to bring that back
+
+279
+00:11:35,279 --> 00:11:37,680
+that feedback back into the model so yes
+
+280
+00:11:37,680 --> 00:11:39,200
+it is actually
+
+281
+00:11:39,200 --> 00:11:42,160
+it is actually a two-way connection and
+
+282
+00:11:42,160 --> 00:11:43,120
+i guess
+
+283
+00:11:43,120 --> 00:11:45,839
+electronics and software are also
+
+284
+00:11:45,839 --> 00:11:47,920
+tightly connected very often and i saw
+
+285
+00:11:47,920 --> 00:11:48,800
+that
+
+286
+00:11:48,800 --> 00:11:52,959
+inquiry suit also offers alm
+
+287
+00:11:52,959 --> 00:11:55,680
+connectors and so on
+
+288
+00:11:55,680 --> 00:11:56,639
+so
+
+289
+00:11:56,639 --> 00:11:58,079
+i think we will
+
+290
+00:11:58,079 --> 00:12:01,120
+see some more information now in in the
+
+291
+00:12:01,120 --> 00:12:02,720
+demo so you
+
+292
+00:12:02,720 --> 00:12:05,920
+prepared something for us
+
+293
+00:12:06,079 --> 00:12:08,880
+yes actually that's the plan so so
+
+294
+00:12:08,880 --> 00:12:10,560
+actually the
+
+295
+00:12:10,560 --> 00:12:13,120
+the this integration with with zukan uh
+
+296
+00:12:13,120 --> 00:12:16,079
+e3 and wi-tech genesis is something that
+
+297
+00:12:16,079 --> 00:12:18,800
+we covered the uh in some talks earlier
+
+298
+00:12:18,800 --> 00:12:20,399
+this year uh first i think at the
+
+299
+00:12:20,399 --> 00:12:22,000
+western states regional conference and
+
+300
+00:12:22,000 --> 00:12:24,800
+then later at the models industry tracks
+
+301
+00:12:24,800 --> 00:12:27,040
+and obviously i'm going to show you the
+
+302
+00:12:27,040 --> 00:12:28,399
+the
+
+303
+00:12:28,399 --> 00:12:30,079
+relevant part of the demos today but for
+
+304
+00:12:30,079 --> 00:12:32,720
+today we prepared an
+
+305
+00:12:32,720 --> 00:12:34,480
+extended significantly extended
+
+306
+00:12:34,480 --> 00:12:37,360
+demonstration that showcases some other
+
+307
+00:12:37,360 --> 00:12:39,120
+capabilities of the inquiry suite and
+
+308
+00:12:39,120 --> 00:12:40,880
+puts you know some of the things that
+
+309
+00:12:40,880 --> 00:12:42,639
+you may have seen earlier into a bigger
+
+310
+00:12:42,639 --> 00:12:44,800
+and broader context
+
+311
+00:12:44,800 --> 00:12:47,519
+actually we are going to to be using
+
+312
+00:12:47,519 --> 00:12:49,519
+a different set of tools
+
+313
+00:12:49,519 --> 00:12:53,519
+for that part focusing on sysaml and and
+
+314
+00:12:53,519 --> 00:12:56,639
+requirements management in in jira so
+
+315
+00:12:56,639 --> 00:12:58,560
+yes the demo is going to be
+
+316
+00:12:58,560 --> 00:12:59,920
+much more than what you have seen
+
+317
+00:12:59,920 --> 00:13:02,480
+previously
+
+318
+00:13:02,639 --> 00:13:05,120
+dean if you were wondering how committed
+
+319
+00:13:05,120 --> 00:13:07,279
+zukin and vitek are to open ecosystems
+
+320
+00:13:07,279 --> 00:13:10,800
+there you go right we're we're gonna be
+
+321
+00:13:10,800 --> 00:13:12,880
+the the core of the demonstration today
+
+322
+00:13:12,880 --> 00:13:14,720
+will actually be with with other tools
+
+323
+00:13:14,720 --> 00:13:16,959
+and i think that's great because
+
+324
+00:13:16,959 --> 00:13:19,040
+you know environments aren't completely
+
+325
+00:13:19,040 --> 00:13:21,519
+homogeneous today yeah
+
+326
+00:13:21,519 --> 00:13:23,040
+right so
+
+327
+00:13:23,040 --> 00:13:25,600
+we we need to provide
+
+328
+00:13:25,600 --> 00:13:28,560
+rich connectivity and foundations for
+
+329
+00:13:28,560 --> 00:13:30,959
+organizations to build these
+
+330
+00:13:30,959 --> 00:13:34,360
+digital ecosystems
+
+331
+00:13:35,360 --> 00:13:37,519
+and uh is you mentioned in the beginning
+
+332
+00:13:37,519 --> 00:13:40,639
+that uh inkberry is is the digital
+
+333
+00:13:40,639 --> 00:13:42,639
+thread company i think you named it like
+
+334
+00:13:42,639 --> 00:13:45,519
+that yes and the term digital effect is
+
+335
+00:13:45,519 --> 00:13:47,360
+used very often and very
+
+336
+00:13:47,360 --> 00:13:48,399
+differently
+
+337
+00:13:48,399 --> 00:13:49,600
+so
+
+338
+00:13:49,600 --> 00:13:52,079
+what's the digital thread for for you
+
+339
+00:13:52,079 --> 00:13:54,959
+and uh i am i think i use the term the
+
+340
+00:13:54,959 --> 00:13:56,800
+digital thread analytics which is
+
+341
+00:13:56,800 --> 00:13:58,720
+something a little bit more specific
+
+342
+00:13:58,720 --> 00:14:01,199
+than just a digital thread obviously
+
+343
+00:14:01,199 --> 00:14:03,360
+the digital thread i think is it's uh
+
+344
+00:14:03,360 --> 00:14:05,440
+probably a term that is more used in the
+
+345
+00:14:05,440 --> 00:14:08,800
+u.s uh rather than over here in europe
+
+346
+00:14:08,800 --> 00:14:11,360
+but it's basically to me
+
+347
+00:14:11,360 --> 00:14:13,920
+expresses the idea that
+
+348
+00:14:13,920 --> 00:14:15,839
+all the engineering data that we all
+
+349
+00:14:15,839 --> 00:14:18,079
+work with in various processes
+
+350
+00:14:18,079 --> 00:14:21,519
+is not you know a collection of isolated
+
+351
+00:14:21,519 --> 00:14:24,240
+uh artifacts uh you know that that are
+
+352
+00:14:24,240 --> 00:14:27,680
+somehow uh just connected loosely in our
+
+353
+00:14:27,680 --> 00:14:30,560
+heads uh some way right but they should
+
+354
+00:14:30,560 --> 00:14:31,600
+be part
+
+355
+00:14:31,600 --> 00:14:33,680
+of the digital thread something that is
+
+356
+00:14:33,680 --> 00:14:34,720
+tangible
+
+357
+00:14:34,720 --> 00:14:36,480
+in technological terms
+
+358
+00:14:36,480 --> 00:14:38,880
+that that actually provides this
+
+359
+00:14:38,880 --> 00:14:41,199
+end-to-end traceability across all the
+
+360
+00:14:41,199 --> 00:14:42,800
+different artifacts that need to be
+
+361
+00:14:42,800 --> 00:14:44,959
+connected in an engineering process
+
+362
+00:14:44,959 --> 00:14:46,800
+for the purpose of
+
+363
+00:14:46,800 --> 00:14:49,199
+you know providing navigability going
+
+364
+00:14:49,199 --> 00:14:51,120
+from tool to tool in a seamless way
+
+365
+00:14:51,120 --> 00:14:53,199
+integrating the tools to each other
+
+366
+00:14:53,199 --> 00:14:55,279
+being able to generate at least part of
+
+367
+00:14:55,279 --> 00:14:56,800
+the documentation which is very
+
+368
+00:14:56,800 --> 00:14:58,800
+important especially in safety critical
+
+369
+00:14:58,800 --> 00:15:00,639
+design processes
+
+370
+00:15:00,639 --> 00:15:03,199
+and also helping on board
+
+371
+00:15:03,199 --> 00:15:05,519
+new engineers to an organization which
+
+372
+00:15:05,519 --> 00:15:07,600
+is a very important added value i think
+
+373
+00:15:07,600 --> 00:15:10,240
+of modern tools especially
+
+374
+00:15:10,240 --> 00:15:12,079
+that you know these very complex
+
+375
+00:15:12,079 --> 00:15:13,600
+engineering disciplines become more
+
+376
+00:15:13,600 --> 00:15:15,760
+accessible so this is the digital thread
+
+377
+00:15:15,760 --> 00:15:18,160
+part of the answer and what
+
+378
+00:15:18,160 --> 00:15:20,399
+our technology can provide as an added
+
+379
+00:15:20,399 --> 00:15:22,320
+value to all of this is the analytics
+
+380
+00:15:22,320 --> 00:15:23,519
+part right
+
+381
+00:15:23,519 --> 00:15:26,079
+and of course nowadays data analytics
+
+382
+00:15:26,079 --> 00:15:27,600
+and data science in general are
+
+383
+00:15:27,600 --> 00:15:29,279
+extremely popular and have an extremely
+
+384
+00:15:29,279 --> 00:15:31,120
+high impact of industrial and
+
+385
+00:15:31,120 --> 00:15:32,399
+academically
+
+386
+00:15:32,399 --> 00:15:33,680
+and we want to
+
+387
+00:15:33,680 --> 00:15:35,360
+what we want to achieve with our tool is
+
+388
+00:15:35,360 --> 00:15:38,880
+to bring the results of all of the
+
+389
+00:15:38,880 --> 00:15:41,759
+these uh these innovations to the
+
+390
+00:15:41,759 --> 00:15:43,759
+digital engineering domain
+
+391
+00:15:43,759 --> 00:15:45,120
+to
+
+392
+00:15:45,120 --> 00:15:46,560
+engineers
+
+393
+00:15:46,560 --> 00:15:49,120
+the team leads and then
+
+394
+00:15:49,120 --> 00:15:52,160
+architects to take advantage of uh
+
+395
+00:15:52,160 --> 00:15:54,399
+powerful capabilities for the purpose of
+
+396
+00:15:54,399 --> 00:15:55,920
+quality assurance maintaining the
+
+397
+00:15:55,920 --> 00:15:58,560
+quality of the model of
+
+398
+00:15:58,560 --> 00:16:01,440
+in the digital thread and also for
+
+399
+00:16:01,440 --> 00:16:03,839
+facilitating automated tool integration
+
+400
+00:16:03,839 --> 00:16:05,759
+and many other interesting features so
+
+401
+00:16:05,759 --> 00:16:07,680
+this is what we
+
+402
+00:16:07,680 --> 00:16:10,399
+envision has to be the future of of
+
+403
+00:16:10,399 --> 00:16:11,759
+engineering tools
+
+404
+00:16:11,759 --> 00:16:13,600
+so that's a little bit like like the
+
+405
+00:16:13,600 --> 00:16:14,959
+compiler of the
+
+406
+00:16:14,959 --> 00:16:16,880
+the engineering data
+
+407
+00:16:16,880 --> 00:16:18,800
+i think that's that's often missing in
+
+408
+00:16:18,800 --> 00:16:20,079
+mbse
+
+409
+00:16:20,079 --> 00:16:21,360
+great models
+
+410
+00:16:21,360 --> 00:16:23,360
+but nobody really checks if
+
+411
+00:16:23,360 --> 00:16:25,360
+it really works but it's like
+
+412
+00:16:25,360 --> 00:16:29,199
+programming without running the compiler
+
+413
+00:16:29,199 --> 00:16:30,880
+yes yes you could you could you could
+
+414
+00:16:30,880 --> 00:16:32,320
+use this analogy i think that's a good
+
+415
+00:16:32,320 --> 00:16:34,560
+one
+
+416
+00:16:35,600 --> 00:16:37,040
+okay
+
+417
+00:16:37,040 --> 00:16:38,959
+and um
+
+418
+00:16:38,959 --> 00:16:41,519
+this is your tool then i think we will
+
+419
+00:16:41,519 --> 00:16:43,519
+see that later in the demo but is your
+
+420
+00:16:43,519 --> 00:16:44,480
+tool
+
+421
+00:16:44,480 --> 00:16:46,720
+uh visible for the engineer
+
+422
+00:16:46,720 --> 00:16:47,839
+this is something that works in the
+
+423
+00:16:47,839 --> 00:16:49,040
+background
+
+424
+00:16:49,040 --> 00:16:50,639
+of course i have actually i think and so
+
+425
+00:16:50,639 --> 00:16:53,199
+but but if i work with an mbse tool with
+
+426
+00:16:53,199 --> 00:16:55,680
+genesis and with e3 have also worked
+
+427
+00:16:55,680 --> 00:16:58,240
+with uh inquiry suite
+
+428
+00:16:58,240 --> 00:16:59,680
+then
+
+429
+00:16:59,680 --> 00:17:02,560
+yes the answer to this question as with
+
+430
+00:17:02,560 --> 00:17:04,559
+all good questions is a yes and a no at
+
+431
+00:17:04,559 --> 00:17:07,199
+the same time depending on your context
+
+432
+00:17:07,199 --> 00:17:09,520
+so originally originally where we
+
+433
+00:17:09,520 --> 00:17:11,280
+started this you know developing this
+
+434
+00:17:11,280 --> 00:17:12,240
+product
+
+435
+00:17:12,240 --> 00:17:13,919
+it was originally intended to be
+
+436
+00:17:13,919 --> 00:17:15,679
+something which is in the background so
+
+437
+00:17:15,679 --> 00:17:17,599
+something that is not necessarily
+
+438
+00:17:17,599 --> 00:17:19,439
+visible directly to the end user for the
+
+439
+00:17:19,439 --> 00:17:22,640
+systems engineer but as a service to a
+
+440
+00:17:22,640 --> 00:17:25,679
+tool vendor or a tool integrator inside
+
+441
+00:17:25,679 --> 00:17:27,280
+an organization
+
+442
+00:17:27,280 --> 00:17:30,799
+to to to provide additional value-added
+
+443
+00:17:30,799 --> 00:17:33,200
+services on top right
+
+444
+00:17:33,200 --> 00:17:35,120
+maybe for the purpose of integrating
+
+445
+00:17:35,120 --> 00:17:37,679
+certain tools together or adding
+
+446
+00:17:37,679 --> 00:17:40,400
+very desirable features to
+
+447
+00:17:40,400 --> 00:17:42,799
+popular modeling platforms such as
+
+448
+00:17:42,799 --> 00:17:45,679
+the ability of being able to search
+
+449
+00:17:45,679 --> 00:17:47,760
+inside the teamwork cloud repository for
+
+450
+00:17:47,760 --> 00:17:49,360
+instance right so this was the original
+
+451
+00:17:49,360 --> 00:17:50,400
+idea
+
+452
+00:17:50,400 --> 00:17:52,400
+but once we once we started building
+
+453
+00:17:52,400 --> 00:17:54,400
+this and talking to vendors and
+
+454
+00:17:54,400 --> 00:17:56,960
+potential customers we realized that
+
+455
+00:17:56,960 --> 00:17:58,720
+there is actually quite tangible and
+
+456
+00:17:58,720 --> 00:18:01,039
+high demand on the customer side
+
+457
+00:18:01,039 --> 00:18:04,160
+for directly integrating and interacting
+
+458
+00:18:04,160 --> 00:18:05,919
+with such features
+
+459
+00:18:05,919 --> 00:18:07,840
+uh mostly because
+
+460
+00:18:07,840 --> 00:18:09,120
+you know as
+
+461
+00:18:09,120 --> 00:18:12,480
+there is a large degree of heterogeneity
+
+462
+00:18:12,480 --> 00:18:15,440
+among the tools that are using organ is
+
+463
+00:18:15,440 --> 00:18:16,559
+it
+
+464
+00:18:16,559 --> 00:18:19,280
+there's a design i mean every organ
+
+465
+00:18:19,280 --> 00:18:22,320
+to try to own actually own
+
+466
+00:18:22,320 --> 00:18:25,039
+uh their data rather than having it just
+
+467
+00:18:25,039 --> 00:18:28,400
+inside uh various engineering tools and
+
+468
+00:18:28,400 --> 00:18:29,760
+able to do
+
+469
+00:18:29,760 --> 00:18:32,080
+uh we did things that the original
+
+470
+00:18:32,080 --> 00:18:34,400
+vendors have never even imagined that
+
+471
+00:18:34,400 --> 00:18:36,160
+would be meaningful and useful to the
+
+472
+00:18:36,160 --> 00:18:37,840
+end user right
+
+473
+00:18:37,840 --> 00:18:40,400
+and that's why what we once we started
+
+474
+00:18:40,400 --> 00:18:43,039
+doing about two years ago is to develop
+
+475
+00:18:43,039 --> 00:18:45,120
+the inquiry suite into
+
+476
+00:18:45,120 --> 00:18:47,039
+not just an enabler technology or a kind
+
+477
+00:18:47,039 --> 00:18:48,400
+of a middleware
+
+478
+00:18:48,400 --> 00:18:51,360
+but also an end user product that can
+
+479
+00:18:51,360 --> 00:18:52,480
+cater to
+
+480
+00:18:52,480 --> 00:18:55,919
+various audiences originally
+
+481
+00:18:55,919 --> 00:18:59,440
+expert audiences so people who not just
+
+482
+00:18:59,440 --> 00:19:02,240
+understand the modeling and mbsc but
+
+483
+00:19:02,240 --> 00:19:04,240
+also can write a database query for
+
+484
+00:19:04,240 --> 00:19:07,120
+example but as you will see in the demo
+
+485
+00:19:07,120 --> 00:19:09,039
+gradually as we progress with the
+
+486
+00:19:09,039 --> 00:19:10,880
+development of this product we are more
+
+487
+00:19:10,880 --> 00:19:12,000
+and more
+
+488
+00:19:12,000 --> 00:19:14,240
+approaching the level that we can
+
+489
+00:19:14,240 --> 00:19:16,320
+provide value-added and easy-to-use
+
+490
+00:19:16,320 --> 00:19:17,520
+features
+
+491
+00:19:17,520 --> 00:19:20,240
+out of the box essentially for systems
+
+492
+00:19:20,240 --> 00:19:22,400
+engineers or people who are in charge of
+
+493
+00:19:22,400 --> 00:19:24,240
+reviewing the work and integrating the
+
+494
+00:19:24,240 --> 00:19:26,880
+work of systems
+
+495
+00:19:27,520 --> 00:19:28,559
+yeah
+
+496
+00:19:28,559 --> 00:19:31,760
+i was wondering uh why there was no plm
+
+497
+00:19:31,760 --> 00:19:34,000
+tool on the list of your connectors
+
+498
+00:19:34,000 --> 00:19:36,400
+right now maybe you already have
+
+499
+00:19:36,400 --> 00:19:40,000
+connectors for in in the case of some
+
+500
+00:19:40,000 --> 00:19:41,440
+customers
+
+501
+00:19:41,440 --> 00:19:43,679
+um but you are really focusing at the
+
+502
+00:19:43,679 --> 00:19:47,200
+moment so that's my point of view on
+
+503
+00:19:47,200 --> 00:19:48,880
+systems engineering
+
+504
+00:19:48,880 --> 00:19:51,440
+as a single domain and then
+
+505
+00:19:51,440 --> 00:19:52,480
+now the
+
+506
+00:19:52,480 --> 00:19:54,799
+step in in direction to
+
+507
+00:19:54,799 --> 00:19:56,640
+eda ecat
+
+508
+00:19:56,640 --> 00:19:59,360
+and alm
+
+509
+00:19:59,760 --> 00:20:02,320
+yeah yeah so so inquiry suite is a very
+
+510
+00:20:02,320 --> 00:20:05,280
+new product in fact i would say that
+
+511
+00:20:05,280 --> 00:20:07,679
+that uh that it's uh
+
+512
+00:20:07,679 --> 00:20:09,679
+it's it's at its current stage it's it's
+
+513
+00:20:09,679 --> 00:20:12,320
+still in a kind of a pile of uh face
+
+514
+00:20:12,320 --> 00:20:14,480
+majority of our customers but it's
+
+515
+00:20:14,480 --> 00:20:17,280
+developed at a quite rapid pace and
+
+516
+00:20:17,280 --> 00:20:19,120
+one of the one of the consequences of
+
+517
+00:20:19,120 --> 00:20:20,720
+this is that the connectors that we
+
+518
+00:20:20,720 --> 00:20:22,799
+offer are expanding also
+
+519
+00:20:22,799 --> 00:20:25,120
+basically from quarter to quarter at the
+
+520
+00:20:25,120 --> 00:20:26,880
+moment i think we have connectors in
+
+521
+00:20:26,880 --> 00:20:28,080
+five
+
+522
+00:20:28,080 --> 00:20:30,240
+categories systems engineering tools
+
+523
+00:20:30,240 --> 00:20:32,080
+such as cameo
+
+524
+00:20:32,080 --> 00:20:34,159
+and we are working on one for enterprise
+
+525
+00:20:34,159 --> 00:20:35,520
+architect
+
+526
+00:20:35,520 --> 00:20:38,240
+uh the second one is uh um
+
+527
+00:20:38,240 --> 00:20:40,720
+actually i would say al and pln2 so the
+
+528
+00:20:40,720 --> 00:20:45,200
+likes of uh jama for example
+
+529
+00:20:45,840 --> 00:20:46,840
+can
+
+530
+00:20:46,840 --> 00:20:51,919
+be as a such a tool in in the way and we
+
+531
+00:20:51,919 --> 00:20:54,000
+are working on connector tools like
+
+532
+00:20:54,000 --> 00:20:55,919
+polarion for example
+
+533
+00:20:55,919 --> 00:20:58,559
+the third one is a documentation
+
+534
+00:20:58,559 --> 00:21:01,440
+platform like confluence or
+
+535
+00:21:01,440 --> 00:21:03,679
+mbe in a certain way i think it can be
+
+536
+00:21:03,679 --> 00:21:05,360
+regarded as well you know with the view
+
+537
+00:21:05,360 --> 00:21:07,520
+editor and stuff like that
+
+538
+00:21:07,520 --> 00:21:10,400
+and jupiter of course the fourth one is
+
+539
+00:21:10,400 --> 00:21:12,960
+simulation tools like modelling which is
+
+540
+00:21:12,960 --> 00:21:15,440
+a very nice modern web-based tool for
+
+541
+00:21:15,440 --> 00:21:18,080
+working with modelica simulations
+
+542
+00:21:18,080 --> 00:21:19,840
+and the fifth one at the moment on our
+
+543
+00:21:19,840 --> 00:21:22,559
+focus is ecad and and this also ties
+
+544
+00:21:22,559 --> 00:21:24,720
+back into your first question which i
+
+545
+00:21:24,720 --> 00:21:27,360
+wanted to uh reflect on why the
+
+546
+00:21:27,360 --> 00:21:29,120
+partnership with vitek and zulkin is of
+
+547
+00:21:29,120 --> 00:21:31,039
+particular interest to us and the reason
+
+548
+00:21:31,039 --> 00:21:33,039
+for this is that we have found that ecad
+
+549
+00:21:33,039 --> 00:21:34,159
+is actually
+
+550
+00:21:34,159 --> 00:21:37,200
+one of the most frequently used
+
+551
+00:21:37,200 --> 00:21:40,559
+tools together with mbsc at least
+
+552
+00:21:40,559 --> 00:21:42,720
+looking at our customer base and there
+
+553
+00:21:42,720 --> 00:21:45,360
+is actually a quite a
+
+554
+00:21:45,360 --> 00:21:48,480
+tangible demand for for integrating ecat
+
+555
+00:21:48,480 --> 00:21:50,720
+tools better with mbsc tools because mbs
+
+556
+00:21:50,720 --> 00:21:52,799
+suppose to my surprise
+
+557
+00:21:52,799 --> 00:21:54,640
+actually i'm coming you know originally
+
+558
+00:21:54,640 --> 00:21:56,320
+from the model driven software
+
+559
+00:21:56,320 --> 00:21:58,480
+engineering world as many of my
+
+560
+00:21:58,480 --> 00:21:59,840
+colleagues they know
+
+561
+00:21:59,840 --> 00:22:01,520
+is that mbsc tools are actually used for
+
+562
+00:22:01,520 --> 00:22:03,039
+hardware design quite quite
+
+563
+00:22:03,039 --> 00:22:05,280
+substantially so so that's the reason
+
+564
+00:22:05,280 --> 00:22:07,520
+why we are particularly interested in
+
+565
+00:22:07,520 --> 00:22:09,679
+ecad as well
+
+566
+00:22:09,679 --> 00:22:12,679
+interesting
+
+567
+00:22:13,440 --> 00:22:15,039
+i think you mentioned or
+
+568
+00:22:15,039 --> 00:22:17,120
+i saw on your website that
+
+569
+00:22:17,120 --> 00:22:19,039
+the ink very sweet
+
+570
+00:22:19,039 --> 00:22:22,880
+creates a knowledge graph so so the
+
+571
+00:22:22,880 --> 00:22:24,960
+digital thread is stored in the
+
+572
+00:22:24,960 --> 00:22:27,200
+knowledge graph so what actually is is
+
+573
+00:22:27,200 --> 00:22:28,400
+stored
+
+574
+00:22:28,400 --> 00:22:31,280
+then in inquiry street now if we have e3
+
+575
+00:22:31,280 --> 00:22:33,600
+there's the the e-card stuff and genesis
+
+576
+00:22:33,600 --> 00:22:35,760
+has three mvse stuff and what is stored
+
+577
+00:22:35,760 --> 00:22:36,480
+in
+
+578
+00:22:36,480 --> 00:22:38,559
+inquiry then
+
+579
+00:22:38,559 --> 00:22:40,640
+yeah so the fundamental idea of of
+
+580
+00:22:40,640 --> 00:22:43,120
+analytics in our case our approach to
+
+581
+00:22:43,120 --> 00:22:44,559
+managing the digital thread in this
+
+582
+00:22:44,559 --> 00:22:46,400
+knowledge graph is
+
+583
+00:22:46,400 --> 00:22:49,520
+that that uh that we don't intend to
+
+584
+00:22:49,520 --> 00:22:51,440
+replace any of the engineering tools
+
+585
+00:22:51,440 --> 00:22:54,080
+rather we want to augment them right so
+
+586
+00:22:54,080 --> 00:22:55,280
+the users
+
+587
+00:22:55,280 --> 00:22:58,159
+work as they did before with whatever
+
+588
+00:22:58,159 --> 00:23:00,640
+tools they want to work with or whatever
+
+589
+00:23:00,640 --> 00:23:03,200
+tools they have already available
+
+590
+00:23:03,200 --> 00:23:05,200
+but using our connectors
+
+591
+00:23:05,200 --> 00:23:06,559
+the data
+
+592
+00:23:06,559 --> 00:23:09,679
+can be um let's say
+
+593
+00:23:09,679 --> 00:23:11,280
+um
+
+594
+00:23:11,280 --> 00:23:13,919
+extracted from these engineering tools
+
+595
+00:23:13,919 --> 00:23:15,520
+in a scalable
+
+596
+00:23:15,520 --> 00:23:16,559
+important
+
+597
+00:23:16,559 --> 00:23:17,919
+thing is
+
+598
+00:23:17,919 --> 00:23:21,600
+to this unified and the common uh
+
+599
+00:23:21,600 --> 00:23:22,960
+representation which we call the
+
+600
+00:23:22,960 --> 00:23:25,440
+knowledge graph and conceptually
+
+601
+00:23:25,440 --> 00:23:29,120
+this is really a graph like
+
+602
+00:23:29,120 --> 00:23:30,880
+maybe in technical terms i would even
+
+603
+00:23:30,880 --> 00:23:32,960
+call it a property graph you know so
+
+604
+00:23:32,960 --> 00:23:34,799
+nodes and edges and attributes and
+
+605
+00:23:34,799 --> 00:23:38,159
+whatever and this is then stored
+
+606
+00:23:38,159 --> 00:23:40,159
+in our own
+
+607
+00:23:40,159 --> 00:23:42,159
+database actually collection of
+
+608
+00:23:42,159 --> 00:23:44,640
+databases at the same time because the
+
+609
+00:23:44,640 --> 00:23:47,279
+unique uh let's say design principle of
+
+610
+00:23:47,279 --> 00:23:48,799
+the inquiry suit is what i call
+
+611
+00:23:48,799 --> 00:23:51,200
+redundancy by design which means that we
+
+612
+00:23:51,200 --> 00:23:53,360
+not only store this data in one
+
+613
+00:23:53,360 --> 00:23:55,919
+particular format but actually three or
+
+614
+00:23:55,919 --> 00:23:58,559
+four or even more depending on the use
+
+615
+00:23:58,559 --> 00:24:01,039
+cases because what we have found is that
+
+616
+00:24:01,039 --> 00:24:02,720
+in
+
+617
+00:24:02,720 --> 00:24:04,880
+in reality the
+
+618
+00:24:04,880 --> 00:24:06,480
+what you actually want to do with this
+
+619
+00:24:06,480 --> 00:24:08,400
+data whether you want to use it for
+
+620
+00:24:08,400 --> 00:24:10,320
+numerical analysis purposes or tool
+
+621
+00:24:10,320 --> 00:24:12,320
+integration purposes is just validation
+
+622
+00:24:12,320 --> 00:24:13,440
+purposes
+
+623
+00:24:13,440 --> 00:24:15,440
+is a different kind of representation
+
+624
+00:24:15,440 --> 00:24:17,039
+which can provide the optimal
+
+625
+00:24:17,039 --> 00:24:18,720
+performance and scalability for that
+
+626
+00:24:18,720 --> 00:24:21,679
+scenario so that's why the inquiry suit
+
+627
+00:24:21,679 --> 00:24:22,720
+is really
+
+628
+00:24:22,720 --> 00:24:25,039
+technically speaking an epl engine of
+
+629
+00:24:25,039 --> 00:24:26,720
+some of some sort so an extra
+
+630
+00:24:26,720 --> 00:24:28,240
+transformer load
+
+631
+00:24:28,240 --> 00:24:31,120
+which is able to to use this engineering
+
+632
+00:24:31,120 --> 00:24:33,200
+data that is coming from the stores and
+
+633
+00:24:33,200 --> 00:24:36,720
+put it into various scalable cloud ready
+
+634
+00:24:36,720 --> 00:24:38,640
+back-end storages and then do
+
+635
+00:24:38,640 --> 00:24:42,320
+interesting things on on top of this
+
+636
+00:24:42,320 --> 00:24:45,520
+these representations um and and at its
+
+637
+00:24:45,520 --> 00:24:47,760
+core the inquiries would also provides a
+
+638
+00:24:47,760 --> 00:24:51,120
+set of apis open apis in fact
+
+639
+00:24:51,120 --> 00:24:53,120
+you know accessible through rest uh full
+
+640
+00:24:53,120 --> 00:24:56,159
+interfaces with open uh web tools
+
+641
+00:24:56,159 --> 00:24:58,240
+to access uh the contents of the
+
+642
+00:24:58,240 --> 00:25:00,400
+knowledge graph travels or process the
+
+643
+00:25:00,400 --> 00:25:02,720
+contents of the knowledge graph and also
+
+644
+00:25:02,720 --> 00:25:04,720
+you know do interesting things with that
+
+645
+00:25:04,720 --> 00:25:07,200
+so run queries on it or an analysis on
+
+646
+00:25:07,200 --> 00:25:08,000
+it
+
+647
+00:25:08,000 --> 00:25:09,120
+or or
+
+648
+00:25:09,120 --> 00:25:11,360
+basically other things as well so this
+
+649
+00:25:11,360 --> 00:25:13,200
+is the core core engine of the
+
+650
+00:25:13,200 --> 00:25:15,360
+technology
+
+651
+00:25:15,360 --> 00:25:16,640
+but those interesting things are
+
+652
+00:25:16,640 --> 00:25:17,840
+important
+
+653
+00:25:17,840 --> 00:25:18,880
+yes
+
+654
+00:25:18,880 --> 00:25:20,640
+it's the interesting things which the
+
+655
+00:25:20,640 --> 00:25:22,960
+users will then find useful not just you
+
+656
+00:25:22,960 --> 00:25:25,200
+know being able to access the data even
+
+657
+00:25:25,200 --> 00:25:27,279
+though i think from a from an
+
+658
+00:25:27,279 --> 00:25:29,600
+organization's point of view or someone
+
+659
+00:25:29,600 --> 00:25:32,960
+who is working inside an organization on
+
+660
+00:25:32,960 --> 00:25:34,880
+managing and integrating a tool chain
+
+661
+00:25:34,880 --> 00:25:36,400
+even just the fact
+
+662
+00:25:36,400 --> 00:25:38,799
+to be able to to access the data which
+
+663
+00:25:38,799 --> 00:25:41,279
+was previously only
+
+664
+00:25:41,279 --> 00:25:43,919
+possible in a in a proprietary
+
+665
+00:25:43,919 --> 00:25:45,200
+i think it's
+
+666
+00:25:45,200 --> 00:25:47,039
+people very well
+
+667
+00:25:47,039 --> 00:25:50,240
+in many cases
+
+668
+00:25:50,480 --> 00:25:52,799
+enrique maybe another question for you
+
+669
+00:25:52,799 --> 00:25:53,679
+so
+
+670
+00:25:53,679 --> 00:25:55,760
+many people are connecting the company
+
+671
+00:25:55,760 --> 00:25:58,960
+of vitec to the name of david long so
+
+672
+00:25:58,960 --> 00:26:01,520
+what did they say to to this corporation
+
+673
+00:26:01,520 --> 00:26:02,960
+and then to the
+
+674
+00:26:02,960 --> 00:26:06,480
+all the software stuff you are doing now
+
+675
+00:26:06,480 --> 00:26:09,120
+well you know david is is very committed
+
+676
+00:26:09,120 --> 00:26:12,799
+to this concept of an open ecosystem
+
+677
+00:26:12,799 --> 00:26:15,760
+and really believes that
+
+678
+00:26:15,760 --> 00:26:18,320
+you know we need to break out of this
+
+679
+00:26:18,320 --> 00:26:20,240
+scenario where
+
+680
+00:26:20,240 --> 00:26:23,120
+systems engineering has been so siloed
+
+681
+00:26:23,120 --> 00:26:24,960
+for so many years
+
+682
+00:26:24,960 --> 00:26:26,960
+um so you know
+
+683
+00:26:26,960 --> 00:26:29,120
+we talk about this regularly obviously
+
+684
+00:26:29,120 --> 00:26:31,200
+over the last two months
+
+685
+00:26:31,200 --> 00:26:33,120
+since i joined vitek
+
+686
+00:26:33,120 --> 00:26:33,919
+but
+
+687
+00:26:33,919 --> 00:26:36,480
+he's he he very much
+
+688
+00:26:36,480 --> 00:26:39,120
+likes what he has seen with this
+
+689
+00:26:39,120 --> 00:26:42,080
+um because it does add that
+
+690
+00:26:42,080 --> 00:26:46,000
+that layer of of semantic richness
+
+691
+00:26:46,000 --> 00:26:48,159
+and to to the
+
+692
+00:26:48,159 --> 00:26:49,039
+full
+
+693
+00:26:49,039 --> 00:26:52,159
+digital thread right it's not just about
+
+694
+00:26:52,159 --> 00:26:54,720
+creating these links anymore it's not
+
+695
+00:26:54,720 --> 00:26:56,720
+just about knowing what the relation
+
+696
+00:26:56,720 --> 00:26:58,720
+that the relationship exists
+
+697
+00:26:58,720 --> 00:27:00,799
+it's about understanding what's inside
+
+698
+00:27:00,799 --> 00:27:03,520
+of that relationship that's important
+
+699
+00:27:03,520 --> 00:27:05,760
+and we know as a company
+
+700
+00:27:05,760 --> 00:27:08,080
+we can't solve everyone's problem by
+
+701
+00:27:08,080 --> 00:27:09,600
+ourselves
+
+702
+00:27:09,600 --> 00:27:12,080
+right we're really good
+
+703
+00:27:12,080 --> 00:27:13,440
+at that
+
+704
+00:27:13,440 --> 00:27:15,919
+that behavioral description we're really
+
+705
+00:27:15,919 --> 00:27:16,720
+good
+
+706
+00:27:16,720 --> 00:27:19,520
+at the upper left side of the v we're
+
+707
+00:27:19,520 --> 00:27:21,840
+really good at that stuff
+
+708
+00:27:21,840 --> 00:27:23,600
+we don't claim to be nor do we want to
+
+709
+00:27:23,600 --> 00:27:26,320
+be a plm company or a digital threat
+
+710
+00:27:26,320 --> 00:27:28,480
+analytics company but we want what we
+
+711
+00:27:28,480 --> 00:27:29,679
+want to do
+
+712
+00:27:29,679 --> 00:27:32,399
+is provide that connectivity and expose
+
+713
+00:27:32,399 --> 00:27:34,399
+the data that's needed
+
+714
+00:27:34,399 --> 00:27:36,799
+so that companies like inquiry labs and
+
+715
+00:27:36,799 --> 00:27:38,000
+other partners
+
+716
+00:27:38,000 --> 00:27:39,679
+can leverage that so we can really
+
+717
+00:27:39,679 --> 00:27:41,360
+provide the solutions that people are
+
+718
+00:27:41,360 --> 00:27:44,000
+looking for in the market
+
+719
+00:27:44,000 --> 00:27:47,039
+so could you also say
+
+720
+00:27:47,039 --> 00:27:51,840
+through a tool like inquiry
+
+721
+00:27:51,840 --> 00:27:52,880
+labs
+
+722
+00:27:52,880 --> 00:27:55,120
+you can or very suit
+
+723
+00:27:55,120 --> 00:27:57,520
+um you can really bring
+
+724
+00:27:57,520 --> 00:27:59,200
+the systems engineering
+
+725
+00:27:59,200 --> 00:28:02,720
+process which tells us the iso 5288 and
+
+726
+00:28:02,720 --> 00:28:03,840
+so on
+
+727
+00:28:03,840 --> 00:28:05,520
+to bring that really to life and to
+
+728
+00:28:05,520 --> 00:28:08,640
+digitalize this one
+
+729
+00:28:08,640 --> 00:28:12,960
+i think that's a really good observation
+
+730
+00:28:13,279 --> 00:28:15,279
+and it it's consistent with a lot of the
+
+731
+00:28:15,279 --> 00:28:18,240
+conversations that we have internally
+
+732
+00:28:18,240 --> 00:28:21,279
+um you know at zukin at vitec and
+
+733
+00:28:21,279 --> 00:28:23,840
+conversations we've had with with ishman
+
+734
+00:28:23,840 --> 00:28:25,039
+that
+
+735
+00:28:25,039 --> 00:28:27,360
+this is about the process it's about the
+
+736
+00:28:27,360 --> 00:28:28,880
+engineering process it's about the
+
+737
+00:28:28,880 --> 00:28:32,000
+workflow we have to consider who needs
+
+738
+00:28:32,000 --> 00:28:35,039
+to consume data where
+
+739
+00:28:35,039 --> 00:28:37,840
+we're too focused sometimes on on the
+
+740
+00:28:37,840 --> 00:28:40,159
+technology as you know
+
+741
+00:28:40,159 --> 00:28:42,559
+and not focused enough on really
+
+742
+00:28:42,559 --> 00:28:45,120
+enabling the work
+
+743
+00:28:45,120 --> 00:28:47,200
+and at the end of the day
+
+744
+00:28:47,200 --> 00:28:49,600
+it's the work that gets these products
+
+745
+00:28:49,600 --> 00:28:50,960
+done
+
+746
+00:28:50,960 --> 00:28:53,600
+um so bringing that to life i think is a
+
+747
+00:28:53,600 --> 00:28:56,240
+really astute observation
+
+748
+00:28:56,240 --> 00:28:57,600
+can we use that for our marketing are
+
+749
+00:28:57,600 --> 00:28:58,559
+you okay
+
+750
+00:28:58,559 --> 00:29:00,080
+i'm okay with that
+
+751
+00:29:00,080 --> 00:29:02,240
+okay
+
+752
+00:29:03,440 --> 00:29:06,399
+so if you connect many models and tools
+
+753
+00:29:06,399 --> 00:29:08,399
+i think you it's important for you to
+
+754
+00:29:08,399 --> 00:29:11,039
+rely on some some standards so are there
+
+755
+00:29:11,039 --> 00:29:15,600
+some standards uh used by inquiry or
+
+756
+00:29:16,159 --> 00:29:18,080
+research yes
+
+757
+00:29:18,080 --> 00:29:20,640
+yes of course of course so so there are
+
+758
+00:29:20,640 --> 00:29:22,320
+i think that the standards that we rely
+
+759
+00:29:22,320 --> 00:29:24,640
+on are basically on two levels
+
+760
+00:29:24,640 --> 00:29:27,120
+rely on a lot of technical standards
+
+761
+00:29:27,120 --> 00:29:28,240
+which are not
+
+762
+00:29:28,240 --> 00:29:30,559
+uh necessarily uh you know the euro
+
+763
+00:29:30,559 --> 00:29:32,320
+standards but maybe defacto standards in
+
+764
+00:29:32,320 --> 00:29:35,200
+the web-based engineering world such as
+
+765
+00:29:35,200 --> 00:29:38,080
+uh you know swagger and open api and
+
+766
+00:29:38,080 --> 00:29:41,840
+many other related things like oidc so
+
+767
+00:29:41,840 --> 00:29:44,320
+open id connect for example which is the
+
+768
+00:29:44,320 --> 00:29:46,320
+way that you authenticate and authorize
+
+769
+00:29:46,320 --> 00:29:47,840
+yourself when you log into the inquiry
+
+770
+00:29:47,840 --> 00:29:48,799
+suite
+
+771
+00:29:48,799 --> 00:29:51,679
+but we also make extensive use of omg
+
+772
+00:29:51,679 --> 00:29:53,919
+standards for example for enabling
+
+773
+00:29:53,919 --> 00:29:55,679
+various systems engineering use cases
+
+774
+00:29:55,679 --> 00:29:57,200
+right so we have
+
+775
+00:29:57,200 --> 00:29:59,600
+obviously a quite high level of support
+
+776
+00:29:59,600 --> 00:30:01,360
+for uml csml
+
+777
+00:30:01,360 --> 00:30:03,600
+um and and all the the various domain
+
+778
+00:30:03,600 --> 00:30:06,240
+specific profiles uh based on these
+
+779
+00:30:06,240 --> 00:30:08,240
+languages you know like the application
+
+780
+00:30:08,240 --> 00:30:09,679
+frameworks and
+
+781
+00:30:09,679 --> 00:30:12,880
+which are relevant in the bod context uh
+
+782
+00:30:12,880 --> 00:30:14,240
+for instance
+
+783
+00:30:14,240 --> 00:30:15,679
+and of course
+
+784
+00:30:15,679 --> 00:30:18,000
+one of the one of the core features of
+
+785
+00:30:18,000 --> 00:30:19,840
+the inquiry model analyzer which is a
+
+786
+00:30:19,840 --> 00:30:22,399
+solution uh as a part of the inquiry
+
+787
+00:30:22,399 --> 00:30:25,679
+suite is to to to be able to perform
+
+788
+00:30:25,679 --> 00:30:29,600
+scalable you know syntactic and and and
+
+789
+00:30:29,600 --> 00:30:32,640
+structural validation of system l models
+
+790
+00:30:32,640 --> 00:30:34,399
+for example against
+
+791
+00:30:34,399 --> 00:30:36,799
+the these rules which are included in
+
+792
+00:30:36,799 --> 00:30:39,279
+this standard so that's basically one of
+
+793
+00:30:39,279 --> 00:30:42,000
+the core features
+
+794
+00:30:42,480 --> 00:30:46,159
+yeah speaking of the features um we have
+
+795
+00:30:46,159 --> 00:30:50,159
+already talked for around 30 minutes so
+
+796
+00:30:50,159 --> 00:30:52,480
+let's let's have a look into the tool oh
+
+797
+00:30:52,480 --> 00:30:55,039
+yeah yeah
+
+798
+00:30:55,360 --> 00:30:58,240
+i really didn't see it
+
+799
+00:30:58,240 --> 00:31:01,039
+yeah i also know all these um
+
+800
+00:31:01,039 --> 00:31:04,559
+some screenshots from the website and
+
+801
+00:31:04,559 --> 00:31:06,510
+considered an early christmas gift
+
+802
+00:31:06,510 --> 00:31:10,210
+[Laughter]
+
+803
+00:31:16,960 --> 00:31:19,120
+ishvan you are muted yeah i know i know
+
+804
+00:31:19,120 --> 00:31:21,120
+so we should start with the original
+
+805
+00:31:21,120 --> 00:31:22,320
+we should start with the original
+
+806
+00:31:22,320 --> 00:31:24,480
+example like the first one this this e3
+
+807
+00:31:24,480 --> 00:31:26,480
+genesis connector and i will let enrique
+
+808
+00:31:26,480 --> 00:31:28,000
+narrate this one
+
+809
+00:31:28,000 --> 00:31:30,960
+yeah so you know as i mentioned earlier
+
+810
+00:31:30,960 --> 00:31:33,360
+that transition from
+
+811
+00:31:33,360 --> 00:31:35,360
+from architecture to detail design is
+
+812
+00:31:35,360 --> 00:31:39,120
+very painful for most organizations
+
+813
+00:31:39,519 --> 00:31:41,120
+over the last six years as i've worked
+
+814
+00:31:41,120 --> 00:31:42,720
+with different companies
+
+815
+00:31:42,720 --> 00:31:45,039
+i've seen many companies show a lot of
+
+816
+00:31:45,039 --> 00:31:47,600
+success and a lot of
+
+817
+00:31:47,600 --> 00:31:49,840
+maturity in that upper left part of the
+
+818
+00:31:49,840 --> 00:31:51,440
+v
+
+819
+00:31:51,440 --> 00:31:52,720
+but
+
+820
+00:31:52,720 --> 00:31:55,600
+moving down to that detailed design
+
+821
+00:31:55,600 --> 00:31:58,640
+is is a very painful process for
+
+822
+00:31:58,640 --> 00:32:00,559
+most of the organizations i've i've
+
+823
+00:32:00,559 --> 00:32:03,440
+engaged with over the last six years
+
+824
+00:32:03,440 --> 00:32:04,240
+so
+
+825
+00:32:04,240 --> 00:32:05,519
+if we want to
+
+826
+00:32:05,519 --> 00:32:08,640
+move to the next slide
+
+827
+00:32:10,880 --> 00:32:13,519
+so this is a quick video
+
+828
+00:32:13,519 --> 00:32:15,919
+that is showing genesis it's a simple
+
+829
+00:32:15,919 --> 00:32:17,519
+drone model
+
+830
+00:32:17,519 --> 00:32:20,559
+and as we in introspect this model we
+
+831
+00:32:20,559 --> 00:32:22,080
+will see that it's very simple it's just
+
+832
+00:32:22,080 --> 00:32:25,440
+an example it has two components
+
+833
+00:32:25,440 --> 00:32:28,880
+you know a link and an item or a signal
+
+834
+00:32:28,880 --> 00:32:31,919
+that's being sent across that link
+
+835
+00:32:31,919 --> 00:32:33,200
+there are also these these two
+
+836
+00:32:33,200 --> 00:32:35,120
+components have have types assigned to
+
+837
+00:32:35,120 --> 00:32:38,240
+them so power electronics and type ecu
+
+838
+00:32:38,240 --> 00:32:40,159
+and that signal that we referenced
+
+839
+00:32:40,159 --> 00:32:41,679
+earlier there are actually two signals
+
+840
+00:32:41,679 --> 00:32:44,399
+battery voltage positive and negative
+
+841
+00:32:44,399 --> 00:32:46,399
+so now what we're looking at is e3 this
+
+842
+00:32:46,399 --> 00:32:48,320
+is the actual wire harness tool and that
+
+843
+00:32:48,320 --> 00:32:50,080
+little box that popped up
+
+844
+00:32:50,080 --> 00:32:52,720
+is the interface for the connector
+
+845
+00:32:52,720 --> 00:32:55,279
+so the electrical engineer actually
+
+846
+00:32:55,279 --> 00:32:59,440
+browses the model repository directly
+
+847
+00:32:59,440 --> 00:33:00,559
+finds
+
+848
+00:33:00,559 --> 00:33:02,240
+the part of the project they're looking
+
+849
+00:33:02,240 --> 00:33:03,200
+for
+
+850
+00:33:03,200 --> 00:33:06,000
+and actually loads it straight into
+
+851
+00:33:06,000 --> 00:33:08,000
+the topology diagram where we already
+
+852
+00:33:08,000 --> 00:33:11,039
+have an existing mechanical drawing
+
+853
+00:33:11,039 --> 00:33:12,799
+right so now the electrical engineer can
+
+854
+00:33:12,799 --> 00:33:14,080
+start doing their work laying out
+
+855
+00:33:14,080 --> 00:33:15,279
+components
+
+856
+00:33:15,279 --> 00:33:17,200
+and where you see that dashed line that
+
+857
+00:33:17,200 --> 00:33:18,720
+means that there's
+
+858
+00:33:18,720 --> 00:33:20,559
+there's a a
+
+859
+00:33:20,559 --> 00:33:22,399
+signal but nothing defined yet to carry
+
+860
+00:33:22,399 --> 00:33:24,559
+it so the electrical engineer starts to
+
+861
+00:33:24,559 --> 00:33:25,840
+create that
+
+862
+00:33:25,840 --> 00:33:27,600
+and now what you're going to see is that
+
+863
+00:33:27,600 --> 00:33:29,519
+two-way link
+
+864
+00:33:29,519 --> 00:33:30,799
+where we're actually going to
+
+865
+00:33:30,799 --> 00:33:32,000
+cross-check
+
+866
+00:33:32,000 --> 00:33:32,880
+that
+
+867
+00:33:32,880 --> 00:33:35,360
+that component we saw in the model is
+
+868
+00:33:35,360 --> 00:33:38,480
+that wire in the diagram
+
+869
+00:33:38,480 --> 00:33:41,039
+so it's just a simple example to show
+
+870
+00:33:41,039 --> 00:33:44,000
+how we bring that over
+
+871
+00:33:44,000 --> 00:33:46,399
+how simple it is it is designed
+
+872
+00:33:46,399 --> 00:33:48,880
+primarily for the electrical engineer
+
+873
+00:33:48,880 --> 00:33:51,039
+what you didn't see in there native uh
+
+874
+00:33:51,039 --> 00:33:53,360
+right now is that
+
+875
+00:33:53,360 --> 00:33:56,880
+all of the information related to
+
+876
+00:33:56,880 --> 00:33:59,519
+to requirements and other diagrams that
+
+877
+00:33:59,519 --> 00:34:01,919
+help the engineer understand the context
+
+878
+00:34:01,919 --> 00:34:03,120
+of what they're working and that's
+
+879
+00:34:03,120 --> 00:34:05,519
+included in this design envelope that's
+
+880
+00:34:05,519 --> 00:34:06,640
+provided
+
+881
+00:34:06,640 --> 00:34:08,879
+um so of course this is a first gen
+
+882
+00:34:08,879 --> 00:34:11,199
+first generation the electrical engineer
+
+883
+00:34:11,199 --> 00:34:14,079
+can access the the requirements that are
+
+884
+00:34:14,079 --> 00:34:16,079
+connected to the
+
+885
+00:34:16,079 --> 00:34:17,520
+uh
+
+886
+00:34:17,520 --> 00:34:19,520
+uh system element or wasn't wasn't
+
+887
+00:34:19,520 --> 00:34:21,440
+systematic it was uh
+
+888
+00:34:21,440 --> 00:34:23,199
+the white core language
+
+889
+00:34:23,199 --> 00:34:25,839
+yeah yeah so they they can see
+
+890
+00:34:25,839 --> 00:34:29,199
+all the requirements that are related
+
+891
+00:34:29,199 --> 00:34:31,119
+to the
+
+892
+00:34:31,119 --> 00:34:33,760
+the elements needed
+
+893
+00:34:33,760 --> 00:34:37,040
+to realize their design
+
+894
+00:34:40,879 --> 00:34:43,119
+okay so maybe i will take over for this
+
+895
+00:34:43,119 --> 00:34:45,119
+particular slider because this is a this
+
+896
+00:34:45,119 --> 00:34:46,399
+is not a dumbbell yet it's just a
+
+897
+00:34:46,399 --> 00:34:48,480
+screenshot and you will see similar ones
+
+898
+00:34:48,480 --> 00:34:50,239
+in the demo later on
+
+899
+00:34:50,239 --> 00:34:52,960
+so so the the thing that we developed in
+
+900
+00:34:52,960 --> 00:34:55,520
+connection with this connector is is a
+
+901
+00:34:55,520 --> 00:34:57,200
+is an analysis uh
+
+902
+00:34:57,200 --> 00:34:59,839
+let's say rule set that you can run in
+
+903
+00:34:59,839 --> 00:35:02,880
+the inquiry model analyzer
+
+904
+00:35:02,880 --> 00:35:05,359
+which is useful for doing something that
+
+905
+00:35:05,359 --> 00:35:08,000
+we call the so-called 3c analysis 3c
+
+906
+00:35:08,000 --> 00:35:10,079
+stands for correctness completeness and
+
+907
+00:35:10,079 --> 00:35:11,680
+consistency
+
+908
+00:35:11,680 --> 00:35:13,680
+and this kind of analysis over the
+
+909
+00:35:13,680 --> 00:35:15,040
+digital thread
+
+910
+00:35:15,040 --> 00:35:17,680
+is special because it doesn't look into
+
+911
+00:35:17,680 --> 00:35:19,920
+one particular artifact only so it
+
+912
+00:35:19,920 --> 00:35:22,240
+doesn't just look into the vitec systems
+
+913
+00:35:22,240 --> 00:35:23,760
+engineering model
+
+914
+00:35:23,760 --> 00:35:26,880
+or the e3 ecad model but it looks into
+
+915
+00:35:26,880 --> 00:35:28,640
+the combination of these models so it
+
+916
+00:35:28,640 --> 00:35:30,720
+looks looks at both of them
+
+917
+00:35:30,720 --> 00:35:33,040
+at the same time and also between the
+
+918
+00:35:33,040 --> 00:35:34,800
+traceability links and these models
+
+919
+00:35:34,800 --> 00:35:37,200
+which is created by this genesis e3
+
+920
+00:35:37,200 --> 00:35:38,880
+connector
+
+921
+00:35:38,880 --> 00:35:41,359
+and what it looks for is
+
+922
+00:35:41,359 --> 00:35:42,640
+weather
+
+923
+00:35:42,640 --> 00:35:44,880
+during this transition phase the
+
+924
+00:35:44,880 --> 00:35:46,000
+engineer
+
+925
+00:35:46,000 --> 00:35:47,359
+engineering team
+
+926
+00:35:47,359 --> 00:35:49,359
+could maintain the correctness
+
+927
+00:35:49,359 --> 00:35:51,760
+completeness constancy of the mapping
+
+928
+00:35:51,760 --> 00:35:53,040
+obviously
+
+929
+00:35:53,040 --> 00:35:53,839
+the
+
+930
+00:35:53,839 --> 00:35:56,720
+correctness and the completeness is more
+
+931
+00:35:56,720 --> 00:35:59,440
+down to the automated connector in this
+
+932
+00:35:59,440 --> 00:36:02,480
+sense so when we run this analysis what
+
+933
+00:36:02,480 --> 00:36:04,640
+we will see is that the completeness is
+
+934
+00:36:04,640 --> 00:36:07,760
+pretty good meaning that a large part of
+
+935
+00:36:07,760 --> 00:36:10,160
+the original systems engineering model
+
+936
+00:36:10,160 --> 00:36:12,400
+has captured in genesis was actually
+
+937
+00:36:12,400 --> 00:36:14,640
+successfully mapped or represented on
+
+938
+00:36:14,640 --> 00:36:17,040
+the eca side it's not complete because
+
+939
+00:36:17,040 --> 00:36:18,560
+as you could see in the demonstration
+
+940
+00:36:18,560 --> 00:36:20,880
+the engineer actually checked the tick
+
+941
+00:36:20,880 --> 00:36:22,320
+mark
+
+942
+00:36:22,320 --> 00:36:25,040
+unselecting one particular
+
+943
+00:36:25,040 --> 00:36:26,800
+component from the original model and
+
+944
+00:36:26,800 --> 00:36:30,079
+that's why we only have a partial
+
+945
+00:36:30,320 --> 00:36:31,599
+mapping here
+
+946
+00:36:31,599 --> 00:36:34,640
+but what is more interesting i think
+
+947
+00:36:34,640 --> 00:36:37,599
+from analysis point of view is that it
+
+948
+00:36:37,599 --> 00:36:38,839
+reports
+
+949
+00:36:38,839 --> 00:36:41,680
+inconsistencies on the electrical
+
+950
+00:36:41,680 --> 00:36:44,400
+engineering side the reason for this
+
+951
+00:36:44,400 --> 00:36:46,160
+inconsistencies are that there are
+
+952
+00:36:46,160 --> 00:36:47,440
+things that
+
+953
+00:36:47,440 --> 00:36:49,599
+are not present actually in the systems
+
+954
+00:36:49,599 --> 00:36:51,119
+engineering model and it cannot be
+
+955
+00:36:51,119 --> 00:36:53,040
+processed and and created by this
+
+956
+00:36:53,040 --> 00:36:55,119
+connector automatically which is
+
+957
+00:36:55,119 --> 00:36:57,119
+essentially related to
+
+958
+00:36:57,119 --> 00:36:59,280
+the wiring information that is specific
+
+959
+00:36:59,280 --> 00:37:01,599
+to the electrical engineering domain so
+
+960
+00:37:01,599 --> 00:37:03,760
+the the corresponding findings rule
+
+961
+00:37:03,760 --> 00:37:05,680
+findings which you see on the right side
+
+962
+00:37:05,680 --> 00:37:07,760
+of the screenshot
+
+963
+00:37:07,760 --> 00:37:10,079
+tell the electrical engineers that you
+
+964
+00:37:10,079 --> 00:37:11,920
+need to look into your ecat model
+
+965
+00:37:11,920 --> 00:37:14,480
+because there is work to be done
+
+966
+00:37:14,480 --> 00:37:17,280
+you need to create wiring information so
+
+967
+00:37:17,280 --> 00:37:20,000
+that your electrical engineering design
+
+968
+00:37:20,000 --> 00:37:22,800
+model become consistent with the high
+
+969
+00:37:22,800 --> 00:37:24,800
+level information transfer that is
+
+970
+00:37:24,800 --> 00:37:26,560
+expressed on the systems engineering
+
+971
+00:37:26,560 --> 00:37:29,440
+side okay so this is the the basic added
+
+972
+00:37:29,440 --> 00:37:32,240
+value of the 3c analysis over
+
+973
+00:37:32,240 --> 00:37:34,960
+such a transitionary scenario that we
+
+974
+00:37:34,960 --> 00:37:38,240
+can make the electrical engineer aware
+
+975
+00:37:38,240 --> 00:37:40,400
+that what they are working on what they
+
+976
+00:37:40,400 --> 00:37:42,160
+have in their own workspace is not
+
+977
+00:37:42,160 --> 00:37:44,560
+consistent with an upstream artifact the
+
+978
+00:37:44,560 --> 00:37:47,040
+systems engineering model okay and this
+
+979
+00:37:47,040 --> 00:37:49,040
+is possible without
+
+980
+00:37:49,040 --> 00:37:51,440
+making the electrical engineer actually
+
+981
+00:37:51,440 --> 00:37:54,560
+open you know uh vitek genesis and have
+
+982
+00:37:54,560 --> 00:37:56,480
+a look at the model themselves this is
+
+983
+00:37:56,480 --> 00:37:59,119
+the power of digital threat analytics
+
+984
+00:37:59,119 --> 00:38:02,320
+right so so um basically
+
+985
+00:38:02,320 --> 00:38:04,720
+propagating this very important quality
+
+986
+00:38:04,720 --> 00:38:06,720
+related information across an
+
+987
+00:38:06,720 --> 00:38:09,119
+engineering tomb team who work at
+
+988
+00:38:09,119 --> 00:38:13,040
+different stages of the remodel
+
+989
+00:38:13,040 --> 00:38:15,359
+the next one is a
+
+990
+00:38:15,359 --> 00:38:18,160
+i think for enrique
+
+991
+00:38:18,160 --> 00:38:19,720
+i'll have to see if i remember this one
+
+992
+00:38:19,720 --> 00:38:22,400
+[Laughter]
+
+993
+00:38:22,400 --> 00:38:24,079
+well what happens here is basically
+
+994
+00:38:24,079 --> 00:38:26,000
+realizing this the electrical engineer
+
+995
+00:38:26,000 --> 00:38:28,560
+then it's to create the wiring diagram
+
+996
+00:38:28,560 --> 00:38:29,680
+yeah so
+
+997
+00:38:29,680 --> 00:38:31,599
+yeah so it's taking the information that
+
+998
+00:38:31,599 --> 00:38:34,079
+was primed into the
+
+999
+00:38:34,079 --> 00:38:36,880
+into e3 and now the detailed work is
+
+1000
+00:38:36,880 --> 00:38:38,160
+starting to happen
+
+1001
+00:38:38,160 --> 00:38:39,760
+yeah right so now we're getting to the
+
+1002
+00:38:39,760 --> 00:38:42,400
+point where there's not just a connector
+
+1003
+00:38:42,400 --> 00:38:45,359
+and a a harness but now individual wires
+
+1004
+00:38:45,359 --> 00:38:47,280
+and pins
+
+1005
+00:38:47,280 --> 00:38:48,640
+right so we need to know that that
+
+1006
+00:38:48,640 --> 00:38:49,760
+signal
+
+1007
+00:38:49,760 --> 00:38:51,760
+has a wire and that there are there's an
+
+1008
+00:38:51,760 --> 00:38:53,839
+actual complete connector for it
+
+1009
+00:38:53,839 --> 00:38:56,000
+so i mean that that's what we do on the
+
+1010
+00:38:56,000 --> 00:38:57,440
+detailed design side that isn't
+
+1011
+00:38:57,440 --> 00:38:59,520
+necessarily reflected in the higher
+
+1012
+00:38:59,520 --> 00:39:01,920
+level model right the higher level model
+
+1013
+00:39:01,920 --> 00:39:04,320
+we know there's a link
+
+1014
+00:39:04,320 --> 00:39:06,640
+but we don't necessarily know how many
+
+1015
+00:39:06,640 --> 00:39:08,640
+wires make up that connector or what the
+
+1016
+00:39:08,640 --> 00:39:11,920
+end points what type of connector it is
+
+1017
+00:39:11,920 --> 00:39:13,520
+but we do have to make sure that if
+
+1018
+00:39:13,520 --> 00:39:16,240
+there's a critical signal or an item
+
+1019
+00:39:16,240 --> 00:39:18,960
+that needs to go across that signal path
+
+1020
+00:39:18,960 --> 00:39:21,359
+that it is accounted for in a correct
+
+1021
+00:39:21,359 --> 00:39:24,240
+way and in a consistent way
+
+1022
+00:39:24,240 --> 00:39:26,240
+yes and once this is done once this is
+
+1023
+00:39:26,240 --> 00:39:27,040
+done
+
+1024
+00:39:27,040 --> 00:39:29,440
+then the electrical engineer
+
+1025
+00:39:29,440 --> 00:39:32,000
+you know saves their work
+
+1026
+00:39:32,000 --> 00:39:34,079
+in some after some background
+
+1027
+00:39:34,079 --> 00:39:36,320
+processing you know the new version of
+
+1028
+00:39:36,320 --> 00:39:39,280
+this electrical design is going to be
+
+1029
+00:39:39,280 --> 00:39:41,680
+pulled into this digital uh thread the
+
+1030
+00:39:41,680 --> 00:39:43,520
+knowledge graph we can then rerun the
+
+1031
+00:39:43,520 --> 00:39:45,359
+analysis and then find
+
+1032
+00:39:45,359 --> 00:39:47,280
+that because of what has been created in
+
+1033
+00:39:47,280 --> 00:39:48,800
+the previous sequence now there is one
+
+1034
+00:39:48,800 --> 00:39:51,280
+less pair of rule violations so the
+
+1035
+00:39:51,280 --> 00:39:53,760
+overall quality of this model of models
+
+1036
+00:39:53,760 --> 00:39:55,680
+has been improved because this
+
+1037
+00:39:55,680 --> 00:39:58,960
+consistency problem or one let's say
+
+1038
+00:39:58,960 --> 00:40:00,640
+instance of the consistency problems
+
+1039
+00:40:00,640 --> 00:40:02,800
+that existed between the high level
+
+1040
+00:40:02,800 --> 00:40:04,319
+artifact and the detailed design
+
+1041
+00:40:04,319 --> 00:40:07,040
+artifact has been successfully
+
+1042
+00:40:07,040 --> 00:40:09,520
+resolved so this is a very basic
+
+1043
+00:40:09,520 --> 00:40:12,240
+let's say use case or unit of work that
+
+1044
+00:40:12,240 --> 00:40:14,160
+the the combination of the suit and the
+
+1045
+00:40:14,160 --> 00:40:15,920
+connector can power
+
+1046
+00:40:15,920 --> 00:40:18,880
+and and what what what this can be built
+
+1047
+00:40:18,880 --> 00:40:19,839
+into
+
+1048
+00:40:19,839 --> 00:40:22,800
+is basically a project management or a
+
+1049
+00:40:22,800 --> 00:40:24,960
+quality management dashboard
+
+1050
+00:40:24,960 --> 00:40:27,440
+so to say which is also directly
+
+1051
+00:40:27,440 --> 00:40:29,200
+possible using the inquiries within
+
+1052
+00:40:29,200 --> 00:40:30,880
+various different ways
+
+1053
+00:40:30,880 --> 00:40:32,720
+that can actually act as a kind of a
+
+1054
+00:40:32,720 --> 00:40:35,040
+progress bar on a complex engineering
+
+1055
+00:40:35,040 --> 00:40:37,520
+process right because we can we can turn
+
+1056
+00:40:37,520 --> 00:40:38,720
+these
+
+1057
+00:40:38,720 --> 00:40:41,119
+reports into numbers that can power
+
+1058
+00:40:41,119 --> 00:40:44,319
+charts right uh that correspond to
+
+1059
+00:40:44,319 --> 00:40:46,560
+to what is the gap uh you know the
+
+1060
+00:40:46,560 --> 00:40:49,040
+validation gap that you have to close
+
+1061
+00:40:49,040 --> 00:40:50,160
+as par
+
+1062
+00:40:50,160 --> 00:40:52,319
+in preparing for a release for example
+
+1063
+00:40:52,319 --> 00:40:54,240
+of the design artifact so this chart
+
+1064
+00:40:54,240 --> 00:40:56,720
+actually shows you know as the progress
+
+1065
+00:40:56,720 --> 00:40:58,960
+of work is is going forward across
+
+1066
+00:40:58,960 --> 00:41:01,040
+various revisions in time
+
+1067
+00:41:01,040 --> 00:41:02,880
+because what is very important to know
+
+1068
+00:41:02,880 --> 00:41:05,359
+about our knowledge graph is that it's
+
+1069
+00:41:05,359 --> 00:41:07,760
+not just a snapshot of your engineering
+
+1070
+00:41:07,760 --> 00:41:08,960
+data
+
+1071
+00:41:08,960 --> 00:41:12,079
+but it's it continuously evolves with
+
+1072
+00:41:12,079 --> 00:41:15,520
+your work because your work is usually
+
+1073
+00:41:15,520 --> 00:41:17,599
+maintained in a version control system
+
+1074
+00:41:17,599 --> 00:41:20,160
+like you know git or timber cloud or
+
+1075
+00:41:20,160 --> 00:41:22,160
+some other technology in the case of of
+
+1076
+00:41:22,160 --> 00:41:25,040
+zooken tools and our connectors
+
+1077
+00:41:25,040 --> 00:41:27,440
+actually are virgin aware so they not
+
+1078
+00:41:27,440 --> 00:41:29,440
+only retrieve snapshots of the
+
+1079
+00:41:29,440 --> 00:41:32,000
+engineering data but metadata as well
+
+1080
+00:41:32,000 --> 00:41:34,079
+with versioning information which allows
+
+1081
+00:41:34,079 --> 00:41:36,560
+us to do historical analysis as well
+
+1082
+00:41:36,560 --> 00:41:38,319
+which is which is basically what is
+
+1083
+00:41:38,319 --> 00:41:42,240
+happening here under the hood
+
+1084
+00:41:44,000 --> 00:41:45,359
+okay so
+
+1085
+00:41:45,359 --> 00:41:47,839
+moving on in the demonstration uh this
+
+1086
+00:41:47,839 --> 00:41:50,079
+was the the the initial part that we
+
+1087
+00:41:50,079 --> 00:41:51,760
+have shown previously and now is the new
+
+1088
+00:41:51,760 --> 00:41:54,079
+part which i have specifically paired
+
+1089
+00:41:54,079 --> 00:41:57,119
+for today and for today uh for the
+
+1090
+00:41:57,119 --> 00:41:58,880
+demonstrating the further capabilities
+
+1091
+00:41:58,880 --> 00:42:00,240
+of the inquiry suite we are going to
+
+1092
+00:42:00,240 --> 00:42:02,720
+look at a similar scenario but something
+
+1093
+00:42:02,720 --> 00:42:04,640
+which is happening let's say one
+
+1094
+00:42:04,640 --> 00:42:07,440
+step higher in the v model again a kind
+
+1095
+00:42:07,440 --> 00:42:09,359
+of a transitional scenario but the one
+
+1096
+00:42:09,359 --> 00:42:10,640
+which happens
+
+1097
+00:42:10,640 --> 00:42:12,640
+between let's say the high level
+
+1098
+00:42:12,640 --> 00:42:15,040
+requirements analysis
+
+1099
+00:42:15,040 --> 00:42:18,160
+and the the you know system uh level
+
+1100
+00:42:18,160 --> 00:42:20,079
+design and the context of the
+
+1101
+00:42:20,079 --> 00:42:21,920
+demonstration is going to be a tool
+
+1102
+00:42:21,920 --> 00:42:22,720
+chain
+
+1103
+00:42:22,720 --> 00:42:24,000
+on the one hand
+
+1104
+00:42:24,000 --> 00:42:26,880
+that is consisting of you know um camera
+
+1105
+00:42:26,880 --> 00:42:28,960
+collaborator camera systems modeler and
+
+1106
+00:42:28,960 --> 00:42:31,440
+timbre cloud the tool chain
+
+1107
+00:42:31,440 --> 00:42:33,040
+from the magic or dassault which is i
+
+1108
+00:42:33,040 --> 00:42:34,960
+think very well known in the community
+
+1109
+00:42:34,960 --> 00:42:36,880
+and very well respected
+
+1110
+00:42:36,880 --> 00:42:38,960
+and in combination with these systems
+
+1111
+00:42:38,960 --> 00:42:40,960
+engineering tools we are going to be
+
+1112
+00:42:40,960 --> 00:42:43,200
+using confluence for the purpose of
+
+1113
+00:42:43,200 --> 00:42:45,280
+documentation management and maintaining
+
+1114
+00:42:45,280 --> 00:42:47,760
+the overall let's say knowledge base of
+
+1115
+00:42:47,760 --> 00:42:49,359
+the engineering team and the engineering
+
+1116
+00:42:49,359 --> 00:42:52,240
+process we are going to be using jira as
+
+1117
+00:42:52,240 --> 00:42:53,520
+a lightweight
+
+1118
+00:42:53,520 --> 00:42:56,319
+requirements management tool on the one
+
+1119
+00:42:56,319 --> 00:42:58,000
+hand and on the other hand also for the
+
+1120
+00:42:58,000 --> 00:42:59,359
+purpose of
+
+1121
+00:42:59,359 --> 00:43:01,680
+managing the engineering process itself
+
+1122
+00:43:01,680 --> 00:43:05,040
+so checking the tracking tasks um in in
+
+1123
+00:43:05,040 --> 00:43:06,000
+jira
+
+1124
+00:43:06,000 --> 00:43:08,720
+and we are going to connect these set of
+
+1125
+00:43:08,720 --> 00:43:10,800
+tools together using the capabilities of
+
+1126
+00:43:10,800 --> 00:43:14,000
+the inquiry suite for the purpose of
+
+1127
+00:43:14,000 --> 00:43:17,359
+checking and quality analyze
+
+1128
+00:43:17,359 --> 00:43:19,359
+the various artifacts which are found in
+
+1129
+00:43:19,359 --> 00:43:20,880
+this
+
+1130
+00:43:20,880 --> 00:43:23,040
+process and also on the other hand
+
+1131
+00:43:23,040 --> 00:43:25,280
+performing another kind of 3c analysis
+
+1132
+00:43:25,280 --> 00:43:27,200
+looking at the quality of model of
+
+1133
+00:43:27,200 --> 00:43:29,200
+models as we cross
+
+1134
+00:43:29,200 --> 00:43:32,319
+tool boundaries okay so the first demo
+
+1135
+00:43:32,319 --> 00:43:33,760
+sequence is just
+
+1136
+00:43:33,760 --> 00:43:35,520
+for you to show and get familiar with
+
+1137
+00:43:35,520 --> 00:43:37,119
+the context of the example for this
+
+1138
+00:43:37,119 --> 00:43:38,880
+particular demonstration we are going to
+
+1139
+00:43:38,880 --> 00:43:41,520
+use the forest fire detection system
+
+1140
+00:43:41,520 --> 00:43:43,359
+which is a very nicely elaborated
+
+1141
+00:43:43,359 --> 00:43:45,520
+systems engineering example
+
+1142
+00:43:45,520 --> 00:43:47,680
+uh you know incorporating many different
+
+1143
+00:43:47,680 --> 00:43:50,880
+aspects of csml as a language including
+
+1144
+00:43:50,880 --> 00:43:51,760
+you know
+
+1145
+00:43:51,760 --> 00:43:54,960
+component level design requirements
+
+1146
+00:43:54,960 --> 00:43:56,480
+many other things
+
+1147
+00:43:56,480 --> 00:43:58,800
+including very nice limit diagrams i
+
+1148
+00:43:58,800 --> 00:44:00,560
+think this is something which is a
+
+1149
+00:44:00,560 --> 00:44:02,640
+really good example for demonstrating
+
+1150
+00:44:02,640 --> 00:44:05,119
+the power of mbsc and mbs related tools
+
+1151
+00:44:05,119 --> 00:44:07,440
+as well here you can see this model in
+
+1152
+00:44:07,440 --> 00:44:11,280
+camera collaborator which is basically a
+
+1153
+00:44:11,280 --> 00:44:13,440
+web-based platform for showcasing the
+
+1154
+00:44:13,440 --> 00:44:15,359
+contents of a system model as an
+
+1155
+00:44:15,359 --> 00:44:17,280
+interactive and structured document that
+
+1156
+00:44:17,280 --> 00:44:20,079
+you can browse and navigate
+
+1157
+00:44:20,079 --> 00:44:20,960
+along
+
+1158
+00:44:20,960 --> 00:44:23,760
+you know the standard web-based user
+
+1159
+00:44:23,760 --> 00:44:25,920
+interfaces
+
+1160
+00:44:25,920 --> 00:44:27,520
+and um
+
+1161
+00:44:27,520 --> 00:44:30,160
+you know this model has got a lot of
+
+1162
+00:44:30,160 --> 00:44:32,240
+different types of documents and
+
+1163
+00:44:32,240 --> 00:44:34,160
+diagrams as well
+
+1164
+00:44:34,160 --> 00:44:37,839
+block diagrams uh use case diagrams many
+
+1165
+00:44:37,839 --> 00:44:39,440
+other things which are going to play an
+
+1166
+00:44:39,440 --> 00:44:41,680
+interesting role in our demonstration
+
+1167
+00:44:41,680 --> 00:44:42,640
+today
+
+1168
+00:44:42,640 --> 00:44:45,760
+in addition to this as you could see we
+
+1169
+00:44:45,760 --> 00:44:47,280
+had
+
+1170
+00:44:47,280 --> 00:44:50,160
+some documents in confluence here on
+
+1171
+00:44:50,160 --> 00:44:53,839
+this uh tab but we also have a jira
+
+1172
+00:44:53,839 --> 00:44:55,839
+project set up you know jira is also an
+
+1173
+00:44:55,839 --> 00:44:57,680
+atlassian tool
+
+1174
+00:44:57,680 --> 00:45:00,240
+that you can use to manage
+
+1175
+00:45:00,240 --> 00:45:02,800
+issues and and essentially these issues
+
+1176
+00:45:02,800 --> 00:45:05,680
+can either be corresponding to tasks
+
+1177
+00:45:05,680 --> 00:45:07,520
+that we have to follow on on our
+
+1178
+00:45:07,520 --> 00:45:09,520
+modeling project as well as
+
+1179
+00:45:09,520 --> 00:45:11,760
+requirements actually you can you can
+
+1180
+00:45:11,760 --> 00:45:14,240
+use jira for the purpose of enumerating
+
+1181
+00:45:14,240 --> 00:45:15,440
+that so
+
+1182
+00:45:15,440 --> 00:45:18,880
+basically this is the starting point for
+
+1183
+00:45:18,880 --> 00:45:21,040
+the context of the demonstration for
+
+1184
+00:45:21,040 --> 00:45:22,400
+today
+
+1185
+00:45:22,400 --> 00:45:24,480
+and first i'm going to show you how
+
+1186
+00:45:24,480 --> 00:45:26,880
+these tools are actually then pulled
+
+1187
+00:45:26,880 --> 00:45:28,880
+into this knowledge graph representation
+
+1188
+00:45:28,880 --> 00:45:30,240
+this is run through
+
+1189
+00:45:30,240 --> 00:45:32,480
+the inquiry servers workspace manager
+
+1190
+00:45:32,480 --> 00:45:34,720
+which is what we are going to engage as
+
+1191
+00:45:34,720 --> 00:45:36,880
+you can see in this demonstration
+
+1192
+00:45:36,880 --> 00:45:38,480
+basically almost all the tools of the
+
+1193
+00:45:38,480 --> 00:45:40,000
+inquiry suite are web-based tools so
+
+1194
+00:45:40,000 --> 00:45:41,760
+that's the reason why we see all the
+
+1195
+00:45:41,760 --> 00:45:43,440
+interaction happening in the browser
+
+1196
+00:45:43,440 --> 00:45:44,480
+window
+
+1197
+00:45:44,480 --> 00:45:47,359
+here on this interface you see workspace
+
+1198
+00:45:47,359 --> 00:45:49,200
+manager
+
+1199
+00:45:49,200 --> 00:45:51,520
+on the left side we can see the various
+
+1200
+00:45:51,520 --> 00:45:54,319
+data sources uh that are configured in
+
+1201
+00:45:54,319 --> 00:45:56,000
+this particular installation so as you
+
+1202
+00:45:56,000 --> 00:45:59,040
+can see we can access our confluence
+
+1203
+00:45:59,040 --> 00:46:02,240
+invert cloud instances and also the mms
+
+1204
+00:46:02,240 --> 00:46:03,760
+is here but we are not going to be using
+
+1205
+00:46:03,760 --> 00:46:05,839
+that for our demonstration today and on
+
+1206
+00:46:05,839 --> 00:46:08,000
+the right is what we call the workspace
+
+1207
+00:46:08,000 --> 00:46:09,680
+so that's actually the portion of the
+
+1208
+00:46:09,680 --> 00:46:11,520
+knowledge graph that our current user
+
+1209
+00:46:11,520 --> 00:46:13,599
+who is logged into the system can use
+
+1210
+00:46:13,599 --> 00:46:15,760
+and populate and this is what our user
+
+1211
+00:46:15,760 --> 00:46:17,280
+is actually going to do now so we are
+
+1212
+00:46:17,280 --> 00:46:18,880
+going to navigate to the forest fire
+
+1213
+00:46:18,880 --> 00:46:20,640
+demonstration as it's stored on finger
+
+1214
+00:46:20,640 --> 00:46:21,440
+cloud
+
+1215
+00:46:21,440 --> 00:46:23,119
+we are going to select a particular
+
+1216
+00:46:23,119 --> 00:46:25,440
+project on a branch in a particular
+
+1217
+00:46:25,440 --> 00:46:27,680
+revision so this is what i told that the
+
+1218
+00:46:27,680 --> 00:46:29,760
+connector is version aware and we are
+
+1219
+00:46:29,760 --> 00:46:31,359
+just going to add it to the workspace
+
+1220
+00:46:31,359 --> 00:46:33,280
+very quickly it's a matter of just a few
+
+1221
+00:46:33,280 --> 00:46:34,400
+seconds
+
+1222
+00:46:34,400 --> 00:46:36,560
+it's uh basically happening all the data
+
+1223
+00:46:36,560 --> 00:46:38,640
+processing in the background
+
+1224
+00:46:38,640 --> 00:46:40,960
+and the same thing we are going to be
+
+1225
+00:46:40,960 --> 00:46:43,200
+doing for the jira project
+
+1226
+00:46:43,200 --> 00:46:45,040
+add to the workspace to have this
+
+1227
+00:46:45,040 --> 00:46:46,800
+representation
+
+1228
+00:46:46,800 --> 00:46:49,119
+as part of the knowledge graph as part
+
+1229
+00:46:49,119 --> 00:46:50,720
+of our
+
+1230
+00:46:50,720 --> 00:46:52,560
+you know digital thread so it is very
+
+1231
+00:46:52,560 --> 00:46:54,800
+easy to to pull in
+
+1232
+00:46:54,800 --> 00:46:56,560
+various parts of you know your
+
+1233
+00:46:56,560 --> 00:46:59,359
+engineering data into this system this
+
+1234
+00:46:59,359 --> 00:47:01,760
+is one way of doing this the manual way
+
+1235
+00:47:01,760 --> 00:47:03,520
+but it's also important to emphasize
+
+1236
+00:47:03,520 --> 00:47:05,839
+that we have a way of automating this
+
+1237
+00:47:05,839 --> 00:47:07,440
+you know that it happens automatically
+
+1238
+00:47:07,440 --> 00:47:08,960
+in the background as revisions are
+
+1239
+00:47:08,960 --> 00:47:11,200
+checked in for instance
+
+1240
+00:47:11,200 --> 00:47:13,280
+now the first thing that i want to show
+
+1241
+00:47:13,280 --> 00:47:14,480
+to you is
+
+1242
+00:47:14,480 --> 00:47:16,880
+what if we just want to analyze one
+
+1243
+00:47:16,880 --> 00:47:18,800
+particular artifact in the digital
+
+1244
+00:47:18,800 --> 00:47:21,760
+thread so not yet across two boundaries
+
+1245
+00:47:21,760 --> 00:47:24,960
+but i just want to see if my system
+
+1246
+00:47:24,960 --> 00:47:26,800
+model is okay
+
+1247
+00:47:26,800 --> 00:47:28,400
+for this purpose we are going to be
+
+1248
+00:47:28,400 --> 00:47:31,440
+using um this information flow integrity
+
+1249
+00:47:31,440 --> 00:47:35,280
+analysis which is essentially
+
+1250
+00:47:35,280 --> 00:47:37,359
+something that i think is also described
+
+1251
+00:47:37,359 --> 00:47:39,200
+in the standards but in this particular
+
+1252
+00:47:39,200 --> 00:47:40,400
+sense we
+
+1253
+00:47:40,400 --> 00:47:42,079
+example we extended it a little bit with
+
+1254
+00:47:42,079 --> 00:47:43,599
+some custom logic
+
+1255
+00:47:43,599 --> 00:47:45,680
+it's an example of a verb from less
+
+1256
+00:47:45,680 --> 00:47:48,160
+validation rule right so
+
+1257
+00:47:48,160 --> 00:47:51,440
+we are going to look for a condition
+
+1258
+00:47:51,440 --> 00:47:53,520
+around the way information flows are
+
+1259
+00:47:53,520 --> 00:47:55,520
+modeled in the system model
+
+1260
+00:47:55,520 --> 00:47:57,599
+which can be a source of a problem so if
+
+1261
+00:47:57,599 --> 00:48:00,800
+there is a presence there is a match
+
+1262
+00:48:00,800 --> 00:48:02,880
+found by the analyzer that means that
+
+1263
+00:48:02,880 --> 00:48:05,040
+that's actually a quality issue that we
+
+1264
+00:48:05,040 --> 00:48:06,960
+have to address on the systems
+
+1265
+00:48:06,960 --> 00:48:10,079
+engineering level in order to do this uh
+
+1266
+00:48:10,079 --> 00:48:12,319
+the solution that we use in the inquiry
+
+1267
+00:48:12,319 --> 00:48:13,760
+suite is what we call the inquiry
+
+1268
+00:48:13,760 --> 00:48:15,359
+modalizer
+
+1269
+00:48:15,359 --> 00:48:17,920
+we use an analyst bridge to manage this
+
+1270
+00:48:17,920 --> 00:48:20,640
+automated validation analysis reports it
+
+1271
+00:48:20,640 --> 00:48:22,319
+supports the standards that i already
+
+1272
+00:48:22,319 --> 00:48:25,119
+mentioned such as system upd and uaf as
+
+1273
+00:48:25,119 --> 00:48:26,720
+well as open source libraries such as
+
+1274
+00:48:26,720 --> 00:48:28,960
+the sai digital engineering validation
+
+1275
+00:48:28,960 --> 00:48:31,200
+tool which is a very nice set of rules
+
+1276
+00:48:31,200 --> 00:48:33,520
+for doing exactly the same thing
+
+1277
+00:48:33,520 --> 00:48:36,079
+and it has got a standalone web-based
+
+1278
+00:48:36,079 --> 00:48:38,559
+user interface as well as a very good
+
+1279
+00:48:38,559 --> 00:48:40,880
+integration with the jupiter
+
+1280
+00:48:40,880 --> 00:48:43,280
+ecosystem that is an open source uh
+
+1281
+00:48:43,280 --> 00:48:45,280
+document meditation management platform
+
+1282
+00:48:45,280 --> 00:48:47,520
+originating from the data analysis
+
+1283
+00:48:47,520 --> 00:48:48,480
+community
+
+1284
+00:48:48,480 --> 00:48:50,160
+and what you are also going to be using
+
+1285
+00:48:50,160 --> 00:48:52,079
+in the demo is another solution that we
+
+1286
+00:48:52,079 --> 00:48:54,160
+call inquiry model viewer which is a
+
+1287
+00:48:54,160 --> 00:48:57,040
+generic web-based visualization tool for
+
+1288
+00:48:57,040 --> 00:48:58,960
+looking at the contents of the knowledge
+
+1289
+00:48:58,960 --> 00:49:00,960
+graph as it is stored
+
+1290
+00:49:00,960 --> 00:49:04,480
+inside the inquiry suite so in order to
+
+1291
+00:49:04,480 --> 00:49:06,079
+use this feature
+
+1292
+00:49:06,079 --> 00:49:07,680
+we are going to launch the model
+
+1293
+00:49:07,680 --> 00:49:11,359
+analyzer on this particular artifact
+
+1294
+00:49:11,359 --> 00:49:13,280
+we are going to
+
+1295
+00:49:13,280 --> 00:49:15,440
+select this custom flow integrity
+
+1296
+00:49:15,440 --> 00:49:17,839
+validation suite which is documented in
+
+1297
+00:49:17,839 --> 00:49:20,000
+the confluence as you could see in the
+
+1298
+00:49:20,000 --> 00:49:21,920
+previous example so that's where the
+
+1299
+00:49:21,920 --> 00:49:24,720
+screenshot was from this this page
+
+1300
+00:49:24,720 --> 00:49:26,720
+describes to the systems engineer in
+
+1301
+00:49:26,720 --> 00:49:28,559
+detail what is the logic that is being
+
+1302
+00:49:28,559 --> 00:49:30,720
+checked here and what's the relevance of
+
+1303
+00:49:30,720 --> 00:49:32,400
+such a rule and if you have found the
+
+1304
+00:49:32,400 --> 00:49:34,640
+match in the analysis core then how to
+
+1305
+00:49:34,640 --> 00:49:36,160
+resolve that match
+
+1306
+00:49:36,160 --> 00:49:38,079
+and once the analysis is complete you
+
+1307
+00:49:38,079 --> 00:49:39,920
+can see that we could run this analysis
+
+1308
+00:49:39,920 --> 00:49:42,319
+rather quickly even if there is 2 300 or
+
+1309
+00:49:42,319 --> 00:49:44,400
+even millions of modern elements
+
+1310
+00:49:44,400 --> 00:49:46,480
+you see a detailed uh
+
+1311
+00:49:46,480 --> 00:49:49,839
+report essentially that contains
+
+1312
+00:49:49,839 --> 00:49:52,640
+how many instances we have found for
+
+1313
+00:49:52,640 --> 00:49:55,200
+violations of a particular validation
+
+1314
+00:49:55,200 --> 00:49:57,440
+rule and for each violation you get a
+
+1315
+00:49:57,440 --> 00:49:58,400
+detailed
+
+1316
+00:49:58,400 --> 00:49:59,280
+uh
+
+1317
+00:49:59,280 --> 00:50:01,280
+table basically
+
+1318
+00:50:01,280 --> 00:50:03,839
+that tells the the systems engineer
+
+1319
+00:50:03,839 --> 00:50:06,000
+where exactly the model that problem
+
+1320
+00:50:06,000 --> 00:50:07,920
+resides and
+
+1321
+00:50:07,920 --> 00:50:09,920
+now we can actually navigate to that
+
+1322
+00:50:09,920 --> 00:50:13,040
+location using that link opening uh the
+
+1323
+00:50:13,040 --> 00:50:15,680
+model viewer focusing on that particular
+
+1324
+00:50:15,680 --> 00:50:18,960
+model element right this connector here
+
+1325
+00:50:18,960 --> 00:50:21,359
+this is this is a system model that you
+
+1326
+00:50:21,359 --> 00:50:24,400
+see in this screenshot so this is what
+
+1327
+00:50:24,400 --> 00:50:26,800
+what you would actually see inside uh
+
+1328
+00:50:26,800 --> 00:50:29,040
+magic draw or camel systems modeler or
+
+1329
+00:50:29,040 --> 00:50:30,960
+team or camel collaborator which you
+
+1330
+00:50:30,960 --> 00:50:33,760
+will see in a moment but we also see not
+
+1331
+00:50:33,760 --> 00:50:35,760
+just the structure of the model you know
+
+1332
+00:50:35,760 --> 00:50:38,240
+packages classes diagrams connectors
+
+1333
+00:50:38,240 --> 00:50:40,800
+properties etc but also
+
+1334
+00:50:40,800 --> 00:50:42,559
+here on the right side of the screen you
+
+1335
+00:50:42,559 --> 00:50:44,960
+can see the various attribute values for
+
+1336
+00:50:44,960 --> 00:50:46,880
+example and all the cross references
+
+1337
+00:50:46,880 --> 00:50:49,760
+which may craft structure this model
+
+1338
+00:50:49,760 --> 00:50:50,960
+okay
+
+1339
+00:50:50,960 --> 00:50:53,760
+so the modal viewer is a generic
+
+1340
+00:50:53,760 --> 00:50:56,400
+interface it's it's customized in this
+
+1341
+00:50:56,400 --> 00:50:58,400
+case a little bit to csml so there are
+
+1342
+00:50:58,400 --> 00:51:00,559
+filters applied for example on the left
+
+1343
+00:51:00,559 --> 00:51:02,000
+side of the screen
+
+1344
+00:51:02,000 --> 00:51:05,760
+but in general the same kind of user
+
+1345
+00:51:05,760 --> 00:51:08,160
+visualization applies to everything
+
+1346
+00:51:08,160 --> 00:51:10,079
+which is stored in the knowledge graph
+
+1347
+00:51:10,079 --> 00:51:12,800
+so jira you know modelling and all the
+
+1348
+00:51:12,800 --> 00:51:13,680
+other
+
+1349
+00:51:13,680 --> 00:51:15,520
+tools that we have connectors for can be
+
+1350
+00:51:15,520 --> 00:51:18,240
+visualized and open the very same way
+
+1351
+00:51:18,240 --> 00:51:20,559
+very quickly integrated
+
+1352
+00:51:20,559 --> 00:51:22,400
+into this suite
+
+1353
+00:51:22,400 --> 00:51:24,319
+and from here this model viewer it's
+
+1354
+00:51:24,319 --> 00:51:26,319
+also very easy to navigate back to the
+
+1355
+00:51:26,319 --> 00:51:28,800
+original tool from where the data came
+
+1356
+00:51:28,800 --> 00:51:31,119
+so from with one click of a button we
+
+1357
+00:51:31,119 --> 00:51:32,720
+can go back to
+
+1358
+00:51:32,720 --> 00:51:35,040
+camera collaborator for example
+
+1359
+00:51:35,040 --> 00:51:37,359
+in this instance to see in the original
+
+1360
+00:51:37,359 --> 00:51:39,520
+context you know where the the rule
+
+1361
+00:51:39,520 --> 00:51:42,240
+violation is coming so from so where in
+
+1362
+00:51:42,240 --> 00:51:45,200
+the system model uh it will need to be
+
+1363
+00:51:45,200 --> 00:51:47,680
+uh you know fixed at this point i think
+
+1364
+00:51:47,680 --> 00:51:49,920
+i will make a little bit of a break and
+
+1365
+00:51:49,920 --> 00:51:51,920
+ask if you have any questions related to
+
+1366
+00:51:51,920 --> 00:51:55,520
+all the things that i have shown so far
+
+1367
+00:51:56,559 --> 00:51:59,359
+i think it was crystal clear so far and
+
+1368
+00:51:59,359 --> 00:52:00,800
+straight on
+
+1369
+00:52:00,800 --> 00:52:02,160
+very impressive
+
+1370
+00:52:02,160 --> 00:52:05,359
+okay so let's move on uh because now i
+
+1371
+00:52:05,359 --> 00:52:07,680
+want to show you another capability that
+
+1372
+00:52:07,680 --> 00:52:10,079
+maybe a little bit slower so as you
+
+1373
+00:52:10,079 --> 00:52:11,040
+could see
+
+1374
+00:52:11,040 --> 00:52:13,599
+the modalizer analyzer is not just
+
+1375
+00:52:13,599 --> 00:52:16,160
+capable of running built-in
+
+1376
+00:52:16,160 --> 00:52:17,920
+business logic so these validation
+
+1377
+00:52:17,920 --> 00:52:20,800
+analysis rules but it also gives the
+
+1378
+00:52:20,800 --> 00:52:23,280
+power of running custom rules queries
+
+1379
+00:52:23,280 --> 00:52:25,680
+essentially obviously to a more advanced
+
+1380
+00:52:25,680 --> 00:52:27,520
+user okay so in this case this is the
+
+1381
+00:52:27,520 --> 00:52:28,960
+functionality that we are going to show
+
+1382
+00:52:28,960 --> 00:52:30,079
+off
+
+1383
+00:52:30,079 --> 00:52:31,760
+here
+
+1384
+00:52:31,760 --> 00:52:34,079
+i think we are going to you know it's
+
+1385
+00:52:34,079 --> 00:52:36,000
+still the same sorry so maybe this one
+
+1386
+00:52:36,000 --> 00:52:38,319
+is the best one yeah so we are going to
+
+1387
+00:52:38,319 --> 00:52:40,800
+run the model query part yes
+
+1388
+00:52:40,800 --> 00:52:42,480
+and here
+
+1389
+00:52:42,480 --> 00:52:44,400
+uh there is obviously a couple of
+
+1390
+00:52:44,400 --> 00:52:48,000
+built-in queries example
+
+1391
+00:52:48,000 --> 00:52:50,480
+the ones that are related to uh this
+
+1392
+00:52:50,480 --> 00:52:53,040
+custom flow analysis in in in this
+
+1393
+00:52:53,040 --> 00:52:55,119
+configuration of the inquiry suite there
+
+1394
+00:52:55,119 --> 00:52:57,280
+are three query languages that the user
+
+1395
+00:52:57,280 --> 00:52:58,559
+can select from
+
+1396
+00:52:58,559 --> 00:53:01,680
+week well sparkuel and elasticsearch
+
+1397
+00:53:01,680 --> 00:53:04,960
+elasticsearch is uh is a is a full text
+
+1398
+00:53:04,960 --> 00:53:07,839
+engine uh that has also some structural
+
+1399
+00:53:07,839 --> 00:53:09,760
+uh constraint capabilities it's very
+
+1400
+00:53:09,760 --> 00:53:11,920
+powerful in technology
+
+1401
+00:53:11,920 --> 00:53:15,839
+um spark ul is the standard
+
+1402
+00:53:15,839 --> 00:53:18,400
+query language uh based on you know
+
+1403
+00:53:18,400 --> 00:53:20,240
+cement uh
+
+1404
+00:53:20,240 --> 00:53:22,800
+data structures and ontologies and stuff
+
+1405
+00:53:22,800 --> 00:53:25,280
+like that and vql is very similar to
+
+1406
+00:53:25,280 --> 00:53:27,680
+spark ul but but it's coming from a
+
+1407
+00:53:27,680 --> 00:53:29,520
+different community it's coming from the
+
+1408
+00:53:29,520 --> 00:53:32,240
+the eclipse modeling community and it's
+
+1409
+00:53:32,240 --> 00:53:34,000
+also a pattern-based language so this
+
+1410
+00:53:34,000 --> 00:53:36,559
+particular rule that you have seen here
+
+1411
+00:53:36,559 --> 00:53:38,800
+is was defined in the week well language
+
+1412
+00:53:38,800 --> 00:53:40,880
+if you know there is interest i can talk
+
+1413
+00:53:40,880 --> 00:53:42,400
+about this but maybe we should focus
+
+1414
+00:53:42,400 --> 00:53:44,559
+more on the functionality so what we're
+
+1415
+00:53:44,559 --> 00:53:46,000
+going to do now as part of this
+
+1416
+00:53:46,000 --> 00:53:47,280
+demonstration is we are going to
+
+1417
+00:53:47,280 --> 00:53:48,640
+redefine
+
+1418
+00:53:48,640 --> 00:53:50,640
+uh this query which was written in the
+
+1419
+00:53:50,640 --> 00:53:52,720
+sparkvue language and redefine it into
+
+1420
+00:53:52,720 --> 00:53:54,839
+an elastic search or a losing
+
+1421
+00:53:54,839 --> 00:53:57,760
+query to look for
+
+1422
+00:53:57,760 --> 00:54:01,680
+let's say things in the system model
+
+1423
+00:54:01,680 --> 00:54:02,480
+that
+
+1424
+00:54:02,480 --> 00:54:04,559
+have the string data
+
+1425
+00:54:04,559 --> 00:54:06,559
+and something which
+
+1426
+00:54:06,559 --> 00:54:09,119
+begins with the word track
+
+1427
+00:54:09,119 --> 00:54:10,960
+in in their value so this is what this
+
+1428
+00:54:10,960 --> 00:54:13,040
+query is intended to mean you can run
+
+1429
+00:54:13,040 --> 00:54:15,040
+such a query freely as you could say you
+
+1430
+00:54:15,040 --> 00:54:16,880
+can really find it very easily and you
+
+1431
+00:54:16,880 --> 00:54:18,000
+will get
+
+1432
+00:54:18,000 --> 00:54:20,640
+results and these results again are you
+
+1433
+00:54:20,640 --> 00:54:23,119
+know corresponding to particular hits in
+
+1434
+00:54:23,119 --> 00:54:25,200
+the system model so you can run the full
+
+1435
+00:54:25,200 --> 00:54:28,400
+text search on a system model
+
+1436
+00:54:28,400 --> 00:54:31,520
+in this case it will give you a short
+
+1437
+00:54:31,520 --> 00:54:34,559
+list of those elements which are hit to
+
+1438
+00:54:34,559 --> 00:54:37,200
+this query and also show you why you
+
+1439
+00:54:37,200 --> 00:54:39,440
+know it considers this is a hit this is
+
+1440
+00:54:39,440 --> 00:54:41,599
+what is shown on the right side of this
+
+1441
+00:54:41,599 --> 00:54:44,799
+table and again even from this interface
+
+1442
+00:54:44,799 --> 00:54:46,799
+it's very easy to navigate first to the
+
+1443
+00:54:46,799 --> 00:54:48,400
+model viewer
+
+1444
+00:54:48,400 --> 00:54:50,400
+representation and from the model viewer
+
+1445
+00:54:50,400 --> 00:54:52,160
+again you can go to the camera
+
+1446
+00:54:52,160 --> 00:54:53,839
+collaborator or
+
+1447
+00:54:53,839 --> 00:54:55,359
+if you have that project open in your
+
+1448
+00:54:55,359 --> 00:54:57,839
+workspace too to canal systems modeler
+
+1449
+00:54:57,839 --> 00:55:00,160
+directly
+
+1450
+00:55:00,160 --> 00:55:03,359
+okay so this uh concludes uh let's say
+
+1451
+00:55:03,359 --> 00:55:06,079
+the the first part of the demonstration
+
+1452
+00:55:06,079 --> 00:55:08,559
+and if we have some more time i can also
+
+1453
+00:55:08,559 --> 00:55:10,880
+show you how we can do the the quality
+
+1454
+00:55:10,880 --> 00:55:13,040
+assurance across tool boundaries
+
+1455
+00:55:13,040 --> 00:55:15,839
+in the context of jira and csml this is
+
+1456
+00:55:15,839 --> 00:55:17,760
+also very similar
+
+1457
+00:55:17,760 --> 00:55:20,400
+to what we've been doing with you know
+
+1458
+00:55:20,400 --> 00:55:23,119
+genesis and e3 but with the combination
+
+1459
+00:55:23,119 --> 00:55:25,280
+of different tools
+
+1460
+00:55:25,280 --> 00:55:27,280
+and of course the three seed challenge
+
+1461
+00:55:27,280 --> 00:55:29,599
+is also valid in this particular context
+
+1462
+00:55:29,599 --> 00:55:31,680
+as well so
+
+1463
+00:55:31,680 --> 00:55:33,599
+if i use jira
+
+1464
+00:55:33,599 --> 00:55:35,359
+to to to
+
+1465
+00:55:35,359 --> 00:55:37,359
+capture all the high-level requirements
+
+1466
+00:55:37,359 --> 00:55:39,040
+that i need to process them further in
+
+1467
+00:55:39,040 --> 00:55:40,960
+the systems engineering design it's
+
+1468
+00:55:40,960 --> 00:55:43,839
+obviously very important capability that
+
+1469
+00:55:43,839 --> 00:55:48,079
+i want to represent these requirements
+
+1470
+00:55:48,079 --> 00:55:50,079
+i want to make sure that i get them all
+
+1471
+00:55:50,079 --> 00:55:52,000
+so i have the correctness
+
+1472
+00:55:52,000 --> 00:55:53,680
+the checkbox
+
+1473
+00:55:53,680 --> 00:55:55,040
+i want to make sure that they are mapped
+
+1474
+00:55:55,040 --> 00:55:57,280
+to correctly to properly type system
+
+1475
+00:55:57,280 --> 00:55:58,799
+structure
+
+1476
+00:55:58,799 --> 00:56:01,760
+and of course i also want to make sure
+
+1477
+00:56:01,760 --> 00:56:04,160
+looking more inside on the system side
+
+1478
+00:56:04,160 --> 00:56:06,720
+whether all the lower level requirements
+
+1479
+00:56:06,720 --> 00:56:08,880
+which i may have added on the system
+
+1480
+00:56:08,880 --> 00:56:10,400
+side whether they are properly traced
+
+1481
+00:56:10,400 --> 00:56:12,640
+back to this high level requirements
+
+1482
+00:56:12,640 --> 00:56:14,480
+so this is exactly what we are going to
+
+1483
+00:56:14,480 --> 00:56:16,720
+create as a as a validation
+
+1484
+00:56:16,720 --> 00:56:19,599
+configuration but what is an interesting
+
+1485
+00:56:19,599 --> 00:56:20,559
+twist
+
+1486
+00:56:20,559 --> 00:56:22,880
+here that in this case we are not going
+
+1487
+00:56:22,880 --> 00:56:25,760
+to rely on a bridge tool to pull in the
+
+1488
+00:56:25,760 --> 00:56:28,720
+requirements to the systems engineering
+
+1489
+00:56:28,720 --> 00:56:31,200
+artifact and instead
+
+1490
+00:56:31,200 --> 00:56:34,160
+we are going to use the native tools so
+
+1491
+00:56:34,160 --> 00:56:36,880
+jira and magic draw to establish
+
+1492
+00:56:36,880 --> 00:56:38,640
+traceability links
+
+1493
+00:56:38,640 --> 00:56:41,359
+across these tool boundaries in a very
+
+1494
+00:56:41,359 --> 00:56:44,240
+easy to use and lightweight way for the
+
+1495
+00:56:44,240 --> 00:56:46,160
+purpose of using these traceability
+
+1496
+00:56:46,160 --> 00:56:48,799
+links to power this completeness
+
+1497
+00:56:48,799 --> 00:56:51,599
+correctness and and consistency analysis
+
+1498
+00:56:51,599 --> 00:56:53,760
+so the question is how you create such
+
+1499
+00:56:53,760 --> 00:56:55,760
+lightweight traceability links
+
+1500
+00:56:55,760 --> 00:56:57,680
+and you can do this actually from both
+
+1501
+00:56:57,680 --> 00:57:00,240
+directions right so uh if you want to
+
+1502
+00:57:00,240 --> 00:57:03,119
+link uh let's say uh um
+
+1503
+00:57:03,119 --> 00:57:07,200
+sysml uh you know issue to uh uh uh
+
+1504
+00:57:07,200 --> 00:57:09,680
+i mean the jira issued a system model
+
+1505
+00:57:09,680 --> 00:57:11,920
+you just have to essentially apply a
+
+1506
+00:57:11,920 --> 00:57:13,839
+special stereotype
+
+1507
+00:57:13,839 --> 00:57:15,040
+in your model
+
+1508
+00:57:15,040 --> 00:57:18,559
+as well as add a tagged value and and of
+
+1509
+00:57:18,559 --> 00:57:21,040
+course with the corresponding value
+
+1510
+00:57:21,040 --> 00:57:23,359
+actually that will be a link
+
+1511
+00:57:23,359 --> 00:57:24,960
+with the url
+
+1512
+00:57:24,960 --> 00:57:27,440
+to the jira issue so this is one way of
+
+1513
+00:57:27,440 --> 00:57:28,880
+establishing such a lightweight
+
+1514
+00:57:28,880 --> 00:57:31,920
+connection the other way is the other
+
+1515
+00:57:31,920 --> 00:57:34,799
+direction so what if i want to
+
+1516
+00:57:34,799 --> 00:57:36,960
+establish a link from
+
+1517
+00:57:36,960 --> 00:57:39,359
+jira into a seasonal artifact i can do
+
+1518
+00:57:39,359 --> 00:57:40,880
+that one as well
+
+1519
+00:57:40,880 --> 00:57:42,400
+very easily
+
+1520
+00:57:42,400 --> 00:57:44,720
+uh hopefully i'm showing the right one
+
+1521
+00:57:44,720 --> 00:57:46,160
+so you can actually
+
+1522
+00:57:46,160 --> 00:57:47,119
+um
+
+1523
+00:57:47,119 --> 00:57:49,440
+you know use the url as you see in your
+
+1524
+00:57:49,440 --> 00:57:52,160
+address bar the browser address bar and
+
+1525
+00:57:52,160 --> 00:57:54,799
+then put this url here on the jira site
+
+1526
+00:57:54,799 --> 00:57:57,440
+like this like a simple copy paste okay
+
+1527
+00:57:57,440 --> 00:57:58,720
+and after you are done with these
+
+1528
+00:57:58,720 --> 00:58:02,079
+operations this link is established it
+
+1529
+00:58:02,079 --> 00:58:04,240
+doesn't matter really from our point of
+
+1530
+00:58:04,240 --> 00:58:06,240
+view whether you add the url to the
+
+1531
+00:58:06,240 --> 00:58:09,280
+system model where you add the url to
+
+1532
+00:58:09,280 --> 00:58:11,760
+the jira issue it's going to be a
+
+1533
+00:58:11,760 --> 00:58:14,000
+logical link that is going to be used
+
+1534
+00:58:14,000 --> 00:58:16,960
+for the purpose of across the analysis
+
+1535
+00:58:16,960 --> 00:58:18,799
+and the cross domain assist in this
+
+1536
+00:58:18,799 --> 00:58:21,520
+scenario is going to happen on other
+
+1537
+00:58:21,520 --> 00:58:23,680
+kind of user interface of the model line
+
+1538
+00:58:23,680 --> 00:58:26,480
+analyzer which is the jupiter framework
+
+1539
+00:58:26,480 --> 00:58:28,160
+i don't know to what degree you are
+
+1540
+00:58:28,160 --> 00:58:30,240
+familiar with jupiter it actually looks
+
+1541
+00:58:30,240 --> 00:58:33,119
+like a browser-based
+
+1542
+00:58:33,119 --> 00:58:35,359
+programming environment would there say
+
+1543
+00:58:35,359 --> 00:58:37,359
+almost but it's actually more than a
+
+1544
+00:58:37,359 --> 00:58:39,119
+programming environment because it's
+
+1545
+00:58:39,119 --> 00:58:41,200
+actually a documentation
+
+1546
+00:58:41,200 --> 00:58:43,599
+creation environment as well and the
+
+1547
+00:58:43,599 --> 00:58:46,240
+documents that you create in jupiter
+
+1548
+00:58:46,240 --> 00:58:49,520
+consist of documentation parts so
+
+1549
+00:58:49,520 --> 00:58:51,520
+things that you can format as a document
+
+1550
+00:58:51,520 --> 00:58:53,440
+and put in you know formatting and
+
+1551
+00:58:53,440 --> 00:58:55,359
+hyperlinks and images and things like
+
+1552
+00:58:55,359 --> 00:58:58,000
+this but you can also put in code
+
+1553
+00:58:58,000 --> 00:59:00,160
+snippets originally in the python
+
+1554
+00:59:00,160 --> 00:59:02,400
+language but now there is many more
+
+1555
+00:59:02,400 --> 00:59:04,319
+so-called language kernels available for
+
+1556
+00:59:04,319 --> 00:59:06,880
+jupiter so we have a python
+
+1557
+00:59:06,880 --> 00:59:08,880
+we also use jupiter for the system lv2
+
+1558
+00:59:08,880 --> 00:59:11,599
+pilot implementation yes yes so we
+
+1559
+00:59:11,599 --> 00:59:14,079
+provide we provide an open source python
+
+1560
+00:59:14,079 --> 00:59:16,319
+connectivity library for interacting
+
+1561
+00:59:16,319 --> 00:59:18,079
+with the inquiry suite that you can very
+
+1562
+00:59:18,079 --> 00:59:20,720
+easily embed in a jupyter notebook
+
+1563
+00:59:20,720 --> 00:59:22,640
+and then using this final python
+
+1564
+00:59:22,640 --> 00:59:24,880
+connectivity library you can actually
+
+1565
+00:59:24,880 --> 00:59:26,960
+take advantage of the api functionality
+
+1566
+00:59:26,960 --> 00:59:28,799
+that is exposed by the inquiry suite
+
+1567
+00:59:28,799 --> 00:59:31,599
+right so typically how such an analysis
+
+1568
+00:59:31,599 --> 00:59:33,119
+notebook looks like is that on the
+
+1569
+00:59:33,119 --> 00:59:34,880
+beginning you have to set up the
+
+1570
+00:59:34,880 --> 00:59:36,640
+connection to the inquiry suite so
+
+1571
+00:59:36,640 --> 00:59:39,200
+locate the api endpoint and provide your
+
+1572
+00:59:39,200 --> 00:59:41,440
+user credentials and things like this
+
+1573
+00:59:41,440 --> 00:59:43,440
+and after this is done
+
+1574
+00:59:43,440 --> 00:59:45,440
+then there are built-in widgets for
+
+1575
+00:59:45,440 --> 00:59:47,520
+selecting the particular
+
+1576
+00:59:47,520 --> 00:59:49,599
+let's say component of the digital
+
+1577
+00:59:49,599 --> 00:59:51,359
+thread that you want to work with so the
+
+1578
+00:59:51,359 --> 00:59:53,599
+workspace resource branch and revision
+
+1579
+00:59:53,599 --> 00:59:55,680
+so in this case to select the forest
+
+1580
+00:59:55,680 --> 00:59:57,359
+fire detection system
+
+1581
+00:59:57,359 --> 01:00:00,079
+and once this is done then we can use
+
+1582
+01:00:00,079 --> 01:00:03,520
+the again a built-in user interface
+
+1583
+01:00:03,520 --> 01:00:05,280
+component for
+
+1584
+01:00:05,280 --> 01:00:07,440
+configuring the so-called filter so we
+
+1585
+01:00:07,440 --> 01:00:09,680
+are going to be using a package filter
+
+1586
+01:00:09,680 --> 01:00:12,480
+in this particular scenario because we
+
+1587
+01:00:12,480 --> 01:00:14,640
+only are interested in the connectivity
+
+1588
+01:00:14,640 --> 01:00:16,160
+analysis in the context of one
+
+1589
+01:00:16,160 --> 01:00:18,720
+particular package in the system model i
+
+1590
+01:00:18,720 --> 01:00:20,160
+think this is a very frequently and
+
+1591
+01:00:20,160 --> 01:00:22,480
+often used feature by systems engineers
+
+1592
+01:00:22,480 --> 01:00:24,319
+because you're not interested in things
+
+1593
+01:00:24,319 --> 01:00:26,400
+all over the model just in one
+
+1594
+01:00:26,400 --> 01:00:29,040
+particular packaging on one particular
+
+1595
+01:00:29,040 --> 01:00:31,839
+epic in this sense and all the rest of
+
+1596
+01:00:31,839 --> 01:00:33,680
+the analysis notebook can be run fully
+
+1597
+01:00:33,680 --> 01:00:34,960
+automatically
+
+1598
+01:00:34,960 --> 01:00:37,680
+and this notebook is going to create an
+
+1599
+01:00:37,680 --> 01:00:40,480
+interactively browseable html document
+
+1600
+01:00:40,480 --> 01:00:43,119
+for you based on the forest fire
+
+1601
+01:00:43,119 --> 01:00:46,079
+detection system that contains this
+
+1602
+01:00:46,079 --> 01:00:48,240
+mapping information this corresponding
+
+1603
+01:00:48,240 --> 01:00:50,160
+correspondence analysis information
+
+1604
+01:00:50,160 --> 01:00:52,640
+between the jira
+
+1605
+01:00:52,640 --> 01:00:54,319
+let's say part of the the knowledge
+
+1606
+01:00:54,319 --> 01:00:55,839
+graph and the system part of the
+
+1607
+01:00:55,839 --> 01:00:58,640
+knowledge graph so as you can see here
+
+1608
+01:00:58,640 --> 01:01:01,599
+you can you have a list of um jira tasks
+
+1609
+01:01:01,599 --> 01:01:03,359
+that are correctly mapped to the systems
+
+1610
+01:01:03,359 --> 01:01:04,720
+engineering model
+
+1611
+01:01:04,720 --> 01:01:06,480
+and you can also see a list of the jira
+
+1612
+01:01:06,480 --> 01:01:07,839
+attacks which are unmapped to the
+
+1613
+01:01:07,839 --> 01:01:09,520
+systems engineering model so this is the
+
+1614
+01:01:09,520 --> 01:01:12,000
+fundamentals of the correctness analysis
+
+1615
+01:01:12,000 --> 01:01:13,760
+things that you have already done and
+
+1616
+01:01:13,760 --> 01:01:15,760
+things which are yet to be done of
+
+1617
+01:01:15,760 --> 01:01:17,839
+course in jupiter you have access to
+
+1618
+01:01:17,839 --> 01:01:19,440
+nice visualization and plotting
+
+1619
+01:01:19,440 --> 01:01:21,200
+libraries that are able to generate
+
+1620
+01:01:21,200 --> 01:01:23,040
+nicely looking diagrams as well this is
+
+1621
+01:01:23,040 --> 01:01:25,839
+all accessible very easily from this
+
+1622
+01:01:25,839 --> 01:01:27,200
+environment
+
+1623
+01:01:27,200 --> 01:01:29,359
+and the these jupiter notebooks are
+
+1624
+01:01:29,359 --> 01:01:32,000
+actually files themselves that can be
+
+1625
+01:01:32,000 --> 01:01:34,319
+stored in a version control system like
+
+1626
+01:01:34,319 --> 01:01:36,160
+a git repository
+
+1627
+01:01:36,160 --> 01:01:38,400
+and we also have a connector
+
+1628
+01:01:38,400 --> 01:01:40,720
+that allows you to process a jupiter
+
+1629
+01:01:40,720 --> 01:01:44,240
+notebook like as a part of this digital
+
+1630
+01:01:44,240 --> 01:01:46,000
+thread analysis and the knowledge graph
+
+1631
+01:01:46,000 --> 01:01:48,720
+so you can actually turn this again on
+
+1632
+01:01:48,720 --> 01:01:51,040
+on its head and use our analysis
+
+1633
+01:01:51,040 --> 01:01:53,680
+capabilities to look inside the jupiter
+
+1634
+01:01:53,680 --> 01:01:54,480
+uh
+
+1635
+01:01:54,480 --> 01:01:55,280
+okay
+
+1636
+01:01:55,280 --> 01:01:56,720
+so this is how
+
+1637
+01:01:56,720 --> 01:01:58,720
+this is how the 3c analysis looks like
+
+1638
+01:01:58,720 --> 01:02:00,960
+in this this environment
+
+1639
+01:02:00,960 --> 01:02:03,200
+pretty powerful so we
+
+1640
+01:02:03,200 --> 01:02:05,680
+we also filled up a whole hour with with
+
+1641
+01:02:05,680 --> 01:02:08,880
+all this stuff that's amazing
+
+1642
+01:02:08,880 --> 01:02:12,480
+great i have what questions so um
+
+1643
+01:02:12,480 --> 01:02:14,480
+which role in an engineering project
+
+1644
+01:02:14,480 --> 01:02:17,119
+will typically use your tool is it the
+
+1645
+01:02:17,119 --> 01:02:18,480
+systems engineer the requirements
+
+1646
+01:02:18,480 --> 01:02:20,559
+engineer the electrical engineer or is
+
+1647
+01:02:20,559 --> 01:02:23,119
+there a special role that
+
+1648
+01:02:23,119 --> 01:02:25,119
+the digital threat engineer that that
+
+1649
+01:02:25,119 --> 01:02:28,559
+works with the inquiry suite
+
+1650
+01:02:28,640 --> 01:02:29,520
+yes
+
+1651
+01:02:29,520 --> 01:02:31,520
+all of them all of them but this role
+
+1652
+01:02:31,520 --> 01:02:34,400
+this digital thread engineer in
+
+1653
+01:02:34,400 --> 01:02:36,160
+many of the organizations that we work
+
+1654
+01:02:36,160 --> 01:02:38,079
+with is called the model integrator i
+
+1655
+01:02:38,079 --> 01:02:39,920
+don't know if you have ever heard this
+
+1656
+01:02:39,920 --> 01:02:42,640
+term before maybe i'm i'm totally wrong
+
+1657
+01:02:42,640 --> 01:02:44,559
+but but they are called integrators so
+
+1658
+01:02:44,559 --> 01:02:46,000
+they are the ones who are actually
+
+1659
+01:02:46,000 --> 01:02:49,599
+responsible for uh you know looking at
+
+1660
+01:02:49,599 --> 01:02:52,240
+or consuming more like the work of of
+
+1661
+01:02:52,240 --> 01:02:53,839
+other stakeholders in the process
+
+1662
+01:02:53,839 --> 01:02:56,240
+systems engineers and other engineers
+
+1663
+01:02:56,240 --> 01:02:58,000
+and making sure that
+
+1664
+01:02:58,000 --> 01:02:59,599
+you know there is a there is a
+
+1665
+01:02:59,599 --> 01:03:01,440
+consistency among the work of those
+
+1666
+01:03:01,440 --> 01:03:04,160
+people and it is this person
+
+1667
+01:03:04,160 --> 01:03:06,640
+who is i think the primary target
+
+1668
+01:03:06,640 --> 01:03:08,000
+audience
+
+1669
+01:03:08,000 --> 01:03:10,319
+of these more advanced features of the
+
+1670
+01:03:10,319 --> 01:03:13,359
+the suite but of course as you could see
+
+1671
+01:03:13,359 --> 01:03:15,599
+we also they were out of the box
+
+1672
+01:03:15,599 --> 01:03:17,599
+validation logic that is i think very
+
+1673
+01:03:17,599 --> 01:03:20,079
+useful to systems engineers
+
+1674
+01:03:20,079 --> 01:03:20,720
+and
+
+1675
+01:03:20,720 --> 01:03:22,480
+what i would like to emphasize again is
+
+1676
+01:03:22,480 --> 01:03:23,920
+that all the tools that i have been
+
+1677
+01:03:23,920 --> 01:03:26,079
+showing to you today are web based right
+
+1678
+01:03:26,079 --> 01:03:27,839
+so they work fast
+
+1679
+01:03:27,839 --> 01:03:29,359
+long fast
+
+1680
+01:03:29,359 --> 01:03:32,160
+you can open up the tmt model or or a
+
+1681
+01:03:32,160 --> 01:03:34,079
+model with millions of elements in your
+
+1682
+01:03:34,079 --> 01:03:36,400
+browser in a matter of seconds
+
+1683
+01:03:36,400 --> 01:03:38,720
+instead of you know having to go through
+
+1684
+01:03:38,720 --> 01:03:39,440
+the
+
+1685
+01:03:39,440 --> 01:03:42,240
+more traditional way of checking out
+
+1686
+01:03:42,240 --> 01:03:44,319
+projects and opening them which can take
+
+1687
+01:03:44,319 --> 01:03:48,400
+a lot longer so the the intention of us
+
+1688
+01:03:48,400 --> 01:03:50,319
+with this kind of architecture is to
+
+1689
+01:03:50,319 --> 01:03:51,440
+empower
+
+1690
+01:03:51,440 --> 01:03:53,520
+the engineers and make these processes a
+
+1691
+01:03:53,520 --> 01:03:55,520
+lot faster and a lot more you know
+
+1692
+01:03:55,520 --> 01:03:59,400
+pleasant and easy to use
+
+1693
+01:03:59,680 --> 01:04:02,799
+all right so you you have uh still other
+
+1694
+01:04:02,799 --> 01:04:05,520
+stuff is fun because uh we are
+
+1695
+01:04:05,520 --> 01:04:07,680
+pretty a little bit over time right now
+
+1696
+01:04:07,680 --> 01:04:10,240
+no no this is this is this is all i
+
+1697
+01:04:10,240 --> 01:04:13,760
+wanted to show okay great yeah and you
+
+1698
+01:04:13,760 --> 01:04:15,280
+and you guys are at the end of your day
+
+1699
+01:04:15,280 --> 01:04:17,599
+i still have meetings to go to oh that's
+
+1700
+01:04:17,599 --> 01:04:19,039
+true yeah
+
+1701
+01:04:19,039 --> 01:04:21,680
+uh how much are you ahead uh eight hours
+
+1702
+01:04:21,680 --> 01:04:22,960
+nine hours
+
+1703
+01:04:22,960 --> 01:04:23,839
+seven
+
+1704
+01:04:23,839 --> 01:04:25,280
+seven okay
+
+1705
+01:04:25,280 --> 01:04:26,480
+seven hours
+
+1706
+01:04:26,480 --> 01:04:28,799
+all right
+
+1707
+01:04:28,960 --> 01:04:30,640
+this happened during my lunch time
+
+1708
+01:04:30,640 --> 01:04:34,480
+[Laughter]
+
+1709
+01:04:34,480 --> 01:04:39,440
+yeah so it was extremely interesting
+
+1710
+01:04:39,440 --> 01:04:41,359
+yeah
+
+1711
+01:04:41,359 --> 01:04:43,440
+really really nice stuff that you
+
+1712
+01:04:43,440 --> 01:04:45,119
+already
+
+1713
+01:04:45,119 --> 01:04:47,280
+that you already can do and and we
+
+1714
+01:04:47,280 --> 01:04:49,760
+already heard that you will do even more
+
+1715
+01:04:49,760 --> 01:04:50,640
+in in
+
+1716
+01:04:50,640 --> 01:04:52,319
+near future
+
+1717
+01:04:52,319 --> 01:04:55,359
+and uh yeah maybe we should talk a
+
+1718
+01:04:55,359 --> 01:04:56,720
+little bit uh
+
+1719
+01:04:56,720 --> 01:04:59,440
+together uh outside of the
+
+1720
+01:04:59,440 --> 01:05:01,680
+podcast because zuken and contact
+
+1721
+01:05:01,680 --> 01:05:04,319
+software so my employer have a tight
+
+1722
+01:05:04,319 --> 01:05:06,079
+relationship and
+
+1723
+01:05:06,079 --> 01:05:07,520
+therefore maybe
+
+1724
+01:05:07,520 --> 01:05:10,000
+this could be a good uh good good start
+
+1725
+01:05:10,000 --> 01:05:12,000
+for it for another demo
+
+1726
+01:05:12,000 --> 01:05:14,480
+could be could be i would definitely uh
+
+1727
+01:05:14,480 --> 01:05:16,559
+appreciate that guys this was fun this
+
+1728
+01:05:16,559 --> 01:05:18,400
+was a lot of fun
+
+1729
+01:05:18,400 --> 01:05:19,920
+thank you guys for extending the
+
+1730
+01:05:19,920 --> 01:05:22,160
+invitation and and having us here giving
+
+1731
+01:05:22,160 --> 01:05:24,640
+us the opportunity absolutely um
+
+1732
+01:05:24,640 --> 01:05:27,039
+hopefully as things get back to normal
+
+1733
+01:05:27,039 --> 01:05:28,400
+we'll be able to do more than just
+
+1734
+01:05:28,400 --> 01:05:32,480
+podcasts yes oh yes yes absolutely
+
+1735
+01:05:32,480 --> 01:05:34,400
+if we are very lucky we see each other
+
+1736
+01:05:34,400 --> 01:05:38,160
+in december yep yep at least i do have
+
+1737
+01:05:38,160 --> 01:05:40,640
+to i do have to get on another call so
+
+1738
+01:05:40,640 --> 01:05:41,839
+okay
+
+1739
+01:05:41,839 --> 01:05:43,440
+to say goodbye
+
+1740
+01:05:43,440 --> 01:05:44,240
+okay
+
+1741
+01:05:44,240 --> 01:05:46,000
+thank you so much okay thank you thank
+
+1742
+01:05:46,000 --> 01:05:48,079
+you for having me thanks very much
+
+1743
+01:05:48,079 --> 01:05:49,039
+thank you
+
+1744
+01:05:49,039 --> 01:05:50,720
+thank you bye-bye
+
+1745
+01:05:50,720 --> 01:05:53,280
+goodbye
+
+1746
+01:05:54,079 --> 01:05:59,599
+okay so well that's it well then um
+
+1747
+01:05:59,599 --> 01:06:03,039
+what's our next topic the next episode
+
+1748
+01:06:03,039 --> 01:06:05,520
+is uh yeah surprise right the next
+
+1749
+01:06:05,520 --> 01:06:08,079
+episode is still a surprise it will come
+
+1750
+01:06:08,079 --> 01:06:11,359
+on december 1st
+
+1751
+01:06:12,000 --> 01:06:14,240
+yeah but more we won't
+
+1752
+01:06:14,240 --> 01:06:15,390
+won't tell you
+
+1753
+01:06:15,390 --> 01:06:17,039
+[Laughter]
+
+1754
+01:06:17,039 --> 01:06:20,960
+right and well then um do not forget
+
+1755
+01:06:20,960 --> 01:06:25,119
+trust us we are systems engineers
+
+1756
+01:06:25,119 --> 01:06:26,319
+goodbye
+
+1757
+01:06:26,319 --> 01:06:28,720
+bye bye
+
+1758
+01:06:28,720 --> 01:06:31,880
+thank you
+
