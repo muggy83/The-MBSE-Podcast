@@ -1,0 +1,456 @@
+1
+00:00:00,560 --> 00:00:03,360
+welcome to the mbse podcast advent
+
+2
+00:00:03,360 --> 00:00:04,480
+calendar
+
+3
+00:00:04,480 --> 00:00:06,640
+we will open a new door every day until
+
+4
+00:00:06,640 --> 00:00:09,760
+december 24th this means that every day
+
+5
+00:00:09,760 --> 00:00:11,920
+there will be a short mbse podcast
+
+6
+00:00:11,920 --> 00:00:13,440
+episode
+
+7
+00:00:13,440 --> 00:00:15,599
+in 25 episodes we will each briefly
+
+8
+00:00:15,599 --> 00:00:17,600
+describe how to model a system using the
+
+9
+00:00:17,600 --> 00:00:20,160
+system methodology each episode
+
+10
+00:00:20,160 --> 00:00:22,400
+highlights a new aspect the system is
+
+11
+00:00:22,400 --> 00:00:25,439
+our super cool mbse podcast christmas
+
+12
+00:00:25,439 --> 00:00:27,039
+tree
+
+13
+00:00:27,039 --> 00:00:29,439
+of course the example is not entirely
+
+14
+00:00:29,439 --> 00:00:30,400
+serious
+
+15
+00:00:30,400 --> 00:00:33,200
+but we are modeling seriously
+
+16
+00:00:33,200 --> 00:00:35,040
+sometimes this will make
+
+17
+00:00:35,040 --> 00:00:37,600
+it look a little bit strange but
+
+18
+00:00:37,600 --> 00:00:41,040
+certainly very much like over modeling
+
+19
+00:00:41,040 --> 00:00:42,800
+with our advent calendar you get a
+
+20
+00:00:42,800 --> 00:00:44,399
+lightweight overview of modeling a
+
+21
+00:00:44,399 --> 00:00:46,320
+system and the essential steps of the
+
+22
+00:00:46,320 --> 00:00:48,879
+mbse methodology sysmod in addition each
+
+23
+00:00:48,879 --> 00:00:51,039
+episode also contains a small gift in
+
+24
+00:00:51,039 --> 00:00:53,680
+the form of a good practice
+
+25
+00:00:53,680 --> 00:00:55,520
+the advent calendar episodes are a
+
+26
+00:00:55,520 --> 00:00:57,840
+little bit differently to our previous
+
+27
+00:00:57,840 --> 00:01:00,239
+episodes they are only about five
+
+28
+00:01:00,239 --> 00:01:03,120
+minutes long and we don't have guests
+
+29
+00:01:03,120 --> 00:01:04,000
+and
+
+30
+00:01:04,000 --> 00:01:06,880
+since we are showing how to model the
+
+31
+00:01:06,880 --> 00:01:08,960
+audio only channel only works to a
+
+32
+00:01:08,960 --> 00:01:10,880
+limited extent
+
+33
+00:01:10,880 --> 00:01:12,880
+and we use the camille systems modeler
+
+34
+00:01:12,880 --> 00:01:15,600
+and the sysmod profile as our systems
+
+35
+00:01:15,600 --> 00:01:17,759
+modeling environment for the project
+
+36
+00:01:17,759 --> 00:01:19,680
+however any other system compliant
+
+37
+00:01:19,680 --> 00:01:21,520
+morning tool could also be used for the
+
+38
+00:01:21,520 --> 00:01:23,280
+project
+
+39
+00:01:23,280 --> 00:01:25,600
+in 2022 we will continue with our
+
+40
+00:01:25,600 --> 00:01:26,479
+regular
+
+41
+00:01:26,479 --> 00:01:29,360
+mbse podcast episodes with live sessions
+
+42
+00:01:29,360 --> 00:01:31,600
+and exciting guests from the mbse
+
+43
+00:01:31,600 --> 00:01:33,759
+community
+
+44
+00:01:33,759 --> 00:01:36,400
+okay so now let's take a first look at
+
+45
+00:01:36,400 --> 00:01:39,640
+our model
+
+46
+00:01:41,439 --> 00:01:44,399
+on the left side of the model you can
+
+47
+00:01:44,399 --> 00:01:47,920
+see the model structure
+
+48
+00:01:47,920 --> 00:01:50,399
+the package derived properties is too
+
+49
+00:01:50,399 --> 00:01:53,119
+specific and we will not have any
+
+50
+00:01:53,119 --> 00:01:54,960
+further look on this one
+
+51
+00:01:54,960 --> 00:01:56,719
+the international christmas tree
+
+52
+00:01:56,719 --> 00:01:59,280
+standard is a model library covered in
+
+53
+00:01:59,280 --> 00:02:00,560
+the following sessions about
+
+54
+00:02:00,560 --> 00:02:03,280
+requirements
+
+55
+00:02:03,600 --> 00:02:05,360
+and the package symbol with the tiny
+
+56
+00:02:05,360 --> 00:02:07,439
+triangle is the root of our product
+
+57
+00:02:07,439 --> 00:02:10,318
+model the mbse podcast christmas tree or
+
+58
+00:02:10,318 --> 00:02:13,040
+abbreviated tm pct
+
+59
+00:02:13,040 --> 00:02:14,560
+and on the next level you can see
+
+60
+00:02:14,560 --> 00:02:16,160
+packages for several engineering
+
+61
+00:02:16,160 --> 00:02:18,160
+artifacts like the context, requirements
+
+62
+00:02:18,160 --> 00:02:20,640
+or the architectures they will be
+
+63
+00:02:20,640 --> 00:02:22,720
+covered step by step in the following
+
+64
+00:02:22,720 --> 00:02:24,480
+episodes
+
+65
+00:02:24,480 --> 00:02:26,560
+and here comes our special learning gift
+
+66
+00:02:26,560 --> 00:02:28,560
+of this episode
+
+67
+00:02:28,560 --> 00:02:30,319
+it is a good practice to design the
+
+68
+00:02:30,319 --> 00:02:32,640
+package structure the following way at
+
+69
+00:02:32,640 --> 00:02:34,720
+the top level separation is made
+
+70
+00:02:34,720 --> 00:02:36,239
+according to primary engineering
+
+71
+00:02:36,239 --> 00:02:38,640
+artifacts the package names are each
+
+72
+00:02:38,640 --> 00:02:41,360
+given the namespace above as a prefix
+
+73
+00:02:41,360 --> 00:02:46,879
+for example t and pct underscore context
+
+74
+00:02:47,040 --> 00:02:49,519
+at the base architecture or physical
+
+75
+00:02:49,519 --> 00:02:51,840
+architecture level below the elements of
+
+76
+00:02:51,840 --> 00:02:54,480
+individual components of the system such
+
+77
+00:02:54,480 --> 00:02:57,440
+as the tree itself are stored in their
+
+78
+00:02:57,440 --> 00:02:58,800
+own packages
+
+79
+00:02:58,800 --> 00:03:00,560
+their substructure behaves like the
+
+80
+00:03:00,560 --> 00:03:03,040
+structure of the system model thus the
+
+81
+00:03:03,040 --> 00:03:05,680
+package structure scales very well
+
+82
+00:03:05,680 --> 00:03:07,760
+if required these packages can be cut
+
+83
+00:03:07,760 --> 00:03:11,360
+out and used as separate system models
+
+84
+00:03:11,360 --> 00:03:14,159
+now let's open the package diagram tmpct
+
+85
+00:03:14,159 --> 00:03:16,400
+model structure it depicts the applied
+
+86
+00:03:16,400 --> 00:03:17,680
+profiles
+
+87
+00:03:17,680 --> 00:03:22,000
+and used libraries of our system model
+
+88
+00:03:22,319 --> 00:03:24,959
+as you can see from left to right we
+
+89
+00:03:24,959 --> 00:03:27,599
+applied the sysmod profile to use sysmod
+
+90
+00:03:27,599 --> 00:03:29,760
+specific model elements like
+
+91
+00:03:29,760 --> 00:03:32,480
+system system context or system use
+
+92
+00:03:32,480 --> 00:03:33,680
+cases
+
+93
+00:03:33,680 --> 00:03:35,760
+we also applied the fast profile for
+
+94
+00:03:35,760 --> 00:03:37,440
+modeling the functional architecture
+
+95
+00:03:37,440 --> 00:03:40,159
+using the first method and we imported
+
+96
+00:03:40,159 --> 00:03:42,560
+engineering for planet model library for
+
+97
+00:03:42,560 --> 00:03:44,560
+sustainability elements
+
+98
+00:03:44,560 --> 00:03:47,840
+that library is provided also by sysmod
+
+99
+00:03:47,840 --> 00:03:49,920
+we import the passcatalog model library
+
+100
+00:03:49,920 --> 00:03:52,000
+to get some nice reusable elements the
+
+101
+00:03:52,000 --> 00:03:54,000
+library is also provided by the smart
+
+102
+00:03:54,000 --> 00:03:55,519
+and we import the international
+
+103
+00:03:55,519 --> 00:03:57,519
+christmas standard model library to get
+
+104
+00:03:57,519 --> 00:04:00,799
+common christmas tree requirements
+
+105
+00:04:00,799 --> 00:04:02,720
+all the profiles and libraries will be
+
+106
+00:04:02,720 --> 00:04:05,120
+used in some of the following sessions
+
+107
+00:04:05,120 --> 00:04:08,879
+as well as will be explicitly covered
+
+108
+00:04:08,879 --> 00:04:10,159
+by
+
+109
+00:04:10,159 --> 00:04:12,480
+other episodes about profiles and model
+
+110
+00:04:12,480 --> 00:04:15,360
+libraries
+
+111
+00:04:15,360 --> 00:04:17,600
+so much for the first tour of our mbse
+
+112
+00:04:17,600 --> 00:04:19,600
+podcast advanced calendar and we wish
+
+113
+00:04:19,600 --> 00:04:22,400
+you a great first of december
+
+114
+00:04:22,400 --> 00:04:25,400
+goodbye
+

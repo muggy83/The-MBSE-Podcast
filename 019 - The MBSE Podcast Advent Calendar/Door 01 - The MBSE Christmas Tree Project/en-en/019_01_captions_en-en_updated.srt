@@ -1,0 +1,320 @@
+1
+00:00:00,560 --> 00:00:04,480
+Welcome to the MBSE Podcast
+Advent Calendar
+
+2
+00:00:04,480 --> 00:00:08,094
+We will open a new door every day
+until December 24th
+
+3
+00:00:08,094 --> 00:00:13,120
+This means that every day there will be
+a short MBSE Podcast episode
+
+4
+00:00:13,440 --> 00:00:16,280
+In 25 episodes we will
+each briefly describe
+
+5
+00:00:16,280 --> 00:00:18,950
+how to model a system
+using the SYSMOD methodology
+
+6
+00:00:18,950 --> 00:00:21,544
+Each episode highlights a new aspect
+
+7
+00:00:21,544 --> 00:00:26,804
+the system is our super cool
+MBSE Podcast Christmas Tree
+
+8
+00:00:27,039 --> 00:00:30,400
+Of course, the example is
+not entirely serious
+
+9
+00:00:30,400 --> 00:00:33,200
+but we are modeling seriously
+
+10
+00:00:33,200 --> 00:00:35,040
+Sometimes this will make
+
+11
+00:00:35,040 --> 00:00:36,702
+it look a little bit strange
+
+12
+00:00:36,702 --> 00:00:40,740
+but certainly very much like over modeling
+
+13
+00:00:41,040 --> 00:00:42,499
+With our Advent Calendar
+
+14
+00:00:42,499 --> 00:00:44,929
+you get a lightweight overview
+of modeling a system
+
+15
+00:00:44,929 --> 00:00:48,142
+and the essential steps of
+the MBSE methodology SYSMOD
+
+16
+00:00:48,142 --> 00:00:51,260
+In addition, each episode
+also contains a small gift
+
+17
+00:00:51,260 --> 00:00:53,408
+in the form of a good practice
+
+18
+00:00:53,680 --> 00:00:58,589
+The Advent Calendar episodes are a little
+bit differently to our previous episodes
+
+19
+00:00:58,589 --> 00:01:01,037
+they are only about five minutes long
+
+20
+00:01:01,037 --> 00:01:03,120
+and we don't have guests
+
+21
+00:01:03,120 --> 00:01:06,448
+And since we are showing how to model
+
+22
+00:01:06,448 --> 00:01:10,460
+the audio only channel only
+works to a limited extent
+
+23
+00:01:10,880 --> 00:01:12,880
+And we use the Cameo Systems Modeler
+
+24
+00:01:12,880 --> 00:01:17,759
+and the SYSMOD profile as our systems
+modeling environment for the project
+
+25
+00:01:17,759 --> 00:01:22,882
+However any other SysML compliant morning
+tool could also be used for the project
+
+26
+00:01:23,280 --> 00:01:29,360
+In 2022 we will continue with our regular
+MBSE Podcast episodes with live sessions
+
+27
+00:01:29,360 --> 00:01:33,270
+and exciting guests from
+the MBSE community
+
+28
+00:01:33,759 --> 00:01:37,420
+Okay so now
+Let's take a first look at our model
+
+29
+00:01:41,439 --> 00:01:47,705
+On the left side of the model
+you can see the model structure
+
+30
+00:01:47,920 --> 00:01:51,274
+The package Derived Properties
+is too specific
+
+31
+00:01:51,274 --> 00:01:54,960
+and we will not have any further
+look on this one
+
+32
+00:01:54,960 --> 00:01:58,920
+The International Christmas
+Tree Standard is a model library
+
+33
+00:01:58,920 --> 00:02:03,190
+covered in the following sessions
+about requirements
+
+34
+00:02:03,600 --> 00:02:07,944
+And the package symbol with the tiny
+triangle is the root of our product model
+
+35
+00:02:07,944 --> 00:02:13,040
+The MBSE Podcast Christmas Tree
+or abbreviated TMPCT
+
+36
+00:02:13,040 --> 00:02:16,760
+And on the next level, you can see
+packages for several engineering artifacts
+
+37
+00:02:16,760 --> 00:02:19,726
+like the context, requirements
+or the architectures
+
+38
+00:02:19,726 --> 00:02:24,076
+They will be covered step by step
+in the following episodes
+
+39
+00:02:24,480 --> 00:02:28,320
+And here comes our special
+learning gift of this episode
+
+40
+00:02:28,560 --> 00:02:32,640
+It is a good practice to design the
+package structure the following way
+
+41
+00:02:32,640 --> 00:02:37,107
+At the top level separation is made
+according to primary engineering artifacts
+
+42
+00:02:37,107 --> 00:02:41,360
+The package names are each given
+the namespace above as a prefix
+
+43
+00:02:41,360 --> 00:02:46,879
+For example, "TMPCT_Context"
+
+44
+00:02:47,040 --> 00:02:50,775
+At the base architecture or
+physical architecture level below
+
+45
+00:02:50,775 --> 00:02:54,117
+the elements of individual
+components of the system
+
+46
+00:02:54,117 --> 00:02:58,800
+such as the Tree itself are stored
+in their own packages
+
+47
+00:02:58,800 --> 00:03:02,440
+Their substructure behaves like
+the structure of the system model
+
+48
+00:03:02,440 --> 00:03:05,680
+Thus the package structure
+scales very well
+
+49
+00:03:05,680 --> 00:03:11,057
+if required these packages can be cut out
+and used as separate system models
+
+50
+00:03:11,360 --> 00:03:15,371
+Now, let's open the package
+diagram TMPCT model structure
+
+51
+00:03:15,371 --> 00:03:21,863
+It depicts the applied profiles
+and used libraries of our system model
+
+52
+00:03:22,319 --> 00:03:24,563
+As you can see from left to right
+
+53
+00:03:24,563 --> 00:03:29,019
+we applied the SYSMOD profile to use
+SYSMOD specific model elements
+
+54
+00:03:29,019 --> 00:03:33,680
+like System, System Context,
+or System Use Cases
+
+55
+00:03:33,680 --> 00:03:37,708
+we also applied the FAS profile
+for modeling the functional architecture
+
+56
+00:03:37,708 --> 00:03:39,118
+using the FAS method
+
+57
+00:03:39,118 --> 00:03:44,560
+And we imported Engineering4Planet
+model library for sustainability elements
+
+58
+00:03:44,560 --> 00:03:47,710
+That library is provided also by SYSMOD
+
+59
+00:03:47,840 --> 00:03:52,020
+We import the PartsCatalogue model library
+to get some nice reusable elements
+
+60
+00:03:52,020 --> 00:03:54,000
+The library is also provided
+by the SYSMOD
+
+61
+00:03:54,000 --> 00:03:57,679
+And we import the International
+Christmas Standard model library
+
+62
+00:03:57,679 --> 00:04:00,679
+to get common Christmas tree requirements
+
+63
+00:04:00,799 --> 00:04:05,120
+All the profiles and libraries will be
+used in some of the following sessions
+
+64
+00:04:05,120 --> 00:04:11,118
+as well as will be explicitly
+covered by other episodes
+
+65
+00:04:11,118 --> 00:04:14,721
+about profiles and model libraries
+
+66
+00:04:15,360 --> 00:04:19,034
+So, much for the first tour of our
+MBSE Podcast Advanced Calendar
+
+67
+00:04:19,034 --> 00:04:22,022
+And we wish you a great first of December
+
+68
+00:04:22,400 --> 00:04:23,970
+Goodbye
