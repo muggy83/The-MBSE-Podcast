@@ -1,0 +1,460 @@
+1
+00:00:00,799 --> 00:00:03,360
+hello behind the fourth door of our mbse
+
+2
+00:00:03,360 --> 00:00:06,000
+podcast advent calendar we take a look
+
+3
+00:00:06,000 --> 00:00:08,720
+at base architectures
+
+4
+00:00:08,720 --> 00:00:10,000
+we already mentioned the base
+
+5
+00:00:10,000 --> 00:00:12,080
+architecture in the previous days
+
+6
+00:00:12,080 --> 00:00:15,280
+now let's talk about what it is
+
+7
+00:00:15,280 --> 00:00:17,199
+in systems engineering we distinguish
+
+8
+00:00:17,199 --> 00:00:19,840
+the problem space at the solution space
+
+9
+00:00:19,840 --> 00:00:21,920
+for example the requirements are in the
+
+10
+00:00:21,920 --> 00:00:24,320
+problem space and are solution free and
+
+11
+00:00:24,320 --> 00:00:26,080
+the system architecture is in the
+
+12
+00:00:26,080 --> 00:00:28,160
+solution space and satisfies the
+
+13
+00:00:28,160 --> 00:00:30,240
+requirements
+
+14
+00:00:30,240 --> 00:00:32,719
+sounds simple but it's not
+
+15
+00:00:32,719 --> 00:00:34,480
+what does it mean that requirements are
+
+16
+00:00:34,480 --> 00:00:35,760
+solution free
+
+17
+00:00:35,760 --> 00:00:37,040
+so
+
+18
+00:00:37,040 --> 00:00:39,120
+what even is a solution
+
+19
+00:00:39,120 --> 00:00:41,360
+so can a requirement request a vehicle
+
+20
+00:00:41,360 --> 00:00:44,160
+that has four wheels or is wheel already
+
+21
+00:00:44,160 --> 00:00:45,920
+a solution
+
+22
+00:00:45,920 --> 00:00:48,719
+the separation of problem and solution
+
+23
+00:00:48,719 --> 00:00:51,360
+space is correct what is missing is a
+
+24
+00:00:51,360 --> 00:00:53,520
+consideration that there are several
+
+25
+00:00:53,520 --> 00:00:56,559
+levels of it as solution space on one
+
+26
+00:00:56,559 --> 00:00:59,199
+level is the basis for the problem space
+
+27
+00:00:59,199 --> 00:01:01,520
+on the next level
+
+28
+00:01:01,520 --> 00:01:04,159
+to return to the vehicle example on one
+
+29
+00:01:04,159 --> 00:01:05,760
+level we have requirements in the
+
+30
+00:01:05,760 --> 00:01:07,040
+problem space
+
+31
+00:01:07,040 --> 00:01:08,880
+that the system should be able to move
+
+32
+00:01:08,880 --> 00:01:10,640
+on roads
+
+33
+00:01:10,640 --> 00:01:12,560
+in the solution space we have chosen the
+
+34
+00:01:12,560 --> 00:01:15,520
+concept of wheel as one alternative
+
+35
+00:01:15,520 --> 00:01:17,920
+in the architecture to satisfy these
+
+36
+00:01:17,920 --> 00:01:20,320
+requirements
+
+37
+00:01:20,320 --> 00:01:22,159
+this architecture is the basis for the
+
+38
+00:01:22,159 --> 00:01:25,119
+next level the wheel is assumed and we
+
+39
+00:01:25,119 --> 00:01:26,960
+now set the requirement that there
+
+40
+00:01:26,960 --> 00:01:29,600
+should be four wheels with the size and
+
+41
+00:01:29,600 --> 00:01:31,439
+so on
+
+42
+00:01:31,439 --> 00:01:33,119
+the system architecture from the higher
+
+43
+00:01:33,119 --> 00:01:36,079
+level solution space we call our base
+
+44
+00:01:36,079 --> 00:01:37,600
+architecture
+
+45
+00:01:37,600 --> 00:01:40,079
+when we describe them explicitly we more
+
+46
+00:01:40,079 --> 00:01:42,159
+strongly separate the problem space from
+
+47
+00:01:42,159 --> 00:01:44,640
+the solution space and make implicit
+
+48
+00:01:44,640 --> 00:01:46,799
+assumptions explicit
+
+49
+00:01:46,799 --> 00:01:48,479
+the decisions in the base architecture
+
+50
+00:01:48,479 --> 00:01:50,640
+are constraint requirements for the next
+
+51
+00:01:50,640 --> 00:01:52,079
+level
+
+52
+00:01:52,079 --> 00:01:56,560
+so now let's have a look on our model
+
+53
+00:01:59,439 --> 00:02:03,119
+the base architecture
+
+54
+00:02:03,360 --> 00:02:04,880
+is modeled here in the base architecture
+
+55
+00:02:04,880 --> 00:02:06,240
+package and here we find the base
+
+56
+00:02:06,240 --> 00:02:09,840
+architecture definition diagram
+
+57
+00:02:11,840 --> 00:02:13,280
+so the base architecture of our
+
+58
+00:02:13,280 --> 00:02:15,040
+christmas tree
+
+59
+00:02:15,040 --> 00:02:17,360
+already specifies a lot
+
+60
+00:02:17,360 --> 00:02:19,520
+since the basic structure of a christmas
+
+61
+00:02:19,520 --> 00:02:21,599
+tree is fixed and not part of our
+
+62
+00:02:21,599 --> 00:02:23,760
+solution space the diagram shows the
+
+63
+00:02:23,760 --> 00:02:25,680
+definition of the elements in the block
+
+64
+00:02:25,680 --> 00:02:28,400
+definition diagram our mbse podcast
+
+65
+00:02:28,400 --> 00:02:31,120
+christmas tree abbreviated tmpct
+
+66
+00:02:31,120 --> 00:02:32,720
+base architecture includes a
+
+67
+00:02:32,720 --> 00:02:34,959
+transportation net a tree with a trunk
+
+68
+00:02:34,959 --> 00:02:37,840
+and branches a christmas tree star fairy
+
+69
+00:02:37,840 --> 00:02:40,160
+lights a stand and a transportation
+
+70
+00:02:40,160 --> 00:02:41,120
+package
+
+71
+00:02:41,120 --> 00:02:43,760
+system a modeling tools allows us to use
+
+72
+00:02:43,760 --> 00:02:45,920
+images instead of system shapes this
+
+73
+00:02:45,920 --> 00:02:49,200
+makes it more illustrative
+
+74
+00:02:49,200 --> 00:02:51,440
+the base architecture also leads to a
+
+75
+00:02:51,440 --> 00:02:53,680
+base system context which we define in
+
+76
+00:02:53,680 --> 00:02:56,319
+the following block definition diagram
+
+77
+00:02:56,319 --> 00:02:59,440
+external actors are the floor in a room
+
+78
+00:02:59,440 --> 00:03:01,280
+of course santa claus
+
+79
+00:03:01,280 --> 00:03:04,159
+the owner of the tree eventual children
+
+80
+00:03:04,159 --> 00:03:06,560
+a power supply the planet environment
+
+81
+00:03:06,560 --> 00:03:09,040
+for sustainability considerations and
+
+82
+00:03:09,040 --> 00:03:13,680
+the tmpct base architecture itself
+
+83
+00:03:14,319 --> 00:03:16,560
+depicted in an internal block diagram
+
+84
+00:03:16,560 --> 00:03:18,720
+shows the typical figure of a system
+
+85
+00:03:18,720 --> 00:03:20,800
+context diagram here
+
+86
+00:03:20,800 --> 00:03:23,040
+it is the context of our base
+
+87
+00:03:23,040 --> 00:03:25,680
+architecture
+
+88
+00:03:25,920 --> 00:03:28,000
+we left out most of the connections
+
+89
+00:03:28,000 --> 00:03:30,319
+inside our christmas tree they will be
+
+90
+00:03:30,319 --> 00:03:31,840
+defined later in the physical
+
+91
+00:03:31,840 --> 00:03:33,920
+architecture of our system
+
+92
+00:03:33,920 --> 00:03:36,560
+when we look at those we also see how
+
+93
+00:03:36,560 --> 00:03:38,159
+the relationship to the base
+
+94
+00:03:38,159 --> 00:03:40,400
+architecture can be modeled we will
+
+95
+00:03:40,400 --> 00:03:42,720
+explain the concept of ports connectors
+
+96
+00:03:42,720 --> 00:03:44,840
+and part properties in later
+
+97
+00:03:44,840 --> 00:03:47,200
+sessions when we consider the system
+
+98
+00:03:47,200 --> 00:03:49,200
+context we will cover how the system
+
+99
+00:03:49,200 --> 00:03:50,799
+context is related to the base
+
+100
+00:03:50,799 --> 00:03:53,840
+architecture context
+
+101
+00:03:56,959 --> 00:03:59,439
+so what was the surprise behind this
+
+102
+00:03:59,439 --> 00:04:00,480
+door
+
+103
+00:04:00,480 --> 00:04:02,799
+it's the base architecture itself that
+
+104
+00:04:02,799 --> 00:04:04,560
+makes it special
+
+105
+00:04:04,560 --> 00:04:06,640
+it's always there but is often
+
+106
+00:04:06,640 --> 00:04:08,959
+carelessly documented the blurring
+
+107
+00:04:08,959 --> 00:04:10,640
+between the problem space and the
+
+108
+00:04:10,640 --> 00:04:12,959
+solution space as well as implicit
+
+109
+00:04:12,959 --> 00:04:14,799
+assemb assumptions
+
+110
+00:04:14,799 --> 00:04:17,440
+leads to many potential problems in
+
+111
+00:04:17,440 --> 00:04:20,079
+development projects
+
+112
+00:04:20,079 --> 00:04:22,240
+so much for the fourth daw of our mbse
+
+113
+00:04:22,240 --> 00:04:24,320
+podcast advent calendar and we wish you
+
+114
+00:04:24,320 --> 00:04:26,960
+a great 4th of december
+
+115
+00:04:26,960 --> 00:04:31,280
+goodbye bye bye
+
