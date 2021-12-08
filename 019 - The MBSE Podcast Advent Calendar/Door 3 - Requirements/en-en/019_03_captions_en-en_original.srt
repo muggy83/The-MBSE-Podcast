@@ -1,0 +1,308 @@
+1
+00:00:00,640 --> 00:00:02,000
+hello
+
+2
+00:00:02,000 --> 00:00:04,000
+behind the third door of our mbse
+
+3
+00:00:04,000 --> 00:00:06,319
+podcast advent calendar we take a quick
+
+4
+00:00:06,319 --> 00:00:09,440
+look at requirements modeling
+
+5
+00:00:09,440 --> 00:00:11,280
+there is and has been a lot to say about
+
+6
+00:00:11,280 --> 00:00:13,040
+requirements modelling we will limit
+
+7
+00:00:13,040 --> 00:00:15,599
+ourselves to one special feature which
+
+8
+00:00:15,599 --> 00:00:17,600
+is also the learning gift of today the
+
+9
+00:00:17,600 --> 00:00:19,920
+reuse of requirements
+
+10
+00:00:19,920 --> 00:00:21,920
+this is a bit unusual but is supported
+
+11
+00:00:21,920 --> 00:00:23,760
+by system l with a special relationship
+
+12
+00:00:23,760 --> 00:00:25,760
+and the relationship is not yet used
+
+13
+00:00:25,760 --> 00:00:28,160
+that often
+
+14
+00:00:28,160 --> 00:00:30,320
+in the christmas tree business there is
+
+15
+00:00:30,320 --> 00:00:32,558
+the important international christmas
+
+16
+00:00:32,558 --> 00:00:36,399
+tree standard abbreviated ics
+
+17
+00:00:36,399 --> 00:00:39,079
+the specific ics
+
+18
+00:00:39,079 --> 00:00:41,840
+2425-26-12 standard contains a list of
+
+19
+00:00:41,840 --> 00:00:44,160
+requirements for christmas trees we
+
+20
+00:00:44,160 --> 00:00:47,039
+import the standard to our model as a
+
+21
+00:00:47,039 --> 00:00:49,039
+model library
+
+22
+00:00:49,039 --> 00:00:53,039
+so let's have a look at our model
+
+23
+00:00:54,480 --> 00:00:56,399
+as an example the following table
+
+24
+00:00:56,399 --> 00:00:57,680
+contains
+
+25
+00:00:57,680 --> 00:01:00,480
+three of the christmas tree standards in
+
+26
+00:01:00,480 --> 00:01:03,440
+our library
+
+27
+00:01:03,760 --> 00:01:06,000
+so it's here in the library package and
+
+28
+00:01:06,000 --> 00:01:09,760
+here is the table
+
+29
+00:01:10,799 --> 00:01:12,880
+and they are for example
+
+30
+00:01:12,880 --> 00:01:14,640
+the tree shape now the shape of the tree
+
+31
+00:01:14,640 --> 00:01:16,960
+shall be complied with the ics standard
+
+32
+00:01:16,960 --> 00:01:18,720
+the three kinds the tree shall be a
+
+33
+00:01:18,720 --> 00:01:21,439
+third tree and the tree height the tree
+
+34
+00:01:21,439 --> 00:01:23,920
+shall be at least 150 centimeters and
+
+35
+00:01:23,920 --> 00:01:26,960
+maximum 200 centimeter high
+
+36
+00:01:26,960 --> 00:01:29,360
+our mbse podcast christmas tree project
+
+37
+00:01:29,360 --> 00:01:30,880
+would like to use exactly these
+
+38
+00:01:30,880 --> 00:01:32,799
+requirements from the library
+
+39
+00:01:32,799 --> 00:01:34,320
+however we would like to have a
+
+40
+00:01:34,320 --> 00:01:36,400
+different numbering schema and also add
+
+41
+00:01:36,400 --> 00:01:38,840
+additional properties like obligation
+
+42
+00:01:38,840 --> 00:01:42,320
+priority or the stakeholder
+
+43
+00:01:42,320 --> 00:01:44,399
+therefore we use the system a copy
+
+44
+00:01:44,399 --> 00:01:46,640
+relationship to create copies of the
+
+45
+00:01:46,640 --> 00:01:50,399
+requirements in our model
+
+46
+00:01:50,399 --> 00:01:52,640
+we have here an example for the tree
+
+47
+00:01:52,640 --> 00:01:54,079
+which is located in the base
+
+48
+00:01:54,079 --> 00:01:55,520
+architecture
+
+49
+00:01:55,520 --> 00:01:57,759
+there's the tree and the requirement of
+
+50
+00:01:57,759 --> 00:02:00,240
+the tree and here is our
+
+51
+00:02:00,240 --> 00:02:02,719
+diagram
+
+52
+00:02:02,719 --> 00:02:05,439
+the requirement height of the tree is a
+
+53
+00:02:05,439 --> 00:02:07,600
+copy of the standard requirement tree
+
+54
+00:02:07,600 --> 00:02:08,959
+height
+
+55
+00:02:08,959 --> 00:02:11,440
+the relationship assures that the text
+
+56
+00:02:11,440 --> 00:02:13,120
+of the copied requirement is always
+
+57
+00:02:13,120 --> 00:02:14,959
+identical to the master
+
+58
+00:02:14,959 --> 00:02:18,959
+all other properties can be different
+
+59
+00:02:18,959 --> 00:02:21,040
+the following table shows some of our
+
+60
+00:02:21,040 --> 00:02:24,160
+mbse podcast christmas tree requirements
+
+61
+00:02:24,160 --> 00:02:25,760
+with the properties
+
+62
+00:02:25,760 --> 00:02:28,640
+id name text obligation priority
+
+63
+00:02:28,640 --> 00:02:31,200
+stakeholder and the master of the
+
+64
+00:02:31,200 --> 00:02:33,840
+requirement if it is a copy
+
+65
+00:02:33,840 --> 00:02:37,280
+so let's open the table it's here in the
+
+66
+00:02:37,280 --> 00:02:40,400
+requirements package
+
+67
+00:02:40,400 --> 00:02:45,360
+system requirements and here's the table
+
+68
+00:02:46,000 --> 00:02:47,440
+the requirements are in different
+
+69
+00:02:47,440 --> 00:02:49,519
+packages of the model some of them are
+
+70
+00:02:49,519 --> 00:02:51,519
+located in the package structure of the
+
+71
+00:02:51,519 --> 00:02:54,640
+related component for example here those
+
+72
+00:02:54,640 --> 00:02:57,280
+for the tree
+
+73
+00:02:57,519 --> 00:02:59,840
+so much for the third door of our mbse
+
+74
+00:02:59,840 --> 00:03:02,000
+podcast advent calendar and we wish you
+
+75
+00:03:02,000 --> 00:03:04,720
+a great third of december
+
+76
+00:03:04,720 --> 00:03:06,159
+goodbye
+
+77
+00:03:06,159 --> 00:03:09,159
+bye
+
