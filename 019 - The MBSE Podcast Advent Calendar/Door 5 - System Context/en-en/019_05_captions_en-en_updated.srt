@@ -1,0 +1,253 @@
+1
+00:00:00,960 --> 00:00:02,240
+Hello
+
+2
+00:00:02,240 --> 00:00:05,612
+Behind the 5th door of our MBSE
+Podcast Advent Calendar
+
+3
+00:00:05,612 --> 00:00:08,750
+we take a look at the System Context
+
+4
+00:00:08,960 --> 00:00:11,699
+We already defined a context
+for the Base Architecture
+
+5
+00:00:11,699 --> 00:00:14,639
+behind door number 4
+our advent calendar
+
+6
+00:00:14,639 --> 00:00:19,600
+The Base Architecture Context constrains
+the context of our system of interest
+
+7
+00:00:19,600 --> 00:00:22,490
+We model it by defining
+a generalization relationship
+
+8
+00:00:22,490 --> 00:00:25,820
+from the System Context to
+the Base Architecture Context
+
+9
+00:00:25,820 --> 00:00:28,099
+Let's check that out in the model
+
+10
+00:00:30,960 --> 00:00:35,482
+You can see that the part property
+the "MBSE Podcast Christmas Tree"
+
+11
+00:00:35,482 --> 00:00:39,600
+is a redefinition of the inherited
+system based property
+
+12
+00:00:39,600 --> 00:00:44,350
+Base TMPCT from
+the Base Architecture Context
+
+13
+00:00:44,800 --> 00:00:48,781
+In addition to the inherited actors from
+the Base Architecture Context
+
+14
+00:00:48,781 --> 00:00:56,629
+the "TMPCT System Context" has an
+additional actor "Christmas Tree Seller"
+
+15
+00:00:57,680 --> 00:01:01,330
+The System Context elements
+are SysML blocks
+
+16
+00:01:01,330 --> 00:01:05,760
+with applied stereotype "systemContext"
+from the SYSMOD profile
+
+17
+00:01:05,760 --> 00:01:07,609
+It is just a marker profile
+
+18
+00:01:07,609 --> 00:01:14,040
+that introduces a new name and additional
+semantics but no new properties
+
+19
+00:01:14,400 --> 00:01:17,030
+The internal block diagram of
+the System Context element
+
+20
+00:01:17,030 --> 00:01:21,720
+depicts the well-known
+system context diagram
+
+21
+00:01:23,920 --> 00:01:27,494
+The inherited elements from the
+Base Architecture Contexts
+
+22
+00:01:27,494 --> 00:01:33,119
+have a circumflex prefix symbol
+this little roof before the name
+
+23
+00:01:33,119 --> 00:01:38,880
+and in our System Context all actors
+are inherited except the "seller"
+
+24
+00:01:38,880 --> 00:01:41,359
+like Tim explained before
+
+25
+00:01:41,759 --> 00:01:44,735
+SysML provides only the
+general concept of an actor
+
+26
+00:01:44,735 --> 00:01:47,200
+it is useful to define
+different actor kinds
+
+27
+00:01:47,200 --> 00:01:50,399
+to emphasize the different
+methodological approaches
+
+28
+00:01:50,399 --> 00:01:54,399
+At least you should differentiate
+between humans and non-humans
+
+29
+00:01:54,399 --> 00:01:58,240
+In the shown context diagram
+you can see four different actor kinds
+
+30
+00:01:58,240 --> 00:02:02,079
+human users for the system
+for example, the "santa Claus"
+
+31
+00:02:02,079 --> 00:02:04,478
+external systems for example
+the "power Supply"
+
+32
+00:02:04,478 --> 00:02:08,403
+a mechanical system is a special
+kind of an external system
+
+33
+00:02:08,403 --> 00:02:11,458
+that has only mechanical
+interactions with the system here
+
+34
+00:02:11,458 --> 00:02:14,319
+It is the "floor" of our "room"
+
+35
+00:02:14,319 --> 00:02:20,529
+And the "planet Environment" to consider
+the impact of the system on the planet
+
+36
+00:02:20,959 --> 00:02:24,319
+All actors have some kind of
+interaction with the system
+
+37
+00:02:24,319 --> 00:02:28,680
+And you could specify
+the interaction point by ports
+
+38
+00:02:29,040 --> 00:02:32,879
+And here, we have the little
+surprising learning in this episode
+
+39
+00:02:32,879 --> 00:02:38,000
+Stakeholders are not in the context or
+only when they interact with the system
+
+40
+00:02:38,000 --> 00:02:39,920
+For example
+
+41
+00:02:39,920 --> 00:02:45,280
+We MBSE Podcast hosts are
+stakeholders of the system
+
+42
+00:02:45,280 --> 00:02:47,046
+But we are not actors
+
+43
+00:02:47,046 --> 00:02:53,327
+of course as people we could take on
+the role of user of the Christmas tree
+
+44
+00:02:53,327 --> 00:02:57,280
+But the MBSE Podcast
+host role is not an actor
+
+45
+00:02:57,280 --> 00:03:03,670
+and thus the system does not provide any
+special interfaces or functions for us
+
+46
+00:03:04,080 --> 00:03:07,599
+Vice versa, all actors are
+stakeholders of the system
+
+47
+00:03:07,599 --> 00:03:11,760
+Sometimes they are not directly
+stakeholders but representatives
+
+48
+00:03:11,760 --> 00:03:15,369
+For example, things like the
+"floor" are not a stakeholder
+
+49
+00:03:15,369 --> 00:03:18,739
+But the owner of the "floor"
+is the stakeholder
+
+50
+00:03:19,599 --> 00:03:23,330
+So much for the 5th door of our
+MBSE Podcast Advent Calendar
+
+51
+00:03:23,330 --> 00:03:26,290
+We wish you a great 5th of December
+
+52
+00:03:26,480 --> 00:03:27,599
+Goodbye
+
+53
+00:03:27,829 --> 00:03:28,749
+Bye-bye
