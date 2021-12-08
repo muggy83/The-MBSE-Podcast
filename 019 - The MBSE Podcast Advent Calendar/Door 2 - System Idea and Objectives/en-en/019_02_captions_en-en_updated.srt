@@ -1,0 +1,284 @@
+1
+00:00:00,810 --> 00:00:04,393
+Hello, behind the 2nd door of our
+MBSE Podcast Advent Calendar
+
+2
+00:00:04,393 --> 00:00:07,780
+We describe the System Idea
+and the System Goals
+
+3
+00:00:08,210 --> 00:00:11,939
+The System Idea is the elevator pitch
+of the system of interest
+
+4
+00:00:11,939 --> 00:00:14,978
+It briefly and crisply describes
+what a system is
+
+5
+00:00:14,978 --> 00:00:17,889
+with special focus on
+what makes it special
+
+6
+00:00:18,430 --> 00:00:21,630
+It is a text and provided
+the graphics if needed
+
+7
+00:00:21,630 --> 00:00:23,780
+Let's look at it in the model
+
+8
+00:00:28,020 --> 00:00:33,030
+The SysML language does not know
+the concept of System Idea
+
+9
+00:00:33,030 --> 00:00:36,510
+Interesting, SysML does not know
+the concept of System either
+
+10
+00:00:36,510 --> 00:00:40,380
+although it's a systems modeling language
+
+11
+00:00:40,850 --> 00:00:42,779
+You can teach the language new concepts
+
+12
+00:00:42,779 --> 00:00:46,689
+We have the profiles
+and stereotypes about this
+
+13
+00:00:46,689 --> 00:00:48,676
+Behind what are the following doors
+
+14
+00:00:48,676 --> 00:00:51,723
+there will be the exposit
+explanation about this as well
+
+15
+00:00:52,610 --> 00:00:58,399
+Here in a nutshell, SYSMOD introduces
+the concept of a system by a stereotype
+
+16
+00:00:58,399 --> 00:01:00,869
+specialized from the block
+
+17
+00:01:00,869 --> 00:01:04,929
+And you can define the System
+Idea as a property of it
+
+18
+00:01:05,442 --> 00:01:08,390
+In the model, it can then
+be represented like this
+
+19
+00:01:08,390 --> 00:01:12,520
+It is a too specific property
+that the texts can be formatted
+
+20
+00:01:12,520 --> 00:01:15,830
+If graphics are a part of
+the System Idea, they are all friends
+
+21
+00:01:17,170 --> 00:01:20,019
+The System Idea of
+the Christmas tree is as follows
+
+22
+00:01:20,019 --> 00:01:24,159
+"The Christmas tree is the symbolic
+centre of the Christmas celebration"
+
+23
+00:01:24,159 --> 00:01:26,950
+and delights people
+especially children
+
+24
+00:01:26,950 --> 00:01:30,980
+"The Christmas tree branches prevent
+evil spirits from entering the house
+
+25
+00:01:30,980 --> 00:01:33,810
+and give hope for the next spring"
+
+26
+00:01:34,220 --> 00:01:38,920
+The System Objectives are also a concept
+that SysML does not recognize
+
+27
+00:01:38,920 --> 00:01:43,710
+SYSMOD again uses the stereotype
+to include it to the language
+
+28
+00:01:43,710 --> 00:01:48,054
+The System Objective is a special
+form of a SysML Requirement
+
+29
+00:01:49,399 --> 00:01:54,179
+The following requirements diagram shows
+the objectives of our Christmas tree
+
+30
+00:01:54,179 --> 00:01:59,240
+We have an upper-level
+summarizing objective "OBJ0"
+
+31
+00:01:59,240 --> 00:02:03,880
+which summarizes all the
+"MBSE Christmas Tree Objectives"
+
+32
+00:02:03,880 --> 00:02:09,610
+And we have different objectives like
+having the "Best Christmas Tree"
+
+33
+00:02:09,610 --> 00:02:14,658
+the "Number of Gifts"
+"Zero Footprint" on the environment
+
+34
+00:02:14,658 --> 00:02:21,365
+and we all trace it back
+to the "MBSE Podcast"
+
+35
+00:02:22,550 --> 00:02:27,660
+The diagram topology of the
+elements doesn't include much yet
+
+36
+00:02:27,660 --> 00:02:32,680
+So, it is a good practice instead to
+manage the model information in tables
+
+37
+00:02:32,680 --> 00:02:34,540
+In this stage a lot of modeling efforts
+
+38
+00:02:34,540 --> 00:02:38,380
+In addition, today's modeling tools'
+tables are usually more furious
+
+39
+00:02:38,380 --> 00:02:41,370
+that means they show all
+elements in the model
+
+40
+00:02:41,370 --> 00:02:42,680
+In the diagram
+
+41
+00:02:42,680 --> 00:02:46,450
+there are only the elements that
+a modeler has placed manually on it
+
+42
+00:02:47,800 --> 00:02:52,260
+If needed, the diagram can be created
+quickly easily for a workshop
+
+43
+00:02:52,580 --> 00:02:57,400
+You may have noticed the stakeholder
+
+44
+00:02:57,400 --> 00:03:00,450
+System Objectives just have a
+relationship to the stakeholders
+
+45
+00:03:00,450 --> 00:03:02,279
+who are responsible for the goal
+
+46
+00:03:02,279 --> 00:03:08,316
+Here, it is the Podcast hosts
+Christian and me
+
+47
+00:03:08,316 --> 00:03:12,325
+And as we are responsible for
+the overall of the system
+
+48
+00:03:13,332 --> 00:03:16,833
+SysML knows the concept of a stakeholder
+
+49
+00:03:16,833 --> 00:03:21,780
+And SYSMOD never the less defines
+the stereotype "extendedStakeholder"
+
+50
+00:03:21,780 --> 00:03:28,150
+to extend special properties like
+a contract or a priority
+
+51
+00:03:29,010 --> 00:03:31,830
+Since the stakeholders are also
+related to the requirements
+
+52
+00:03:31,830 --> 00:03:34,519
+they are also belong there
+
+53
+00:03:34,519 --> 00:03:37,198
+They are stored in the
+requirement package in the model
+
+54
+00:03:37,198 --> 00:03:42,440
+You could represent them in the diagram
+as much more practical tabular form
+
+55
+00:03:43,565 --> 00:03:47,210
+The table does not show all properties
+of the stakeholders in this case
+
+56
+00:03:47,210 --> 00:03:54,190
+but only the name, documentation
+the contact information, and a priority
+
+57
+00:03:56,800 --> 00:04:00,327
+So much for the 2nd door of
+our MBSE Podcast Advent Calendar
+
+58
+00:04:00,327 --> 00:04:02,683
+And we wish you a great 2nd of December
+
+59
+00:04:02,997 --> 00:04:03,997
+Goodbye
+
+60
+00:04:04,707 --> 00:04:05,630
+Bye-bye
