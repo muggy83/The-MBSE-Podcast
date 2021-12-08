@@ -1,0 +1,200 @@
+1
+00:00:00,960 --> 00:00:04,602
+Welcome behind the 6th door of
+our MBSE Podcast Advent Calendar
+
+2
+00:00:04,602 --> 00:00:07,790
+We take a look at the System Use Cases
+
+3
+00:00:08,000 --> 00:00:10,373
+There are a lot of methods for
+modeling use cases
+
+4
+00:00:10,373 --> 00:00:14,610
+published in many books papers
+and other publications
+
+5
+00:00:14,880 --> 00:00:18,170
+We present a very simple method
+and avoid use case relationships
+
+6
+00:00:18,170 --> 00:00:20,929
+such as include, extend
+or generalization
+
+7
+00:00:20,929 --> 00:00:23,059
+between the use cases
+
+8
+00:00:23,409 --> 00:00:27,249
+The use cases here are simply a list
+of the functions of the system
+
+9
+00:00:27,249 --> 00:00:32,960
+in which actors are involved and which
+create value for an actor or stakeholder
+
+10
+00:00:32,960 --> 00:00:34,830
+So, let's have a look in the model
+
+11
+00:00:40,640 --> 00:00:45,108
+Some of our use cases of the
+"MBSE Podcast Christmas Tree"
+
+12
+00:00:45,108 --> 00:00:49,999
+are depicted in the use case diagram
+with the associated actors
+
+13
+00:00:50,399 --> 00:00:53,600
+There are a few special
+features in the modeling
+
+14
+00:00:53,600 --> 00:00:57,659
+The actor "Carrier" of the use case
+"Transport Christmas tree"
+
+15
+00:00:57,659 --> 00:01:02,160
+is a generalization of the actor's
+"Christmas Tree Seller" and "Owner"
+
+16
+00:01:02,160 --> 00:01:04,120
+It is an XOR condition
+
+17
+00:01:04,120 --> 00:01:10,400
+So, the use case has only one actor which
+could be either the "Seller" or an "Owner"
+
+18
+00:01:10,400 --> 00:01:15,680
+The association end at the "Child" actor
+has a multiplicity zero to many
+
+19
+00:01:15,680 --> 00:01:18,080
+which means that Children are optional
+
+20
+00:01:18,080 --> 00:01:19,520
+But they could be
+
+21
+00:01:19,520 --> 00:01:21,520
+there could be many of them
+
+22
+00:01:21,520 --> 00:01:24,780
+who are enjoying the Christmas tree
+
+23
+00:01:25,040 --> 00:01:27,920
+Although use case diagrams
+are very common
+
+24
+00:01:27,920 --> 00:01:32,270
+They just show more or less only
+a graphical list of use cases
+
+25
+00:01:32,270 --> 00:01:39,390
+you can depict the same information
+in a table plus more properties
+
+26
+00:01:40,720 --> 00:01:43,729
+The table shows also documentation
+of the use case
+
+27
+00:01:43,729 --> 00:01:45,369
+as well as additional properties
+
+28
+00:01:45,369 --> 00:01:49,119
+introduced by the SYSMOD
+stereotype "systemUseCase"
+
+29
+00:01:49,119 --> 00:01:52,320
+for the trigger and
+the result of the use case
+
+30
+00:01:52,320 --> 00:01:54,399
+The trigger signal property stores a
+
+31
+00:01:54,399 --> 00:01:58,640
+signal to formalize the trigger
+when the use case is executed
+
+32
+00:01:58,640 --> 00:02:01,990
+You will meet it again when
+we talk about state machines
+
+33
+00:02:02,320 --> 00:02:04,740
+And that's the learning surprise
+behind the store
+
+34
+00:02:04,740 --> 00:02:08,400
+Tables are valid use of
+SysML model elements
+
+35
+00:02:08,400 --> 00:02:12,239
+And they can be much more
+convenient than a diagram
+
+36
+00:02:12,239 --> 00:02:14,483
+You do not have the layout effort
+
+37
+00:02:14,483 --> 00:02:16,446
+And depending on the tool
+
+38
+00:02:16,446 --> 00:02:20,239
+tables are typically queries
+and always up to date
+
+39
+00:02:20,239 --> 00:02:24,180
+Use the tables for the daily
+engineering work and diagrams
+
+40
+00:02:24,180 --> 00:02:28,510
+for workshops presentations
+or eventually documents
+
+41
+00:02:30,480 --> 00:02:35,360
+So much for the 6th door of the
+MBSE Podcast Advent Calendar
+
+42
+00:02:35,360 --> 00:02:38,560
+We wish you a great 6th of December
+
+43
+00:02:38,730 --> 00:02:39,540
+Goodbye

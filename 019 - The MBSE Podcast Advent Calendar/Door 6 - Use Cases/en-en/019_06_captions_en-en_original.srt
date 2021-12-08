@@ -1,0 +1,260 @@
+1
+00:00:00,960 --> 00:00:03,280
+welcome behind the six store of our mbse
+
+2
+00:00:03,280 --> 00:00:05,440
+podcast advent calendar we take a look
+
+3
+00:00:05,440 --> 00:00:08,000
+at the system use cases
+
+4
+00:00:08,000 --> 00:00:09,679
+there are a lot of methods for modeling
+
+5
+00:00:09,679 --> 00:00:12,240
+use cases published in many books papers
+
+6
+00:00:12,240 --> 00:00:14,880
+and other publications
+
+7
+00:00:14,880 --> 00:00:16,880
+we present a very simple method and
+
+8
+00:00:16,880 --> 00:00:18,800
+avoid use case relationships such as
+
+9
+00:00:18,800 --> 00:00:21,039
+include extend or generalization between
+
+10
+00:00:21,039 --> 00:00:23,439
+the use cases
+
+11
+00:00:23,439 --> 00:00:25,599
+the use cases here are simply a list of
+
+12
+00:00:25,599 --> 00:00:27,760
+the functions of the system in which
+
+13
+00:00:27,760 --> 00:00:30,320
+actors are involved and which create
+
+14
+00:00:30,320 --> 00:00:32,960
+value for an actor or stakeholder
+
+15
+00:00:32,960 --> 00:00:36,880
+so let's have a look in the model
+
+16
+00:00:40,640 --> 00:00:44,000
+some of our use cases of the mbse
+
+17
+00:00:44,000 --> 00:00:45,840
+podcast christmas tree are depicted in
+
+18
+00:00:45,840 --> 00:00:48,399
+the use case diagram with the associated
+
+19
+00:00:48,399 --> 00:00:50,399
+actors
+
+20
+00:00:50,399 --> 00:00:52,160
+there are a few special features in the
+
+21
+00:00:52,160 --> 00:00:53,600
+modeling
+
+22
+00:00:53,600 --> 00:00:56,399
+the actor carrier of the use case
+
+23
+00:00:56,399 --> 00:00:58,079
+transport christmas tree is a
+
+24
+00:00:58,079 --> 00:01:00,079
+generalization of the actor's christmas
+
+25
+00:01:00,079 --> 00:01:02,160
+tree seller and owner
+
+26
+00:01:02,160 --> 00:01:05,360
+it is an xor condition so the use case
+
+27
+00:01:05,360 --> 00:01:07,760
+has only one actor which could be either
+
+28
+00:01:07,760 --> 00:01:10,400
+the seller or an owner
+
+29
+00:01:10,400 --> 00:01:13,200
+the association end at the child actor
+
+30
+00:01:13,200 --> 00:01:15,680
+has a multiplicity zero to many
+
+31
+00:01:15,680 --> 00:01:18,080
+which means that children are optional
+
+32
+00:01:18,080 --> 00:01:19,520
+but they could be
+
+33
+00:01:19,520 --> 00:01:21,520
+there could be many of them
+
+34
+00:01:21,520 --> 00:01:25,040
+who are enjoying the christmas tree
+
+35
+00:01:25,040 --> 00:01:26,880
+although use case diagrams are very
+
+36
+00:01:26,880 --> 00:01:27,920
+common
+
+37
+00:01:27,920 --> 00:01:30,320
+they just show more or less only a
+
+38
+00:01:30,320 --> 00:01:32,720
+graphical list of use cases you can
+
+39
+00:01:32,720 --> 00:01:35,680
+depict the same information in a table
+
+40
+00:01:35,680 --> 00:01:39,640
+plus more properties
+
+41
+00:01:40,720 --> 00:01:42,799
+the table shows also documentation of
+
+42
+00:01:42,799 --> 00:01:44,560
+the use case as well as additional
+
+43
+00:01:44,560 --> 00:01:46,479
+properties introduced by the sysmod
+
+44
+00:01:46,479 --> 00:01:49,119
+stereotype system use case
+
+45
+00:01:49,119 --> 00:01:51,040
+for the trigger and the result of the
+
+46
+00:01:51,040 --> 00:01:52,320
+use case
+
+47
+00:01:52,320 --> 00:01:54,399
+the trigger signal property stores a
+
+48
+00:01:54,399 --> 00:01:56,719
+signal to formalize the trigger when the
+
+49
+00:01:56,719 --> 00:01:58,640
+use case is executed
+
+50
+00:01:58,640 --> 00:02:00,159
+you will meet it again when we talk
+
+51
+00:02:00,159 --> 00:02:02,320
+about state machines
+
+52
+00:02:02,320 --> 00:02:04,000
+and that's the learning surprise behind
+
+53
+00:02:04,000 --> 00:02:07,280
+the store tables are valid use of system
+
+54
+00:02:07,280 --> 00:02:09,919
+model elements and they can be much more
+
+55
+00:02:09,919 --> 00:02:12,239
+convenient than a diagram
+
+56
+00:02:12,239 --> 00:02:14,879
+you do not have the layout effort and
+
+57
+00:02:14,879 --> 00:02:16,959
+depending on the tool tables are
+
+58
+00:02:16,959 --> 00:02:20,239
+typically queries and always up to date
+
+59
+00:02:20,239 --> 00:02:22,640
+use the tables for the daily engineering
+
+60
+00:02:22,640 --> 00:02:24,720
+work and diagrams for workshops
+
+61
+00:02:24,720 --> 00:02:29,440
+presentations or eventually documents
+
+62
+00:02:30,480 --> 00:02:33,120
+so much for the sixth door of the mbse
+
+63
+00:02:33,120 --> 00:02:35,360
+podcast advent calendar
+
+64
+00:02:35,360 --> 00:02:38,560
+we wish you a great 6th of december
+
+65
+00:02:38,560 --> 00:02:41,560
+goodbye
+
