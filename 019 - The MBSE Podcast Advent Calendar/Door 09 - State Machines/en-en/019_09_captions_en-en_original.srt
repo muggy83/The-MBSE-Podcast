@@ -1,0 +1,180 @@
+1
+00:00:01,199 --> 00:00:03,919
+welcome to the ninth door of the mbse
+
+2
+00:00:03,919 --> 00:00:06,000
+podcast advent calendar
+
+3
+00:00:06,000 --> 00:00:08,080
+this time we take a look at the state
+
+4
+00:00:08,080 --> 00:00:09,920
+machines
+
+5
+00:00:09,920 --> 00:00:12,320
+here we use a state machine to specify
+
+6
+00:00:12,320 --> 00:00:15,120
+the top level states of our system
+
+7
+00:00:15,120 --> 00:00:16,800
+and with that the pre and post
+
+8
+00:00:16,800 --> 00:00:19,600
+conditions of the use cases this state
+
+9
+00:00:19,600 --> 00:00:21,840
+machine is owned by the system element
+
+10
+00:00:21,840 --> 00:00:25,840
+so let's look at it in the model
+
+11
+00:00:26,800 --> 00:00:28,800
+the state machine considers four states
+
+12
+00:00:28,800 --> 00:00:31,599
+of the christmas tree which are packed
+
+13
+00:00:31,599 --> 00:00:36,480
+ready to use operation and disposed
+
+14
+00:00:36,480 --> 00:00:38,480
+do you remember the triggers of our use
+
+15
+00:00:38,480 --> 00:00:39,520
+cases
+
+16
+00:00:39,520 --> 00:00:42,239
+we specified a textual trigger as well
+
+17
+00:00:42,239 --> 00:00:44,399
+as a formal signal model element for the
+
+18
+00:00:44,399 --> 00:00:45,520
+trigger
+
+19
+00:00:45,520 --> 00:00:48,719
+the use case trigger signals triggers
+
+20
+00:00:48,719 --> 00:00:52,879
+the transitions in our state machine
+
+21
+00:00:52,960 --> 00:00:55,360
+the use case activities are the effect
+
+22
+00:00:55,360 --> 00:00:57,760
+of the transitions or internal behaviors
+
+23
+00:00:57,760 --> 00:00:59,440
+of the states
+
+24
+00:00:59,440 --> 00:01:01,840
+the special learning surprise you cannot
+
+25
+00:01:01,840 --> 00:01:04,239
+directly set the use case activity on a
+
+26
+00:01:04,239 --> 00:01:06,560
+transition or a state because they must
+
+27
+00:01:06,560 --> 00:01:09,280
+own the activity however the use case
+
+28
+00:01:09,280 --> 00:01:11,600
+activity is already owned by the use
+
+29
+00:01:11,600 --> 00:01:13,200
+case
+
+30
+00:01:13,200 --> 00:01:16,080
+the trick is to define an activity with
+
+31
+00:01:16,080 --> 00:01:18,000
+a single call behavior action which
+
+32
+00:01:18,000 --> 00:01:20,720
+calls the use case activity
+
+33
+00:01:20,720 --> 00:01:22,479
+for example the effect of the do
+
+34
+00:01:22,479 --> 00:01:25,520
+behavior of the operation state
+
+35
+00:01:25,520 --> 00:01:28,240
+we find that in this region
+
+36
+00:01:28,240 --> 00:01:30,320
+there's the operation state and inside
+
+37
+00:01:30,320 --> 00:01:32,000
+the operation state
+
+38
+00:01:32,000 --> 00:01:35,360
+is the activity
+
+39
+00:01:36,560 --> 00:01:38,799
+the activity does not need an initial or
+
+40
+00:01:38,799 --> 00:01:40,960
+final note it is sufficient to just
+
+41
+00:01:40,960 --> 00:01:44,399
+model the call behavior action
+
+42
+00:01:44,479 --> 00:01:46,479
+so much for the ninth store of our mdse
+
+43
+00:01:46,479 --> 00:01:48,399
+podcast i met calendar and we wish you a
+
+44
+00:01:48,399 --> 00:01:50,399
+great night for december
+
+45
+00:01:50,399 --> 00:01:53,799
+bye-bye goodbye
+
