@@ -2510,7 +2510,7 @@ architectural framework
 543
 00:30:14,287 --> 00:30:18,626
 So that, the MODAFs, the DoDAFs,
-the ZINDAFs, the NAFs, and so on
+the DNDAFs, the NAFs, and so on
 
 544
 00:30:18,626 --> 00:30:22,053
