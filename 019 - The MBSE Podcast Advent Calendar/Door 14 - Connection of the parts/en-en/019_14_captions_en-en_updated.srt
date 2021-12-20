@@ -1,0 +1,123 @@
+1
+00:00:01,199 --> 00:00:02,399
+Welcome
+
+2
+00:00:02,399 --> 00:00:05,721
+Behind the 14th door of our
+MBSE Podcast Advent Calendar
+
+3
+00:00:05,721 --> 00:00:09,049
+We take a look again on
+the Physical Architecture
+
+4
+00:00:09,599 --> 00:00:12,932
+Yesterday we worked on the definition
+of the Physical Architecture
+
+5
+00:00:12,932 --> 00:00:16,880
+and the allocation of the elements
+from the functional architecture
+
+6
+00:00:16,880 --> 00:00:20,130
+Let's have a look at it again in the model
+
+7
+00:00:22,720 --> 00:00:28,430
+Today we will cover the internal
+structure of the Physical Architecture
+
+8
+00:00:31,519 --> 00:00:35,141
+The internal block diagram shows
+all parts and connections
+
+9
+00:00:35,141 --> 00:00:37,440
+of our Physical Architecture
+
+10
+00:00:37,440 --> 00:00:39,305
+It's somewhat simplified here
+
+11
+00:00:39,305 --> 00:00:42,960
+and we have not explicitly
+modeled all of the ports
+
+12
+00:00:42,960 --> 00:00:46,406
+as a reminder, you can identify
+the inherited elements
+
+13
+00:00:46,406 --> 00:00:49,690
+by the circumflex symbol before the name
+
+14
+00:00:50,000 --> 00:00:52,000
+If the system is more complex
+
+15
+00:00:52,000 --> 00:00:54,800
+you will have more internal block diagrams
+
+16
+00:00:54,800 --> 00:00:55,830
+On the one hand
+
+17
+00:00:55,830 --> 00:00:59,421
+different diagrams on the different
+hierarchical levels of the system
+
+18
+00:00:59,421 --> 00:01:00,580
+And on the other hand
+
+19
+00:01:00,580 --> 00:01:02,461
+diagrams for different aspects
+
+20
+00:01:02,461 --> 00:01:04,327
+for example internal block diagrams
+
+21
+00:01:04,327 --> 00:01:07,119
+that only show logical
+or internal block diagrams
+
+22
+00:01:07,119 --> 00:01:10,159
+that show only electrical connections
+
+23
+00:01:10,159 --> 00:01:12,479
+Or entire block diagrams that only show
+
+24
+00:01:12,479 --> 00:01:16,110
+the connections necessary
+for a specific use case
+
+25
+00:01:17,680 --> 00:01:21,520
+So much for the 14th door of our
+MBSE Podcast Advent Calendar
+
+26
+00:01:21,520 --> 00:01:25,500
+And we wish you a great 14th of December
+
+27
+00:01:25,680 --> 00:01:26,680
+Bye-bye
+
+28
+00:01:26,790 --> 00:01:27,690
+Goodbye
