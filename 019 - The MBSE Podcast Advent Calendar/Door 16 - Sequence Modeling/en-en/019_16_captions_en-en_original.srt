@@ -1,0 +1,128 @@
+1
+00:00:01,199 --> 00:00:03,919
+welcome to the 16th store of our mbse
+
+2
+00:00:03,919 --> 00:00:06,879
+podcast advent calendar today we take a
+
+3
+00:00:06,879 --> 00:00:10,080
+look at modeling of a sequence diagram
+
+4
+00:00:10,080 --> 00:00:12,400
+a sequence diagram depicts the exchange
+
+5
+00:00:12,400 --> 00:00:14,000
+of messages between properties
+
+6
+00:00:14,000 --> 00:00:18,080
+represented by the so-called lifelines
+
+7
+00:00:18,080 --> 00:00:21,600
+let's look at it in our model
+
+8
+00:00:23,359 --> 00:00:25,039
+our sequence diagram shows a simple
+
+9
+00:00:25,039 --> 00:00:27,920
+scenario of our mbse podcast christmas
+
+10
+00:00:27,920 --> 00:00:30,720
+tree actually the tree does not include
+
+11
+00:00:30,720 --> 00:00:35,280
+so many scenarios but it's just a tree
+
+12
+00:00:35,280 --> 00:00:37,040
+the model element represented by the
+
+13
+00:00:37,040 --> 00:00:39,040
+whole sequence diagram is called an
+
+14
+00:00:39,040 --> 00:00:41,440
+interaction here the interaction is
+
+15
+00:00:41,440 --> 00:00:44,719
+owned by the system context element
+
+16
+00:00:44,719 --> 00:00:47,280
+the user sends a switch on signal to the
+
+17
+00:00:47,280 --> 00:00:49,600
+enjoyment control unit it is an
+
+18
+00:00:49,600 --> 00:00:51,199
+asynchronous message
+
+19
+00:00:51,199 --> 00:00:52,079
+then
+
+20
+00:00:52,079 --> 00:00:53,920
+the internal operation start flashing
+
+21
+00:00:53,920 --> 00:00:56,320
+program is called which starts a loop to
+
+22
+00:00:56,320 --> 00:00:58,719
+switch on and off the fairy lights and
+
+23
+00:00:58,719 --> 00:01:02,960
+in parallel the lights enjoy a child
+
+24
+00:01:02,960 --> 00:01:04,479
+you can use sequence diagrams for
+
+25
+00:01:04,479 --> 00:01:07,119
+several purposes for example specify a
+
+26
+00:01:07,119 --> 00:01:09,280
+test case specify a communication
+
+27
+00:01:09,280 --> 00:01:11,920
+protocol demonstrate an example and so
+
+28
+00:01:11,920 --> 00:01:14,240
+forth
+
+29
+00:01:14,799 --> 00:01:16,880
+so much for the 16th store of our nbc
+
+30
+00:01:16,880 --> 00:01:18,560
+podcast i'm red calendar and we wish you
+
+31
+00:01:18,560 --> 00:01:21,360
+a great 16th of december
+
+32
+00:01:21,360 --> 00:01:25,320
+goodbye bye
+

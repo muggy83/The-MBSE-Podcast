@@ -1,0 +1,108 @@
+1
+00:00:01,199 --> 00:00:05,290
+Welcome to the 16th door of our
+MBSE Podcast Advent Calendar
+
+2
+00:00:05,290 --> 00:00:09,839
+Today we take a look at
+modeling of a sequence diagram
+
+3
+00:00:10,080 --> 00:00:14,000
+A sequence diagram depicts the exchange
+of messages between properties
+
+4
+00:00:14,000 --> 00:00:17,790
+represented by the so-called lifelines
+
+5
+00:00:18,080 --> 00:00:20,300
+Let's look at it in our model
+
+6
+00:00:23,359 --> 00:00:25,623
+Our sequence diagram shows
+a simple scenario
+
+7
+00:00:25,623 --> 00:00:28,474
+of our MBSE Podcast Christmas Tree
+
+8
+00:00:28,474 --> 00:00:31,848
+Actually the tree does not
+include so many scenarios
+
+9
+00:00:31,848 --> 00:00:35,010
+but it's just a tree
+
+10
+00:00:35,280 --> 00:00:38,371
+The model element represented
+by the whole sequence diagram
+
+11
+00:00:38,371 --> 00:00:40,612
+is called an interaction
+
+12
+00:00:40,612 --> 00:00:44,439
+Here the interaction is owned
+by the system context element
+
+13
+00:00:44,719 --> 00:00:48,898
+The user sends a "SwitchOn" signal to
+the "Enjoyment Control Unit"
+
+14
+00:00:48,898 --> 00:00:51,199
+It is an asynchronous message
+
+15
+00:00:51,199 --> 00:00:54,554
+Then the internal operation
+"startFlashingProgram"
+
+16
+00:00:54,554 --> 00:00:58,719
+is called which starts a loop
+to switch on and off the "Fairy Lights"
+
+17
+00:00:58,719 --> 00:01:02,620
+And in parallel, the lights enjoy a child
+
+18
+00:01:02,960 --> 00:01:05,603
+You can use sequence diagrams
+for several purposes
+
+19
+00:01:05,603 --> 00:01:09,944
+For example, specify a test case
+specify a communication protocol
+
+20
+00:01:09,944 --> 00:01:13,820
+demonstrate an example and so forth
+
+21
+00:01:14,799 --> 00:01:17,940
+So much for the 16th door of our
+MBSE Podcast Advent Calendar
+
+22
+00:01:17,940 --> 00:01:21,392
+And we wish you a great 16th of December
+
+23
+00:01:21,572 --> 00:01:22,310
+Goodbye
+
+24
+00:01:22,530 --> 00:01:23,250
+Bye-bye
