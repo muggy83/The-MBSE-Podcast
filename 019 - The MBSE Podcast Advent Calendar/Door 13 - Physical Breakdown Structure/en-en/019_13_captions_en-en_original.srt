@@ -1,0 +1,240 @@
+1
+00:00:01,439 --> 00:00:03,120
+welcome to another draw of the mbse
+
+2
+00:00:03,120 --> 00:00:04,720
+podcast advent calendar you have the
+
+3
+00:00:04,720 --> 00:00:06,240
+13th store we take a look at the
+
+4
+00:00:06,240 --> 00:00:08,480
+physical architecture
+
+5
+00:00:08,480 --> 00:00:10,160
+in the last days we presented the
+
+6
+00:00:10,160 --> 00:00:11,759
+functional architecture
+
+7
+00:00:11,759 --> 00:00:13,679
+as a reminder let's open the internal
+
+8
+00:00:13,679 --> 00:00:15,280
+block diagram of the functional
+
+9
+00:00:15,280 --> 00:00:18,320
+architecture in the tool
+
+10
+00:00:19,600 --> 00:00:21,520
+we also have created a physical
+
+11
+00:00:21,520 --> 00:00:23,600
+architecture of our mbse podcast
+
+12
+00:00:23,600 --> 00:00:25,760
+christmas tree which specifies the
+
+13
+00:00:25,760 --> 00:00:27,519
+physical entities that implement the
+
+14
+00:00:27,519 --> 00:00:29,119
+functional entities from the functional
+
+15
+00:00:29,119 --> 00:00:31,840
+architecture
+
+16
+00:00:32,880 --> 00:00:34,480
+the physical architecture is a
+
+17
+00:00:34,480 --> 00:00:37,200
+specialization of the base architecture
+
+18
+00:00:37,200 --> 00:00:38,960
+in this diagram the element with a
+
+19
+00:00:38,960 --> 00:00:41,600
+system stereotype with the name the mbse
+
+20
+00:00:41,600 --> 00:00:43,280
+podcast christmas tree
+
+21
+00:00:43,280 --> 00:00:45,520
+it inherits most of the parts from the
+
+22
+00:00:45,520 --> 00:00:48,879
+system element tmpct base architecture
+
+23
+00:00:48,879 --> 00:00:50,399
+as we have seen before we used
+
+24
+00:00:50,399 --> 00:00:52,640
+illustrations in this case instead of
+
+25
+00:00:52,640 --> 00:00:54,879
+the block notation which makes it easier
+
+26
+00:00:54,879 --> 00:00:57,280
+for unexperienced users to understand
+
+27
+00:00:57,280 --> 00:00:59,280
+the diagram
+
+28
+00:00:59,280 --> 00:01:00,719
+the blocks from our functional
+
+29
+00:01:00,719 --> 00:01:02,640
+architecture are allocated to the blocks
+
+30
+00:01:02,640 --> 00:01:04,400
+of the physical architecture the
+
+31
+00:01:04,400 --> 00:01:06,479
+allocation specifies which physical
+
+32
+00:01:06,479 --> 00:01:10,479
+block implements which function block
+
+33
+00:01:10,479 --> 00:01:12,479
+let's see how we manage the allocations
+
+34
+00:01:12,479 --> 00:01:15,119
+in a matrix
+
+35
+00:01:18,080 --> 00:01:20,240
+the rows list the function blocks the
+
+36
+00:01:20,240 --> 00:01:22,400
+columns the physical blocks and the
+
+37
+00:01:22,400 --> 00:01:24,560
+cells the allocate relationship
+
+38
+00:01:24,560 --> 00:01:25,920
+some functional blocks are mapped to
+
+39
+00:01:25,920 --> 00:01:27,920
+more than one physical block and some
+
+40
+00:01:27,920 --> 00:01:29,759
+physical blocks have more than one
+
+41
+00:01:29,759 --> 00:01:31,840
+allocated functional block it is a
+
+42
+00:01:31,840 --> 00:01:34,400
+rather rough mapping so for example if a
+
+43
+00:01:34,400 --> 00:01:35,759
+functional block is allocated to
+
+44
+00:01:35,759 --> 00:01:38,000
+multiple physical blocks it is not clear
+
+45
+00:01:38,000 --> 00:01:40,400
+whether it is redundantly allocated
+
+46
+00:01:40,400 --> 00:01:42,560
+are only parts of the functional block
+
+47
+00:01:42,560 --> 00:01:44,880
+however this is usually sufficient in
+
+48
+00:01:44,880 --> 00:01:45,920
+the model
+
+49
+00:01:45,920 --> 00:01:47,840
+more details if required can be
+
+50
+00:01:47,840 --> 00:01:49,520
+introduced by extending the allocate
+
+51
+00:01:49,520 --> 00:01:52,799
+relationship with a stereotype
+
+52
+00:01:52,799 --> 00:01:54,880
+as with the functional architecture the
+
+53
+00:01:54,880 --> 00:01:56,719
+more interesting part is the internal
+
+54
+00:01:56,719 --> 00:01:58,960
+structure of the physical architecture
+
+55
+00:01:58,960 --> 00:02:01,040
+with ports and connections
+
+56
+00:02:01,040 --> 00:02:04,399
+that we will cover tomorrow
+
+57
+00:02:04,399 --> 00:02:06,960
+so much for the 13th store of our mbse
+
+58
+00:02:06,960 --> 00:02:08,878
+podcast event calendar and we wish you a
+
+59
+00:02:08,878 --> 00:02:10,959
+great 13th of december
+
+60
+00:02:10,959 --> 00:02:14,520
+bye goodbye
+
