@@ -1,0 +1,156 @@
+1
+00:00:01,360 --> 00:00:02,879
+Welcome
+
+2
+00:00:02,879 --> 00:00:06,377
+Behind the 10th door of our
+MBSE Podcast Advent Calendar
+
+3
+00:00:06,377 --> 00:00:09,309
+We take a look at
+Functional Architectures
+
+4
+00:00:09,679 --> 00:00:13,339
+A Functional Architecture is a system
+architecture based on functions
+
+5
+00:00:13,339 --> 00:00:16,953
+and independent of the physical entities
+that implement the functions
+
+6
+00:00:16,953 --> 00:00:19,809
+However the functions can
+depend on physical concepts
+
+7
+00:00:19,809 --> 00:00:21,960
+defined in the Base Architecture
+
+8
+00:00:22,320 --> 00:00:26,600
+The FAS method describes how to
+derive the Functional Architecture
+
+9
+00:00:26,600 --> 00:00:28,909
+from the Use Case Activities
+
+10
+00:00:29,279 --> 00:00:32,300
+The first main important step
+in the FAS method is
+
+11
+00:00:32,300 --> 00:00:35,040
+the grouping of the Use Case Activities
+
+12
+00:00:35,040 --> 00:00:39,990
+All the activities are grouped as
+a decision of the system architect
+
+13
+00:00:40,480 --> 00:00:45,440
+The Functional Group itself is modeled
+by a stereotype specializing in the block
+
+14
+00:00:45,440 --> 00:00:48,506
+The grouping then is modeled
+by a trace relationship
+
+15
+00:00:48,506 --> 00:00:51,909
+from the Functional Group
+to the activities
+
+16
+00:00:52,239 --> 00:00:55,380
+It is best to show and manage
+the grouping in a matrix
+
+17
+00:00:55,380 --> 00:00:59,469
+Let's have a look at it in the model
+
+18
+00:01:06,880 --> 00:01:10,320
+The Functional Groups and the matrix are
+
+19
+00:01:10,320 --> 00:01:14,240
+located in the Functional Architecture
+package in our system model
+
+20
+00:01:14,240 --> 00:01:18,159
+The columns are the activities
+from the use case analyses
+
+21
+00:01:18,159 --> 00:01:20,560
+The rows are the Functional Groups
+
+22
+00:01:20,560 --> 00:01:25,560
+The single cells represent the
+presence of a trace relationship
+
+23
+00:01:26,000 --> 00:01:28,320
+A special learning gift of today
+
+24
+00:01:28,320 --> 00:01:30,856
+sometimes it is easier
+to manage relationships
+
+25
+00:01:30,856 --> 00:01:32,586
+between model elements in a matrix
+
+26
+00:01:32,586 --> 00:01:35,456
+instead of showing
+them in a diagram
+
+27
+00:01:35,456 --> 00:01:41,060
+the following diagram shows
+the same information as the matrix
+
+28
+00:01:44,399 --> 00:01:49,149
+So, you can easily see
+that it is more confusing
+
+29
+00:01:49,840 --> 00:01:54,079
+The next step is to derive the
+Functional Architecture from the groups
+
+30
+00:01:54,079 --> 00:01:58,079
+We will have a look to this tomorrow
+
+31
+00:01:58,560 --> 00:02:02,169
+So much for the 10th door of our
+MBSE Podcast Advent Calendar
+
+32
+00:02:02,169 --> 00:02:05,030
+And we wish you a great 10th of December
+
+33
+00:02:05,030 --> 00:02:05,870
+Bye-bye
+
+34
+00:02:05,960 --> 00:02:06,710
+Goodbye

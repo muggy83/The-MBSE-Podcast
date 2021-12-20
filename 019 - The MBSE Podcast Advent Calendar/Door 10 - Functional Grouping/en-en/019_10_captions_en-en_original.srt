@@ -1,0 +1,204 @@
+1
+00:00:01,360 --> 00:00:02,879
+welcome
+
+2
+00:00:02,879 --> 00:00:04,799
+behind the tenth store of our mbse
+
+3
+00:00:04,799 --> 00:00:07,359
+podcast advent calendar we take a look
+
+4
+00:00:07,359 --> 00:00:09,679
+at functional architectures
+
+5
+00:00:09,679 --> 00:00:11,360
+a functional architecture is a system
+
+6
+00:00:11,360 --> 00:00:13,599
+architecture based on functions and
+
+7
+00:00:13,599 --> 00:00:15,519
+independent of the physical entities
+
+8
+00:00:15,519 --> 00:00:17,760
+that implement the functions however the
+
+9
+00:00:17,760 --> 00:00:19,119
+functions can depend on physical
+
+10
+00:00:19,119 --> 00:00:20,480
+concepts defined in the base
+
+11
+00:00:20,480 --> 00:00:22,320
+architecture
+
+12
+00:00:22,320 --> 00:00:24,880
+the first method describes how to derive
+
+13
+00:00:24,880 --> 00:00:27,359
+the functional architecture from the use
+
+14
+00:00:27,359 --> 00:00:29,279
+case activities
+
+15
+00:00:29,279 --> 00:00:31,199
+the first main important step in the
+
+16
+00:00:31,199 --> 00:00:33,280
+first method is the grouping of the use
+
+17
+00:00:33,280 --> 00:00:35,040
+case activities
+
+18
+00:00:35,040 --> 00:00:36,800
+all the activities are grouped as a
+
+19
+00:00:36,800 --> 00:00:40,480
+decision of the system architect
+
+20
+00:00:40,480 --> 00:00:42,559
+the functional group itself is modeled
+
+21
+00:00:42,559 --> 00:00:44,559
+by a stereotype specializing in the
+
+22
+00:00:44,559 --> 00:00:45,440
+block
+
+23
+00:00:45,440 --> 00:00:47,680
+the grouping then is modeled by a trace
+
+24
+00:00:47,680 --> 00:00:50,000
+relationship from the functional group
+
+25
+00:00:50,000 --> 00:00:52,239
+to the activities
+
+26
+00:00:52,239 --> 00:00:53,920
+it is best to show and manage the
+
+27
+00:00:53,920 --> 00:00:56,079
+grouping in a matrix let's have a look
+
+28
+00:00:56,079 --> 00:00:59,719
+at it in the model
+
+29
+00:01:06,880 --> 00:01:10,320
+the functional groups and the matrix are
+
+30
+00:01:10,320 --> 00:01:12,159
+located in the functional architecture
+
+31
+00:01:12,159 --> 00:01:14,240
+package in our system model
+
+32
+00:01:14,240 --> 00:01:16,240
+the columns are the activities from the
+
+33
+00:01:16,240 --> 00:01:18,159
+use case analyzers
+
+34
+00:01:18,159 --> 00:01:20,560
+the rows are the functional groups
+
+35
+00:01:20,560 --> 00:01:22,720
+the single cells represent the presence
+
+36
+00:01:22,720 --> 00:01:26,000
+of a trace relationship
+
+37
+00:01:26,000 --> 00:01:28,320
+a special learning gift of today
+
+38
+00:01:28,320 --> 00:01:30,159
+sometimes it is easier to manage
+
+39
+00:01:30,159 --> 00:01:32,000
+relationships between model elements in
+
+40
+00:01:32,000 --> 00:01:34,720
+a matrix instead of showing them in a
+
+41
+00:01:34,720 --> 00:01:37,600
+diagram the following diagram shows the
+
+42
+00:01:37,600 --> 00:01:41,840
+same information as the matrix
+
+43
+00:01:44,399 --> 00:01:46,799
+so you can easily see that it is more
+
+44
+00:01:46,799 --> 00:01:49,360
+confusing
+
+45
+00:01:49,840 --> 00:01:51,600
+the next step is to derive the
+
+46
+00:01:51,600 --> 00:01:54,079
+functional architecture from the groups
+
+47
+00:01:54,079 --> 00:01:58,079
+we will have a look to this tomorrow
+
+48
+00:01:58,560 --> 00:02:00,960
+so much for the 10th store of our mbse
+
+49
+00:02:00,960 --> 00:02:02,880
+podcast advent calendar and we wish you
+
+50
+00:02:02,880 --> 00:02:05,840
+a great 10th of december bye bye
+
+51
+00:02:05,840 --> 00:02:08,840
+goodbye
+
