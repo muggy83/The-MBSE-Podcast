@@ -1,0 +1,184 @@
+1
+00:00:01,520 --> 00:00:03,679
+welcome to the 15th store of our mbse
+
+2
+00:00:03,679 --> 00:00:05,759
+podcast event calendar today we take a
+
+3
+00:00:05,759 --> 00:00:08,800
+look at the modeling of interfaces
+
+4
+00:00:08,800 --> 00:00:11,040
+typically you use ports type by
+
+5
+00:00:11,040 --> 00:00:13,440
+interface blocks with a connector you
+
+6
+00:00:13,440 --> 00:00:16,480
+model the connection between two ports
+
+7
+00:00:16,480 --> 00:00:18,000
+let's have a look at our physical
+
+8
+00:00:18,000 --> 00:00:21,359
+architecture in the model
+
+9
+00:00:23,359 --> 00:00:25,119
+the connection between the trunk and the
+
+10
+00:00:25,119 --> 00:00:26,880
+stand is a typical interface
+
+11
+00:00:26,880 --> 00:00:29,279
+specification two ports type by
+
+12
+00:00:29,279 --> 00:00:32,079
+interface block named standport
+
+13
+00:00:32,079 --> 00:00:35,040
+connected with a connector
+
+14
+00:00:35,040 --> 00:00:37,520
+today we show you a way to specify an
+
+15
+00:00:37,520 --> 00:00:39,680
+interface in more detail a connector can
+
+16
+00:00:39,680 --> 00:00:42,000
+be typed by an association or
+
+17
+00:00:42,000 --> 00:00:43,520
+association block
+
+18
+00:00:43,520 --> 00:00:46,320
+an association block can define details
+
+19
+00:00:46,320 --> 00:00:49,200
+of the connection
+
+20
+00:00:50,399 --> 00:00:52,480
+the following block definition diagram
+
+21
+00:00:52,480 --> 00:00:54,480
+shows the definition of the association
+
+22
+00:00:54,480 --> 00:00:55,600
+block
+
+23
+00:00:55,600 --> 00:00:58,000
+plug socket interface between two
+
+24
+00:00:58,000 --> 00:01:00,320
+interface blocks plug port and socket
+
+25
+00:01:00,320 --> 00:01:03,199
+port each with nested ports
+
+26
+00:01:03,199 --> 00:01:05,920
+in addition the association block has a
+
+27
+00:01:05,920 --> 00:01:08,720
+part property specifying the power cable
+
+28
+00:01:08,720 --> 00:01:12,400
+with length of 200 centimeters
+
+29
+00:01:12,400 --> 00:01:14,560
+like any other block an association
+
+30
+00:01:14,560 --> 00:01:16,720
+block can have an internal structure
+
+31
+00:01:16,720 --> 00:01:18,400
+which is depicted in the internal block
+
+32
+00:01:18,400 --> 00:01:20,880
+diagram
+
+33
+00:01:21,600 --> 00:01:23,920
+the dashed rectangles on the left and
+
+34
+00:01:23,920 --> 00:01:25,840
+the right are the references to the
+
+35
+00:01:25,840 --> 00:01:28,320
+association and typed by the interface
+
+36
+00:01:28,320 --> 00:01:29,280
+blocks
+
+37
+00:01:29,280 --> 00:01:30,960
+with the nested ports
+
+38
+00:01:30,960 --> 00:01:33,600
+here we have modeled a simple structure
+
+39
+00:01:33,600 --> 00:01:37,520
+by connecting the nested ports directly
+
+40
+00:01:37,520 --> 00:01:39,520
+this interface definition is applied
+
+41
+00:01:39,520 --> 00:01:42,079
+between the external power supply and
+
+42
+00:01:42,079 --> 00:01:44,640
+our christmas tree as depicted in the
+
+43
+00:01:44,640 --> 00:01:47,600
+following diagram
+
+44
+00:01:49,600 --> 00:01:51,840
+so much for the 15th door of our mbse
+
+45
+00:01:51,840 --> 00:01:54,079
+podcast advent calendar and we wish you
+
+46
+00:01:54,079 --> 00:01:58,280
+a great 15th of december
+
