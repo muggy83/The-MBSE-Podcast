@@ -1,0 +1,188 @@
+1
+00:00:00,399 --> 00:00:02,960
+welcome to the 20th store of our mbse
+
+2
+00:00:02,960 --> 00:00:04,880
+podcast advent calendar
+
+3
+00:00:04,880 --> 00:00:07,120
+today we take a look at non-systeml
+
+4
+00:00:07,120 --> 00:00:08,720
+views
+
+5
+00:00:08,720 --> 00:00:11,120
+systemrt defines nine different diagram
+
+6
+00:00:11,120 --> 00:00:13,440
+types such as the use case diagram the
+
+7
+00:00:13,440 --> 00:00:15,920
+block definition diagram and so on
+
+8
+00:00:15,920 --> 00:00:18,000
+additionally tables and matrix views are
+
+9
+00:00:18,000 --> 00:00:19,119
+defined
+
+10
+00:00:19,119 --> 00:00:21,680
+other views are perfectly possible even
+
+11
+00:00:21,680 --> 00:00:24,080
+if they are not covered by the standards
+
+12
+00:00:24,080 --> 00:00:27,840
+so let's have a look at some of them
+
+13
+00:00:27,840 --> 00:00:29,679
+the relationship map diagram is a
+
+14
+00:00:29,679 --> 00:00:31,439
+special diagram of the coming of systems
+
+15
+00:00:31,439 --> 00:00:34,399
+modeler starting from one element a tree
+
+16
+00:00:34,399 --> 00:00:37,200
+is spent on defined relationships in
+
+17
+00:00:37,200 --> 00:00:39,680
+this example all elements are in the
+
+18
+00:00:39,680 --> 00:00:42,840
+namespace of the previous node which is
+
+19
+00:00:42,840 --> 00:00:46,160
+shown it shows all use cases and the
+
+20
+00:00:46,160 --> 00:00:48,960
+selected package and then all contained
+
+21
+00:00:48,960 --> 00:00:52,160
+use case activities
+
+22
+00:00:52,399 --> 00:00:55,280
+the classic is of course excel some
+
+23
+00:00:55,280 --> 00:00:57,360
+modeling tools offer it directly out of
+
+24
+00:00:57,360 --> 00:00:59,840
+the box to export model elements to
+
+25
+00:00:59,840 --> 00:01:00,960
+excel
+
+26
+00:01:00,960 --> 00:01:03,440
+some can also make the return trip and
+
+27
+00:01:03,440 --> 00:01:07,280
+import excel data back into the model
+
+28
+00:01:07,280 --> 00:01:08,960
+needless to say that you can also
+
+29
+00:01:08,960 --> 00:01:11,520
+generate text documents from a model the
+
+30
+00:01:11,520 --> 00:01:13,920
+text document is another special view of
+
+31
+00:01:13,920 --> 00:01:16,320
+our model
+
+32
+00:01:17,040 --> 00:01:18,880
+other interesting views are dynamic
+
+33
+00:01:18,880 --> 00:01:21,119
+diagrams such as those offered by the
+
+34
+00:01:21,119 --> 00:01:23,200
+graph database neo4j
+
+35
+00:01:23,200 --> 00:01:25,600
+the cinder tool from intercax can export
+
+36
+00:01:25,600 --> 00:01:27,680
+the small models to neo4j
+
+37
+00:01:27,680 --> 00:01:29,840
+there the model can then be viewed in
+
+38
+00:01:29,840 --> 00:01:32,240
+the dynamic graph diagrams for example
+
+39
+00:01:32,240 --> 00:01:35,200
+to identify patterns and derive insights
+
+40
+00:01:35,200 --> 00:01:36,960
+you can find the link to this website
+
+41
+00:01:36,960 --> 00:01:38,799
+from interhex in the blog post about
+
+42
+00:01:38,799 --> 00:01:40,400
+this episode on our website
+
+43
+00:01:40,400 --> 00:01:43,400
+mbsepodcast.rocks
+
+44
+00:01:44,880 --> 00:01:47,280
+so much for the 20th door of our mbc
+
+45
+00:01:47,280 --> 00:01:48,399
+podcast
+
+46
+00:01:48,399 --> 00:01:52,159
+and we wish you a great 20th of december
+
+47
+00:01:52,159 --> 00:01:55,159
+bye
+
