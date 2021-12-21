@@ -1,0 +1,309 @@
+1
+00:00:02,159 --> 00:00:05,230
+Welcome to the 19th door of our
+MBSE Podcast Advent Calendar
+
+2
+00:00:05,230 --> 00:00:08,320
+Today we take a look at
+the modelling of variants
+
+3
+00:00:08,720 --> 00:00:10,772
+Very often a system contains variants
+
+4
+00:00:10,772 --> 00:00:13,920
+So does our MBSE Podcast Christmas Tree
+
+5
+00:00:13,920 --> 00:00:19,009
+We provide trees with different Christmas
+stars, balls, stands, and fairy lights
+
+6
+00:00:19,359 --> 00:00:22,410
+So, let's look at our model of
+how to define the variants
+
+7
+00:00:25,359 --> 00:00:28,619
+We restructured our model
+from the simple system model
+
+8
+00:00:28,619 --> 00:00:30,560
+to our product line model
+
+9
+00:00:30,560 --> 00:00:34,309
+To do this, we have defined three
+new packages at the top level
+
+10
+00:00:34,309 --> 00:00:38,879
+A "Core" package that contains all
+elements that apply to all products
+
+11
+00:00:38,879 --> 00:00:42,960
+A "Variation" package that
+contains the variable elements
+
+12
+00:00:42,960 --> 00:00:45,755
+And a package that
+contains the configurations
+
+13
+00:00:45,755 --> 00:00:48,960
+For example, product definitions
+
+14
+00:00:48,960 --> 00:00:54,799
+Our previous packages are now all
+rearranged below the Core package
+
+15
+00:00:55,440 --> 00:00:58,050
+In the "TMPCT_Variations" package
+
+16
+00:00:58,050 --> 00:01:01,277
+there is a package diagram that
+shows the product line
+
+17
+00:01:01,277 --> 00:01:03,359
+in the form of a feature tree the
+
+18
+00:01:03,359 --> 00:01:07,119
+A Variation packages represent
+the discriminator variability
+
+19
+00:01:07,119 --> 00:01:10,320
+Here it is generally only the kinds
+
+20
+00:01:10,320 --> 00:01:12,880
+The "minVariant" "maxVariant" properties
+
+21
+00:01:12,880 --> 00:01:18,560
+specify how many of the variants may be
+in a valid configuration at the same time
+
+22
+00:01:18,560 --> 00:01:20,880
+Mostly it is exactly one
+
+23
+00:01:20,880 --> 00:01:24,720
+An exception here is the
+"Christmas Ball Kinds" variation
+
+24
+00:01:24,720 --> 00:01:30,960
+Here also two variants may be contained
+at the same time in a configuration
+
+25
+00:01:31,520 --> 00:01:35,687
+The variant packages each contain all
+exclusive model elements
+
+26
+00:01:35,687 --> 00:01:37,840
+only required by a variant
+
+27
+00:01:37,840 --> 00:01:40,880
+Constraints can be defined
+between the variants
+
+28
+00:01:40,880 --> 00:01:45,840
+Typically variant constraints are
+"REQUIRES and "XOR"
+
+29
+00:01:45,840 --> 00:01:47,920
+A "REQUIRES" constraint is defined
+
+30
+00:01:47,920 --> 00:01:51,680
+between the "Premium Star"
+and the "Large Stand" variants
+
+31
+00:01:51,680 --> 00:01:52,960
+In example
+
+32
+00:01:52,960 --> 00:01:55,280
+if the "Premium Star" variant is selected
+
+33
+00:01:55,280 --> 00:02:00,600
+the "Large Stand" variant must also be
+selected for a valid configuration
+
+34
+00:02:04,000 --> 00:02:08,399
+The variant "Premium Star" defines
+a special Christmas star
+
+35
+00:02:08,399 --> 00:02:11,440
+that has an LED starlight
+
+36
+00:02:11,440 --> 00:02:13,520
+The "Premium Christmas Star" block
+
+37
+00:02:13,520 --> 00:02:19,000
+specializes the common
+"Christmas Tree Star" block from the Core
+
+38
+00:02:20,640 --> 00:02:24,100
+The Configuration package contains
+the variant configurations
+
+39
+00:02:24,100 --> 00:02:28,879
+which are specifications of concrete
+products of the product line
+
+40
+00:02:28,879 --> 00:02:32,660
+Three defined editions of our
+MBSE Podcast Christmas Tree
+
+41
+00:02:32,660 --> 00:02:36,239
+are "Echo", "Premium", and "Standard"
+
+42
+00:02:36,239 --> 00:02:39,360
+Each configuration selects
+the contained variants
+
+43
+00:02:39,360 --> 00:02:42,800
+which can be perfectly done in a matrix
+
+44
+00:02:42,800 --> 00:02:46,660
+The selection is modeled by
+a package import relationship
+
+45
+00:02:47,200 --> 00:02:51,183
+Here we have intentionally included an
+error for demonstration purposes
+
+46
+00:02:51,183 --> 00:02:54,530
+The configuration
+"TMPCT Premium Edition"
+
+47
+00:02:54,530 --> 00:02:57,760
+has selected the variant premium style
+
+48
+00:02:57,760 --> 00:03:01,503
+That requires constraints
+described as requires
+
+49
+00:03:01,503 --> 00:03:05,633
+that the variant "Large Stand"
+but then also be selected
+
+50
+00:03:05,633 --> 00:03:09,680
+But we have selected
+the variant "Standard Stand"
+
+51
+00:03:10,000 --> 00:03:16,000
+The arrow is automatically displayed
+in the matrix you see the red one
+
+52
+00:03:16,000 --> 00:03:17,288
+As already mentioned
+
+53
+00:03:17,288 --> 00:03:21,440
+the requires constraint is
+a stereotype from the SYSMOD profile
+
+54
+00:03:21,440 --> 00:03:27,920
+and also contains an OCL constraint
+that checks compliance with the rule
+
+55
+00:03:27,920 --> 00:03:30,000
+This is completely based on standards
+
+56
+00:03:30,000 --> 00:03:36,790
+The only tool specific here is that the
+tool is able to evaluate the OCL statement
+
+57
+00:03:39,680 --> 00:03:42,649
+The block definition diagram shows a part
+
+58
+00:03:42,649 --> 00:03:45,911
+of the definition of the
+"TMPCT Premium Edition"
+
+59
+00:03:45,911 --> 00:03:48,790
+The edition itself is a system element
+
+60
+00:03:48,790 --> 00:03:52,940
+that specializes the system
+element from the "Core"
+
+61
+00:03:53,200 --> 00:03:58,640
+As an example, it is shown how the
+"Premium Star" edition is implemented
+
+62
+00:03:58,640 --> 00:04:02,877
+The premium Christmas star is
+explicitly defined as a part property
+
+63
+00:04:02,877 --> 00:04:07,839
+that redefines the inherited
+property of the general star
+
+64
+00:04:09,360 --> 00:04:12,671
+So much for the 19th door of our
+MBSE Podcast Advent Calendar
+
+65
+00:04:12,671 --> 00:04:15,400
+And we wish you a great 19th of December
+
+66
+00:04:15,400 --> 00:04:16,209
+Bye-bye
+
+67
+00:04:16,399 --> 00:04:17,219
+Goodbye
