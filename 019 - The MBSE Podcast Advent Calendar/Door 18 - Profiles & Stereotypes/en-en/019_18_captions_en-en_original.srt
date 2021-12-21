@@ -1,0 +1,260 @@
+1
+00:00:01,199 --> 00:00:03,679
+welcome to the 18th store of our mbse
+
+2
+00:00:03,679 --> 00:00:06,480
+podcast advent calendar today we take a
+
+3
+00:00:06,480 --> 00:00:08,559
+look at the modeling of profiles and
+
+4
+00:00:08,559 --> 00:00:10,960
+stereotypes
+
+5
+00:00:10,960 --> 00:00:12,880
+typically you cannot use sml out of the
+
+6
+00:00:12,880 --> 00:00:14,960
+box very well the language is too
+
+7
+00:00:14,960 --> 00:00:16,960
+general to provide enough words to talk
+
+8
+00:00:16,960 --> 00:00:19,600
+about a corporate system for example
+
+9
+00:00:19,600 --> 00:00:22,000
+systematic finds a block but not a
+
+10
+00:00:22,000 --> 00:00:26,160
+system subsystem component module domain
+
+11
+00:00:26,160 --> 00:00:29,039
+block software block and so forth
+
+12
+00:00:29,039 --> 00:00:31,679
+or sociality finds a requirement with
+
+13
+00:00:31,679 --> 00:00:34,480
+only three properties name id and text
+
+14
+00:00:34,480 --> 00:00:36,800
+but neither functional requirements nor
+
+15
+00:00:36,800 --> 00:00:38,800
+performance requirements nor properties
+
+16
+00:00:38,800 --> 00:00:42,879
+like a priority motivation or risks
+
+17
+00:00:42,879 --> 00:00:45,120
+it is intended that you extend susml
+
+18
+00:00:45,120 --> 00:00:47,039
+with a more specific vocabulary that
+
+19
+00:00:47,039 --> 00:00:48,640
+fits your need
+
+20
+00:00:48,640 --> 00:00:51,039
+so let's have a look at how we did it in
+
+21
+00:00:51,039 --> 00:00:53,520
+our model
+
+22
+00:00:53,920 --> 00:00:56,000
+besides others our model applies to
+
+23
+00:00:56,000 --> 00:00:58,960
+sysmod profile a profile defines an
+
+24
+00:00:58,960 --> 00:01:00,879
+extension of sysml
+
+25
+00:01:00,879 --> 00:01:03,760
+the profile application relationships
+
+26
+00:01:03,760 --> 00:01:05,680
+make the extension available for the
+
+27
+00:01:05,680 --> 00:01:07,360
+model
+
+28
+00:01:07,360 --> 00:01:09,520
+the profile is similar to a package and
+
+29
+00:01:09,520 --> 00:01:12,159
+contains stereotypes a stereotype
+
+30
+00:01:12,159 --> 00:01:14,720
+extends an existing system element it
+
+31
+00:01:14,720 --> 00:01:17,439
+provides a name and semantic and can
+
+32
+00:01:17,439 --> 00:01:19,040
+provide additional properties and
+
+33
+00:01:19,040 --> 00:01:21,200
+quotations
+
+34
+00:01:21,200 --> 00:01:22,880
+the following diagram shows some
+
+35
+00:01:22,880 --> 00:01:25,280
+stereotypes of the system profile which
+
+36
+00:01:25,280 --> 00:01:28,880
+extends the sysml block
+
+37
+00:01:29,520 --> 00:01:32,000
+the system stereotype specializes with
+
+38
+00:01:32,000 --> 00:01:33,520
+the smart block
+
+39
+00:01:33,520 --> 00:01:35,840
+and adds two properties to store the
+
+40
+00:01:35,840 --> 00:01:38,400
+problem statement and the system idea of
+
+41
+00:01:38,400 --> 00:01:41,360
+the system
+
+42
+00:01:41,360 --> 00:01:44,240
+the cismod stereotypes are defining also
+
+43
+00:01:44,240 --> 00:01:46,240
+different actor categories
+
+44
+00:01:46,240 --> 00:01:48,479
+like external systems environmental
+
+45
+00:01:48,479 --> 00:01:50,479
+effects and so on
+
+46
+00:01:50,479 --> 00:01:53,520
+as well as it introduces a new notation
+
+47
+00:01:53,520 --> 00:01:55,680
+therefore the actor can be depicted by
+
+48
+00:01:55,680 --> 00:01:59,360
+cubes in the system context
+
+49
+00:01:59,360 --> 00:02:01,600
+typically the first step before modeling
+
+50
+00:02:01,600 --> 00:02:04,479
+stereotypes is creating a concept model
+
+51
+00:02:04,479 --> 00:02:08,080
+of the new concepts
+
+52
+00:02:08,080 --> 00:02:10,560
+as one example this block definition
+
+53
+00:02:10,560 --> 00:02:12,720
+diagram shows the concept of variant
+
+54
+00:02:12,720 --> 00:02:15,680
+modeling terms from the vamos profile
+
+55
+00:02:15,680 --> 00:02:18,319
+vamos stands for variant modeling with
+
+56
+00:02:18,319 --> 00:02:20,879
+susaml
+
+57
+00:02:21,599 --> 00:02:23,440
+the wellness stereotypes which are part
+
+58
+00:02:23,440 --> 00:02:25,360
+of the system profile are derived from
+
+59
+00:02:25,360 --> 00:02:28,000
+this concept model
+
+60
+00:02:28,000 --> 00:02:29,520
+we will have a more detailed look at
+
+61
+00:02:29,520 --> 00:02:32,959
+variant modeling tomorrow
+
+62
+00:02:33,360 --> 00:02:35,360
+so much for the 18th store of our nbc
+
+63
+00:02:35,360 --> 00:02:37,360
+podcast advent calendar and we wish you
+
+64
+00:02:37,360 --> 00:02:40,800
+a great 18th of december bye bye
+
+65
+00:02:40,800 --> 00:02:43,800
+goodbye
+
