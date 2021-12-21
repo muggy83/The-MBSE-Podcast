@@ -1,0 +1,201 @@
+1
+00:00:01,439 --> 00:00:05,178
+Welcome to the 21st door of our
+MBSE Podcast Advent Calendar
+
+2
+00:00:05,178 --> 00:00:09,289
+Today we take a look at
+the death of the actors
+
+3
+00:00:09,519 --> 00:00:11,238
+That doesn't sound very Christmassy
+
+4
+00:00:11,238 --> 00:00:13,679
+But we definitely need to talk about it
+
+5
+00:00:13,679 --> 00:00:16,720
+The actors died a long time ago
+
+6
+00:00:16,720 --> 00:00:17,760
+Curious?
+
+7
+00:00:17,760 --> 00:00:20,350
+Let's have a look in our model
+
+8
+00:00:20,720 --> 00:00:24,744
+Our system context diagram
+clearly shows actors
+
+9
+00:00:24,744 --> 00:00:27,456
+So, who is that here?
+
+10
+00:00:27,920 --> 00:00:29,565
+Therefore, we need to distinguish
+
+11
+00:00:29,565 --> 00:00:33,520
+between the concept actor
+from the SysML element actor
+
+12
+00:00:33,520 --> 00:00:37,530
+The model element is that
+or rather we bury it
+
+13
+00:00:37,840 --> 00:00:38,960
+Why?
+
+14
+00:00:38,960 --> 00:00:40,800
+Let's take a closer look
+
+15
+00:00:40,800 --> 00:00:43,280
+So, the concept of actor is great
+
+16
+00:00:43,280 --> 00:00:46,779
+External entities interacting
+with the system and so on
+
+17
+00:00:46,779 --> 00:00:51,410
+with all the methodological
+variants that exist
+
+18
+00:00:51,760 --> 00:00:55,360
+The SysML model element
+actor is problematic
+
+19
+00:00:55,360 --> 00:00:59,293
+It comes from UML and is
+there defined in such a way
+
+20
+00:00:59,293 --> 00:01:00,879
+that an actor may not have
+
+21
+00:01:00,879 --> 00:01:05,890
+any ports, receptions, operations
+attributes, or parts
+
+22
+00:01:06,240 --> 00:01:08,264
+But these features are
+needed now and then
+
+23
+00:01:08,264 --> 00:01:11,454
+For example, our actor
+"power Supply" has a port
+
+24
+00:01:11,454 --> 00:01:16,270
+or our actor "room" has
+a part named "floor"
+
+25
+00:01:16,799 --> 00:01:23,400
+So if we just claimed that a SysML actor
+can't have that why could we model that
+
+26
+00:01:23,840 --> 00:01:25,200
+Well
+
+27
+00:01:25,200 --> 00:01:30,320
+Because we did not use the SysML
+actor as mentioned at the beginning
+
+28
+00:01:30,320 --> 00:01:34,240
+The actor is dead respectively
+non-existent for us
+
+29
+00:01:34,240 --> 00:01:37,630
+Formally our actor kinds
+from the SYSMOD profile
+
+30
+00:01:37,630 --> 00:01:41,119
+are stereotypes specializing
+the SysML block
+
+31
+00:01:41,119 --> 00:01:46,260
+So, the stereotypes define the
+appropriate actor semantics
+
+32
+00:01:46,720 --> 00:01:49,139
+By the way, this is not a
+nasty work around
+
+33
+00:01:49,139 --> 00:01:51,200
+but formally mapped correctly
+
+34
+00:01:51,200 --> 00:01:54,943
+even the SysML specification uses
+this kind of actor modeling
+
+35
+00:01:54,943 --> 00:01:57,699
+in its hybrid SUV model
+
+36
+00:01:57,920 --> 00:02:01,822
+Thus actors have the
+same capability as block
+
+37
+00:02:01,822 --> 00:02:06,090
+and can have ports, internal
+structures, and so on
+
+38
+00:02:06,399 --> 00:02:09,743
+So, we have by no means trash
+the concept of the actor
+
+39
+00:02:09,743 --> 00:02:11,840
+but the SysML model element
+
+40
+00:02:11,840 --> 00:02:16,450
+The actor is dead
+long live the actor
+
+41
+00:02:16,800 --> 00:02:20,160
+So much for the 21st door of our
+MBSE Podcast Advent Calendar
+
+42
+00:02:20,160 --> 00:02:23,219
+And we wish you a great 21st of December
+
+43
+00:02:23,219 --> 00:02:24,219
+Bye-bye
+
+44
+00:02:24,319 --> 00:02:25,039
+Goodbye
