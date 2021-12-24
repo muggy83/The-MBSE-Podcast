@@ -1,0 +1,107 @@
+1
+00:00:00,880 --> 00:00:01,799
+Ho ho ho
+
+2
+00:00:01,799 --> 00:00:07,529
+And welcome to the 24th and final door
+of our MBSE Podcast Advent Calendar
+
+3
+00:00:07,839 --> 00:00:10,080
+Today is a special day for many
+
+4
+00:00:10,080 --> 00:00:13,800
+We will avoid burdening your brain
+with modelling topics today
+
+5
+00:00:14,080 --> 00:00:19,920
+Instead, we will end by in
+lighting up our Christmas tree
+
+6
+00:00:21,439 --> 00:00:25,359
+This can also be done much
+more amazing with more effort
+
+7
+00:00:25,359 --> 00:00:28,399
+Model simulations can be
+provided with graphical interfaces
+
+8
+00:00:28,399 --> 00:00:31,599
+In order to play around with
+the system at an early stage
+
+9
+00:00:31,599 --> 00:00:34,350
+before anything has been implemented
+
+10
+00:00:34,640 --> 00:00:38,320
+Finally here's a little gift from us
+
+11
+00:00:38,320 --> 00:00:41,040
+Our MBSE Podcast Christmas Tree model
+
+12
+00:00:41,040 --> 00:00:43,360
+You can download it as a Cameo model
+
+13
+00:00:43,360 --> 00:00:45,920
+or as an XMI model from our website
+
+14
+00:00:45,920 --> 00:00:49,200
+mbse-podcast.rocks
+
+15
+00:00:49,200 --> 00:00:52,800
+And you can play around
+with it by yourself
+
+16
+00:00:53,199 --> 00:00:55,760
+Next year we will see and hear you again
+
+17
+00:00:55,760 --> 00:00:57,120
+in the usual way
+
+18
+00:00:57,120 --> 00:00:59,120
+We will soon announce the first dates
+
+19
+00:00:59,120 --> 00:01:02,779
+with new exciting topics via our website
+and social media channels
+
+20
+00:01:02,779 --> 00:01:06,380
+Facebook, LinkedIn, Instagram, and Twitter
+
+21
+00:01:06,640 --> 00:01:09,130
+We wish you all a Merry Christmas
+
+22
+00:01:09,280 --> 00:01:10,710
+A Happy New Year
+
+23
+00:01:10,880 --> 00:01:12,610
+And stay healthy
+
+24
+00:01:12,880 --> 00:01:13,920
+Bye-bye
+
+25
+00:01:14,080 --> 00:01:14,920
+Goodbye

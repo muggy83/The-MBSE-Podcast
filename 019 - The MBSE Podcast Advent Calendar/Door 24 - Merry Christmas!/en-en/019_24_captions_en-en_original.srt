@@ -1,0 +1,128 @@
+1
+00:00:00,880 --> 00:00:03,919
+ho ho ho and welcome to the 24th and
+
+2
+00:00:03,919 --> 00:00:06,160
+final door of our mbse podcast advent
+
+3
+00:00:06,160 --> 00:00:07,839
+calendar
+
+4
+00:00:07,839 --> 00:00:10,080
+today is a special day for many
+
+5
+00:00:10,080 --> 00:00:11,920
+we will avoid burdening your brain with
+
+6
+00:00:11,920 --> 00:00:14,080
+modelling topics today
+
+7
+00:00:14,080 --> 00:00:16,480
+instead we will end by in lighting up
+
+8
+00:00:16,480 --> 00:00:19,680
+our christmas tree
+
+9
+00:00:21,439 --> 00:00:23,680
+this can also be done much more amazing
+
+10
+00:00:23,680 --> 00:00:25,359
+with more effort
+
+11
+00:00:25,359 --> 00:00:27,359
+model simulations can be provided with
+
+12
+00:00:27,359 --> 00:00:29,199
+graphical interfaces in order to play
+
+13
+00:00:29,199 --> 00:00:31,599
+around with the system at an early stage
+
+14
+00:00:31,599 --> 00:00:34,640
+before anything has been implemented
+
+15
+00:00:34,640 --> 00:00:38,320
+finally here's a little gift from us
+
+16
+00:00:38,320 --> 00:00:41,040
+our mbse podcast cruising stream model
+
+17
+00:00:41,040 --> 00:00:43,360
+you can download it as a camera model or
+
+18
+00:00:43,360 --> 00:00:45,920
+as an xmi model from our website
+
+19
+00:00:45,920 --> 00:00:48,920
+mbse-podcast.rocks
+
+20
+00:00:49,200 --> 00:00:50,800
+and you can play around with it by
+
+21
+00:00:50,800 --> 00:00:53,199
+yourself
+
+22
+00:00:53,199 --> 00:00:55,760
+next year we will see and hear you again
+
+23
+00:00:55,760 --> 00:00:57,120
+in the usual way
+
+24
+00:00:57,120 --> 00:00:59,120
+we will soon announce the first dates
+
+25
+00:00:59,120 --> 00:01:01,680
+with new exciting topics via our website
+
+26
+00:01:01,680 --> 00:01:03,199
+and social media channels facebook
+
+27
+00:01:03,199 --> 00:01:06,640
+linkedin instagram and twitter
+
+28
+00:01:06,640 --> 00:01:09,280
+we wish you all a merry christmas
+
+29
+00:01:09,280 --> 00:01:10,880
+a happy new year
+
+30
+00:01:10,880 --> 00:01:12,880
+and stay healthy
+
+31
+00:01:12,880 --> 00:01:14,080
+bye bye
+
+32
+00:01:14,080 --> 00:01:17,080
+goodbye
+
