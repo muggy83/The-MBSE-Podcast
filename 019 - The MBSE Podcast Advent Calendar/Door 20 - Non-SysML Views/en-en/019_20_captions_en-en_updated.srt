@@ -1,0 +1,140 @@
+1
+00:00:00,399 --> 00:00:04,880
+Welcome to the 20th door of our
+MBSE Podcast Advent Calendar
+
+2
+00:00:04,880 --> 00:00:08,470
+Today we take a look at non-SysML views
+
+3
+00:00:08,720 --> 00:00:11,515
+SysML defines nine different diagram types
+
+4
+00:00:11,515 --> 00:00:15,920
+such as the use case diagram, the
+block definition diagram, and so on
+
+5
+00:00:15,920 --> 00:00:19,119
+Additionally tables and matrix
+views are defined
+
+6
+00:00:19,119 --> 00:00:24,080
+Other views are perfectly possible even
+if they are not covered by the standards
+
+7
+00:00:24,080 --> 00:00:27,460
+So, let's have a look at some of them
+
+8
+00:00:27,840 --> 00:00:32,299
+The relationship map diagram is a special
+diagram of the Cameo Systems Modeler
+
+9
+00:00:32,299 --> 00:00:37,200
+Starting from one element, a tree
+is spent on defined relationships
+
+10
+00:00:37,200 --> 00:00:41,838
+In this example, all elements are in
+the namespace of the previous node
+
+11
+00:00:41,838 --> 00:00:44,267
+which is shown
+
+12
+00:00:44,267 --> 00:00:47,820
+It shows all use cases and
+the selected package
+
+13
+00:00:47,820 --> 00:00:51,790
+and then all contained
+use case activities
+
+14
+00:00:52,579 --> 00:00:54,881
+The classic is, of course, Excel
+
+15
+00:00:54,881 --> 00:00:57,955
+Some modeling tools offer
+it directly out of the box
+
+16
+00:00:57,955 --> 00:01:00,960
+to export model elements to Excel
+
+17
+00:01:00,960 --> 00:01:06,980
+Some can also make the return trip and
+import Excel data back into the model
+
+18
+00:01:07,280 --> 00:01:11,260
+Needless to say that you can also
+generate text documents from a model
+
+19
+00:01:11,260 --> 00:01:16,190
+The text document is another
+special view of our model
+
+20
+00:01:17,040 --> 00:01:19,561
+Other interesting views
+are dynamic diagrams
+
+21
+00:01:19,561 --> 00:01:23,200
+such as those offered by
+the graph database Neo4j
+
+22
+00:01:23,200 --> 00:01:27,680
+The Syndeia tool from Intercax can
+export the SysML models to Neo4j
+
+23
+00:01:27,680 --> 00:01:31,844
+There the model can then be viewed
+in the dynamic graph diagrams
+
+24
+00:01:31,844 --> 00:01:35,200
+For example, to identify patterns
+and derive insights
+
+25
+00:01:35,200 --> 00:01:38,118
+You can find the link to this
+website from Intercax
+
+26
+00:01:38,118 --> 00:01:40,547
+in the blog post about this
+episode on our website
+
+27
+00:01:40,547 --> 00:01:43,400
+mbsepodcast.rocks
+
+28
+00:01:44,880 --> 00:01:48,399
+So much for the 20th door
+of our MBSE Podcast
+
+29
+00:01:48,399 --> 00:01:52,159
+And we wish you a great 20th of December
+
+30
+00:01:52,308 --> 00:01:53,028
+Bye-bye
