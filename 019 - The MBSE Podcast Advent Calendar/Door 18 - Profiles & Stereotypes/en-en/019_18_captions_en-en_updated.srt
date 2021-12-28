@@ -1,0 +1,208 @@
+1
+00:00:01,199 --> 00:00:05,107
+Welcome to the 18th door of our
+MBSE Podcast Advent Calendar
+
+2
+00:00:05,107 --> 00:00:10,600
+Today we take a look at the modeling
+of profiles and stereotypes
+
+3
+00:00:10,960 --> 00:00:13,660
+Typically you cannot use SysML
+out of the box very well
+
+4
+00:00:13,660 --> 00:00:16,610
+The language is too general
+to provide enough words
+
+5
+00:00:16,610 --> 00:00:18,800
+to talk about a complex system
+
+6
+00:00:18,800 --> 00:00:21,480
+For example, SysML defines a block
+
+7
+00:00:21,480 --> 00:00:23,629
+but not "system", "subsystem"
+
+8
+00:00:23,629 --> 00:00:29,039
+"component", "module", "domainBlock"
+"softwareBlock, and so forth
+
+9
+00:00:29,039 --> 00:00:32,948
+Or SysML defines a requirement
+with only three properties
+
+10
+00:00:32,948 --> 00:00:34,480
+"name", "id", and "text"
+
+11
+00:00:34,480 --> 00:00:38,220
+But neither "functional requirements"
+nor "performance requirements"
+
+12
+00:00:38,220 --> 00:00:42,569
+nor "properties" like a "priority"
+"motivation", or "risks"
+
+13
+00:00:42,879 --> 00:00:45,271
+It is intended that you extend SysML
+
+14
+00:00:45,271 --> 00:00:48,400
+with a more specific vocabulary
+that fits your need
+
+15
+00:00:48,700 --> 00:00:53,169
+so, let's have a look at
+how we did it in our model
+
+16
+00:00:53,920 --> 00:00:57,286
+Besides others, our model
+applies to SYSMOD profile
+
+17
+00:00:57,286 --> 00:01:00,879
+a profile defines an
+extension of SysML
+
+18
+00:01:00,879 --> 00:01:04,107
+The profile application relationships
+
+19
+00:01:04,107 --> 00:01:07,143
+make the extension
+available for the model
+
+20
+00:01:07,360 --> 00:01:11,120
+The profile is similar to a package
+and contains stereotypes
+
+21
+00:01:11,120 --> 00:01:14,470
+A stereotype extends an
+existing SysML element
+
+22
+00:01:14,470 --> 00:01:17,190
+It provides a name and semantic
+
+23
+00:01:17,190 --> 00:01:20,830
+and can provide additional
+properties and quotations
+
+24
+00:01:21,200 --> 00:01:24,864
+The following diagram shows some
+stereotypes of the SYSMOD profile
+
+25
+00:01:24,864 --> 00:01:28,580
+which extends the SysML block
+
+26
+00:01:29,520 --> 00:01:33,520
+The system stereotype
+specializes the SysML block
+
+27
+00:01:33,520 --> 00:01:35,840
+and adds two properties
+
+28
+00:01:35,840 --> 00:01:41,020
+to store the "Problem Statement"
+and the "System Idea" of the system
+
+29
+00:01:41,360 --> 00:01:46,240
+The SYSMOD stereotypes are
+defining also different actor categories
+
+30
+00:01:46,240 --> 00:01:50,479
+like "External Systems"
+"Environmental Effects", and so on
+
+31
+00:01:50,479 --> 00:01:53,520
+as well as it introduces a new notation
+
+32
+00:01:53,520 --> 00:01:58,920
+Therefore, the actor can be depicted
+by cubes in the system context
+
+33
+00:01:59,360 --> 00:02:02,538
+Typically the first step
+before modeling stereotypes
+
+34
+00:02:02,538 --> 00:02:07,619
+is creating a concept model
+of the new concepts
+
+35
+00:02:08,080 --> 00:02:09,420
+As one example
+
+36
+00:02:09,420 --> 00:02:14,040
+this block definition diagram shows
+the concept of variant modeling terms
+
+37
+00:02:14,040 --> 00:02:15,680
+from the VAMOS profile
+
+38
+00:02:15,680 --> 00:02:20,749
+VAMOS stands for Variant
+Modeling with SysML
+
+39
+00:02:21,599 --> 00:02:24,579
+The VAMOS stereotypes which are
+part of the SYSMOD profile
+
+40
+00:02:24,579 --> 00:02:27,720
+are derived from this concept model
+
+41
+00:02:28,000 --> 00:02:32,270
+We will have a more detailed look
+at variant modeling tomorrow
+
+42
+00:02:33,360 --> 00:02:36,730
+So much for the 18th door of our
+MBSE Podcast Advent Calendar
+
+43
+00:02:36,730 --> 00:02:39,420
+And we wish you a great 18th of December
+
+44
+00:02:39,420 --> 00:02:40,510
+Bye-bye
+
+45
+00:02:40,800 --> 00:02:41,890
+Goodbye
