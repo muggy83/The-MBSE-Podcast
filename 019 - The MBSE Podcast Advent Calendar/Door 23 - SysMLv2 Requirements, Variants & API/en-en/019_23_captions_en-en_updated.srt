@@ -1,0 +1,335 @@
+1
+00:00:00,799 --> 00:00:05,473
+Welcome to the 23rd door of our
+MBSE Podcast Advent Calendar
+
+2
+00:00:05,473 --> 00:00:07,540
+Today we show you some more aspects
+
+3
+00:00:07,540 --> 00:00:11,680
+of the next generation
+modeling language SysML v2
+
+4
+00:00:11,920 --> 00:00:14,783
+Yesterday we showed a
+simplified Physical Architecture
+
+5
+00:00:14,783 --> 00:00:18,400
+of our Christmas tree in SysML v2
+
+6
+00:00:18,400 --> 00:00:21,601
+Today we will briefly
+look at requirements
+
+7
+00:00:21,601 --> 00:00:25,680
+the modeling of variants
+and the SysML v2 API
+
+8
+00:00:25,680 --> 00:00:30,330
+First, let's open our
+Jupyter Notebook again
+
+9
+00:00:31,359 --> 00:00:33,920
+A quick reminder of what we already have
+
+10
+00:00:33,920 --> 00:00:35,920
+It is a simple Physical Architecture
+
+11
+00:00:35,920 --> 00:00:41,960
+that specifies the parts of our
+Christmas tree and their connections
+
+12
+00:00:42,719 --> 00:00:45,120
+Now we look at the requirements
+
+13
+00:00:45,120 --> 00:00:47,760
+We import a part of the requirements
+
+14
+00:00:47,760 --> 00:00:53,680
+from the International Christmas
+Tree Standard, ICS242526_12
+
+15
+00:00:53,680 --> 00:00:58,100
+which is modeled here with
+only one requirement
+
+16
+00:00:58,320 --> 00:01:03,359
+The ICS242526_12 requirement
+"ReqTreeHeight"
+
+17
+00:01:03,359 --> 00:01:05,035
+is a requirement definition
+
+18
+00:01:05,035 --> 00:01:07,965
+It specifies the name "ReqTreeHeight"
+
+19
+00:01:07,965 --> 00:01:10,700
+the requirement text after the doc keyword
+
+20
+00:01:10,700 --> 00:01:15,443
+and an attribute "treeHeight"
+to formally specify the constraint
+
+21
+00:01:15,443 --> 00:01:20,590
+that the height of the tree
+must be between 150 and 200
+
+22
+00:01:21,280 --> 00:01:25,759
+In the package "TMPCT_Requirements"
+
+23
+00:01:25,759 --> 00:01:30,320
+we use the defined
+ICS242526_12 requirement
+
+24
+00:01:30,320 --> 00:01:33,280
+Our TMPCT_Requirement
+"Height of the Tree"
+
+25
+00:01:33,280 --> 00:01:38,079
+is a usage of the requirement
+definition "ReqTreeHeight"
+
+26
+00:01:38,079 --> 00:01:42,000
+In addition we specify
+a requirement ID "REQ1"
+
+27
+00:01:42,000 --> 00:01:44,399
+and redefine the "treeHeight" attribute
+
+28
+00:01:44,399 --> 00:01:46,031
+by setting it to the value
+
+29
+00:01:46,031 --> 00:01:51,360
+of the appropriate value property
+of our Christmas tree
+
+30
+00:01:52,240 --> 00:01:56,719
+The visualization of the requirements is
+not very exciting among other things
+
+31
+00:01:56,719 --> 00:02:01,119
+because we have not used relationships
+
+32
+00:02:02,240 --> 00:02:05,812
+Next, we have a brief look at
+how to model variants
+
+33
+00:02:05,812 --> 00:02:09,038
+because this is a hot topic in MBSE
+
+34
+00:02:09,038 --> 00:02:13,990
+First, we take our
+"TMPCT_PhysicalArchitecture" again
+
+35
+00:02:14,879 --> 00:02:18,613
+The variability is defined in
+two additional packages
+
+36
+00:02:18,613 --> 00:02:20,900
+In the "TMPCT_Variations" package
+
+37
+00:02:20,900 --> 00:02:24,069
+we define an abstract
+"christmasTreeVariations" part
+
+38
+00:02:24,069 --> 00:02:28,587
+that contains the variations
+which constrain the allowed variants
+
+39
+00:02:28,587 --> 00:02:31,722
+The keyword and concept
+variation in SysML v2
+
+40
+00:02:31,722 --> 00:02:34,560
+is similar to the concept
+of a variation point
+
+41
+00:02:34,560 --> 00:02:39,183
+For example, we specified that
+our part "christmasTreeStar"
+
+42
+00:02:39,183 --> 00:02:41,368
+can have one of the three variant
+
+43
+00:02:41,368 --> 00:02:45,979
+"ecoStar", "premiumStar"
+or "standardStar"
+
+44
+00:02:46,319 --> 00:02:51,200
+We also defined another variation for
+the part "christmasTreeStand"
+
+45
+00:02:51,200 --> 00:02:54,480
+In addition, we defined
+a constraint that specifies
+
+46
+00:02:54,480 --> 00:02:57,280
+if the "premiumStar" variant is selected
+
+47
+00:02:57,280 --> 00:03:00,900
+you must select the "largeStand" variant
+
+48
+00:03:01,120 --> 00:03:05,663
+the variants are defined in another
+package "TMPCT_Variants"
+
+49
+00:03:05,663 --> 00:03:07,811
+very simple we just defined the parts
+
+50
+00:03:07,811 --> 00:03:13,430
+Only the "premiumStar" part
+owns another part "ledLight"
+
+51
+00:03:13,760 --> 00:03:15,840
+The visualization of the model depicts
+
+52
+00:03:15,840 --> 00:03:20,000
+some new special SysML v2
+notation elements for the variants
+
+53
+00:03:20,000 --> 00:03:26,230
+It shows the specified variance
+of a variation by a relationship
+
+54
+00:03:26,720 --> 00:03:31,173
+Finally we defined two products of our
+MBSE Podcast Christmas Tree
+
+55
+00:03:31,173 --> 00:03:35,996
+The "echoTree" subsets the abstract part
+"christmasTreeVariations"
+
+56
+00:03:35,996 --> 00:03:40,239
+and selects the "ecoStar" and
+the "standardStand" variants
+
+57
+00:03:40,239 --> 00:03:46,530
+the "premiumTree" selects the
+"premiumStar" and the "largeStand" variant
+
+58
+00:03:47,200 --> 00:03:52,219
+We close this episode with a
+brief look at the SysML v2 API
+
+59
+00:03:52,219 --> 00:03:55,870
+We can publish our model to
+a SysML v2 repository server
+
+60
+00:03:55,870 --> 00:03:59,200
+which is provided by
+the company Intercax
+
+61
+00:03:59,200 --> 00:04:01,667
+To have everything in one model
+
+62
+00:04:01,667 --> 00:04:08,340
+we put all our previous packages
+into one package called TMPCT
+
+63
+00:04:11,920 --> 00:04:15,839
+The publish command posts
+the model to the Intercax server
+
+64
+00:04:15,839 --> 00:04:21,660
+where we can access our
+model via the SysML v2 API
+
+65
+00:04:24,000 --> 00:04:28,302
+Through the Swagger UI
+you can use the API in the browser
+
+66
+00:04:28,302 --> 00:04:29,570
+As an example
+
+67
+00:04:29,570 --> 00:04:34,400
+we show how to view the list of
+projects in the SysML v2 repository
+
+68
+00:04:34,400 --> 00:04:38,956
+With the project number you could then
+get to the comments via the API
+
+69
+00:04:38,956 --> 00:04:45,270
+And via project and commit number
+then the elements of the model
+
+70
+00:04:51,759 --> 00:04:55,330
+So much for the 23rd door of our
+MBSE Podcast Advent Calendar
+
+71
+00:04:55,330 --> 00:04:58,171
+And we wish you a great 23rd of December
+
+72
+00:04:58,171 --> 00:04:59,056
+Bye-bye

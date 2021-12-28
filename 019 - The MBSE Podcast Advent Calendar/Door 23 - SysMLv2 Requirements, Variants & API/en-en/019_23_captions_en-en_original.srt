@@ -1,0 +1,440 @@
+1
+00:00:00,799 --> 00:00:03,439
+welcome to the 23rd door of our mbse
+
+2
+00:00:03,439 --> 00:00:06,319
+podcast advent calendar today we show
+
+3
+00:00:06,319 --> 00:00:08,000
+you some more aspects of the next
+
+4
+00:00:08,000 --> 00:00:11,920
+generation modeling language system v2
+
+5
+00:00:11,920 --> 00:00:13,920
+yesterday we showed a simplified
+
+6
+00:00:13,920 --> 00:00:15,759
+physical architecture of our christmas
+
+7
+00:00:15,759 --> 00:00:18,400
+tree in system lv2
+
+8
+00:00:18,400 --> 00:00:20,240
+today we will briefly look at
+
+9
+00:00:20,240 --> 00:00:22,800
+requirements the modeling of variants
+
+10
+00:00:22,800 --> 00:00:25,680
+and the system lv2 api
+
+11
+00:00:25,680 --> 00:00:27,920
+first let's open our jupyter notebook
+
+12
+00:00:27,920 --> 00:00:30,920
+again
+
+13
+00:00:31,359 --> 00:00:33,920
+a quick reminder of what we already have
+
+14
+00:00:33,920 --> 00:00:35,920
+it is a simple physical architecture
+
+15
+00:00:35,920 --> 00:00:37,840
+that specifies the parts of our
+
+16
+00:00:37,840 --> 00:00:42,399
+christmas tree and their connections
+
+17
+00:00:42,719 --> 00:00:45,120
+now we look at the requirements
+
+18
+00:00:45,120 --> 00:00:47,760
+we import a part of the requirements
+
+19
+00:00:47,760 --> 00:00:49,520
+from the international christmas tree
+
+20
+00:00:49,520 --> 00:00:53,680
+standard ics 242526-12
+
+21
+00:00:53,680 --> 00:00:55,760
+which is modeled here with only one
+
+22
+00:00:55,760 --> 00:00:58,320
+requirement
+
+23
+00:00:58,320 --> 00:01:00,440
+the
+
+24
+00:01:00,440 --> 00:01:03,359
+ics-2054-2526 requirement rec tree hate
+
+25
+00:01:03,359 --> 00:01:06,080
+is a requirement definition it specifies
+
+26
+00:01:06,080 --> 00:01:08,640
+the name rectory hate the requirement
+
+27
+00:01:08,640 --> 00:01:11,280
+text after the doc keyword and an
+
+28
+00:01:11,280 --> 00:01:14,320
+attribute 38 to formally specify the
+
+29
+00:01:14,320 --> 00:01:16,560
+constraint that the height of the tree
+
+30
+00:01:16,560 --> 00:01:21,280
+must be between 150 and 200.
+
+31
+00:01:21,280 --> 00:01:24,320
+in the package tmpct underscore
+
+32
+00:01:24,320 --> 00:01:25,759
+requirements
+
+33
+00:01:25,759 --> 00:01:29,040
+we use the defined ics 24 26 27
+
+34
+00:01:29,040 --> 00:01:30,320
+requirement
+
+35
+00:01:30,320 --> 00:01:33,280
+our tmpct requirement height of the tree
+
+36
+00:01:33,280 --> 00:01:36,079
+is a usage of the requirement definition
+
+37
+00:01:36,079 --> 00:01:38,079
+rec tree height
+
+38
+00:01:38,079 --> 00:01:40,960
+in addition we specify a requirement id
+
+39
+00:01:40,960 --> 00:01:42,000
+rec1
+
+40
+00:01:42,000 --> 00:01:44,399
+and redefine the tree height attribute
+
+41
+00:01:44,399 --> 00:01:46,320
+by setting it to the value of the
+
+42
+00:01:46,320 --> 00:01:48,720
+appropriate value property of our
+
+43
+00:01:48,720 --> 00:01:51,439
+christmas tree
+
+44
+00:01:52,240 --> 00:01:54,320
+the visualization of the requirements is
+
+45
+00:01:54,320 --> 00:01:56,719
+not very exciting among other things
+
+46
+00:01:56,719 --> 00:02:01,119
+because we have not used relationships
+
+47
+00:02:02,240 --> 00:02:04,799
+next we have a brief look at how to
+
+48
+00:02:04,799 --> 00:02:07,119
+model variants because this is a hot
+
+49
+00:02:07,119 --> 00:02:09,038
+topic in mbse
+
+50
+00:02:09,038 --> 00:02:11,440
+first we take our tmpct physical
+
+51
+00:02:11,440 --> 00:02:14,319
+architecture again
+
+52
+00:02:14,879 --> 00:02:17,120
+the variability is defined in two
+
+53
+00:02:17,120 --> 00:02:19,440
+additional packages in the tmpct
+
+54
+00:02:19,440 --> 00:02:22,160
+variations package we define an abstract
+
+55
+00:02:22,160 --> 00:02:24,239
+christmas tree variations part that
+
+56
+00:02:24,239 --> 00:02:27,120
+contains the variations which constrain
+
+57
+00:02:27,120 --> 00:02:29,680
+the allowed variants the keyword and
+
+58
+00:02:29,680 --> 00:02:31,760
+concept variation in system v2 is
+
+59
+00:02:31,760 --> 00:02:33,680
+similar to the concept of a variation
+
+60
+00:02:33,680 --> 00:02:34,560
+point
+
+61
+00:02:34,560 --> 00:02:37,519
+for example we specified that our part
+
+62
+00:02:37,519 --> 00:02:40,239
+christmas tree star can have one of the
+
+63
+00:02:40,239 --> 00:02:43,440
+three variants aqua star premium star or
+
+64
+00:02:43,440 --> 00:02:46,239
+standard star
+
+65
+00:02:46,319 --> 00:02:48,879
+we also defined another variation for
+
+66
+00:02:48,879 --> 00:02:51,200
+the part christmas tree stand
+
+67
+00:02:51,200 --> 00:02:53,280
+in addition we defined a constraint that
+
+68
+00:02:53,280 --> 00:02:54,480
+specifies
+
+69
+00:02:54,480 --> 00:02:57,280
+if the premium star variant is selected
+
+70
+00:02:57,280 --> 00:03:01,120
+you must select the large stand variant
+
+71
+00:03:01,120 --> 00:03:02,959
+the variants are defined in another
+
+72
+00:03:02,959 --> 00:03:06,239
+package tmpct variants very simple we
+
+73
+00:03:06,239 --> 00:03:08,720
+just defined the parts only the premium
+
+74
+00:03:08,720 --> 00:03:13,760
+star part owns another part led light
+
+75
+00:03:13,760 --> 00:03:15,840
+the visualization of the model depicts
+
+76
+00:03:15,840 --> 00:03:18,000
+some new special system lv2 notation
+
+77
+00:03:18,000 --> 00:03:20,000
+elements for the variants
+
+78
+00:03:20,000 --> 00:03:21,920
+it shows the specified variance of a
+
+79
+00:03:21,920 --> 00:03:26,480
+variation by a relationship
+
+80
+00:03:26,720 --> 00:03:29,200
+finally we defined two products of our
+
+81
+00:03:29,200 --> 00:03:31,599
+mbse podcast christmas tree the echo
+
+82
+00:03:31,599 --> 00:03:32,400
+tree
+
+83
+00:03:32,400 --> 00:03:35,040
+subsets the abstract part christmas tree
+
+84
+00:03:35,040 --> 00:03:38,080
+variations and selects the ecostar and
+
+85
+00:03:38,080 --> 00:03:40,239
+the standard style variants
+
+86
+00:03:40,239 --> 00:03:42,640
+the premium tree selects the premium
+
+87
+00:03:42,640 --> 00:03:47,159
+star and the large stent variant
+
+88
+00:03:47,200 --> 00:03:49,599
+we close this episode with a brief look
+
+89
+00:03:49,599 --> 00:03:52,239
+at the sysml v2 api
+
+90
+00:03:52,239 --> 00:03:54,640
+we can publish our model to a sysmlv2
+
+91
+00:03:54,640 --> 00:03:56,799
+repository server which is provided by
+
+92
+00:03:56,799 --> 00:03:59,200
+the company intercax
+
+93
+00:03:59,200 --> 00:04:00,959
+to have everything in one model in one
+
+94
+00:04:00,959 --> 00:04:03,680
+model we put all our previous packages
+
+95
+00:04:03,680 --> 00:04:08,159
+into one package called tmpct
+
+96
+00:04:11,920 --> 00:04:14,480
+the publish command posts the model to
+
+97
+00:04:14,480 --> 00:04:17,120
+the intercax server where we can access
+
+98
+00:04:17,120 --> 00:04:22,000
+our model via the system lv2 api
+
+99
+00:04:24,000 --> 00:04:26,400
+through the swagger ui you can use the
+
+100
+00:04:26,400 --> 00:04:30,080
+api in the browser as an example we show
+
+101
+00:04:30,080 --> 00:04:32,160
+how to view the list of projects in the
+
+102
+00:04:32,160 --> 00:04:34,400
+system lv2 repository
+
+103
+00:04:34,400 --> 00:04:36,320
+with the project number you could then
+
+104
+00:04:36,320 --> 00:04:39,600
+get to the comments via the api and via
+
+105
+00:04:39,600 --> 00:04:41,840
+project and commit number than the
+
+106
+00:04:41,840 --> 00:04:45,120
+elements of the model
+
+107
+00:04:51,759 --> 00:04:54,080
+so much for the 23rd door of our amazing
+
+108
+00:04:54,080 --> 00:04:56,080
+podcast advent calendar and we wish you
+
+109
+00:04:56,080 --> 00:04:58,320
+a great 23rd of december
+
+110
+00:04:58,320 --> 00:05:01,560
+bye bye
+
