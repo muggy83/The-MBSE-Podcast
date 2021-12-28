@@ -1,0 +1,137 @@
+1
+00:00:01,920 --> 00:00:03,679
+Ho ho ho!
+
+2
+00:00:03,679 --> 00:00:07,268
+Behind the 12th door of our
+MBSE Podcast Advent Calendar
+
+3
+00:00:07,268 --> 00:00:11,599
+We take a final look at
+the Functional Architecture
+
+4
+00:00:11,599 --> 00:00:16,249
+Yesterday we created the breakdown
+structure of the Functional Architecture
+
+5
+00:00:18,320 --> 00:00:21,855
+Now we look at the interesting
+part of the Functional Architecture
+
+6
+00:00:21,855 --> 00:00:24,240
+It is the internal structure with ports
+
+7
+00:00:24,240 --> 00:00:27,890
+and connections between
+the functional parts
+
+8
+00:00:31,119 --> 00:00:34,571
+It is also of interest to consider
+the functional system context
+
+9
+00:00:34,571 --> 00:00:39,920
+therefore we inherit the function
+called text from the system context
+
+10
+00:00:39,920 --> 00:00:42,688
+The inherited actors are
+not purely functional
+
+11
+00:00:42,688 --> 00:00:46,150
+but our normal system actors
+
+12
+00:00:46,399 --> 00:00:50,079
+An internal block diagram of
+the functional context elements
+
+13
+00:00:50,079 --> 00:00:55,109
+shows the context and the structure
+of the Functional Architecture
+
+14
+00:00:57,960 --> 00:01:01,760
+A functional path represents
+a group of activities
+
+15
+00:01:01,760 --> 00:01:07,119
+and the connectors and parts are
+derived from the activity models
+
+16
+00:01:07,119 --> 00:01:11,283
+If an activity of one part has
+an output parameter
+
+17
+00:01:11,283 --> 00:01:15,360
+which is an input parameter of
+an activity in another function part
+
+18
+00:01:15,360 --> 00:01:17,360
+They are connected and the port
+
+19
+00:01:17,360 --> 00:01:22,610
+specifies that these parameter
+objects flow through it
+
+20
+00:01:22,880 --> 00:01:26,640
+Some parts have no arrow
+inside the rectangle symbol
+
+21
+00:01:26,640 --> 00:01:30,064
+Here the detailed specification
+of the flow property is missing
+
+22
+00:01:30,064 --> 00:01:35,359
+because either it's not important or
+it has not been modeled yet
+
+23
+00:01:37,600 --> 00:01:41,520
+The flow properties are
+specified by interface blocks
+
+24
+00:01:41,520 --> 00:01:44,880
+The interface blocks are
+the types of the ports
+
+25
+00:01:44,880 --> 00:01:50,370
+the block definition diagram shows
+some of our functional interface books
+
+26
+00:01:52,799 --> 00:01:56,901
+So much for the 12th door of our
+MBSE Podcast Advent Calendar
+
+27
+00:01:56,901 --> 00:02:00,870
+And we wish you a great 12th of December
+
+28
+00:02:01,040 --> 00:02:01,920
+Bye-bye
+
+29
+00:02:02,020 --> 00:02:02,800
+Goodbye

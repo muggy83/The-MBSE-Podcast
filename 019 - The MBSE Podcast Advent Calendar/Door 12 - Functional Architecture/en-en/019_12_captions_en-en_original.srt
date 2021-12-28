@@ -1,0 +1,192 @@
+1
+00:00:01,920 --> 00:00:03,679
+ho ho ho
+
+2
+00:00:03,679 --> 00:00:06,399
+behind the 12th door of our mbse podcast
+
+3
+00:00:06,399 --> 00:00:08,800
+advent calendar we take a final look at
+
+4
+00:00:08,800 --> 00:00:11,599
+the functional architecture
+
+5
+00:00:11,599 --> 00:00:13,599
+yesterday we created the breakdown
+
+6
+00:00:13,599 --> 00:00:17,639
+structure of the functional architecture
+
+7
+00:00:18,320 --> 00:00:20,240
+now we look at the interesting part of
+
+8
+00:00:20,240 --> 00:00:22,400
+the functional architecture it is the
+
+9
+00:00:22,400 --> 00:00:24,240
+internal structure with ports and
+
+10
+00:00:24,240 --> 00:00:28,920
+connections between the functional parts
+
+11
+00:00:31,119 --> 00:00:33,120
+it is also of interest to consider the
+
+12
+00:00:33,120 --> 00:00:35,840
+functional system context therefore we
+
+13
+00:00:35,840 --> 00:00:38,079
+inherit the function called text from
+
+14
+00:00:38,079 --> 00:00:39,920
+the system context
+
+15
+00:00:39,920 --> 00:00:42,079
+the inherited actors are not purely
+
+16
+00:00:42,079 --> 00:00:46,320
+functional but our normal system actors
+
+17
+00:00:46,399 --> 00:00:48,000
+an internal block diagram of the
+
+18
+00:00:48,000 --> 00:00:50,079
+functional context elements
+
+19
+00:00:50,079 --> 00:00:52,559
+shows the context and the structure of
+
+20
+00:00:52,559 --> 00:00:55,120
+the functional
+
+21
+00:00:56,840 --> 00:00:59,760
+architecture functional path represents
+
+22
+00:00:59,760 --> 00:01:01,760
+a group of activities
+
+23
+00:01:01,760 --> 00:01:04,959
+and the connectors and parts are derived
+
+24
+00:01:04,959 --> 00:01:07,119
+from the activity models
+
+25
+00:01:07,119 --> 00:01:09,680
+if an activity of one part
+
+26
+00:01:09,680 --> 00:01:11,840
+has an output parameter which is an
+
+27
+00:01:11,840 --> 00:01:13,360
+input parameter of an activity in
+
+28
+00:01:13,360 --> 00:01:15,360
+another function part
+
+29
+00:01:15,360 --> 00:01:17,360
+they are connected and the port
+
+30
+00:01:17,360 --> 00:01:20,320
+specifies that these parameter objects
+
+31
+00:01:20,320 --> 00:01:22,880
+flow through it
+
+32
+00:01:22,880 --> 00:01:24,960
+some parts have no arrow inside the
+
+33
+00:01:24,960 --> 00:01:26,640
+rectangle symbol
+
+34
+00:01:26,640 --> 00:01:28,640
+here the detailed specification of the
+
+35
+00:01:28,640 --> 00:01:31,119
+flow property is missing because either
+
+36
+00:01:31,119 --> 00:01:33,280
+it's not important or it has not been
+
+37
+00:01:33,280 --> 00:01:35,920
+modeled yet
+
+38
+00:01:37,600 --> 00:01:39,840
+the flow properties are specified by
+
+39
+00:01:39,840 --> 00:01:41,520
+interface blocks
+
+40
+00:01:41,520 --> 00:01:43,759
+the interface blocks are the types of
+
+41
+00:01:43,759 --> 00:01:44,880
+the ports
+
+42
+00:01:44,880 --> 00:01:47,200
+the block definition diagram shows some
+
+43
+00:01:47,200 --> 00:01:50,960
+of our functional interface books
+
+44
+00:01:52,799 --> 00:01:55,600
+so much for the 12th door of our mbse
+
+45
+00:01:55,600 --> 00:01:57,680
+podcast advent calendar and we wish you
+
+46
+00:01:57,680 --> 00:02:01,040
+a great 12th of december
+
+47
+00:02:01,040 --> 00:02:02,000
+bye-bye
+
+48
+00:02:02,000 --> 00:02:05,000
+goodbye
+
