@@ -1,0 +1,232 @@
+1
+00:00:01,439 --> 00:00:03,679
+welcome to the 21st store of our embassy
+
+2
+00:00:03,679 --> 00:00:06,319
+podcast advent calendar today we take a
+
+3
+00:00:06,319 --> 00:00:09,519
+look at the death of the actors
+
+4
+00:00:09,519 --> 00:00:11,280
+that doesn't sound very christmassy but
+
+5
+00:00:11,280 --> 00:00:13,679
+we definitely need to talk about it
+
+6
+00:00:13,679 --> 00:00:17,760
+the actors died a long time ago curious
+
+7
+00:00:17,760 --> 00:00:20,720
+let's have a look in our model
+
+8
+00:00:20,720 --> 00:00:23,600
+our system context diagram clearly shows
+
+9
+00:00:23,600 --> 00:00:27,920
+actors so who is that here
+
+10
+00:00:27,920 --> 00:00:29,679
+therefore we need to distinguish between
+
+11
+00:00:29,679 --> 00:00:32,159
+the concept actor from the system l
+
+12
+00:00:32,159 --> 00:00:33,520
+element actor
+
+13
+00:00:33,520 --> 00:00:36,160
+the model element is that or rather we
+
+14
+00:00:36,160 --> 00:00:37,840
+bury it
+
+15
+00:00:37,840 --> 00:00:38,960
+why
+
+16
+00:00:38,960 --> 00:00:40,800
+let's take a closer look
+
+17
+00:00:40,800 --> 00:00:43,280
+so the concept of actor is great
+
+18
+00:00:43,280 --> 00:00:45,440
+external entities interacting with the
+
+19
+00:00:45,440 --> 00:00:47,120
+system and so on with all the
+
+20
+00:00:47,120 --> 00:00:51,600
+methodological variants that exist
+
+21
+00:00:51,760 --> 00:00:54,000
+the sosumel model element actor is
+
+22
+00:00:54,000 --> 00:00:55,360
+problematic
+
+23
+00:00:55,360 --> 00:00:58,160
+it comes from uml and is there defined
+
+24
+00:00:58,160 --> 00:01:00,879
+in such a way that an actor may not have
+
+25
+00:01:00,879 --> 00:01:03,760
+acne parts receptions operations
+
+26
+00:01:03,760 --> 00:01:06,240
+attributes or parts
+
+27
+00:01:06,240 --> 00:01:08,000
+but these features are needed now and
+
+28
+00:01:08,000 --> 00:01:10,640
+then for example our actual power supply
+
+29
+00:01:10,640 --> 00:01:14,240
+has a port or our actual room has a part
+
+30
+00:01:14,240 --> 00:01:16,799
+named floor
+
+31
+00:01:16,799 --> 00:01:19,680
+so if we just claimed that a small actor
+
+32
+00:01:19,680 --> 00:01:23,840
+can't have that why could we model that
+
+33
+00:01:23,840 --> 00:01:25,200
+well
+
+34
+00:01:25,200 --> 00:01:27,840
+because we did not use the system
+
+35
+00:01:27,840 --> 00:01:30,320
+electro as mentioned at the beginning
+
+36
+00:01:30,320 --> 00:01:32,320
+the actor is dead respectively
+
+37
+00:01:32,320 --> 00:01:34,240
+non-existent for us
+
+38
+00:01:34,240 --> 00:01:36,960
+formally our actor kinds from the sisma
+
+39
+00:01:36,960 --> 00:01:39,360
+profile are stereotypes specializing
+
+40
+00:01:39,360 --> 00:01:41,119
+this isn't a block
+
+41
+00:01:41,119 --> 00:01:42,799
+so the stereotypes define the
+
+42
+00:01:42,799 --> 00:01:46,720
+appropriate actor semantics
+
+43
+00:01:46,720 --> 00:01:48,479
+by the way this is not a nasty work
+
+44
+00:01:48,479 --> 00:01:51,200
+around but formally mapped correctly
+
+45
+00:01:51,200 --> 00:01:53,520
+even the ssml specification uses this
+
+46
+00:01:53,520 --> 00:01:56,079
+kind of acta modeling in its hybrid suv
+
+47
+00:01:56,079 --> 00:01:57,920
+model
+
+48
+00:01:57,920 --> 00:02:00,399
+thus actors have the same capability
+
+49
+00:02:00,399 --> 00:02:02,880
+cities as blocks and can have ports
+
+50
+00:02:02,880 --> 00:02:06,399
+internal structures and so on
+
+51
+00:02:06,399 --> 00:02:08,639
+so we have by no means trash the concept
+
+52
+00:02:08,639 --> 00:02:10,800
+of the actor but the sesame model
+
+53
+00:02:10,800 --> 00:02:11,840
+element
+
+54
+00:02:11,840 --> 00:02:13,760
+the actor is dead
+
+55
+00:02:13,760 --> 00:02:16,800
+long live the actor
+
+56
+00:02:16,800 --> 00:02:19,040
+so much for the 21st door of our embassy
+
+57
+00:02:19,040 --> 00:02:20,879
+podcast advent calendar and we wish you
+
+58
+00:02:20,879 --> 00:02:27,239
+a great 21st of december bye-bye goodbye
+
