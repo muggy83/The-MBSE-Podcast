@@ -1,0 +1,152 @@
+1
+00:00:01,199 --> 00:00:02,399
+welcome
+
+2
+00:00:02,399 --> 00:00:04,880
+behind the 14th store for mbse podcast
+
+3
+00:00:04,880 --> 00:00:07,359
+advent calendar we take a look again on
+
+4
+00:00:07,359 --> 00:00:09,599
+the physical architecture
+
+5
+00:00:09,599 --> 00:00:11,679
+yesterday we worked on the definition of
+
+6
+00:00:11,679 --> 00:00:13,840
+the physical architecture and the
+
+7
+00:00:13,840 --> 00:00:15,280
+allocation of the elements from the
+
+8
+00:00:15,280 --> 00:00:16,880
+functional architecture
+
+9
+00:00:16,880 --> 00:00:18,480
+let's have a look at it again in the
+
+10
+00:00:18,480 --> 00:00:20,800
+model
+
+11
+00:00:22,720 --> 00:00:24,640
+today we will cover the internal
+
+12
+00:00:24,640 --> 00:00:28,840
+structure of the physical architecture
+
+13
+00:00:31,519 --> 00:00:33,840
+the internal block diagram shows all
+
+14
+00:00:33,840 --> 00:00:35,920
+parts and connections of our physical
+
+15
+00:00:35,920 --> 00:00:37,440
+architecture
+
+16
+00:00:37,440 --> 00:00:39,600
+it's somewhat simplified here and we
+
+17
+00:00:39,600 --> 00:00:41,840
+have not explicitly modeled all of the
+
+18
+00:00:41,840 --> 00:00:42,960
+ports
+
+19
+00:00:42,960 --> 00:00:45,200
+as a reminder you can identify the
+
+20
+00:00:45,200 --> 00:00:47,200
+inherited elements by the circumflex
+
+21
+00:00:47,200 --> 00:00:50,000
+symbol before the name
+
+22
+00:00:50,000 --> 00:00:52,000
+if the system is more complex
+
+23
+00:00:52,000 --> 00:00:53,680
+you will have more internal block
+
+24
+00:00:53,680 --> 00:00:54,800
+diagrams
+
+25
+00:00:54,800 --> 00:00:56,559
+on the one hand different diagrams on
+
+26
+00:00:56,559 --> 00:00:58,640
+the different hierarchical levels of the
+
+27
+00:00:58,640 --> 00:01:01,440
+system and on the other hand diagrams
+
+28
+00:01:01,440 --> 00:01:02,960
+for different aspects for example
+
+29
+00:01:02,960 --> 00:01:04,720
+internal block diagrams that only show
+
+30
+00:01:04,720 --> 00:01:07,119
+logical or internal block diagrams that
+
+31
+00:01:07,119 --> 00:01:10,159
+show only electrical connections
+
+32
+00:01:10,159 --> 00:01:12,479
+or entire block diagrams that only show
+
+33
+00:01:12,479 --> 00:01:14,400
+the connections necessary for a specific
+
+34
+00:01:14,400 --> 00:01:16,880
+use case
+
+35
+00:01:17,680 --> 00:01:20,320
+so much for the 14th store of our mbse
+
+36
+00:01:20,320 --> 00:01:22,720
+podcast advent calendar and we wish you
+
+37
+00:01:22,720 --> 00:01:24,840
+a great 14th of
+
+38
+00:01:24,840 --> 00:01:29,320
+december bye-bye goodbye
+
