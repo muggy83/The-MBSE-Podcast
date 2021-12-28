@@ -1,0 +1,135 @@
+1
+00:00:01,199 --> 00:00:06,000
+Welcome to the 9th door of the
+MBSE Podcast Advent Calendar
+
+2
+00:00:06,000 --> 00:00:09,507
+This time we take a look at
+the State Machines
+
+3
+00:00:09,920 --> 00:00:15,120
+Here we use a State Machine to specify
+the top level states of our system
+
+4
+00:00:15,120 --> 00:00:19,138
+And with that the pre and post
+conditions of the Use Cases
+
+5
+00:00:19,138 --> 00:00:21,840
+This State Machine is
+owned by the system element
+
+6
+00:00:21,840 --> 00:00:24,540
+So, let's look at it in the model
+
+7
+00:00:26,800 --> 00:00:30,213
+The State Machine considers four
+states of the Christmas tree
+
+8
+00:00:30,213 --> 00:00:35,739
+which are "Packed", "Ready to use"
+"Operation" and "Disposed"
+
+9
+00:00:36,480 --> 00:00:39,520
+Do you remember the triggers
+of our Use Cases?
+
+10
+00:00:39,520 --> 00:00:42,049
+We specified a textual trigger
+
+11
+00:00:42,049 --> 00:00:45,520
+as well as a formal signal model
+element for the trigger
+
+12
+00:00:45,520 --> 00:00:52,179
+The Use Case trigger signals trigger
+the transitions in our State Machine
+
+13
+00:00:52,960 --> 00:00:56,630
+The Use Case Activities are
+the effect of the transitions
+
+14
+00:00:56,630 --> 00:00:59,440
+or internal behaviors of the states
+
+15
+00:00:59,440 --> 00:01:01,060
+The special learning surprise
+
+16
+00:01:01,060 --> 00:01:04,870
+you cannot directly set the
+Use Case Activity on a transition
+
+17
+00:01:04,870 --> 00:01:08,023
+or a state because they
+must own the activity
+
+18
+00:01:08,023 --> 00:01:12,680
+however the Use Case Activity is
+already owned by the Use Case
+
+19
+00:01:13,200 --> 00:01:18,000
+The trick is to define an activity with
+a single call behavior action
+
+20
+00:01:18,000 --> 00:01:20,720
+which calls the Use Case Activity
+
+21
+00:01:20,720 --> 00:01:25,520
+for example, the effect of the
+do behavior of the operation state
+
+22
+00:01:25,520 --> 00:01:28,240
+we find that in this region
+
+23
+00:01:28,240 --> 00:01:35,310
+there's the operation state and inside
+the operation state is the activity
+
+24
+00:01:36,560 --> 00:01:39,549
+The activity does not need
+an initial or final node
+
+25
+00:01:39,549 --> 00:01:43,760
+It is sufficient to just model
+the call behavior action
+
+26
+00:01:44,479 --> 00:01:47,661
+So much for the 9th store of our
+MBSE Podcast Advent Calendar
+
+27
+00:01:47,661 --> 00:01:50,399
+And we wish you a great 9th of December
+
+28
+00:01:50,399 --> 00:01:51,119
+Bye-bye
+
+29
+00:01:51,170 --> 00:01:51,870
+Goodbye
