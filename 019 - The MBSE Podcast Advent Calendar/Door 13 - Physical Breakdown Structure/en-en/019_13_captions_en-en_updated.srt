@@ -1,0 +1,181 @@
+1
+00:00:01,439 --> 00:00:04,337
+Welcome to another door of the
+MBSE Podcast Advent Calendar
+
+2
+00:00:04,337 --> 00:00:08,160
+Behind the 13th door, we take a look at
+the Physical Architecture
+
+3
+00:00:08,480 --> 00:00:11,759
+In the last days, we presented
+the Functional Architecture
+
+4
+00:00:11,759 --> 00:00:14,405
+As a reminder, let's open
+the internal block diagram
+
+5
+00:00:14,405 --> 00:00:17,780
+of the Functional Architecture in the tool
+
+6
+00:00:19,600 --> 00:00:22,115
+We also have created
+a Physical Architecture
+
+7
+00:00:22,115 --> 00:00:24,527
+of our MBSE Podcast Christmas Tree
+
+8
+00:00:24,527 --> 00:00:28,567
+which specifies the physical entities
+that implement the functional entities
+
+9
+00:00:28,567 --> 00:00:31,579
+from the Functional Architecture
+
+10
+00:00:32,880 --> 00:00:37,200
+The Physical Architecture is a
+specialization of the Base Architecture
+
+11
+00:00:37,200 --> 00:00:41,438
+In this diagram the element with a
+"system" stereotype with the name
+
+12
+00:00:41,438 --> 00:00:43,280
+The MBSE Podcast Christmas Tree
+
+13
+00:00:43,280 --> 00:00:48,879
+It inherits most of the parts from the
+system element TMPCT Base Architecture
+
+14
+00:00:48,879 --> 00:00:52,158
+As we have seen before we
+used illustrations in this case
+
+15
+00:00:52,158 --> 00:00:53,911
+instead of the block notation
+
+16
+00:00:53,911 --> 00:00:59,070
+which makes it easier for unexperienced
+users to understand the diagram
+
+17
+00:00:59,280 --> 00:01:02,140
+The blocks from our Functional
+Architecture are allocated
+
+18
+00:01:02,140 --> 00:01:04,400
+to the blocks of the Physical Architecture
+
+19
+00:01:04,400 --> 00:01:10,229
+The allocation specifies which physical
+block implements which function block
+
+20
+00:01:10,479 --> 00:01:14,869
+Let's see how we manage
+the allocations in a matrix
+
+21
+00:01:18,080 --> 00:01:20,240
+The rows list the function blocks
+
+22
+00:01:20,240 --> 00:01:22,080
+The columns the physical blocks
+
+23
+00:01:22,080 --> 00:01:24,560
+And the cells the allocate relationship
+
+24
+00:01:24,560 --> 00:01:27,630
+Some functional blocks are mapped to
+more than one physical block
+
+25
+00:01:27,630 --> 00:01:31,073
+And some physical blocks have more
+than one allocated functional block
+
+26
+00:01:31,073 --> 00:01:33,156
+It is a rather rough mapping
+
+27
+00:01:33,156 --> 00:01:37,282
+So for example if a functional block is
+allocated to multiple physical blocks
+
+28
+00:01:37,282 --> 00:01:40,400
+it is not clear
+whether it is redundantly allocated
+
+29
+00:01:40,400 --> 00:01:42,560
+are only parts of the functional block
+
+30
+00:01:42,560 --> 00:01:45,920
+However, this is usually
+sufficient in the model
+
+31
+00:01:45,920 --> 00:01:48,583
+More details if required can be introduced
+
+32
+00:01:48,583 --> 00:01:52,319
+by extending the allocate
+relationship with a stereotype
+
+33
+00:01:52,799 --> 00:01:54,880
+As with the Functional Architecture
+
+34
+00:01:54,880 --> 00:01:58,960
+the more interesting part is the internal
+structure of the Physical Architecture
+
+35
+00:01:58,960 --> 00:02:01,040
+with ports and connections
+
+36
+00:02:01,040 --> 00:02:03,659
+that we will cover tomorrow
+
+37
+00:02:04,399 --> 00:02:08,130
+So much for the 13th door of our
+MBSE Podcast Advent Calendar
+
+38
+00:02:08,130 --> 00:02:10,665
+And we wish you a great 13th of December
+
+39
+00:02:10,665 --> 00:02:11,515
+Bye-bye
+
+40
+00:02:11,665 --> 00:02:12,597
+Goodbye
