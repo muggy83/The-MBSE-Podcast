@@ -1,0 +1,335 @@
+1
+00:00:01,599 --> 00:00:06,160
+Welcome to the 22nd door of our
+MBSE Podcast Advent Calendar
+
+2
+00:00:06,160 --> 00:00:11,280
+Today we travel to the future and model
+our great MBSE Podcast Christmas Tree
+
+3
+00:00:11,280 --> 00:00:15,509
+with the next generation
+modeling language SysML v2
+
+4
+00:00:15,759 --> 00:00:18,038
+The SysML v2 is currently
+under development
+
+5
+00:00:18,038 --> 00:00:22,956
+It will be officially available
+probably in 2023 or 2024
+
+6
+00:00:22,956 --> 00:00:24,700
+So, there's still some time
+
+7
+00:00:24,700 --> 00:00:27,578
+however it is already interesting
+to take a look at it now
+
+8
+00:00:27,578 --> 00:00:29,736
+in order to set the cost in good time
+
+9
+00:00:29,736 --> 00:00:33,576
+Two to three years is a very short
+time in relation to major changes
+
+10
+00:00:33,576 --> 00:00:37,000
+in the process process
+and tool landscape in MBSE
+
+11
+00:00:37,280 --> 00:00:41,630
+The SysML Submission Team
+SST for short is currently working
+
+12
+00:00:41,630 --> 00:00:43,804
+on the specification of SysML v2
+
+13
+00:00:43,804 --> 00:00:47,672
+What is great is that they also
+provide a pilot implementation
+
+14
+00:00:47,672 --> 00:00:51,120
+So that you can experiment with SysML v2
+
+15
+00:00:51,120 --> 00:00:54,029
+We use the pilot implementation
+based on Jupyter Lab
+
+16
+00:00:54,029 --> 00:00:56,268
+to show you some
+more or less equivalent
+
+17
+00:00:56,268 --> 00:01:00,731
+SysML v2 models of our Christmas tree
+
+18
+00:01:01,199 --> 00:01:04,523
+To avoid having to set up a Jupyter Lab
+environment yourself
+
+19
+00:01:04,523 --> 00:01:10,320
+my company provides a ready-to-use
+implementation at systemlv2lab.com
+
+20
+00:01:10,320 --> 00:01:14,400
+Here you will find a general
+introduction to SysML v2
+
+21
+00:01:14,400 --> 00:01:17,105
+The current state of the
+specification and many examples
+
+22
+00:01:17,105 --> 00:01:20,200
+You can also create your own
+models and play around with them
+
+23
+00:01:20,200 --> 00:01:24,327
+But be aware from time to time
+the server will be restarted
+
+24
+00:01:24,327 --> 00:01:26,153
+and all files will be lost
+
+25
+00:01:26,153 --> 00:01:30,506
+if you want to save your models
+you have to download them manually
+
+26
+00:01:30,799 --> 00:01:33,476
+We have already uploaded
+our Jupyter Notebook
+
+27
+00:01:33,476 --> 00:01:36,079
+for the MBSE Podcast Christmas Tree
+
+28
+00:01:36,079 --> 00:01:38,470
+SysML v2 offers a textual notation
+
+29
+00:01:38,470 --> 00:01:43,040
+in addition to the graphical notation
+known from SysML v1
+
+30
+00:01:43,040 --> 00:01:46,799
+To create the models in
+the pilot implementation
+
+31
+00:01:46,799 --> 00:01:48,755
+one has to use the textual notation
+
+32
+00:01:48,755 --> 00:01:52,960
+an then can generate the
+graphical notation automatically
+
+33
+00:01:52,960 --> 00:01:57,439
+Later there will probably be graphical
+editors for SysML v2 as well
+
+34
+00:01:57,439 --> 00:02:01,190
+So, let's have a look into
+the Jupyter Lab
+
+35
+00:02:02,079 --> 00:02:05,040
+Our TMPCT model is a simplified version
+
+36
+00:02:05,040 --> 00:02:09,440
+of our SysML v1 Physical Architecture
+of the Christmas tree
+
+37
+00:02:09,440 --> 00:02:12,239
+We have directly modeled the parts
+
+38
+00:02:12,239 --> 00:02:14,560
+They have no explicit type here
+
+39
+00:02:14,560 --> 00:02:16,266
+Simplified in SysML v1
+
+40
+00:02:16,266 --> 00:02:20,000
+it would mean to define part
+properties without blocks
+
+41
+00:02:20,000 --> 00:02:23,920
+what works in SysML v2
+but not in SysML v1
+
+42
+00:02:23,920 --> 00:02:27,536
+is that the parts can also
+define structures themselves
+
+43
+00:02:27,536 --> 00:02:30,748
+as you can see here
+for example with the tree
+
+44
+00:02:30,748 --> 00:02:36,729
+which defines the trunk, the branches
+and an attribute for the head of the tree
+
+45
+00:02:36,959 --> 00:02:41,890
+If no type is defined however a type
+from the system library of SysML v2
+
+46
+00:02:41,890 --> 00:02:44,879
+is implicitly set in the background
+
+47
+00:02:44,879 --> 00:02:48,879
+Also a part always needs a context
+
+48
+00:02:48,879 --> 00:02:53,680
+If this is not given as for example
+with our top level part
+
+49
+00:02:53,680 --> 00:02:56,319
+the MBSE Podcast Christmas Tree
+
+50
+00:02:56,319 --> 00:02:59,734
+then the element anything
+from the kermal base library
+
+51
+00:02:59,734 --> 00:03:02,800
+is set as the context for the element
+
+52
+00:03:02,800 --> 00:03:07,969
+By the way, kernel is the
+meta model of SysML v2
+
+53
+00:03:08,239 --> 00:03:10,480
+For one part, we set the type
+
+54
+00:03:10,480 --> 00:03:14,000
+The part ball is of type
+"ChristmasTreeBall"
+
+55
+00:03:14,000 --> 00:03:15,892
+which is defined at the end
+
+56
+00:03:15,892 --> 00:03:18,219
+it contains the definition
+of an enumeration
+
+57
+00:03:18,219 --> 00:03:22,940
+which is then used to
+specify the attribute color
+
+58
+00:03:23,599 --> 00:03:26,799
+So far, all we have is a list of things
+
+59
+00:03:26,799 --> 00:03:29,945
+The diagram is therefore
+also just a simple tree structure
+
+60
+00:03:29,945 --> 00:03:34,880
+which of course fits perfectly
+with our Christmas tree project
+
+61
+00:03:35,200 --> 00:03:38,940
+The graphical notation of SysML v2 is
+very similar to SysML v1
+
+62
+00:03:38,940 --> 00:03:41,848
+One difference in the diagram
+is the relationship
+
+63
+00:03:41,848 --> 00:03:45,680
+between the part ball and
+the part definition "ChristmasTreeBall"
+
+64
+00:03:45,680 --> 00:03:51,369
+the relationship with the two
+points is defined by relationship
+
+65
+00:03:51,920 --> 00:03:54,560
+Now we add some connections to our model
+
+66
+00:03:54,560 --> 00:04:00,515
+For example, we use simple
+connection relationships
+
+67
+00:04:05,040 --> 00:04:08,959
+And if we visualize the model, we can see
+the structure of our Christmas tree
+
+68
+00:04:08,959 --> 00:04:12,410
+However since the visualization
+is generated automatically
+
+69
+00:04:12,410 --> 00:04:15,400
+we cannot adjust the layout
+
+70
+00:04:17,040 --> 00:04:20,917
+So much for the 22nd door of
+MBSE Podcast Advent Calendar
+
+71
+00:04:20,917 --> 00:04:25,512
+And we wish you a great 22nd of December
+
+72
+00:04:25,782 --> 00:04:26,730
+Bye-bye

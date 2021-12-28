@@ -1,0 +1,452 @@
+1
+00:00:01,599 --> 00:00:04,240
+welcome to the 22nd door of our mbse
+
+2
+00:00:04,240 --> 00:00:06,160
+podcast advent calendar
+
+3
+00:00:06,160 --> 00:00:08,559
+today we travel to the future and model
+
+4
+00:00:08,559 --> 00:00:11,280
+our great mbse podcast christmas tree
+
+5
+00:00:11,280 --> 00:00:12,719
+with the next generation modeling
+
+6
+00:00:12,719 --> 00:00:15,759
+language sysmlv2
+
+7
+00:00:15,759 --> 00:00:17,279
+system rb2 is currently under
+
+8
+00:00:17,279 --> 00:00:19,359
+development it will be officially
+
+9
+00:00:19,359 --> 00:00:23,279
+available probably in 2023 or 2024 so
+
+10
+00:00:23,279 --> 00:00:25,519
+there's still some time however it is
+
+11
+00:00:25,519 --> 00:00:27,119
+already interesting to take a look at it
+
+12
+00:00:27,119 --> 00:00:29,199
+now in order to set the cost in good
+
+13
+00:00:29,199 --> 00:00:31,840
+time two to three years is a very short
+
+14
+00:00:31,840 --> 00:00:33,840
+time in relation to major changes in the
+
+15
+00:00:33,840 --> 00:00:37,280
+process and tool landscape in mbsd
+
+16
+00:00:37,280 --> 00:00:40,320
+the csml submission team sst for short
+
+17
+00:00:40,320 --> 00:00:41,760
+is currently working on the
+
+18
+00:00:41,760 --> 00:00:44,719
+specification of system lv2 what is
+
+19
+00:00:44,719 --> 00:00:46,719
+great is that they also provide a pilot
+
+20
+00:00:46,719 --> 00:00:48,239
+implementation so that you can
+
+21
+00:00:48,239 --> 00:00:51,120
+experiment with system lv2
+
+22
+00:00:51,120 --> 00:00:53,039
+we use the pilot implementation based on
+
+23
+00:00:53,039 --> 00:00:55,280
+jupiter lab to show you some more or
+
+24
+00:00:55,280 --> 00:00:58,800
+less equivalent system lv2 models of our
+
+25
+00:00:58,800 --> 00:01:01,199
+christmas tree
+
+26
+00:01:01,199 --> 00:01:03,520
+to avoid having to set up a jupiter lab
+
+27
+00:01:03,520 --> 00:01:05,600
+environment yourself my company also
+
+28
+00:01:05,600 --> 00:01:07,760
+provides a ready-to-use implementation
+
+29
+00:01:07,760 --> 00:01:08,520
+at
+
+30
+00:01:08,520 --> 00:01:10,320
+systemlv2lab.com
+
+31
+00:01:10,320 --> 00:01:12,640
+here you will find a general
+
+32
+00:01:12,640 --> 00:01:14,400
+introduction to system level 2 the
+
+33
+00:01:14,400 --> 00:01:16,000
+current state of the specification and
+
+34
+00:01:16,000 --> 00:01:18,400
+many examples you can also create your
+
+35
+00:01:18,400 --> 00:01:20,400
+own models and play around with them but
+
+36
+00:01:20,400 --> 00:01:23,280
+be aware from time to time the server
+
+37
+00:01:23,280 --> 00:01:25,439
+will be restarted and all files will be
+
+38
+00:01:25,439 --> 00:01:27,680
+lost if you want to save your models you
+
+39
+00:01:27,680 --> 00:01:30,799
+have to download them manually
+
+40
+00:01:30,799 --> 00:01:32,880
+we have already uploaded our jupyter
+
+41
+00:01:32,880 --> 00:01:35,280
+notebook for the mbse podcast christmas
+
+42
+00:01:35,280 --> 00:01:36,079
+tree
+
+43
+00:01:36,079 --> 00:01:38,720
+system lv2 offers a textual notation in
+
+44
+00:01:38,720 --> 00:01:40,799
+addition to the graphical notation known
+
+45
+00:01:40,799 --> 00:01:43,040
+from system lv1
+
+46
+00:01:43,040 --> 00:01:45,360
+to create the models in the pilot
+
+47
+00:01:45,360 --> 00:01:46,799
+implementation
+
+48
+00:01:46,799 --> 00:01:48,960
+one has to use the textual notation and
+
+49
+00:01:48,960 --> 00:01:51,360
+then can generate the graphical notation
+
+50
+00:01:51,360 --> 00:01:52,960
+automatically
+
+51
+00:01:52,960 --> 00:01:54,799
+later there will probably be graphical
+
+52
+00:01:54,799 --> 00:01:57,439
+editors for system lv2 as well
+
+53
+00:01:57,439 --> 00:01:59,680
+so let's have a look into the jupyter
+
+54
+00:01:59,680 --> 00:02:01,920
+lab
+
+55
+00:02:02,079 --> 00:02:05,040
+our tmpct model is a simplified version
+
+56
+00:02:05,040 --> 00:02:07,759
+of our system lv1 physical architecture
+
+57
+00:02:07,759 --> 00:02:09,440
+of the christmas tree
+
+58
+00:02:09,440 --> 00:02:12,239
+we have directly modeled the parts
+
+59
+00:02:12,239 --> 00:02:14,560
+they have no explicit type here
+
+60
+00:02:14,560 --> 00:02:16,560
+simplified in system will be one it
+
+61
+00:02:16,560 --> 00:02:18,640
+would mean to define part properties
+
+62
+00:02:18,640 --> 00:02:20,000
+without blocks
+
+63
+00:02:20,000 --> 00:02:22,480
+what works in system v2 but not in
+
+64
+00:02:22,480 --> 00:02:23,920
+system v1
+
+65
+00:02:23,920 --> 00:02:26,080
+is that the parts can also define
+
+66
+00:02:26,080 --> 00:02:28,239
+structures themselves as you can see
+
+67
+00:02:28,239 --> 00:02:30,879
+here for example with the part 3 which
+
+68
+00:02:30,879 --> 00:02:33,360
+defines the trunk the branches
+
+69
+00:02:33,360 --> 00:02:34,879
+and an attribute for the head of the
+
+70
+00:02:34,879 --> 00:02:36,959
+tree
+
+71
+00:02:36,959 --> 00:02:39,360
+if no type is defined however a type
+
+72
+00:02:39,360 --> 00:02:42,080
+from the system library of system lv2 is
+
+73
+00:02:42,080 --> 00:02:44,879
+implicitly set in the background
+
+74
+00:02:44,879 --> 00:02:46,480
+also a part
+
+75
+00:02:46,480 --> 00:02:48,879
+always needs a context
+
+76
+00:02:48,879 --> 00:02:50,720
+if this is not given
+
+77
+00:02:50,720 --> 00:02:53,680
+as for example with our top level part
+
+78
+00:02:53,680 --> 00:02:56,319
+the mbse podcast christmas tree
+
+79
+00:02:56,319 --> 00:02:58,400
+then the element anything from the
+
+80
+00:02:58,400 --> 00:03:00,400
+kermal base library is set as the
+
+81
+00:03:00,400 --> 00:03:02,800
+context as the context for the element
+
+82
+00:03:02,800 --> 00:03:05,599
+by the way kernel is the meta model of
+
+83
+00:03:05,599 --> 00:03:08,239
+system lv2
+
+84
+00:03:08,239 --> 00:03:11,040
+for one part we set the type the part
+
+85
+00:03:11,040 --> 00:03:14,000
+ball is of type christmas tree ball
+
+86
+00:03:14,000 --> 00:03:16,560
+which is defined at the end it contains
+
+87
+00:03:16,560 --> 00:03:18,800
+the definition of an enumeration which
+
+88
+00:03:18,800 --> 00:03:21,120
+is then used to specify the attribute
+
+89
+00:03:21,120 --> 00:03:23,440
+color
+
+90
+00:03:23,599 --> 00:03:26,799
+so far all we have is a list of things
+
+91
+00:03:26,799 --> 00:03:28,799
+the diagram is therefore also just a
+
+92
+00:03:28,799 --> 00:03:31,040
+simple tree structure which of course
+
+93
+00:03:31,040 --> 00:03:32,879
+fits perfectly with our christmas tree
+
+94
+00:03:32,879 --> 00:03:35,200
+project
+
+95
+00:03:35,200 --> 00:03:37,120
+the graphical notation of system lb2 is
+
+96
+00:03:37,120 --> 00:03:39,120
+very similar to systemarry one one
+
+97
+00:03:39,120 --> 00:03:41,120
+difference in the diagram is the
+
+98
+00:03:41,120 --> 00:03:43,519
+relationship between the part ball and
+
+99
+00:03:43,519 --> 00:03:45,680
+the part definition christmas tree ball
+
+100
+00:03:45,680 --> 00:03:48,159
+the relationship with the two points is
+
+101
+00:03:48,159 --> 00:03:51,519
+defined by relationship
+
+102
+00:03:51,920 --> 00:03:54,560
+now we add some connections to our model
+
+103
+00:03:54,560 --> 00:03:56,799
+for example we use
+
+104
+00:03:56,799 --> 00:04:01,000
+simple connection relationships
+
+105
+00:04:05,040 --> 00:04:07,200
+and if we visualize the model we can see
+
+106
+00:04:07,200 --> 00:04:08,959
+the structure of our christmas tree
+
+107
+00:04:08,959 --> 00:04:11,120
+however since the visualization is
+
+108
+00:04:11,120 --> 00:04:13,040
+generated automatically we cannot adjust
+
+109
+00:04:13,040 --> 00:04:15,840
+the layout
+
+110
+00:04:17,040 --> 00:04:19,519
+so much for the 20-second door of imbc
+
+111
+00:04:19,519 --> 00:04:22,000
+podcast event calendar and we wish you a
+
+112
+00:04:22,000 --> 00:04:25,520
+great 22nd of december
+
+113
+00:04:25,520 --> 00:04:28,520
+bye
+
