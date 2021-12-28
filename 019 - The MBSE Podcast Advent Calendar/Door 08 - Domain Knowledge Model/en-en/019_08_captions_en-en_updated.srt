@@ -1,0 +1,173 @@
+1
+00:00:01,199 --> 00:00:04,691
+Welcome behind the 8th door of
+our MBSE Podcast Advent Calendar
+
+2
+00:00:04,691 --> 00:00:08,542
+We take a look at the
+Domain Knowledge Model
+
+3
+00:00:09,360 --> 00:00:11,775
+For the object flows in
+the Use Case Activities
+
+4
+00:00:11,775 --> 00:00:15,040
+We have defined the
+types of flowing objects
+
+5
+00:00:15,040 --> 00:00:20,320
+These are mostly blocks and value types
+of the Domain Knowledge Model
+
+6
+00:00:20,320 --> 00:00:21,597
+Or put in another way
+
+7
+00:00:21,597 --> 00:00:24,721
+The Domain Knowledge Model
+defines the types of objects
+
+8
+00:00:24,721 --> 00:00:27,599
+that the system uses in its functions
+
+9
+00:00:27,599 --> 00:00:29,181
+So, let's take a look
+at the model
+
+10
+00:00:29,181 --> 00:00:33,249
+and look again on the Use Case Activity
+"Enjoy Christmas tree"
+
+11
+00:00:34,800 --> 00:00:37,439
+There are only a few object
+types in this diagram
+
+12
+00:00:37,439 --> 00:00:41,920
+like "SI_Power", "HI_Light" and
+"Flashing Program"
+
+13
+00:00:41,920 --> 00:00:45,319
+The prefix "SI_" indicates that
+this is an object type
+
+14
+00:00:45,319 --> 00:00:48,239
+that occurs in a system
+interface to another system
+
+15
+00:00:48,239 --> 00:00:51,944
+In the prefix "HI_" indicates that
+this is an object type
+
+16
+00:00:51,944 --> 00:00:55,229
+that occurs in a systematic
+phase to a human
+
+17
+00:00:55,920 --> 00:00:59,436
+These types are defined besides others
+in the Domain Knowledge Model
+
+18
+00:00:59,436 --> 00:01:04,490
+which is partially depicted in
+the following block definition diagram
+
+19
+00:01:05,438 --> 00:01:10,159
+The value type "Centimeter" is a
+specialization of the primitive type
+
+20
+00:01:10,159 --> 00:01:12,640
+"Integer" from the SysML library
+
+21
+00:01:12,640 --> 00:01:16,660
+It is our decision that we take
+"Integer" values for "Centimeter"
+
+22
+00:01:16,660 --> 00:01:20,080
+an alternative for example
+would be "Real"
+
+23
+00:01:20,080 --> 00:01:23,600
+SysML also explicitly supports
+the modeling of units
+
+24
+00:01:23,600 --> 00:01:26,960
+However we did not use
+that for simplicity
+
+25
+00:01:26,960 --> 00:01:29,940
+Of course, all these types from
+the Domain Knowledge Model
+
+26
+00:01:29,940 --> 00:01:33,320
+are good candidates
+for a modern library
+
+27
+00:01:33,600 --> 00:01:36,960
+The Domain Knowledge represents
+the knowledge of your system
+
+28
+00:01:36,960 --> 00:01:40,670
+If you ask your system do you know
+the concept of "Flashing Program"
+
+29
+00:01:40,670 --> 00:01:44,159
+it can answer
+"Sure, of course I know this"
+
+30
+00:01:44,159 --> 00:01:47,119
+"I know it like it's defined
+in the domain block"
+
+31
+00:01:47,119 --> 00:01:49,540
+If you ask the system
+about "Christmas Gifts"
+
+32
+00:01:49,540 --> 00:01:53,157
+it has no clue what
+you are talking about
+
+33
+00:01:54,079 --> 00:01:57,128
+So much for the 8th door of
+our MBSE Podcast Advent Calendar
+
+34
+00:01:57,128 --> 00:01:59,770
+And we wish you a great 8th of December
+
+35
+00:02:00,560 --> 00:02:02,159
+Goodbye
+
+36
+00:02:02,349 --> 00:02:03,279
+Bye-bye

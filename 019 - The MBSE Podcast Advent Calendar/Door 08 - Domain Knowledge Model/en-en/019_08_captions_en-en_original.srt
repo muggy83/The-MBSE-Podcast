@@ -1,0 +1,216 @@
+1
+00:00:01,199 --> 00:00:02,960
+welcome behind the eight door of our
+
+2
+00:00:02,960 --> 00:00:05,600
+mbse podcast advent calendar we take a
+
+3
+00:00:05,600 --> 00:00:09,360
+look at the domain knowledge model
+
+4
+00:00:09,360 --> 00:00:11,040
+for the object flows in the use case
+
+5
+00:00:11,040 --> 00:00:13,440
+activities we have defined the types of
+
+6
+00:00:13,440 --> 00:00:15,040
+flowing objects
+
+7
+00:00:15,040 --> 00:00:17,119
+these are mostly blocks and value types
+
+8
+00:00:17,119 --> 00:00:20,320
+of the domain knowledge model
+
+9
+00:00:20,320 --> 00:00:22,400
+or put in another way the domain
+
+10
+00:00:22,400 --> 00:00:24,160
+knowledge model defines the types of
+
+11
+00:00:24,160 --> 00:00:26,240
+objects that the system uses in its
+
+12
+00:00:26,240 --> 00:00:27,599
+functions
+
+13
+00:00:27,599 --> 00:00:29,359
+so let's take a look at the model and
+
+14
+00:00:29,359 --> 00:00:31,519
+look again on the use case activity
+
+15
+00:00:31,519 --> 00:00:34,800
+enjoy christmas tree
+
+16
+00:00:34,800 --> 00:00:36,480
+there are only a few object types in
+
+17
+00:00:36,480 --> 00:00:40,559
+this diagram like si power hi light and
+
+18
+00:00:40,559 --> 00:00:41,920
+flashing program
+
+19
+00:00:41,920 --> 00:00:44,480
+the prefix si indicates that this is an
+
+20
+00:00:44,480 --> 00:00:46,320
+object type that occurs in a system
+
+21
+00:00:46,320 --> 00:00:48,239
+interface to another system
+
+22
+00:00:48,239 --> 00:00:50,800
+in the prefix hi indicates that this is
+
+23
+00:00:50,800 --> 00:00:52,559
+an object type that occurs in a
+
+24
+00:00:52,559 --> 00:00:55,920
+systematic phase to a human
+
+25
+00:00:55,920 --> 00:00:57,840
+these types are defined besides others
+
+26
+00:00:57,840 --> 00:00:59,760
+in the domain knowledge model which is
+
+27
+00:00:59,760 --> 00:01:01,840
+partially depicted in the falling block
+
+28
+00:01:01,840 --> 00:01:04,879
+definition diagram
+
+29
+00:01:05,438 --> 00:01:07,760
+the value type centimeter is a
+
+30
+00:01:07,760 --> 00:01:10,159
+specialization of the primitive type
+
+31
+00:01:10,159 --> 00:01:12,640
+integer from the system library
+
+32
+00:01:12,640 --> 00:01:15,200
+it is our decision that we take integer
+
+33
+00:01:15,200 --> 00:01:18,000
+values for centimeter an alternative for
+
+34
+00:01:18,000 --> 00:01:20,080
+example would be real
+
+35
+00:01:20,080 --> 00:01:22,320
+system l also explicitly supports the
+
+36
+00:01:22,320 --> 00:01:25,119
+modeling of units however we did not use
+
+37
+00:01:25,119 --> 00:01:26,960
+that for simplicity
+
+38
+00:01:26,960 --> 00:01:28,880
+of course all these types from the
+
+39
+00:01:28,880 --> 00:01:30,320
+domain knowledge model are good
+
+40
+00:01:30,320 --> 00:01:33,600
+candidates for a modern library
+
+41
+00:01:33,600 --> 00:01:35,280
+the domain knowledge represents the
+
+42
+00:01:35,280 --> 00:01:36,960
+knowledge of your system
+
+43
+00:01:36,960 --> 00:01:38,960
+if you ask your system do you know the
+
+44
+00:01:38,960 --> 00:01:41,119
+concept of flashing program it can
+
+45
+00:01:41,119 --> 00:01:44,159
+answer sure of course i know this i know
+
+46
+00:01:44,159 --> 00:01:47,119
+it like it's defined in the domain block
+
+47
+00:01:47,119 --> 00:01:48,960
+if you ask the system about christmas
+
+48
+00:01:48,960 --> 00:01:51,439
+gifts is has no clue what you are
+
+49
+00:01:51,439 --> 00:01:54,079
+talking about
+
+50
+00:01:54,079 --> 00:01:55,840
+much for the eight door of our mbse
+
+51
+00:01:55,840 --> 00:01:57,600
+podcast advent calendar and we wish you
+
+52
+00:01:57,600 --> 00:02:00,560
+a great 8th of december
+
+53
+00:02:00,560 --> 00:02:02,159
+goodbye
+
+54
+00:02:02,159 --> 00:02:05,159
+bye
+
