@@ -1,0 +1,432 @@
+1
+00:00:02,159 --> 00:00:04,080
+welcome to the 19th store of our nbc
+
+2
+00:00:04,080 --> 00:00:05,920
+podcast advent calendar today we take a
+
+3
+00:00:05,920 --> 00:00:08,720
+look at the modelling of variants
+
+4
+00:00:08,720 --> 00:00:11,200
+very often a system contains variants so
+
+5
+00:00:11,200 --> 00:00:13,920
+does our mbse podcast christmas tree
+
+6
+00:00:13,920 --> 00:00:15,440
+we provide trees with different
+
+7
+00:00:15,440 --> 00:00:17,840
+christmas stars balls stands and fairy
+
+8
+00:00:17,840 --> 00:00:19,359
+lights
+
+9
+00:00:19,359 --> 00:00:21,359
+so let's look at our model of how to
+
+10
+00:00:21,359 --> 00:00:24,240
+define the variants
+
+11
+00:00:25,359 --> 00:00:27,279
+we restructured our model from the
+
+12
+00:00:27,279 --> 00:00:29,279
+simple system model to our product line
+
+13
+00:00:29,279 --> 00:00:30,560
+model
+
+14
+00:00:30,560 --> 00:00:32,640
+to do this we have defined three new
+
+15
+00:00:32,640 --> 00:00:35,360
+packages at the top level a core package
+
+16
+00:00:35,360 --> 00:00:37,520
+that contains all elements that apply to
+
+17
+00:00:37,520 --> 00:00:38,879
+all products
+
+18
+00:00:38,879 --> 00:00:41,040
+a variation package that contains the
+
+19
+00:00:41,040 --> 00:00:42,960
+variable elements
+
+20
+00:00:42,960 --> 00:00:44,640
+and a package that contains the
+
+21
+00:00:44,640 --> 00:00:46,719
+configurations for example product
+
+22
+00:00:46,719 --> 00:00:48,960
+definitions
+
+23
+00:00:48,960 --> 00:00:51,039
+our previous packages are now all
+
+24
+00:00:51,039 --> 00:00:55,199
+rearranged below the core package
+
+25
+00:00:55,440 --> 00:00:58,320
+in the tmpct variations package there is
+
+26
+00:00:58,320 --> 00:01:00,719
+a package diagram that shows the product
+
+27
+00:01:00,719 --> 00:01:03,359
+line in the form of a feature tree the
+
+28
+00:01:03,359 --> 00:01:05,040
+variation packages represent the
+
+29
+00:01:05,040 --> 00:01:07,119
+discriminator variability
+
+30
+00:01:07,119 --> 00:01:10,320
+here it is generally only the kinds
+
+31
+00:01:10,320 --> 00:01:12,880
+the min variance max variance properties
+
+32
+00:01:12,880 --> 00:01:15,759
+specify how many of the variants may be
+
+33
+00:01:15,759 --> 00:01:17,600
+in a valid configuration at the same
+
+34
+00:01:17,600 --> 00:01:18,560
+time
+
+35
+00:01:18,560 --> 00:01:20,880
+mostly it is exactly one
+
+36
+00:01:20,880 --> 00:01:23,200
+an exception here is the christmas ball
+
+37
+00:01:23,200 --> 00:01:24,720
+kinds variation
+
+38
+00:01:24,720 --> 00:01:27,280
+here also two variants may be contained
+
+39
+00:01:27,280 --> 00:01:31,439
+at the same time in a configuration
+
+40
+00:01:31,520 --> 00:01:34,000
+the variant packages each contain all
+
+41
+00:01:34,000 --> 00:01:36,400
+exclusive model elements only required
+
+42
+00:01:36,400 --> 00:01:37,840
+by a variant
+
+43
+00:01:37,840 --> 00:01:39,680
+constraints can be defined between the
+
+44
+00:01:39,680 --> 00:01:40,880
+variants
+
+45
+00:01:40,880 --> 00:01:43,759
+typically variant constraints are
+
+46
+00:01:43,759 --> 00:01:45,840
+requires and xor
+
+47
+00:01:45,840 --> 00:01:48,240
+a requires constraint is defined between
+
+48
+00:01:48,240 --> 00:01:50,560
+the premium star and the large stand
+
+49
+00:01:50,560 --> 00:01:51,680
+variants
+
+50
+00:01:51,680 --> 00:01:52,960
+in example
+
+51
+00:01:52,960 --> 00:01:55,280
+if the premium star variant is selected
+
+52
+00:01:55,280 --> 00:01:57,360
+the large stand variant must also be
+
+53
+00:01:57,360 --> 00:02:01,200
+selected for a valid configuration
+
+54
+00:02:04,000 --> 00:02:06,560
+the variant premium star defines a
+
+55
+00:02:06,560 --> 00:02:08,399
+special christmas star
+
+56
+00:02:08,399 --> 00:02:09,598
+that has
+
+57
+00:02:09,598 --> 00:02:11,440
+an led starlight
+
+58
+00:02:11,440 --> 00:02:13,520
+the premium christmas star block
+
+59
+00:02:13,520 --> 00:02:16,080
+specializes the common christmas
+
+60
+00:02:16,080 --> 00:02:19,680
+tree star block from the core
+
+61
+00:02:20,640 --> 00:02:22,640
+the configuration package contains the
+
+62
+00:02:22,640 --> 00:02:24,560
+variant configurations which are
+
+63
+00:02:24,560 --> 00:02:27,040
+specifications of concrete products of
+
+64
+00:02:27,040 --> 00:02:28,879
+the product line
+
+65
+00:02:28,879 --> 00:02:31,280
+three defined editions of our mbse
+
+66
+00:02:31,280 --> 00:02:34,560
+podcast christmas tree are echo premium
+
+67
+00:02:34,560 --> 00:02:36,239
+and standard
+
+68
+00:02:36,239 --> 00:02:38,239
+each configuration selects the contained
+
+69
+00:02:38,239 --> 00:02:39,360
+variants
+
+70
+00:02:39,360 --> 00:02:42,800
+which can be perfectly done in a matrix
+
+71
+00:02:42,800 --> 00:02:44,800
+the selection is modeled by a package
+
+72
+00:02:44,800 --> 00:02:47,200
+import relationship
+
+73
+00:02:47,200 --> 00:02:49,440
+here we have intentionally included an
+
+74
+00:02:49,440 --> 00:02:51,440
+error for demonstration purposes the
+
+75
+00:02:51,440 --> 00:02:55,040
+configuration tmpct premium edition has
+
+76
+00:02:55,040 --> 00:02:57,760
+selected the variant premium style
+
+77
+00:02:57,760 --> 00:03:00,640
+the requires constraint described
+
+78
+00:03:00,640 --> 00:03:03,680
+requires that the variant large stand
+
+79
+00:03:03,680 --> 00:03:06,000
+but then also be selected but we have
+
+80
+00:03:06,000 --> 00:03:10,000
+selected the variant standard stand
+
+81
+00:03:10,000 --> 00:03:11,920
+the arrow is automatically displayed in
+
+82
+00:03:11,920 --> 00:03:15,040
+the matrix you see the red
+
+83
+00:03:15,040 --> 00:03:16,000
+one
+
+84
+00:03:16,000 --> 00:03:17,920
+as already mentioned the requires
+
+85
+00:03:17,920 --> 00:03:19,920
+constraint is a stereotype from the
+
+86
+00:03:19,920 --> 00:03:21,440
+sysmod profile
+
+87
+00:03:21,440 --> 00:03:22,560
+and also
+
+88
+00:03:22,560 --> 00:03:25,920
+contains an ocl constraint that checks
+
+89
+00:03:25,920 --> 00:03:27,920
+compliance with the rule
+
+90
+00:03:27,920 --> 00:03:30,000
+this is completely based on standards
+
+91
+00:03:30,000 --> 00:03:32,319
+the only tool specific here is that the
+
+92
+00:03:32,319 --> 00:03:34,560
+tool is able to evaluate the ocl
+
+93
+00:03:34,560 --> 00:03:37,040
+statement
+
+94
+00:03:39,680 --> 00:03:42,239
+the block definition diagram shows a
+
+95
+00:03:42,239 --> 00:03:44,799
+part of the definition of the tmpct
+
+96
+00:03:44,799 --> 00:03:47,599
+premium edition the edition itself is a
+
+97
+00:03:47,599 --> 00:03:49,680
+system element that specializes the
+
+98
+00:03:49,680 --> 00:03:53,200
+system element from the call
+
+99
+00:03:53,200 --> 00:03:55,840
+as an example it is shown how the
+
+100
+00:03:55,840 --> 00:03:58,640
+premium star edition is implemented
+
+101
+00:03:58,640 --> 00:04:00,959
+the premium christmas star is explicitly
+
+102
+00:04:00,959 --> 00:04:03,280
+defined as a part property that
+
+103
+00:04:03,280 --> 00:04:05,599
+redefines the inherited property of the
+
+104
+00:04:05,599 --> 00:04:08,480
+general star
+
+105
+00:04:09,360 --> 00:04:11,360
+so much for the 19th store of our mbc
+
+106
+00:04:11,360 --> 00:04:13,200
+podcast advent calendar and we wish you
+
+107
+00:04:13,200 --> 00:04:16,399
+a great 19th of december bye-bye
+
+108
+00:04:16,399 --> 00:04:19,399
+goodbye
+
