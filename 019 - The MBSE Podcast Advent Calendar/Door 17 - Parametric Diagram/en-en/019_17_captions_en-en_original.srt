@@ -1,0 +1,300 @@
+1
+00:00:01,760 --> 00:00:04,000
+welcome to the 17th door of our mdse
+
+2
+00:00:04,000 --> 00:00:06,080
+podcast advent calendar today we take a
+
+3
+00:00:06,080 --> 00:00:08,960
+look at the modeling of parametric
+
+4
+00:00:08,960 --> 00:00:11,120
+the parametric diagram depicts a network
+
+5
+00:00:11,120 --> 00:00:13,360
+of constraints that constrain properties
+
+6
+00:00:13,360 --> 00:00:14,799
+of the system
+
+7
+00:00:14,799 --> 00:00:17,039
+if your modeling tool is able to execute
+
+8
+00:00:17,039 --> 00:00:19,279
+the parametrics it could be an extremely
+
+9
+00:00:19,279 --> 00:00:21,760
+effective modeling approach
+
+10
+00:00:21,760 --> 00:00:26,080
+so let's have a look at it in our model
+
+11
+00:00:26,960 --> 00:00:29,199
+first we need the expressions which are
+
+12
+00:00:29,199 --> 00:00:31,599
+defined by constraint blocks the lower
+
+13
+00:00:31,599 --> 00:00:33,760
+constraint block specifies a min max
+
+14
+00:00:33,760 --> 00:00:36,239
+expression using three parameters min
+
+15
+00:00:36,239 --> 00:00:39,120
+value max value and value
+
+16
+00:00:39,120 --> 00:00:41,120
+which are each typed by our value type
+
+17
+00:00:41,120 --> 00:00:42,719
+centimeter
+
+18
+00:00:42,719 --> 00:00:44,320
+the constraint block trunk stand
+
+19
+00:00:44,320 --> 00:00:46,960
+connection constraint verifies that the
+
+20
+00:00:46,960 --> 00:00:49,440
+trunk fits into the stand it does not
+
+21
+00:00:49,440 --> 00:00:51,760
+define a constraint but owns a
+
+22
+00:00:51,760 --> 00:00:54,079
+constraint property typed by our min max
+
+23
+00:00:54,079 --> 00:00:56,559
+constraint block
+
+24
+00:00:56,559 --> 00:00:59,120
+the parametric diagram is a special kind
+
+25
+00:00:59,120 --> 00:01:01,280
+of an internal block diagram which
+
+26
+00:01:01,280 --> 00:01:02,960
+depicts how parameters of the
+
+27
+00:01:02,960 --> 00:01:04,720
+constraints are connected with other
+
+28
+00:01:04,720 --> 00:01:08,720
+parameters or value properties
+
+29
+00:01:08,720 --> 00:01:10,320
+the parametric diagram shows the
+
+30
+00:01:10,320 --> 00:01:12,000
+internal structure of the trunks then
+
+31
+00:01:12,000 --> 00:01:13,840
+connect to constraint
+
+32
+00:01:13,840 --> 00:01:16,000
+which simply connects its parameters
+
+33
+00:01:16,000 --> 00:01:17,840
+with the appropriate internal constraint
+
+34
+00:01:17,840 --> 00:01:19,520
+parameters of the min max constraint
+
+35
+00:01:19,520 --> 00:01:21,520
+block
+
+36
+00:01:21,520 --> 00:01:23,840
+we defined a constraint property of type
+
+37
+00:01:23,840 --> 00:01:26,000
+trunk stand connection constraint owned
+
+38
+00:01:26,000 --> 00:01:28,960
+by our system to use this constraint for
+
+39
+00:01:28,960 --> 00:01:32,960
+the mbse podcast christmas tree
+
+40
+00:01:34,240 --> 00:01:36,479
+in a parametric diagram of the tmpct
+
+41
+00:01:36,479 --> 00:01:38,159
+base architecture
+
+42
+00:01:38,159 --> 00:01:39,759
+we connect the parameters of the
+
+43
+00:01:39,759 --> 00:01:41,920
+constraint with the appropriate value
+
+44
+00:01:41,920 --> 00:01:43,840
+properties of the system the very
+
+45
+00:01:43,840 --> 00:01:46,399
+properties already have defined default
+
+46
+00:01:46,399 --> 00:01:48,720
+values however they could be redefined
+
+47
+00:01:48,720 --> 00:01:50,479
+later by the specialized properties in
+
+48
+00:01:50,479 --> 00:01:54,040
+the physical architecture
+
+49
+00:01:54,159 --> 00:01:55,920
+we also added another interesting
+
+50
+00:01:55,920 --> 00:01:57,520
+constraint property
+
+51
+00:01:57,520 --> 00:01:59,920
+which is the constraint block height of
+
+52
+00:01:59,920 --> 00:02:01,200
+the tree
+
+53
+00:02:01,200 --> 00:02:03,119
+which is a constraint block and a
+
+54
+00:02:03,119 --> 00:02:05,200
+requirement at the same time
+
+55
+00:02:05,200 --> 00:02:08,479
+since sysml 1.5 any named model element
+
+56
+00:02:08,479 --> 00:02:11,200
+can also be a requirement
+
+57
+00:02:11,200 --> 00:02:12,800
+the requirement and constraint block
+
+58
+00:02:12,800 --> 00:02:14,800
+height of the tree requires and verifies
+
+59
+00:02:14,800 --> 00:02:16,560
+that the height of the tree is between
+
+60
+00:02:16,560 --> 00:02:20,800
+150 and 200 centimeters
+
+61
+00:02:21,200 --> 00:02:23,599
+the parametric diagram of the system
+
+62
+00:02:23,599 --> 00:02:26,720
+element the mbse podcast christmas tree
+
+63
+00:02:26,720 --> 00:02:30,400
+shows how everything is connected
+
+64
+00:02:30,400 --> 00:02:32,319
+our modeling tool can also run the
+
+65
+00:02:32,319 --> 00:02:35,319
+constraints
+
+66
+00:02:36,239 --> 00:02:39,120
+when we instantiate our tmpct system
+
+67
+00:02:39,120 --> 00:02:41,760
+element we see in the output that
+
+68
+00:02:41,760 --> 00:02:43,840
+constraints are satisfied
+
+69
+00:02:43,840 --> 00:02:45,760
+the tool then displays the corresponding
+
+70
+00:02:45,760 --> 00:02:48,720
+area in green
+
+71
+00:02:49,280 --> 00:02:51,360
+so much for the 17th tour of our mbse
+
+72
+00:02:51,360 --> 00:02:53,280
+podcast advent calendar and we wish you
+
+73
+00:02:53,280 --> 00:02:56,080
+a great 17th of december
+
+74
+00:02:56,080 --> 00:02:57,360
+goodbye
+
+75
+00:02:57,360 --> 00:03:00,319
+bye
+

@@ -1,0 +1,230 @@
+1
+00:00:01,760 --> 00:00:05,210
+Welcome to the 17th door of our
+MBSE Podcast Advent Calendar
+
+2
+00:00:05,210 --> 00:00:08,640
+Today we take a look at the
+modeling of parametric
+
+3
+00:00:08,960 --> 00:00:12,060
+The parametric diagram depicts
+a network of constraints
+
+4
+00:00:12,060 --> 00:00:14,799
+that constrain properties of the system
+
+5
+00:00:14,799 --> 00:00:18,454
+If your modeling tool is able
+to execute the parametrics
+
+6
+00:00:18,454 --> 00:00:21,540
+it could be an extremely
+effective modeling approach
+
+7
+00:00:21,760 --> 00:00:24,690
+So, let's have a look at it in our model
+
+8
+00:00:26,960 --> 00:00:30,730
+First, we need the expressions
+which are defined by constraint blocks
+
+9
+00:00:30,730 --> 00:00:36,050
+The lower constraint block specifies a
+min max expression using three parameters
+
+10
+00:00:36,050 --> 00:00:39,120
+"minValue", "maxValue", and "value"
+
+11
+00:00:39,120 --> 00:00:42,470
+which are each typed by
+our value type "Centimeter"
+
+12
+00:00:42,719 --> 00:00:45,970
+The constraint block
+"TrunkStandConnectionConstraint"
+
+13
+00:00:45,970 --> 00:00:48,597
+verifies that the trunk
+fits into the stand
+
+14
+00:00:48,597 --> 00:00:52,739
+It does not define a constraint
+but owns a constraint property
+
+15
+00:00:52,739 --> 00:00:56,199
+typed by our min max constraint block
+
+16
+00:00:56,559 --> 00:01:00,693
+The parametric diagram is a special
+kind of an internal block diagram
+
+17
+00:01:00,693 --> 00:01:03,420
+which depicts how parameters
+of the constraints
+
+18
+00:01:03,420 --> 00:01:07,962
+are connected with other
+parameters or value properties
+
+19
+00:01:08,720 --> 00:01:12,000
+The parametric diagram shows
+the internal structure of the "Trunk"
+
+20
+00:01:12,000 --> 00:01:13,840
+then connect to constraint
+
+21
+00:01:13,840 --> 00:01:16,000
+which simply connects its parameters
+
+22
+00:01:16,000 --> 00:01:18,468
+with the appropriate internal
+constraint parameters
+
+23
+00:01:18,468 --> 00:01:21,290
+of the min max constraint block
+
+24
+00:01:21,520 --> 00:01:23,840
+We defined a constraint property of type
+
+25
+00:01:23,840 --> 00:01:25,804
+"TrunkStandConnectionConstraint"
+
+26
+00:01:25,804 --> 00:01:32,210
+owned by our system to use this constraint
+for the MBSE Podcast Christmas Tree
+
+27
+00:01:34,240 --> 00:01:38,159
+In a parametric diagram of
+the TMPCT Base Architecture
+
+28
+00:01:38,159 --> 00:01:40,812
+we connect the parameters
+of the constraint
+
+29
+00:01:40,812 --> 00:01:43,299
+with the appropriate
+value properties of the system
+
+30
+00:01:43,299 --> 00:01:47,107
+The value properties already
+have defined default values
+
+31
+00:01:47,107 --> 00:01:49,185
+however they could be redefined later
+
+32
+00:01:49,185 --> 00:01:53,139
+by the specialized properties
+in the Physical Architecture
+
+33
+00:01:54,159 --> 00:01:57,520
+We also added another
+interesting constraint property
+
+34
+00:01:57,520 --> 00:02:01,200
+which is the constraint block
+"Height of The Tree"
+
+35
+00:02:01,200 --> 00:02:05,200
+which is a constraint block and
+a requirement at the same time
+
+36
+00:02:05,200 --> 00:02:10,839
+since SysML1.5, any named model
+element can also be a requirement
+
+37
+00:02:11,200 --> 00:02:13,901
+The requirement and constraint
+block "Height of The Tree"
+
+38
+00:02:13,901 --> 00:02:16,560
+requires and verifies that
+the height of the tree
+
+39
+00:02:16,560 --> 00:02:20,060
+is between 150 and 200 centimeters
+
+40
+00:02:21,200 --> 00:02:24,340
+The parametric diagram
+of the system element
+
+41
+00:02:24,340 --> 00:02:29,740
+the MBSE Podcast Christmas Tree
+shows how everything is connected
+
+42
+00:02:30,400 --> 00:02:34,919
+Our modeling tool can also
+run the constraints
+
+43
+00:02:36,239 --> 00:02:39,558
+When we instantiate our
+TMPCT system element
+
+44
+00:02:39,558 --> 00:02:43,840
+we see in the output that
+constraints are satisfied
+
+45
+00:02:43,840 --> 00:02:48,430
+The tool then displays the
+corresponding area in green
+
+46
+00:02:49,280 --> 00:02:52,610
+So much for the 17th door of our
+MBSE Podcast Advent Calendar
+
+47
+00:02:52,610 --> 00:02:55,850
+And we wish you a great 17th of December
+
+48
+00:02:56,080 --> 00:02:57,050
+Goodbye
+
+49
+00:02:57,160 --> 00:02:58,039
+Bye-bye
