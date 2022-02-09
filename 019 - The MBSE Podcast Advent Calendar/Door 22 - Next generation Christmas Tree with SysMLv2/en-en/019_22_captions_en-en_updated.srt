@@ -43,8 +43,8 @@ time in relation to major changes
 
 10
 00:00:33,576 --> 00:00:37,000
-in the process process
-and tool landscape in MBSE
+in the process and tool
+landscape in MBSE
 
 11
 00:00:37,280 --> 00:00:41,630
@@ -187,7 +187,7 @@ properties without blocks
 
 41
 00:02:20,000 --> 00:02:23,920
-what works in SysML v2
+What works in SysML v2
 but not in SysML v1
 
 42
@@ -201,135 +201,139 @@ as you can see here
 for example with the tree
 
 44
-00:02:30,748 --> 00:02:36,729
-which defines the trunk, the branches
-and an attribute for the head of the tree
+00:02:30,748 --> 00:02:33,369
+which defines the "trunk", the "branches"
 
 45
+00:02:33,369 --> 00:02:35,754
+and an attribute for
+the "height" of the tree
+
+46
 00:02:36,959 --> 00:02:41,890
 If no type is defined however a type
 from the system library of SysML v2
 
-46
+47
 00:02:41,890 --> 00:02:44,879
 is implicitly set in the background
 
-47
+48
 00:02:44,879 --> 00:02:48,879
 Also a part always needs a context
 
-48
+49
 00:02:48,879 --> 00:02:53,680
 If this is not given as for example
 with our top level part
 
-49
-00:02:53,680 --> 00:02:56,319
-the MBSE Podcast Christmas Tree
-
 50
-00:02:56,319 --> 00:02:59,734
-then the element anything
-from the kermal base library
+00:02:53,680 --> 00:02:56,319
+"theMBSEPodcastChristmasTree"
 
 51
+00:02:56,319 --> 00:02:59,734
+then the element anything
+from the kernel base library
+
+52
 00:02:59,734 --> 00:03:02,800
 is set as the context for the element
 
-52
-00:03:02,800 --> 00:03:07,969
-By the way, kernel is the
-meta model of SysML v2
-
 53
+00:03:02,800 --> 00:03:07,969
+By the way, kernel is
+the meta model of SysML v2
+
+54
 00:03:08,239 --> 00:03:10,480
 For one part, we set the type
 
-54
+55
 00:03:10,480 --> 00:03:14,000
-The part ball is of type
+The part "ball" is of type
 "ChristmasTreeBall"
 
-55
+56
 00:03:14,000 --> 00:03:15,892
 which is defined at the end
 
-56
+57
 00:03:15,892 --> 00:03:18,219
 it contains the definition
 of an enumeration
 
-57
+58
 00:03:18,219 --> 00:03:22,940
 which is then used to
-specify the attribute color
+specify the attribute "color"
 
-58
+59
 00:03:23,599 --> 00:03:26,799
 So far, all we have is a list of things
 
-59
+60
 00:03:26,799 --> 00:03:29,945
 The diagram is therefore
 also just a simple tree structure
 
-60
+61
 00:03:29,945 --> 00:03:34,880
 which of course fits perfectly
 with our Christmas tree project
 
-61
+62
 00:03:35,200 --> 00:03:38,940
 The graphical notation of SysML v2 is
 very similar to SysML v1
 
-62
+63
 00:03:38,940 --> 00:03:41,848
 One difference in the diagram
 is the relationship
 
-63
+64
 00:03:41,848 --> 00:03:45,680
-between the part ball and
+between the part "ball" and
 the part definition "ChristmasTreeBall"
 
-64
+65
 00:03:45,680 --> 00:03:51,369
 the relationship with the two
 points is defined by relationship
 
-65
+66
 00:03:51,920 --> 00:03:54,560
 Now we add some connections to our model
 
-66
+67
 00:03:54,560 --> 00:04:00,515
 For example, we use simple
 connection relationships
 
-67
+68
 00:04:05,040 --> 00:04:08,959
 And if we visualize the model, we can see
 the structure of our Christmas tree
 
-68
+69
 00:04:08,959 --> 00:04:12,410
 However since the visualization
 is generated automatically
 
-69
+70
 00:04:12,410 --> 00:04:15,400
 we cannot adjust the layout
 
-70
+71
 00:04:17,040 --> 00:04:20,917
 So much for the 22nd door of
 MBSE Podcast Advent Calendar
 
-71
+72
 00:04:20,917 --> 00:04:25,512
 And we wish you a great 22nd of December
 
-72
+73
 00:04:25,782 --> 00:04:26,730
 Bye-bye
