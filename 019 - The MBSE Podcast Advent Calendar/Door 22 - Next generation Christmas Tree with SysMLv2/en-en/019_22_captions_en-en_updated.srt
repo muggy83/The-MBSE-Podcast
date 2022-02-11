@@ -67,7 +67,7 @@ So that you can experiment with SysML v2
 15
 00:00:51,120 --> 00:00:54,029
 We use the pilot implementation
-based on Jupyter Lab
+based on JupyterLab
 
 16
 00:00:54,029 --> 00:00:56,268
@@ -80,7 +80,7 @@ SysML v2 models of our Christmas tree
 
 18
 00:01:01,199 --> 00:01:04,523
-To avoid having to set up a Jupyter Lab
+To avoid having to set up a JupyterLab
 environment yourself
 
 19
@@ -157,7 +157,7 @@ editors for SysML v2 as well
 34
 00:01:57,439 --> 00:02:01,190
 So, let's have a look into
-the Jupyter Lab
+the JupyterLab
 
 35
 00:02:02,079 --> 00:02:05,040
