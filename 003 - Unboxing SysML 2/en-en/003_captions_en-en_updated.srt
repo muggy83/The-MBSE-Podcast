@@ -1,0 +1,2770 @@
+1
+00:01:02,879 --> 00:01:05,380
+Hello, everybody
+
+2
+00:01:06,159 --> 00:01:09,600
+Hello, welcome to our 3rd MBSE Podcast
+
+3
+00:01:09,600 --> 00:01:12,840
+I'm Tim, and I'm one of your hosts
+
+4
+00:01:12,840 --> 00:01:18,929
+Today we do an unboxing episode
+
+5
+00:01:18,929 --> 00:01:21,600
+It will not be the new iPhone
+but much better
+
+6
+00:01:21,600 --> 00:01:24,640
+The brand new SysML v2
+
+7
+00:01:24,640 --> 00:01:28,720
+And this time
+we do an English episode
+
+8
+00:01:28,720 --> 00:01:31,780
+Let's ask my co-hosts Christian
+
+9
+00:01:31,780 --> 00:01:37,120
+"Why two German guys do
+an English or Germish podcast?"
+
+10
+00:01:37,759 --> 00:01:41,439
+You know up to now here
+there are only a few
+
+11
+00:01:41,439 --> 00:01:45,360
+It's only a few information
+on SysML on the internet
+
+12
+00:01:45,360 --> 00:01:50,615
+And besides on some presentations of
+Ed Seidewitz and Sandy Friedenthal
+
+13
+00:01:50,615 --> 00:01:55,040
+we thought that there might be
+a worldwide interest in SysML v2
+
+14
+00:01:55,040 --> 00:01:57,442
+And we decided to hold
+the session in English
+
+15
+00:01:58,572 --> 00:02:06,479
+We also have some pure MBSE Podcast
+listeners who do not see what we do
+
+16
+00:02:06,479 --> 00:02:09,679
+It should also be understandable
+without the video
+
+17
+00:02:09,679 --> 00:02:13,120
+So, do not switch off
+if you are only listening to us
+
+18
+00:02:13,120 --> 00:02:18,240
+However it will be easier
+to follow us with the video
+
+19
+00:02:18,240 --> 00:02:21,870
+Christian, can you briefly explain
+what we want to talk about today?
+
+20
+00:02:22,715 --> 00:02:23,715
+Sure
+
+21
+00:02:24,560 --> 00:02:30,800
+First of all, I think we need to clarify
+that all what we are doing today
+
+22
+00:02:30,800 --> 00:02:32,720
+It is having a look under the hood
+
+23
+00:02:32,720 --> 00:02:36,560
+And within these 30, 40
+minutes which we have
+
+24
+00:02:36,560 --> 00:02:39,599
+we can't go too much into detail
+
+25
+00:02:39,599 --> 00:02:43,200
+But we will show you
+what's there, what's existing
+
+26
+00:02:43,200 --> 00:02:51,560
+You will see much textual language
+and it might seem to some people that
+
+27
+00:02:51,560 --> 00:02:56,000
+SysML 2 is getting a programming
+language with a textual notation
+
+28
+00:02:56,000 --> 00:02:59,280
+But the contrary is the truth
+
+29
+00:02:59,280 --> 00:03:03,599
+there will be a graphical
+notation in near future
+
+30
+00:03:03,599 --> 00:03:09,840
+But textual notation will be added as a
+second view or another view on the model
+
+31
+00:03:09,840 --> 00:03:13,360
+which is very precise
+
+32
+00:03:13,360 --> 00:03:15,849
+If you know Modelica
+
+33
+00:03:15,849 --> 00:03:19,739
+there you can switch between
+graphical and textual notation
+
+34
+00:03:19,739 --> 00:03:21,599
+And it's very clear to the user
+
+35
+00:03:21,599 --> 00:03:25,180
+what the system is doing
+with your graphical notation
+
+36
+00:03:25,180 --> 00:03:27,310
+that you have modeled
+
+37
+00:03:30,480 --> 00:03:34,720
+Moreover with a textual notation
+
+38
+00:03:34,720 --> 00:03:38,640
+we might have the chance to
+have something like a let's call it
+
+39
+00:03:38,640 --> 00:03:42,560
+stateless exchange format
+
+40
+00:03:42,560 --> 00:03:47,280
+in such a notation
+there are no user UUID
+
+41
+00:03:47,280 --> 00:03:52,660
+And that means a SysML
+modeler can't really decide
+
+42
+00:03:52,660 --> 00:03:55,840
+is this a new modeling element
+or was it there before
+
+43
+00:03:55,840 --> 00:03:59,040
+you pasted something
+in an existing model
+
+44
+00:03:59,040 --> 00:04:05,200
+But it's better and it should work much
+better than the existing XMI schema
+
+45
+00:04:05,200 --> 00:04:09,881
+Tim, what is in this box?
+
+46
+00:04:11,730 --> 00:04:20,000
+Since the latest release that's 2020
+the release is available on GitHub
+
+47
+00:04:20,000 --> 00:04:23,759
+The previous releases were
+available on Google drive
+
+48
+00:04:23,759 --> 00:04:29,910
+We published a link to a Google drive
+here you found a zip file
+
+49
+00:04:29,910 --> 00:04:34,400
+And now everything is on GitHub
+Let's open the GitHub page
+
+50
+00:04:34,400 --> 00:04:38,457
+There's a team for the SST
+who develops the SysML v2
+
+51
+00:04:38,457 --> 00:04:43,680
+I share my screen and
+you will shortly see the GitHub
+
+52
+00:04:43,680 --> 00:04:45,169
+Let's see
+
+53
+00:05:05,840 --> 00:05:10,503
+Here it is
+We have the GitHub
+
+54
+00:05:10,873 --> 00:05:13,981
+SysML is so big
+Tim has to look around
+
+55
+00:05:17,520 --> 00:05:25,280
+You should see the Github team page
+of the SysML submission team
+
+56
+00:05:25,280 --> 00:05:29,820
+The URL is
+https://github.com/Systems-Modeling
+
+57
+00:05:29,820 --> 00:05:35,919
+We will also put this URL in
+our show notes after this episode
+
+58
+00:05:35,919 --> 00:05:42,370
+And there are five public and
+one private repositories here
+
+59
+00:05:42,370 --> 00:05:47,020
+I can see the private repository
+because I have access rights to it
+
+60
+00:05:47,020 --> 00:05:52,320
+because I work on that that's
+the SysML v1 to v2 transformation
+
+61
+00:05:52,320 --> 00:05:56,489
+And we make it public as soon as
+this is more mature
+
+62
+00:05:56,489 --> 00:05:59,280
+Currently it's very draft
+
+63
+00:05:59,280 --> 00:06:01,440
+We see different repositories here
+
+64
+00:06:01,440 --> 00:06:06,540
+And today we would like
+to unbox the release
+
+65
+00:06:06,540 --> 00:06:10,050
+and we find the release, of course
+here in the release repository
+
+66
+00:06:10,050 --> 00:06:12,080
+Let's go into this one
+
+67
+00:06:17,520 --> 00:06:24,400
+You can clone this repository or
+you can download still the zip file
+
+68
+00:06:24,400 --> 00:06:28,800
+that contains everything you need
+and the zip file is here
+
+69
+00:06:28,800 --> 00:06:33,560
+if you scroll down
+you find the README of this one
+
+70
+00:06:33,560 --> 00:06:40,100
+and there somewhere is
+the link to the releases
+
+71
+00:06:40,100 --> 00:06:42,000
+And if you click on the link
+
+72
+00:06:42,000 --> 00:06:43,560
+you come to another page
+
+73
+00:06:43,560 --> 00:06:48,050
+where you find the zip
+file of the latest release
+
+74
+00:06:48,050 --> 00:06:49,919
+Actually there are two zip files
+
+75
+00:06:49,919 --> 00:06:51,840
+One is the pilot implementation
+
+76
+00:06:51,840 --> 00:06:54,240
+And the other one is API & Services
+
+77
+00:06:54,240 --> 00:06:58,000
+And today we look on
+the pilot implementation
+
+78
+00:06:58,000 --> 00:07:01,400
+Christian, unzip the zip
+what's in it?
+
+79
+00:07:02,160 --> 00:07:04,889
+Let's have a look
+
+80
+00:07:04,889 --> 00:07:13,759
+Let me share my screen
+I want to overwrite Tim
+
+81
+00:07:13,759 --> 00:07:18,000
+So, well prepared
+
+82
+00:07:18,000 --> 00:07:28,929
+When we unzip this the zip file
+we find several folders and files
+
+83
+00:07:28,929 --> 00:07:34,720
+And all in all
+it has around 175 mega bytes
+
+84
+00:07:34,720 --> 00:07:36,160
+A lot of stuff in it
+
+85
+00:07:36,160 --> 00:07:38,399
+But let's have a look
+
+86
+00:07:38,399 --> 00:07:40,400
+First of all we have a README file
+
+87
+00:07:40,400 --> 00:07:43,440
+a README markdown file
+
+88
+00:07:43,440 --> 00:07:47,759
+there are all the instructions
+how to install and what it is
+
+89
+00:07:47,759 --> 00:07:50,800
+Of course, there's some licensing
+
+90
+00:07:50,800 --> 00:07:54,760
+Licensing stuff so currently nearly
+
+91
+00:07:54,760 --> 00:07:59,599
+everything is licensed under the
+SST member organizations
+
+92
+00:07:59,599 --> 00:08:01,530
+listed in the documents
+
+93
+00:08:01,530 --> 00:08:07,919
+And the pilot implementation is especially
+licensed by Model Driven Solutions
+
+94
+00:08:07,919 --> 00:08:11,759
+Ed took a lot of work in it
+he's working for Model Driven Solutions
+
+95
+00:08:11,759 --> 00:08:19,390
+And but it is licensed
+under Creative Commons
+
+96
+00:08:19,390 --> 00:08:20,560
+You can use it
+
+97
+00:08:20,560 --> 00:08:24,000
+You can modify it I think
+
+98
+00:08:24,000 --> 00:08:27,759
+But you can't sell it
+or something like that
+
+99
+00:08:28,869 --> 00:08:33,000
+Actually the the PDF is
+the Creative Common license
+
+100
+00:08:33,000 --> 00:08:38,159
+the other one is the GNU license
+
+101
+00:08:38,159 --> 00:08:42,640
+The legal stuff is sophisticated
+
+102
+00:08:44,400 --> 00:08:45,690
+What do we have
+
+103
+00:08:45,690 --> 00:08:49,600
+We have a documentations folder
+where you find some documents
+
+104
+00:08:49,600 --> 00:08:52,539
+We will show you in the next minutes
+
+105
+00:08:52,539 --> 00:08:55,680
+We take a closer look to them
+
+106
+00:08:55,680 --> 00:09:00,240
+But as you can see over
+a mega byte of text
+
+107
+00:09:00,240 --> 00:09:05,900
+It's a lot of stuff and
+we have all the install files
+
+108
+00:09:05,900 --> 00:09:08,000
+for Eclipse and Jupyter
+
+109
+00:09:08,000 --> 00:09:10,920
+Both parts are pilot implementations
+
+110
+00:09:10,920 --> 00:09:16,118
+in which we will have a look
+in the next minutes
+
+111
+00:09:16,118 --> 00:09:20,800
+Then we have some meta model
+stuff here in KerML
+
+112
+00:09:20,800 --> 00:09:31,200
+as well as in SysML all the sources
+to the language and inside the language
+
+113
+00:09:31,200 --> 00:09:35,040
+and the source folder
+you also find many examples
+
+114
+00:09:35,040 --> 00:09:37,279
+There are several examples
+
+115
+00:09:37,279 --> 00:09:43,600
+for example of the vehicle example
+
+116
+00:09:43,600 --> 00:09:49,810
+which might have get some fame
+
+117
+00:09:49,810 --> 00:09:54,080
+because it's the example from Ed's
+and Sandy's presentations
+
+118
+00:09:54,080 --> 00:10:00,000
+So far but as you can see there are
+several more examples the camera example
+
+119
+00:10:00,000 --> 00:10:02,550
+which contains some stuff
+
+120
+00:10:02,550 --> 00:10:09,985
+especially for behavioral modeling
+which is coming from cornet block
+
+121
+00:10:09,985 --> 00:10:13,930
+and many more
+
+122
+00:10:13,930 --> 00:10:19,940
+The last folder we did not
+login is the SysML library
+
+123
+00:10:19,940 --> 00:10:25,950
+And this is not filled up
+very much up to now
+
+124
+00:10:25,950 --> 00:10:30,410
+But as you can see there is
+a folder in it called Geometry
+
+125
+00:10:30,410 --> 00:10:36,800
+and it contains some basic geometry
+
+126
+00:10:36,800 --> 00:10:39,920
+some basic stuff of geometry means
+
+127
+00:10:39,920 --> 00:10:45,519
+how to cover some domain knowledge
+
+128
+00:10:45,519 --> 00:10:52,799
+Regarding CAD and how to connect that
+
+129
+00:10:52,799 --> 00:10:54,367
+Did I miss something, Tim?
+
+130
+00:10:56,025 --> 00:11:00,640
+No, I think, that's it that we
+will revisit some of these elements
+
+131
+00:11:00,640 --> 00:11:03,340
+when we look at the implementation
+
+132
+00:11:04,000 --> 00:11:08,910
+Then Tim, tell us what's in part 1
+of these documents
+
+133
+00:11:09,360 --> 00:11:14,079
+Yeah, there are three documents
+for the SysML v2 specification
+
+134
+00:11:14,079 --> 00:11:17,839
+Let's have a look at part 1
+
+135
+00:11:17,839 --> 00:11:21,600
+I try to share my screen
+
+136
+00:11:21,600 --> 00:11:25,600
+You can see it at least the people
+who have video
+
+137
+00:11:25,600 --> 00:11:29,279
+I must look around my box
+
+138
+00:11:29,279 --> 00:11:33,600
+Part 1 is the specification of KerML
+
+139
+00:11:33,600 --> 00:11:40,426
+And KerML is, so to say
+the meta model elect for SysML v2
+
+140
+00:11:40,426 --> 00:11:43,709
+SysML v1 is based on UML
+
+141
+00:11:43,709 --> 00:11:49,120
+and SysML v2 gets a new complete
+new brand meta model
+
+142
+00:11:49,120 --> 00:11:54,129
+Here's you see the the cover page
+of this document
+
+143
+00:11:54,129 --> 00:11:58,750
+It's already more than 200 pages long
+
+144
+00:11:58,750 --> 00:12:03,360
+I assume it will be much
+longer when it's finalized
+
+145
+00:12:03,360 --> 00:12:09,520
+And we can jump to the scope chapter
+
+146
+00:12:09,520 --> 00:12:12,480
+if you open an OMG specification document
+
+147
+00:12:12,480 --> 00:12:15,360
+the scope chapter at the beginning
+
+148
+00:12:15,360 --> 00:12:18,900
+It's chapter 1
+
+149
+00:12:18,900 --> 00:12:24,399
+It's interesting because there you
+can read what is the scope of this one
+
+150
+00:12:24,399 --> 00:12:25,434
+And it says
+
+151
+00:12:25,434 --> 00:12:31,040
+the KerML provides an application
+independent syntax and semantics
+
+152
+00:12:31,040 --> 00:12:34,480
+for creating more specific
+modeling language well
+
+153
+00:12:34,480 --> 00:12:40,160
+That's the meta model
+The the basis for the SysML v2
+
+154
+00:12:40,160 --> 00:12:45,960
+And we look into the meta model
+
+155
+00:12:45,960 --> 00:12:48,829
+The meta models are
+sophisticated stuff
+
+156
+00:12:48,829 --> 00:12:52,880
+Let's look for an example
+
+157
+00:12:52,880 --> 00:12:58,890
+Here into the into section 7.3
+
+158
+00:12:58,890 --> 00:13:00,190
+That's about types
+
+159
+00:13:00,190 --> 00:13:04,720
+Type is a common
+concept in the modeling languages
+
+160
+00:13:04,720 --> 00:13:09,040
+and currently we look
+on the meta model diagram
+
+161
+00:13:09,040 --> 00:13:11,514
+for those who cannot see it
+
+162
+00:13:11,514 --> 00:13:16,079
+and we see the type for example
+
+163
+00:13:16,079 --> 00:13:18,200
+and on the right side the feature
+
+164
+00:13:18,200 --> 00:13:19,200
+so simply said
+
+165
+00:13:19,200 --> 00:13:21,818
+the block and the property
+for example
+
+166
+00:13:21,818 --> 00:13:24,479
+these are special types or features
+
+167
+00:13:24,479 --> 00:13:28,720
+and we can also see a special thing here
+that the feature is a special type
+
+168
+00:13:28,720 --> 00:13:31,760
+That's new in SysML v2
+
+169
+00:13:31,760 --> 00:13:33,570
+We have in SysML v1
+
+170
+00:13:33,570 --> 00:13:35,360
+we have types and
+we have the features
+
+171
+00:13:35,360 --> 00:13:40,000
+And in SysML v2 a feature can
+also be a type itself
+
+172
+00:13:40,000 --> 00:13:42,909
+That's a little bit weird
+
+173
+00:13:42,909 --> 00:13:48,460
+And I think it's worth another episode of
+this podcast to discuss that one
+
+174
+00:13:48,460 --> 00:13:53,040
+And maybe one more
+you also see here
+
+175
+00:13:53,040 --> 00:13:55,680
+an element called feature membership
+
+176
+00:13:55,680 --> 00:14:02,320
+that's the relationship that
+a feature is owned by a type
+
+177
+00:14:02,320 --> 00:14:04,867
+and we will see these elements later again
+
+178
+00:14:04,867 --> 00:14:09,730
+when we look into the pilot implementation
+
+179
+00:14:09,730 --> 00:14:11,740
+I think that's it so far for part 1
+
+180
+00:14:11,740 --> 00:14:13,939
+Of course
+there's lots of more stuff
+
+181
+00:14:13,939 --> 00:14:16,880
+but that's out of scope for this unboxing
+
+182
+00:14:16,880 --> 00:14:20,225
+Christian, what is this in part 2 & 3?
+
+183
+00:14:20,639 --> 00:14:25,600
+Let's have a look on my screen again
+
+184
+00:14:25,600 --> 00:14:34,618
+And I also prepared some PDFs here
+
+185
+00:14:34,618 --> 00:14:42,490
+And part 2 is about the language
+
+186
+00:14:42,490 --> 00:14:49,140
+It's the OMG Systems Modeling
+Language version 2.0 specification
+
+187
+00:14:49,140 --> 00:14:58,109
+which is submitted in
+response to the RFP from 2017
+
+188
+00:14:58,109 --> 00:15:05,199
+Let's have a look into a similar
+section like Tim has shown that
+
+189
+00:15:05,199 --> 00:15:09,790
+You see this is also nearly 400 pages long
+
+190
+00:15:09,790 --> 00:15:12,689
+and there you can imagine
+
+191
+00:15:12,689 --> 00:15:20,659
+how much work is in this language
+and in this specification
+
+192
+00:15:20,659 --> 00:15:27,440
+What I wanted to do is
+switching with you to section 7.7
+
+193
+00:15:27,440 --> 00:15:34,160
+And maybe I will find it in a minute
+
+194
+00:15:34,160 --> 00:15:43,800
+because 7.7 is regarding parts
+
+195
+00:15:43,800 --> 00:15:48,290
+the concept of parts was
+there also in SysML v1
+
+196
+00:15:48,290 --> 00:15:52,560
+But we have some change
+we don't have a block anymore
+
+197
+00:15:52,560 --> 00:15:57,199
+The block is called
+part definition now in SysML v2
+
+198
+00:15:57,199 --> 00:16:04,720
+which brings us the concept of definition
+and usage all across the language
+
+199
+00:16:04,720 --> 00:16:12,180
+You find it also in terms of attributes
+in terms of of some behavior stuff
+
+200
+00:16:12,180 --> 00:16:16,079
+And it's very similar for all the concepts
+
+201
+00:16:16,079 --> 00:16:22,480
+and you can see the abstract
+syntax here in this diagram
+
+202
+00:16:22,480 --> 00:16:27,990
+which gives you the context between
+definition and usage as well
+
+203
+00:16:27,990 --> 00:16:32,750
+how item definition and part definition
+is connected to definition
+
+204
+00:16:32,750 --> 00:16:38,720
+and how item usage and part
+usage is connected to usage
+
+205
+00:16:38,720 --> 00:16:42,240
+and how those two sides
+are acting together
+
+206
+00:16:42,240 --> 00:16:45,519
+It doesn't look very familiar
+
+207
+00:16:45,519 --> 00:16:49,279
+It's fancy stuff behind it
+but trust me
+
+208
+00:16:49,279 --> 00:16:53,199
+There were people thinking a lot
+
+209
+00:16:53,199 --> 00:16:58,560
+There were brilliant minds on at work
+
+210
+00:16:58,560 --> 00:17:05,279
+who decided to get rid of SysML
+from the UML meta model
+
+211
+00:17:05,279 --> 00:17:09,329
+just because of those things
+would not be possible
+
+212
+00:17:09,329 --> 00:17:13,660
+but they are the foundation
+for a much clearer
+
+213
+00:17:13,660 --> 00:17:20,669
+And more specific and precise
+language like SysML v2 will be
+
+214
+00:17:20,669 --> 00:17:25,490
+We could scroll through
+the other 384 pages
+
+215
+00:17:25,490 --> 00:17:31,360
+But then we will have
+a 24 hour podcast session
+
+216
+00:17:31,360 --> 00:17:35,640
+We won't don't want to
+bother you with this
+
+217
+00:17:35,640 --> 00:17:40,390
+so that's why we are switching to
+the 3rd document in this release
+
+218
+00:17:40,390 --> 00:17:46,860
+And the 3rd document is about the API
+
+219
+00:17:46,860 --> 00:17:50,900
+As you can see again
+the front page of the API
+
+220
+00:17:50,900 --> 00:17:53,880
+which is in response to another RFP
+
+221
+00:17:53,880 --> 00:17:58,439
+like we mentioned it in the
+last episode of our podcast
+
+222
+00:17:58,439 --> 00:18:01,270
+which came some months later
+than the language
+
+223
+00:18:01,270 --> 00:18:09,700
+But the API is developed
+together with the language
+
+224
+00:18:09,700 --> 00:18:14,739
+and the benefits of it
+we will see in some minutes
+
+225
+00:18:14,739 --> 00:18:20,720
+Let's switch back to the chapter
+7.5.2 of this specification
+
+226
+00:18:20,720 --> 00:18:27,440
+It is a little bit shorter much shorter
+than the language specification
+
+227
+00:18:27,440 --> 00:18:33,459
+and chapter 7.5 is
+about element versioning
+
+228
+00:18:33,459 --> 00:18:37,130
+The API is offers some services
+
+229
+00:18:37,130 --> 00:18:40,880
+And one of the services is
+element versioning
+
+230
+00:18:40,880 --> 00:18:50,640
+and what I wanted to show you now is
+the abstract syntax here in chapter 7.5.2
+
+231
+00:18:50,640 --> 00:18:58,570
+which shows a diagram connecting
+the project itself
+
+232
+00:18:58,570 --> 00:19:07,840
+That means the head or the root of
+a model is called project now
+
+233
+00:19:07,840 --> 00:19:12,559
+and the project contains
+several element identities
+
+234
+00:19:12,559 --> 00:19:17,840
+and an identity can
+have multiple versions
+
+235
+00:19:17,840 --> 00:19:21,280
+as well element version as
+
+236
+00:19:21,280 --> 00:19:27,930
+also element identity is
+called a record
+
+237
+00:19:27,930 --> 00:19:31,919
+and the last element
+on this diagram is commit
+
+238
+00:19:31,919 --> 00:19:38,100
+which is very git like
+that a commit has a change set
+
+239
+00:19:38,100 --> 00:19:42,960
+and a change set contains
+several element versions
+
+240
+00:19:42,960 --> 00:19:46,419
+we will show you
+a pilot-pilot implementation
+
+241
+00:19:46,419 --> 00:19:51,200
+where we have shown
+in the TdSE on the Germany
+
+242
+00:19:51,200 --> 00:19:55,560
+an national symposium in INCOSE
+national symposium last week
+
+243
+00:19:55,560 --> 00:19:57,840
+where we did a proof of concept
+
+244
+00:19:57,840 --> 00:20:06,159
+how well and how easy that is working
+
+245
+00:20:06,159 --> 00:20:09,840
+We are through with all the documents
+
+246
+00:20:09,840 --> 00:20:14,000
+I would say let's open the install folder
+
+247
+00:20:14,850 --> 00:20:19,627
+Now the real stuff
+
+248
+00:20:19,627 --> 00:20:21,540
+I take the screen
+
+249
+00:20:21,540 --> 00:20:28,480
+And it's here
+
+250
+00:20:28,480 --> 00:20:33,824
+If you have unzipped the release
+
+251
+00:20:33,824 --> 00:20:36,320
+you find the install folder
+
+252
+00:20:36,320 --> 00:20:41,267
+and inside the install
+folder are two subfolders
+
+253
+00:20:41,267 --> 00:20:43,749
+One is for the Eclipse
+pilot implementation
+
+254
+00:20:43,749 --> 00:20:46,549
+and the other one is for Jupyter
+
+255
+00:20:46,549 --> 00:20:50,591
+And I open the Eclipse one
+
+256
+00:20:50,591 --> 00:20:54,640
+And inside the Eclipse folder
+you find a README file
+
+257
+00:20:54,640 --> 00:21:01,039
+and the README file explains very well
+how to install the SysML v2 pilot
+
+258
+00:21:01,039 --> 00:21:05,520
+and I tried it a few days ago
+and it works very well exactly
+
+259
+00:21:05,520 --> 00:21:09,730
+like it is described in the PDF
+
+260
+00:21:09,730 --> 00:21:13,360
+before you can start this installation
+you need Eclipse
+
+261
+00:21:13,360 --> 00:21:16,149
+It's not described how to install Eclipse
+
+262
+00:21:16,149 --> 00:21:17,730
+But that is quite easy
+
+263
+00:21:17,730 --> 00:21:22,190
+You can download Eclipse
+from the eclipse.org website
+
+264
+00:21:22,190 --> 00:21:24,559
+Actually you download an installer
+
+265
+00:21:24,559 --> 00:21:27,760
+Then you start the installer and
+maybe then it's a tricky part
+
+266
+00:21:27,760 --> 00:21:31,520
+The installer asks you which
+edition you would like to install
+
+267
+00:21:31,520 --> 00:21:34,799
+I always install the
+Eclipse Modeling Tools
+
+268
+00:21:34,799 --> 00:21:37,090
+because we would like to do modeling
+
+269
+00:21:37,090 --> 00:21:40,559
+but it should also work with
+one of the other ones
+
+270
+00:21:40,559 --> 00:21:45,039
+at least it must include
+the Java Development Kit
+
+271
+00:21:45,039 --> 00:21:51,100
+Once you have installed Eclipse
+you start with the guideline in the README
+
+272
+00:21:51,100 --> 00:21:56,640
+I already did that because that cost a
+lot of time downloading installing etc.
+
+273
+00:21:56,640 --> 00:22:02,480
+It's already prepared and
+I changed to my Eclipse
+
+274
+00:22:02,480 --> 00:22:05,840
+Let's do a new share
+
+275
+00:22:05,840 --> 00:22:14,559
+and to the Eclipse folder
+should be somewhere on my PC
+
+276
+00:22:14,559 --> 00:22:19,360
+Yes, it is
+
+277
+00:22:19,360 --> 00:22:24,960
+And now you see the Eclipse IDE
+
+278
+00:22:24,960 --> 00:22:30,010
+By the way, if you are
+not familiar with Eclipse
+
+279
+00:22:30,010 --> 00:22:33,635
+you may be desperate to
+find the preference menu item
+
+280
+00:22:33,635 --> 00:22:36,000
+that is mentioned in the README
+
+281
+00:22:36,000 --> 00:22:40,790
+It's located in the window menu
+
+282
+00:22:40,790 --> 00:22:43,200
+Maybe you would not expect a preference
+
+283
+00:22:43,200 --> 00:22:50,720
+when you item below the windows
+so there you find that one
+
+284
+00:22:50,720 --> 00:22:55,340
+Here you find when you install it
+you find three folders
+
+285
+00:22:55,340 --> 00:22:58,159
+kerml, sysml, and the sysml library
+
+286
+00:22:58,159 --> 00:23:01,600
+and as Christian already showed you
+
+287
+00:23:01,600 --> 00:23:03,429
+below the sysml package
+
+288
+00:23:03,429 --> 00:23:08,799
+you find the examples and training stuff
+
+289
+00:23:08,799 --> 00:23:12,720
+which is also a huge list of examples
+
+290
+00:23:12,720 --> 00:23:15,919
+And you can create your own modeling
+
+291
+00:23:15,919 --> 00:23:19,919
+that is also described in
+the PDF how to do that
+
+292
+00:23:19,919 --> 00:23:22,000
+how to create a new project
+
+293
+00:23:22,000 --> 00:23:25,779
+and then you must convert it to Xtext
+and things like that
+
+294
+00:23:25,779 --> 00:23:29,660
+that everything is described
+very well in the PDF
+
+295
+00:23:29,660 --> 00:23:33,320
+and in the end you have an empty projects
+
+296
+00:23:33,320 --> 00:23:36,310
+and I already created one
+called simple system
+
+297
+00:23:36,310 --> 00:23:42,960
+and inside the project
+you can create a new file
+
+298
+00:23:42,960 --> 00:23:49,250
+and *.sysml and inside the file
+you can start
+
+299
+00:23:49,250 --> 00:23:55,520
+And should I say "programming SysML"?
+
+300
+00:23:55,520 --> 00:24:01,460
+There you find the SysML code?
+Maybe it's code
+
+301
+00:24:01,460 --> 00:24:06,720
+And how to do the textual SysML v2
+syntax is displayed in one of the PDF
+
+302
+00:24:06,720 --> 00:24:10,889
+we mentioned before this is
+SysML v2 introduction PDF
+
+303
+00:24:10,889 --> 00:24:14,060
+And the doc folder
+contains actually a description
+
+304
+00:24:14,060 --> 00:24:17,330
+of the texture of SysML v2 sysntax
+
+305
+00:24:17,330 --> 00:24:22,110
+I created here a very simple model
+
+306
+00:24:22,110 --> 00:24:26,870
+It's a part definition
+a block of SysML v1
+
+307
+00:24:26,870 --> 00:24:30,320
+and called simple system
+which contains an attribute
+
+308
+00:24:30,320 --> 00:24:32,170
+mass of type Real
+
+309
+00:24:32,170 --> 00:24:39,360
+and then I create a part of that type
+containing three parts of that type
+
+310
+00:24:39,360 --> 00:24:40,640
+A very simple structure
+
+311
+00:24:40,640 --> 00:24:47,120
+A part is named my system and it has
+three parts p1, p2, p3 very simple
+
+312
+00:24:47,120 --> 00:24:52,439
+when I click inside
+
+313
+00:24:52,439 --> 00:24:54,320
+The SysMLv2 code
+
+314
+00:24:54,320 --> 00:24:57,679
+You see in the in the
+outline view of Eclipse
+
+315
+00:24:57,679 --> 00:25:01,200
+the the models structure
+
+316
+00:25:01,200 --> 00:25:08,400
+And there again you find then
+the types of the meta model
+
+317
+00:25:08,400 --> 00:25:10,630
+you saw before in the PDF
+
+318
+00:25:10,630 --> 00:25:13,520
+for example you find a lot
+of feature memberships
+
+319
+00:25:13,520 --> 00:25:17,520
+The relationship that relates a feature
+
+320
+00:25:17,520 --> 00:25:23,840
+to the owner in this case here
+it's a part definition or a part usage
+
+321
+00:25:23,840 --> 00:25:28,559
+depending on which level
+we look into our file
+
+322
+00:25:28,559 --> 00:25:34,400
+and for those who would like to
+see it graphically
+
+323
+00:25:34,400 --> 00:25:36,950
+It's also possible to do that
+
+324
+00:25:36,950 --> 00:25:41,919
+and the README PDF is described
+how to install PlantUML
+
+325
+00:25:41,919 --> 00:25:45,830
+It's not a modeling tool
+
+326
+00:25:45,830 --> 00:25:50,210
+I would say it's a graphical
+visualizer for UML
+
+327
+00:25:50,210 --> 00:25:54,770
+and it's adapted for SysML v2
+
+328
+00:25:54,770 --> 00:25:58,720
+and if it's installed
+you can open the PlantUML view
+
+329
+00:25:58,720 --> 00:26:03,042
+And for that you must
+select the window menu
+
+330
+00:26:03,042 --> 00:26:11,200
+there you find show views and then
+you can select the the PlantUML window
+
+331
+00:26:11,200 --> 00:26:24,170
+And then it should show the SysML v2
+code in a graphical notation
+
+332
+00:26:24,170 --> 00:26:28,720
+By the way, this is not the
+final SysML v2 notation
+
+333
+00:26:28,720 --> 00:26:32,960
+It's just a graphical visualization
+of this SysML v2 code
+
+334
+00:26:32,960 --> 00:26:35,949
+But it's not the final one
+
+335
+00:26:35,949 --> 00:26:40,799
+It's the notation that is possible
+to do with PlantUML
+
+336
+00:26:40,799 --> 00:26:45,120
+That's quite nice
+
+337
+00:26:45,120 --> 00:26:48,320
+And well I think that's it
+
+338
+00:26:48,320 --> 00:26:55,500
+So far but there's another SysML pilot
+implementation in the install folder
+
+339
+00:26:55,500 --> 00:26:59,120
+And it's based on Jupyter
+and JupyterLab
+
+340
+00:26:59,120 --> 00:27:01,921
+Christian, you know Jupyter
+much better than me
+
+341
+00:27:01,921 --> 00:27:03,170
+So, that's your part
+
+342
+00:27:03,520 --> 00:27:07,360
+Is it the case that I know
+it better than you?
+
+343
+00:27:07,360 --> 00:27:09,539
+Might be so, okay
+
+344
+00:27:09,539 --> 00:27:13,404
+Let's switch to the other
+pilot implementation
+
+345
+00:27:13,404 --> 00:27:16,618
+as Tim mentioned
+there is a second one
+
+346
+00:27:16,618 --> 00:27:20,260
+It's called JupyterLab
+before it was a Jupyter Notebook
+
+347
+00:27:20,260 --> 00:27:26,140
+which is basically the same thing for user
+
+348
+00:27:26,140 --> 00:27:28,780
+It has two prerequisites
+
+349
+00:27:28,780 --> 00:27:31,919
+You need Java and
+you need some python stuff
+
+350
+00:27:31,919 --> 00:27:34,480
+for example Anaconda
+
+351
+00:27:34,480 --> 00:27:41,279
+And then you will find a batch file
+or a shell script for other platforms
+
+352
+00:27:41,279 --> 00:27:45,759
+with which is it it is extremely
+easy to install Jupyter Notebook
+
+353
+00:27:45,759 --> 00:27:51,279
+One trick under windows is that
+you should start it
+
+354
+00:27:51,279 --> 00:27:55,600
+the command line and the batch file
+under administrative privileges
+
+355
+00:27:55,600 --> 00:27:59,360
+And then it is no problem
+
+356
+00:27:59,360 --> 00:28:06,411
+Let me share my screen again
+
+357
+00:28:06,411 --> 00:28:08,240
+What I prepared now is
+
+358
+00:28:08,240 --> 00:28:18,080
+I have a console, a command line window
+where you just type in "jupiter lab"
+
+359
+00:28:18,080 --> 00:28:22,399
+And it starts a web service
+
+360
+00:28:22,399 --> 00:28:27,120
+And in a few seconds in my browser
+there will be a window
+
+361
+00:28:27,120 --> 00:28:35,050
+And I will bring that window up
+on the screen our live
+
+362
+00:28:35,050 --> 00:28:41,360
+And video watchers will see
+
+363
+00:28:41,360 --> 00:28:44,960
+It is loading
+
+364
+00:28:44,960 --> 00:28:47,229
+That's JupyterLab
+
+365
+00:28:47,229 --> 00:28:55,070
+And we just say we want to do
+a new notebook in the SysML language
+
+366
+00:28:55,070 --> 00:28:59,200
+It is preparing a new notebook
+
+367
+00:28:59,200 --> 00:29:06,512
+In this time I can copy some of the...
+
+368
+00:29:06,512 --> 00:29:10,960
+Oh, come on
+It worked before
+
+369
+00:29:10,960 --> 00:29:13,039
+Okay, it needs some time
+
+370
+00:29:13,039 --> 00:29:20,240
+There's a lot of things loading
+in the background, I guess
+
+371
+00:29:20,240 --> 00:29:26,679
+and the video encoding for this
+podcast needs also some of my CPU
+
+372
+00:29:27,679 --> 00:29:31,679
+I think it's important to say that
+it is only a pilot implementation
+
+373
+00:29:31,679 --> 00:29:37,400
+It is not optimized regarding
+performance and user interfaces etc.
+
+374
+00:29:37,400 --> 00:29:39,120
+only a pilot implementation
+
+375
+00:29:39,450 --> 00:29:46,979
+You can see that on several edges
+and scratches and so on so
+
+376
+00:29:46,979 --> 00:29:49,200
+Let's continue
+I have my new notebook
+
+377
+00:29:49,200 --> 00:29:53,440
+And if you know JupyterLab
+or Jupyter Notebook
+
+378
+00:29:53,440 --> 00:29:57,932
+You can enter some
+code in this example
+
+379
+00:29:57,932 --> 00:30:03,600
+We will do SysML textual notation
+
+380
+00:30:03,600 --> 00:30:07,279
+And I think it will be okay
+
+381
+00:30:07,279 --> 00:30:09,746
+You might have seen
+or might have noticed
+
+382
+00:30:09,746 --> 00:30:11,811
+that everything was
+black and white before
+
+383
+00:30:11,811 --> 00:30:16,000
+and now where the meta model
+in the background the syntax was loaded
+
+384
+00:30:16,000 --> 00:30:21,440
+And we get some highlighting
+syntax highlighting here in the code
+
+385
+00:30:21,440 --> 00:30:32,240
+And what we can do now is
+we can use the show method
+
+386
+00:30:32,240 --> 00:30:36,159
+Maybe okay, there it's coming
+
+387
+00:30:36,159 --> 00:30:41,039
+And if I execute the show command
+
+388
+00:30:41,039 --> 00:30:46,312
+something in the background
+is not working obviously
+
+389
+00:30:46,642 --> 00:30:50,364
+You need an argument
+to show "MBSEPodcast"
+
+390
+00:30:50,844 --> 00:30:53,190
+Of course, you are so right, Tim
+
+391
+00:30:53,360 --> 00:30:55,130
+The name of the package for example
+
+392
+00:30:55,257 --> 00:31:06,159
+Exactly, "MBSEPodcast"
+
+393
+00:31:10,600 --> 00:31:13,600
+There should be something
+in the background
+
+394
+00:31:13,600 --> 00:31:21,080
+And I think it needs some time again
+
+395
+00:31:21,080 --> 00:31:24,210
+Did I misspell something packaged?
+
+396
+00:31:28,240 --> 00:31:38,080
+Could not resolve reference, why not?
+Okay, that worked before
+
+397
+00:31:38,080 --> 00:31:44,000
+what you should have seen now
+and that's okay, that's live
+
+398
+00:31:44,000 --> 00:31:47,300
+What you should have
+seen now is that there
+
+399
+00:31:47,300 --> 00:31:52,733
+will be or should be
+the same model structure
+
+400
+00:31:52,733 --> 00:31:55,670
+as you have seen in
+the Eclipse environment
+
+401
+00:31:55,670 --> 00:32:01,929
+What JupyterLab is doing in the
+background is resolving the code
+
+402
+00:32:01,929 --> 00:32:05,230
+resolving the textual notation
+
+403
+00:32:05,230 --> 00:32:10,240
+and building up the model
+and all the objects
+
+404
+00:32:10,240 --> 00:32:16,000
+containing also these membership
+feature memberships and so on
+
+405
+00:32:16,000 --> 00:32:19,440
+and further for you in the background
+
+406
+00:32:19,440 --> 00:32:22,589
+so the next command which is available
+
+407
+00:32:22,589 --> 00:32:34,799
+in this pilot implementation is the
+publish command MBSE Podcast
+
+408
+00:32:34,799 --> 00:32:41,519
+Let's have a look if it works or not
+
+409
+00:32:41,519 --> 00:32:45,200
+Okay, cannot resolve
+
+410
+00:32:45,200 --> 00:32:49,249
+Do we have a parenthesis to know?
+
+411
+00:32:49,679 --> 00:32:52,429
+You must run the code first
+
+412
+00:32:53,039 --> 00:32:57,840
+That is possible
+
+413
+00:33:01,120 --> 00:33:03,569
+You are the Jupyter expert
+
+414
+00:33:03,919 --> 00:33:07,387
+You told me the truth but not me
+
+415
+00:33:07,387 --> 00:33:09,629
+so and then it is working
+
+416
+00:33:09,629 --> 00:33:15,530
+Let's see I wonder what a wonder
+
+417
+00:33:15,530 --> 00:33:17,679
+We have the model structure here
+
+418
+00:33:17,679 --> 00:33:22,750
+and you see besides the code
+we have typed or pasted in
+
+419
+00:33:22,750 --> 00:33:24,799
+The import statement is clear
+
+420
+00:33:24,799 --> 00:33:30,289
+that is the one we pasted there
+we have memberships and superclassing
+
+421
+00:33:30,289 --> 00:33:34,250
+and what we have here feature
+membership, feature typing, subsetting
+
+422
+00:33:34,250 --> 00:33:39,410
+so everything what was happening before in
+these statements in the code
+
+423
+00:33:39,410 --> 00:33:42,370
+is now here in the model structure
+
+424
+00:33:42,370 --> 00:33:46,720
+And you might notice that
+there are already UUIDs
+
+425
+00:33:46,720 --> 00:33:51,360
+behind each of these modeling elements
+
+426
+00:33:51,360 --> 00:33:58,480
+That means we have an
+instantiation of the objects
+
+427
+00:33:58,480 --> 00:34:01,519
+in the object model of JupyterLab
+
+428
+00:34:01,519 --> 00:34:08,320
+and what we can do now is publish
+this model to a repository
+
+429
+00:34:08,320 --> 00:34:13,040
+using the SysML v2 API
+
+430
+00:34:13,040 --> 00:34:16,399
+And this takes some time
+This is not optimized
+
+431
+00:34:16,399 --> 00:34:24,079
+up to now and even this example or
+a very similar example from us
+
+432
+00:34:24,079 --> 00:34:27,760
+was around a million lines of JSON
+
+433
+00:34:27,760 --> 00:34:31,480
+It's a lot of stuff what is
+happening in the background
+
+434
+00:34:31,480 --> 00:34:33,509
+and this will truly be optimized
+
+435
+00:34:33,509 --> 00:34:36,960
+and you'll see it's still processing
+
+436
+00:34:36,960 --> 00:34:46,879
+to transfer this model from my
+computer to the SysML v2 repository
+
+437
+00:34:46,879 --> 00:34:48,719
+which is hosted by Intercax
+
+438
+00:34:48,719 --> 00:34:58,240
+who do a lot of stuff in this pilot
+implementation of the SysML v2 API
+
+439
+00:34:58,240 --> 00:35:03,620
+But Tim, what else can we
+do with this repository?
+
+440
+00:35:04,240 --> 00:35:11,839
+Yeah, we can access the
+repository using a browser
+
+441
+00:35:11,839 --> 00:35:14,720
+That's pretty cool
+
+442
+00:35:14,720 --> 00:35:24,080
+I will share my screen again
+
+443
+00:35:28,560 --> 00:35:36,640
+And the URL is
+http://sysml2.intercax.com:9000/docs
+
+444
+00:35:36,640 --> 00:35:44,960
+And then you find the the REST/HTTP
+binding of the SysML v2 API
+
+445
+00:35:44,960 --> 00:35:48,880
+There will also be an OSLC
+binding be available
+
+446
+00:35:48,880 --> 00:35:52,560
+They're currently working on the the
+pilot implementation of that one
+
+447
+00:35:52,560 --> 00:35:58,640
+In the next or in the release after that
+it will also be available to the public
+
+448
+00:35:58,640 --> 00:36:01,951
+But here we have
+a REST/HTTP binding
+
+449
+00:36:01,951 --> 00:36:08,330
+and we use Swagger
+to to access the methods
+
+450
+00:36:08,330 --> 00:36:10,129
+This is already published?
+
+451
+00:36:10,419 --> 00:36:11,149
+Yes, it was
+
+452
+00:36:11,359 --> 00:36:14,780
+It's there?
+Okay, great
+
+453
+00:36:14,780 --> 00:36:21,200
+We can, for example then here
+get the list of all projects
+
+454
+00:36:21,200 --> 00:36:25,520
+Let's try it out and see if it works
+
+455
+00:36:25,520 --> 00:36:26,934
+It's a public server
+
+456
+00:36:26,934 --> 00:36:29,359
+Everyone who plays around
+with it published to it
+
+457
+00:36:29,359 --> 00:36:32,045
+You see a lot of stuff
+
+458
+00:36:32,045 --> 00:36:34,880
+Here you see the response
+
+459
+00:36:34,880 --> 00:36:37,310
+Picture taken
+here is "1c-Parts"
+
+460
+00:36:37,310 --> 00:36:41,320
+"Tree Redefinition" from
+October 30th, and so on
+
+461
+00:36:41,320 --> 00:36:46,180
+At the bottom we should see
+the "MBSEPodcast" project
+
+462
+00:36:46,180 --> 00:36:48,000
+published a few minutes ago
+
+463
+00:36:48,000 --> 00:36:50,560
+Before MBSE Podcast
+we see the TdSE
+
+464
+00:36:50,560 --> 00:36:56,560
+that's the project Christian and I
+published last week for the conference
+
+465
+00:36:56,560 --> 00:36:58,620
+And we see an identifier
+
+466
+00:36:58,620 --> 00:37:00,800
+Here's the unique
+identifier of the project
+
+467
+00:37:00,800 --> 00:37:05,599
+And I can copy it because I need that one
+
+468
+00:37:05,599 --> 00:37:09,630
+For another call
+let's go further down
+
+469
+00:37:09,630 --> 00:37:17,890
+Now I can get the commits of this project
+
+470
+00:37:17,890 --> 00:37:25,839
+And I need the ID of the project
+paste and execute
+
+471
+00:37:25,839 --> 00:37:29,120
+And then I get here the response
+
+472
+00:37:29,120 --> 00:37:33,520
+the commits there's only one commit
+
+473
+00:37:33,520 --> 00:37:41,599
+And what I need for to dive
+into the model through this API
+
+474
+00:37:41,599 --> 00:37:44,050
+I need the commit ID
+
+475
+00:37:44,050 --> 00:37:50,240
+Here we see the project ID
+and the commit ID of this commit
+
+476
+00:37:50,240 --> 00:37:53,599
+And then we can call
+
+477
+00:37:53,599 --> 00:37:56,110
+Let's go further down here
+
+478
+00:37:56,110 --> 00:38:00,000
+For example, here get the elements
+by the project and the commit
+
+479
+00:38:00,000 --> 00:38:03,520
+or get the root element by project
+and commit and so on
+
+480
+00:38:03,520 --> 00:38:07,200
+I will call get root elements by
+project and commit
+
+481
+00:38:07,200 --> 00:38:10,320
+because get all elements takes
+very long and I tried
+
+482
+00:38:10,320 --> 00:38:16,127
+It this morning, I just crashed the server
+
+483
+00:38:16,127 --> 00:38:22,240
+I try this one and again
+we need the project ID
+
+484
+00:38:22,240 --> 00:38:27,359
+It's still my clipboard
+and I need the ID of the commit
+
+485
+00:38:27,359 --> 00:38:37,839
+And it's here
+I'll copy paste
+
+486
+00:38:37,839 --> 00:38:46,400
+And let's see if it works
+because it costs some time
+
+487
+00:38:46,400 --> 00:38:48,800
+It's still loading
+
+488
+00:38:48,800 --> 00:38:57,040
+The response is the JSON stuff
+It's very long
+
+489
+00:38:57,040 --> 00:38:59,359
+And you see a lot of empty fields
+
+490
+00:38:59,359 --> 00:39:03,359
+that's what could be optimized
+
+491
+00:39:03,359 --> 00:39:09,040
+And somewhere here in all this stuff
+you will find the "MBSEPodcast" package
+
+492
+00:39:09,040 --> 00:39:14,589
+which is the root element of our model
+
+493
+00:39:14,589 --> 00:39:17,040
+And if I would have called
+get all elements
+
+494
+00:39:17,040 --> 00:39:27,130
+then you will also find the parts
+and the part definition element and so on
+
+495
+00:39:27,130 --> 00:39:29,200
+But it's nice to play around with that one
+
+496
+00:39:29,200 --> 00:39:32,079
+And to see that it works
+
+497
+00:39:32,079 --> 00:39:34,480
+Christians, do you already
+mentioned last week?
+
+498
+00:39:34,480 --> 00:39:38,320
+We did a very cool
+demonstration of that of the API
+
+499
+00:39:38,320 --> 00:39:41,610
+Can you briefly explain it?
+We have a few minutes left
+
+500
+00:39:41,975 --> 00:39:42,975
+Sure
+
+501
+00:39:45,520 --> 00:39:50,520
+We've told you two times
+already in this session
+
+502
+00:39:50,520 --> 00:39:54,420
+We did a demonstration
+at the national symposium
+
+503
+00:39:54,420 --> 00:39:56,960
+INCOSE national
+symposium in Germany
+
+504
+00:39:56,960 --> 00:40:01,890
+And we've shown a similar thing
+like we've shown you here
+
+505
+00:40:01,890 --> 00:40:10,400
+We started with um the Eclipse
+implementation just for our for viewing
+
+506
+00:40:10,400 --> 00:40:17,260
+Then I've gotten to Jupyter Notebook
+and published a model
+
+507
+00:40:17,260 --> 00:40:20,809
+and the the thing is
+
+508
+00:40:20,809 --> 00:40:25,760
+that we thought about just publishing
+something to a repository
+
+509
+00:40:25,760 --> 00:40:27,949
+and viewing it in the repository
+
+510
+00:40:27,949 --> 00:40:30,130
+It's not a big deal
+
+511
+00:40:30,130 --> 00:40:32,480
+We decided to write some lines of code
+
+512
+00:40:32,480 --> 00:40:37,519
+And we thought how can
+we interact with another tool
+
+513
+00:40:37,519 --> 00:40:41,200
+from maybe another
+engineering domain
+
+514
+00:40:41,200 --> 00:40:49,359
+And one of the most common tools
+on the world is Microsoft Excel
+
+515
+00:40:49,359 --> 00:40:54,530
+We took a look in Microsoft Excel
+
+516
+00:40:54,530 --> 00:41:01,280
+and we found out where Microsoft Excel
+can make REST calls for get calls
+
+517
+00:41:01,280 --> 00:41:05,680
+and you can also make
+HTTP post calls in Excel
+
+518
+00:41:05,680 --> 00:41:15,970
+And we made up
+the story or the use case
+
+519
+00:41:15,970 --> 00:41:27,359
+that a systems engineer is pushing
+a model into the repository
+
+520
+00:41:27,359 --> 00:41:33,760
+And another domain engineer will call
+this information in his tooling
+
+521
+00:41:33,760 --> 00:41:39,800
+an in this in this case
+the tooling is Excel
+
+522
+00:41:39,800 --> 00:41:42,800
+He makes an HTTP get on the repository
+
+523
+00:41:42,800 --> 00:41:49,680
+And he changes the information
+and writes it back into the repository
+
+524
+00:41:49,680 --> 00:41:51,779
+We could do that also live
+
+525
+00:41:51,779 --> 00:41:53,920
+But as Tim has said
+
+526
+00:41:53,920 --> 00:41:57,930
+This takes a lot of time
+
+527
+00:41:57,930 --> 00:42:00,319
+So, we took it into a video
+
+528
+00:42:00,319 --> 00:42:04,240
+and this we will show you now
+
+529
+00:42:04,240 --> 00:42:06,290
+I'm jumping a little bit ahead
+
+530
+00:42:06,290 --> 00:42:14,199
+because this is as I said
+Jupyter Notebook and Eclipse
+
+531
+00:42:14,199 --> 00:42:20,310
+And the real interesting part is
+here in the back of the video
+
+532
+00:42:20,310 --> 00:42:24,049
+where we call the
+information from the model
+
+533
+00:42:24,049 --> 00:42:26,800
+It was a an integer with value 42
+
+534
+00:42:26,800 --> 00:42:30,000
+The domain engineer decides
+"Oh, 42 is not my number"
+
+535
+00:42:30,000 --> 00:42:35,760
+"My favorite number is 12345
+like all my passwords"
+
+536
+00:42:35,760 --> 00:42:43,159
+And I have here a button
+to send this back to the API
+
+537
+00:42:43,159 --> 00:42:49,599
+and like it was here in the example
+we've shown you some seconds ago
+
+538
+00:42:49,599 --> 00:42:55,100
+Before there was just one commit
+
+539
+00:42:55,100 --> 00:43:03,279
+and now there are after
+the publishing of out of Excel
+
+540
+00:43:03,279 --> 00:43:05,359
+We call all the commits again
+
+541
+00:43:05,359 --> 00:43:09,760
+and we see there are
+two commits now in the project
+
+542
+00:43:09,760 --> 00:43:16,499
+and we now do look up
+one special element
+
+543
+00:43:16,499 --> 00:43:20,190
+which was this integer value property
+
+544
+00:43:20,190 --> 00:43:27,570
+and now we find the number 12345
+also in the repository
+
+545
+00:43:27,570 --> 00:43:30,329
+And maybe you might say now
+
+546
+00:43:30,329 --> 00:43:39,359
+That's not a big deal bringing up
+some stuff from Excel to a repository
+
+547
+00:43:39,359 --> 00:43:43,359
+But the thing is
+I'm not a programmer
+
+548
+00:43:43,359 --> 00:43:47,453
+I know how to use some
+programming languages
+
+549
+00:43:47,453 --> 00:43:51,289
+I did it in my thesis and and so on
+
+550
+00:43:51,289 --> 00:43:54,240
+I know how to program
+but I'm not a programmer
+
+551
+00:43:54,240 --> 00:43:58,720
+I know a little bit how the internet works
+
+552
+00:43:58,720 --> 00:44:02,309
+and it was possible for me
+within a few hours
+
+553
+00:44:02,309 --> 00:44:07,119
+without programming
+Visual Basic before
+
+554
+00:44:07,119 --> 00:44:10,560
+bringing up this proof of concept
+
+555
+00:44:10,560 --> 00:44:15,310
+and that means that
+it the maybe the bigger deal
+
+556
+00:44:15,310 --> 00:44:18,630
+than the language might be the API
+
+557
+00:44:18,630 --> 00:44:21,887
+because with the API
+we have with this proof of concept
+
+558
+00:44:21,887 --> 00:44:25,920
+we have shown you that
+
+559
+00:44:25,920 --> 00:44:31,470
+how easy it is to integrate
+different tooling
+
+560
+00:44:31,470 --> 00:44:37,049
+in a model based
+tooling environment
+
+561
+00:44:37,049 --> 00:44:39,709
+and this was not
+possible before
+
+562
+00:44:39,709 --> 00:44:44,020
+You always had these 
+proprietary integrations
+
+563
+00:44:44,020 --> 00:44:51,940
+And the truth was that you had
+the "MBSE silo" or even a "SysML silo"
+
+564
+00:44:51,940 --> 00:44:57,180
+and besides a
+"MATLAB Simulink silo"
+
+565
+00:44:57,180 --> 00:45:04,640
+and model exchange and also model
+
+566
+00:45:04,640 --> 00:45:08,110
+What's the word?
+"Model Transformation"
+
+567
+00:45:08,110 --> 00:45:11,280
+was not available
+or not easy to achieve
+
+568
+00:45:11,280 --> 00:45:13,430
+And what we've shown
+you now is that
+
+569
+00:45:13,430 --> 00:45:15,350
+with this implementation
+
+570
+00:45:15,350 --> 00:45:18,870
+even with this early
+implementation of the API
+
+571
+00:45:18,870 --> 00:45:24,400
+It is possible to exchange models
+and elements of models
+
+572
+00:45:24,400 --> 00:45:26,040
+another use case could be
+
+573
+00:45:26,040 --> 00:45:30,780
+And I think Tim and I will do
+something like that in future
+
+574
+00:45:30,780 --> 00:45:34,079
+that we run a simulation
+in let's say Modelica
+
+575
+00:45:34,079 --> 00:45:38,959
+and we get the actual weight
+of a composite structure
+
+576
+00:45:38,959 --> 00:45:40,699
+out of the system model
+
+577
+00:45:40,699 --> 00:45:45,759
+these use cases are extremely easy
+to achieve as you have seen
+
+578
+00:45:49,030 --> 00:45:52,661
+I think that was it
+
+579
+00:45:52,661 --> 00:45:54,319
+We unboxed SysML v2
+
+580
+00:45:54,319 --> 00:45:58,620
+We took three quarters of an hour
+
+581
+00:45:58,620 --> 00:46:00,010
+But I hope it was worth
+
+582
+00:46:00,010 --> 00:46:03,330
+I hope you are not too disappointed
+
+583
+00:46:03,330 --> 00:46:06,160
+if you wanted to go more in detail
+
+584
+00:46:06,160 --> 00:46:09,120
+But I think as Tim
+already mentioned
+
+585
+00:46:09,120 --> 00:46:12,880
+we will have several other
+podcasts on the language
+
+586
+00:46:12,880 --> 00:46:16,720
+especially when it gets more mature
+
+587
+00:46:22,640 --> 00:46:26,000
+What did i miss?
+Ah, yeah
+
+588
+00:46:26,000 --> 00:46:29,190
+If you have questions on
+the pilot implementation
+
+589
+00:46:29,190 --> 00:46:30,590
+there is a Google Group
+
+590
+00:46:30,590 --> 00:46:34,030
+We will put the link
+also in the description
+
+591
+00:46:34,030 --> 00:46:38,400
+of this video
+and on our website
+
+592
+00:46:38,400 --> 00:46:41,399
+There you can post questions
+
+593
+00:46:41,399 --> 00:46:44,960
+And Ed is very keen on answering them
+
+594
+00:46:44,960 --> 00:46:50,710
+and all the team on
+the pilot implementation
+
+595
+00:46:55,520 --> 00:46:58,319
+What's our next episode?
+
+596
+00:46:59,119 --> 00:47:01,140
+Our next episode
+
+597
+00:47:01,140 --> 00:47:04,800
+It's in less than three weeks
+
+598
+00:47:04,800 --> 00:47:10,480
+It's on December 15th
+This time again in German
+
+599
+00:47:10,480 --> 00:47:13,839
+And we have a guest for the first time
+
+600
+00:47:13,839 --> 00:47:18,980
+We have Christian Neureiter, who is
+director of the new research center
+
+601
+00:47:18,980 --> 00:47:24,640
+Josef Ressel Center for "Dependable
+System-of-Systems Engineering" in Austria
+
+602
+00:47:24,640 --> 00:47:30,399
+And I'm very looking
+forward to have him here
+
+603
+00:47:30,399 --> 00:47:38,380
+And I'm also very curious what
+you say when we have a guest
+
+604
+00:47:38,380 --> 00:47:39,680
+That was it for today
+
+605
+00:47:39,680 --> 00:47:42,550
+But do not forget
+
+606
+00:47:42,550 --> 00:47:44,940
+Trust us
+We are systems engineers
