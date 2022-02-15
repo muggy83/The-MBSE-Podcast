@@ -188,13 +188,13 @@ And that means a SysML
 modeler can't really decide
 
 42
-00:03:52,660 --> 00:03:55,840
-is this a new modeling element
-or was it there before
+00:03:52,660 --> 00:03:55,660
+is this a new modeling
+element or was it there
 
 43
-00:03:55,840 --> 00:03:59,040
-you pasted something
+00:03:55,660 --> 00:03:59,040
+before you pasted something
 in an existing model
 
 44
@@ -720,8 +720,8 @@ That's about types
 
 159
 00:13:00,190 --> 00:13:04,720
-Type is a common
-concept in the modeling languages
+Type is a common concept
+in the modeling languages
 
 160
 00:13:04,720 --> 00:13:09,040
@@ -1385,7 +1385,7 @@ contains actually a description
 
 304
 00:24:14,060 --> 00:24:17,330
-of the texture of SysML v2 sysntax
+of the texture of SysML v2 syntax
 
 305
 00:24:17,330 --> 00:24:22,110
@@ -1723,13 +1723,13 @@ And if you know JupyterLab
 or Jupyter Notebook
 
 378
-00:29:53,440 --> 00:29:57,932
-You can enter some
-code in this example
+00:29:53,440 --> 00:29:55,972
+You can enter some code
 
 379
-00:29:57,932 --> 00:30:03,600
-We will do SysML textual notation
+00:29:55,972 --> 00:30:03,600
+In this example
+we will do SysML textual notation
 
 380
 00:30:03,600 --> 00:30:07,279
@@ -2090,7 +2090,7 @@ Here you see the response
 
 459
 00:36:34,880 --> 00:36:37,310
-Picture taken
+”PictureTaking"
 here is "1c-Parts"
 
 460
@@ -2191,12 +2191,12 @@ project and commit
 
 481
 00:38:07,200 --> 00:38:10,320
-because get all elements takes
-very long and I tried
+Because get all elements takes
+very long, I tried it this morning
 
 482
 00:38:10,320 --> 00:38:16,127
-It this morning, I just crashed the server
+I just crashed the server
 
 483
 00:38:16,127 --> 00:38:22,240
@@ -2265,7 +2265,7 @@ And to see that it works
 497
 00:39:32,079 --> 00:39:34,480
 Christians, do you already
-mentioned last week?
+mention it last week?
 
 498
 00:39:34,480 --> 00:39:38,320
@@ -2303,7 +2303,7 @@ like we've shown you here
 
 505
 00:40:01,890 --> 00:40:10,400
-We started with um the Eclipse
+We started with the Eclipse
 implementation just for our for viewing
 
 506
@@ -2359,7 +2359,7 @@ can make REST calls for get calls
 517
 00:41:01,280 --> 00:41:05,680
 and you can also make
-HTTP post calls in Excel
+HTTP POST calls in Excel
 
 518
 00:41:05,680 --> 00:41:15,970
@@ -2459,7 +2459,7 @@ Before there was just one commit
 
 539
 00:42:55,100 --> 00:43:03,279
-and now there are after
+and now there were after
 the publishing of out of Excel
 
 540
@@ -2534,7 +2534,7 @@ bringing up this proof of concept
 555
 00:44:10,560 --> 00:44:15,310
 and that means that
-it the maybe the bigger deal
+it the may be the bigger deal
 
 556
 00:44:15,310 --> 00:44:18,630
