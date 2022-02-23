@@ -240,7 +240,7 @@ notation elements for the variants
 
 53
 00:03:20,000 --> 00:03:26,230
-It shows the specified variance
+It shows the specified variants
 of a variation by a relationship
 
 54
@@ -314,7 +314,7 @@ projects in the SysML v2 repository
 68
 00:04:34,400 --> 00:04:38,956
 With the project number you could then
-get to the comments via the API
+get to the commits via the API
 
 69
 00:04:38,956 --> 00:04:45,270
