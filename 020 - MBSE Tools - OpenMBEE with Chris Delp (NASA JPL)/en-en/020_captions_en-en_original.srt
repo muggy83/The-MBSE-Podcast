@@ -1,0 +1,3688 @@
+1
+00:00:00,719 --> 00:00:03,840
+welcome to a new episode of the mbse
+
+2
+00:00:03,840 --> 00:00:05,600
+podcast
+
+3
+00:00:05,600 --> 00:00:07,680
+today we will
+
+4
+00:00:07,680 --> 00:00:09,840
+have a meeting on the west coast of the
+
+5
+00:00:09,840 --> 00:00:13,440
+united states so to say so good morning
+
+6
+00:00:13,440 --> 00:00:16,800
+to our guest chris delp who is a group
+
+7
+00:00:16,800 --> 00:00:19,359
+supervisor nasa jpl
+
+8
+00:00:19,359 --> 00:00:21,840
+so that jet propulsion laboratory if you
+
+9
+00:00:21,840 --> 00:00:23,439
+don't know it
+
+10
+00:00:23,439 --> 00:00:26,240
+and one of the masterminds behind
+
+11
+00:00:26,240 --> 00:00:28,160
+openmbe
+
+12
+00:00:28,160 --> 00:00:30,720
+we know chris very well from various omg
+
+13
+00:00:30,720 --> 00:00:33,680
+meetings but please chris introduce
+
+14
+00:00:33,680 --> 00:00:36,640
+yourself first
+
+15
+00:00:36,880 --> 00:00:38,239
+yeah i think i think you covered it i
+
+16
+00:00:38,239 --> 00:00:40,399
+work at the jet propulsion laboratory
+
+17
+00:00:40,399 --> 00:00:43,360
+i'm the group supervisor for the
+
+18
+00:00:43,360 --> 00:00:45,680
+software systems solutions engineering
+
+19
+00:00:45,680 --> 00:00:47,840
+group and our group
+
+20
+00:00:47,840 --> 00:00:49,920
+produces the systems engineering
+
+21
+00:00:49,920 --> 00:00:53,920
+environment led by robert carban who's a
+
+22
+00:00:53,920 --> 00:00:56,079
+another mbse celebrity
+
+23
+00:00:56,079 --> 00:00:58,000
+um
+
+24
+00:00:58,000 --> 00:01:00,480
+and uh for for the missions that we
+
+25
+00:01:00,480 --> 00:01:02,879
+produce at jpl
+
+26
+00:01:02,879 --> 00:01:05,360
+and i was also part of the original team
+
+27
+00:01:05,360 --> 00:01:09,439
+that came up with openmb at jpl
+
+28
+00:01:09,439 --> 00:01:12,240
+yeah great so great to have you on the
+
+29
+00:01:12,240 --> 00:01:14,159
+show chris and
+
+30
+00:01:14,159 --> 00:01:17,119
+well probably not everyone knows openmbe
+
+31
+00:01:17,119 --> 00:01:20,240
+so the first question is what is openmb
+
+32
+00:01:20,240 --> 00:01:22,560
+what does it stand for and well how did
+
+33
+00:01:22,560 --> 00:01:24,560
+it come about
+
+34
+00:01:24,560 --> 00:01:27,119
+so openmb stands for the open model
+
+35
+00:01:27,119 --> 00:01:30,880
+based engineering environment uh and the
+
+36
+00:01:30,880 --> 00:01:33,280
+the general premise of openmb is that
+
+37
+00:01:33,280 --> 00:01:36,560
+it's firstly a community in the open
+
+38
+00:01:36,560 --> 00:01:38,000
+source world
+
+39
+00:01:38,000 --> 00:01:42,320
+around model-based engineering practices
+
+40
+00:01:42,320 --> 00:01:46,479
+models and software that support
+
+41
+00:01:46,479 --> 00:01:48,320
+model-based engineering
+
+42
+00:01:48,320 --> 00:01:49,920
+so you have to know a little bit about
+
+43
+00:01:49,920 --> 00:01:52,240
+what model-based engineering is there's
+
+44
+00:01:52,240 --> 00:01:55,360
+probably some debate around what that is
+
+45
+00:01:55,360 --> 00:01:57,200
+i think in the openmb community we're
+
+46
+00:01:57,200 --> 00:01:59,520
+less about defining what that is
+
+47
+00:01:59,520 --> 00:02:01,840
+um and more about
+
+48
+00:02:01,840 --> 00:02:04,079
+just you know enabling the practices and
+
+49
+00:02:04,079 --> 00:02:07,280
+helping the whole concept and evolve so
+
+50
+00:02:07,280 --> 00:02:09,038
+whatever your model is
+
+51
+00:02:09,038 --> 00:02:10,000
+uh
+
+52
+00:02:10,000 --> 00:02:12,720
+openmb wants to talk about it
+
+53
+00:02:12,720 --> 00:02:13,840
+the
+
+54
+00:02:13,840 --> 00:02:16,080
+products that exist are i'm sorry as an
+
+55
+00:02:16,080 --> 00:02:17,599
+open source project you're supposed
+
+56
+00:02:17,599 --> 00:02:19,520
+about projects so the projects that
+
+57
+00:02:19,520 --> 00:02:21,280
+exist in openmbe
+
+58
+00:02:21,280 --> 00:02:22,720
+are principally
+
+59
+00:02:22,720 --> 00:02:25,360
+the open se cookbook which was
+
+60
+00:02:25,360 --> 00:02:28,319
+contributed by robert carbon
+
+61
+00:02:28,319 --> 00:02:29,520
+the
+
+62
+00:02:29,520 --> 00:02:31,920
+model the model management system which
+
+63
+00:02:31,920 --> 00:02:33,360
+is the core
+
+64
+00:02:33,360 --> 00:02:36,239
+uh server product around managing
+
+65
+00:02:36,239 --> 00:02:39,040
+engineering models
+
+66
+00:02:39,040 --> 00:02:40,800
+the view editor which is a web
+
+67
+00:02:40,800 --> 00:02:44,080
+application that allows uh document
+
+68
+00:02:44,080 --> 00:02:47,680
+based interactivity around
+
+69
+00:02:47,760 --> 00:02:50,640
+it's a model based document application
+
+70
+00:02:50,640 --> 00:02:52,879
+is maybe a better way to say it
+
+71
+00:02:52,879 --> 00:02:54,239
+that allows you to integrate the
+
+72
+00:02:54,239 --> 00:02:56,319
+descriptions of
+
+73
+00:02:56,319 --> 00:02:57,599
+different models
+
+74
+00:02:57,599 --> 00:02:58,480
+um
+
+75
+00:02:58,480 --> 00:03:00,400
+and then the mdk
+
+76
+00:03:00,400 --> 00:03:02,400
+collection which is the model
+
+77
+00:03:02,400 --> 00:03:04,800
+development kit so various tools
+
+78
+00:03:04,800 --> 00:03:05,680
+uh
+
+79
+00:03:05,680 --> 00:03:07,840
+that perform different kinds of modeling
+
+80
+00:03:07,840 --> 00:03:10,400
+we have an architecture called the mdk
+
+81
+00:03:10,400 --> 00:03:12,879
+the most famous one is the magic draw i
+
+82
+00:03:12,879 --> 00:03:15,040
+guess now cameo
+
+83
+00:03:15,040 --> 00:03:17,040
+model development kit which integrates
+
+84
+00:03:17,040 --> 00:03:18,720
+magic draws to smell
+
+85
+00:03:18,720 --> 00:03:22,239
+uh bpmn etc into the openmb
+
+86
+00:03:22,239 --> 00:03:24,799
+open source environment so
+
+87
+00:03:24,799 --> 00:03:26,879
+these products exist
+
+88
+00:03:26,879 --> 00:03:29,200
+they don't but they don't necessarily
+
+89
+00:03:29,200 --> 00:03:31,440
+limit the definition of what openmb is
+
+90
+00:03:31,440 --> 00:03:35,200
+openmb is firstly a community uh like i
+
+91
+00:03:35,200 --> 00:03:36,640
+said so
+
+92
+00:03:36,640 --> 00:03:37,680
+um
+
+93
+00:03:37,680 --> 00:03:39,680
+some some misunderstandings are oh well
+
+94
+00:03:39,680 --> 00:03:41,680
+if i don't have anything that integrates
+
+95
+00:03:41,680 --> 00:03:44,159
+with nms view editor then i'm not part
+
+96
+00:03:44,159 --> 00:03:48,000
+of openmb that's definitely not the case
+
+97
+00:03:48,000 --> 00:03:50,560
+but anybody who has open source models
+
+98
+00:03:50,560 --> 00:03:52,959
+open source practices anything they want
+
+99
+00:03:52,959 --> 00:03:55,040
+to bring and contribute to openmb as
+
+100
+00:03:55,040 --> 00:03:57,040
+that open source community that's really
+
+101
+00:03:57,040 --> 00:03:58,080
+the
+
+102
+00:03:58,080 --> 00:03:59,680
+beach head that we're
+
+103
+00:03:59,680 --> 00:04:03,519
+trying to forward of things along on
+
+104
+00:04:03,519 --> 00:04:05,120
+and chris can you
+
+105
+00:04:05,120 --> 00:04:08,239
+give us a little bit more uh historic
+
+106
+00:04:08,239 --> 00:04:10,080
+information so what what was the
+
+107
+00:04:10,080 --> 00:04:13,760
+motivation to do something like
+
+108
+00:04:13,760 --> 00:04:16,320
+it's a huge thing sure in
+
+109
+00:04:16,320 --> 00:04:17,918
+mean time
+
+110
+00:04:17,918 --> 00:04:20,079
+sure it has it i think it has kind of an
+
+111
+00:04:20,079 --> 00:04:22,720
+interesting origin story um
+
+112
+00:04:22,720 --> 00:04:24,479
+and the word part of the origin story
+
+113
+00:04:24,479 --> 00:04:25,600
+comes from
+
+114
+00:04:25,600 --> 00:04:27,520
+iso and robert carbon who i mentioned a
+
+115
+00:04:27,520 --> 00:04:29,520
+few times so he'd have to tell the eso
+
+116
+00:04:29,520 --> 00:04:30,560
+side
+
+117
+00:04:30,560 --> 00:04:33,120
+but the jpl side
+
+118
+00:04:33,120 --> 00:04:34,960
+occurred when i was early in my career
+
+119
+00:04:34,960 --> 00:04:37,199
+at jpl model-based systems engineering
+
+120
+00:04:37,199 --> 00:04:39,919
+was very new
+
+121
+00:04:39,919 --> 00:04:42,160
+and i think the prevailing premise at
+
+122
+00:04:42,160 --> 00:04:44,479
+the time was that
+
+123
+00:04:44,479 --> 00:04:47,600
+documents are bad and documents are
+
+124
+00:04:47,600 --> 00:04:49,440
+going to go away and someday everybody
+
+125
+00:04:49,440 --> 00:04:51,440
+will just be working with models
+
+126
+00:04:51,440 --> 00:04:52,720
+um
+
+127
+00:04:52,720 --> 00:04:56,800
+in retrospect probably a bit naive uh
+
+128
+00:04:56,800 --> 00:04:58,240
+especially considering that probably
+
+129
+00:04:58,240 --> 00:05:00,960
+lots of software developers had similar
+
+130
+00:05:00,960 --> 00:05:02,880
+uh hopes of that someday their code
+
+131
+00:05:02,880 --> 00:05:05,280
+would just be self-documenting
+
+132
+00:05:05,280 --> 00:05:08,240
+yeah so we started uh on a project at
+
+133
+00:05:08,240 --> 00:05:10,479
+jpl to modernize
+
+134
+00:05:10,479 --> 00:05:12,720
+mission operations with modeling
+
+135
+00:05:12,720 --> 00:05:13,840
+um
+
+136
+00:05:13,840 --> 00:05:15,199
+and
+
+137
+00:05:15,199 --> 00:05:18,320
+what we what we found initially is that
+
+138
+00:05:18,320 --> 00:05:20,639
+and kind of organically was that
+
+139
+00:05:20,639 --> 00:05:22,560
+while the while the models were great
+
+140
+00:05:22,560 --> 00:05:25,280
+for solving engineering problems we had
+
+141
+00:05:25,280 --> 00:05:28,240
+a difficult time communicating them um a
+
+142
+00:05:28,240 --> 00:05:30,320
+lot of people in systems engineering
+
+143
+00:05:30,320 --> 00:05:31,680
+traditionally
+
+144
+00:05:31,680 --> 00:05:33,759
+uh build
+
+145
+00:05:33,759 --> 00:05:36,320
+uh documents right and
+
+146
+00:05:36,320 --> 00:05:38,320
+so for folks who were interested in
+
+147
+00:05:38,320 --> 00:05:40,720
+models they couldn't reconcile the
+
+148
+00:05:40,720 --> 00:05:42,240
+models they were making with the
+
+149
+00:05:42,240 --> 00:05:44,000
+products that they were being asked to
+
+150
+00:05:44,000 --> 00:05:45,039
+produce
+
+151
+00:05:45,039 --> 00:05:46,400
+um
+
+152
+00:05:46,400 --> 00:05:48,720
+and so we started connecting the two up
+
+153
+00:05:48,720 --> 00:05:51,280
+how can we you know take these models
+
+154
+00:05:51,280 --> 00:05:54,160
+and generate the products that people
+
+155
+00:05:54,160 --> 00:05:56,479
+need uh and that's where the first
+
+156
+00:05:56,479 --> 00:05:59,039
+kernel of openmb of the jpl side was
+
+157
+00:05:59,039 --> 00:05:59,840
+born
+
+158
+00:05:59,840 --> 00:06:02,160
+called doctrine so doctrine built an
+
+159
+00:06:02,160 --> 00:06:04,160
+executable modeling language
+
+160
+00:06:04,160 --> 00:06:07,680
+to generate the actual the document to
+
+161
+00:06:07,680 --> 00:06:08,880
+query the model
+
+162
+00:06:08,880 --> 00:06:11,440
+and and basically linearize a particular
+
+163
+00:06:11,440 --> 00:06:14,720
+story or viewpoint into how the
+
+164
+00:06:14,720 --> 00:06:15,600
+uh
+
+165
+00:06:15,600 --> 00:06:17,759
+how the how the model is describing
+
+166
+00:06:17,759 --> 00:06:19,680
+something and that's when we discovered
+
+167
+00:06:19,680 --> 00:06:21,840
+ieee 1471
+
+168
+00:06:21,840 --> 00:06:23,680
+whereas it's i think now referred to as
+
+169
+00:06:23,680 --> 00:06:26,240
+iso 4 2010 which is the standard for our
+
+170
+00:06:26,240 --> 00:06:28,479
+systems architecture description
+
+171
+00:06:28,479 --> 00:06:30,639
+and that talks about view and viewpoints
+
+172
+00:06:30,639 --> 00:06:33,039
+um and that was a real game changer
+
+173
+00:06:33,039 --> 00:06:36,000
+because the model could now be unified
+
+174
+00:06:36,000 --> 00:06:38,479
+with the products that that systems
+
+175
+00:06:38,479 --> 00:06:40,639
+engineers needed to make
+
+176
+00:06:40,639 --> 00:06:42,880
+and they suddenly had a whole new avenue
+
+177
+00:06:42,880 --> 00:06:44,560
+of controlling the quality of the
+
+178
+00:06:44,560 --> 00:06:47,440
+technical content
+
+179
+00:06:47,440 --> 00:06:48,880
+so the thought experiment i always give
+
+180
+00:06:48,880 --> 00:06:50,240
+in this part is kind of like you know if
+
+181
+00:06:50,240 --> 00:06:51,199
+you have
+
+182
+00:06:51,199 --> 00:06:52,720
+uh somebody who's got like a really
+
+183
+00:06:52,720 --> 00:06:54,960
+great simulink model and it can answer
+
+184
+00:06:54,960 --> 00:06:57,120
+all kinds of questions about the system
+
+185
+00:06:57,120 --> 00:06:59,199
+or maybe in today's speed could be more
+
+186
+00:06:59,199 --> 00:07:01,759
+of a cst model the next cable system
+
+187
+00:07:01,759 --> 00:07:04,639
+model or a delica model or something um
+
+188
+00:07:04,639 --> 00:07:06,160
+and you've got your requirements and
+
+189
+00:07:06,160 --> 00:07:07,680
+doors or whatever
+
+190
+00:07:07,680 --> 00:07:08,720
+uh
+
+191
+00:07:08,720 --> 00:07:10,720
+and then you've got um
+
+192
+00:07:10,720 --> 00:07:11,759
+um
+
+193
+00:07:11,759 --> 00:07:13,919
+the presentations you have to give right
+
+194
+00:07:13,919 --> 00:07:16,720
+and in these powerpoint decks so um
+
+195
+00:07:16,720 --> 00:07:18,400
+you've got all this rich technical
+
+196
+00:07:18,400 --> 00:07:19,520
+content
+
+197
+00:07:19,520 --> 00:07:20,639
+um
+
+198
+00:07:20,639 --> 00:07:22,960
+but how do you get it into
+
+199
+00:07:22,960 --> 00:07:25,039
+something that people can consume in
+
+200
+00:07:25,039 --> 00:07:26,560
+these reviews so
+
+201
+00:07:26,560 --> 00:07:28,160
+um
+
+202
+00:07:28,160 --> 00:07:30,880
+you can imagine having
+
+203
+00:07:30,880 --> 00:07:32,800
+having the live connection to all that
+
+204
+00:07:32,800 --> 00:07:34,639
+information would be a much richer
+
+205
+00:07:34,639 --> 00:07:36,240
+experience so that
+
+206
+00:07:36,240 --> 00:07:39,440
+that kind of became the goal um
+
+207
+00:07:39,440 --> 00:07:41,280
+we started generating the documents
+
+208
+00:07:41,280 --> 00:07:43,680
+magic draw is a desktop tool so suddenly
+
+209
+00:07:43,680 --> 00:07:45,199
+everybody's desktop was filling up with
+
+210
+00:07:45,199 --> 00:07:48,560
+documents we created a platform called
+
+211
+00:07:48,560 --> 00:07:50,720
+doc web which basically just
+
+212
+00:07:50,720 --> 00:07:52,080
+automated the production of those
+
+213
+00:07:52,080 --> 00:07:53,759
+documents and stored them on the web so
+
+214
+00:07:53,759 --> 00:07:56,080
+that you could browse them
+
+215
+00:07:56,080 --> 00:07:58,560
+and users just loved it and the first
+
+216
+00:07:58,560 --> 00:08:01,039
+question they asked was where's the edit
+
+217
+00:08:01,039 --> 00:08:03,919
+button and then uh view editor and mms
+
+218
+00:08:03,919 --> 00:08:05,840
+were born out of that so
+
+219
+00:08:05,840 --> 00:08:07,440
+um
+
+220
+00:08:07,440 --> 00:08:09,199
+and it's so it's a lot of it is built
+
+221
+00:08:09,199 --> 00:08:10,080
+around
+
+222
+00:08:10,080 --> 00:08:11,759
+web-based concepts and bringing that
+
+223
+00:08:11,759 --> 00:08:13,680
+information to the web
+
+224
+00:08:13,680 --> 00:08:15,520
+and also for me personally kind of
+
+225
+00:08:15,520 --> 00:08:17,520
+reconciling that idea
+
+226
+00:08:17,520 --> 00:08:19,039
+that no
+
+227
+00:08:19,039 --> 00:08:22,080
+not everybody's going to use models
+
+228
+00:08:22,080 --> 00:08:23,599
+and that really there's still a
+
+229
+00:08:23,599 --> 00:08:25,520
+communication practice and systems
+
+230
+00:08:25,520 --> 00:08:27,120
+engineering that has to take place where
+
+231
+00:08:27,120 --> 00:08:28,560
+we can linearize the story and
+
+232
+00:08:28,560 --> 00:08:30,720
+communicate these views
+
+233
+00:08:30,720 --> 00:08:32,479
+across disciplines
+
+234
+00:08:32,479 --> 00:08:33,599
+and pull
+
+235
+00:08:33,599 --> 00:08:35,279
+pull people's uh
+
+236
+00:08:35,279 --> 00:08:37,839
+disparate models in in together to that
+
+237
+00:08:37,839 --> 00:08:39,440
+story earlier
+
+238
+00:08:39,440 --> 00:08:41,599
+um and that leads of course to the
+
+239
+00:08:41,599 --> 00:08:43,599
+digital twin and perpetual you know
+
+240
+00:08:43,599 --> 00:08:45,200
+continuous integration and all that
+
+241
+00:08:45,200 --> 00:08:47,680
+stuff so
+
+242
+00:08:48,080 --> 00:08:49,760
+uh if i understood it correctly you
+
+243
+00:08:49,760 --> 00:08:51,120
+started with system a right you
+
+244
+00:08:51,120 --> 00:08:52,800
+mentioned magic draw models and so so
+
+245
+00:08:52,800 --> 00:08:55,279
+you starting with system models
+
+246
+00:08:55,279 --> 00:08:58,800
+and which other kind of models are
+
+247
+00:08:58,800 --> 00:09:02,480
+can also be integrated in in the mms
+
+248
+00:09:02,480 --> 00:09:04,320
+so today's mms
+
+249
+00:09:04,320 --> 00:09:06,080
+comes in
+
+250
+00:09:06,080 --> 00:09:08,640
+today's released mms comes in a flavor
+
+251
+00:09:08,640 --> 00:09:11,200
+where you can publish the json format of
+
+252
+00:09:11,200 --> 00:09:13,519
+any model into the mms
+
+253
+00:09:13,519 --> 00:09:14,720
+um
+
+254
+00:09:14,720 --> 00:09:15,680
+so
+
+255
+00:09:15,680 --> 00:09:18,000
+what you get out of the box today uh
+
+256
+00:09:18,000 --> 00:09:19,680
+pretty much anything that can interact
+
+257
+00:09:19,680 --> 00:09:21,360
+with web services like python or
+
+258
+00:09:21,360 --> 00:09:23,519
+mathematica or something like that
+
+259
+00:09:23,519 --> 00:09:25,680
+can produce and consume models in this
+
+260
+00:09:25,680 --> 00:09:26,480
+way
+
+261
+00:09:26,480 --> 00:09:27,600
+um
+
+262
+00:09:27,600 --> 00:09:29,440
+and of course we have the magic draw
+
+263
+00:09:29,440 --> 00:09:30,800
+integration
+
+264
+00:09:30,800 --> 00:09:33,760
+and i believe i believe there is
+
+265
+00:09:33,760 --> 00:09:36,320
+somebody who has contributed an early
+
+266
+00:09:36,320 --> 00:09:38,560
+papyrus integration but i haven't seen
+
+267
+00:09:38,560 --> 00:09:39,519
+it yet
+
+268
+00:09:39,519 --> 00:09:40,480
+um
+
+269
+00:09:40,480 --> 00:09:42,320
+and there there are there are other
+
+270
+00:09:42,320 --> 00:09:44,080
+contributions coming that i can't talk
+
+271
+00:09:44,080 --> 00:09:46,000
+about yet um
+
+272
+00:09:46,000 --> 00:09:49,519
+but the the the next version of mms
+
+273
+00:09:49,519 --> 00:09:53,519
+is ms5 is completely transformational
+
+274
+00:09:53,519 --> 00:09:54,560
+the
+
+275
+00:09:54,560 --> 00:09:55,760
+a long
+
+276
+00:09:55,760 --> 00:09:58,959
+a long sought technology that we waited
+
+277
+00:09:58,959 --> 00:10:00,959
+a long time to mature was the graph
+
+278
+00:10:00,959 --> 00:10:03,279
+database
+
+279
+00:10:03,279 --> 00:10:05,760
+i think we we all in this sphere have
+
+280
+00:10:05,760 --> 00:10:08,399
+seen the significance of graphs in in
+
+281
+00:10:08,399 --> 00:10:09,920
+how models are
+
+282
+00:10:09,920 --> 00:10:12,399
+handled in technology
+
+283
+00:10:12,399 --> 00:10:13,440
+um
+
+284
+00:10:13,440 --> 00:10:15,279
+but when we built the first version of
+
+285
+00:10:15,279 --> 00:10:18,720
+the mms such things were
+
+286
+00:10:18,720 --> 00:10:21,200
+fantasy only
+
+287
+00:10:21,200 --> 00:10:23,839
+even the even the fledgling
+
+288
+00:10:23,839 --> 00:10:25,440
+things that existed out there even the
+
+289
+00:10:25,440 --> 00:10:27,920
+things you could buy were were
+
+290
+00:10:27,920 --> 00:10:29,760
+difficult to scale there were no
+
+291
+00:10:29,760 --> 00:10:32,079
+standard interfaces
+
+292
+00:10:32,079 --> 00:10:34,000
+you know things like gremlin tinker pop
+
+293
+00:10:34,000 --> 00:10:36,160
+didn't exist the semantic web community
+
+294
+00:10:36,160 --> 00:10:38,560
+existed but they didn't have the
+
+295
+00:10:38,560 --> 00:10:41,600
+uh technology horsepower to build
+
+296
+00:10:41,600 --> 00:10:43,920
+horizontally scalable web services that
+
+297
+00:10:43,920 --> 00:10:45,279
+could handle
+
+298
+00:10:45,279 --> 00:10:47,120
+millions of millions of elements you
+
+299
+00:10:47,120 --> 00:10:48,240
+know if you
+
+300
+00:10:48,240 --> 00:10:50,240
+look at the amount of model elements and
+
+301
+00:10:50,240 --> 00:10:51,839
+then something something from like
+
+302
+00:10:51,839 --> 00:10:53,519
+boeing who's one of the openmb
+
+303
+00:10:53,519 --> 00:10:56,640
+contributors i mean they have
+
+304
+00:10:56,640 --> 00:10:58,240
+more model elements that i could ever
+
+305
+00:10:58,240 --> 00:11:00,800
+even have dreamed
+
+306
+00:11:00,800 --> 00:11:02,399
+and we were stunned when they were able
+
+307
+00:11:02,399 --> 00:11:04,320
+to put them all into mms we're like wow
+
+308
+00:11:04,320 --> 00:11:05,839
+we didn't
+
+309
+00:11:05,839 --> 00:11:09,920
+we had no idea that it could scale
+
+310
+00:11:11,760 --> 00:11:13,680
+okay that sounds uh
+
+311
+00:11:13,680 --> 00:11:15,920
+very very interesting and promising so
+
+312
+00:11:15,920 --> 00:11:16,880
+um
+
+313
+00:11:16,880 --> 00:11:18,320
+maybe we should
+
+314
+00:11:18,320 --> 00:11:20,720
+tell the people how they can try it by
+
+315
+00:11:20,720 --> 00:11:23,680
+their own so how how can i get openmbe
+
+316
+00:11:23,680 --> 00:11:26,320
+is this a web service is it something i
+
+317
+00:11:26,320 --> 00:11:28,640
+can download
+
+318
+00:11:28,640 --> 00:11:31,200
+it it's both actually so and that's a
+
+319
+00:11:31,200 --> 00:11:32,959
+that's a good question so
+
+320
+00:11:32,959 --> 00:11:36,079
+openmb is open source um
+
+321
+00:11:36,079 --> 00:11:40,920
+and it's available on openmb.org
+
+322
+00:11:41,040 --> 00:11:44,320
+and for the mms in particular
+
+323
+00:11:44,320 --> 00:11:46,079
+i think the cautionary tale that always
+
+324
+00:11:46,079 --> 00:11:47,680
+comes here is
+
+325
+00:11:47,680 --> 00:11:50,320
+it's it is a web service so you so in
+
+326
+00:11:50,320 --> 00:11:52,000
+order to get it working
+
+327
+00:11:52,000 --> 00:11:54,079
+you will either have to know how to
+
+328
+00:11:54,079 --> 00:11:57,120
+install and administrate
+
+329
+00:11:57,120 --> 00:12:00,480
+a linux server essentially
+
+330
+00:12:00,480 --> 00:12:02,959
+and so sometimes that that definitely
+
+331
+00:12:02,959 --> 00:12:04,880
+catches people by surprise they download
+
+332
+00:12:04,880 --> 00:12:06,160
+them onto their laptop and then they
+
+333
+00:12:06,160 --> 00:12:08,480
+can't figure out what to do
+
+334
+00:12:08,480 --> 00:12:11,680
+so yeah it's not a standalone desktop um
+
+335
+00:12:11,680 --> 00:12:14,240
+there is a host and environment
+
+336
+00:12:14,240 --> 00:12:18,160
+provided by the so that
+
+337
+00:12:18,160 --> 00:12:21,200
+is used by the omg and some other
+
+338
+00:12:21,200 --> 00:12:22,959
+activities
+
+339
+00:12:22,959 --> 00:12:25,279
+so you can at least test
+
+340
+00:12:25,279 --> 00:12:27,600
+test it out yourself and and test taste
+
+341
+00:12:27,600 --> 00:12:28,880
+it if you like
+
+342
+00:12:28,880 --> 00:12:29,839
+um
+
+343
+00:12:29,839 --> 00:12:31,920
+and kind of see how it works
+
+344
+00:12:31,920 --> 00:12:32,880
+um
+
+345
+00:12:32,880 --> 00:12:35,279
+so those are the two options there are
+
+346
+00:12:35,279 --> 00:12:38,160
+uh the opensc cookbook of course you can
+
+347
+00:12:38,160 --> 00:12:40,320
+download and load that into magic draw
+
+348
+00:12:40,320 --> 00:12:43,839
+or read the documents of it um
+
+349
+00:12:43,839 --> 00:12:46,000
+and the magic drop the magic drop plugin
+
+350
+00:12:46,000 --> 00:12:49,120
+for openmb does allow you to do things
+
+351
+00:12:49,120 --> 00:12:51,360
+with doctrine and and stuff like that
+
+352
+00:12:51,360 --> 00:12:53,360
+locally in your magic draw desktop
+
+353
+00:12:53,360 --> 00:12:57,600
+sessions without connecting to mms um
+
+354
+00:12:57,600 --> 00:13:00,160
+so yeah that's that's kind of a high
+
+355
+00:13:00,160 --> 00:13:02,320
+level uh picture and of course you can
+
+356
+00:13:02,320 --> 00:13:04,160
+also attend the openmp community
+
+357
+00:13:04,160 --> 00:13:07,760
+meetings which happen uh every two weeks
+
+358
+00:13:07,760 --> 00:13:09,120
+um
+
+359
+00:13:09,120 --> 00:13:11,920
+and the upcoming openmb workshop at the
+
+360
+00:13:11,920 --> 00:13:15,200
+coc you can cociw this weekend
+
+361
+00:13:15,200 --> 00:13:18,399
+or monday technically
+
+362
+00:13:18,959 --> 00:13:19,760
+so
+
+363
+00:13:19,760 --> 00:13:21,839
+what would you recommend a real
+
+364
+00:13:21,839 --> 00:13:23,920
+industrial project uh if they would like
+
+365
+00:13:23,920 --> 00:13:26,800
+to use openmpe so what well is it
+
+366
+00:13:26,800 --> 00:13:28,959
+recommendable for for a real project to
+
+367
+00:13:28,959 --> 00:13:30,320
+use it or
+
+368
+00:13:30,320 --> 00:13:33,040
+uh well you need support and things like
+
+369
+00:13:33,040 --> 00:13:36,320
+that so what what were the first steps
+
+370
+00:13:36,320 --> 00:13:39,120
+or what would you recommend for them
+
+371
+00:13:39,120 --> 00:13:41,199
+and that's that's an interesting thread
+
+372
+00:13:41,199 --> 00:13:44,240
+of discussion as well um
+
+373
+00:13:44,240 --> 00:13:47,760
+the use of open source software in
+
+374
+00:13:47,760 --> 00:13:49,040
+various
+
+375
+00:13:49,040 --> 00:13:51,680
+industrial scale organizations
+
+376
+00:13:51,680 --> 00:13:54,959
+runs the spectrum on earth today
+
+377
+00:13:54,959 --> 00:13:57,279
+some some companies obviously like
+
+378
+00:13:57,279 --> 00:13:59,279
+google or
+
+379
+00:13:59,279 --> 00:14:01,040
+maybe spacex are
+
+380
+00:14:01,040 --> 00:14:02,560
+are hawkishly
+
+381
+00:14:02,560 --> 00:14:04,720
+forward-looking in this space
+
+382
+00:14:04,720 --> 00:14:07,600
+more traditional defense industry folks
+
+383
+00:14:07,600 --> 00:14:10,079
+are more reluctant and of course with
+
+384
+00:14:10,079 --> 00:14:12,320
+open source in general there's a
+
+385
+00:14:12,320 --> 00:14:15,600
+range of misnomers
+
+386
+00:14:15,600 --> 00:14:18,320
+i think the log for j issue recently
+
+387
+00:14:18,320 --> 00:14:19,839
+helps people understand that just
+
+388
+00:14:19,839 --> 00:14:21,600
+because you buy something from a vendor
+
+389
+00:14:21,600 --> 00:14:23,120
+doesn't mean you're not using open
+
+390
+00:14:23,120 --> 00:14:25,440
+source
+
+391
+00:14:25,440 --> 00:14:26,800
+it just means
+
+392
+00:14:26,800 --> 00:14:29,920
+it just means you're paying for it so um
+
+393
+00:14:29,920 --> 00:14:31,680
+so for somebody starting out like that i
+
+394
+00:14:31,680 --> 00:14:34,399
+mean i think firstly it's kind of a
+
+395
+00:14:34,399 --> 00:14:35,199
+an
+
+396
+00:14:35,199 --> 00:14:37,279
+introspective in the company
+
+397
+00:14:37,279 --> 00:14:39,279
+like how does that company use open
+
+398
+00:14:39,279 --> 00:14:41,120
+source what kind of resources do they
+
+399
+00:14:41,120 --> 00:14:44,639
+have um for for companies that have very
+
+400
+00:14:44,639 --> 00:14:46,399
+old school i.t departments where they
+
+401
+00:14:46,399 --> 00:14:48,800
+mostly host file servers and license
+
+402
+00:14:48,800 --> 00:14:50,399
+servers and haven't gotten into web
+
+403
+00:14:50,399 --> 00:14:52,720
+services yet it'll it'll be
+
+404
+00:14:52,720 --> 00:14:54,720
+uh
+
+405
+00:14:54,720 --> 00:14:56,480
+more of it i won't say necessarily more
+
+406
+00:14:56,480 --> 00:14:59,120
+of a challenge but it'll be more effort
+
+407
+00:14:59,120 --> 00:15:00,320
+so
+
+408
+00:15:00,320 --> 00:15:02,720
+because using using the mms in
+
+409
+00:15:02,720 --> 00:15:05,360
+particular means you're potentially
+
+410
+00:15:05,360 --> 00:15:07,839
+pushing on the company's posture towards
+
+411
+00:15:07,839 --> 00:15:10,160
+a shift towards web services from
+
+412
+00:15:10,160 --> 00:15:11,360
+traditional
+
+413
+00:15:11,360 --> 00:15:13,040
+computing services
+
+414
+00:15:13,040 --> 00:15:14,320
+um
+
+415
+00:15:14,320 --> 00:15:16,800
+and mms4 is horizontally scalable it
+
+416
+00:15:16,800 --> 00:15:19,279
+runs if you run it on docker so
+
+417
+00:15:19,279 --> 00:15:20,320
+um
+
+418
+00:15:20,320 --> 00:15:21,600
+it'll it'll
+
+419
+00:15:21,600 --> 00:15:23,680
+it'll it potentially could use a lot of
+
+420
+00:15:23,680 --> 00:15:26,399
+computers so um
+
+421
+00:15:26,399 --> 00:15:27,760
+and
+
+422
+00:15:27,760 --> 00:15:29,440
+that so that's kind of where it starts
+
+423
+00:15:29,440 --> 00:15:31,839
+and then from there you know then the
+
+424
+00:15:31,839 --> 00:15:33,680
+main thing is are you are you ready to
+
+425
+00:15:33,680 --> 00:15:36,880
+put something like that together um
+
+426
+00:15:36,880 --> 00:15:37,839
+and so
+
+427
+00:15:37,839 --> 00:15:39,279
+how that's worked
+
+428
+00:15:39,279 --> 00:15:41,040
+from an experiential standpoint i mean
+
+429
+00:15:41,040 --> 00:15:43,360
+if you look at how boeing deployed
+
+430
+00:15:43,360 --> 00:15:44,560
+openmb
+
+431
+00:15:44,560 --> 00:15:46,160
+they have a
+
+432
+00:15:46,160 --> 00:15:50,320
+really really big enterprise i.t system
+
+433
+00:15:50,320 --> 00:15:52,480
+and they were able to
+
+434
+00:15:52,480 --> 00:15:54,800
+you know make those deployments
+
+435
+00:15:54,800 --> 00:15:57,360
+work they contribute back code they're
+
+436
+00:15:57,360 --> 00:15:58,800
+they're fully in
+
+437
+00:15:58,800 --> 00:16:00,560
+um but they had to go through their own
+
+438
+00:16:00,560 --> 00:16:02,160
+stuff so that that would that probably
+
+439
+00:16:02,160 --> 00:16:04,160
+that might not be a bad podcasting day
+
+440
+00:16:04,160 --> 00:16:05,839
+to get them to talk about
+
+441
+00:16:05,839 --> 00:16:09,199
+what they can talk about um
+
+442
+00:16:09,199 --> 00:16:12,480
+whereas if you look at uh
+
+443
+00:16:12,480 --> 00:16:13,680
+i won't
+
+444
+00:16:13,680 --> 00:16:15,600
+if you look at like how how ford is
+
+445
+00:16:15,600 --> 00:16:17,920
+initially set it up uh i think they
+
+446
+00:16:17,920 --> 00:16:19,360
+started as kind of with a kind of a
+
+447
+00:16:19,360 --> 00:16:21,120
+small r d
+
+448
+00:16:21,120 --> 00:16:23,120
+effort just to kind of see what it did
+
+449
+00:16:23,120 --> 00:16:25,600
+as part of how they were investigating
+
+450
+00:16:25,600 --> 00:16:27,360
+mbsc in general
+
+451
+00:16:27,360 --> 00:16:28,880
+um
+
+452
+00:16:28,880 --> 00:16:30,560
+so and then
+
+453
+00:16:30,560 --> 00:16:31,360
+the
+
+454
+00:16:31,360 --> 00:16:33,040
+the corporate side as well because i
+
+455
+00:16:33,040 --> 00:16:35,440
+mentioned vendors specifically
+
+456
+00:16:35,440 --> 00:16:38,880
+uh some vendors have adopted openmv
+
+457
+00:16:38,880 --> 00:16:42,160
+technology into their product as well um
+
+458
+00:16:42,160 --> 00:16:44,000
+one of them of course the most famous
+
+459
+00:16:44,000 --> 00:16:46,800
+one of course being no magic now just so
+
+460
+00:16:46,800 --> 00:16:48,000
+um
+
+461
+00:16:48,000 --> 00:16:50,240
+they pulled aspects of it into their
+
+462
+00:16:50,240 --> 00:16:52,959
+products so
+
+463
+00:16:53,279 --> 00:16:55,680
+and then the main the main pieces of
+
+464
+00:16:55,680 --> 00:16:57,839
+openmb use uh
+
+465
+00:16:57,839 --> 00:17:00,160
+the apache 2 license which is commercial
+
+466
+00:17:00,160 --> 00:17:01,920
+friendly
+
+467
+00:17:01,920 --> 00:17:02,959
+so
+
+468
+00:17:02,959 --> 00:17:04,959
+vendors can some vendors have taken
+
+469
+00:17:04,959 --> 00:17:07,520
+openmv technology and chosen not to
+
+470
+00:17:07,520 --> 00:17:08,720
+disclose
+
+471
+00:17:08,720 --> 00:17:10,079
+that they've done it
+
+472
+00:17:10,079 --> 00:17:10,880
+um
+
+473
+00:17:10,880 --> 00:17:12,240
+and that's
+
+474
+00:17:12,240 --> 00:17:14,079
+they're fine to do so
+
+475
+00:17:14,079 --> 00:17:14,959
+uh
+
+476
+00:17:14,959 --> 00:17:15,679
+the
+
+477
+00:17:15,679 --> 00:17:18,640
+the sound bite i always give on this is
+
+478
+00:17:18,640 --> 00:17:22,079
+you know jpl's participation in this was
+
+479
+00:17:22,079 --> 00:17:25,599
+we we couldn't buy what we needed to do
+
+480
+00:17:25,599 --> 00:17:27,839
+what we needed to do at the time and so
+
+481
+00:17:27,839 --> 00:17:29,200
+we built it
+
+482
+00:17:29,200 --> 00:17:31,520
+but that didn't signal that we were
+
+483
+00:17:31,520 --> 00:17:33,200
+ready to move into
+
+484
+00:17:33,200 --> 00:17:34,400
+uh
+
+485
+00:17:34,400 --> 00:17:36,240
+building software products instead of
+
+486
+00:17:36,240 --> 00:17:38,640
+space missions really
+
+487
+00:17:38,640 --> 00:17:40,400
+we open sourced it
+
+488
+00:17:40,400 --> 00:17:43,120
+as a way to communicate the requirements
+
+489
+00:17:43,120 --> 00:17:45,679
+of what we need
+
+490
+00:17:45,679 --> 00:17:48,320
+and what happened is this you know along
+
+491
+00:17:48,320 --> 00:17:50,559
+with how with eso and and then later
+
+492
+00:17:50,559 --> 00:17:54,080
+boeing this turned into this uh
+
+493
+00:17:54,080 --> 00:17:56,720
+you know movement of different points of
+
+494
+00:17:56,720 --> 00:17:58,480
+view around how open source can work
+
+495
+00:17:58,480 --> 00:18:01,440
+with engineering environments and models
+
+496
+00:18:01,440 --> 00:18:04,320
+and so forth so
+
+497
+00:18:04,960 --> 00:18:06,400
+cool
+
+498
+00:18:06,400 --> 00:18:08,880
+so let's assume i
+
+499
+00:18:08,880 --> 00:18:12,160
+download the thing install it and
+
+500
+00:18:12,160 --> 00:18:15,760
+i like it um how can i get in touch with
+
+501
+00:18:15,760 --> 00:18:18,080
+the openmbe community you already
+
+502
+00:18:18,080 --> 00:18:20,320
+mentioned that there will be a workshop
+
+503
+00:18:20,320 --> 00:18:21,760
+on the
+
+504
+00:18:21,760 --> 00:18:24,320
+international workshop from ecosi next
+
+505
+00:18:24,320 --> 00:18:25,120
+week
+
+506
+00:18:25,120 --> 00:18:26,080
+and
+
+507
+00:18:26,080 --> 00:18:28,880
+i guess there is a public select channel
+
+508
+00:18:28,880 --> 00:18:30,320
+isn't it
+
+509
+00:18:30,320 --> 00:18:32,640
+correct yeah if you go to openmb.org you
+
+510
+00:18:32,640 --> 00:18:34,880
+can click the participate link at the
+
+511
+00:18:34,880 --> 00:18:37,039
+top and you'll see the slack channel
+
+512
+00:18:37,039 --> 00:18:39,360
+you'll see the google group
+
+513
+00:18:39,360 --> 00:18:40,960
+the github repo
+
+514
+00:18:40,960 --> 00:18:44,480
+um the the the folks in openmb for
+
+515
+00:18:44,480 --> 00:18:46,799
+example who are developers
+
+516
+00:18:46,799 --> 00:18:49,679
+tend mostly to communicate on github
+
+517
+00:18:49,679 --> 00:18:50,720
+they're not
+
+518
+00:18:50,720 --> 00:18:52,640
+not chatty folks you can ping them on
+
+519
+00:18:52,640 --> 00:18:54,880
+slack channel but as tim has seen
+
+520
+00:18:54,880 --> 00:18:56,960
+sometimes it takes some uh
+
+521
+00:18:56,960 --> 00:19:00,160
+nudging to get them to respond um
+
+522
+00:19:00,160 --> 00:19:02,720
+and uh the google group of course and
+
+523
+00:19:02,720 --> 00:19:04,559
+then we have a
+
+524
+00:19:04,559 --> 00:19:07,360
+a community presentation meeting every
+
+525
+00:19:07,360 --> 00:19:09,600
+every month a couple times a month and
+
+526
+00:19:09,600 --> 00:19:12,080
+the leadership meeting so and it's
+
+527
+00:19:12,080 --> 00:19:14,559
+entirely open anybody can participate in
+
+528
+00:19:14,559 --> 00:19:16,000
+the leadership meeting
+
+529
+00:19:16,000 --> 00:19:18,480
+or the community meeting uh provided
+
+530
+00:19:18,480 --> 00:19:20,880
+that ever there's a consensus that the
+
+531
+00:19:20,880 --> 00:19:23,120
+topics they're bringing up are are part
+
+532
+00:19:23,120 --> 00:19:27,440
+of our scope and charter so
+
+533
+00:19:30,960 --> 00:19:32,799
+there's no formal organization behind
+
+534
+00:19:32,799 --> 00:19:36,880
+openmb there's no the openmpe limited so
+
+535
+00:19:36,880 --> 00:19:39,760
+it's just a group of people mainly
+
+536
+00:19:39,760 --> 00:19:43,600
+stuff by by people from nasa jpl then
+
+537
+00:19:43,600 --> 00:19:45,360
+that's correct
+
+538
+00:19:45,360 --> 00:19:46,320
+it is
+
+539
+00:19:46,320 --> 00:19:48,720
+the the community itself is
+
+540
+00:19:48,720 --> 00:19:50,559
+is i would say
+
+541
+00:19:50,559 --> 00:19:52,880
+at the moment there are folks from ford
+
+542
+00:19:52,880 --> 00:19:54,000
+boeing
+
+543
+00:19:54,000 --> 00:19:55,440
+lockheed
+
+544
+00:19:55,440 --> 00:19:56,559
+um
+
+545
+00:19:56,559 --> 00:19:58,000
+i believe there's still some folks
+
+546
+00:19:58,000 --> 00:19:59,679
+showing up from raytheon
+
+547
+00:19:59,679 --> 00:20:01,919
+uh from the academic side there's folks
+
+548
+00:20:01,919 --> 00:20:04,320
+from georgia tech and stevens
+
+549
+00:20:04,320 --> 00:20:06,799
+uh and of course jpl and we have had
+
+550
+00:20:06,799 --> 00:20:09,600
+other nasa folks show up outside jpl 2
+
+551
+00:20:09,600 --> 00:20:10,799
+occasionally
+
+552
+00:20:10,799 --> 00:20:12,000
+um
+
+553
+00:20:12,000 --> 00:20:12,880
+the
+
+554
+00:20:12,880 --> 00:20:13,760
+the
+
+555
+00:20:13,760 --> 00:20:16,720
+software portion the the asset portion
+
+556
+00:20:16,720 --> 00:20:18,480
+of openmb is
+
+557
+00:20:18,480 --> 00:20:20,960
+sponsored by num focus which is an open
+
+558
+00:20:20,960 --> 00:20:22,880
+source software foundation similar to
+
+559
+00:20:22,880 --> 00:20:26,159
+apache or clips or something like that
+
+560
+00:20:26,159 --> 00:20:29,039
+and the main service they provide is
+
+561
+00:20:29,039 --> 00:20:30,039
+uh
+
+562
+00:20:30,039 --> 00:20:31,600
+indemnification
+
+563
+00:20:31,600 --> 00:20:33,039
+so
+
+564
+00:20:33,039 --> 00:20:34,880
+they are there to help open source
+
+565
+00:20:34,880 --> 00:20:37,760
+projects protect their assets because
+
+566
+00:20:37,760 --> 00:20:40,000
+one of the reasons we chose the apache 2
+
+567
+00:20:40,000 --> 00:20:42,799
+license is because there are cases where
+
+568
+00:20:42,799 --> 00:20:45,679
+other open source licenses or even no
+
+569
+00:20:45,679 --> 00:20:47,520
+open source license published with the
+
+570
+00:20:47,520 --> 00:20:48,720
+code
+
+571
+00:20:48,720 --> 00:20:51,679
+has allowed folks to patent it and then
+
+572
+00:20:51,679 --> 00:20:54,720
+sue the creators for possessing it
+
+573
+00:20:54,720 --> 00:20:56,080
+so
+
+574
+00:20:56,080 --> 00:20:58,640
+um at least that's what i was told
+
+575
+00:20:58,640 --> 00:21:01,039
+i don't have a specific example for that
+
+576
+00:21:01,039 --> 00:21:04,080
+that's that's that was one of the uh uh
+
+577
+00:21:04,080 --> 00:21:05,840
+highlights that we got from folks in
+
+578
+00:21:05,840 --> 00:21:09,200
+apache about why the apache 2 license is
+
+579
+00:21:09,200 --> 00:21:12,159
+good so but num focus protects you know
+
+580
+00:21:12,159 --> 00:21:15,120
+the openmp name trademark uh copyright
+
+581
+00:21:15,120 --> 00:21:17,280
+all that kind of stuff so that
+
+582
+00:21:17,280 --> 00:21:18,559
+um
+
+583
+00:21:18,559 --> 00:21:20,400
+we have that that so
+
+584
+00:21:20,400 --> 00:21:21,200
+um
+
+585
+00:21:21,200 --> 00:21:24,400
+yeah but the community at large is is
+
+586
+00:21:24,400 --> 00:21:26,640
+um
+
+587
+00:21:26,640 --> 00:21:29,919
+it's kind of the community at large so
+
+588
+00:21:29,919 --> 00:21:32,400
+it's intended to be open we do publish a
+
+589
+00:21:32,400 --> 00:21:33,200
+uh
+
+590
+00:21:33,200 --> 00:21:34,480
+uh
+
+591
+00:21:34,480 --> 00:21:37,039
+a code of conduct i think we use the
+
+592
+00:21:37,039 --> 00:21:39,760
+inner source con the open source commons
+
+593
+00:21:39,760 --> 00:21:44,240
+i think it's called source conduct so um
+
+594
+00:21:44,240 --> 00:21:46,320
+but it's a yeah open source communities
+
+595
+00:21:46,320 --> 00:21:50,320
+are largely self-governing uh funding is
+
+596
+00:21:50,320 --> 00:21:52,240
+you know
+
+597
+00:21:52,240 --> 00:21:54,240
+there's no no you ask
+
+598
+00:21:54,240 --> 00:21:56,400
+there's no owner of openmp no
+
+599
+00:21:56,400 --> 00:21:58,880
+the owner of the open open is the
+
+600
+00:21:58,880 --> 00:22:00,240
+community
+
+601
+00:22:00,240 --> 00:22:01,360
+that's correct
+
+602
+00:22:01,360 --> 00:22:03,840
+and and it's licensed as such so
+
+603
+00:22:03,840 --> 00:22:04,720
+um
+
+604
+00:22:04,720 --> 00:22:06,480
+yeah any any
+
+605
+00:22:06,480 --> 00:22:09,440
+anybody can fork it own it use it and
+
+606
+00:22:09,440 --> 00:22:11,600
+you know it's in some ways it's like a
+
+607
+00:22:11,600 --> 00:22:14,960
+new way of standardizing things right so
+
+608
+00:22:14,960 --> 00:22:16,240
+um
+
+609
+00:22:16,240 --> 00:22:18,159
+but code is a little more complex than
+
+610
+00:22:18,159 --> 00:22:20,960
+documents so
+
+611
+00:22:21,039 --> 00:22:23,679
+and uh if i'm a vendor and i would like
+
+612
+00:22:23,679 --> 00:22:25,039
+to contribute
+
+613
+00:22:25,039 --> 00:22:27,760
+an integration to my tool
+
+614
+00:22:27,760 --> 00:22:28,720
+um
+
+615
+00:22:28,720 --> 00:22:30,480
+is this
+
+616
+00:22:30,480 --> 00:22:33,919
+is this possible in an easy way and
+
+617
+00:22:33,919 --> 00:22:37,600
+is it still my code how does that work
+
+618
+00:22:37,600 --> 00:22:39,360
+sure no that's a really good question i
+
+619
+00:22:39,360 --> 00:22:42,799
+mean if if a vendor wanted to
+
+620
+00:22:42,799 --> 00:22:44,960
+integrate with openmd there's no
+
+621
+00:22:44,960 --> 00:22:47,200
+requirement that they contribute any of
+
+622
+00:22:47,200 --> 00:22:50,080
+that code um
+
+623
+00:22:50,080 --> 00:22:52,080
+they they would they could build a
+
+624
+00:22:52,080 --> 00:22:54,400
+completely commercial integration
+
+625
+00:22:54,400 --> 00:22:55,440
+um
+
+626
+00:22:55,440 --> 00:22:56,559
+and
+
+627
+00:22:56,559 --> 00:22:57,360
+yeah
+
+628
+00:22:57,360 --> 00:22:59,360
+and if they if that's how they choose to
+
+629
+00:22:59,360 --> 00:23:01,200
+do it that's how they choose to do it
+
+630
+00:23:01,200 --> 00:23:03,840
+they could open source
+
+631
+00:23:03,840 --> 00:23:05,679
+uh
+
+632
+00:23:05,679 --> 00:23:08,720
+the integration as well um and maintain
+
+633
+00:23:08,720 --> 00:23:10,400
+it through openmbe
+
+634
+00:23:10,400 --> 00:23:11,760
+um
+
+635
+00:23:11,760 --> 00:23:13,360
+yeah i think that's
+
+636
+00:23:13,360 --> 00:23:14,559
+that's
+
+637
+00:23:14,559 --> 00:23:16,320
+a pretty open
+
+638
+00:23:16,320 --> 00:23:17,120
+uh
+
+639
+00:23:17,120 --> 00:23:18,480
+situation
+
+640
+00:23:18,480 --> 00:23:21,120
+about how daso has done it is they took
+
+641
+00:23:21,120 --> 00:23:23,919
+portions of the openmb code integrated
+
+642
+00:23:23,919 --> 00:23:26,240
+it into their product and then they sell
+
+643
+00:23:26,240 --> 00:23:28,720
+that commercial product um
+
+644
+00:23:28,720 --> 00:23:30,640
+and i think that's fine i call this kind
+
+645
+00:23:30,640 --> 00:23:32,720
+of the technical morality case right i
+
+646
+00:23:32,720 --> 00:23:35,039
+think the openmb community is concerned
+
+647
+00:23:35,039 --> 00:23:37,200
+with the
+
+648
+00:23:37,200 --> 00:23:39,679
+technical correctness of
+
+649
+00:23:39,679 --> 00:23:41,440
+a model based engineering environment
+
+650
+00:23:41,440 --> 00:23:44,880
+and the code that supports it
+
+651
+00:23:44,880 --> 00:23:47,520
+so in that respect somebody who's
+
+652
+00:23:47,520 --> 00:23:49,840
+offering that as a service is i think
+
+653
+00:23:49,840 --> 00:23:51,679
+absolutely welcome to
+
+654
+00:23:51,679 --> 00:23:53,840
+commercialize that and take advantage of
+
+655
+00:23:53,840 --> 00:23:54,799
+that
+
+656
+00:23:54,799 --> 00:23:56,000
+like so many
+
+657
+00:23:56,000 --> 00:23:58,159
+organizations have with open source
+
+658
+00:23:58,159 --> 00:24:00,799
+software like ibm's recent acquisition
+
+659
+00:24:00,799 --> 00:24:03,600
+of red hat for example linux kernel
+
+660
+00:24:03,600 --> 00:24:06,159
+still open source so and now you have to
+
+661
+00:24:06,159 --> 00:24:07,919
+pay well i guess you always have to pay
+
+662
+00:24:07,919 --> 00:24:10,000
+for red hat at some level but yeah it
+
+663
+00:24:10,000 --> 00:24:11,200
+seems like it's getting a little tighter
+
+664
+00:24:11,200 --> 00:24:13,440
+now
+
+665
+00:24:13,520 --> 00:24:15,760
+no more centos the same way it used to
+
+666
+00:24:15,760 --> 00:24:18,000
+be so is there already a
+
+667
+00:24:18,000 --> 00:24:20,400
+full service provider for openmb a
+
+668
+00:24:20,400 --> 00:24:22,000
+professional one or do you think that
+
+669
+00:24:22,000 --> 00:24:24,080
+there will be some service providers in
+
+670
+00:24:24,080 --> 00:24:27,039
+the future where i can as a company just
+
+671
+00:24:27,039 --> 00:24:29,120
+buy it like i can buy teamwork cloud
+
+672
+00:24:29,120 --> 00:24:31,279
+server today
+
+673
+00:24:31,279 --> 00:24:33,279
+um i think
+
+674
+00:24:33,279 --> 00:24:35,840
+i i haven't seen anybody that's offering
+
+675
+00:24:35,840 --> 00:24:38,080
+that um
+
+676
+00:24:38,080 --> 00:24:42,400
+directly um i know of cases where
+
+677
+00:24:42,400 --> 00:24:44,640
+vendors or contractors have made such
+
+678
+00:24:44,640 --> 00:24:47,120
+arrangements with organizations
+
+679
+00:24:47,120 --> 00:24:48,799
+um
+
+680
+00:24:48,799 --> 00:24:51,520
+so but no there isn't like a
+
+681
+00:24:51,520 --> 00:24:54,400
+a commercial enterprise as yet that has
+
+682
+00:24:54,400 --> 00:24:55,520
+appeared
+
+683
+00:24:55,520 --> 00:24:59,360
+to provide openmb as a product
+
+684
+00:24:59,360 --> 00:25:00,720
+um
+
+685
+00:25:00,720 --> 00:25:02,400
+like you might like red hat or something
+
+686
+00:25:02,400 --> 00:25:03,440
+like that
+
+687
+00:25:03,440 --> 00:25:04,320
+um
+
+688
+00:25:04,320 --> 00:25:05,760
+but
+
+689
+00:25:05,760 --> 00:25:08,080
+hey i think i think actually sysiml 2
+
+690
+00:25:08,080 --> 00:25:10,480
+will will really push on that so the
+
+691
+00:25:10,480 --> 00:25:12,960
+the key the key feat the key future
+
+692
+00:25:12,960 --> 00:25:15,840
+features of the openmb software are
+
+693
+00:25:15,840 --> 00:25:19,200
+really aiming towards the system l2
+
+694
+00:25:19,200 --> 00:25:21,600
+world um
+
+695
+00:25:21,600 --> 00:25:24,799
+as well as kind of a unified graph world
+
+696
+00:25:24,799 --> 00:25:26,559
+too so if you look at the architecture
+
+697
+00:25:26,559 --> 00:25:28,240
+description that's published for mms
+
+698
+00:25:28,240 --> 00:25:30,480
+five
+
+699
+00:25:30,480 --> 00:25:33,360
+it really paints a clear path for how
+
+700
+00:25:33,360 --> 00:25:36,080
+the mms will support the system l2
+
+701
+00:25:36,080 --> 00:25:37,679
+service api
+
+702
+00:25:37,679 --> 00:25:39,679
+but also how it will be capable of
+
+703
+00:25:39,679 --> 00:25:41,279
+providing
+
+704
+00:25:41,279 --> 00:25:42,559
+support for
+
+705
+00:25:42,559 --> 00:25:43,360
+other
+
+706
+00:25:43,360 --> 00:25:48,640
+model based formats like graphql or oslc
+
+707
+00:25:48,640 --> 00:25:50,880
+or such like that
+
+708
+00:25:50,880 --> 00:25:53,360
+and and provide have the facilities
+
+709
+00:25:53,360 --> 00:25:55,360
+behind the scenes to have a scalable
+
+710
+00:25:55,360 --> 00:25:57,120
+unified graph
+
+711
+00:25:57,120 --> 00:25:59,279
+of information behind it so
+
+712
+00:25:59,279 --> 00:26:00,320
+um
+
+713
+00:26:00,320 --> 00:26:02,159
+i think i think that's where the future
+
+714
+00:26:02,159 --> 00:26:03,679
+is
+
+715
+00:26:03,679 --> 00:26:06,480
+is coming and it will
+
+716
+00:26:06,480 --> 00:26:07,679
+it'll be more and more of a
+
+717
+00:26:07,679 --> 00:26:10,640
+heterogeneous enterprise so
+
+718
+00:26:10,640 --> 00:26:13,200
+i do know that boeing certified their
+
+719
+00:26:13,200 --> 00:26:15,360
+their open their
+
+720
+00:26:15,360 --> 00:26:16,559
+uh
+
+721
+00:26:16,559 --> 00:26:19,039
+deployment of openmb to the dl178
+
+722
+00:26:19,039 --> 00:26:21,520
+standard so it is qualifiable in that
+
+723
+00:26:21,520 --> 00:26:24,520
+respect
+
+724
+00:26:26,640 --> 00:26:28,320
+and can you name some other projects or
+
+725
+00:26:28,320 --> 00:26:31,279
+companies that already use openmv you so
+
+726
+00:26:31,279 --> 00:26:33,760
+you mentioned boeing and i guess nasa
+
+727
+00:26:33,760 --> 00:26:35,120
+also uses
+
+728
+00:26:35,120 --> 00:26:36,320
+openmpe
+
+729
+00:26:36,320 --> 00:26:39,360
+but there are there other ones
+
+730
+00:26:39,360 --> 00:26:40,400
+um
+
+731
+00:26:40,400 --> 00:26:43,360
+yeah i think uh i think i think ford is
+
+732
+00:26:43,360 --> 00:26:45,360
+going to do their pre do a presentation
+
+733
+00:26:45,360 --> 00:26:46,960
+on it um
+
+734
+00:26:46,960 --> 00:26:48,960
+at the workshop so that'll be something
+
+735
+00:26:48,960 --> 00:26:51,360
+to see i know stevens has done a lot
+
+736
+00:26:51,360 --> 00:26:53,360
+with it in the research and educational
+
+737
+00:26:53,360 --> 00:26:56,159
+community as has georgetech
+
+738
+00:26:56,159 --> 00:26:59,279
+um and i think one of the videos on
+
+739
+00:26:59,279 --> 00:27:00,080
+uh
+
+740
+00:27:00,080 --> 00:27:01,360
+youtube
+
+741
+00:27:01,360 --> 00:27:02,960
+actually shows a piece part of the
+
+742
+00:27:02,960 --> 00:27:04,559
+presentation shows
+
+743
+00:27:04,559 --> 00:27:06,559
+so highlights some of the organizations
+
+744
+00:27:06,559 --> 00:27:08,000
+that use it and of course as we were
+
+745
+00:27:08,000 --> 00:27:10,799
+talking about earlier uh some parts of
+
+746
+00:27:10,799 --> 00:27:13,120
+the omg are starting to use it
+
+747
+00:27:13,120 --> 00:27:16,240
+the sysml2 spec
+
+748
+00:27:16,240 --> 00:27:17,279
+team
+
+749
+00:27:17,279 --> 00:27:19,279
+is actually using it to generate the
+
+750
+00:27:19,279 --> 00:27:22,640
+system l2 specification um using system
+
+751
+00:27:22,640 --> 00:27:24,799
+l one and two i guess
+
+752
+00:27:24,799 --> 00:27:25,600
+um
+
+753
+00:27:25,600 --> 00:27:26,880
+so it's uh
+
+754
+00:27:26,880 --> 00:27:28,240
+um
+
+755
+00:27:28,240 --> 00:27:30,880
+yeah there are there are others not
+
+756
+00:27:30,880 --> 00:27:33,360
+everybody that i know about has
+
+757
+00:27:33,360 --> 00:27:36,240
+explicitly authorized me to
+
+758
+00:27:36,240 --> 00:27:40,000
+tell that story for them so
+
+759
+00:27:40,799 --> 00:27:42,799
+in some cases they've explicitly asked
+
+760
+00:27:42,799 --> 00:27:45,520
+me not to um so
+
+761
+00:27:45,520 --> 00:27:47,600
+yeah
+
+762
+00:27:47,600 --> 00:27:50,559
+but the the that that video has has the
+
+763
+00:27:50,559 --> 00:27:51,919
+the list
+
+764
+00:27:51,919 --> 00:27:54,399
+uh okay robert put it together in his
+
+765
+00:27:54,399 --> 00:27:56,799
+methodical way so
+
+766
+00:27:56,799 --> 00:27:58,320
+um
+
+767
+00:27:58,320 --> 00:28:01,200
+yeah i guess we will provide the link in
+
+768
+00:28:01,200 --> 00:28:03,919
+the description of the video here
+
+769
+00:28:03,919 --> 00:28:06,960
+and people can look it up we also said
+
+770
+00:28:06,960 --> 00:28:08,240
+um
+
+771
+00:28:08,240 --> 00:28:09,679
+yeah that we will
+
+772
+00:28:09,679 --> 00:28:13,200
+oh we already have linked the openmbe
+
+773
+00:28:13,200 --> 00:28:15,600
+youtube channel from our channel you can
+
+774
+00:28:15,600 --> 00:28:17,120
+switch over
+
+775
+00:28:17,120 --> 00:28:21,279
+a lot of interesting stuff there
+
+776
+00:28:23,200 --> 00:28:25,520
+yeah yeah you can get a demo without
+
+777
+00:28:25,520 --> 00:28:28,080
+installing it
+
+778
+00:28:29,440 --> 00:28:32,080
+yeah it's good to see that but i think
+
+779
+00:28:32,080 --> 00:28:33,919
+what's also emerged
+
+780
+00:28:33,919 --> 00:28:38,000
+as the most novel feature of view editor
+
+781
+00:28:38,000 --> 00:28:41,360
+is this notion of transclusion so
+
+782
+00:28:41,360 --> 00:28:44,240
+the inventor of the hyperlink whose name
+
+783
+00:28:44,240 --> 00:28:46,080
+escapes me at the moment
+
+784
+00:28:46,080 --> 00:28:48,799
+also invented this this concept called
+
+785
+00:28:48,799 --> 00:28:50,559
+transclusion which is like a reverse
+
+786
+00:28:50,559 --> 00:28:52,240
+hyperlink
+
+787
+00:28:52,240 --> 00:28:54,559
+where you dereference the content behind
+
+788
+00:28:54,559 --> 00:28:56,840
+the link and display it in place
+
+789
+00:28:56,840 --> 00:29:00,080
+um so in terms of
+
+790
+00:29:00,080 --> 00:29:02,720
+software application novelty the heart
+
+791
+00:29:02,720 --> 00:29:05,679
+of view editor is this ability to
+
+792
+00:29:05,679 --> 00:29:08,240
+transclude or as we locally refer to it
+
+793
+00:29:08,240 --> 00:29:09,840
+as cross-reference
+
+794
+00:29:09,840 --> 00:29:11,840
+pieces of the model in the document to
+
+795
+00:29:11,840 --> 00:29:13,919
+make it communicatable so
+
+796
+00:29:13,919 --> 00:29:14,799
+um
+
+797
+00:29:14,799 --> 00:29:17,440
+and that that simple principle pervades
+
+798
+00:29:17,440 --> 00:29:21,440
+all aspects of the software so
+
+799
+00:29:22,080 --> 00:29:24,399
+yeah and you can also edit the model
+
+800
+00:29:24,399 --> 00:29:26,080
+through the view editor right so some
+
+801
+00:29:26,080 --> 00:29:27,919
+some elements
+
+802
+00:29:27,919 --> 00:29:29,279
+correct
+
+803
+00:29:29,279 --> 00:29:31,840
+correctly that's
+
+804
+00:29:31,840 --> 00:29:33,279
+that's that's part of that notion
+
+805
+00:29:33,279 --> 00:29:34,640
+actually that because it's
+
+806
+00:29:34,640 --> 00:29:36,080
+cross-referenced
+
+807
+00:29:36,080 --> 00:29:37,919
+when you go to edit it you're actually
+
+808
+00:29:37,919 --> 00:29:40,240
+editing with the actual model element
+
+809
+00:29:40,240 --> 00:29:42,320
+and the repository not
+
+810
+00:29:42,320 --> 00:29:45,120
+not a wiki page that talks about it and
+
+811
+00:29:45,120 --> 00:29:46,880
+lets it get out of sync and stuff like
+
+812
+00:29:46,880 --> 00:29:49,200
+that so when you when you edit it in one
+
+813
+00:29:49,200 --> 00:29:50,000
+view
+
+814
+00:29:50,000 --> 00:29:52,240
+those edits will show up in all your
+
+815
+00:29:52,240 --> 00:29:53,840
+documents because it's using this
+
+816
+00:29:53,840 --> 00:29:55,760
+transclusion feature to be referenced
+
+817
+00:29:55,760 --> 00:29:58,960
+the content from a central location
+
+818
+00:29:58,960 --> 00:30:00,080
+cool
+
+819
+00:30:00,080 --> 00:30:01,760
+pretty cool
+
+820
+00:30:01,760 --> 00:30:05,039
+so now i can store many different models
+
+821
+00:30:05,039 --> 00:30:07,039
+in in the mms there can be a system
+
+822
+00:30:07,039 --> 00:30:08,720
+model bpmn
+
+823
+00:30:08,720 --> 00:30:10,480
+modelica or whatever everything can be
+
+824
+00:30:10,480 --> 00:30:14,240
+in mms and are these models in mms all
+
+825
+00:30:14,240 --> 00:30:17,120
+mix up or can can jump from one model to
+
+826
+00:30:17,120 --> 00:30:18,320
+another or
+
+827
+00:30:18,320 --> 00:30:21,520
+are they still insiders in the mms
+
+828
+00:30:21,520 --> 00:30:23,440
+so it's a big question so the key to
+
+829
+00:30:23,440 --> 00:30:26,159
+this interpolability issue
+
+830
+00:30:26,159 --> 00:30:28,880
+right right no the so the organizational
+
+831
+00:30:28,880 --> 00:30:29,600
+uh
+
+832
+00:30:29,600 --> 00:30:32,640
+schema if you will of mms is similar to
+
+833
+00:30:32,640 --> 00:30:35,279
+github so we have uh an org and a
+
+834
+00:30:35,279 --> 00:30:37,279
+project and then within that project you
+
+835
+00:30:37,279 --> 00:30:38,960
+can have multiple models
+
+836
+00:30:38,960 --> 00:30:41,520
+uh each of the models are are version
+
+837
+00:30:41,520 --> 00:30:43,840
+controlled um
+
+838
+00:30:43,840 --> 00:30:45,520
+and the uh
+
+839
+00:30:45,520 --> 00:30:47,360
+and and you can branch and stuff like
+
+840
+00:30:47,360 --> 00:30:48,159
+that
+
+841
+00:30:48,159 --> 00:30:49,279
+um
+
+842
+00:30:49,279 --> 00:30:50,720
+in in
+
+843
+00:30:50,720 --> 00:30:53,679
+in mms4 it doesn't have the greatest
+
+844
+00:30:53,679 --> 00:30:55,600
+merge capability
+
+845
+00:30:55,600 --> 00:30:57,279
+largely because
+
+846
+00:30:57,279 --> 00:30:59,440
+um
+
+847
+00:30:59,440 --> 00:31:01,360
+in modeling like
+
+848
+00:31:01,360 --> 00:31:04,640
+the the notion of of diff and merge is a
+
+849
+00:31:04,640 --> 00:31:07,840
+lot more sophisticated than it is in uh
+
+850
+00:31:07,840 --> 00:31:09,679
+um
+
+851
+00:31:09,679 --> 00:31:12,399
+in software code yeah exactly and i
+
+852
+00:31:12,399 --> 00:31:14,080
+think that i think actually the libra
+
+853
+00:31:14,080 --> 00:31:15,279
+libra folks
+
+854
+00:31:15,279 --> 00:31:19,120
+have uh included mms now in there i
+
+855
+00:31:19,120 --> 00:31:20,080
+should have thought of that on your
+
+856
+00:31:20,080 --> 00:31:21,440
+earlier question i think they've
+
+857
+00:31:21,440 --> 00:31:23,440
+included mms now in their lemon tree
+
+858
+00:31:23,440 --> 00:31:24,399
+product
+
+859
+00:31:24,399 --> 00:31:25,760
+um
+
+860
+00:31:25,760 --> 00:31:27,840
+that that that so you can buy that
+
+861
+00:31:27,840 --> 00:31:30,000
+additional capability there but yeah all
+
+862
+00:31:30,000 --> 00:31:33,440
+the models will go in there it's it's a
+
+863
+00:31:33,440 --> 00:31:35,600
+it's got a lot of the basic get features
+
+864
+00:31:35,600 --> 00:31:37,679
+around being able to branch
+
+865
+00:31:37,679 --> 00:31:39,919
+um and it keeps version history and
+
+866
+00:31:39,919 --> 00:31:43,200
+stuff like that so um that's the basic
+
+867
+00:31:43,200 --> 00:31:45,919
+organizational ski schema the key
+
+868
+00:31:45,919 --> 00:31:49,440
+difference between mms4 and mms 5
+
+869
+00:31:49,440 --> 00:31:52,640
+is the semantics of the model
+
+870
+00:31:52,640 --> 00:31:55,760
+in mms4 would still need to be added if
+
+871
+00:31:55,760 --> 00:31:57,840
+you wanted the service to understand
+
+872
+00:31:57,840 --> 00:32:00,240
+them so the service right now stores the
+
+873
+00:32:00,240 --> 00:32:02,399
+model but it doesn't really know about
+
+874
+00:32:02,399 --> 00:32:04,720
+the meaning of the model so like magic
+
+875
+00:32:04,720 --> 00:32:07,600
+drop for example extracts it but we rely
+
+876
+00:32:07,600 --> 00:32:09,600
+on the magic drop client to understand
+
+877
+00:32:09,600 --> 00:32:11,440
+it um
+
+878
+00:32:11,440 --> 00:32:13,600
+so and if you're working like python or
+
+879
+00:32:13,600 --> 00:32:15,120
+something like that then similarly you'd
+
+880
+00:32:15,120 --> 00:32:18,240
+have that situation an mms5 however with
+
+881
+00:32:18,240 --> 00:32:20,720
+the introduction of the graph database
+
+882
+00:32:20,720 --> 00:32:24,159
+uh you'll have those semantics stored in
+
+883
+00:32:24,159 --> 00:32:27,039
+the graph as part of what the model is
+
+884
+00:32:27,039 --> 00:32:29,600
+um so
+
+885
+00:32:29,600 --> 00:32:32,320
+that's the key distinction there
+
+886
+00:32:32,320 --> 00:32:34,720
+yeah and a very challenging technical
+
+887
+00:32:34,720 --> 00:32:35,919
+uh
+
+888
+00:32:35,919 --> 00:32:38,240
+activity
+
+889
+00:32:38,240 --> 00:32:39,120
+yes
+
+890
+00:32:39,120 --> 00:32:41,120
+sounds promising now
+
+891
+00:32:41,120 --> 00:32:42,880
+so i think we
+
+892
+00:32:42,880 --> 00:32:45,279
+will keep up with this topic and i guess
+
+893
+00:32:45,279 --> 00:32:47,919
+this would not be the last episode about
+
+894
+00:32:47,919 --> 00:32:50,080
+it
+
+895
+00:32:51,360 --> 00:32:55,440
+yeah chris uh then i would say
+
+896
+00:32:55,440 --> 00:32:57,360
+thank you very much for all the
+
+897
+00:32:57,360 --> 00:32:59,279
+information um
+
+898
+00:32:59,279 --> 00:33:01,440
+it was a pleasure uh having you on the
+
+899
+00:33:01,440 --> 00:33:02,799
+show
+
+900
+00:33:02,799 --> 00:33:06,320
+um tim what's our next topic
+
+901
+00:33:06,320 --> 00:33:08,799
+uh the next topic is model based product
+
+902
+00:33:08,799 --> 00:33:11,840
+line engineering and our guest will be
+
+903
+00:33:11,840 --> 00:33:14,799
+marco valengiri from airbus
+
+904
+00:33:14,799 --> 00:33:16,000
+and
+
+905
+00:33:16,000 --> 00:33:19,200
+that's scheduled for february the 7th
+
+906
+00:33:19,200 --> 00:33:20,480
+this monday
+
+907
+00:33:20,480 --> 00:33:23,120
+and same time
+
+908
+00:33:23,120 --> 00:33:25,600
+cool
+
+909
+00:33:25,600 --> 00:33:27,840
+yeah so
+
+910
+00:33:27,840 --> 00:33:29,039
+go ahead
+
+911
+00:33:29,039 --> 00:33:31,600
+yeah i i just wanted to remind uh all
+
+912
+00:33:31,600 --> 00:33:34,080
+our listeners who did not subscribe to
+
+913
+00:33:34,080 --> 00:33:36,840
+the youtube channel yet to do so chris
+
+914
+00:33:36,840 --> 00:33:40,240
+did uh some some weeks ago i saw
+
+915
+00:33:40,240 --> 00:33:44,080
+and yeah so you don't miss any other
+
+916
+00:33:44,080 --> 00:33:46,640
+episode
+
+917
+00:33:46,640 --> 00:33:48,640
+okay and so finally
+
+918
+00:33:48,640 --> 00:33:51,039
+our last words do not forget
+
+919
+00:33:51,039 --> 00:33:52,399
+trust us
+
+920
+00:33:52,399 --> 00:33:54,559
+we are systems engineers
+
+921
+00:33:54,559 --> 00:33:57,120
+okay bye-bye
+
+922
+00:33:57,120 --> 00:34:00,519
+bye chris
+
